@@ -1,2 +1,17 @@
 /src/*.o
 /src/smaug
+/src/nohup.out
+/boards
+/building
+/channels
+/clans
+/classes
+/councils
+/deity
+/gods
+/guilds
+/imc
+/log
+/player
+/races
+/system
