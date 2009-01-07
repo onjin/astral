@@ -1,0 +1,2451 @@
+#AREA   Chapel Catacombs~
+
+
+
+#VERSION 2
+#AUTHOR Copper~
+
+#RANGES
+15 25 0 60
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 29992320
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#3400
+kosciotrup~
+kosciotrup~
+kosciotrupa~
+kosciotrupowi~
+kosciotrupa~
+kosciotrupem~
+kosciotrupie~
+kosciotrupie~
+W Twoim kierunku podaza calkowicie pozbawiony miesa kosciotrup.
+~
+Masz przed soba szkielet jakiegos nieszczesnika. Na brazowych kosciach nie
+ma sladow po ciele, mimo ze ostaly sie jakies czesci ubran. Szkieletor
+wyglada na dosc glupie i slabe stworzenie ale nadal moze stanowic jakies
+zagrozenie.
+~
+33 0 0 C
+1 20 9 1d1+19 1d6+0
+5 100
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 1
+0 0 0 0 0 0 64 524291
+#3401
+niemartwy zombi~
+zombi~
+zombiego~
+zombiemu~
+zombiego~
+zombim~
+zombim~
+zombi~
+Jeden z nieumarlych pozera... cos.
+~
+Cialo stwora pokryte jest biala skora w daleko posunietym stanie rozkladu.
+Smrod unoszacy sie od niego jest prawie nie do zniesienia. Nie zamierzasz
+przygladac sie temu czym sie pozywia... Rysy stwora przypominaja troche
+ludzkie... hmm czyzby to Twoj dawny towarzysz broni ?!?
+~
+35 40 -100 C
+4 17 6 1d1+49 1d8+0
+0 600
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 390521 390521 1
+0 0 1231 0 0 0 64 2
+#3402
+niemartwy ghul~
+ghul~
+ghula~
+ghulowi~
+ghula~
+ghulem~
+ghulu~
+ghulu~
+Ghul wpatruje sie w Ciebie z glodem w oczach.
+~
+Stan rozkladu ciala ghula nie pozwala Ci rozpoznac rysow podroznika ktorym
+niegdys byl. Mimo to wyglada, ze nie zapomnial jak sie walczy zas zapach
+Twojej krwi zdaje sie pobudzac go do ataku!
+~
+33 8 -500 C
+6 15 4 1d1+79 2d5+1
+0 1500
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+#3403
+widmo duch~
+widmo~
+widma~
+widmu~
+widmo~
+widmem~
+widmie~
+widmo~
+Z trudem dostrzegasz zblizajace sie do Ciebie widmo...
+~
+Duch jak duch nie posiada juz materialnego ciala. Jego postac skryta jest w
+czarnej szacie. W miejscu gdzie powinna znajdowac sie twarz widzisz jedynie
+czarna dziure i dwa czerwone ogniki zamiast oczu... lepiej uciekaj!
+~
+35 42 -750 C
+12 9 2 1d1+149 3d6+0
+0 13000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 1
+0 0 0 0 0 0 1073741824 524291
+#3404
+wampir roch'tar~
+Roch'tar~
+Roch'tara~
+Roch'tarowi~
+Roch'tara~
+Roch'tarem~
+Roch'tarze~
+Roch'tarze~
+Roch'tar - wladca katakumb czeka na kolejna ofiare.
+~
+Przed Toba znajduje sie istota, o ktorej dowiedziales sie zwiedzajac
+korytarze i katakumby. Najwyrazniej przebywanie w podziemiach nie sluzy
+zbytnio wampirowi gdyz jego cera nabrala kredowobialej barwy... choc byc
+moze powodem jest brak krwi. Jego wyglad jest co najmniej przerazajacy.
+Wlosy na Twoim ciele podnosza sie mimowolnie w obecnosci tego przedstawiciela
+najstarszego Zla. Widzisz jak waskim jezykiem oblizuje wargi, najwidoczniej
+od dawna nie zasmakowal w swiezej, ludzkiej krwi. Mimo, ze jest sam i mruzy
+oczy razone blaskiem Twojego swiatla to jednak zdaje sie byc godnym i 
+poteznym przeciwnikiem... przeciwnikiem, z ktorym nie wygrali wszyscy
+starozytni krolowie...
+~
+35 40 -1000 C
+25 0 -4 1d1+385 4d5+15
+0 105000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 0
+0 0 1735 0 0 0 33558528 0
+> hitprcnt_prog 30~
+mpechoat $n Po przyjeciu kolejnego poteznego ciosu Roch'tar odskakuje od Ciebie. Zanim
+mpechoat $n zdazysz doskoczyc aby go zabic dobic sie w czarna mgielke i znika bez sladu
+mpechoat $n pozostawiajac po sobie jedynie walajace sie po ziemi przedmioty.
+mpechoaround $n Widzisz jak po kolejnym uderzeniu $n Roch'tar odskakuje od swojego
+mpechoaround $n przeciwnika. Zanim $n zdaza zadac ostateczny cios wampir rozplywa sie
+mpechoaround $n w powietrzu zas przedmioty, ktore posiadal upadaja z brzekiem na ziemie.
+mpgoto 1
+rem all
+mpat $n drop all
+~
+|
+#3405
+ksiadz~
+ksiadz~
+ksiedza~
+ksiedzu~
+ksiedza~
+ksiedzem~
+ksiedzu~
+ksiadz~
+Ksiadz modli sie w ciszy do swojego Boga.
+~
+Juz po pierwszym spojrzeniu na tego mezczyzne zdajesz sobie sprawe, ze musi
+on byc wyjatkowo poboznym czlowiekiem. Przenika Cie obecnosc Boga mimo, ze
+tylko przygladasz sie odprawiajacemu modly ksiedzu. Mezczyzna ubrany jest w
+biale szaty idealnie pasujace do jego siwych wlosow i pomarszczonej twarzy.
+Kiedy przygladasz mu sie chwile dluzej zauwazasz delikatna swiatlo
+otaczajace jego glowe... 
+~
+2051 168 1000 C
+15 5 -5 15d15+150 1d4+8
+2000 20000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1775 0 0 0 0 2
+#3406
+Mi-Go grzyb~
+Mi-Go~
+Mi-Go~
+Mi-Go~
+Mi-Go~
+Mi-Go~
+Mi-Go~
+Mi-Go~
+Widzisz pelznacego w Twoim kierunku Mi-Go...
+~
+Mi-Go, grzybopodobna istota pochodzaca z Yuggoth... slyszales legendy o tych
+krwiozerczych stworach a teraz masz okazje przyjrzec sie jednemu z bliska.
+Mi-Go ma okolo pieciu stop dlugosci, cialo pokryte jakiegos rodzaju skorupa
+lub pancerzem. Z plecow wyrasta mu para bloniastych skrzydel i kilka par 
+odnozy. Cale cialo ma ksztalt elipsoidy. W miejscu w ktorym powinna byc glowa
+znajduja sie jakies ruchliwe wypustki. Z tego co zauwazyles stwor zdaje sie
+na przemian pelznac badz poruszac na swoich odnozach.
+~
+33 0 -500 C
+12 9 2 12d12+120 2d7+2
+0 10000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+#3407
+koszmar~
+koszmar~
+koszmaru~
+koszmarowi~
+koszmar~
+koszmarem~
+koszmarze~
+koszmarze~
+Masz przed soba stwora rodem z najgorszych koszmarow.
+~
+... szokujacy i przerazajacy stwor z gladka, oleista skora, wyrastajacymi w
+glowy kretymi rogami i para bloniastych skrzydel nie wydajacych zadnego
+dzwieku w miare poruszania sie. Chwytne lapy zakonczone ostrymi jak brzytwa
+pazurami i drgajacy nerwowo dlugi ogon mowia Ci, ze stwor nie bedzie latwym
+przeciwnikiem. Jednak najgorsza jest niczym nie przerywana cisza kiedy
+koszmar mierzy Cie wzrokiem. Po chwili stwor podejmuje jakas decyzje gdyz
+rusza zdecydowanie w Twoim kierunku ...
+~
+97 98304 -1000 C
+10 11 1 10d10+100 2d6+3
+150 4050
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 0
+0 0 1775 0 0 0 0 0
+#3408
+horror~
+horror~
+horroru~
+horrorowi~
+horror~
+horrorem~
+horrorze~
+horrorze~
+W Twoim kierunku zbliza sie horror polujacy na podroznych.
+~
+Horrory to istoty sprowadzajace ofiary Nyarlathotepowi. Wygladem przypominaja
+ogromne, czarne weze lub robaki wyposazone w skorzaste skrzydla. Trudno Ci
+cos wiecej powiedziec na ich temat poniewaz ich ksztalty zmieniaja sie co
+chwila. Najwidoczniej chaos, ktoremu sluza wywoluje te blyskawiczne mutacje.
+Horror zdaje sie cos mowic w jakims dziwnym jezyku sprawiajacym, ze 
+przechodza Cie ciarki. Z trudem udaje Ci sie okreslic wielkosc stwora...
+wyglada na to, ze ma ponad 15 metrow dlugosci...
+~
+33 40 -1000 C
+20 1 -5 20d20+200 3d6+12
+0 60000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 3 0 0 1 1 1
+0 0 0 0 0 0 1073741824 2
+#3409
+pnacza~
+pnacza~
+pnacza~
+pnaczom~
+pnacza~
+pnaczami~
+pnaczach~
+pnacza~
+Po ziemi pelzna jakies placza...
+~
+Masz przed soba kupe pelznacych pnaczy... nie wygladaja zbyt groznie.
+~
+37 98312 0 C
+6 15 4 1d1+75 1d8+1
+0 1500
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+#3410
+kosciej~
+kosciej~
+koscieja~
+kosciejowi~
+koscieja~
+kosciejem~
+koscieju~
+koscieju~
+Kosciej spoglada na Ciebie swoimi przerazajacymi oczami.
+~
+Co za ohydny typ! Ma duzo ponad dwa metry wzrostu, zielona skore i czerwone
+wlosy. Polowa jego twarzy jest spalona zas na drugiej widnieje wieczny
+usmiech. Jego zadaniem jest pomoc Niemierajacemu. Pomimo przerazajacego
+wygladu najwieksze wrazenie sprawiaja na Tobie jego oczy... dwie czarne
+dziury, z ktorych wieje arktycznym chlodem...
+~
+3 8 -750 C
+20 0 -1 1d1+365 4d3+15
+10 40000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1775 0 0 0 1 2
+#3411
+pozeracz cial~
+pozeracz cial~
+pozeracza cial~
+pozeraczowi cial~
+pozeracza cial~
+pozeraczem cial~
+pozeraczu cial~
+pozeraczu cial~
+Pozeracz cial pozywia sie resztkami pochodzacymi z jakiejs trumny.
+~
+Potezna, pokryta gestym futrem bestia jest pierwsza ZYWA istota, ktora
+spotkales na dole. Na pierwszy rzut oka stwor zdaje sie mierzyc ponad 2.5
+metra wysokosci. Prawdopodobnie ma wiecej gdyz aby zmiescic sie w tym pokoju
+musi sie lekko przygarbic. Jego lapy zakonczone sa ogromnymi, ostrymi
+pazurami uzywanymi do rozdzierania cial. Jego twarz przypomina pysk psa ale
+rozni sie kilkoma szczegolami. Plonace podnieceniem oczy i odsloniete kly
+mowia Ci, ze stwor wiedzial, ze nadchodzisz...
+~
+35 8 -1000 C
+17 4 1 1d1+215 4d2+7
+0 28000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 1
+0 0 0 0 0 0 1 2
+#3412
+duch krol crotus~
+duch krola Crotusa~
+ducha krola Crotusa~
+duchowi krola Crotusa~
+ducha krola Crotusa~
+duchem krola Crotusa~
+duchu krola Crotusa~
+duchu krola Crotusa~
+Duch krola Crotusa unosi sie leniwie nad podloga.
+~
+Jest to duch mezczyzny w srednim wieku i pelnej zbroi. Po ozdobach na
+pancerzu domyslasz sie, ze jest to duch krola Crotusa - jednego z 
+najwiekszych wojownikow walczacych po stronie Swiatla. Duch zdaje sie nie
+zwracac na Ciebie uwagi, unosi sie w powietrzu szepcac:
+
+    Sily Ciemnosci zamknely tu mojego ducha tak jak
+    i duchy innych bohaterow. Zamknieta dla mnie droga
+    do Swiatla. Duch moj skazany na meczarnie jest.
+    Uwolnij mnie od tego cierpienia przyjacielu.
+    Cisza i spokoj grobu wolaja mnie lecz nie moge
+    jeszcze udac sie na spoczynek...
+    Czy to nagroda za moja wierna sluzbe Swiatlu ?
+
+Kiedy pytanie Crotusa zawisa w powietrzu zaczynasz zastanawiac sie czy Twoje
+dotychczasowe zycie mialo sens... Byc moze znajdziesz odpowiedz uwalniajac
+ducha krola ? 
+~
+1073741827 40 350 C
+20 0 -1 1d1+260 4d6+5
+1000 40000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 2
+0 0 1735 0 0 0 1107296256 524291
+#3413
+skalny slimak~
+skalny slimak~
+skalnego slimaka~
+skalnemu slimakowi~
+skalnego slimaka~
+skalnym slimakiem~
+skalnym slimaku~
+skalny slimaku~
+Skalny slimak pelznie powoli po scianie.
+~
+Patrzysz na wielkiego, pokrytego oblesnym sluzem, brazowego slimaka.
+Masz moze troche sera? Tak myslalem...
+~
+5 0 0 C
+3 18 7 1d1+42 1d7+0
+5 350
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+#3414
+szalony malarz~
+szalony malarz~
+szalonego malarza~
+szalonemu malarzowi~
+szalonego malarza~
+szalonym malarzem~
+szalonym malarzu~
+szalony malarzu~
+Szalony malarz mruczy cos pod nosem malujac jednoczesnie na scianie.
+~
+Zupelnie zwariowany malarz przebywa tu juz od dwoch dekad. Jego wlosy
+zdazyly posiwiec ze starosci i od braku swiatla. Maluje ciagle na scianie
+nie przerywajac mruczec do siebie. Jego ubranie pokryte kurzem ubranie
+wyszlo z mody ladnych pare lat temu... oprocz tego, ze jest slepy to nie ma
+w nim nic nadzwyczajnego...
+
+Spoglada na Ciebie swoimi szalonymi, slepymi oczami i mowi 'witajcie dziecko,
+co moge dla Ciebie zrobic? Prosze nie przejmujcie sie moja zona, ona zawsze
+jest troche cicha... mozesz zrobic dla nas troche herbaty kochanie?
+Wspaniale! A teraz moze usiadzesz przybyszu? Jakiej herbaty sie napijesz?
+Zimna czy ciepla ? Taaak, pogoda ostatnimi czasy jest...'
+
+I dalej prowadzi ten bezsensowny monolog...
+~
+65 1 1000 C
+5 5 3 1d1+80 2d6+1
+0 900
+108 108 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1703 0 0 0 16 524290
+#3415
+zona duch~
+duch zony malarza~
+ducha zony malarza~
+duchowi zony malarza~
+ducha zony malarza~
+duchem zony malarza~
+duchu zony malarza~
+duchu zony malarza~
+Duch zony malarza unosi sie spokojnie w powietrzu.
+~
+Ledwo udaje Ci sie zobaczyc jej kontury... jednak juz to co widzisz wystarczy
+aby wywolac u Ciebie wymioty. Najwyrazniej duch przybral postac jaka miala
+zona malarza w chwili smierci. Kobiecie brakuje polowy glowy. Pozostala
+polowa jest strzaskana jak w wyniku okropnego upadku. Jej jedyne oko zwisa
+posepnie na nerwach. Usmiecha sie do Ciebie szalenczo wykrzywiajac polamana
+szczeke i ukazujac polamane zeby. Oprocz odrazy czujesz tez zal gdyz z tego
+co zaobserwowales zona malarza musiala byc piekna kobieta. Teraz unosi sie
+tylko w powietrzu i trzyma reke na ramieniu malarza... jej meza.
+~
+3 65536 1000 C
+7 14 4 1d1+86 2d4+3
+15 2250
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1765 0 0 0 64 524291
+#3416
+cialo~
+rozkladajace sie cialo~
+rozkladajacego sie ciala~
+rozkladajacemu sie cialu~
+rozkladajace sie cialo~
+rozkladajacym sie cialem~
+rozkladajacym sie ciele~
+rozkladajace sie cialo~
+Na ziemi lezy cialo w ostatecznej fazie rozkladu.
+~
+Smrod bijacy od tego ciala jest obezwladniajacy. Jego widok tez nie jest
+przyjemny... pokryta ropa i plesnia skora, nagie miesnie i kosci, zerujace
+na padlinie robaki... 
+Kiedy tak przygladasz sie cialu zauwazasz, ze cos chyba jest nie tak... albo
+masz zwidy albo ono sie porusza!
+~
+37 0 -350 C
+6 15 4 1d1+80 2d5+1
+0 1500
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 1
+0 0 1775 0 0 0 1 0
+#0
+
+
+#OBJECTS
+#3400
+lichtarz~
+lichtarz~
+Stoi tu olowiany lichtarz.~
+~
+1 0 16385
+0 0 24 0
+5 150 15
+E
+lichtarz~
+Jest to dosc stary, trojramienny lichtarz wykonany z olowiu. Umieszczone na
+nim swieczki sa bialo-zolte.
+~
+#3402
+macki~
+macki koszmaru~
+Po ziemi bezladnie wija sie macki koszmaru...~
+~
+5 128 8193
+0 3 4 5
+8 5000 500
+E
+macki~
+Masz przed soba wijace sie macki nocnego koszmaru, ktore jakims sposobem 
+zdaja sie zyc nadal po jego smierci. Na ich koncach znajduja sie otwory
+gebowe zakonczone ostrymi jak igly zabkami, dzieki czemu moga stanowic
+calkiem skuteczna bron.
+~
+A
+18 1
+A
+19 2
+#3410
+pret klucz~
+dziwny pret~
+Pret o dziwnych ksztaltach lezy na ziemi.~
+~
+18 0 1
+0 0 0 0
+5 0 0
+E
+pret klucz~
+Bylby to calkiem zwykly pret gdyby nie jego dziwny, oktagonalny ksztalt.
+Kiedy przygladasz mu sie chwile dluzej dociera do Ciebie, ze juz gdzies
+widziales podobny ksztalt... O ile sobie przypominasz to podobnie wygladala
+dziurka od klucza przy wejsciu do grobowcow. Czyzby to byl klucz ?
+~
+#3411
+duzy czarny klucz~
+duzy czarny klucz~
+Na ziemi lezy duzy, czarny klucz.~
+~
+18 0 1
+0 0 0 0
+3 0 0
+E
+duzy czarny klucz~
+Jest to klucz pasujacy do bardzo starych zamkow... mimo, ze jego rozmiar,
+kolor i stan odbiegaja troche od normy... hmm... wyglada jakby byl przez
+jakis czas pogrzebany...
+~
+#3412
+glowa jubala~
+zmumifikowana glowa~
+Zmumifikowana glowa Jubala Zyczliwego toczy sie w Twoim kierunku.~
+~
+15 1024 1
+3 5 -1 0
+20 0 0
+E
+glowa jubala~
+BLE! Wyglada na to, ze jakias istota przeciela czyms ostrym czaszke a
+nastepnie wyzarla z niej wszystko co csie dalo... z fascynacja przygladasz
+sie pustej czaszce i zauwazasz, ze mozna ja teraz otwierac i zamykac...
+szatanski pomysl kielkuje w Twojej glowie...
+~
+#3413
+czarny marmurowy pierscien~
+czarny marmurowy pierscien~
+Czarny marmurowy pierscien toczy sie po ziemi.~
+~
+8 1088 3
+0 0 0 0
+2 4000 400
+E
+czarny marmurowy pierscien~
+Pierscien jest caly czarny z wyjatkiem bialych zylek charakterystycznych dla
+marmuru. Wyjatkowo piekna ozdoba.
+~
+A
+14 10
+A
+24 1
+#3414
+rapier~
+cienki rapier~
+Cienki rapier drga wbity w ziemie.~
+~
+5 2 8193
+0 4 2 11
+4 1000 100
+E
+cienki rapier~
+Pobiezny rzut oka mowi Ci, ze rapier jest zbyt cienki by mozna nim walczyc.
+Jednak Twoje przeczucia mowia, ze moze sie jeszcze okazac smiertelna bronia.
+~
+A
+2 2
+A
+18 1
+#3415
+sarkofag trumna~
+kamienny sarkofag~
+Potezny kamienny sarkofag zajmuje duza czesc pomieszczenia.~
+~
+15 0 0
+400 15 3416 0
+2000 0 0
+E
+sarkofag trumna~
+Sarkofag wykonany jest z jakiegos nieznanego Ci kamienia. Jego sciany
+pokryte sa dziwnymi runami i scenami przedstawiajacymi sceny z zycia
+spoczywajacej w nim osoby. Wyglada na to, ze moze byc otwierany i zamykany
+ale potrzeba do tego klucza.
+~
+#3416
+metalowy klucz~
+ciezki metalowy klucz~
+Na ziemi lezy ciezki metalowy klucz.~
+~
+18 0 1
+0 0 0 0
+4 0 0
+E
+metalowy klucz~
+Wyglada jak ciezki metalowy klucz...
+~
+#3417
+buklak wino~
+buklak wina~
+Ktos zostawil tu buklak z winem.~
+~
+17 0 16385
+4 4 2 0
+5 80 8
+E
+buklak wino~
+Buklak z winem, ktory jakims cudem przetrwal stulecia w trumnie. Jezeli
+sie nie mylisz to wino powinno doskonale nadawac sie do picia...
+~
+#3418
+monety~
+odrobina monet~
+Widzisz kupke monet bedaca odprwa dla zmarlego krola.~
+~
+20 0 1
+10000 0 0 0
+50 10000 1000
+#3419
+klucz~
+klucz do trumny~
+Klucz sluzacy do otwierania trumny lezy na ziemi.~
+~
+18 1 1
+0 0 0 0
+3 0 0
+E
+klucz~
+Przygladasz sie blizej kluczowi... jest on w pomaranczowym kolorze i lekko
+parzy Ci dlon.
+~
+#3420
+rathcor sejf~
+ukryta przegrodka~
+~
+~
+15 4 0
+10 5 -1 0
+1000 0 0
+E
+rathcor sejf~
+Ah HA!  Ukryta przegrodka! Ciekawe co moze byc w srodku...
+~
+#3421
+zardzewialy scimitar~
+zardzewialy scimitar~
+Na ziemi lezy zardzewialy scimitar.~
+~
+5 0 8193
+0 2 3 3
+6 500 50
+E
+zardzewialy scimitar~
+Scimitar jest zardzewialy i bardzo stary... ma dosc szerokie ostrze, z
+ktorego przy najlzejszym poruszeniu odpadaja kawalki rdzy.
+~
+#3422
+sluz~
+kawalek sluzu~
+Lekko gubisz krok kiedy nastepujesz na kawalek jakiegos sluzu...~
+~
+19 0 1
+15 0 0 0
+1 15 1
+E
+kawalek sluz~
+BLE! Patrzysz na ohydnie pachnacy, brazowy sluz...
+~
+#3423
+koszula~
+koszula~
+Po ziemi poniewiera sie jakas koszula.~
+~
+9 0 9 8
+0 0 0 0
+7 100 10
+E
+koszula~
+Sadzac po licznych sladach farby, ta czesc garderoby musiala nalezec do
+jakiegos malarza. Jest bardzo stara i przesiaknieta zapachem potu, farby i
+zgnilizny.
+~
+A
+9 -3
+#3424
+pergamin ~
+pergamin zwoj~
+Na ziemi lezy ciasno zwiniety, zolty pergamin.~
+~
+2 64 16385
+20 -1 78 111
+5 5000 500
+'colour spray' 'flamestrike' 'magic missile'
+E
+pergamin zwoj~
+Pergamin jest ciasno zwiniety. Kiedy go delikatnie rozwijasz Twoim oczom
+ukazuja sie jakies ruby ale nie umiesz ich odczytac. Zwoj zapieczetowany byl
+pieczecia o ponizszym ksztalcie:
+
+    88
+    88
+8888  8888
+    88
+    88
+
+~
+#3425
+berlo~
+berlo~
+Wielokolorowe berlo momentalnie przykuwa Twoja uwage.~
+~
+4 66 16385
+10 2 2 -1
+10 15000 1500
+'charm person'
+E
+berlo~
+berlo wykonane jest z krysztalu, w ktorym uwiezione zostaly 
+wirujace kolory. Jeden rzut oka wystarczy, 
+abys momentalnie zagubil sie w ich tancu.
+~
+#3426
+sztabka zloto~
+sztabka zlota~
+Na ziemi lezy... sztabka zlota!~
+~
+8 0 1
+0 0 0 0
+30 5000 500
+E
+sztabka zlota~
+Masz przed soba prawdziwy skarb! Dzieki tej sztabce bedziesz mogl zakupic
+ekwipunek potrzebny na nastepna wyprawe lub wydac pieniadze na bardziej
+przyziemne rozrywki. Sadzac po zgromadzonym na zlocie kurzu sztabka musi byc
+bardzo stara. W trakcie ogledzin zauwazasz, ze ma wyryta na powierzchni
+litere 'J'
+~
+#3427
+czarny plaszcz~
+czarny plaszcz~
+Czarny, pochlaniajacy swiatlo plaszcz lezy na ziemi.~
+~
+9 68 1025 16
+5 0 0 0
+10 45000 4500
+E
+czarny plaszcz~
+Plaszcz zdaje sie unosic w powietrzu i pochlaniac swiatlo dzieki czemu jest
+idealnie czarny. Niewatliwie jest to dzielo mistrza.
+~
+A
+17 -10
+A
+19 2
+#3428
+miecz~
+czarny miecz~
+Lezy tu wspanialy czarny miecz pochlaniajacy swiatlo.~
+~
+5 64 8193
+0 3 6 3
+5 45000 4500
+E
+czarny miecz~
+Ta bron jest zdumiewajaca! Doskonale dopasowuje sie do dloni i prawie nic
+nie wazy. Czarne ostrze pochlaniajace swiatlo na pewno zrobi wrazenie na
+Twoich przeciwnikach. W momencie kiedy wykonujesz pare figur z mieczem
+plomienie na jego ostrzu zaczynaja swiecic jasniej... wspaniale znalezisko!
+~
+A
+12 25
+A
+13 25
+A
+19 5
+A
+18 5
+> use_prog 100~
+mpechoaround $n Kiedy $n chwyta za miecz jego ostrze otacza sie plomieniami!
+mpechoat $n Kiedy chwytasz za miecz jego ostrze otacza sie plomieniami!
+~
+|
+#3429
+napiersnik~
+stary napiersnik~
+Na ziemi lezy stary i powyginany napiersnik.~
+~
+9 0 9 24
+6 0 0 0
+50 20000 2000
+E
+napiersnik~
+Mimo, ze napiersnik jest stary i powginany nadal wyglada calkiem przydatnie.
+~
+#3430
+srebrny klucz~
+srebrny klucz~
+Widzisz tu klucz wykonany ze srebra.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+E
+srebrny klucz~
+Nie wiesz do czego moze pasowac... moze oltarz ?
+~
+#0
+
+
+#ROOMS
+#3405
+W kaplicy~
+Stoisz w niewielkiej, slabo oswietlonej kaplicy. Ciemnobrazowe, grube szyby
+nie wpuszczaja do srodka zbyt duzo swiatla. Oprocz oltarza i kilku rzedow
+law nie ma tu nic ciekawego.
+~
+0 0 1
+D0
+Widzisz broniace wejscia do kaplicy drzwi wykonane z ciemnego drewna.
+~
+drzwi~
+7 -1 3604
+D5
+~
+oltarz~
+39 3430 3421
+E
+szyby okno okna~
+Kolor szyby w oknach musial zostac wybrany celowo, ale zagadka pozostaje w
+jakim celu to uczyniono. Przynajmniej sa czyste.
+~
+E
+lawy lawki~
+Masz przed soba kilka rzedow twardych drewnianych law. Nic specjalnego.
+~
+S
+#3406
+Unoszac sie w pustce~
+~
+0 1073741828 1
+S
+#3407
+Unoszac sie w pustce~
+~
+0 1073741828 1
+S
+#3408
+Zejscie w ciemnosci~
+Znajdujesz sie w pomieszczeniu, w ktorym panuja nieprzeniknione ciemnosci.
+Ciemnosc zdaje sie drwic ze swiatla, ktore niesiesz ze soba. Mimo, ze nic
+nie widzisz to jednak przeczucie mowi Ci, ze na dole znajduje sie cos
+przerazajacego...
+~
+0 9 0
+D3
+~
+drzwi~
+7 3411 3449
+D5
+~
+~
+0 0 3450
+S
+#3409
+Sypialnia akolitow~
+Po wejsciu do tego pomieszczenia od razu domyslasz sie dlaczego nie zostales
+przywitany przez akolitow przy wejsciu do grobowcow. Cala sypialnia pokrytwa
+jest zakrzepnieta krwia i wnetrznosciami! Widzisz martwe, wykrzywione
+przerazeniem twarze akolitow. Wlasnie zabierasz sie do ogladania sladow
+zostawionych na cialach aby zobaczyc co moglo ich zabic, kiedy do Twych uszu
+dobiega cichy odglos. O nie! Ktos zamknal za Toba drzwi! To pulapka!!!
+~
+0 13 0
+E
+cialo ciala akolita akolici~
+Ciala sa straszliwie okaleczone. Juz na pierwszy rzut oka widac, ze akolici
+zgineli w straszliwych mekach... Ich brzuchy i gardla sa porozrywane zas
+na innych czesciach ciala widac slady poteznych pazurow i klow. Zauwazasz,
+ze niektorym zostaly oderwane konczyny, ktore gdzies zniknely. Kiedy
+podchodzisz blizej poslizgujesz sie i upadasz z cichym plasnieciem na
+podloge. Po chwili krew przenika przez Twoje ubranie...
+~
+S
+#3410
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 1 0
+D2
+~
+~
+0 0 3415
+D3
+~
+~
+0 0 3411
+S
+#3411
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 1 0
+D1
+~
+~
+0 0 3410
+S
+#3412
+Hall Krolow~
+Znajdujesz sie w zachodnim koncu Wielkiego Hallu Krolow. Na poludniu
+znajdujesz sie drzwi, na ktorych jest cos napisane. Na podlodze widzisz
+zaschniete plamy krwi, w ktorych zauwazasz cos dziwnego... Z rozmyslan
+wyrywaja Cie dziwne odglosy dochodzace z innej czesci hallu przypominajac
+Ci o czyhajacych tu niebezpieczenstwach.
+~
+0 9 0
+D1
+~
+~
+0 0 3417
+D2
+Drzwi w nieznane...
+~
+drzwi~
+3 -1 3413
+E
+krew plamy~
+Juz wiesz co jest nie tak! Krew zmieszana jest z jakims zielonym sluzem...
+Ciekawe skad on moze pochodzic i co wazniejsze, czy moze on byc przyczyna
+pojawienia sie tu krwi.
+~
+E
+drzwi napis~
+Nad drzwiami ktos wyryl jakies dziwne runy! Pomimo wielu lat nadal daja sie
+odczytac. O ile sie nie mylisz to jest to oznaczenie pradawnego wladcy
+zwanego Shohanem.
+~
+S
+#3413
+Relikwiarz Shohana~
+Znajdujesz sie jak w scenie z nocnego koszmaru! Doslownie kazdy centymetr
+pomieszczenia pokryty jest krwia. Czesc z niej jest dosc stara ale miejscami
+dostrzegasz takze swieze plamy. Najwidoczniej przechodzi tedy cos co nie
+przepada za goscmi. Z niegdys wspanialego oltarza zostaly jedynie szczatki.
+Lepiej byloby ulotnic sie stad zanim trafisz na to co od czasu do czasu
+urzadza tu krwawa laznie...
+~
+0 9 0
+D0
+Widzisz drzwi prowadzace na zewnatrz relikwiarza.~
+drzwi~
+3 -1 3412
+D2
+~
+drzwi~
+1 -1 3414
+S
+#3414
+Grobowiec Shohana~
+Znajdujesz sie w niegdys pieknym grobowcu. Obecnie za sprawa slug Zla to
+miejsce przypomina rzeznie. Na scianach i podlodze widac zakrzeple plamy
+krwi zas po ziemi walaja sie gnijace ludzkie szczatki. Sadzac po ilosci
+kosci okoliczne bestie przynosza tu swoje ofiary aby je pozrec. Sile stworow
+nie oparl sie takze potezny, kamienny grobowiec Krola Shohana. Doczesne
+szczatki krola zostaly zbeszczeszczone. W scianie zostal wybity otwor
+prowadzony na wschod.
+~
+0 9 0
+D0
+Znajduje sie tam wyjscie ze zbeszczoszczonego grobowca.~
+drzwi~
+1 0 3413
+D1
+~
+~
+0 0 3419
+E
+grobowiec~
+Niegdys piekny, ozdobiony wspanialymi freskami obecnie jest zrujnowany i
+zbeszczeszczony. Jeden ze slug ciemnosci napisal na nim krwia slowa:
+Niech wszyscy poklonia sie nowemu krolowi! Sluzymy Roch'tarowi, temu ktory
+nie umrze! Ci, ktorzy odmowia zlozenia mu poklonu umra w straszliwych
+mekach!
+~
+S
+#3415
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 1 0
+D1
+~
+~
+0 0 3416
+D2
+~
+~
+0 0 3410
+D3
+~
+~
+0 0 3420
+S
+#3416
+Zejscie do nizszych korytarzy~
+Po wjesciu do tego pomieszczenia bez trudu dostrzegasz, ze nie nalezy ono do
+oryginalnej konstrukcji. Korytarz, w ktorym stoisz wyglada jakby zostal
+wylupany w skale. Na scianach widzisz slady krwi, sluzu i pazurow. Ciekawe
+czy zostawilo je jedno stworzenie czy tez cala grupa. Na polnocy widzisz
+dalszy ciag korytarza.
+~
+0 1 0
+D0
+~
+~
+0 0 3415
+D4
+~
+zapadnia~
+1 -1 3418
+S
+#3417
+Hall Krolow~
+Zblizasz sie do zachodniego konca hallu. Nie ma tu nic specjalnego do 
+ogladania oprocz kilku walajacych sie kosci i wiszacych pod sufitem
+pajeczyn. Jedyne wyjscia jakie tu widzisz prowadza na wschod i zachod.
+~
+0 9 0
+D1
+~
+~
+0 0 3422
+D3
+~
+~
+0 0 3412
+S
+#3418
+Relikwiarz Cristisa~
+W przeciwienstwie do innych pomieszczen to nie nosi na sobie sladow 
+zniszczenia. Na srodku komnaty wciaz stoi zdobiony klejnotami oltarz, na
+ktorym leza swiete przedmioty. Malowidla na scianach sa calkiem wyrazne i
+przedstawiaja sceny z zycia Cristisa Dobrego. Oprocz oltarza zauwazasz
+kamienne schody prowadzace w dol. Kiedy wydaje Ci sie, ze nie ma tu juz
+nic ciekawego katem oka dostrzegasz jakis niewyrazny ksztalt. Tak! Masz
+przed soba ducha krola Cristosa!
+~
+0 13 0
+D2
+~
+~
+0 0 3419
+D5
+~
+schody~
+3 -1 3416
+E
+oltarz~
+Oltarz nie jest zbyt wysoki, wykonany z bialego marmuru i ozdobiony drogimi
+kamieniami. Widzisz na nim czesciowo wypalone swiece i roznego rodzaju
+relikwie, prawdopodobnie przedmioty sluzace niegdys Cristosowi. Nie odwazysz
+sie jednak 'pozyczyc' sobie, ktoregos z nich poniewaz wszystkie otoczone sa
+blekitna mgielka informujaca o nalozonych na nich zakleciach. Oprocz
+przedmiotow na oltarzu zauwazasz wyryty napis mowiacy:
+"Chwalcie poteznego Cristisa, tego ktory przyniosl swiatu dobro i
+sprawiedliwosc. Ten, ktory walczyl bez strachu z najgorszym Zlem wreszcie
+odnalazl zasluzony odpoczynek. Niech na zawsze pozostanie w pamieci
+Bogow..."
+~
+E
+duch krol cristis~
+Odpoczynek krola zostal zaklocony przez zle stwory, ktore wdarly sie do jego
+grobu. Z tego co widzisz Cristos w chwili smierci byl mezczyzna w dosc
+zaawansowanym srednim wieku ale mimo to wciaz pelnym sil. Majestatyczna twarz
+i postawa sprawiaja, ze bez trudu mozesz uwierzyc, ze ten mezczyzna wladal 
+niegdys ziemiami lezacymi na zachod od Darkhaven. Cristos ma u pasa wspanialy
+promieniujacy lekkim swiatlem miecz zas jego zbroja wykonana jest z jakiegos
+blekitnego metalu, ktorego wczesniej nie widziales. Nic nie mowi lecz trzyma
+przed soba pergamin, na ktorym jest cos napisane.
+~
+E
+pergamin~
+Oto co jest napisane na pergaminie trzymanym przez Cristosa:
+
+     Witaj nieznajomy, ostatnia nadziejo Darkhaven i tego grobowca!
+To co masz przed soba to prosba o pomoc dla czlowieka dawno nie chodzacego
+juz po Ziemi. Sily Zla wdarly sie do katakumb gdzie usadowily sie dokonujac
+dziela zniszczenia i zbeszczeszczenia swietosci. Wyrwane ze snu duchy
+starozytnych krolow nie moga zrobic nic oprocz czekania na smialka, ktory
+podejmie sie walki ze Zlem. O ile sie nie myle to tylko ja mam wystarczajaco
+duzo sily aby pojawic sie na tym planie egzystencji i dlatego tylko stwory
+Mroku jeszcze nie zniszczyly tego pomieszczenia. Przywodca ciemnej hordy
+jest Roch'tar, starozytny wampir, z ktorym niegdys walczylem ale ktorego
+nigdy nie udalo mi sie pokonac... Musisz odnalezc jego kryjowke i zabic go!
+Po drodze uwazaj na liczne rzecze jego slug, ktore z calej mocby beda sie
+starac abys nie dotarl do ich pana. Jezeli uda Ci sie go zabic i przyniesc
+tu w dowod tego czynu jego miecz zostaniesz sowicie wynagrodzony za
+przywrocenie nas do Wiecznego Snu.
+    Niech Bogowie maja Cie w swojej opiece!
+~
+S
+#3419
+Grobowiec Cristisa~
+Grobowiec zostal calkowicie zniszczony. Sciany sa podziurawione i widnieja
+na nich slady grubych pazurow. Po podlodze walaja sie kosci i ekstrementy.
+Sam sarkofag zostal po prostu zrownany z ziemia. Wyglada na to, ze stwory
+nalezace do Cienia daly tu upust swojej furii nie mogac dostac sie do
+bronionego przez ducha Cristosa relikwiarza.
+~
+0 9 0
+D0
+~
+~
+0 0 3418
+D3
+~
+~
+0 0 3414
+S
+#3420
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 1 0
+D1
+~
+~
+0 0 3425
+D3
+~
+~
+0 0 3415
+S
+#3421
+Wejscie do Hallu Krolow~
+Ktokolwiek zbudowal to miejsce musial byc wyjatkowo bogaty! Mimo, ze drzwi
+prowadzace do tego pomieszczenia nie sa zbyt imponujace to ono samo moze z
+latwoscia pomiescic kilkadziesiat osob. Trudno uwierzyc, ze znajduje sie ono
+pod niewielka kapliczka... Juz na pierwszy rzut oka widac, ze od dawna nikt
+tu nie zagladal. Podloga pokryta jest warstwa kurzu a przepiekny, tkany
+dywan rozpada sie ze starosci. Na scianach znajduja sie wspaniale gobliny,
+jednak ich stan nie odbiega zbytnio od stanu dywanu. Gdyby te przedmioty
+lepiej zniosly dzialanie czasu bylyby warte fortune. Widzisz potezne, 
+drewniane drzwi prowadzace na poludnie oraz kamienne schody wiodace do gory.
+~
+0 9 0
+D2
+Widzisz tam potezne, debowe drzwi w doskonalym stanie.
+~
+drzwi~
+3 -1 3422
+D4
+Widzisz kamienne schody prowadzace do gory i konczace sie malymi
+drzwiczkami.
+~
+drzwiczki~
+39 3410 3405
+E
+drzwiczki~
+Drzwiczki broniace wyjscia z tego pomieszczenia sa wykonane z kamienia i
+wygladaja dosc ciezko. Byc moze gdyby udalo Ci sie zrobic zrobic jakas
+dzwignie to mogbys je podwazyc...  Na ich powierzchni znajduje sie otwor o
+dziwnych, oktagonalnych ksztaltach.  Byc moze gdybys wsadzil w niego 
+odpowiedni pret udaloby Ci sie otworzyc drzwi. Tylko gdzie znalezc taki 
+pret ?!?
+~
+E
+gobelin gobeliny~
+Gobeliny zostaly utkane przez prawdziwych mistrzow. Dzieki nim mozesz byc
+swiadkiem wspanialych, starozytnych bitew. Na jednym z nich rozpoznajesz
+sceny z walki pomiedzy wojskami Jubala Zyczliwego i Hrotha Kragena.
+Najwyrazniej Jubal wygral to starcie. Gdy tylko probujesz dotknac, ktoregos
+z gobelinow rozpada sie w pyl ze starosci...
+~
+E
+schody~
+Mimo, ze sa dosc stare i pokruszone to mimo wszystko wygladaja stabilnie.
+~
+E
+drzwi~
+Drzwi sa ogromne! Maja okolo czterech metrow wysokosci i trzech szerokosci.
+Gdyby nie jakies rysy na ich powierzchni bylyby w idealnym stanie. Kiedy
+przygladasz sie blizej okazuje sie, ze to co wziales za rysy to litery
+ukladajace sie w jakies przeslanie...
+~
+E
+rysy litery przeslanie~
+'Strzezcie sie smiertelnicy gdyz za tymi wrotami czeka na was tylko smierc.'
+                                        Insho'rkthon brsskra-lehsn Roch'tar
+
+Pod przeslaniem znajduja sie dwie krzyzujace sie rysy tworzace litere X.
+Wyglada jakby ktos ( lub cos ) przejechalo po drzwiach swoimi pazurami...
+~
+S
+#3422
+Hall Krolow~
+Podazasz dlugim zakurzonym hallem. Co jakis czas pod Twoimi nogami chrzescza
+walajace sie po podlodze kosci. Zwisajace z sufitu pajeczyny sa dosc grube i
+wolisz nie myslec jak duze byly pajaki, ktore je utkaly. Obecnosc pajeczyn i
+kosci jest zastanawiajaca gdyz sam hall jest utrzymany w dosc dobrym stanie.
+Zupelnie jak gdyby ktos przychodzil tu i sprzatal... Na poludniu i na polnocy
+znajduja sie drzwi. Mimo, ze hall wyglada calkiem spokojnie nie liczac
+pajeczyn to jednak czuc w nim odor niemartwych...
+~
+0 9 0
+D0
+~
+drzwi~
+3 -1 3421
+D1
+~
+~
+0 0 3427
+D2
+Drzwi opatrzone sa zatartym przez czas napisem:
+'Niech wszyscy dziekuja Crotusowi Zwyciezcy. Bez jego opieki krolestwo by
+nie przetrwalo.'
+~
+drzwi~
+3 -1 3423
+D3
+~
+~
+0 0 3417
+S
+#3423
+Relikwiarz Crotusa~
+Obecnie pomieszczenie to nie przypomina tego czym bylo niegdys. Po oltarzu i
+lezacych na nim relikwiach zostalo jedynie wspomnienie. Najwidoczniej i tu
+dotarli sludzy Ciemnosci. Relikwiarz nalezal do slynnego krola Crotusa,
+ktory ocalil polnocne regiony kontynentu przed najazdem hord goblinow. Gdyby
+nie on nawet Darkhaven moglo zostac podbite. Mimo, ze Crotus byl poboznym
+czlowiekiem to jednak kraza plotki iz pod koniec swego zycia zwrocil sie ku
+Ciemnosci i umarl jako zly czlowiek.
+~
+0 9 0
+D0
+~
+drzwi~
+3 -1 3422
+D2
+~
+~
+0 0 3424
+S
+#3424
+Grobowiec Crotosa~
+W przeciwienstwie do relikwiarza to pomieszczenie nie ma na sobie zbyt wielu
+sladow po dzialaniu zlych istot. Zupelnie jakby orgia zniszczenia zostala w
+pewnym momencie przerwana. Swiadcza o tym lezace pod scianami poskrecane
+nienaturalnie, zasuszone szczatki jakichs stworow. W wschodniej scianie
+zostala wybita duza dziura jak gdyby cos duzego salwowalo sie paniczna
+ucieczka... jezeli to prawda to ciekawe co moglo tak wystraszyc stwora 
+zdolnego do przebicia sciany? Na srodku grobowca stoi nienaruszony sarkofag.
+~
+0 9 0
+D0
+~
+~
+0 0 3423
+D1
+~
+~
+0 0 3429
+S
+#3425
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 1 0
+D1
+~
+~
+0 0 3426
+D3
+~
+~
+0 0 3420
+S
+#3426
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 1 0
+D1
+~
+~
+0 0 3425
+D2
+~
+~
+0 0 3430
+S
+#3427
+Hall Krolow~
+Znajdujesz sie we wschodniej czesci Hallu Krolow. Zauwazasz, ze mimo iz jest
+on calkiem dobrze utrzymany to z sufitu zwisaja grube pajeczyny zas na 
+scianach widac slady jakiegos sluzu... Ciekawe jak mogly sie tu znalezc skoro
+na podlodze nie ma sladow kurzu co swiadczy o tym, ze ktos co jakis czas 
+przychodzi tu posprzatac... Na poludniu widzisz drzwi zas tunel ciagnie sie
+na wschod i zachod.
+~
+0 9 0
+D1
+~
+~
+0 0 3432
+D2
+~
+drzwi~
+3 -1 3428
+D3
+~
+~
+0 0 3422
+S
+#3428
+Grobowiec Mitnara~
+Za zycia Mitnar byl waleczny niczym bestia... jego ukochana corka byla walka
+zas synem miecz. Nie obchodzilo go nic oprocz walki po stronie Swiatla.
+Wojownicy ubostwiali Mitnara zas wszyscy przeciwnicy dazyli szacunkiem. Na
+scianach znajduja sie malowidla przedstawiajace sceny kolejnych, zwycieskich
+bitew. Na wschodzie widzisz wyrzezbione przejscie prowadzace do innego 
+pomieszczenia.
+~
+0 9 0
+D0
+~
+drzwi~
+3 -1 3427
+D1
+~
+~
+0 0 3433
+D2
+~
+~
+0 0 3429
+S
+#3429
+Grobowiec Mitnara~
+Maldowidla na scianach ukazuja sceny z zycia Mitnara. Wojownicy i wojowniczki
+klekajacy przed krolem, sady nad jencami wojennymi, stosy zlota i broni
+lezace u stop Mitnara. W miejscu gdzie znajdowala sie trumna krola nie ma
+nic oprocz prostokatnego sladu.
+~
+0 9 0
+D0
+~
+~
+0 0 3428
+D3
+~
+~
+0 0 3424
+S
+#3430
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie 
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a 
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 1 0
+D0
+~
+~
+0 0 3435
+D1
+~
+~
+0 0 3431
+D2
+~
+~
+0 0 3426
+S
+#3431
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 1 0
+D1
+~
+~
+0 0 3436
+D2
+~
+~
+0 0 3430
+S
+#3432
+Hall Krolow~
+Kroczysz powoli Hallem Krolow. Twoje kroki rozbrzmiewaja niczym dzwony w
+ciszy grobowca. Ciage spokoju nie daja Ci zwisajace pajeczyny i sluz na
+scianach kontrastujace z w miare czysta podloga. Kiedy jednak spogladasz na
+podloge okazuje sie, ze nie jest ona juz taka czysta. Pod sciana zauwazasz
+kilka swiezych, ogryzionych kosci! Wyglada na to, ze cos jednak mieszka w
+tych tunelach... Byc moze ogromne pajaki, ktore utkaly zwisajace z sufitu
+pajeczyny ?
+~
+0 9 0
+D1
+~
+~
+0 0 3437
+D3
+~
+~
+0 0 3427
+S
+#3433
+Relikwiarz Fratha~
+Znajdujesz sie w zniszczonym relikwiarzu. Po podlodze walaja sie szczatki
+jakichs istot zas po stojacym tu od lat oltarzu pozostaly jedynie kamienie.
+Sciany wysmarowane sa odchodami i krwia. Kiedy ze wstretem przygladasz sie
+im blizej dochodzisz do wniosku, ze sa to jakies malowidla! Drzysz na mysl o
+istocie lub istotach, ktore mogly tego dokonac...
+~
+0 9 0
+D1
+~
+~
+0 0 3438
+D3
+~
+~
+0 0 3428
+S
+#3434
+Grobowiec Fratha~
+UGH! Sarkofag zostal zniszczony zas w jego szczatkach dostrzegasz
+zmumifikowane cialo wladcy rozdarte na strzepy. Po podlodze walaja sie
+odchody i pogryzione kawalki ciala i kosci krola. Nie pozostalo nic ze
+swietosci tego miejsca.
+~
+0 9 0
+D5
+~
+~
+0 0 3439
+S
+#3435
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 1 0
+D0
+~
+~
+0 0 3430
+D1
+~
+~
+0 0 3440
+D3
+~
+~
+0 0 3436
+S
+#3436
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 1 0
+D0
+~
+~
+0 0 3431
+D2
+~
+~
+0 0 3441
+D3
+~
+~
+0 0 3435
+S
+#3437
+Hall Krolow~
+Docierasz do wschodniego konca Hallu Krolow. Na scianach pelno jest
+zielonkawego, smierdzacego sluzu pomieszanego z krwia. Cos mowi Ci, ze
+lepiej nie stac tu zbyt dlugo aby nie narazac sie na spotkanie z istotami
+zostawiajacymi te slady. Na polnocy widzisz drzwi. Dalsza droga na wschod
+jest zablokowana przez sciane i jezeli chcez wrocic to musisz udac sie na
+zachod.
+~
+0 9 0
+D0
+~
+drzwi~
+3 -1 3409
+D3
+~
+~
+0 0 3432
+S
+#3438
+Relikwiarz Jubala~
+Niegdys piekny, obecnie zdewastowany. Przepiekne gobeliny i dywan zdobiace
+niegdys to pomieszczenie zostaly porwane na strzepy. Po oltarzu nie zostal
+nawet slad. Prawdopodobnie zostal jakos wyniesiony. Malowidlo na suficie
+zostalo obrzucone ekstrementami i pochlapane krwia przez co jest zupelnie
+nieczytelne.
+~
+0 9 0
+D2
+~
+~
+0 0 3439
+D3
+~
+~
+0 0 3433
+S
+#3439
+Grobowiec Jubala~
+Podobnie jak i inne komnaty tak i ta zostala zbeszczeszczona i zniszczona.
+Grobowiec zostal sila otwarty zas dobiegajacy z niego zapach przyprawia Cie
+o mdlosci. Na podlodze walaja sie stare i nowe kosci. Sciany zbryzgane sa
+krwia niczym w rzezni. Kiedy zagladasz do sarkofagu dostrzegasz pozbawione
+glowy zmumifikowane cialo krola Jubala Zyczliwego.
+~
+0 9 0
+D0
+~
+~
+0 0 3438
+D4
+~
+~
+0 0 3434
+S
+#3440
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 1 0
+D0
+~
+~
+0 0 3441
+D1
+~
+~
+0 0 3435
+D2
+~
+~
+3 -1 3449
+D3
+~
+~
+0 0 3445
+S
+#3441
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 1 0
+D0
+~
+~
+0 0 3446
+D1
+~
+~
+0 0 3436
+D2
+~
+~
+0 0 3440
+S
+#3442
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 1 0
+D0
+~
+~
+0 0 3443
+D2
+~
+~
+0 0 3447
+S
+#3443
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 1 0
+D0
+~
+~
+0 0 3442
+D3
+~
+~
+0 0 3444
+S
+#3444
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 9 0
+D2
+~
+~
+0 0 3443
+S
+#3445
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 1 0
+D1
+~
+~
+0 0 3440
+D3
+~
+~
+0 0 3446
+S
+#3446
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 1 0
+D0
+~
+~
+0 0 3447
+D1
+~
+~
+0 0 3445
+D3
+~
+~
+0 0 3441
+S
+#3447
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 1 0
+D0
+~
+~
+0 0 3446
+D1
+~
+~
+0 0 3448
+D2
+~
+~
+0 0 3442
+S
+#3448
+Nizsze korytarze i grobowce Nieumarlych~
+Pomieszczenie do ktorego dotarles zostalo oczysczone ze wszystkich
+nieczystosci zas sciany idealnie wygladzone. Na srodku pokoju wydrazona
+zostala w litej skale dziura. Niestety jej przeznaczenie jest dla Ciebie
+zagadka. Na scianach dostrzegasz przerazajace malowidla przedstawiajace
+bestie i potwory terroryzujace ludzkie siedziby. Pelno na nich takze
+wampirow wysysajacych krew zarowno z potworow jak i z ludzi...
+~
+0 1 0
+D0
+~
+~
+0 0 3447
+E
+maldowidla sciana sciany~
+Wiekszosc malowidel nie rozni sie niczym od siebie. Zauwazasz jednak, ze
+na jednym z nich z niezwykla dokladnoscia zostal odwzorowany metalowy sejf.
+Wlasciwie to odbicie sejfu. Mozesz nawet dostrzec na nim napis: 'rathcor'
+~
+S
+#3449
+Nizsze korytarze i grobowce Niemartwych~
+Podazasz labiryntem identycznych korytarzy. Wokol Ciebie gromadzi sie
+ciemnosc zas swiatlo, ktore niesiesz ze soba nie przynosi pocieszenia a
+jedynie podkresla beznadziejnosc sytuacji, w ktorej sie znajdujesz. 
+Uderzajacy w nozdrza fetor rozkladu i zwisajace ze scian i sufitu pajeczyny
+doprowadzaja Cie do szalenstwa.
+~
+0 9 0
+D1
+~
+door~
+33 3411 3408
+D2
+~
+~
+3 -1 3440
+S
+#3450
+Wejscie do zakazanych katakumb~
+Stoisz przy wejsciu do zakazanych katakumb. Nietrudno sie domyslisz czemu
+zostaly zakazane. Odor zla, rozkladu i smierci jest prawie namacalny. 
+Panujace tu ciemnosci moznaby pokroic nozem zas zrodlo swiatla, ktore
+niesiesz ze soba rzuca dziwne refleksy na sciany. Jezeli masz wiecej 
+szczescia niz rozumu mozesz zaglebic sie w katakumby na wlasne ryzyko. 
+Zlo czeka na kolejna ofiare...
+~
+0 1 0
+D0
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 -1 3451
+D1
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 -1 3452
+D2
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 -1 3453
+D3
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 -1 3454
+D4
+~
+~
+0 -1 3408
+S
+#3451
+Zakazane katakumby~
+Waskie kamienne korytarze, ciezke przesycone odorem smierci powietrze i
+uczucie zagrozenia to tylko drobne przeszkody w Twojej wedrowce. Najgorsze
+jest poczucie ciaglej obserwacji przez jakas potezna, zla istote. Sama ziemia
+zdaje sie cicho lamentowac... Zaczynasz sie zastanawiac czy zejscie do 
+katakumb bylo dobrym pomyslem. Niestety jest juz chyba troche za pozno na
+odwrot...
+~
+0 1 0
+D1
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 -1 3455
+D2
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 -1 3450
+S
+#3452
+Zakazane katakumby~
+Waskie kamienne korytarze, ciezke przesycone odorem smierci powietrze i
+uczucie zagrozenia to tylko drobne przeszkody w Twojej wedrowce. Najgorsze
+jest poczucie ciaglej obserwacji przez jakas potezna, zla istote. Sama ziemia
+zdaje sie cicho lamentowac... Zaczynasz sie zastanawiac czy zejscie do 
+katakumb bylo dobrym pomyslem. Niestety jest juz chyba troche za pozno na
+odwrot...
+~
+0 1 0
+D0
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 0 3461
+D3
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 -1 3450
+S
+#3453
+Zakazane katakumby~
+Waskie kamienne korytarze, ciezke przesycone odorem smierci powietrze i
+uczucie zagrozenia to tylko drobne przeszkody w Twojej wedrowce. Najgorsze
+jest poczucie ciaglej obserwacji przez jakas potezna, zla istote. Sama ziemia
+zdaje sie cicho lamentowac... Zaczynasz sie zastanawiac czy zejscie do 
+katakumb bylo dobrym pomyslem. Niestety jest juz chyba troche za pozno na
+odwrot...
+~
+0 1 0
+D0
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 -1 3450
+S
+#3454
+Zakazane katakumby~
+Waskie kamienne korytarze, ciezke przesycone odorem smierci powietrze i
+uczucie zagrozenia to tylko drobne przeszkody w Twojej wedrowce. Najgorsze
+jest poczucie ciaglej obserwacji przez jakas potezna, zla istote. Sama ziemia
+zdaje sie cicho lamentowac... Zaczynasz sie zastanawiac czy zejscie do 
+katakumb bylo dobrym pomyslem. Niestety jest juz chyba troche za pozno na
+odwrot...
+~
+0 1 0
+D1
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 -1 3450
+S
+#3455
+Zakazane katakumby~
+Waskie kamienne korytarze, ciezke przesycone odorem smierci powietrze i
+uczucie zagrozenia to tylko drobne przeszkody w Twojej wedrowce. Najgorsze
+jest poczucie ciaglej obserwacji przez jakas potezna, zla istote. Sama ziemia
+zdaje sie cicho lamentowac... Zaczynasz sie zastanawiac czy zejscie do 
+katakumb bylo dobrym pomyslem. Niestety jest juz chyba troche za pozno na
+odwrot...
+~
+0 1 0
+D2
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 -1 3456
+D3
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 0 3451
+S
+#3456
+Zakazane katakumby~
+Waskie kamienne korytarze, ciezke przesycone odorem smierci powietrze i
+uczucie zagrozenia to tylko drobne przeszkody w Twojej wedrowce. Najgorsze
+jest poczucie ciaglej obserwacji przez jakas potezna, zla istote. Sama ziemia
+zdaje sie cicho lamentowac... Zaczynasz sie zastanawiac czy zejscie do 
+katakumb bylo dobrym pomyslem. Niestety jest juz chyba troche za pozno na
+odwrot...
+~
+0 1 0
+D0
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 -1 3455
+D1
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 -1 3457
+S
+#3457
+Zakazane katakumby~
+Waskie kamienne korytarze, ciezke przesycone odorem smierci powietrze i
+uczucie zagrozenia to tylko drobne przeszkody w Twojej wedrowce. Najgorsze
+jest poczucie ciaglej obserwacji przez jakas potezna, zla istote. Sama ziemia
+zdaje sie cicho lamentowac... Zaczynasz sie zastanawiac czy zejscie do 
+katakumb bylo dobrym pomyslem. Niestety jest juz chyba troche za pozno na
+odwrot...
+~
+0 1 0
+D2
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 -1 3458
+D3
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 0 3456
+S
+#3458
+Zakazane katakumby~
+Waskie kamienne korytarze, ciezke przesycone odorem smierci powietrze i
+uczucie zagrozenia to tylko drobne przeszkody w Twojej wedrowce. Najgorsze
+jest poczucie ciaglej obserwacji przez jakas potezna, zla istote. Sama ziemia
+zdaje sie cicho lamentowac... Zaczynasz sie zastanawiac czy zejscie do 
+katakumb bylo dobrym pomyslem. Niestety jest juz chyba troche za pozno na
+odwrot...
+~
+0 1 0
+D0
+~
+~
+0 0 3457
+D2
+Na poludniu dostrzegasz czarna plame posrod ciemnosci... wydaje sie prawie
+namacalna. Bije stamtad gorace powietrze. Jezeli jestes pewny, ze chcesz sie
+tam udac to droga wolna... Tylko zebys tego pozniej nie zalowal.
+~
+~
+0 -1 3472
+D3
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 -1 3459
+S
+#3459
+Zakazane katakumby~
+Waskie kamienne korytarze, ciezke przesycone odorem smierci powietrze i
+uczucie zagrozenia to tylko drobne przeszkody w Twojej wedrowce. Najgorsze
+jest poczucie ciaglej obserwacji przez jakas potezna, zla istote. Sama ziemia
+zdaje sie cicho lamentowac... Zaczynasz sie zastanawiac czy zejscie do 
+katakumb bylo dobrym pomyslem. Niestety jest juz chyba troche za pozno na
+odwrot...
+~
+0 1 0
+D1
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 -1 3458
+D3
+Wydaje Ci sie ze dostrzegasz cos w rodzaju jaskini...
+~
+~
+0 -1 3460
+S
+#3460
+Siedziba Roch'tara~
+Tuz po wejsciu do tego pomieszczenia Twoj umysl stara sie nie dopuscic do
+wiadomosci tego co widza oczy. Zaladek podchodzi Ci do gardla kiedy do Twych
+nozdrzy dociera smrod groteskowo pokaleczonych i wyssanych z zycia cial
+walajacych sie po calej jaskini. Trafiles do siedziby obecnego pana tych
+podziemi, poteznego wampira Roch'tara! Chyba jest juz za pozno aby uciec...
+~
+0 9 0
+D1
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 -1 3459
+D5
+Czarna jak noc trumna...
+~
+trumna~
+1063 3419 3475
+S
+#3461
+Zakazane katakumby~
+Waskie kamienne korytarze, ciezke przesycone odorem smierci powietrze i
+uczucie zagrozenia to tylko drobne przeszkody w Twojej wedrowce. Najgorsze
+jest poczucie ciaglej obserwacji przez jakas potezna, zla istote. Sama ziemia
+zdaje sie cicho lamentowac... Zaczynasz sie zastanawiac czy zejscie do 
+katakumb bylo dobrym pomyslem. Niestety jest juz chyba troche za pozno na
+odwrot...
+~
+0 1 0
+D1
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 0 3462
+D2
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 0 3452
+S
+#3462
+Zakazane katakumby~
+Waskie kamienne korytarze, ciezke przesycone odorem smierci powietrze i
+uczucie zagrozenia to tylko drobne przeszkody w Twojej wedrowce. Najgorsze
+jest poczucie ciaglej obserwacji przez jakas potezna, zla istote. Sama ziemia
+zdaje sie cicho lamentowac... Zaczynasz sie zastanawiac czy zejscie do 
+katakumb bylo dobrym pomyslem. Niestety jest juz chyba troche za pozno na
+odwrot...
+~
+0 1 0
+D2
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 0 3463
+D3
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 0 3461
+S
+#3463
+Zakazane katakumby~
+Waskie kamienne korytarze, ciezke przesycone odorem smierci powietrze i
+uczucie zagrozenia to tylko drobne przeszkody w Twojej wedrowce. Najgorsze
+jest poczucie ciaglej obserwacji przez jakas potezna, zla istote. Sama ziemia
+zdaje sie cicho lamentowac... Zaczynasz sie zastanawiac czy zejscie do 
+katakumb bylo dobrym pomyslem. Niestety jest juz chyba troche za pozno na
+odwrot...
+~
+0 1 0
+D0
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 0 3462
+D1
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 0 3464
+S
+#3464
+Zakazane katakumby~
+Waskie kamienne korytarze, ciezke przesycone odorem smierci powietrze i
+uczucie zagrozenia to tylko drobne przeszkody w Twojej wedrowce. Najgorsze
+jest poczucie ciaglej obserwacji przez jakas potezna, zla istote. Sama ziemia
+zdaje sie cicho lamentowac... Zaczynasz sie zastanawiac czy zejscie do 
+katakumb bylo dobrym pomyslem. Niestety jest juz chyba troche za pozno na
+odwrot...
+~
+0 1 0
+D1
+Widzisz tu ukryte drzwi.~
+drzwi~
+3 -1 3470
+D2
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 0 3465
+D3
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 0 3463
+S
+#3465
+Pozlacany Hall~
+Wow! Mimo, ze ten korytarz takze jest brudny i zakurzony to jednak odczuwasz
+w nim pewna roznice... mimo to nie mozesz jeszcze czuc sie bezpiecznie. Na
+scianach widzisz delikatne zlote i srebrne runy opisujace starozytne
+rytualy. Niestety nie wszystkie sa przyjemne... Hall ciagnie sie na polnoc
+w glab katakumb i na poludnie. 
+~
+0 9 0
+D0
+Dzieki swiatlu odbijanemu przez zlote i srebrne runy udaje Ci sie dostrzec
+kawalek jednego z korytarzy katakumb.
+~
+~
+0 0 3464
+D2
+Swiatlo odbija sie na zlotych i srebrnych runach w kolejnych czesciach
+pozlacanego hallu.
+~
+~
+0 0 3466
+E
+runy~
+Sa przepieknie wykonane lecz mimo to wzbudzaja Twoj niepokoj i pobudzaja do
+szybszego marszu.
+~
+S
+#3466
+Pozlacany Hall~
+Zmajdujesz sie w kolejnej czesci pozlacanego hallu. Drogocenne runy 
+znajdujace sie na scianach zdaja sie przyciagac Twoja uwage ze zdwojona
+moca. Dzieki refleksom rzucanym przez Twoje swiatlo widzisz iz hall ciagnie
+sie na polnoc i na poludniu.
+~
+0 9 0
+D0
+Widzisz kolejna czesc pozlacanego hallu.
+~
+~
+0 0 3465
+D2
+Widzisz kolejna czesc pozlacanego hallu.
+~
+~
+0 0 3467
+E
+runy~
+Sa przepieknie wykonane lecz mimo to wzbudzaja Twoj niepokoj i pobudzaja do
+szybszego marszu.
+~
+S
+#3467
+Pozlacany Hall~
+Zmajdujesz sie w kolejnej czesci pozlacanego hallu. Drogocenne runy 
+znajdujace sie na scianach zdaja sie przyciagac Twoja uwage ze zdwojona
+moca. Dzieki refleksom rzucanym przez Twoje swiatlo widzisz iz hall ciagnie
+sie na polnoc i na poludniu.
+~
+0 9 0
+D0
+Widzisz kolejna czesc pozlacanego hallu.
+~
+~
+0 0 3466
+D2
+Widzisz kolejna czesc pozlacanego hallu.
+~
+~
+0 0 3468
+E
+runy~
+Sa przepieknie wykonane lecz mimo to wzbudzaja Twoj niepokoj i pobudzaja do
+szybszego marszu.
+~
+S
+#3468
+Pozlacany Hall~
+Zmajdujesz sie w kolejnej czesci pozlacanego hallu. Drogocenne runy 
+znajdujace sie na scianach zdaja sie przyciagac Twoja uwage ze zdwojona
+moca. Dzieki refleksom rzucanym przez Twoje swiatlo widzisz iz hall ciagnie
+sie na polnoc i na poludniu.
+~
+0 9 0
+D0
+Widzisz kolejna czesc pozlacanego hallu.
+~
+~
+0 0 3467
+D2
+Widzisz kolejna czesc pozlacanego hallu.
+~
+~
+0 0 3469
+E
+runy~
+Sa przepieknie wykonane lecz mimo to wzbudzaja Twoj niepokoj i pobudzaja do
+szybszego marszu.
+~
+S
+#3469
+Pozlacany Hall~
+Zmajdujesz sie w kolejnej czesci pozlacanego hallu. Drogocenne runy 
+znajdujace sie na scianach zdaja sie przyciagac Twoja uwage ze zdwojona
+moca. Dzieki refleksom rzucanym przez Twoje swiatlo widzisz iz hall ciagnie
+sie na polnoc i na poludniu.
+~
+0 9 0
+D0
+Widzisz kolejna czesc pozlacanego hallu.
+~
+~
+0 0 3468
+E
+runy~
+Sa przepieknie wykonane lecz mimo to wzbudzaja Twoj niepokoj i pobudzaja do
+szybszego marszu.
+~
+S
+#3470
+Sekretne przejscie~
+Udalo Ci sie znalezc sekretne przejscie! Ciekawe gdzie moze prowadzic...
+~
+0 9 0
+D2
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 0 3471
+E
+drzwi wschod~
+Drzwi zamknely sie za Toba tak cicho, ze nawet tego nie zauwazyles!
+Na scienie nie pozostal po nich zaden slad...
+~
+S
+#3471
+Sekretne przejscie~
+Udalo Ci sie znalezc sekretne przejscie! Ciekawe gdzie moze prowadzic...
+~
+0 9 0
+D0
+Jest tam zbyt ciemno aby cokolwiek powiedziec.
+~
+~
+0 0 3470
+S
+#3472
+W drodze do piekla...~
+Spadasz...
+   i spadasz...
+            hmm.... robi sie coraz cieplej!!!
+Nadal spadasz pograzony w ciemnosci i ponurych rozwazaniach...
+ spadasz krzyczac i blagajac o laske i upadek, ktory zakonczylby ten lot...
+
+         W miare spadania zaczyna sie robic coraz gorecej... Twoja skora
+zaczyna wysychac i pekac zas wlosy zwijaja sie i zamieniaja w drobny pyl...
+Czyzby ciekawosc rzeczywiscie byla pierwszym stopniem do piekla ? ...
+
+                                           spadasz ...
+
+                 i spadasz ...
+
+                                     LADUJESZ!
+
+Witaj w PIEKLE!
+
+Ale nawet w piekle czeka na Ciebie nastepna szansa...
+
+~
+0 4 0
+S
+#3475
+W trumnie~
+Lezysz w trumnie. Jest tu dosc ciasno i smierdzi odorem Zla. Mozesz z niej
+wyjsc albo poczekac tu az wroci jej prawdziwy wlasciciel...
+~
+0 2057 0
+D4
+~
+wieko trumny~
+1031 3419 3460
+S
+#0
+
+
+#RESETS
+R 0 3410 4
+R 0 3411 4
+R 0 3415 4
+R 0 3420 4
+R 0 3425 4
+R 0 3426 4
+R 0 3430 4
+R 0 3431 4
+R 0 3435 4
+R 0 3436 4
+R 0 3440 4
+R 0 3441 4
+R 0 3442 4
+R 0 3443 4
+R 0 3444 4
+R 0 3445 4
+R 0 3446 4
+R 0 3447 4
+R 0 3449 4
+M 0 3405 1 3405
+G 1 3430 99
+D 0 3405 0 2
+D 0 3405 5 2
+O 0 3400 1 3405
+M 0 3400 8 3441
+E 1 3421 15 16
+M 0 3400 8 3430
+E 1 3421 15 16
+M 0 3400 8 3410
+E 1 3421 15 16
+M 0 3400 8 3419
+E 1 3421 15 16
+M 0 3401 8 3414
+M 0 3401 8 3414
+M 0 3401 8 3414
+M 0 3401 8 3414
+M 0 3401 8 3409
+M 0 3401 8 3409
+M 0 3401 8 3409
+M 0 3402 8 3447
+M 0 3402 8 3454
+M 0 3402 8 3462
+M 0 3402 8 3437
+M 0 3402 8 3409
+M 0 3403 1 3411
+E 1 3425 3 17
+M 0 3404 1 3460
+E 1 3428 3 16
+E 1 3427 10 12
+E 1 3419 1 17
+G 1 3424 5
+M 0 3406 4 3466
+M 0 3406 4 3463
+M 0 3406 4 3455
+M 0 3407 5 3465
+E 1 3402 5 16
+M 0 3407 5 3465
+E 1 3402 5 16
+M 0 3407 5 3457
+E 1 3402 5 16
+M 0 3407 5 3452
+E 1 3402 5 16
+M 0 3407 5 3453
+E 1 3402 5 16
+M 0 3408 1 3471
+E 1 3425 3 17
+G 1 3426 10
+M 0 3409 4 3444
+M 0 3409 4 3444
+M 0 3409 4 3426
+M 0 3409 4 3426
+M 0 3410 1 3449
+E 1 3414 10 16
+E 1 3429 5 5
+E 1 3411 2 17
+M 0 3411 1 3434
+E 1 3414 10 16
+G 1 3412 2
+P 1 3413 2 3412
+M 0 3412 1 3424
+E 1 3416 1 17
+O 0 3415 1 3424
+P 1 3417 5 3415
+P 1 3418 1 3415
+M 0 3413 5 3432
+G 1 3422 10
+M 0 3413 5 3417
+G 1 3422 10
+M 0 3413 5 3450
+G 1 3422 10
+M 0 3413 5 3418
+G 1 3422 10
+M 0 3413 5 3441
+G 1 3422 10
+M 0 3414 1 3468
+E 1 3423 4 5
+M 0 3415 1 3468
+M 0 3416 4 3426
+M 0 3416 4 3442
+M 0 3416 4 3411
+O 0 3420 1 3448
+P 1 3410 1 3420
+D 0 3418 5 1
+D 0 3421 2 1
+D 0 3422 0 1
+D 0 3421 4 2
+D 0 3412 2 1
+D 0 3413 0 1
+D 0 3422 2 1
+D 0 3423 0 1
+D 0 3427 2 1
+D 0 3428 0 1
+D 0 3437 0 1
+D 0 3408 3 2
+D 0 3460 5 2
+D 0 3475 4 2
+D 0 3464 1 1
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  3400 spec_cast_undead
+M  3401 spec_cast_undead
+M  3402 spec_cast_undead
+M  3403 spec_cast_undead
+M  3405 spec_cast_cleric
+M  3407 spec_cast_undead
+M  3408 spec_cast_undead
+M  3410 spec_cast_undead
+M  3411 spec_cast_undead
+M  3412 spec_cast_mage
+M  3414 spec_cast_mage
+M  3415 spec_cast_undead
+M  3416 spec_cast_undead
+S
+
+
+#$

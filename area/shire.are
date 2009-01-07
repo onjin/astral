@@ -1,0 +1,1956 @@
+#AREA   Shire [pl. Bercik]~
+
+#VERSION 1
+
+#AUTHOR Anon~
+
+#RANGES
+5 25 0 65
+$
+
+#RESETMSG W oddali slyszysz radosny spiew ptakow.~
+
+#FLAGS
+0 10
+
+#ECONOMY 0 0
+
+#CLIMATE 2 2 0
+
+#HELPS
+0 $~
+
+#MOBILES
+#1100
+czarodziej~
+czarodziej Gandalf~
+Czarodziej Gandalf jest tutaj, pracuje nad nowymi fajerwerkami.
+~
+Czarodziej patrzy na ciebie z uroczystym wyrazem twarzy. Jego spojrzenie
+zdaje sie przewiercac cie na wylot. Ubrany jest w srebrny plaszcz, a w reku
+dierzy wielokolorowa laske. Pomimo, ze wyglada na starszego od najstarszych
+ludzi, mozna wyczuc w nim jakas wewnetrzna sile, ktorej wiekszosc smiertelnikow
+nie potrafi zrozumiec.
+~
+67 8 500 C
+18 5 0 18d18+280 5d2+15
+2109 30000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 0 0 0 1 1 0
+0 0 47 0 0 0 0 0
+#1101
+powiernik pierscienia hobbit~
+Powiernik Pierscienia~
+Powiernik Pierscienia strzerze zazdrosnie swego skarbu.
+~
+Powiernik Pierscienia jest raczej postawnym, ale niskim hobbitem. Jego niski
+wzrost i bulwiasty nos zaprzeczaja jego prawdziwej naturze. Elfowy miecz
+u jego boku, lsni niebieskim swiatlem. Na palec nasuniety ma Jedyny Pierscien.
+Pomimo tego, ze hobbici zazwyczaj sa pokojowo usposobieni, ten tutaj bedzie
+walczyl az do smierci, gdyby ktos chcial odebrac mu jego skarb.
+~
+67 10 0 C
+19 2 -5 19d19+200 1d8+16
+1231 35000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 0 0 0 1 1 0
+0 0 107 0 0 0 0 2
+#1102
+ogrodnik gamgee hobbit~
+ogrodnik Gamgee~
+Ogrodnik Gamgee, zastanawia sie jakie beda nastepne zniwa.
+~
+Ogrodnik Gamgee jest raczej niskim, ale barczystym hobbitem, okolo
+trzydziestki. Jego skora zbrazowiala od nieustannej pracy w polu i w ogrodzie.
+To dosyc przyjemny facet, zawsze gotow sie z toba zaprzyjaznic.
+~
+131 0 350 C
+7 14 4 7d9+77 1d5+5
+0 1000
+106 106 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 0 0 0 1 1 0
+0 0 43 0 0 0 0 0
+#1103
+dzieciak~
+dzieciak~
+Jakis maly dzieciak raczkuje sobie tutaj.
+~
+Ten dzieciak ubrany jest tylko w wielka, wypchana pieluche. Raczkuje, bo
+nie potrafi jeszcze chodzic. Spoglada na ciebie swymi wielkimi oczami i
+pyta "da da?"
+~
+131 0 100 C
+2 19 9 2d2+25 1d3+2
+0 100
+108 108 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 0 0 0 1 1 0
+0 0 24 0 0 0 0 0
+#1104
+opiekunka~
+opiekunka~
+Opiekunka stara sie trzymac wszystkie dzieci w zasiegu wzroku.
+~
+Opiekunka wyglada na bardzo zmeczona. Opieka nad tyloma dziecmi, przez
+zbyt dlugi czas zbiera teraz swoje zniwo. Patrzy na ciebie i w jej oczach
+mozesz zauwazyc pragnienie lepszego zycia.
+~
+3 0 100 C
+5 16 5 5d7+55 1d4+4
+30 300
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1105
+krowa~
+krowa~
+Krowa powoli przezuwa trawe nie zwracajac na ciebie uwagi.
+~
+Ta krowa wyglada jakby od dawna juz nie byla dojona. Pomimo, ze ma juz za
+soba lata swojej mlodosci, widzisz ze jeszcze czeka ja dlugie zycie. Dlatego
+wlasnie bedzie go dzielnie bronila. A kopniecie jej tylnymi kopytami moze
+okazac sie zabojcze.
+~
+65 0 0 C
+4 17 6 4d4+50 1d5+3
+0 200
+106 106 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1106
+swinia~
+swinia~
+Swinia tapla sie tutaj w blocie, przy okazji opryskujac ciebie.
+~
+Swinia wyglada na bardzo zadowolona z bycia swinia. Nie zwraca zadnej uwagi
+na ciebie, zajeta jedynie zarciem i taplaniem sie w blocie. Jest straszliwie
+gruba i pewnie dlatego nie potrafi sie zbyt szybko poruszac.
+~
+65 0 0 C
+3 17 7 3d4+33 2d3+1
+0 150
+106 106 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1107
+kura~
+kura~
+Kura wysiaduje tutaj jajka.
+~
+Tak kura to wspanialy okaz zdrowia. Poza swoim wspanialym dziobem nie posiada
+zadnej broni.
+~
+65 0 0 C
+2 20 7 2d2+25 1d4+1
+0 100
+108 108 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1108
+byk~
+byk~
+Byk z niecierpliwoscia ryje ziemie kopytem gotowy do ataku.
+~
+Ten byk jest w wysmienitej formie. Wyglada jakby mial wielka ochote troche
+powalczyc. Z jego wspanialymi rogami i kopytami moglby zaatakowac doslownie
+kazdego.
+~
+35 0 0 C
+6 15 4 6d7+66 1d5+4
+0 500
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1109
+kon~
+kon~
+Kon zaczyna byc nerwowy na twoj widok.
+~
+Kon patrzy na ciebie uwaznie, po czym odwraca sie i zaczyna uciekac. Mozna
+powiedziec, ze chyba sie ciebie boi.
+~
+67 0 0 C
+4 17 6 4d5+44 1d8+1
+2 460
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1110
+szeryf hobbit~
+szeryf~
+Szeryf pilnuje tutaj pozadku.
+~
+Szeryf jest dosyc wysoki, jak na hobbita oczywiscie. Jego wiecznie rozbiegane
+oczy, przeszukuja okolice w poszukiwaniu oznak niepoku. Na ciebie zwraca
+szczegolna uwage. Za pas zatkniety ma dlugi, cienki sztylet, a na sobie
+nosi skorzana zbroje. To hobbit z ktorym lepiej nie zadzierac.
+~
+69 0 150 C
+8 13 5 8d9+88 1d5+5
+50 1000
+108 108 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 0 0 0 1 1 0
+0 0 0 0 0 0 0 1
+#1111
+szeryf hobbit~
+szeryf~
+Szeryf pilnuje tutaj pozadku.
+~
+Szeryf jest dosyc wysoki, jak na hobbita oczywiscie. Jego wiecznie rozbiegane
+oczy, przeszukuja okolice w poszukiwaniu oznak niepoku. Na ciebie zwraca
+szczegolna uwage. Za pas zatkniety ma dlugi, cienki sztylet, a na sobie
+nosi skorzana zbroje. To hobbit z ktorym lepiej nie zadzierac.
+~
+69 0 150 C
+8 13 5 8d9+88 1d5+5
+50 1000
+108 108 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 0 0 0 1 1 0
+0 0 0 0 0 0 0 1
+#1112
+than hobbit~
+Than~
+Than oczekuje respektu od wszystkich odwiedzajacych.
+~
+Poteznie zbudowany hobbit, patrzy uwaznie na ciebie i wypowiada glebokim
+glowse 'Witam'. Zachowuje sie calkiem spokojnie, uzbrojony w wiedze, ze jak
+dlugo on sprawuje urzad Thana, cale Shire pozostanie spokojnym i bezpiecznym
+miejscem.
+~
+65 0 400 C
+14 7 -3 14d14+140 1d5+12
+500 20000
+108 108 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1113
+karczmarz hobbit~
+karczmarz~
+Karczmarz stoi tutaj oczekujac na zamowienie.
+~
+Karczmarz jest wesolym starszym hobbitem, ktory cale swoje dnie poswieca
+na przysluchiwanie sie okolicznym plotkom. W czasach swojej mlodosci byl
+znanym podroznikiem.
+~
+67 0 200 C
+12 9 2 12d12+130 1d5+10
+700 10000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 0 0 0 1 1 0
+0 0 43 0 0 0 0 2
+#1114
+mlynarz hobbit~
+Mlynarz~
+Mlynarz stoi tutaj nadzorujac swych pracownikow.
+~
+Mlynarz jestniecierpliwym, dosyc mlodym hobbitem, zawsze probujacym wymusic
+od swych pracownikow wiecej respektu niz moze otrzymac. Wyglada na osobe,
+ktorej nalezy sie pozadne lanie.
+~
+197 0 50 C
+6 15 4 6d7+66 1d5+4
+200 500
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1115
+pomocnik mlynarza~
+pomocnik mlynarza~
+Pomocnik mlynarza uwija sie jak w ukropie.
+~
+Ciezka praca w mlynie pozwolila temu hobbitowi na rozwiniecie imponujaco
+wygladajacych miesni. Jak dotad nie zauwazyl on twojej obecnosci, ale wyglada
+na takiego, ktory moglby cie zlamac na pol wogole nie myslac o tym.
+~
+3 0 0 C
+5 16 5 5d6+55 1d6+4
+50 450
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+#1116
+wojownik elfowy elf~
+elfowy wojownik~
+Elfowy wojownik obserwuje cie uwaznie.
+~
+Wysoki wojownik z plemienia elfow promienieje wrecz uroda. Ubrany w przednie
+rzeczy i wekwipowany w znakomita bron. Z wyrazem wielkiej powagi na twarzy
+uwaznie cie obserwuje.
+~
+3 0 600 C
+17 4 -4 17d17+180 1d5+15
+500 30000
+108 108 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1117
+ksiaze krasnoludzki krasnolud~
+krasnoludzki ksiaze~
+Krasnoludzki ksiaze siedzi tu cierpliwie oczekujac powrotu swego krola.
+~
+Zimny i zawziety, krasnoludzki ksiaze jest bardzo silny i barczysty, nawet
+w standardach krasnoludzkich. Jego blyszczace oczy wyraznie odcinaja sie
+na tle brodatej twarzy.
+~
+3 0 200 C
+17 6 -8 17d17+190 1d5+15
+700 30000
+108 108 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1118
+sklepikarz hobbit~
+sklepikarz~
+Sklepikarz usmiecha sie i cierpliwie czeka az cos kupisz.
+~
+Sklepikarz bedzie walczyl jak szaleniec chroniac swoj sklep i swoje towary
+przed takimi jak ty, zbojami.
+~
+3 0 600 C
+21 -2 -12 22d22+222 2d5+22
+12000 40000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 0 0 0 131073 131072 0
+0 0 15 0 0 0 0 2
+#1119
+piekarz hobbit~
+piekarz~
+Piekarz oferuje ci najlepszy chleb w tej okolicy.
+~
+Piekarz jest otylym, jowialnie wygladajacym hobbitem. POmimo swojej tuszy
+bedzie do ostatka bronil swojej piekarni, w razie gdyby przyszlo ci na mysl
+wzbogacic sie jego kosztem.
+~
+3 0 600 C
+21 -2 -12 22d22+222 2d5+22
+1500 40000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 0 0 0 131073 131072 0
+0 0 43 0 0 0 0 2
+#1120
+kowal hobbit~
+kowal~
+Kowal wita cie radosnie w swoim warsztacie.
+~
+Kowal to poterznie zbudowana maszyna do zabijania. Jego wiedza o broniach
+i zbrojach na pewno bedzie pomocna w walce z takimi jak ty oprychami.
+~
+3 0 600 C
+50 -20 -30 50d50+500 3d6+36
+18000 10000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 0 0 0 131073 131072 0
+0 0 5120 0 0 0 0 2
+#1121
+fechmistrz hobbit~
+fechmistrz~
+Fechmistrz oferuje ci swoje uslugi.
+~
+Fechmistrz jest znakomitym wojownikiem, z wieloma bliznami, ktore sa dowodem
+na to, ze nie przepusci zadnej bijatyki.
+~
+3 0 350 C
+25 -2 -15 25d25+270 3d6+20
+1500 40000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 0 0 0 131073 131072 0
+0 0 13 0 0 0 32 2097155
+#1122
+dzieciak~
+dzieciak~
+Hobbicki dzieciak przyplatal sie tutaj.
+~
+To jeszcze prawie dziecko. Jest jeszcze bardzo niski, nawet jak na hobbita.
+Masz ogromna ochote go rozdeptac.
+~
+193 0 0 C
+3 18 7 3d3+38 1d6+2
+0 150
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1123
+lowca przygod~
+lowca przygod~
+Lowca przygod siedzi tutaj, opowiadajac o swych wyprawach.
+~
+Dni jego chwaly juz przeminely. Pomimo tego, ze nie jest juz najmlodszy
+ciagle wyglada na krzepkiego przeciwnika, ktory potrafi niezle dolozyc.
+~
+3 0 100 C
+8 13 3 8d9+88 2d5+7
+170 1000
+108 108 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1124
+plotkara lokalna~
+lokalna plotkara~
+Lokalna plotkara pyta cie, "Czy slyszales ostatnie nowiny?"
+~
+Plotkara ciagle tylko gada i gada. Jestes pod wrazeniem jej elokwencji oraz
+predkosci z jaka potrafi paplac.
+~
+131 0 0 C
+4 17 6 4d5+44 2d4+2
+25 200
+108 108 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1125
+pieknosc hobbicka~
+hobbicka pieknosc~
+Hobbicka pieknosc wpatruje sie w ciebie swymi wielkimi niebieskimi oczyma.
+~
+To najpiekniejsza istota, jaka kiedykolwiek udalo ci sie ujrzec. Gdy
+wpatrujesz sie w nia, swiat nagle przestaje cie interesowac. Masz wielka
+ochote czolgac sie w pyle u jej stop w nadzieji, ze przygarnie cie jak
+zagubionego szczeniaczka. Nie odwazylbys sie stracic nawet jednego wloska
+z tej przeslicznej glowki.
+~
+3 0 1000 C
+6 15 4 6d6+70 2d4+4
+75 500
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1126
+kadet hobbit~
+kadet~
+Kadet z okrzykiem na ustach atakkuje swego przeciwnika.
+~
+Kadet usmiecha sie szeroko, dobrze wie co cie tu sprowadzilo. Jest jeszcze
+troche zielony, ale swoim entuzjazmem nadrabia braki techniczne, moze byc
+groznym przeciwnikiem.
+~
+3 0 0 C
+5 16 5 5d5+55 1d6+3
+0 400
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1127
+gentelmen lokalny hobbit~
+lokalny gentelmen~
+Lokalny gentelmen siedzi tutaj, napawajac sie swoim statusem spolecznym.
+~
+Lokalny gentelmen nie jest specjalnie zachwycony swoim otoczeniem. Ubrany
+jest wedlug najnowszej mody, a jego maniery sa wykwintne. Oferuje ci troche
+zlota i prosi cie o zamowienie mu drinka.
+~
+131 0 0 C
+4 17 6 4d4+44 2d2+2
+100 200
+108 108 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1128
+glupek wioskowy~
+wioskowy glupek~
+Wioskowy glupek marzy o porzadnej fajce i szczypcie fajkowego ziela.
+~
+Wioskowy glupek glosno pociaga nosem.
+~
+3 0 0 C
+5 16 5 5d5+60 2d4+3
+70 100
+104 104 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#1130
+oberzysta~
+Oberzysta~
+Oberzysta stoi tu czekajac na zamowienie.
+~
+Oberzysta jest wesolym starym hobbitem, ktory cale dnie spedza wysluchujac
+lokalnych plotek. W czasach swojej mlodosci, byl znanym podroznikiem i
+odkrywca.
+~
+3 0 200 C
+12 9 2 12d12+140 3d4+10
+1000 10000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+#1131
+recepcjonista hobbit~
+recepcjonista~
+Recepcjonista siedzi za biorkiem i cos pisze.
+~
+Bardzo profesjonalnie wygladajaca osoba.
+~
+3 0 200 C
+12 4 -2 12d12+140 3d8+14
+70 5000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+#1132
+szeryf~
+szeryf~
+Ten szeryf szuka zagubionego dziecka.
+~
+Szeryf jest dosyc wysoki, jak na hobbita oczywiscie. Uwaznie patrzy na ciebie,
+usmiecha sie i pyta czy nie widziles malego hobbita poza Shire?
+~
+3 0 150 C
+8 13 5 8d9+88 3d4+6
+50 1000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#1100
+laska wielokolorowa~
+wielokolorowa laska~
+Wielokolorowa laska lezy tutaj.~
+~
+1 64 16513
+0 0 -1 0
+8 5000 2667
+A
+4 1
+#1101
+zadlo~
+Zadlo~
+Zadlo lezy tutaj.~
+~
+5 1027 8193
+0 2 7 10
+1 10000 7500
+A
+2 2
+#1102
+znak~
+znak~
+Znak przyciaga twoja uwage.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+znak~
+Witamy w Shire.  Kiedy wchodzisz na teren Shire z Haon-Dor dostajesz sie
+pod jurysdykcje Thana, wladcy Shire. Wchodzac na te ziemie zgadzasz sie
+przestrzegac naszycho praw. Jesli zlamiesz jedno z nich, zostaniesz surowo
+ukarany. Nie lubimy klopotow w naszym kraju.
+
+					Thain
+					Wladca Shire
+
+~
+#1103
+chleb bochenek chleba~
+bochenek chleba~
+Bochenek pszennego chleba wyglada naprawde smakowicie.~
+~
+19 0 1
+36 0 0 0
+1 13 2
+#1104
+plaszcz srebrny~
+srebrny plaszcz~
+Srebrny plaszcz lezy sobie tutaj.~
+~
+9 65 1025
+7 0 0 0
+3 10000 4500
+A
+24 -2
+#1105
+pierscien jedyny~
+Jedyny Pierscien~
+Jedyny Pierscien tu lezy.~
+~
+9 96 16387
+5 0 0 0
+3 2500 1900
+A
+17 10
+A
+12 20
+#1106
+luk elfowy~
+elfowy luk~
+Elfowy luk lezy tutaj.~
+~
+55 1090 8193
+1 2 8 4
+10 2000 2000
+A
+18 2
+#1107
+topor mitrril~
+topor z mithrilu~
+Mithrilowy topor lezy na ziemii.~
+~
+5 66 8193
+0 2 8 5
+12 4000 2000
+A
+19 2
+#1108
+pas thana~
+pas Thana~
+Pas zrobiony specjalnie dla Thana lezy tutaj.~
+~
+9 0 2049
+5 3 0 0
+4 1000 200
+A
+4 2
+#1109
+sztyletcienki~
+cienki sztylet~
+Sztyleto bardzo cienkim ostrzu lezy tutaj.~
+~
+5 0 8193
+0 1 6 11
+3 40 10
+#1110
+jajko~
+jajko~
+Kurze jajo lezy sobie tutaj.~
+~
+19 0 1
+12 0 0 0
+1 9 1
+#1111
+torba~
+torba~
+Torba lezy na podlodze.~
+~
+15 0 1
+50 0 0 0
+5 50 10
+#1112
+latarnia~
+latarnia~
+Latarnia stoi na podlodze.~
+~
+1 0 1
+0 0 20 0
+4 50 10
+#1113
+halabarda~
+halabarda~
+Ktos porzucil tutaj swoja halabarde.~
+~
+5 0 8193
+0 3 4 3
+10 1000 50
+A
+18 4
+#1114
+cep~
+cep~
+Na ziemii lezy sobie cep.~
+~
+5 0 8193
+0 2 4 6
+8 300 50
+#0
+
+
+#ROOMS
+#1100
+Mroczna sciezyna~
+Przedzierasz sie przez gesty las, rosnace wokolo drzewa sprawiaja, ze jest
+tutaj dosyc mroczno. Daleko przed soba slyszysz odglosy dochodzace z jakiejs
+wioski.
+~
+0 0 3
+D2
+Mroczna sciezka wiedzie na poludnie przez gesty las.
+~
+~
+0 -1 6000
+D0
+Mroczna sciezka wiedzie na polnoc przez gesty las.
+~
+~
+0 -1 1101
+S
+#1101
+Mroczna sciezyna~
+Przedzierasz sie przez gesty las, rosnace wokolo drzewa sprawiaja, ze jest
+tutaj dosyc mroczno. Daleko przed soba slyszysz odglosy dochodzace z jakiejs
+wioski.
+~
+0 0 3
+D0
+Mroczna sciezka wiedzie na polnoc przez gesty las.
+~
+~
+0 -1 1102
+D2
+Mroczna sciezka wiedzie na poludnie przez gesty las.
+~
+~
+0 -1 1100
+S
+#1102
+Mroczna sciezyna~
+Przedzierasz sie przez gesty las, rosnace wokolo drzewa sprawiaja, ze jest
+tutaj dosyc mroczno. Powoli las staje sie coraz rzadszy. Na polnocy spomiedzy
+drzew wylania sie wioska...
+~
+0 0 3
+D2
+Mroczna sciezka wiedzie na poludnie przez gesty las.
+~
+~
+0 -1 1101
+D0
+Sciezka prowadzi do wioski.
+~
+~
+0 -1 1103
+S
+#1103
+Wejscie do Shire~
+Stoisz przed wejsciem do Shire. Wszedzie gdzie spojrzysz widzisz pelno
+hobbitow. Droga Nad Woda prowadzi na wschod i na zachod.
+~
+0 0 1
+D2
+Na poludniu widzisz sciezke zaglebiajaca sie w gesty las.
+~
+~
+0 -1 1102
+D1
+Na wschodzie biegnie Droga Nad Woda.
+~
+~
+0 -1 1104
+D3
+Na zachodzie biegnie Droga Nad Woda.
+~
+~
+0 -1 1118
+S
+#1104
+Droga Nad Woda~
+Wlasnie stoisz na Drodze Nad Woda, najruchliwszej drodze w calym Shire.
+Droga ciagnie sie dalej w kierunkach: wschodnim i zachodnim. Na polnocy
+widzisz jakis sklep.
+~
+0 0 1
+D3
+Na zachodzie widzisz wejscie do Shire.
+~
+~
+0 -1 1103
+D0
+Na polnocy widzisz sklep.
+~
+~
+0 -1 1105
+D1
+Na wschodzie biegnie Droga Nad Woda.
+~
+~
+0 -1 1106
+S
+#1105
+Sklep~
+Znajdujesz sie w sklepie. Najrozmaitsze przedmioty poukladane sa polkach
+i w pudelkach. Przyjacielsko usmiechajacy sie sklepikarz, cierpliwie czeka
+na twoje zamowienie. Jedyna wyjscie znajduje sie na poludniu.
+~
+0 8 0
+D2
+Jedyne wyjscie znajduje sie na poludniu.
+~
+~
+0 -1 1104
+S
+#1106
+Droga Nad Woda~
+Wlasnie stoisz na Drodze Nad Woda, najruchliwszej drodze w calym Shire.
+Droga ciagnie sie dalej na wschod i na zachod. Na polnocy znajduje sie
+bardzo mila dla oka zbrojownia, na poludniu lezy przedszkole.
+~
+0 0 1
+D3
+Na zachodzie biegnie Droga Nad Woda.
+~
+~
+0 -1 1104
+D1
+Na wschodzie biegnie Droga Nad Woda.
+~
+~
+0 -1 1109
+D0
+Droga wiedzie do zbrojowni.
+~
+~
+0 -1 1107
+D2
+Na poludniu lezy przedszkole.
+~
+~
+0 -1 1108
+S
+#1107
+Zbrojownia~
+Znajdujesz sie wewnatrz sklepu w ktorym mozna kupic najlepsze uzbrojenie
+w calym Shire. Sprzedawca dumnie pokazuje ci swoje produkty i oferuje ci
+najlepsze sztylety jakie kiedykolwiek udalo ci sie zobaczyc.
+~
+0 8 0
+D2
+Jedyne wyjscie lezy na poludniu.
+~
+~
+0 -1 1106
+S
+#1108
+Przedszkole~
+Znajdujesz sie wewnatrz przedszkola, w ktorym rodzice zostawiaja swoje pociechy
+idac do pracy. Wszedzie wokolo pelno rozwrzeszczanych dzieciakow, a opiekunki
+wzdychaja i bezradnie kiwaja glowami. Jedyne wyjscie lezy na polnocy.
+~
+0 8 0
+D0
+Jedyne wyjscie lezy na polnocy.
+~
+~
+0 -1 1106
+S
+#1109
+Zakret na drodze~
+Droga Nad Woda biegnie dalej na zachod i poludnie. Wielki, imponujacy
+budynek lezy na wschodzie. Daleko na poludniu widzisz jakas oberze.
+~
+0 0 1
+D3
+Droga Nad Woda biegnie na zachod.
+~
+~
+0 -1 1106
+D2
+Na poludnie biegnie Droga Nad Woda.
+~
+~
+0 -1 1112
+D1
+Na poludniu stoi wielki budynek. Szyld glosi 'Biuro Szeryfa'.
+~
+~
+0 -1 1110
+S
+#1110
+Biuro Szeryfow Wschodniej Cwiartki~
+Znajdujesz sie w Biurze Szeryfow, ktore sluzy za baze wypadowa dla trzech
+szeryfow ze Wschodniej Cwiartki. Gdy przygladasz sie szeryfom podczas ich
+pracy, zauwazasz ze nie sa oni najlepsi w tym co robia. No coz w koncu to
+hibbici. Na wschodzie widzisz jakies drzwi.
+~
+0 8 0
+D3
+Na zachodzie widzisz zakret na drodze.
+~
+~
+0 -1 1109
+D1
+Za drzwiami znajduje sie biuro Thana.
+~
+drzwi~
+1 0 1111
+S
+#1111
+Biuro Thana~
+Znajdujesz sie wewnatrz biura Thana, hobbita, ktory zajmuje sie zapewnieniem
+bezpieczenstwa calemu Shire. Than przyrzekal chronic Shire przed wszelkimi
+zlodziejami i mordercami, dlatego teraz patrzy na ciebie tak podejrzliwym
+wzrokiem.
+~
+0 8 0
+D3
+Za drzwiami znajduje sie biuro Szeryfa.
+~
+drzwi~
+1 0 1110
+S
+#1112
+Droga Nad Woda~
+Wlasnie stoisz na Drodze Nad Woda, najruchliwszej drodze w calym Shire.
+Droga ciagnie sie dalej na polnoc i poludnie. Na wschodzie widzisz miejsce,
+w ktorym cwicza sie kadeci na szeryfow.
+~
+0 0 1
+D0
+To the north runs Bywater Road.
+~
+~
+0 -1 1109
+D2
+To the south runs Bywater Road.
+~
+~
+0 -1 1113
+D1
+The Shiriff Training Grounds lies to the east.
+~
+~
+0 -1 1117
+S
+#1113
+Bywater Road~
+You stand on Bywater Road, the busiest street in all of Shiredom.  The road
+continues to the north.  The private residences of Shire inhabitants are to
+the east and west while to the south lies the Ivy Bush, second only to the
+Green Dragon for its hospitality and service.
+~
+0 0 1
+D0
+To the north runs Bywater Road.
+~
+~
+0 -1 1112
+D1
+You spy the private dwelling of a Shire folk to the east.
+~
+~
+0 -1 1115
+D2
+To the south you see the Ivy Bush, a favorite haunt of Shire urbanites and
+seasoned travelers.
+~
+~
+0 -1 1116
+D3
+You spy the private dwelling of a Shire folk to the west.
+~
+~
+0 -1 1114
+S
+#1114
+Norka~
+Znajdujesz sie w norce, w dziurze w ziemii, ktora sluzy za mieszkanie dla
+hobbitow. Gdy przygladasz sie uwaznie temu prywatnemu mieszkaniu, powoli
+zaczynasz czuc sie jak intruz, masz wielka ochote juz stad wyjsc. Jedyne
+wyjscie lezy na wschodzie.
+~
+0 8 0
+D1
+The only exit lies to the east.
+~
+~
+0 -1 1113
+S
+#1115
+Norka~
+Znajdujesz sie w norce, w dziurze w ziemii, ktora sluzy za mieszkanie dla
+hobbitow. Gdy przygladasz sie uwaznie temu prywatnemu mieszkaniu, powoli
+zaczynasz czuc sie jak intruz, masz wielka ochote juz stad wyjsc. Jedyne
+wyjscie lezy na zachodzie.
+~
+0 8 0
+D3
+The only exit lies to the west.
+~
+~
+0 -1 1113
+S
+#1116
+The Ivy Bush~
+You are in the Ivy Bush, one of the most famous inns in all of Shiredom.
+Chique Shire urbanites and seasoned travelers fill the confines of the room
+with gay and lively talk.  A jovial innkeeper stops all that he is doing to
+await your command.  The only exit lies to the north.
+~
+0 8 0
+D0
+The only exit lies to the north.
+~
+~
+0 -1 1113
+S
+#1117
+Shiriff Training Grounds~
+The sounds of mock battle and feigned death cries fill your ears.  Every
+which way you turn you see halfling trainees at the prime of their youth.  A
+wizened old battle instructor meets your gaze and asks if he may be of 
+service.  The only exit lies to the west.
+~
+0 0 0
+D3
+The only exit lies to the west.
+~
+~
+0 -1 1112
+S
+#1118
+Droga Nad Woda~
+Wlasnie stoisz na Drodze Nad Woda, najruchliwszej drodze w calym Shire.
+Droga ciagnie sie dalej na wschod i na zachod. Na poludniu dostrzegasz
+imponujacy budynek. Katem oka dostrzegasz plynaca na polnocy rzeke Brandywine.
+~
+0 0 1
+D1
+To the east you see the entrance to the Shire.
+~
+~
+0 -1 1103
+D2
+A large, imposing building lies to the south.  A sign reads 'Shiriff Post'.
+~
+~
+0 -1 1119
+D3
+To the west runs Bywater Road.
+~
+~
+0 -1 1120
+S
+#1119
+Biuro Szeryfow chroniacych Most~
+Znajdujesz sie w Biurze Szeryfow, ktore sluzy za baze wypadowa dla trzech
+szeryfow pilnujacych Mostu. Gdy przygladasz sie szeryfom podczas ich
+pracy, zauwazasz ze nie sa oni najlepsi w tym co robia. No coz w koncu to
+hibbici. Na polnocy widzisz jakies drzwi.
+~
+0 8 0
+D0
+The only exit is to the north.
+~
+~
+0 -1 1118
+S
+#1120
+Droga Nad Woda~
+Wlasnie stoisz na Drodze Nad Woda, najruchliwszej drodze w calym Shire.
+Droga ciagnie sie dalej na wschod i na zachod. Na poludniu dostrzegasz
+piekarnie, slynna na calo okolice ze swych wypiekow. Na polnocy widzisz
+most nad rzeka Brandywina.
+~
+0 0 1
+D0
+Brandywine Bridge offers safe passage across the tumultuous river.
+~
+~
+0 -1 1131
+D1
+To the east runs Bywater Road.
+~
+~
+0 -1 1118
+D2
+You see the Grocer's Delight to the south.
+~
+~
+0 -1 1121
+D3
+To the west runs Bywater Road.
+~
+~
+0 -1 1122
+S
+#1121
+The Grocer's Delight~
+You tremble with ecstasy as the tempting odors of freshly made pipeweed
+bread fill your lungs.  Rumor has it that the pipeweed bread sold here can
+restore vitality.  You look around but find no one to take your order.  
+You then peep over the counter and discover a friendly grocer who is too 
+short to be seen over the counter.  The only exit is to the north.
+~
+0 8 0
+D0
+The only exit is to the north.
+~
+~
+0 -1 1120
+S
+#1122
+Droga Nad Woda~
+Wlasnie stoisz na Drodze Nad Woda, najruchliwszej drodze w calym Shire.
+Droga ciagnie sie dalej w kierunku wschodnim. Na zachodzie lezy male wzgorze.
+Na poludniu dostrzegasz mlyn wodny. Daleko na polnocy swe metne wody przelewa
+Brandywina.
+~
+0 0 1
+D1
+To the east runs Bywater Road.
+~
+~
+0 -1 1120
+D2
+An entrance to the watermill lies to the south.
+~
+~
+0 -1 1123
+D3
+A small hill to the west blocks your view.
+~
+~
+0 -1 1126
+S
+#1123
+Entrance to Watermill~
+You stand at the entrance to a watermill.  You hear the bustle of busy
+workers and the sound of a creaking mill.  Bywater Road is to the north while
+the watermill continues to the south.
+~
+0 0 0
+D0
+You see Bywater Road to the north.
+~
+~
+0 -1 1122
+D2
+A watermill meets your gaze.
+~
+~
+0 -1 1124
+S
+#1124
+The Watermill~
+Halfling workers are scattered everywhere, busy at work.  You see the river
+to the west and get a compelling urge to grab the nearest worker and to toss
+him into the river.  The entrance stands to the north while a door offers
+passage to the south.
+~
+0 8 0
+D0
+You see the entrance.
+~
+~
+0 -1 1123
+D2
+A wooden door leads to the rear of the watermill.
+~
+door~
+1 0 1125
+S
+#1125
+Rear of watermill~
+You stand in a damp, dimly lit room.  Mildew clings to the walls and it
+appears as if you were the first person to enter the room in ages.  A barely
+visible portal in the ground catches your eye.
+~
+0 8 0
+D0
+A watermill meets your gaze.
+~
+~
+0 -1 1124
+D5
+A hidden portal reveals a passageway down.
+~
+~
+0 -1 1146
+S
+#1126
+Took Hill~
+You stand on top of Took Hill, named after the legendary Bandobras Took.
+You feel honored to be standing on a hill named after your hero.  From this
+vantage point you can see all of shiredom.  You get the feeling that with
+one stomp you could eliminate their great city.  You can see the outline of
+Midgaard to the far east.  Sounds of joyful celebration are heard from the
+fields west of here.  The Brandywine flows by lazily nearby.
+~
+0 0 4
+D1
+To the east runs Bywater Road.
+~
+~
+0 -1 1122
+D3
+You see a grassy field to the west.
+~
+~
+0 -1 1128
+S
+#1127
+Northern end of grassy field~
+You stand in a grassy field--nothing to get too excited about.  The field
+extends toward the south and the west.  To the east you see Took Hill.
+~
+0 0 2
+D2
+You see a grassy field.
+~
+~
+0 -1 1128
+S
+#1128
+Zielona laka~
+Stoisz na wielkiej zielonej lace. Odbywa sie tu huczne, urodzinowe przyjecie.
+Wielkie stoly uginaja sie pod stosami jedzenia,  ktore jest rozrzucane przez
+mlode hobbiciatka. Prawdziwa hobbicka pieknosc wita cie na przyjeciu i zaprasza
+do stolu, jednoczesnie niejednoznacznie mrugajac.
+~
+0 0 2
+D0
+You see a grassy field.
+~
+~
+0 -1 1127
+D1
+A small hill to the east blocks your view.
+~
+~
+0 -1 1126
+D2
+You see a grassy field.
+~
+~
+0 -1 1129
+D3
+You see a grassy field.
+~
+~
+0 -1 1130
+S
+#1129
+Southern end of grassy field~
+You stand in a grassy field--nothing to get too excited about.  The field
+extends toward the north and the west.  To the east you see Took Hill.
+~
+0 0 2
+D0
+You see a grassy field.
+~
+~
+0 -1 1128
+S
+#1130
+Western end of grassy field~
+You stand in a grassy field--nothing to get too excited about.  The field
+extends every which way but west.
+~
+0 0 2
+D1
+You see a grassy field.
+~
+~
+0 -1 1128
+S
+#1131
+Brandywine Bridge~
+You stand on a solidly built bridge.  As you look down you spy gaily
+colored fish swimming with the current of Brandywine River.  The cool water
+looks invitingly refreshing and you get a sudden urge to strip and bathe in
+the river, but you hear the laughter of women nearby and so resist the urge.
+Delving Lane extends to the north while Bywater Road can be seen to the south.
+~
+0 0 1
+D0
+You see Delving Lane.
+~
+~
+0 -1 1132
+D2
+To the south runs Bywater Road.
+~
+~
+0 -1 1120
+S
+#1132
+Delving Lane~
+Delving Lane runs north and south in this small borough of the Shire.  To 
+the south stands Brandywine Bridge.  The Green Dragon, the undisputed leader
+in the art of innkeeping, offers rest and comfort to the east.  You hear the
+bray of horses from the west.
+~
+0 0 1
+D0
+You see Delving Lane.
+~
+~
+0 -1 1133
+D2
+Brandywine Bridge offers safe passage across the tumultuous river.
+~
+~
+0 -1 1131
+D1
+The Green Dragon offers food, drink, and above all hospitality for mere gold.
+~
+~
+0 -1 1144
+S
+#1133
+Delving Lane~
+Delving Lane runs north and south in this small borough of the Shire.  A 
+large, imposing building lies to the east.  You hear the bray of horses from
+the west.
+~
+0 0 1
+D0
+You see Delving Lane.
+~
+~
+0 -1 1134
+D1
+A large, imposing building lies to the east.  A sign reads 'Shiriff Post'.
+~
+~
+0 -1 1145
+D2
+You see Delving Lane.
+~
+~
+0 -1 1132
+D3
+You see a grassy field.
+~
+~
+0 -1 1138
+S
+#1134
+Delving Lane~
+Delving Lane runs north and south in this small borough of the Shire. There
+is a small house to the west, nothing to the east, and up ahead you see a round
+door which leads to a rather impressive abode.
+~
+0 0 1
+D0
+A large, magnificent house meets your steady gaze.  Above the round door a
+sign reads 'Bag End'.
+~
+~
+1 -1 1135
+D2
+You see Delving Lane.
+~
+~
+0 -1 1133
+S
+#1135
+Bag End~
+You stand in a comfortably well-equipped house, a palace by humble halfling
+standards.  On the wall you see a banner which reads "Home Sweet Home".
+A solid oak door to the east leads to a pantry while you see a cozy bedroom
+to the west.
+~
+0 8 0
+D1
+Through the keyhole you see what looks like a well stocked pantry.
+~
+door~
+1 -1 1137
+D2
+You see Delving Lane.
+~
+~
+0 -1 1134
+D3
+You see a bedroom.  It looks like the beds have recently been slept in.
+~
+~
+0 -1 1136
+S
+#1136
+Bedroom~
+You stand in the private bedroom of Bag End.  There are two beds to the
+side, neither of which are made.  Portraits of halflings hang on the wall,
+and as you gaze upon them you come to the conclusion that the owner of
+Bag End comes from a long line of distinguished halflings.  A cozy fire
+in the fireplace keeps the room warm and comfortable.
+~
+0 8 0
+D1
+Through the doorway you see the main room of Bag End.
+~
+~
+0 -1 1135
+S
+#1137
+Pantry~
+You are inside the pantry.  Shelves filled with food and drink surround
+you on all sides.  You wonder why a halfling would need so much to eat.
+The presence of something unseen chills you to your bones.  On the floor
+you spy a trapdoor.
+~
+0 8 0
+D3
+Beyond the door you see the main room of Bag End.
+~
+door~
+1 -1 1135
+D5
+It's anyone's guess as to where the trapdoor leads.
+~
+~
+0 -1 1156
+S
+#1138
+A grassy field~
+You stand upon a grassy field.  A bull stands grazing not far away and
+out of the corner of your eye you can see him considering you.  The sound
+of animals fill the air from the north.  To the south you see a pig pen.
+~
+0 0 2
+D0
+You see a large barn.
+~
+~
+0 -1 1142
+D1
+You see Delving Lane.
+~
+~
+0 -1 1133
+D2
+A rather large pig pen is to the south.
+~
+~
+0 -1 1139
+S
+#1139
+Pig pen~
+You feel your boots sinking into the mud.  Numerous pigs roam about,
+oblivious to your company.  A grassy field is to the north while you see
+a small path winding to the west.
+~
+0 0 1
+D0
+You see a grassy field.
+~
+~
+0 -1 1138
+D3
+A small path winds its way eastward.
+~
+~
+0 -1 1140
+S
+#1140
+A stony path~
+You walk on a stony path which leads to a small residence to the north.
+From the east you hear the noisy din of pigs.
+~
+0 0 1
+D0
+To the north you see a modest house.
+~
+~
+0 -1 1141
+D1
+A rather large pig pen is to the east.
+~
+~
+0 -1 1139
+S
+#1141
+Gamgee Residence~
+You stand inside a modest home.  You deduce that this is indeed the home
+of whomever owns the surrounding lands.  The air is somewhat musty and 
+the smell reminds you of a stable.  As you look around disdainfully, you
+think to yourself that this is more of a shack than a proper residence and
+you long for the urban riches of the Shire proper.
+~
+0 8 0
+D2
+You see a small path winding its way southward.
+~
+~
+0 -1 1140
+S
+#1142
+A barn~
+Animals of every sort fill the small barn.  You feel the hot breath of
+horses and cows on your neck and you feel the sudden need for fresh air.
+Other than that, you feel cozy and protected and don't mind staying for a
+bit longer.  All the warmth and good vibes remind you of the days when your
+mother would hold you in her arms and sing you to sleep.  You find yourself
+wanting to cradle all the animals.
+~
+0 8 0
+D0
+You see a chicken coop to the north.
+~
+~
+0 -1 1143
+D2
+You see a grassy field.
+~
+~
+0 -1 1138
+S
+#1143
+Kurnik~
+Znajdujesz sie wewnatrz, raczej zatloczonego, kurnika. Kilka wysiadujacych
+jajka kur jest odpowiedzialnych za straszliwy halas panujacy w tym miejscu.
+Jedyne wyjscie lezy na poludniu.
+~
+0 8 0
+D2
+You see a large barn.
+~
+~
+0 -1 1142
+S
+#1144
+The Green Dragon~
+Welcome to the Green Dragon, the undisputed leader in the art of
+innkeeping.  A rather charming and friendly hostess stands to the side,
+ready to offer you food and drink.  While most of the patrons are halfling
+locals, you spy an occasional human or two.  As you listen more closely
+to the conversations that fill the inn, you hear the tales of great and
+seasoned adventurers as well as the usual gossip.  You feel as if you've
+found your second home in the Green Dragon.  You see a stairway leading
+upwards.
+~
+0 8 0
+D3
+You see Delving Lane.
+~
+~
+0 -1 1132
+D4
+You see the reception.
+~
+~
+0 -1 1157
+S
+#1145
+Shiriff Post of Delving Lane~
+You are in the Shiriff Post which acts as the nucleus for the three shiriffs
+of Delving Lane.  As you examine the shiriffs on duty, you come to realize
+that the halflings of the Shire are not to be reckoned with.  You cower with
+awe.  The only exit is to the west.
+~
+0 8 0
+D3
+You see Delving Lane.
+~
+~
+0 -1 1133
+S
+#1146
+Ciemny tunel~
+Stoisz w niewielkim podziemnym tunelu. Strop jest tak nisko, ze musisz
+schylac sie, zeby nie walnac sie w glowe. Widzisz swiatlo dochodzace
+z niewielkiej dziury w suficie. Na wschodzie nie widac nic, oprocz ciemnosci.
+~
+0 9 0
+D1
+Widzisz ciemny tunel.
+~
+~
+0 -1 1147
+D4
+Widzisz wejscie do malego pokoju.
+~
+~
+0 -1 1125
+S
+#1147
+Ciemny tunel~
+Stoisz w niewielkim podziemnym tunelu. Strop jest tak nisko, ze musisz
+schylac sie, zeby nie walnac sie w glowe. Tunel biegnie dalej na wschod
+i na zachod. Nie widzisz nic oprocz ciemnosci.
+~
+0 9 0
+D1
+Widzisz ciemny tunel.
+~
+~
+0 -1 1148
+D3
+Widzisz ciemny tunel.
+~
+~
+0 -1 1146
+S
+#1148
+Ciemny tunel~
+Stoisz w niewielkim podziemnym tunelu. Strop jest tak nisko, ze musisz
+schylac sie, zeby nie walnac sie w glowe. Tunel biegnie dalej na wschod
+i na zachod. Nie widzisz nic oprocz ciemnosci.
+~
+0 9 0
+D1
+Widzisz ciemny tunel.
+~
+~
+0 -1 1149
+D3
+Widzisz ciemny tunel.
+~
+~
+0 -1 1147
+S
+#1149
+A three way intersection~
+You stand at an intersection.  The tunnel continues east and west while
+to the north you can barely make out a smaller trail.
+~
+0 9 0
+D0
+You see a dark tunnel.
+~
+~
+0 -1 1151
+D1
+You see a dark tunnel.
+~
+~
+0 -1 1150
+D3
+You see a dark tunnel.
+~
+~
+0 -1 1148
+S
+#1150
+End of a dark tunnel~
+You stand at the end of a dark tunnel.  The underground tunnel continues
+to the west.  From a trapdoor in the ceiling you can hear the din of
+adventurers.
+~
+0 9 0
+D3
+You see a dark tunnel.
+~
+~
+0 -1 1149
+S
+#1151
+A dark tunnel~
+You stand inside a small underground tunnel.  The ceiling is so low that
+you must crouch to avoid hitting your head.  The tunnel continues north and
+south.  To the west you see a Shirriff Post while to the east lies a small
+home.  All you can see is darkness.
+~
+0 9 0
+D0
+You see a dark tunnel.
+~
+~
+0 -1 1152
+D1
+You see a halfling hole.
+~
+~
+0 -1 1154
+D2
+You see a dark tunnel.
+~
+~
+0 -1 1149
+D3
+Above a great oak door you see a sign which reads 'Shirriff Post'.
+~
+~
+0 -1 1153
+S
+#1152
+A dark tunnel~
+You stand inside a small underground tunnel.  The ceiling is so low that 
+you must crouch to avoid hitting your head.  The tunnel continues north and
+south.  To the west lies a small home.  All you can see is darkness.
+~
+0 9 0
+D0
+You see a dark tunnel.
+~
+~
+0 -1 1156
+D2
+You see a dark tunnel.
+~
+~
+0 -1 1151
+D3
+You see a halfling hole.
+~
+~
+0 -1 1155
+S
+#1153
+Biuro Szeryfow Poludniowej Cwiartki~
+Znajdujesz sie w Biurze Szeryfow, ktore sluzy za baze wypadowa dla trzech
+szeryfow ze Poludniowej Cwiartki. Gdy przygladasz sie szeryfom podczas ich
+pracy, zauwazasz ze nie sa oni najlepsi w tym co robia. No coz w koncu to
+hibbici. Na wschodzie widzisz jakies drzwi.
+~
+0 9 0
+D1
+You see a dark tunnel.
+~
+~
+0 -1 1151
+S
+#1154
+A halfling hole~
+You stand inside a rather crudely built halfling hole.  The many passageways
+and winding paths remind you of a rodent's lair.  The air is musty and damp
+and you feel the need for fresh air.
+~
+0 9 0
+D3
+You see a dark tunnel.
+~
+~
+0 -1 1151
+S
+#1155
+A halfling hole~
+You stand inside a rather crudely built halfling hole.  The many passageways
+and winding paths remind you of a rodent's lair.  The air is musty and damp
+and you feel the need for fresh air.
+~
+0 9 0
+D1
+You see a dark tunnel.
+~
+~
+0 -1 1152
+S
+#1156
+End of a dark tunnel~
+You are at one end of a dark tunnel.  The tunnel continues to the south
+while on the ceiling you can make out a trapdoor.
+~
+0 9 0
+D2
+You see a dark tunnel.
+~
+~
+0 -1 1152
+D4
+A trapdoor on the ceiling reveals a passageway.
+~
+~
+0 -1 1137
+S
+#1157
+The Inn of the Green Dragon~
+You are standing in the Inn of the Green dragon.  Large paintings of 
+halflings at work, and halflings at play adorn the walls.  Comfortable 
+benches and seats line the walls.  A stairway leads down.
+~
+0 24 0
+D5
+~
+~
+0 -1 1144
+S
+#0
+
+
+#RESETS
+O 0 1102 1 1103
+M 0 1132 1 1104
+M 0 1118 1 1105
+G 1 1112 999
+G 1 1111 999
+M 0 1120 1 1107
+M 0 1104 2 1108
+M 0 1104 2 1108
+M 0 1103 6 1108
+M 0 1103 6 1108
+M 0 1103 6 1108
+M 0 1103 6 1108
+M 0 1103 6 1108
+M 0 1103 6 1108
+M 0 1110 8 1110
+E 1 1109 9 16
+M 0 1110 8 1110
+M 0 1111 4 1110
+M 0 1112 1 1111
+E 1 1108 5 13
+E 1 1113 100 16
+M 0 1128 4 1114
+G 1 1103 99
+M 0 1128 4 1115
+G 1 1103 99
+M 0 1113 1 1116
+G 1 1110 999
+M 0 1123 4 1116
+M 0 1123 4 1116
+M 0 1124 2 1116
+M 0 1124 2 1116
+M 0 1127 7 1116
+M 0 1127 7 1116
+M 0 1127 7 1116
+M 0 1121 1 1117
+E 1 1113 100 16
+M 0 1126 3 1117
+E 1 1113 100 16
+M 0 1126 3 1117
+E 1 1113 100 16
+M 0 1126 3 1117
+E 1 1113 100 16
+M 0 1110 8 1119
+E 1 1109 3 16
+M 0 1110 8 1119
+M 0 1111 4 1119
+M 0 1119 1 1121
+G 1 1103 999
+M 0 1115 6 1123
+M 0 1115 6 1123
+M 0 1115 6 1124
+M 0 1115 6 1124
+M 0 1115 6 1124
+M 0 1114 1 1124
+M 0 1115 6 1125
+M 0 1122 9 1127
+M 0 1122 9 1127
+M 0 1122 9 1127
+M 0 1125 1 1128
+M 0 1100 1 1128
+E 1 1100 1 0
+E 1 1104 1 12
+M 0 1122 9 1129
+M 0 1122 9 1129
+M 0 1122 9 1129
+M 0 1122 9 1130
+M 0 1122 9 1130
+M 0 1122 9 1130
+M 0 1116 1 1136
+E 1 1106 1 16
+M 0 1117 1 1136
+E 1 1107 1 16
+M 0 1101 1 1137
+E 1 1105 10 1
+E 1 1101 1 16
+M 0 1108 1 1138
+M 0 1106 5 1139
+M 0 1106 5 1139
+M 0 1106 5 1139
+M 0 1106 5 1139
+M 0 1106 5 1139
+M 0 1102 1 1141
+M 0 1105 3 1142
+M 0 1105 3 1142
+M 0 1105 3 1142
+M 0 1109 4 1142
+M 0 1109 4 1142
+M 0 1109 4 1142
+M 0 1109 4 1142
+M 0 1107 6 1143
+G 1 1110 100
+M 0 1107 6 1143
+G 1 1110 100
+M 0 1107 6 1143
+G 1 1110 100
+M 0 1107 6 1143
+G 1 1110 100
+M 0 1107 6 1143
+G 1 1110 100
+M 0 1107 6 1143
+G 1 1110 100
+M 0 1130 1 1144
+G 1 1110 999
+M 0 1123 6 1144
+M 0 1123 6 1144
+M 0 1123 6 1144
+M 0 1127 7 1144
+M 0 1127 7 1144
+M 0 1127 7 1144
+M 0 1127 7 1144
+M 0 1110 8 1145
+E 1 1109 3 16
+M 0 1110 8 1145
+M 0 1111 4 1145
+M 0 1110 8 1153
+E 1 1109 3 16
+M 0 1110 8 1153
+M 0 1111 4 1153
+M 0 1128 4 1154
+M 0 1128 4 1155
+M 0 1131 1 1157
+S
+
+
+#SHOPS
+ 1113   17 19  0  0  0   150  50         0 23    ; karczmarz
+ 1118   13  5 15  1 17   150  50         0 23    ; sklepikarz
+ 1119   13  5 15  1 17   150  50         0 23    ; piekarz
+ 1120    9  5  0  0  0   150  50         0 23    ; kowal
+ 1130   17  0  0  0  0   150  50         0 23    ; Oberzysta
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  1100 spec_cast_mage
+M  1101 spec_poison
+M  1110 spec_guard
+M  1111 spec_guard
+M  1112 spec_guard
+M  1116 spec_cast_mage
+M  1117 spec_cast_mage
+M  1121 spec_guard
+M  1122 spec_thief
+M  1132 spec_guard
+S
+
+
+#$

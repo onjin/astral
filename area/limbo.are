@@ -1,0 +1,1759 @@
+#AREA   Limbo~
+
+
+
+#VERSION 3
+#AUTHOR RoD~
+
+#RANGES
+0 60 0 60
+$
+
+#FLAGS
+12
+
+#ECONOMY 0 44840000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#1
+Puff~
+Puff~
+Puff~
+Puff~
+Puff~
+Puff~
+Puff~
+Puff~
+Puff the Fractal Dragon is here, contemplating a higher reality.
+~
+~
+3 4194856 1000 C
+50 20 -30 5d10+30550 4d10+200
+10000 1000
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 0 0 0 3420515 3420515 0
+0 0 0 0 3156992 0 2 3
+> speech_prog test~
+say triggered by (name):	$n
+say triggered by (name&title): 	$N
+say triggerer is (he,she,it):	$e
+say triggerer is (him,her,it):	$m
+say triggerer is (his,hers,its):$s
+say random char (name):		$r
+say random char (name&title or short): 	$R
+say random char  (he,she,it):	$J
+say random char (him,her,it):	$L
+say random char (his,hers,its):	$K
+~
+> speech_prog test2~
+say firstname of obj:	 	$i
+say short_desc/title of obj: 	$I
+say he/she/it of obj:	 	$j
+say him/her/it of obj:	 	$k
+say his/hers/its of obj:	$l
+say firstname of victim: 	$t
+say short_desc/title of victim:	$T
+say he/she/it of victim: 	$E
+say him/her/it of victim: 	$M
+say his/hers/its of victim:	$S
+~
+|
+#2
+demon imp~
+A demon imp~
+A demon imp~
+A demon imp~
+A demon imp~
+A demon imp~
+A demon imp~
+A demon imp~
+A demon imp hovers nearby...drooling constantly with a fiendish grin.
+~
+This demon is clearly something that you don't want to mess with...
+It appears to be very agile, and very strong.  
+~
+3 40 -1000 S
+50 1 -300 5d10+31550 1d2+2
+10000 155000
+112 112 0
+> act_prog p is dying~
+mpforce $n drink
+c heal $n
+~
+> act_prog p is starved~
+mpoload 20
+give mushroom $n
+mpforce $n eat mushroom
+cast heal $n
+~
+> act_prog p bashes against~
+cast heal $n
+cast heal $n
+~
+> act_prog p shivers and~
+cast 'cure poison' $n
+cast heal $n
+~
+> act_prog p wears~
+c heal $n
+c heal $n
+~
+> act_prog p wields~
+c heal $n
+c heal $n
+~
+> act_prog p is DEAD!!~
+mptrans $n 8
+~
+|
+#3
+supermob~
+the supermob~
+the supermob~
+the supermob~
+the supermob~
+the supermob~
+the supermob~
+the supermob~
+The supermob is here.  He looks busy as hell.
+~
+How clever he looks!
+~
+2105345 4259882 -1000 S
+50 1 -300 5d10+31550 1d2+2
+10000 155000
+112 112 0
+> rand_prog 25~
+mpinvis 51
+~
+|
+#5
+undead animated corpse~
+an animated corpse~
+an animated corpse~
+an animated corpse~
+an animated corpse~
+an animated corpse~
+an animated corpse~
+an animated corpse~
+An animated corpse struggles with the horror of its undeath.
+~
+Denied its rightful death, this animated corpse has been infused with the
+powerful energies of its master.  It exists on the precipice between life
+and unlife, even as its physical body rots and decays under the strain of
+its tasks.
+~
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 7 0 0 0 0 0
+#10
+wolf~
+a deadly wolf~
+a deadly wolf~
+a deadly wolf~
+a deadly wolf~
+a deadly wolf~
+a deadly wolf~
+a deadly wolf~
+A deadly wolf prowls around you with a vengeance
+~
+While this large beast circles you, you have a chance to see its large          
+fangs and its sharp claws.  The wolf's eyes are small, black and have           
+the aura of a deadly intent.  Its raggedy coat tells of a recent battle         
+with something.
+~
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 135445263 135445263 2
+0 0 0 0 0 0 3 0
+#11
+mist~
+mist~
+mist~
+mist~
+mist~
+mist~
+mist~
+mist~
+A thick mist plays with your senses.
+~
+Is it the fog you see?  Or are your eyes playing deadly tricks on you.  The
+mist swirls around you and then quickly disappears before you can blink.  You
+suddenly find yourself overcome with an unknown power.
+~
+1073741825 2129920 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 135447947 135447947 2
+0 0 0 0 0 0 35651584 0
+#12
+bat~
+bat~
+bat~
+bat~
+bat~
+bat~
+bat~
+bat~
+A bat hovers nearby with bloody fangs.
+~
+As this bloodsucking creature flies past you, you notice the tiny black
+eyes that stare at your jugular vein.  This little black bat has the
+intentions of drinking your blood until there is none left in your body.
+~
+1073741825 524288 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 3 0 0 1996514925 1996514924 2
+0 0 0 0 0 0 3 0
+#13
+hawk~
+hawk~
+hawk~
+hawk~
+hawk~
+hawk~
+hawk~
+hawk~
+A hawk watches you with predatory eyes from its perch.
+~
+This proud creature stands upon its perch watching you with unblinking
+eyes.  Any movement made by you could make it flare its wings in disapproval
+and open its beak to scream its intent.  Its long beak open and before you
+know what has happened, it comes flying towards you.
+~
+1073741825 524288 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 135448667 135448666 2
+0 0 0 0 0 0 2 0
+#14
+black cat~
+black cat~
+black cat~
+black cat~
+black cat~
+black cat~
+black cat~
+black cat~
+A black cat has crossed your path with deadly intent.
+~
+With a furry black coat, and big yellow eyes, this cat gracefully walks
+across your path, bringing you several years of bad luck.  Its tail moves
+slowly to tell you that it is laughing at your misfortune.
+~
+1073741825 8 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+29 3 0 0 6645091 6645090 2
+0 0 0 0 0 0 3 0
+#15
+dove~
+dove~
+dove~
+dove~
+dove~
+dove~
+dove~
+dove~
+A beautiful dove sings a melancholy melody from its nest.
+~
+With feathers the colour of soft grey and soft loving black eyes, this small
+delicate creature sings you a tune full of romance.  The tune it sings comes
+from the small breast that rises and falls with every chorus it sings.  You
+are at peace as you listen to this lovable creature.
+~
+1073741825 524288 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 135448667 135448666 1
+0 0 0 0 0 0 2 0
+#16
+fish~
+fish~
+fish~
+fish~
+fish~
+fish~
+fish~
+fish~
+A fish blows large bubbles as it quickly swims past you.
+~
+With fins, teeth and gills, this slippery little thing is hard to catch.
+It swims with a speed no beast, human or animal can compete with.  It's
+tiny eyes, move with every breath.  It blows several large bubbles as it
+quickly swims past you.
+~
+1073741825 -2147483648 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 135448379 135448378 1
+0 0 0 0 0 0 0 0
+#17
+Avatar~
+Avatar~
+Avatar~
+Avatar~
+Avatar~
+Avatar~
+Avatar~
+Avatar~
+Avatar zostal zeslany tu przez Bogow.
+~
+~
+1 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+#20
+szkielet~
+szkielet~
+a guardian vampire~
+a guardian vampire~
+a guardian vampire~
+a guardian vampire~
+a guardian vampire~
+a guardian vampire~
+SzKiElEt
+~
+~
+1073741825 0 -1000 C
+25 0 -4 1d1+385 4d5+15
+0 105000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1735 0 0 0 33558528 0
+#21
+zombie~
+zombie~
+zombie~
+zombie~
+zombie~
+zombie~
+zombie~
+zombie~
+ZoMbIe
+~
+~
+1073741825 0 -1000 C
+25 0 -4 1d1+385 4d5+15
+0 105000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1735 0 0 0 33558528 0
+#80
+guardian vampire~
+a guardian vampire~
+a guardian vampire~
+a guardian vampire~
+a guardian vampire~
+a guardian vampire~
+a guardian vampire~
+a guardian vampire~
+A vampire is here hiding his face from your light source.
+~
+Before you stands a guardian vampire, looking quite evil to say the least.
+The hair on your arms is raised by its presence alone, and it seems to you
+that he appears too formidable to be a minor minion.
+~
+35 40 -1000 C
+25 0 -4 1d1+385 4d5+15
+0 105000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 7562607 7562606 0
+0 0 1735 0 0 0 33558528 0
+#99
+final mob~
+a newly created final mob~
+a newly created final mob~
+a newly created final mob~
+a newly created final mob~
+a newly created final mob~
+a newly created final mob~
+a newly created final mob~
+Some god abandoned a newly created final mob here.
+~
+~
+1073741825 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#2
+coin gold zlota moneta~
+zlota moneta~
+zlotej monety~
+zlotej monecie~
+zlota monete~
+zlota moneta~
+zlotej monecie~
+zlota moneto~
+Jedna zlota moneta.~
+~
+20 0 1
+1 0 0 0
+1 0 0
+#3
+coins gold zlote monety~
+%d gold coins~
+%d gold coins~
+%d gold coins~
+%d gold coins~
+%d gold coins~
+%d gold coins~
+%d gold coins~
+A pile of gold coins.~
+~
+20 0 1
+0 0 0 0
+1 0 0
+#10
+corpse cialo~
+cialo %s~
+ciala %s~
+cialu %s~
+cialo %s~
+cialem %s~
+ciele %s~
+cialo %s~
+Cialo %s lezy tutaj.~
+~
+23 0 1
+0 0 0 1
+100 0 0
+#11
+corpse cialo~
+cialo %s~
+ciala %s~
+cialu %s~
+cialo %s~
+cialem %s~
+ciele %s~
+cialo %s~
+Cialo %s lezy tutaj.~
+~
+24 0 0
+0 0 0 1
+100 0 0
+#12
+head glowa~
+glowa %s~
+glowy %s~
+glowie %s~
+glowe %s~
+glowa %s~
+glowie %s~
+glowo %s~
+Odcieta glowa %s lezy tutaj.~
+%s gobble$q down $p with gusto... disgusting!~
+19 0 1
+10 0 0 0
+5 0 0
+#13
+heart serce~
+serce %s~
+serca %s~
+sercu %s~
+serce %s~
+sercem %s~
+sercu %s~
+serce %s~
+Wyrwane serce %s lezy tutaj.~
+%s savagely devour$q $p!~
+19 0 1
+16 0 0 0
+2 0 0
+#14
+arm reka~
+reka %s~
+reki %s~
+rece %s~
+reke %s~
+reka %s~
+rece %s~
+reko %s~
+Odcieta reka %s lezy tutaj.~
+%s chomp$q on $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#15
+leg noga~
+noga %s~
+nogi %s~
+nodze %s~
+noge %s~
+noga %s~
+nodze %s~
+noga %s~
+Odcieta noga %s lezy tutaj.~
+%s chomp$q on $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#16
+guts flaki~
+rozwalone flaki %s~
+rozwalone flaki %s~
+rozwalone flaki %s~
+rozwalone flaki %s~
+rozwalone flaki %s~
+rozwalone flaki %s~
+rozwalone flaki %s~
+Widok rozwalonych flakow %s sprawia, ze tracisz apetyt.~
+~
+13 0 0
+5 0 0 1
+1 0 0
+#17
+krew kaluza spilled blood~
+kaluza krwi~
+kaluzy krwi~
+kaluzy krwi~
+kaluze krwi~
+kaluza krwi~
+kaluzy krwi~
+kaluzo krwi~
+Kaluza czyjejs krwi powoli wsiaka w podloze.~
+~
+27 0 0
+5 0 0 1
+1 0 0
+#18
+bloodstain plama krwi~
+plama krwi~
+plamy krwi~
+plamie krwi~
+plame krwi~
+plama krwi~
+plamie krwi~
+plamo krwi~
+Krwista plama ubarwia tu podloze.~
+~
+28 0 0
+5 0 0 1
+1 0 0
+#19
+scraps szczatki~
+szczatki %s~
+szczatkow %s~
+szczatkom %s~
+szczatki %s~
+szczatkami %s~
+szczatkach %s~
+szczatki %s~
+Szczatki %s leza tutaj.~
+~
+29 0 1
+5 0 0 1
+1 0 0
+#20
+magiczna pieczarka mushroom~
+magiczna pieczarka~
+magicznej pieczarki~
+magicznej pieczarce~
+magiczna pieczarke~
+magiczna pieczarka~
+magicznej pieczarce~
+magiczna pieczarko~
+Znajduje sie tu pyszna magiczna pieczarka.~
+~
+19 0 1
+5 0 0 0
+1 10 1
+#21
+kula swiatlo ball light~
+kula swiatla~
+kuli swiatla~
+kuli swiatla~
+kule swiatla~
+kula swiatla~
+kuli swiatla~
+kulo swiatla~
+Lsniaca kula swiatla unosi sie w powietrzu.~
+~
+1 0 1
+0 0 -1 0
+1 0 0
+#22
+spring magiczne zrodlo~
+magiczne zrodlo~
+magicznego zrodla~
+magicznemu zrodlu~
+magiczne zrodlo~
+magicznym zrodlem~
+magicznym zrodle~
+magiczne zrodlo~
+Wody powoli wyplywa z magicznego zrodla.~
+~
+25 64 0
+100000 100000 0 0
+10 10 1
+#23
+skin skora~
+skora z ciala %s~
+skory z ciala %s~
+skorze z ciala %s~
+skore z ciala %s~
+skora z ciala %s~
+skorze z ciala %s~
+skoro z ciala %s~
+Okrwawiona skora z ciala %s.~
+~
+9 0 16385
+0 0 0 0
+1 0 0
+#24
+meat fresh slice~
+a slice of raw meat from %s~
+a slice of raw meat from %s~
+a slice of raw meat from %s~
+a slice of raw meat from %s~
+a slice of raw meat from %s~
+a slice of raw meat from %s~
+a slice of raw meat from %s~
+A slice of raw meat from %s lies lies on the ground.~
+~
+19 262144 1
+15 0 0 0
+2 0 0
+#25
+shopping bag torba~
+torba~
+torby~
+torbie~
+torbe~
+torba~
+torbie~
+torbo~
+Ktos porzucil tu torbe na zakupy.~
+~
+15 0 1
+50 0 0 0
+2 20 2
+#30
+fire magiczny ogien~
+magiczny ogien~
+magicznego ognia~
+magicznemu ogniowi~
+magiczny ogien~
+magicznym ogniem~
+magicznym ogniu~
+magiczny ogniu~
+Magiczny ogien pali sie jasnym plomieniem.~
+~
+34 64 0
+0 0 0 0
+10 10 1
+#31
+trap~
+a trap~
+a trap~
+a trap~
+a trap~
+a trap~
+a trap~
+a trap~
+You detect a trap.~
+~
+44 0 0
+0 0 0 0
+100 10 1
+#32
+portal~
+portal~
+portalu~
+portalowi~
+portal~
+portalem~
+portalu~
+portalu~
+Mglisty portal prowadzi w nieznane.~
+~
+46 64 0
+0 0 0 0
+100 10 1
+#33
+black poison powder proszek czarny trucizna~
+trujacy proszek~
+trujacego proszku~
+trujacemu proszkowi~
+trujacy proszek~
+trujacym proszkiem~
+trujacym proszku~
+trujacy proszeku~
+Puzderko z niewielka iloscia trujacego proszku lezy na ziemi.~
+~
+13 0 16385
+0 0 0 0
+1 48000 4800
+#34
+scroll scribing blank pergamin czysty~
+czysty pergamin~
+czystego pergaminu~
+czystemu pergaminowi~
+czysty pergamin~
+czystym pergaminem~
+czystym pergaminie~
+czysty pergaminie~
+Czysty pergamin poniewiera sie na ziemi.~
+~
+2 0 16385
+0 -1 -1 -1
+2 10000 1000
+'NONE' 'NONE' 'NONE'
+#35
+flask empty pusta flaszka~
+pusta flaszka~
+pustej flaszki~
+pustej flaszce~
+pusta flaszke~
+pusta flaszka~
+pustej flaszce~
+pusta flaszko~
+Pusta flaszka poniewiera sie na ziemi.~
+~
+10 0 16385
+1 -1 -1 -1
+1 15000 1500
+'NONE' 'NONE' 'NONE'
+#36
+parchment paper note~
+notka~
+notki~
+notce~
+notke~
+notka~
+notce~
+notko~
+Kto porzucil tu czysta notke.~
+~
+47 0 16385
+0 0 0 0
+1 1500 150
+#37
+quill pen pioro~
+gesie pioro~
+gesiego piora~
+gesiemu pioru~
+gesie pioro~
+gesim piorem~
+gesim piorze~
+gesie pioro~
+Lezy tu pioro poplamione atramentem.~
+~
+21 0 1
+15 15 0 0
+2 2000 200
+#43
+holy symbol faith symbol wiary~
+symbol wiary~
+symbolu wiary~
+symbolowi wiary~
+symbol wiary~
+symbolem wiary~
+symbolu wiary~
+symbolu wiary~
+Swiety symbol poniewiera sie w kurzu.~
+~
+9 0 16385
+5 5 0 0
+5 0 0
+A
+4 2
+#44
+brain mozg~
+rozbabrany mozg %s~
+rozbabranego mozgu %s~
+rozbabranemu mozgowi %s~
+rozbabrany mozg %s~
+rozbabranym mozgiem %s~
+rozbabranym mozgu %s~
+rozbabrany mozgu %s~
+Rozbabrany mozg %s lezy tutaj.~
+~
+19 0 1
+16 0 0 0
+2 0 0
+#45
+hand dlon~
+dlon %s~
+dloni %s~
+dloni %s~
+dlon %s~
+dlonia %s~
+dloni %s~
+dloni %s~
+Odcieta reka %s lezy tutaj.~
+~
+19 0 1
+20 0 0 0
+5 0 0
+#46
+foot stopa~
+odcieta stopa %s~
+odcietej stopy %s~
+odcietej stopie %s~
+odcieta stope %s~
+odcieta stopa %s~
+odcietej stopie %s~
+odcieta stopo %s~
+Odcieta stopa %s lezy tutaj.~
+~
+19 0 1
+20 0 0 0
+5 0 0
+#47
+finger palec~
+jeden z palcow %s~
+jednego z palcow %s~
+jednemu z palcow %s~
+jeden z palcow %s~
+jednym z palcow %s~
+jednym z palcow %s~
+jeden z palcow %s~
+Jeden z palcow %s lezy tutaj.~
+~
+19 0 1
+20 0 0 0
+5 0 0
+#48
+ear~
+ucho %s ~
+ucho %s ~
+ucho %s ~
+ucho %s ~
+ucho %s ~
+ucho %s ~
+ucho %s ~
+Odciete ucho %s lezy tutaj.~
+~
+19 0 1
+20 0 0 0
+5 0 0
+#49
+eye oko~
+oko %s~
+oka %s~
+oku %s~
+oko %s~
+okiem %s~
+oku %s~
+oko %s~
+Wylupione oko %s lezy tutaj.~
+~
+19 0 1
+16 0 0 0
+2 0 0
+#50
+tongue jezyk~
+jezyk %s~
+jezyka %s~
+jezykowi %s~
+jezyk %s~
+jezykiem %s~
+jezyku %s~
+jezyku %s~
+Wyrwany jezyk %s lezy tutaj.~
+~
+19 0 1
+20 0 0 0
+5 0 0
+#51
+eyestalk~
+the eyestalk of %s~
+the eyestalk of %s~
+the eyestalk of %s~
+the eyestalk of %s~
+the eyestalk of %s~
+the eyestalk of %s~
+the eyestalk of %s~
+The cutted-off eyestalk of %s lezy tutaj.~
+%s chomp$q on $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#52
+tentacle~
+the tentacle of %s~
+the tentacle of %s~
+the tentacle of %s~
+the tentacle of %s~
+the tentacle of %s~
+the tentacle of %s~
+the tentacle of %s~
+The sliced-off tentacle of %s lezy tutaj.~
+%s chomp$q on $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#53
+fin~
+the fin of %s~
+the fin of %s~
+the fin of %s~
+the fin of %s~
+the fin of %s~
+the fin of %s~
+the fin of %s~
+The sliced-off fin of %s lezy tutaj.~
+%s chomp$q on $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#54
+wing~
+the wing of %s ~
+the wing of %s ~
+the wing of %s ~
+the wing of %s ~
+the wing of %s ~
+the wing of %s ~
+the wing of %s ~
+The sliced-off wing of %s lezy tutaj.~
+%s chomp$q on $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#55
+tail~
+the tail of %s~
+the tail of %s~
+the tail of %s~
+the tail of %s~
+the tail of %s~
+the tail of %s~
+the tail of %s~
+The cutted-off tail of %s lezy tutaj.~
+%s chomp$q on $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#56
+scale~
+the scale of %s~
+the scale of %s~
+the scale of %s~
+the scale of %s~
+the scale of %s~
+the scale of %s~
+the scale of %s~
+The sliced-off scale of %s lezy tutaj.~
+%s chomp$q on $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#57
+tusk~
+the tusk of %s~
+the tusk of %s~
+the tusk of %s~
+the tusk of %s~
+the tusk of %s~
+the tusk of %s~
+the tusk of %s~
+The sliced-off tusk of %s lezy tutaj.~
+%s chomp$q on $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#58
+horn~
+the horn of %s~
+the horn of %s~
+the horn of %s~
+the horn of %s~
+the horn of %s~
+the horn of %s~
+the horn of %s~
+The cutted-off horn of %s lezy tutaj.~
+%s savagely devour$q $p!~
+19 0 1
+16 0 0 0
+2 0 0
+#59
+claw~
+the claw of %s~
+the claw of %s~
+the claw of %s~
+the claw of %s~
+the claw of %s~
+the claw of %s~
+the claw of %s~
+The sliced-off claw of %s leza tutaj.~
+%s chomp$q on $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#64
+medalion~
+srebrny medalion~
+srebrnego medalionu~
+srebrnemu medalionowi~
+srebrny medalion~
+srebrnym medalionem~
+srebrnym medalionie~
+srebrny medalionie~
+W piachu blyszczy kawalek metalu.~
+~
+9 0 5
+0 0 0 0
+1 0 0
+#65
+krzyz~
+srebrny krzyz~
+srebrnego krzyza~
+srebrnemu krzyzowi~
+srebrny krzyz~
+srebrnym krzyzem~
+srebrnym krzyzu~
+srebrny krzyzu~
+Swietlisty krzyz swieci wsrod pylu drogi.~
+~
+9 0 16385
+5 5 0 0
+5 0 0
+#66
+astral blade astralne ostrze~
+astralne ostrze~
+astralnego ostrza~
+astralnemu ostrzu~
+astralne ostrze~
+astralnym ostrzem~
+astralnym ostrzu~
+astralne ostrze~
+Jakis mag wyrzucil tu swoja bron.~
+~
+5 524352 0
+0 0 0 2
+1 0 0
+#67
+szkielet~
+szkielet~
+szkieletu~
+szkieletowi~
+szkielet~
+szkieletem~
+szkielecie~
+szkielecie~
+Na ziemi lezy sterta jakichs kosci...~
+~
+12 0 1
+0 0 0 0
+1 0 0
+#68
+resztki %s~
+resztki %s~
+resztek %s~
+resztkom %s~
+resztki %s~
+resztkami %s~
+resztkach %s~
+resztki %s~
+Roztrzaskane resztki %s leza tutaj.~
+~
+23 0 0
+0 0 0 0
+1 0 0
+#80
+feather~
+the feather of %s~
+the feather of %s~
+the feather of %s~
+the feather of %s~
+the feather of %s~
+the feather of %s~
+the feather of %s~
+The sliced-off feather of %s lezy tutaj.~
+%s chomp$q on $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#81
+foreleg~
+the foreleg of %s~
+the foreleg of %s~
+the foreleg of %s~
+the foreleg of %s~
+the foreleg of %s~
+the foreleg of %s~
+the foreleg of %s~
+The cutted-off foreleg of %s lezy tutaj.~
+%s chomp$q on $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#82
+paw~
+the paw of %s~
+the paw of %s~
+the paw of %s~
+the paw of %s~
+the paw of %s~
+the paw of %s~
+the paw of %s~
+The cutted-off paw of %s lezy tutaj.~
+%s chomp$q on $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#83
+hoove~
+the hoove of %s~
+the hoove of %s~
+the hoove of %s~
+the hoove of %s~
+the hoove of %s~
+the hoove of %s~
+the hoove of %s~
+The cutted-off hoove of %s lezy tutaj.~
+%s chomp$q on $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#84
+beak~
+the beak of %s~
+the beak of %s~
+the beak of %s~
+the beak of %s~
+the beak of %s~
+the beak of %s~
+the beak of %s~
+The cutted-off beak of %s lezy tutaj.~
+%s chomp$q on $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#85
+sharpscale~
+the sharpscale of %s~
+the sharpscale of %s~
+the sharpscale of %s~
+the sharpscale of %s~
+the sharpscale of %s~
+the sharpscale of %s~
+the sharpscale of %s~
+The sliced-off sharpscale of %s lezy tutaj.~
+%s chomp$q on $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#86
+haunch~
+the haunch of %s~
+the haunch of %s~
+the haunch of %s~
+the haunch of %s~
+the haunch of %s~
+the haunch of %s~
+the haunch of %s~
+The cutted-off haunch of %s lezy tutaj.~
+%s chomp$q on $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#87
+fang~
+the fang of %s~
+the fang of %s~
+the fang of %s~
+the fang of %s~
+the fang of %s~
+the fang of %s~
+the fang of %s~
+The sliced-off fang of %s lezy tutaj.~
+%s chomp$q on $p.~
+19 0 1
+20 0 0 0
+5 0 0
+#99
+final object~
+a newly created final object~
+a newly created final object~
+a newly created final object~
+a newly created final object~
+a newly created final object~
+a newly created final object~
+a newly created final object~
+Some god dropped a newly created final object here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#1
+The Void~
+You are floating in nothing.
+~
+0 1076887564 1
+M 9500 0 2 b
+> speech_prog test~
+say triggered by (name):	$n
+say triggered by (name&title): 	$N
+say triggerer is (he,she,it):	$e
+say triggerer is (him,her,it):	$m
+say triggerer is (his,hers,its):$s
+say random char (name):		$r
+say random char (name&title or short): 	$R
+say random char  (he,she,it):	$J
+say random char (him,her,it):	$K
+say random char (his,hers,its):	$L
+~
+> speech_prog test2~
+say firstname of room:	 	$i
+say short_desc/title of room: 	$I
+say he/she/it of room:	 	$j
+say him/her/it of room:	 	$k
+say his/hers/its of room:	$l
+say firstname of victim: 	$t
+say short_desc/title of victim:	$T
+say he/she/it of victim: 	$E
+say him/her/it of victim: 	$M
+say his/hers/its of victim:	$S
+~
+|
+S
+#2
+Limbo~
+You float in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light which fades into the
+relative darkness around you without any trace of edge or shadow.
+~
+0 3146764 1
+D5
+Into the world...
+~
+~
+0 -1 21194
+M 9500 0 1 a
+S
+#3
+Storage~
+This room is reserved for storage of polymorphed players.
+~
+0 3156486 1
+M 9500 0 0 z
+S
+#4
+Storage~
+This room is reserved for future use.
+~
+0 3153932 0
+S
+#8
+Pieklo~
+Zrobiles to... musiales naprawde rozwscieczyc Bogow, bowiem zeslali Cie prosto
+do piekla. Zostaniesz tu pokutujac, dopoki nie uznaja, ze odkupiles swoje
+winy.
+~
+0 36840524 1
+S
+#29
+The Arena~
+You find yourself on the Arena floor.  The roar of the crowd above you
+is overwhelming, while around you ... your opponent awaits your coming.
+~
+0 1076895756 1
+D0
+~
+~
+0 -1 30
+D1
+~
+~
+0 -1 37
+D2
+~
+~
+0 -1 36
+> death_prog 100~
+mpecho A deafening clamor of gleeful shouts rain down from above!
+mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
+mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
+~
+|
+S
+#30
+The Arena~
+You find yourself on the Arena floor.  The roar of the crowd above you
+is overwhelming, while around you ... your opponent awaits your coming.
+~
+0 1076895756 1
+D1
+~
+~
+0 -1 31
+D2
+~
+~
+0 -1 29
+D5
+~
+~
+128 -1 34
+D8
+~
+~
+0 -1 37
+> death_prog 100~
+mpecho A deafening clamor of gleeful shouts rain down from above!
+mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
+mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
+~
+|
+S
+#31
+The Arena~
+You find yourself on the Arena floor.  The roar of the crowd above you
+is overwhelming, while around you ... your opponent awaits your coming.
+~
+0 1076895756 1
+D1
+~
+~
+0 -1 32
+D2
+~
+~
+0 -1 37
+D3
+~
+~
+0 -1 30
+> death_prog 100~
+mpecho A deafening clamor of gleeful shouts rain down from above!
+mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
+mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
+~
+|
+S
+#32
+The Arena~
+You find yourself on the Arena floor.  The roar of the crowd above you
+is overwhelming, while around you ... your opponent awaits your coming.
+~
+0 1076895756 1
+D2
+~
+~
+0 -1 33
+D3
+~
+~
+0 -1 31
+D5
+~
+~
+128 -1 36
+D9
+~
+~
+0 -1 37
+> death_prog 100~
+mpecho A deafening clamor of gleeful shouts rain down from above!
+mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
+mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
+~
+|
+S
+#33
+The Arena~
+You find yourself on the Arena floor.  The roar of the crowd above you
+is overwhelming, while around you ... your opponent awaits your coming.
+~
+0 1076895756 1
+D0
+~
+~
+0 -1 32
+D2
+~
+~
+0 -1 34
+D3
+~
+~
+0 -1 37
+> death_prog 100~
+mpecho A deafening clamor of gleeful shouts rain down from above!
+mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
+mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
+~
+|
+S
+#34
+The Arena~
+You find yourself on the Arena floor.  The roar of the crowd above you
+is overwhelming, while around you ... your opponent awaits your coming.
+~
+0 1076895756 1
+D0
+~
+~
+0 -1 33
+D3
+~
+~
+0 -1 35
+D4
+~
+~
+128 -1 30
+D7
+~
+~
+0 -1 37
+> death_prog 100~
+mpecho A deafening clamor of gleeful shouts rain down from above!
+mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
+mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
+~
+|
+S
+#35
+The Arena~
+You find yourself on the Arena floor.  The roar of the crowd above you
+is overwhelming, while around you ... your opponent awaits your coming.
+~
+0 1076895756 1
+D0
+~
+~
+0 -1 37
+D1
+~
+~
+0 -1 34
+D3
+~
+~
+0 -1 36
+> death_prog 100~
+mpecho A deafening clamor of gleeful shouts rain down from above!
+mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
+mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
+~
+|
+S
+#36
+The Arena~
+You find yourself on the Arena floor.  The roar of the crowd above you
+is overwhelming, while around you ... your opponent awaits your coming.
+~
+0 1076895756 1
+D0
+~
+~
+0 -1 29
+D1
+~
+~
+0 -1 35
+D4
+~
+~
+128 -1 32
+D6
+~
+~
+0 -1 37
+> death_prog 100~
+mpecho A deafening clamor of gleeful shouts rain down from above!
+mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
+mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
+~
+|
+S
+#37
+The Arena~
+You stand in the direct center of the Arena.  Blood pools around your
+feet, and you almost slip in this morbid mess.  The stench of death
+surrounds you, momentarily blocking from your mind the realization
+that you could be attacked from any conceivable direction.  Spinning
+slowly about, you realize the poor tactical position you hold.
+~
+0 1076895756 1
+D0
+~
+~
+0 -1 31
+D1
+~
+~
+0 -1 33
+D2
+~
+~
+0 -1 35
+D3
+~
+~
+0 -1 29
+D4
+~
+~
+128 -1 39
+D5
+~
+~
+128 -1 38
+D6
+~
+~
+0 -1 32
+D7
+~
+~
+0 -1 30
+D8
+~
+~
+0 -1 34
+D9
+~
+~
+0 -1 36
+> death_prog 100~
+mpecho A deafening clamor of gleeful shouts rain down from above!
+mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
+mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
+~
+|
+S
+#38
+The Arena~
+You find yourself beneath the floor of the great Arena.  The crowd's roar
+above is overwhelming, while somewhere ahead ... your opponent awaits.
+~
+0 1076895756 1
+D0
+~
+~
+0 -1 40
+D4
+~
+~
+128 -1 37
+> death_prog 100~
+mpecho A deafening clamor of gleeful shouts rain down from above!
+mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
+mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
+~
+|
+S
+#39
+The Arena~
+You find yourself above the floor of the Arena.  The roar of the crowd
+is overwhelming, while somewhere ahead of you ... your opponent awaits.
+~
+0 1076895756 1
+D2
+~
+~
+0 -1 40
+D5
+~
+~
+128 -1 37
+> death_prog 100~
+mpecho A deafening clamor of gleeful shouts rain down from above!
+mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
+mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
+~
+|
+S
+#40
+The Arena~
+You are somewhere above or below the arena floor.  The sound of the crowd
+around you is overwhelming, while somewhere ... your opponent awaits.
+~
+0 1076895756 1
+D0
+~
+~
+0 -1 39
+D2
+~
+~
+0 -1 38
+> death_prog 100~
+mpecho A deafening clamor of gleeful shouts rain down from above!
+mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
+mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
+~
+|
+S
+#41
+The Halls of Combat~
+You stand in a massive hallway before the great Arena.  Cheers and jeers
+from the assembled throngs rise and fall through the corridors.  Lounging
+around the hall with you are several other individuals awaiting their own
+chance at glory, honor, and spoils beyond the great doors.  The Arena is
+dangerous, though, and battles are often to the death.  Once you leave
+this room, there is no turning back.....
+ 
+~
+0 1076897288 1
+D4
+~
+~
+0 -1 42
+D5
+~
+~
+0 -1 43
+> rand_prog 20~
+mpecho A slow chant floats in to you:  "Two man enter ... one man leave."
+~
+|
+S
+#42
+First Combatant's Chamber~
+You stand in a long hallway leading out into the Arena proper.  About
+you are stacked all manner of weaponry and armor.  Choose your armament
+properly, as it will be all that stands between you and death.
+~
+0 3154952 1
+D0
+~
+~
+0 -1 30
+D1
+~
+~
+0 -1 32
+D2
+~
+~
+0 -1 34
+D3
+~
+~
+0 -1 36
+S
+#43
+Second Combatant's Chamber~
+You stand in a long hallway leading out into the Arena proper.  About
+you are stacked all manner of weaponry and armor.  Choose your armament
+properly, as it will be all that stands between you and death.
+~
+0 3154952 1
+D0
+~
+~
+0 -1 31
+D1
+~
+~
+0 -1 33
+D2
+~
+~
+0 -1 35
+D3
+~
+~
+0 -1 29
+S
+#0
+
+
+#RESETS
+M 0 1 1 2
+M 0 2 1 8
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

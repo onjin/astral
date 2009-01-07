@@ -1,0 +1,193 @@
+Tue Dec 23 12:30:42 2008 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Tue Dec 23 12:30:42 2008 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Tue Dec 23 12:30:42 2008 :: Loading commands
+Tue Dec 23 12:30:42 2008 :: Loading sysdata configuration...
+Tue Dec 23 12:30:42 2008 :: Loading socials
+Tue Dec 23 12:30:42 2008 :: Loading skill table
+Tue Dec 23 12:30:42 2008 :: Sorting skill table...
+Tue Dec 23 12:30:42 2008 :: Remapping slots to sns
+Tue Dec 23 12:30:42 2008 :: Loading classes
+Tue Dec 23 12:30:42 2008 :: Loading races
+Tue Dec 23 12:30:42 2008 :: Loading herb table
+Tue Dec 23 12:30:42 2008 :: Loading tongues
+Tue Dec 23 12:30:42 2008 :: Making wizlist
+Tue Dec 23 12:30:42 2008 :: Initializing request pipe
+Tue Dec 23 12:30:42 2008 :: Initializing random number generator
+Tue Dec 23 12:30:42 2008 :: Setting time and weather
+Tue Dec 23 12:30:42 2008 :: Assigning gsn's
+Tue Dec 23 12:30:42 2008 :: Reading in plane file...
+Tue Dec 23 12:30:42 2008 :: [*****] FILE: ../system/planes.dat LINE: 1
+Tue Dec 23 12:30:42 2008 :: [*****] BUG: load_planes: # not found.
+Tue Dec 23 12:30:42 2008 :: Reading in area files...
+(help.are)
+gods.are      : Rooms:  1200 - 1201  Objs:  1200 - 1201  Mobs:  1200 - 1200
+limbo.are     : Rooms:     1 - 43    Objs:     2 - 99    Mobs:     1 - 99
+newacad.are   : Rooms: 10300 - 10499 Objs: 10300 - 10499 Mobs: 10300 - 10499
+newgate.are   : Rooms:   100 - 199   Objs:   100 - 199   Mobs:   100 - 199
+newdark.are   : Rooms: 21000 - 21499 Objs: 21000 - 21435 Mobs: 21000 - 21511
+haon.are      : Rooms:  6000 - 6156  Objs:  6000 - 6155  Mobs:  6000 - 6117
+midennir.are  : Rooms:  3500 - 3590  Objs:  3500 - 3550  Mobs:  3500 - 3550
+sewer.are     : Rooms:  7001 - 7445  Objs:  7190 - 7310  Mobs:  7000 - 7206
+redferne.are  : Rooms:  7900 - 7918  Objs:  7909 - 7911  Mobs:  7900 - 7900
+grove.are     : Rooms:  8901 - 8999  Objs:  8900 - 8919  Mobs:  8900 - 8911
+krasnolu.are  : Rooms:  6500 - 6556  Objs:  6502 - 6521  Mobs:  6500 - 6521
+przedsz.are   : Rooms:  6601 - 6651  Objs:  6600 - 6647  Mobs:  6600 - 6610
+grave.are     : Rooms:  3600 - 3651  Objs:  3600 - 3613  Mobs:  3600 - 3605
+astral.are    : Rooms:   800 - 899   Objs:   800 - 899   Mobs:   800 - 899
+Build.are     : Rooms:  9500 - 9589  Objs:     0 - 0     Mobs:     0 - 0
+pixie.are     : Rooms:  2070 - 2099  Objs:  2070 - 2076  Mobs:  2070 - 2073
+export.are    : Rooms:  9810 - 9899  Objs:  9810 - 9899  Mobs:  9800 - 9899
+gnomy.are     : Rooms:  1500 - 1599  Objs:  1500 - 1599  Mobs:  1500 - 1599
+manor.are     : Rooms:  2400 - 2499  Objs:  2400 - 2499  Mobs:  2405 - 2484
+unholy.are    : Rooms:  2101 - 2172  Objs:  2101 - 2150  Mobs:  2101 - 2120
+gallery.are   : Rooms: 24800 - 24899 Objs: 24800 - 24899 Mobs: 24800 - 24899
+canyon.are    : Rooms:  9201 - 9260  Objs:  9201 - 9231  Mobs:  9201 - 9238
+arachnos.are  : Rooms:  6200 - 6399  Objs:  6303 - 6309  Mobs:  6301 - 6319
+plains.are    : Rooms:   300 - 345   Objs:   300 - 313   Mobs:   300 - 350
+starylas.are  : Rooms:   500 - 599   Objs:   500 - 599   Mobs:   500 - 599
+powietrze.are : Rooms:  1001 - 1040  Objs:  1001 - 1001  Mobs:  1000 - 1001
+Klany.are     : Rooms: 15000 - 15100 Objs: 15000 - 15035 Mobs: 15000 - 15033
+chapel.are    : Rooms:  3405 - 3475  Objs:  3400 - 3430  Mobs:  3400 - 3416
+drow.are      : Rooms:  5100 - 5150  Objs:  5100 - 5114  Mobs:  5100 - 5111
+ofcol.are     : Rooms: 11600 - 11699 Objs: 11600 - 11667 Mobs: 11600 - 11634
+bagna.are     : Rooms:  8301 - 8318  Objs:  8301 - 8307  Mobs:  8301 - 8321
+galaxy.are    : Rooms:  9301 - 9371  Objs:  9301 - 9328  Mobs:  9301 - 9332
+Akademia.are  : Rooms:   200 - 299   Objs:   200 - 299   Mobs:   200 - 298
+gobo.are      : Rooms: 30000 - 30052 Objs: 30000 - 30013 Mobs: 30000 - 30018
+lochy.are     : Rooms: 30053 - 30141 Objs: 30053 - 30063 Mobs: 30053 - 30067
+gilligan.are  : Rooms:  4100 - 4158  Objs:  4100 - 4134  Mobs:  4101 - 4126
+chess.are     : Rooms: 12600 - 12664 Objs: 12600 - 12603 Mobs: 12600 - 12613
+smurf.are     : Rooms:  1101 - 1129  Objs:  1100 - 1109  Mobs:  1101 - 1112
+lhouse.are    : Rooms:   713 - 786   Objs:   700 - 773   Mobs:   700 - 784
+Quest.are     : Rooms: 29500 - 29599 Objs: 29500 - 29509 Mobs: 29500 - 29500
+olimp.are     : Rooms:   901 - 954   Objs:   900 - 927   Mobs:   901 - 926
+hitower.are   : Rooms:  1300 - 1499  Objs:  1301 - 1404  Mobs:  1300 - 1365
+slumsy.are    : Rooms:  1600 - 1999  Objs:     0 - 0     Mobs:     0 - 0
+Tue Dec 23 12:30:42 2008 :: Making sure rooms are planed...
+Tue Dec 23 12:30:42 2008 :: Fixing exits
+Tue Dec 23 12:30:42 2008 :: Initializing economy
+Tue Dec 23 12:30:42 2008 :: Resetting areas
+Tue Dec 23 12:30:42 2008 :: Loading buildlist
+Tue Dec 23 12:30:42 2008 :: ../gods/Jaskierka
+Tue Dec 23 12:30:42 2008 :: ../gods/Flash
+Tue Dec 23 12:30:42 2008 :: ../gods/Sardo
+Sardo.are     : Rooms:  2200 - 2399  Objs:  2200 - 2399  Mobs:  2200 - 2399 
+Tue Dec 23 12:30:42 2008 :: ../gods/Crevan
+Tue Dec 23 12:30:42 2008 :: ../gods/Isorn
+Tue Dec 23 12:30:42 2008 :: ../gods/Bercik
+Tue Dec 23 12:30:42 2008 :: ../gods/Baleron
+Tue Dec 23 12:30:42 2008 :: Loading boards
+Tue Dec 23 12:30:42 2008 :: ../boards/immortal.brd
+Tue Dec 23 12:30:42 2008 :: ../boards/highgod.brd
+Tue Dec 23 12:30:42 2008 :: ../boards/newdark.brd
+Tue Dec 23 12:30:42 2008 :: ../boards/akademia
+Tue Dec 23 12:30:42 2008 :: ../boards/deathsentence
+Tue Dec 23 12:30:42 2008 :: ../boards/insanity
+Tue Dec 23 12:30:42 2008 :: Loading clans
+Tue Dec 23 12:30:42 2008 :: Loading clans...
+Tue Dec 23 12:30:42 2008 :: vampire.gui
+Tue Dec 23 12:30:42 2008 :: Cannot open clan vault
+Tue Dec 23 12:30:42 2008 :: druid.gui
+Tue Dec 23 12:30:42 2008 :: Cannot open clan vault
+Tue Dec 23 12:30:42 2008 :: warrior.gui
+Tue Dec 23 12:30:42 2008 :: Laduje storeroom klanu
+Tue Dec 23 12:30:42 2008 :: augurer.gui
+Tue Dec 23 12:30:42 2008 :: Cannot open clan vault
+Tue Dec 23 12:30:42 2008 :: thief.gui
+Tue Dec 23 12:30:42 2008 :: Cannot open clan vault
+Tue Dec 23 12:30:42 2008 :: cleric.gui
+Tue Dec 23 12:30:42 2008 :: Cannot open clan vault
+Tue Dec 23 12:30:42 2008 :: mage.gui
+Tue Dec 23 12:30:42 2008 :: Cannot open clan vault
+Tue Dec 23 12:30:42 2008 :: ranger.gui
+Tue Dec 23 12:30:42 2008 :: Laduje storeroom klanu
+Tue Dec 23 12:30:42 2008 :: DeathSentence
+Tue Dec 23 12:30:42 2008 :: Laduje storeroom klanu
+Tue Dec 23 12:30:42 2008 :: soulless
+Tue Dec 23 12:30:42 2008 :: Laduje storeroom klanu
+Tue Dec 23 12:30:42 2008 :: insanity
+Tue Dec 23 12:30:42 2008 :: Laduje storeroom klanu
+Tue Dec 23 12:30:42 2008 :: ToRaNaGa
+Tue Dec 23 12:30:42 2008 :: Laduje storeroom klanu
+Tue Dec 23 12:30:42 2008 :: s_w_w
+Tue Dec 23 12:30:42 2008 :: Laduje storeroom klanu
+Tue Dec 23 12:30:42 2008 :: WarLords
+Tue Dec 23 12:30:42 2008 :: Storeroom nie odnaleziony
+Tue Dec 23 12:30:42 2008 :: $
+Tue Dec 23 12:30:42 2008 ::  Done clans 
+Tue Dec 23 12:30:42 2008 ::  Loading channels...
+Tue Dec 23 12:30:42 2008 :: misiek
+Tue Dec 23 12:30:42 2008 :: tora
+Tue Dec 23 12:30:42 2008 :: acid
+Tue Dec 23 12:30:42 2008 :: soul
+Tue Dec 23 12:30:42 2008 :: insanity
+Tue Dec 23 12:30:42 2008 :: ds
+Tue Dec 23 12:30:42 2008 :: sww
+Tue Dec 23 12:30:42 2008 :: kobietki
+Tue Dec 23 12:30:42 2008 :: cosie
+Tue Dec 23 12:30:42 2008 :: faceci
+Tue Dec 23 12:30:42 2008 :: pk
+Tue Dec 23 12:30:42 2008 :: war
+Tue Dec 23 12:30:42 2008 :: flame
+Tue Dec 23 12:30:42 2008 :: $
+Tue Dec 23 12:30:42 2008 ::  Done channels.
+Tue Dec 23 12:30:42 2008 :: Kanal acid nie ma ani jednego uzytkownika.
+Tue Dec 23 12:30:42 2008 :: Kanal kobietki nie ma ani jednego uzytkownika.
+Tue Dec 23 12:30:42 2008 :: Kanal cosie nie ma ani jednego uzytkownika.
+Tue Dec 23 12:30:42 2008 :: Loading councils
+Tue Dec 23 12:30:42 2008 :: Loading deities...
+Tue Dec 23 12:30:42 2008 :: ../deity/broantel
+Tue Dec 23 12:30:42 2008 :: ../deity/ba'alzamon
+Tue Dec 23 12:30:42 2008 :: ../deity/afrodyta
+Tue Dec 23 12:30:42 2008 :: ../deity/k'tathi
+Tue Dec 23 12:30:42 2008 :: ../deity/loki
+Tue Dec 23 12:30:42 2008 :: ../deity/morghot
+Tue Dec 23 12:30:42 2008 :: ../deity/arestus
+Tue Dec 23 12:30:42 2008 :: ../deity/kastamir
+Tue Dec 23 12:30:42 2008 :: $
+Tue Dec 23 12:30:42 2008 ::  Done deities 
+Tue Dec 23 12:30:42 2008 :: Loading deities
+Tue Dec 23 12:30:42 2008 :: Loading councils...
+Tue Dec 23 12:30:42 2008 :: Pierwszy
+Tue Dec 23 12:30:42 2008 :: newbie
+Tue Dec 23 12:30:42 2008 :: $
+Tue Dec 23 12:30:42 2008 ::  Done councils 
+Tue Dec 23 12:30:42 2008 :: Loading watches
+Tue Dec 23 12:30:42 2008 :: Loading bans
+Tue Dec 23 12:30:42 2008 :: Done.
+Tue Dec 23 12:30:42 2008 :: Loading reserved names
+Tue Dec 23 12:30:42 2008 :: Loading auth namelist
+Tue Dec 23 12:30:42 2008 :: Loading corpses
+Tue Dec 23 12:30:42 2008 :: Loading Immortal Hosts
+Tue Dec 23 12:30:42 2008 :: No immortal host data
+Tue Dec 23 12:30:42 2008 :: Loading Projects
+Tue Dec 23 12:30:42 2008 :: Loading Morphs
+Tue Dec 23 12:30:42 2008 :: Optimizing Morphs.
+Tue Dec 23 12:30:42 2008 :: Done.
+Tue Dec 23 12:30:42 2008 :: Initializing socket
+Tue Dec 23 12:30:42 2008 :: imc: imc2-0.10 initializing
+Tue Dec 23 12:30:42 2008 :: imc: imc_readconfig: couldn't open ../imc/config
+Tue Dec 23 12:30:42 2008 :: imc: imc_readignores: couldn't open ../imc/rignores
+Tue Dec 23 12:30:42 2008 :: imc: ICE client starting.
+Tue Dec 23 12:30:42 2008 :: imc: Can't open ../imc/icec
+Tue Dec 23 12:30:42 2008 :: Astral Dominion gotow pod adresem r11966.ovh.net na porcie 4000.
+Sat Dec 27 17:52:00 2008 :: Sock.sinaddr:  83.30.101.132, port 11774.
+Sat Dec 27 17:52:04 2008 :: Preloading player data for: Flash (9K)
+Sat Dec 27 17:52:09 2008 :: Closing link to Flash.
+Sat Dec 27 17:52:12 2008 :: Sock.sinaddr:  83.30.101.132, port 11776.
+Sat Dec 27 17:52:17 2008 :: Preloading player data for: Flash (9K)
+Sat Dec 27 17:52:18 2008 :: Loading player data for: Flash (9K)
+Sat Dec 27 17:52:18 2008 :: Flash@83.30.101.132((pipe breaking)) has connected.
+Sat Dec 27 17:53:18 2008 :: Flash opuszcza gre (Pokoj 21001).
+Wed Jan  7 20:46:20 2009 :: Sock.sinaddr:  83.30.79.69, port 25281.
+Wed Jan  7 20:46:22 2009 :: Preloading player data for: Flash (9K)
+Wed Jan  7 20:46:25 2009 :: Loading player data for: Flash (9K)
+Wed Jan  7 20:46:25 2009 :: Flash@83.30.79.69((pipe breaking)) has connected.
+Wed Jan  7 20:46:32 2009 :: Flash opuszcza gre (Pokoj 21001).
+Wed Jan  7 20:51:57 2009 :: Sock.sinaddr:  83.30.79.69, port 25362.
+Wed Jan  7 20:51:59 2009 :: Preloading player data for: Flash (9K)
+Wed Jan  7 20:52:03 2009 :: Loading player data for: Flash (9K)
+Wed Jan  7 20:52:03 2009 :: Flash@83.30.79.69((pipe breaking)) has connected.
+Wed Jan  7 20:57:53 2009 :: EOF encountered on read.
+Wed Jan  7 20:57:53 2009 :: Closing link to Flash.

@@ -1,0 +1,1359 @@
+#AREA   Krasn. przedszkole [pl. Bercik]~
+
+
+
+#VERSION 3
+#AUTHOR Sandman~
+
+#RANGES
+1 5 0 60
+$
+
+#RESETMSG Slyszysz glos malca wolajacego mame.~
+
+#FLAGS
+0 5
+
+#ECONOMY 0 19935268
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#6600
+krasnoludzkie dziecko krasnolud~
+krasnoludzkie dziecko~
+krasnoludzkie dziecko~
+krasnoludzkie dziecko~
+krasnoludzkie dziecko~
+krasnoludzkie dziecko~
+krasnoludzkie dziecko~
+krasnoludzkie dziecko~
+Biega tutaj krasnoludzkie dziecko, straszliwie wrzeszczac.
+~
+To bardzo mlode, ale nie calkowicie bezbronne stworzonko.
+~
+69 0 -5 C
+3 17 6 1d4+30 1d3+6
+300 400
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 0 0 0 1 1 0
+0 0 1231 0 0 0 0 0
+#6601
+dziewczynka krasnoludzka krasnolud~
+dziewczynka~
+dziewczynka~
+dziewczynka~
+dziewczynka~
+dziewczynka~
+dziewczynka~
+dziewczynka~
+Skrada sie tedy dziewczynka, probujaca uniknac swoich obowiazkow.
+~
+Ta dziewczynka jest bardzo niezadowolona z faktu, ze musi posprzatac po
+tych wszystkich wstretnych dzieciakach.
+~
+69 0 500 C
+3 19 9 3d5+20 2d3+2
+450 75
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 0 0 0 1 1 0
+0 0 1031 0 0 0 0 0
+#6602
+krasnoludzkie dziecko krasnolud~
+krasnoludzkie dziecko~
+krasnoludzkie dziecko~
+krasnoludzkie dziecko~
+krasnoludzkie dziecko~
+krasnoludzkie dziecko~
+krasnoludzkie dziecko~
+krasnoludzkie dziecko~
+Male krasnoludzkie dziecko siedzi tutaj i ssie swoj kciuk.
+~
+To male dziecko jest bardzo szczesliwe, widocznie okazuja mu tu w
+przedszkolu wiele uczucia.
+~
+69 0 300 C
+2 18 9 2d5+19 1d5+1
+150 200
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 0 0 0 1 1 0
+0 0 1039 0 0 0 0 0
+#6603
+berbec krasnolud~
+berbec~
+berbec~
+berbec~
+berbec~
+berbec~
+berbec~
+berbec~
+Maly berbec siedzi tu i placze za swoja mama.
+~
+Berbec przyglada ci sie uwaznie swoimi wielkimi niebieskimi oczami. NIe
+wyglada na kogos, kto moglby ci zrobic wieksza krzywde.
+~
+69 0 -300 C
+3 18 7 3d5+26 2d3+2
+100 300
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 0 0 0 1 1 0
+0 0 207 0 0 0 0 0
+#6604
+mis wypchany niedbale~
+niedbale wypchany mis~
+niedbale wypchany mis~
+niedbale wypchany mis~
+niedbale wypchany mis~
+niedbale wypchany mis~
+niedbale wypchany mis~
+niedbale wypchany mis~
+Niedbale wypchany mis patrzy na ciebie swoimi szklanymi oczami.
+~
+Jest to prawdopodobnie odrzut z fabryki. Groznie warczy patrzac
+na ciebie.
+~
+69 32768 -400 C
+3 17 6 3d4+25 1d3+6
+300 300
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+24 0 0 0 1 1 0
+0 0 1038 0 0 0 0 0
+#6605
+lalka stara~
+stara lalka~
+stara lalka~
+stara lalka~
+stara lalka~
+stara lalka~
+stara lalka~
+stara lalka~
+Lezy tutaj zuzyta, stara lalka.
+~
+Ta szmaciana lalka wyglada jakby ktos bardzo czesto ja przytulal.
+~
+65 32768 -2 C
+1 20 10 1d1+9 1d3+4
+200 50
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 0 0 0 1 1 0
+0 0 1031 0 0 0 0 0
+#6606
+niania stara~
+stara niania~
+stara niania~
+stara niania~
+stara niania~
+stara niania~
+stara niania~
+stara niania~
+Stara niania stoi tutaj przygladajac sie zabawom dzieci.
+~
+Widzisz krasnoludzka kobiete w podeszlym wieku, ktora stara sie miec
+wszystkie dzieci na oku. Tobie tez przyglada sie z uwaga.
+~
+65 0 10 C
+5 16 6 4d4+50 1d8+2
+1000 750
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 0 0 0 1 1 0
+0 0 1231 0 0 0 0 0
+> all_greet_prog 33~
+if name ($n) == toddler dwarven
+or name ($n) == dwarven baby
+  , frowns and takes something from $N's mouth.
+else
+  if name ($n) == dwarven child
+    mpecho $I spanks $N and gives him a nasty lecture.
+    mpecho Na pewno na to zasluzyl.
+  endif
+endif
+~
+|
+#6607
+zabijaka~
+zabijaka~
+zabijaka~
+zabijaka~
+zabijaka~
+zabijaka~
+zabijaka~
+zabijaka~
+Stoi tutaj zabijaka i strzeze pokoju na poludniu.
+~
+To bardzo groznie wygladajacy zabijaka. Widac po nim, ze niejedno ma
+na sumieniu. Nagle masz wielka ochote uciec stad jak najszybciej.
+~
+71 8 -800 C
+4 9 2 3d5+50 3d2+3
+2500 2000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 0 0 0 1 1 0
+0 0 207 0 0 0 0 0
+#6608
+urwis niegrzeczny~
+niegrzeczny urwis~
+niegrzeczny urwis~
+niegrzeczny urwis~
+niegrzeczny urwis~
+niegrzeczny urwis~
+niegrzeczny urwis~
+niegrzeczny urwis~
+W kacie siedzi niegrzeczny urwis.
+~
+Widzisz malego urwisa, ktory zawsze dostaje to na co ma ochote. Masz wielka
+ochote przylac temu zepsutemu malcowi.
+~
+67 8 -400 C
+6 18 9 2d5+65 1d3+8
+2000 50
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 0 0 0 1 1 0
+0 0 1231 0 0 0 0 0
+#6609
+kucharka stara kobieta~
+stara kucharka~
+stara kucharka~
+stara kucharka~
+stara kucharka~
+stara kucharka~
+stara kucharka~
+stara kucharka~
+Stara kobieta stoi tutaj mieszajac zawziecie w kotle.
+~
+Ta stara kobieta wyglada na bardzo zmeczona, prawdopodobnie z powodu
+zbyt dlugiej pracy w kuchni.
+~
+3 0 200 C
+3 0 0 2d5+30 2d2+3
+1500 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 0 0 0 1 1 0
+0 0 207 0 0 0 0 0
+#6610
+chlopak nieznosny~
+nieznosny chlopak~
+nieznosny chlopak~
+nieznosny chlopak~
+nieznosny chlopak~
+nieznosny chlopak~
+nieznosny chlopak~
+nieznosny chlopak~
+Krasnoludzki chlopak tapla sie tutaj w kaluzy.
+~
+To bardzo mlode, ale nie calkowicie bezbronne stworzonko.
+~
+71 0 -5 C
+3 17 6 1d4+30 1d3+6
+300 400
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 0 0 0 5 5 0
+0 0 1231 0 0 0 0 0
+> rand_prog 5~
+mpecho Chlopiec nagle wskakuje do kaluzy, opryskujac cie woda.
+~
+|
+#0
+
+
+#OBJECTS
+#6600
+toporek zabawkowy~
+zabawkowy toporek~
+zabawkowy toporek~
+zabawkowy toporek~
+zabawkowy toporek~
+zabawkowy toporek~
+zabawkowy toporek~
+zabawkowy toporek~
+Topor zrobiony z plastiku lezy sobie tutaj.~
+~
+5 0 8193
+0 2 8 0
+15 600 60
+#6601
+pierscien rozowy~
+rozowy pierscien~
+rozowy pierscien~
+rozowy pierscien~
+rozowy pierscien~
+rozowy pierscien~
+rozowy pierscien~
+rozowy pierscien~
+Rozozy pierscien lezy tutaj.~
+~
+9 0 3
+1 0 0 0
+8 7000 700
+A
+1 1
+A
+13 6
+#6602
+tabliczka~
+mala tabliczka~
+mala tabliczka~
+mala tabliczka~
+mala tabliczka~
+mala tabliczka~
+mala tabliczka~
+mala tabliczka~
+Mala tabliczka wisi na scianie..~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+tabliczka~
+Przed toba lezy krasnoludzkie przedszkole. Ta krainka zostala stworzona
+z mysla o poziomach 1-5, i nie oferuje zbyt duzo graczom o wyzszych poziomach.
+
+Baw sie dobrze w przedszkolu, ale uwazaj, bobasy moga byc grozne.
+
+Autor: Sandman
+Na polski przelozyl: Bercik
+~
+#6617
+lina~
+lina~
+lina~
+lina~
+lina~
+lina~
+lina~
+lina~
+Konopna lina zwisa w tym miejscu, lekko kolyszac sie na wietrze.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#6618
+hustawka pomalowana jaskrawo~
+jaskrawo pomalowana hustawka~
+jaskrawo pomalowana hustawka~
+jaskrawo pomalowana hustawka~
+jaskrawo pomalowana hustawka~
+jaskrawo pomalowana hustawka~
+jaskrawo pomalowana hustawka~
+jaskrawo pomalowana hustawka~
+Drewniana hustawka zapewnia kilka godzin dobrej zabawy.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#6619
+laweczka drewniana~
+drewniana laweczka~
+drewniana laweczka~
+drewniana laweczka~
+drewniana laweczka~
+drewniana laweczka~
+drewniana laweczka~
+drewniana laweczka~
+Drewniana laweczka oferuje troche odpoczynku twoim biednym, strudzonym
+nogom.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#6620
+dab drzewo~
+wielki dab~
+wielki dab~
+wielki dab~
+wielki dab~
+wielki dab~
+wielki dab~
+wielki dab~
+Wielki dab rosnie sobie tutaj, moze by tak wspiac sie na szczyt?~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+dab wielki drzewo~
+To przepiekne, majestatyczne drzewo wyglada jakby siegalo galeziami nieba.
+Jego galezie zdaja sie zapraszac cie do wspinaczki.
+~
+#6621
+toga plocienna~
+plocienna toga~
+plocienna toga~
+plocienna toga~
+plocienna toga~
+plocienna toga~
+plocienna toga~
+plocienna toga~
+Plociennna toga lezy tutaj zwinieta w maly tobolek.~
+~
+9 0 1025
+1 0 0 0
+5 4000 400
+A
+4 1
+A
+12 5
+#6630
+berecik kolorowy~
+kolorowy berecik~
+kolorowy berecik~
+kolorowy berecik~
+kolorowy berecik~
+kolorowy berecik~
+kolorowy berecik~
+kolorowy berecik~
+Ktos upuscil tutaj maly, kolorowy berecik~
+~
+9 0 17 4
+3 3 0 1
+7 1450 145
+A
+5 1
+A
+2 1
+A
+13 8
+#6631
+pierscien oszroniony rozany~
+oszroniony rozany pierscien~
+oszronianego rozanego pierscienia~
+oszronianemu rozanemu pierscieniowi~
+oszroniony rozany pierscien~
+oszronionym rozanym pierscieniem~
+oszronionym rozanym pierscieniu~
+oszroniony rozany pierscieniu~
+Oszroniony rozany pierscien zwraca twoja uwage.~
+~
+9 64 3
+2 0 0 0
+8 15000 1500
+A
+1 1
+A
+13 6
+A
+12 6
+#6632
+napoj szafranowy~
+szafranowy napoj~
+szafranowy napoj~
+szafranowy napoj~
+szafranowy napoj~
+szafranowy napoj~
+szafranowy napoj~
+szafranowy napoj~
+Ktos postawil na podlodze szafranowy napoj.~
+~
+10 1 1
+30 -1 144 130
+2 1500 150
+'cure serious' 'shield' 'refresh'
+#6633
+korkowiec~
+korkowiec~
+korkowiec~
+korkowiec~
+korkowiec~
+korkowiec~
+korkowiec~
+korkowiec~
+Maly zabawkowy pistolet lezy sobie na ziemii.~
+~
+5 0 8193
+0 0 0 0
+12 750 75
+#6634
+smoczek~
+smoczek~
+smoczek~
+smoczek~
+smoczek~
+smoczek~
+smoczek~
+smoczek~
+Osliniony smoczek lezy tutaj czekajac az ktos go possie.~
+~
+5 0 8193
+0 2 3 12
+5 1700 170
+#6635
+szal welniany~
+welniany szal~
+welniany szal~
+welniany szal~
+welniany szal~
+welniany szal~
+welniany szal~
+welniany szal~
+Delikatny welniany szal zostal tutaj bezmyslnie porzucony.~
+~
+9 0 5 8
+1 0 0 0
+5 4000 400
+A
+4 1
+A
+12 12
+A
+13 5
+#6644
+ciasteczko~
+ciasteczko~
+ciasteczko~
+ciasteczko~
+ciasteczko~
+ciasteczko~
+ciasteczko~
+ciasteczko~
+Kruche ciasteczko tu lezy, czekajac az ktos je schrupie.~
+%s glosno chrupie$q $p.~
+19 0 1
+15 0 0 0
+5 15 1
+#6645
+stek zepsuty~
+zepsuty stek~
+zepsuty stek~
+zepsuty stek~
+zepsuty stek~
+zepsuty stek~
+zepsuty stek~
+zepsuty stek~
+Psujacy sie stek lezy na ziemii.~
+~
+19 1073741824 17
+4 0 0 1
+5 14 1
+#6646
+napoj bursztynowy~
+bursztynowy napoj~
+bursztynowy napoj~
+bursztynowy napoj~
+bursztynowy napoj~
+bursztynowy napoj~
+bursztynowy napoj~
+bursztynowy napoj~
+W kacie lezy sobie bursztynowy napoj.~
+~
+10 0 1
+30 -1 9 -1
+1 1500 150
+'cure light' 'armor' 'NONE'
+#6647
+karabin zabawkowy~
+zabawkowy karabin~
+zabawkowy karabin~
+zabawkowy karabin~
+zabawkowy karabin~
+zabawkowy karabin~
+zabawkowy karabin~
+zabawkowy karabin~
+Lezy tutaj zabawkowy karabin z ostrym bagnetem.~
+~
+5 0 8193
+0 2 3 7
+5 1700 170
+#0
+
+
+#ROOMS
+#6601
+Wejscie do przedszkola.~
+Stoisz w krotkim tunelu wykutym w zboczu gory, ktory wiedzie do szatnii
+znajdujacej sie na poludniu. Zbudowane pod powierzchnia ziemii, to miejsce
+zapewnia krasnoludom bezpieczenstwo i wlasnie tutaj zatroskani rodzice
+zostawiaja swoje pociechy idac do pracy. Z poludnia dochodza cie glosy
+rozwrzeszczanych dzieciakow. Nagle masz wielka ochote zeby zawrocic.
+Na jednej ze scian wisi tabliczka informacyjna.
+~
+0 12 0
+D2
+Widzisz szatnie.
+~
+~
+1 -1 6617
+D4
+Droga prowadzaca do krolestwa krasnoludow.
+~
+~
+0 -1 6500
+D5
+~
+~
+2051 -1 5100
+E
+znak~
+To krainka dla poczatkujacych, bawcie sie dobrze.
+Autor: Sandman
+Na polski przelozyl: Bercik
+~
+E
+tabliczka~
+Przed toba lezy krasnoludzkie przedszkole. Ta krainka przeznaczona jest dla
+graczy pomiedzy 1 a 5 poziomem.
+ 
+Baw sie dobrze i uwazaj na bobasy..
+
+Autor: Sandman
+Na polski przelozyl: Bercik
+~
+S
+#6602
+Wejscie do przedszkola~
+Wlasnie znalazles sie w polnocno-wschodnim rogu krasnoludzkiego przedszkola.
+Gdy rozgladasz sie wkolo, widzisz bawiace sie male dzieci. Po calym
+pomieszczeniu rozrzucone sa zabawki i lalki. Sam pokoj, jak na twoj gust,
+jest troche zbyt brudny. Z kuchni znajdujacej sie na wschodzie dolatuja cie
+jakies nieswieze zapachy. Mala brama na polnocy strzeze wyjscia ku wolnosci.
+~
+0 8 0
+D0
+Widzisz ciemna szatnie.
+~
+gate~
+3 -1 6617
+D1
+Widzisz strasznie zaniedbana kuchnie.
+~
+~
+0 -1 6626
+D2
+Widzisz pokoj pelen wrzeszczacych dzieci.
+~
+~
+0 -1 6604
+D3
+Widzisz pokoj pelen wrzeszczacych dzieci.
+~
+~
+0 -1 6632
+S
+#6603
+Centrum przedszkola~
+Stoisz w polnocno-zachodnim rogu krasnoludzkiego przedszkola. Bardzo sie
+starasz nie nadepnac na zadna z zabawek, ktorych pelno lezy na podlodze.
+Dzieciaki strasznie wrzeszcza i chwytaja cie za nogawki, gdy obok nich
+przechodzisz.
+~
+0 8 0
+D1
+Widzisz pokoj pelen rozwrzeszczanych dzieciakow.
+~
+~
+0 -1 6632
+D2
+Widzisz pokoj pelen rozwrzeszczanych dzieciakow.
+~
+~
+0 -1 6605
+D3
+Widzisz brudna lazienke.
+~
+~
+0 -1 6606
+S
+#6604
+Centrum przedszkola~
+Gdy wedrujesz przez przedszkole, z ledwoscia udaje ci sie wytrzymac w
+panujacym tu halasie. Podloga tonie w morzu zabawek i z trudem udaje ci sie
+przejsc tedy. Na wschodzie widzisz schody.
+~
+0 8 0
+D0
+Widzisz pokoj pelen rozwrzeszczanych dzieciakow.
+~
+~
+0 -1 6602
+D1
+Widzisz niewielkie drewniane schody.
+~
+~
+0 -1 6607
+D2
+Widzisz pokoj pelen rozwrzeszczanych dzieciakow.
+~
+~
+0 -1 6636
+D3
+Widzisz pokoj pelen rozwrzeszczanych dzieciakow.
+~
+~
+0 -1 6633
+S
+#6605
+Centrum przedszkola~
+Powoli i ostroznie odnajdujesz droge pomiedzy tysiacami zabawek zalegajacymi
+podloge przedszkola. Kilku malych urwisow przez caly czas przyczepionych do
+twoich nogawek wlecze sie za toba robiac straszny wrzask. Probujesz strzasnac
+nieznosne urwisy, ale trzymaja mocno. Na zachodzie jest tunel wiodacy na
+boisko. Moze szybki bieg w tamtym kierunku pozwoli ci sie pozbyc
+nieproszonych pasazerow?
+~
+0 8 0
+D0
+Widzisz pokoj pelen rozwrzeszczanych dzieciakow.
+~
+~
+0 -1 6603
+D1
+Widzisz pokoj pelen rozwrzeszczanych dzieciakow.
+~
+~
+0 -1 6633
+D2
+Widzisz pokoj pelen rozwrzeszczanych dzieciakow.
+~
+~
+0 -1 6634
+D3
+Widzisz uczeszczana sciezke wiodaca na boisko.
+~
+~
+0 -1 6637
+S
+#6606
+W lazience~
+Z obrzydzeniem zatykasz nos gdy wchodzisz do lazienki. Sciany sa poplamione
+i nie ma zadnych dowodow na to, ze to pomieszczenie bylo sprzatane w ciagu
+kilku ubieglych lat. Wszedzie leza porozrzucane zabawki, a z drewnianych
+wanien i kamiennych basenikow woda przecieka na podloge. Czujesz nieprzyjemna
+wilgoc w butach.
+~
+0 8 0
+D1
+Widzisz pokoj pelen rozwrzeszczanych dzieciakow.
+~
+~
+0 -1 6603
+S
+#6607
+Szczyt schodow~
+Znajdujesz sie na szczycie starych, drewnianych schodow. Stopnie wygladaja
+na sprochniale i bardzo niestabilne, ale wydaje ci sie, ze powinny wytrzymac
+twoj ciezar. Zaczynasz sie zastanawiac jakie tez tajemnice moze skrywac cien
+tam w dole...
+~
+0 8 0
+D3
+Widzisz pokoj pelen rozwrzeszczanych dzieciakow.~
+~
+0 -1 6604
+D5
+W mroku widzisz jakies wejscie.
+~
+~
+0 -1 6612
+S
+#6608
+Boisko~
+Znajdujesz sie w polnocno-wschodnim narozniku boiska. Naprzeciwko widzisz
+luksusowo wygladajaca (na pierwszy rzut oka) laweczke, gdzie mozesz usiasc
+i odpoczac od dzieciakow. Slychac spiew ptakow, ale juz po krotkim czasie
+ich spiewy zostaja zagluszone przez wrzaski bandy zwyrodnialych dzieciakow.
+~
+0 0 2
+D2
+Widzisz boisko.
+~
+~
+0 -1 6610
+D3
+Widzisz boisko.
+~
+~
+0 -1 6639
+S
+#6609
+Boisko~
+Znajdujesz sie w polnocno-zachodnim rogu boiska. Przed soba widzisz pomalowana
+w jaskrawe kolory hustawke. Wokol ciebie placze sie pelno dzieciakow, ale
+w koncu odczepily sie od twoich nogawek, wiec ich obecnosc juz cie tak nie
+denerwuje.
+~
+0 0 2
+D1
+Widzisz boisko.
+~
+~
+0 -1 6639
+D2
+Widzisz boisko.
+~
+~
+0 -1 6611
+S
+#6610
+Boisko~
+Stoisz w poludnoiwo-wschodnim rogu boiska. Przed toba wznosi sie
+monumentalnych rozmiarozw dab. Swieza zielnoa trawka siega ci do kostek.
+Wszedzie wkolo rosnie mnostwo lesnych kwiatkow, wypelniajac powietrze
+wspanialymi zapachami.
+~
+0 0 2
+D0
+Widzisz boisko.
+~
+~
+0 -1 6608
+D1
+Widzisz sciezke prowadzaca do przedszkola.
+~
+~
+0 -1 6637
+D3
+Widzisz boisko.
+~
+~
+0 -1 6638
+D4
+Widzisz wielki dab.
+~
+tree~
+65664 -1 6620
+S
+#6611
+Boisko~
+Stoisz w poludniowo-zachodnim rogu boiska. Przed tba rzedem stoi kilka
+hustawek, poruszanych lagodnymi podmuchami wiatru. Nie potrafisz oprzec
+sie pokusie i siadasz na jednej z nich. Slonce jasno przyswieca nad  twoja
+glowa sprawiajac, ze prawie zapominasz o haosie panujacym wokol ciebie.
+~
+0 0 2
+D0
+Widzisz boisko.
+~
+~
+0 -1 6609
+D1
+Widzisz boisko.
+~
+~
+0 -1 6638
+S
+#6612
+U dolu schodow~
+Stoisz przed wejsciem do niewielkiego, ale za to bardzo irytujacego
+labiryntu. Wszedzie wokol panuje mrok, nie jest jednak az tak ciemno
+i udaje ci sie rozpoznac kilka szczegolow przed toba. Masz naprawde
+wielka nadzieje, ze nie zgubisz sie w tym labiryncie.
+~
+0 13 2
+D1
+Widzisz waski korytaz.
+~
+~
+0 -1 6613
+D4
+Widzisz schody.
+~
+~
+0 -1 6607
+S
+#6613
+Zagubiony w labiryncie~
+Stoisz w waskim korytarzu, ktory wyglada dokladnie tak samo jak kazdy inny
+korytarz tego labiryntu. Wszedzie wokolo panuje mrok, ale twoje oczy przywykly
+juz do niego i widzisz calkiem nienajgorzej.
+~
+0 9 2
+D1
+Widzisz waski korytarz.
+~
+~
+0 -1 6612
+D2
+Widzisz waski korytarz.
+~
+~
+0 -1 6614
+D3
+Widzisz waski korytarz.~
+~
+0 -1 6615
+S
+#6614
+Zagubiony w labiryncie~
+Stoisz w waskim korytarzu, ktory wyglada dokladnie tak samo jak kazdy inny
+korytarz tego labiryntu. Wszedzie wokolo panuje mrok, ale twoje oczy przywykly
+juz do niego i widzisz calkiem nienajgorzej.
+~
+0 9 2
+D2
+Widzisz waski korytarz.
+~
+~
+0 -1 6616
+D3
+Widzisz waski korytarz.
+~
+~
+0 -1 6613
+S
+#6615
+Zagubiony w labiryncie~
+Stoisz w waskim korytarzu, ktory wyglada dokladnie tak samo jak kazdy inny
+korytarz tego labiryntu. Wszedzie wokolo panuje mrok, ale twoje oczy przywykly
+juz do niego i widzisz calkiem nienajgorzej.
+~
+0 9 2
+D0
+Widzisz waski korytarz.
+~
+~
+0 -1 6616
+D1
+Widzisz waski korytarz.
+~
+~
+0 -1 6613
+S
+#6616
+Zagubiony w labiryncie~
+Stoisz w waskim korytarzu, ktory wyglada dokladnie tak samo jak kazdy inny
+korytarz tego labiryntu. Wszedzie wokolo panuje mrok, ale twoje oczy przywykly
+juz do niego i widzisz calkiem nienajgorzej.
+~
+0 9 2
+D0
+Widzisz koniec labiryntu.
+~
+~
+0 -1 6624
+D2
+Widzisz waski korytarz.
+~
+~
+0 -1 6614
+D3
+Widzisz waski korytarz.
+~
+~
+0 -1 6615
+S
+#6617
+Szatnia~
+Przed toba lezy sterta dzieciecych plaszczykow i butow. Pomieszczenie to
+jest dosyc mroczne, a w powietrzu unosi sie jakis nieswierzy zapach.
+Przed toba znajduje sie drewniana brama zagradzajaca ci droge do przedszkola.
+W rzeczywistosci brama ta nie ma na celu powstrzymac cie przed wejsciem
+na teren przedszkola, chroni ona swiat zewnetrzny przed banda rozkapryszonych
+dzieciakow zgromadzonych w tym przedszkolu.
+~
+0 12 0
+D0
+Widzisz wejscie do przedszkola.
+~
+~
+0 -1 6601
+D2
+Za drewniana brama widzisz pokoj pelen wrzeszczacych dzieciakow.
+~
+brama~
+3 -1 6602
+S
+#6619
+Floating in a void~
+~
+0 1073741828 1
+S
+#6620
+Na wierzcholku drzewa~
+Po ciezkiej wspinaczce, w koncu udalo ci sie osiagnac szczyt tego
+majestatycznego drzewa. Gdy rozgladasz sie wokolo widzisz miasto Darkhaven
+i jego mieszkancow, jak mrowki biegajacych po ulicach. Tu w gorze powietrze
+jest swieze i orzywcze, a zielone liscie cichutko sobie szeleszca...
+~
+0 516 2
+D5
+Widzisz boisko.
+~
+drzewo~
+0 -1 6610
+S
+#6624
+Prawie koniec~
+Udalo ci sie! Wlasnie stoisz na drugim koncu labiryntu. Wokol ciagle
+panuje polmrok ale z poludnia dochodzi swiatlo. Stoi tam tajemniczy znak.
+~
+0 9 2
+D0
+Widzisz waski korytarz.
+~
+~
+0 -1 6616
+D2
+Koniec?
+~
+~
+0 -1 6631
+E
+znak~
+Jesli nie masz jeszcze poziomu 5 lub wyzszego, zastanow sie dwa razy zanim skierujesz
+swe kroki na poludnie. Moze tam byc niebezpiecznie...
+~
+S
+#6626
+Brudna kuchnia~
+Znajdujesz sie na w centrum kuchni, a zarazem jadalni tego przedszkola.
+Jedzenie jest rozrzucone wszedzie dookola, na podlodze, scianach, nawet
+na suficie! Co rusz potykasz sie o wszedobylskie garnki, spodki i patelnie.
+Zapach zepsutego jedzenia i przypalonych posilkow przyprawia cie o
+wymioty.
+~
+0 8 0
+D3
+Widzisz pokoj pelen wrzeszczacych dzieciakow.
+~
+~
+0 -1 6602
+S
+#6628
+Floating in a void~
+~
+0 1073741828 1
+S
+#6631
+Ostatnie kroki~
+To finalowa czesc twojej podrozy. Stoisz wlasnie w miejscu, gdzie wszystkie
+najgorsze z dzieciakow sa zamykane, aby przemyslec to co wlasnie zrobily.
+Na srodku pokoju stoi niewielki debowy stolik, a obok siedzi jakis
+naprawde nieznosny dzieciak.
+~
+0 9 2
+D0
+Koniec labiryntu.
+~
+~
+0 -1 6624
+S
+#6632
+Centrum przedszkola~
+Kiedy tak wedrujesz przez to przedszkole, widzisz pelno wrzeszczacych
+i biegajacych wokolo dzieci. Co rusz potykasz sie o porozrzucone zabawki,
+a od czasu do czasu miazdzysz jedna lub dwie. Przedszkole ciagnie sie
+na wschod, poludnie i zachod.
+~
+0 4 1
+D1
+Widzisz pokoj pelen wrzeszczacych dzieciakow.
+~
+~
+0 -1 6602
+D2
+Widzisz pokoj pelen wrzeszczacych dzieciakow.
+~
+~
+0 -1 6633
+D3
+Widzisz pokoj pelen wrzeszczacych dzieciakow.~
+~
+0 -1 6603
+S
+#6633
+Centrum przedszkola~
+Gdy tak sobie wedrujesz przez przedszkole, dzieci zaczynaja belkotac
+do ciebie cos bez sensu. W celu unikniecia szalenstwa, rzucasz sie na podloge
+i starasz sie przykryc wszechobecnymi zabawkami tak dokladnie, zeby
+te przeklete dzieciaki cie tu nie znalazly.
+~
+0 8 0
+D0
+Widzisz pokoj pelen wrzeszczacych dzieciakow.
+~
+~
+0 -1 6632
+D1
+Widzisz pokoj pelen wrzeszczacych dzieciakow.
+~
+~
+0 -1 6604
+D2
+Widzisz pokoj pelen wrzeszczacych dzieciakow.
+~
+~
+0 -1 6635
+D3
+Widzisz pokoj pelen wrzeszczacych dzieciakow.
+~
+~
+0 -1 6605
+S
+#6634
+Centrum przedszkola~
+Wlasnie znalazles sie w poludniowo-zachodnim rogu przedszkola. Ta okolica
+wydaje sie jakby bardziej pozadna, chociaz wciaz mozna natknac sie na
+porozrzucane zabawki. Wiekszosc dzieci stara sie za wszelka cene trzymac
+z daleka od tej czesci przedszkola. Chodza sluchy, ze stara niania bardzo
+czesto tu zaglada.
+~
+0 8 0
+D0
+Widzisz pokoj pelen wrzeszczacych dzieciakow.~
+~
+0 -1 6605
+D1
+Widzisz pokoj pelen wrzeszczacych dzieciakow.
+~
+~
+0 -1 6635
+S
+#6635
+Centrum przedszkola~
+Gdy tak maszerujesz przez przedszkole, dostajesz powoli niewielkiego
+rozstrojenia nerwowego spowodowanego dzikimi wrzaskami dzieciakow, ktore
+co rusz czepiaja sie twoich spodni. Cala podloga zagracona jest zabawkami.
+Naprawde masz juz tego dosyc i masz wielka ochote uciec z tego miejsca.
+~
+0 8 0
+D0
+Widzisz pokoj pelen wrzeszczacych dzieciakow.
+~
+~
+0 -1 6633
+D1
+Widzisz pokoj pelen wrzeszczacych dzieciakow.
+~
+~
+0 -1 6636
+D3
+Widzisz pokoj pelen wrzeszczacych dzieciakow.
+~
+~
+0 -1 6634
+S
+#6636
+Centrum przedszkola~
+Znalazles sie w poludniowo-wschodnim rogu przedszkola.  Przed toba stoja
+sztalugi, a wokolo pelno jest farbek wodnych. Masz wielka ochote usiasc
+sobie na malutkim krzeselku w kacie i namalowac jakis obrazek dla mamy.
+Ale bardzo boisz sie starej, zlosliwej niani, ktora grasuje w tej okolicy.
+~
+0 8 0
+D0
+Widzisz pokoj pelen wrzeszczacych dzieciakow.
+~
+~
+0 -1 6604
+D3
+Widzisz pokoj pelen wrzeszczacych dzieciakow.
+~
+~
+0 -1 6635
+S
+#6637
+Sciezka~
+Gdy wedrujesz ta pozadnie wydeptana sciezka mozesz zauwazyc przedszkole
+lezace na wschodzie i boisko na zachodzie. Slyszysz smiech dzieci dochodzacy
+z obydwu tych kierunkow. Slonce przyjemnie grzeje, a wokol zieleni sie trawa.
+Masz ochote zrobic tutaj maly piknik. Ale skad wziasc kocyk?
+~
+0 0 0
+D1
+Widzisz przedszkole?
+~
+~
+0 -1 6605
+D3
+Widzisz boisko.
+~
+~
+0 -1 6610
+S
+#6638
+Boisko~
+Gdy tak sobie wedrujesz boiskiem, do twych uszu dobiegaja okrzyki
+bawiacych sie dzieci. Powietrze jest tu duzo czystsze niz w budynku
+przedszkola. Zielona trawka (niestety panuje zakaz palenia) pod stopami.
+Czujesz sie blogo i gdyby nie odlegle wrzaski dzieciarnii z checia ucial
+bys sobie drzemke.
+~
+0 0 2
+D0
+Widzisz boisko.
+~
+~
+0 -1 6639
+D1
+Widzisz boisko.
+~
+~
+0 -1 6610
+D3
+Widzisz boisko.~
+~
+0 -1 6611
+S
+#6639
+Boisko~
+Gdy kontynuujesz swoja wedrowke przez boisko, dzieci zaczynaja rzucac
+sie na ciebie i za wszelka cene staraja sie zlapac twoje nogi. Wkolo jest
+dosyc mokro, pod nogami masz bloto, a przepiekne kwiatki zamienily sie w
+mieszanine trawy i blota. Musisz uwazac zeby tutaj nie upasc.
+~
+0 0 2
+D1
+Widzisz boisko.
+~
+~
+0 -1 6608
+D2
+Widzisz boisko.
+~
+~
+0 -1 6638
+D3
+Widzisz boisko.
+~
+~
+0 -1 6609
+S
+#6640
+Floating in a void~
+~
+0 1073741828 1
+S
+#6641
+Floating in a void~
+~
+0 1073741828 1
+S
+#6642
+Floating in a void~
+~
+0 1073741828 1
+S
+#6643
+Floating in a void~
+~
+0 1073741828 1
+S
+#6644
+Floating in a void~
+~
+0 1073741828 1
+S
+#6645
+Floating in a void~
+~
+0 1073741828 1
+S
+#6646
+Floating in a void~
+~
+0 1073741828 1
+S
+#6647
+Floating in a void~
+~
+0 1073741828 1
+S
+#6648
+Floating in a void~
+~
+0 1073741828 1
+S
+#6649
+Floating in a void~
+~
+0 1073741828 1
+S
+#6650
+Floating in a void~
+~
+0 1073741828 1
+S
+#6651
+Floating in a void~
+~
+0 1073741828 1
+S
+#0
+
+
+#RESETS
+D 0 6602 0 1
+M 0 6605 2 6603
+E 1 6631 1 1
+M 0 6604 2 6604
+M 0 6601 2 6605
+G 1 6632 1
+M 0 6602 2 6606
+E 1 6634 1 16
+M 0 6604 2 6606
+M 0 6610 1 6606
+M 0 6601 2 6608
+G 1 6632 1
+O 0 6619 1 6608
+M 0 6603 2 6609
+O 0 6618 1 6609
+O 0 6620 1 6610
+M 0 6606 2 6611
+G 1 6644 1
+E 1 6635 1 12
+O 0 6617 1 6611
+R 0 6613 4
+R 0 6614 4
+R 0 6615 4
+R 0 6616 4
+D 0 6617 2 1
+M 0 6607 1 6624
+M 0 6603 2 6626
+M 0 6609 1 6626
+M 0 6608 1 6631
+E 1 6630 1 6
+M 0 6600 3 6632
+E 1 6633 1 16
+M 0 6606 2 6634
+G 1 6644 1
+E 1 6635 1 12
+M 0 6600 3 6635
+E 1 6633 1 16
+M 0 6605 2 6635
+E 1 6631 1 1
+M 0 6602 2 6636
+E 1 6634 1 16
+M 0 6600 3 6638
+E 1 6633 1 16
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  6600 spec_thief
+M  6603 spec_janitor
+M  6605 spec_thief
+M  6606 spec_cast_cleric
+M  6608 spec_thief
+M  6610 spec_thief
+S
+
+
+#$

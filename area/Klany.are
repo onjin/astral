@@ -1,0 +1,1124 @@
+#AREA   Klany~
+
+
+
+#VERSION 3
+#AUTHOR Flash~
+
+#RANGES
+0 65 0 65
+$
+
+#FLAGS
+12
+
+#ECONOMY 0 47200000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#15000
+bezduszny straznik~
+Bezduszny Straznik~
+Bezdusznego Straznika~
+Bezdusznemu Straznikowi~
+Bezdusznego Straznika~
+Bezdusznym Straznikiem~
+Bezdusznym Strazniku~
+Bezduszny Strazniku~
+Bezduszny Straznik pilnuje wejscia do klanu Soulless.
+~
+Bezduszny Straznik strzeze siedziby klanu Soulless. Jego widok powoduje,
+ze nogi uginaja sie pod Toba. Otacza go ognista aura, a zar bijacy od jego
+postaci, powoduje, ze tracisz oddech. Jezeli nie jestes czlonkiem tego
+zgromadzenia ... uciekaj czym predzej !!!
+~
+3 71311532 0 C
+55 0 0 1d1+30000 1d1+800
+0 0
+112 112 1
+18 18 18 18 18 15 18
+0 0 0 0 0
+0 3 0 0 1 1 4
+0 0 2047 0 2100224 0 1378091296 3
+> greet_prog 100~
+if clan($n) == Soulless
+mpechoat $n Bezduszny Straznik wychodzi Ci na spotkanie ...
+say Witaj $w.
+say Mam nadzieje, ze masz dla mnie obiecane piwo ?
+else
+emote dosiada swego poteznego rumaka i szykuje sie do pojedynku...
+mpechoat $n Juz nie zostalo Ci wiele czasu na ocalenie swego marnego zywota.
+mpechoat $n Uciekaj poki mozesz ... !!!
+mptransfer $n 21000
+yell Nastepny samobojca wkracza do siedziby Bezdusznych!
+endif
+~
+|
+#15001
+Uzdrowicielka~
+Uzdrowicielka~
+Uzdrowicielce~
+Uzdrowicielce~
+Uzdrowicielke~
+Uzdrowicielka~
+Uzdrowicielce~
+Uzdrowicielko~
+Stoi tu kaplanka oczekujaca potrzebujacych pomocy.
+~
+Flash~
+3 4194472 1000 C
+50 0 0 10d10+30000 10d10+400
+0 0
+112 112 2
+18 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+85 65 2047 0 3156992 0 0 263
+#15004
+Kat~
+ogromny Kat~
+ogromnego Kata~
+ogromnemu Katu~
+ogromnego Kata~
+ogromnym Katem~
+ogromnym Kacie~
+ogromny Kacie~
+Kat trzyma w spoconych lapskach ksiazeczke "Zostan kaplanka w weekend".
+~
+Ojej, to jest naprawde ogromny facet. Jeszcze niedawno byl miejskim Katem,
+jednak zostal zwolniony, gdy nakryto go na tym, ze chodowal wiewiorki
+w katowskim pienku.
+~
+3 4194472 1000 C
+50 0 0 25d500+300 0d0+0
+0 0
+112 112 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 2047 0 3156992 0 0 263
+#15005
+Prorok~
+Prorok~
+Proroka~
+Prorokiem~
+Proroka~
+Prorokiem~
+Proroku~
+Prorok~
+Spowity w dluga biala szate czeka na przybucie Twego jedynego ....
+~
+Flash~
+2051 4202668 1000 C
+50 0 0 1d1+30000 1d1+800
+0 0
+112 112 1
+18 18 18 18 18 15 18
+0 0 0 0 0
+1 0 0 0 3 2 4
+0 0 2047 0 2100224 0 0 3
+> all_greet_prog 100~
+if clan($n) == ToRa
+mpsay $n Witaj wielki graczu
+else
+mptransfer $n 21001
+endif
+~
+|
+#15010
+Bankier~
+bankier~
+bankiera~
+bankierowi~
+bankiera~
+bankierem~
+bankierze~
+bankierze~
+Stoi tu bankier.
+~
+Bankier jest zaufanym pracownikiem panstwowym, ktory moze przechowac Twe zloto,
+by nikt Ci go nie ukradl w czasie snu, lub bys za duzo nie wydal.
+~
+4194307 71311532 0 C
+55 0 0 1d1+29999 1d1+800
+0 0
+112 112 1
+18 18 18 18 18 15 18
+0 0 0 0 0
+0 3 0 0 1 1 4
+0 0 2047 0 2100224 0 1378091296 3
+#15011
+Blazen~
+Blazen~
+Blazna~
+Blaznowi~
+Blazna~
+Blaznem~
+Blaznie~
+Blaznie~
+Stoi tu blazen i zongluje czaszkami.
+~
+Spogladasz na blazna. Calkiem niepozorny gosc... nawet bys go nie kopnol
+mijajac na ulicy. Nie ma przy soobi broni wydawac by sie mogl latwym celem 
+,.....jednak te jego palce zakonczone pokrytymi zaschnieta krwia szponami sa
+wystarczajacym ostrzezeniem.Spogladasz w jego oczy ......
+Wybuchowa mieszanka sadyzmu i obledu. Jego rysy twarzy wdaja Ci sie znajome,
+hmmmm ... ten nos ... To.... niemozliwe.... ale To Ty !!!!
+Czujesz, ze zaraz zaczniesz krzyczec i odwracasz czym predzej wzrok .......
+~
+3 71311532 0 C
+55 0 0 1d1+30000 1d1+800
+0 0
+112 112 1
+18 18 18 18 18 15 18
+0 0 0 0 0
+0 3 0 0 1 1 4
+0 0 2047 0 2100224 0 1378091296 3
+> greet_prog 100~
+if clan($n) == Insanity
+tell $n hihihihihi..., zapraszam, zaprszam .... buhahhahah.....
+else
+mptransfer $n 21007
+tell $n Yhh ....... idz ....... idz ...... stad.....buahahah ale zaraz.....
+endif
+~
+|
+#15020
+Egzekutor~
+Egzekutor~
+Egzekutora~
+Egzekutorowi~
+Egzekutora~
+Egzekutorem~
+Egzekutorze~
+Egzekutorze~
+Egzekutor.
+~
+Gdy na niego spogladasz, odczuwasz dziwne swedzenie w okolicy szyi.
+~
+3 71311532 0 C
+55 0 0 1d1+30000 1d1+800
+100000 0
+112 112 1
+18 18 18 18 18 15 18
+0 0 0 0 0
+0 3 0 0 1 1 4
+0 0 2047 0 2100224 0 1378091296 3
+> greet_prog 100~
+if clan($n)==Death Sentence
+tell $n Witaj przyjacielu!
+else
+mpforce $n north
+tell $n Spadaj, nie nalezysz do nas!
+endif
+~
+|
+#15023
+Lowca Dusz~
+Lowca dusz~
+Lowcy dusz~
+Lowcy dusz~
+Lowce dusz~
+Lowca dusz~
+Lowcy dusz~
+Lowco dusz~
+Lowca dusz cierpi za swe grzechy.
+~
+Stoi przed toba duch kata. Po smierci zaczal uzdrawiac chore dusze
+smiertelnikow, ktorzy nie zaznali jeszcze ostatecznego potepienia.
+ 
+Lowca Dusz wygral konkurs na najbardziej chalowaty opis moba.
+
+~
+3 4194472 1000 C
+55 0 0 25d500+300 0d0+0
+0 0
+112 112 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 2047 0 3156992 0 0 263
+#15024
+tygrys straznik~
+Plomienny tygrys~
+Plomiennego tygrysa~
+Plomiennemu tygrysowi~
+Plomiennego tygrysa~
+Plomiennym tygrysem~
+Plomiennym tygrysie~
+Plomienny tygrysie~
+Stoi tu straszliwie wygladajacy Tygrys...
+~
+Otacza go aura energii, ktora poraza Twoj umysl i cialo.
+Nie ma zadnej broni, jednak jego potezne pazury emanuja dziwna poswiata.
+Caly pancerz stanowi naturalne futro, ale czy aby na pewno jest ono
+takie naturalne... ?
+~
+3 71311532 0 C
+55 0 0 1d1+30000 1d1+800
+0 0
+112 112 1
+18 18 18 18 18 15 18
+0 0 0 0 0
+0 3 0 0 1 1 4
+0 0 2047 0 2100224 0 1378091296 3
+> greet_prog 100~
+if clan($n) == ToRa
+mpechoat $n Witaj $w!
+mpechoat $n Przyniosles dla mnie obiecane jagniatko ?
+mpechoat $n Mam nadzieje, ze upolowales jakiegos czlonka naszych
+mpechoat $n "zaprzyjaznionych" klanow... :)
+mpechoat $n Pod stolem zostawilem dla ciebie pelny dzbanuszek zupki chmielowej.
+mpechoat $n Specjalnie dla Ciebie :)))
+else
+yell I tak oto lowca stal sie zwierzyna! Zginiesz $w!
+mptransfer $n 21001
+endif
+~
+|
+#15030
+akolita~
+Akolita~
+Akolity~
+Akolicie~
+Akolite~
+Akolita~
+Akolicie~
+Akolito~
+Ubrany w biale szaty akolita strzeze Wiezy Magow.
+~
+Stoi przed Toba ubrany biale, powloczyste szaty akolita, ktory obecnie sluzy
+magom jako straznik. Omiata Cie on uwaznym, spokojnym spojrzeniem gdy mijasz
+go zdazajac do Wiezy. Swiatlo dnia igra na jego rozdzce, rzucajac lekkie
+refleksy na wokolo. Widzisz doskonale, ze jest mily, spokojny elf, ktory nikomu
+bez powodu krzywdy by nie zrobil, ale jest tez gorliwym sluga Wielkiego Mistrza
+i proba wtragniecia do Wiezy z cala pewnoscia bylaby dosc dobrym powodem.
+~
+2051 4202668 1000 C
+50 0 0 1d1+30000 1d1+800
+0 0
+112 112 1
+18 18 18 18 18 15 18
+-20 -20 -20 -20 -20
+1 0 0 0 1 1 4
+0 0 2047 0 2100224 0 0 3
+> greet_prog 100~
+if clan($n) == S_W_W
+if name($n) == Fedrallminus
+mpecho Akolita mowi 'Witaj Wielki Mistrzu!'
+mpechoat $n Akolita klania sie gleboko przed Toba.
+mpechoaround $n Akolita klania sie gleboko przed Fedrallminusem.
+else
+if name($n) == Nakor
+mpecho Akolita mowi 'Witaj Mistrzu!'
+mpechoat $n Akolita klania sie gleboko przed Toba.
+mpechoaround $n Akolita klania sie gleboko przed Nakorem.
+else
+if name($n) == Vilgefortz
+mpecho Akolita mowi 'Witaj Mistrzu!'
+mpechoat $n Akolita klania sie gleboko przed Toba.
+mpechoaround $n Akolita klania sie gleboko przed Vilgefortzem.
+else
+mpecho Akolita mowi 'Witaj $w!'
+mpechoat $n Akolita klania sie przed Toba.
+mpechoaround $n Akolita klania sie przed $z.
+endif
+endif
+endif
+endif
+~
+> greet_prog 100~
+if clan($n) == S_W_W
+else
+mpecho Akolita mowi 'Nie mozesz tu wejsc dopoki do nas nie dolaczysz, $w'
+if class($n) == Mage
+mpecho Akolita mowi 'Co byc moze kiedys nastapi...'
+else
+mpecho Akolita mowi 'Co raczej nigdy nie nastapi...'
+endif
+mpecho Akolita mowi 'A teraz idz stad!'
+mpechoat $n Akolita wyrzuca Cie precz.
+mpechoaround $n Akolita wyrzuca $b precz.
+mptransfer $n 21005
+endif
+~
+|
+#15033
+ibycuss~
+Ibycuss~
+Ibycussa~
+Ibycussowi~
+Ibycussa~
+Ibycussem~
+Ibycussie~
+Ibycussie~
+Ibycuss pomaga tu rannym magom.
+~
+Ibycuss jest wiekowym mezczyzna w zoltych szatach. Nosi okulary o wyjatkowo
+grubych szklach i jest prawie lysy. Nieustannie mamrocze cos do siebie i z 
+roztargnieniem krzata sie wsrod czekajacych na jego pomoc magow. Mimo jego
+chaotycznego dzialania zauwazasz, ze jednak zawsze zdazy pomoc kademu z  
+czekajacych, a gdy wydaje mu sie, ze nikt nie patrzy, jego krok nabiera
+sprezystosci. Najwidoczniej Ibycuss nie zdziadzial jeszcze do konca i lepiej
+nie wystawiac na probe jego reputacji zdobytej w Pojedynkach Magow.
+~
+3 4194472 1000 C
+50 0 0 25d500+300 5d5+50
+0 0
+112 112 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 4
+0 0 2047 0 3156992 0 0 263
+#0
+
+
+#OBJECTS
+#15000
+naszyjnik b~
+naszyjnik z krwawiacym rubinem~
+naszyjnika z rubinem~
+naszyjnikowi z rubinem~
+naszyjnik z rubinem~
+naszyjnikiem z rubinem~
+naszyjniku z rubinem~
+naszyjnik z rubinem~
+Pieknie wykonany naszyjnik z krwawiacym rubinem.~
+Flash~
+9 2097216 5 1
+5 5 0 0
+1 1000 100
+A
+18 3
+A
+13 75
+A
+12 5
+A
+26 33554432
+#15001
+skrzydla~
+Skrzydla klanowe~
+a newly created skrzydla~
+a newly created skrzydla~
+a newly created skrzydla~
+a newly created skrzydla~
+a newly created skrzydla~
+a newly created skrzydla~
+Skrzydla klanu WarLords~
+~
+9 2621441 65537
+10 10 0 0
+1 0 0
+A
+18 10
+A
+19 7
+#15004
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+Tablica ogloszeniowa zostala tu umocowana do sciany.~
+Flash~
+12 0 0
+0 0 0 0
+1 10 1
+#15015
+kufer~
+kufer~
+kufra~
+kufrowi~
+kufer~
+kufrem~
+kufrze~
+kufrze~
+Kufer testowy NIC nie WKLADAC do niego.~
+Flash~
+15 0 0
+1000 0 0 0
+1 0 0
+#15020
+kufer~
+kufer~
+kufra~
+kufrowi~
+kufer~
+kufrem~
+kufrze~
+kufrze~
+Ciezki kufer.~
+Flash~
+15 0 0
+1000 0 0 0
+1 0 0
+#15021
+tablica ogloszeniowa~
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+Tablica ogloszeniowa zostala tu umocowana do sciany.~
+Flash~
+12 0 0
+0 0 0 0
+1 10 1
+#15023
+fontanna~
+fontanna~
+fontanna~
+fontanna~
+fontanna~
+fontanna~
+fontanna~
+fontanna~
+Stoi tutaj granitowa fontanna.~
+Flash~
+25 17 0
+50 50 0 0
+500 3000 300
+E
+fontanna~
+Fontanna jest pelna krystalicznie czystej i chlodnej wody.
+~
+#15025
+pelerynka~
+plomienna pelerynka~
+plomiennej pelerynki~
+plomiennej pelerynce~
+plomienna pelerynke~
+plomienna pelerynka~
+plomiennej pelerynce~
+plomienna pelerynko~
+Lezy tu polyskujac dziwnym swiatelem jakas szmata.~
+Flash~
+9 2097217 9 128
+4 4 0 0
+1 0 0
+A
+19 3
+A
+18 2
+A
+4 1
+A
+13 8
+> wear_prog 100~
+if clan($n) == tora
+else
+mpechoat $n Slyszysz w glowie donosny glos 'Natychmiast odloz ten przedmiot'.
+mpforce $n remove $o
+mpforce $n drop $o
+endif
+~
+|
+#15026
+kolia~
+kolia sprawiedliwosci~
+kolii sprawiedliwosci~
+kolii sprawiedliwosci~
+kolie sprawiedliwosci~
+kolia sprawiedliwosci~
+kolii sprawiedliwosci~
+kolio sprawiedliwosci~
+Jakas kolia zostala tu niedbale porzucona...~
+Flash~
+9 2359360 5 128
+10 10 0 0
+5 0 0
+A
+18 3
+A
+19 4
+A
+2 2
+A
+1 2
+A
+31 3
+A
+13 5
+A
+26 8
+A
+26 32
+A
+26 8388608
+A
+26 4
+> wear_prog 100~
+if clan($n) == Tora
+else
+mpforce $n remove 15026
+mpforce $n drop $o
+endif
+~
+|
+#15027
+pierscien~
+pierscien ognia~
+pierscienia ognia~
+pierscieniowi ognia~
+pierscien ognia~
+pierscieniem ognia~
+pierscieniem ognia~
+pierscien ognia~
+Pierscien ognia jak z ognia.~
+Flash~
+9 2359361 3
+5 5 0 0
+1 0 0
+A
+19 5
+A
+18 4
+A
+13 75
+> wear_prog 100~
+if clan($n) == Tora
+else
+mpforce $n remove $o
+mpforce $n drop $o
+endif
+~
+|
+#15028
+bransoleta a~
+onyxowa bransoleta~
+bransoleta~
+bransoleta~
+bransoleta~
+bransoleta~
+bransoleta~
+bransoleta~
+Lezy tu pieknie wykonana bransoleta.~
+Flash~
+9 2097153 4097
+5 0 0 0
+1 0 0
+A
+18 2
+A
+13 35
+> wear_prog 100~
+if clan($n) == Soulless
+else
+mpforce $n remove $o 
+mpforce $n drop $o 
+endif
+~
+|
+#15029
+shoufa~
+shoufa chusta~
+shoufa~
+shoufa~
+shoufa~
+shoufa~
+shoufa~
+shoufa~
+Chusta do przeslaniania twarzy przed walka.~
+Flash~
+9 2097216 33 128
+5 0 0 0
+1 0 0
+A
+18 2
+A
+19 3
+A
+13 5
+> wear_prog 100~
+if clan($n) == Death Sentence
+else
+mpforce $n remove $o
+mpforce $n drop $o
+endif
+~
+|
+#15030
+naramienniki~
+czarne naramienniki~
+naramienniki~
+naramienniki~
+naramienniki~
+naramienniki~
+naramienniki~
+naramienniki~
+Czarne Naramienniki.~
+Flash~
+9 2097216 257 128
+5 0 0 0
+1 0 0
+A
+18 3
+A
+19 4
+A
+13 37
+A
+12 1
+> wear_prog 100~
+if clan($n) == Death Sentence
+else
+mpforce $n remove $o
+mpforce $n drop $o
+endif
+~
+|
+#15035
+naszyjnik~
+naszyjnik z uszu~
+naszyjnik z uszu~
+naszyjnik z uszu~
+naszyjnik z uszu~
+naszyjnik z uszu~
+naszyjnik z uszu~
+naszyjnik z uszu~
+Naszyjnik z uszu.~
+Flash~
+9 2359361 5 1
+5 5 0 0
+1 1000 100
+A
+18 4
+A
+19 5
+A
+13 70
+> wear_prog 100~
+if clan($n) == Death Sentence
+else
+mpforce $n remove naszyjnik
+mpforce $n drop naszyjnik
+endif
+~
+|
+#0
+
+
+#ROOMS
+#15000
+Przedsionek.~
+Wlasnie wkroczyles do siedziby klanu ...
+Minales potezne, drewniane wrota, ktore zatrzasnely sie za Toba ( same ? ).
+Znajduje sie tutaj stary stol, wymoszczona sianem prycza (ciekawe dlaczego
+dwuosobowa ... ? ) oraz para krzesel.
+Widac, ze pomieszczenie od dawna nie bylo czyszczone ... chyba trzeba bedzie 
+wynajac sprzataczke ...
+~
+0 3179532 0
+D0
+Flash~
+Flash~
+0 -1 15001
+D4
+Flash~
+Flash~
+0 -1 21000
+S
+#15001
+Glowna Komnata.~
+Glowne pomieszczenia klanu Soulless.
+Znajdujesz sie w wilgotnym pomieszczeniu. Woda oraz robactwo lazace po scianach
+napelnia Cie odraza ... ale coz, moze kiedys bedzie nas stac na malarza ?
+W marzeniach ogladasz to miejsce i widzisz jak staje sie ono centrum
+wspanialej siedziby.
+~
+0 3146760 0
+D2
+Flash~
+Flash~
+0 -1 15000
+D5
+Flash~
+Flash~
+0 -1 15002
+> rand_prog 20~
+mpecho Z sufitu sypie sie tynk, znowu ktos jest na rynku.
+~
+|
+S
+#15002
+Przechowalnia.~
+Przechowalnia jak sama nazwa wskazuje przechowuje rozne roznosci rozniste.
+~
+0 3671048 0
+D4
+Flash~
+Flash~
+0 -1 15001
+S
+#15003
+Siedziba Klanu Insanity~
+Stoisz przed wieza ktorej szczyt ginie wsrod chmur. Hmm. Czy aby na pewno?
+Teraz wyraznie widzisz, ze ma tylko kilkadziesiat stop. Twoich uszu dobiega 
+stlumiony, histeryczny smiech. Katem oka dostrzegasz tuz obok siebie 
+krzykliwie odzianego blazna. Jakim cudem nie zauwazyles go wczesniej !??
+~
+0 3146764 0
+D0
+Flash~
+Flash~
+1 -1 15004
+D2
+Flash~
+Flash~
+1 -1 21007
+S
+#15004
+Obledna Wieza~
+Znajdujesz sie w calkiem sporym, sterylnie czystym pomieszczeniu. 
+Jest tu jasno jak w dzien, jednak nie dostrzegasz zadnego zrodla swiatla.
+Nie pada ono z zadnej konkretnej strony, nie widac tez sladu cienia.
+Pomalowane na bialo sciany 'zdobia' malowidla wykonane czerwona krwia.
+~
+0 3146764 0
+D2
+Flash~
+Flash~
+1 -1 15003
+D4
+Flash~
+Flash~
+0 -1 15006
+D5
+Flash~
+Flash~
+0 -1 15005
+S
+#15005
+Piwniczka.~
+W tej oto piwniczce miesci sie magazyn klanu. Wszystkie rzeczy sa rowniotko
+poukladane na... suficie.
+~
+0 3671052 0
+D4
+Flash~
+Flash~
+0 -1 15004
+S
+#15006
+Klanowa lecznica.~
+Wlasciwie pokoik ten bardziej przypomina kostnice niz lecznice - podloga
+usiana warstwa gnatow, w kacie gnije jakis nieszczesnik.  Widac pracujacy
+tu uzdrawiacz nie jest zbyt biegly w swej sztuce.
+Ale coz - poczatki bywaja trudne.
+~
+0 3146764 0
+D5
+Flash~
+Flash~
+0 -1 15004
+S
+#15007
+Floating in a void~
+Flash~
+0 4 1
+S
+#15008
+Floating in a void~
+Flash~
+0 4 1
+S
+#15009
+Floating in a void~
+Flash~
+0 4 1
+S
+#15010
+Bank.~
+Znajdujesz sie w wysokim pomieszczeniu, pelnym okienek i dzwieku przeliczanego
+zlota. Solidne kraty w drzwiach i oknach oraz magiczne alarmy, strzega tutaj
+dorobku zycia graczy Astral Dominion. Milo usmiechniety bankier ubrany w
+dobrze skrojony garnitur zaprasza Cie do skorzystania z jego uslug.
+~
+0 12 0
+D0
+Flash~
+Flash~
+0 -1 21007
+S
+#15013
+Floating in a void~
+Flash~
+0 3179532 0
+D5
+~
+~
+0 -1 15025
+S
+#15014
+Pokoj narad.~
+Tutaj czlonkowie klanu ToRa planuja kolejne zadania ...
+~
+0 3703816 0
+D4
+~
+~
+0 -1 15026
+S
+#15019
+Floating in a void~
+Flash~
+0 1073741828 1
+S
+#15020
+Przed Cela Smierci~
+Stoisz w dlugim korytarzu. Slyszysz jeki torturowanych i krzyki umierajacych
+Czujesz, ze strach narasta w Tobie i w koncu paralizuje Cie tak,
+ze nie jestes w stanie sie poruszyc.
+~
+0 3145740 0
+D0
+Flash~
+Flash~
+1 -1 21033
+D2
+Flash~
+Flash~
+1 -1 15021
+> greet_prog 100~
+if clan($n) != Death Sentence
+mpforce $n north
+endif
+~
+|
+S
+#15021
+Cela Smierci.~
+Oj, chyba zabladziles, bo tutaj nie spotka Cie nic dobrego...
+~
+0 3146760 0
+D0
+Flash~
+Flash~
+1 -1 15020
+D4
+Flash~
+Flash~
+0 -1 15023
+D5
+Flash~
+Flash~
+0 -1 15022
+S
+#15022
+Piekielna Zbrojownia.~
+Widzisz wielki pokoj wypelniony wszelakim sprzetem przeznaczonym do 
+zadawania bolu. Na scianach wisi sprzet wojenny, po podlodze walaja
+sie zbroje.
+~
+0 3671048 0
+D4
+Flash~
+Flash~
+0 -1 15021
+S
+#15023
+Kaplica.~
+Jesli oddasz swoja dusze w rece Lowcy, zaznasz wiecznego cierpienia
+i potepienia.
+~
+0 3146760 1
+D5
+Flash~
+Flash~
+0 -1 15021
+S
+#15024
+Wiezyczka straznicza.~
+Znajdujesz sie w pomieszczeniu zajmowanym przez dziwna istote, ktora jest 
+straznikiem siedziby miejscowego klanu. 
+Nie ma tu zadnych udogodnien ani sprzetow, gdyz rozlecialy sie one podczas
+ostatniej walki, ich miejsce zajmuja kosci ostatniego smialka, ktory odwazyl
+sie tu postawic stope...
+Jest to kompletnie pusta komnata, dla ktorej wlasciwsza bylaby nazwa mordownia!
+~
+0 3146764 1
+D0
+Flash~
+Flash~
+0 -1 15025
+D4
+Flash~
+Flash~
+0 -1 21001
+S
+#15025
+Jaskinia Tygrysa.~
+Znajdujesz sie w glownym pomieszczeniu siedziby poteznego klanu ToRa.
+Pod sciana znajduje sie rzad prycz, na ktorych czlonkowie zgromadzenia
+spedzaja upojne noce (te mniej upojne rowniez).
+Srodek pokoju zajmuje ogromny stol, na ktorym znajduje sie pusty, niestety,
+dzban po winie oraz spora liczba kielichow.
+~
+0 3146760 1
+D2
+Flash~
+Flash~
+0 -1 15024
+D4
+~
+~
+0 -1 15013
+D5
+Flash~
+Flash~
+0 -1 15026
+S
+#15026
+Swietlista komnata.~
+Znajdujesz sie w jasno oswietlonym pomieszczeniu, w ktorym znajdziesz sporo
+potrzebnego sprzetu... bierz ile dusza zapragnie!
+~
+0 3671048 1
+D4
+Flash~
+Flash~
+0 -1 15025
+D5
+~
+~
+0 -1 15014
+S
+#15030
+Przed Wieza Magii.~
+Stoisz przed potezna brama prowadzaca do Gildii Magow. Widoczna za nia budowla
+przytlacza Cie swym ogromem. Odnosisz wrazenie, ze ta twierdza nie zostala
+zbudowana ludzkimi rekami i stala tu zanim powstalo Darkhaven. Sciany broniace
+budowli wykonane sa z niezwykle rzadko spotykanego kamienia, majacego silne
+magiczne wlasciwosci. Zostaly w nich wyryte runy majace zapewnic ochrone dla
+przebywajacych w ich cieniu magow.
+~
+0 3145736 0
+D0
+Flash~
+Flash~
+0 -1 21005
+D2
+Flash~
+Flash~
+0 -1 15031
+> rand_prog 5~
+mpecho Blekitne iskierki magii przemykaja przez powietrze.
+~
+|
+S
+#15031
+Wieza magii.~
+Glowna sala Gildii spokojnie konkurowac z kazdym widzianym przez Ciebie dworem
+krolewskim. Podczas gdy wiekszosc budowli zrobiona jest z magicznego kamienia
+sciany sali wykonane zostaly z marmuru. Juz na pierwszy rzut oka widac, ze nie
+jest to zwykly marmur gdyz posiada on trzy odcienie: czarny, czerwony i bialy.
+W scianach zostaly magicznie wytrawione zlote i srebrne runy zdajace sie byc w
+ciaglym ruchu. Gdy tak stoisz zdajesz sobie sprawe, ze wlasnie to miejsce jest
+zrodlem mocy calej Gildii.
+~
+0 3146760 0
+D0
+Flash~
+Flash~
+0 -1 15030
+D2
+Flash~
+Flash~
+0 -1 15032
+D4
+Flash~
+Flash~
+0 -1 15033
+> rand_prog 5~
+mpecho Blekitne iskierki magii przemykaja przez powietrze.
+~
+|
+S
+#15032
+Magazyn.~
+Na razie czekamy na wyniki konkursu na najlepszy projekt.
+Dotarles do gigantycznej, pokrytej kurzem sali w podziemiach gmachu Gildii. 
+Wlasnie tu skladowane sa przedmioty, ktore rozni magowie zdobywaja w czasie
+swoich wypraw. Wyglada na to, ze ostatnio Gildii nie powodzi sie za dobrze
+poniewaz duza czesc sali jest pusta... byc moze wynika to z faktu, za kazdy
+kto czegos potrzebuje moze skorzystac ze zgromadzonych tu przedmiotow.
+~
+0 3671048 0
+D0
+Flash~
+Flash~
+0 -1 15031
+> rand_prog 5~
+mpecho Blekitne iskierki magii przemykaja przez powietrze.
+~
+|
+S
+#15033
+Kaplica.~
+Znajdujesz sie w duzej sali oddanej we wladanie Ibycussowi, jednemu z
+najpotezniejszych wychowankow Gildii. Panuje tu prawie idelany porzadek, zas
+powietrze przesycone jest zapachem roznych ziol. Odkad Ibycuss stal sie zbyt
+stary aby brac udzial w samotnych przygodach, osiadl tu i zajal sie zglebianiem
+tajnikow magii leczniczej oraz zielarstwem. Widzisz tu paru lekko rannych magow
+oczekujacych na jego pomoc... byc moze warto zaczekac?
+~
+0 3146760 0
+D5
+Flash~
+Flash~
+0 -1 15031
+S
+#15100
+Floating in a void~
+Flash~
+0 1073741828 1
+S
+#0
+
+
+#RESETS
+M 0 15000 1 15000
+M 0 15010 1 15010
+M 0 15020 1 15020
+O 0 15021 1 15021
+M 0 15011 1 15003
+M 0 15023 1 15023
+O 0 15023 1 15023
+M 0 15024 1 15024
+O 0 15004 1 15004
+M 0 15004 1 15006
+M 0 15030 1 15030
+M 0 15033 1 15033
+O 0 10401 1 15006
+M 0 15001 1 15013
+M 0 15005 1 15024
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  15000 spec_guard
+M  15001 spec_cast_adept
+M  15004 spec_cast_adept
+M  15005 spec_guard
+M  15023 spec_cast_adept
+M  15030 spec_guard
+M  15033 spec_cast_adept
+S
+
+
+#$

@@ -1,0 +1,2618 @@
+#AREA   Kanion Zywiolow [pl. Bercik]~
+
+
+
+#VERSION 3
+#AUTHOR Raff~
+
+#RANGES
+5 30 5 65
+$
+
+#RESETMSG ~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 48368726
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#9201
+alpinista~
+alpinista~
+alpinisty~
+alpiniscie~
+alpiniste~
+alpinista~
+alpiniscie~
+alpinisto~
+Alpinista cwiczy tutaj wspinaczke.
+~
+Bardzo chcialby zobaczyc co znajduje sie po drugiej stronie tej gory.
+~
+69 0 500 C
+3 16 8 10d5+15 1d6+1
+100 500
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9202
+cyklop~
+cyklop~
+cyklopa~
+cyklopowi~
+cyklopa~
+cyklopem~
+cyklopie~
+cyklopie~
+Glodny cyklop warczy na ciebie!
+~
+Wyglada na takiego co wlasnie ma zamiar zjesc obiad (moze wlasnie ciebie?).
+~
+99 128 -700 C
+22 0 -5 1d4+1100 1d4+25
+1000 80000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9203
+malutki zywiol~
+malutki zywiol~
+malutkiego zywiolu~
+malutkiemu zywiolowi~
+malutki zywiol~
+malutkim zywiolem~
+malutkim zywiole~
+malutki zywiole~
+Malutki zywiol blaka sie po okolicy.
+~
+Raczej maly jak na zywiol, musial duzo chorowac w dziecinstwie.
+~
+65 0 0 C
+1 20 9 1d20+0 1d3+1
+11 100
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9204
+straznik zywiol~
+straznik~
+straznika~
+straznikowi~
+straznika~
+straznikiem~
+strazniku~
+strazniku~
+Straznik Kanionu Zywiolow jest tutaj.
+~
+Nie mozesz dokladnie powiedziec, jakim rodzajem zywiolu jest straznik,
+byc moze jest w nim cos z kazdego zywiolu.
+~
+3 0 0 C
+20 5 -5 0d0+1000 4d4+5
+10000 100000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9205
+maly zywiol~
+maly zywiol~
+malego zywiolu~
+malemu zywiolowi~
+maly zywiol~
+malym zywiolem~
+malym zywiole~
+maly zywiole~
+Raczej maly zywiol, nie zwracaj na niego uwagi.
+~
+Maly zywiol, mieszkaniec tego kanionu.
+~
+67 0 0 C
+5 16 5 0d0+60 2d4+0
+250 800
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9206
+sredni zywiol~
+sredni zywiol~
+sredniego zywiolu~
+sredniemu zywiolowi~
+sredni zywiol~
+srednim zywiolem~
+srednim zywiole~
+sredni zywiole~
+Srednich rozmiarow zywiol.
+~
+Sredni zywiol, mieszkaniec tego kanionu.
+~
+67 0 10 C
+10 11 2 10d10+125 2d6+1
+750 4000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9207
+duzy zywiol~
+duzy zywiol~
+duzego zywiolu~
+duzemu zywiolowi~
+duzy zywiol~
+duzym zywiolem~
+duzym zywiole~
+duzy zywiole~
+Duzy zywiol.
+~
+Duzy zywiol, mieszkaniec tego kanionu.
+~
+67 0 20 C
+15 6 0 10d10+190 2d8+2
+2000 21000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9208
+wladca ziemii zywiol~
+Wladca Ziemii~
+Wladcy Ziemii~
+Wladcy Ziemii~
+Wladce Ziemii~
+Wladca Ziemii~
+Wladcy Ziemii~
+Wladco Ziemii~
+Wladca zywiolow ziemii.
+~
+Wyglada tak staro jak sama ziemia. Wyglada na to, ze zna on wszystkie sekrety
+ziemii. Nie mozesz dokladnie powiedziec, gdzie on sie zaczyna a gdzie konczy
+lita skala.
+~
+3 128 0 C
+30 -2 -13 30d30+1000 2d6+25
+100000 400000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9209
+wladca ognia zywiol~
+Wladca Ognia~
+Wladcy Ognia~
+Wladcy Ognia~
+Wladce Ognia~
+Wladca Ognia~
+Wladcy Ognia~
+Wladco Ognia~
+Wladca zywiolow ognia.
+~
+Gdy tak na niego patrzysz, wydaje ci sie ze ten zywiol topi sie gdy tak siedzi
+na swym plonacym tronie.
+~
+3 128 0 C
+30 -5 -10 30d30+1000 4d5+5
+100000 300000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9210
+wladca powietrza zywiol~
+Wladca Powietrza~
+Wladcy Powietrza~
+Wladcy Powietrza~
+Wladce Powietrza~
+Wladca Powietrza~
+Wladcy Powietrza~
+Wladco Powietrza~
+Wladca powietrznych zywiolow.
+~
+Gdy patrzysz na niego to zdaje ci sie jakbys patrzyl w niebo.
+~
+3 128 0 C
+30 0 -10 30d30+1000 9d3+9
+100000 350000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9211
+wladca blyskawic zywiol~
+Wladca Blyskawic~
+Wladcy Blyskawic~
+Wladcy Blyskawic~
+Wladce Blyskawic~
+Wladca Blyskawic~
+Wladcy Blyskawic~
+Wladco Blyskawic~
+Wladca Blyskawic.
+~
+Gdy wpatrujesz sie w niego, nagle tuz obok uderza blyskawica, a po niebie
+rozchodzi sie potezny grzmot! Gdy ze strachu padasz na twarz, slyszysz
+glosny smiech Wladcy Blyskawic.
+~
+3 128 0 C
+30 0 -6 30d30+1000 4d6+15
+100000 350000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9212
+wladca wody zywiol~
+Wladca Wody~
+Wladcy Wody~
+Wladcy Wody~
+Wladce Wody~
+Wladca Wody~
+Wladcy Wody~
+Wladco Wody~
+Wladca zywiolow wody.
+~
+Gdy patrzysz na niego nagle zamienia sie w mgle, ktora zaczyna otaczac cie
+zwarta masa. Gdy ze strachu kolor twojej twarzy przybiera kolor zielony,
+ponownie przybiera swoja pierwotna postac.
+~
+3 128 0 C
+30 0 -10 30d30+1000 7d3+5
+100000 350000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9214
+mala kaluza zywiol~
+mala kaluza~
+malej kaluzy~
+malej kaluzy~
+mala kaluze~
+mala kaluza~
+malej kaluzy~
+mala kaluzo~
+Mala kaluza wody sie tu przelewa.
+~
+Przelewa sie po ziemii z miejsca na miejsce moczac ci nogi.
+~
+65 0 0 C
+8 13 3 10d10+200 2d5+1
+225 4000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9215
+plomien zywiol~
+plomien~
+plomienia~
+plomieniowi~
+plomien~
+plomieniem~
+plomieniu~
+plomieniu~
+Maly ognisty zywiol blaka sie bez celu.
+~
+Maly ognik blaka sie bezcelowo po trawie.
+~
+65 0 0 C
+4 17 6 5d10+0 2d4+0
+150 500
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9216
+sniezynka zywiol~
+sniezynka~
+sniezynki~
+sniezynce~
+sniezynke~
+sniezynka~
+sniezynce~
+sniezynko~
+Mala sniezynka fruwa w powietrzu.
+~
+Wyglada na to, ze ma jasnoniebieski kolor.
+~
+65 524288 520 C
+3 19 8 1d5+30 1d5+0
+0 200
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9217
+kamyczek zywiol~
+kamyczek~
+kamyczka~
+kamyczkowi~
+kamyczek~
+kamyczkiem~
+kamyczku~
+kamyczku~
+Maly kamyczek.
+~
+Wyglada na maly zywy kamyczek!
+~
+65 0 0 C
+3 18 6 4d10+5 1d6+1
+98 350
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9218
+iskierka zywiol~
+iskierka~
+iskierki~
+iskierce~
+iskierke~
+iskierka~
+iskierce~
+iskierko~
+Mala iskierka brzeczy ci kolo ucha.
+~
+Przemieszczanie sie z miejsca na miejsce z predkoscia swiatla to trudna praca.
+~
+65 0 0 C
+4 16 6 10d5+0 1d8+1
+150 500
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9219
+kaluza kwas zywiol~
+kaluza kwasu~
+kaluzy kwasu~
+kaluzy kwasu~
+kaluze kwasu~
+kaluza kwasu~
+kaluzy kwasu~
+kaluzo kwasu~
+Mala kaluza kwasu wyzera dziure w kamieniu.
+~
+Magiczna kaluza kwasu powstala z zywiolow ognia i wody.
+~
+65 0 0 C
+9 11 2 1d10+120 5d2+2
+1000 4000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9220
+bestia stwor lawy~
+stwor z lawy~
+stwora z lawy~
+stworowi z lawy~
+stwora z lawy~
+stworem z lawy~
+stworze z lawy~
+stworze z lawy~
+Paskudna bestia czai sie tutaj.
+~
+Magiczna lawa, przybrala postac mitycznej bestii.~
+65 0 0 C
+8 13 3 1d10+120 5d2+2
+313 4000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9221
+potwor blotny zywiol~
+blotny potwor~
+blotnego potwora~
+blotnemu potworowi~
+blotnego potwora~
+blotnym potworem~
+blotnym potworze~
+blotny potworze~
+Blotny potwor kreci sie tutaj.
+~
+Magiczny blotny potwor powstal z zywiolow wody i ziemii.
+~
+65 0 0 C
+7 14 4 1d12+86 2d4+1
+400 1000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9222
+mgielka zywiol~
+mgielka~
+mgielki~
+mgielce~
+mgielke~
+mgielka~
+mgielce~
+mgielko~
+Unosi sie tu magiczna mgielka.
+~
+Magiczna mgielka powstala ze skrzyzowania zywiolow powietrza i wody.
+~
+65 0 0 C
+6 16 50 6d10+20 1d8+0
+300 1000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9223
+czasteczka zywiol~
+czasteczka~
+czasteczki~
+czasteczce~
+czasteczke~
+czasteczka~
+czasteczce~
+czasteczko~
+Czasteczka jakiegos atomu, zbyt mala zeby ja zobaczyc.
+~
+Magiczna manifestacja energii.
+~
+65 0 0 C
+5 16 6 5d4+70 1d5+5
+10 800
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9224
+chmura pylu zywiol~
+chmura pylu~
+chmury pylu~
+chmurze pylu~
+chmure pylu~
+chmura pylu~
+chmurze pylu~
+chmuro pylu~
+Chmura pylu sprawia, ze masz ochote kichnac.
+~
+Magiczna chmura pylu to zywiol powietrza zmieszany z zywiolem ziemii.
+~
+65 0 0 C
+6 15 4 9d9+4 1d8+1
+100 980
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9225
+wir powietrza~
+wir powietrza~
+wiru powietrza~
+wirowi powietrza~
+wir powietrza~
+wirem powietrza~
+wirze powietrza~
+wirze powietrza~
+Maly wir powietrza kreci sie dokola.
+~
+Magiczny wir powietrza jest manifestacja potegi zywiolow powietrza.
+~
+65 0 0 C
+2 19 8 5d5+0 1d6+0
+30 150
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9226
+niebieski plomien~
+Niebieski Plomien~
+Niebieskiego Plomienia~
+Niebieskiemu Plomieniowi~
+Niebieski Plomien~
+Niebieskim Plomieniem~
+Niebieskim Plomieniu~
+Niebieski Plomieniu~
+Plonie tu mistyczny Niebieski Plomien.
+~
+Gdy przygladasz mu sie blizej widzisz twarz i prawie humanoidalna figure
+w jakis niepojety sposob uwieziona w plomieniach.
+~
+67 0 -100 C
+26 -3 -4 1d100+550 6d3+12
+25000 100000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9227
+magma~
+Magma~
+Magmy~
+Magmie~
+Magme~
+Magma~
+Magmie~
+Magmo~
+Magma przelewa sie leniwie z miejsca na miejsce.
+~
+Humanoidalna figura wyglada na uwieziona w polu lawy.
+~
+67 0 -150 C
+22 0 -8 3d10+350 3d8+5
+10000 75000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9228
+lodowy bandyta~
+Lodowy Bandyta~
+Lodowego Bandyty~
+Lodowemu Bandycie~
+Lodowego Bandyte~
+Lodowym Bandyta~
+Lodowym Bandycie~
+Lodowy Bandyto~
+Lodowy Bandyta wzbudza zimny strach w twoim sercu.
+~
+Humanoidalna istota pokryta gruba warstwa lodu, ale wciaz jeszcze zywa.
+~
+195 32768 -250 C
+24 -2 -9 2d10+480 2d8+13
+30000 150000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9229
+kamienny potwor~
+Kamienny Potwor~
+Kamiennego Potwora~
+Kamiennemu Potworowi~
+Kamiennego Potwora~
+Kamiennym Potworem~
+Kamiennym Potworze~
+Kamienny Potworze~
+Kamienny Potwor przyglada ci sie z uwaga.
+~
+Humanoidalna istota uwieziona w kamieniu wydaje sie zywa.
+~
+67 0 -310 C
+23 0 -6 40d10+550 3d8+4
+19000 60000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9230
+huragan~
+Huragan~
+Huraganu~
+Huraganowi~
+Huragan~
+Huraganem~
+Huraganie~
+Huraganie~
+Huragan szaleje na niebie.
+~
+Humanoidalna istota jest uwieziona w poteznym wirze powietrza.
+~
+67 32768 -10 C
+28 -4 -7 0d0+700 4d6+6
+41082 350000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9231
+elementalista~
+elementalista~
+elementalisty~
+elementaliscie~
+elementaliste~
+elementalista~
+elementaliscie~
+elementalisto~
+Elementalista szuka tutaj magicznych kamieni.
+~
+Czarodziej studiujacy zachowania zywiolow przybyl tutaj w poszukiwaniu
+legendarnego Kamienia Poddania, ktory potrafi pozbawic kazda istote
+zmyslow.
+~
+67 2 -50 C
+17 6 2 1d11+200 3d5+3
+8000 30000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9232
+wojownik teczy~
+wojownik teczy~
+wojownika teczy~
+wojownikowi teczy~
+wojownika teczy~
+wojownikiem teczy~
+wojowniku teczy~
+wojowniku teczy~
+Wojownik z Kultu Teczy klnie sie na swa lojalnosc.
+~
+Kult Teczy otrzymal specjalne moce sluzac w armii zywiolow.
+~
+65 0 150 C
+18 1 0 0d0+340 3d6+4
+8000 35000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9233
+iluzjonista~
+iluzjonista~
+iluzjonisty~
+iluzjoniscie~
+iluzjoniste~
+iluzjonista~
+iluzjoniscie~
+iluzjonisto~
+Iluzjonista szuka pomocy zywiolow.
+~
+Szuka pomocy w tym kanionie przy tworzeniu nowych iluzji.
+
+<wielded>            Miecz Iluzjonisty
+~
+67 0 -50 C
+12 10 3 10d6+150 2d7+0
+1900 13900
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9234
+alchemik~
+alchemik~
+alchemika~
+alchemikowi~
+alchemika~
+alchemikiem~
+alchemiku~
+alchemiku~
+Alchemik blaka sie tu w poszukiwaniu magicznych ziol.
+~
+Chodza sluchy, ze bardzo rzadkie ziola rosna tylko w tym kanionie.
+~
+65 0 -50 C
+13 8 1 1d2+270 2d7+1
+1900 15000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9235
+maly teczowy smok~
+maly teczowy smok~
+malego teczowego smoka~
+malemu teczowemu smokowi~
+malego teczowego smoka~
+malym teczowym smokiem~
+malym teczowym smoku~
+maly teczowy smoku~
+Maly teczowy smok bawi sie posrod zywiolow.
+~
+Wedlug smoczych standardow to jeszcze dziecko.
+~
+67 40 0 C
+16 4 -1 0d0+400 1d16+6
+10000 25000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9236
+chochlik~
+chochlik~
+chochlika~
+chochlikowi~
+chochlika~
+chochlikiem~
+chochliku~
+chochliku~
+Maly chochlik potrafi byc bardzo wkurzajacy.
+~
+Ten maly dran kradnie graczom rozne rzeczy i jest ogolnie nielubiany.
+~
+197 98304 -500 C
+5 15 1 1d10+100 1d4+3
+1 1000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9237
+WIELKI zywiol~
+WIELKI zywiol~
+WIELKIEGO zywiolu~
+WIELKIEMU zywiolowi~
+WIELKI zywiol~
+WIELKIM zywiolem~
+WIELKIM zywiole~
+WIELKI zywiole~
+WIELKI zywiol stoi tutaj.
+~
+Jest naprawde WIELKI, musze mowic wiecej?
+~
+67 0 30 C
+20 1 0 0d0+750 3d6+4
+10000 40000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#9238
+sprzedawca~
+sprzedawca eliksirow~
+sprzedawcy eliksirow~
+sprzedawcy eliksirow~
+sprzedawce eliksirow~
+sprzedawca eliksirow~
+sprzedawcy eliksirow~
+sprzedawco eliksirow~
+Sprzedawca chce ci sprzedac eliksir.
+~
+Lepiej ze mna nie zaczynaj ...!
+~
+83 0 900 C
+30 -20 -10 0d0+10000 0d0+300
+0 1
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#9201
+pierscien ziemii~
+pierscien ziemii~
+pierscienia ziemi~
+pierscieniowi ziemi~
+pierscien ziemi~
+pierscieniem ziemi~
+pierscieniu ziemi~
+pierscieniu ziemi~
+Ciemny pierscien, ktory wydaje sie absorbowac cale swiatlo wokolo.~
+~
+12 256 3
+0 0 0 0
+5 100000 2000
+A
+3 1
+A
+4 1
+#9202
+kamienny pancerz~
+kamienny pancerz~
+kamiennego pancerza~
+kamiennemu pancerzowi~
+kamienny pancerz~
+kamiennym pancerzem~
+kamiennym pancerzu~
+kamienny pancerzu~
+Pancerz zrobiony z kamiennia wydobytego z najglebszych czelusci ziemii
+lezy tutaj.~
+~
+9 0 9 24
+10 0 0 0
+70 200000 4000
+A
+5 1
+#9203
+ognisty sztylet~
+ognisty sztylet~
+ognistego sztyletu~
+ognistemu sztyletowi~
+ognisty sztylet~
+ognistym sztyletem~
+ognistym sztylecie~
+ognisty sztylecie~
+Sztylet zrobiony z ognia blyska mistycznie.~
+~
+5 1 8193
+0 4 4 11
+2 100000 2000
+A
+19 4
+#9204
+peleryna ognista czerwona~
+ognista czerwona peleryna~
+ognistej czerwonej peleryny~
+ognistej czerwonej pelerynie~
+ognista czerwona peleryne~
+ognista czerwona peleryna~
+ognistej czerwonej pelerynie~
+ognista czerwona peleryno~
+Peleryna zrobiona z ognistej welny zabarwionej krwia lezy na ziemii.~
+~
+9 1 5
+11 0 0 0
+3 100000 2000
+A
+19 1
+#9205
+powietrzne buty~
+powietrzne buty~
+powietrznych butow~
+powietrznym butom~
+powietrzne buty~
+powietrznymi butami~
+powietrznych butach~
+powietrzne buty~
+Para przepieknych butow lezy na ziemii.~
+~
+9 64 65 8
+10 0 0 0
+1 100000 2000
+A
+2 2
+#9206
+huraganowy helm~
+huraganowy helm~
+huraganowego halmu~
+huraganowemu halmowi~
+huraganowy halm~
+huraganowym helmem~
+huraganowym helmie~
+huraganowy helmie~
+Helm ktory wyglada jakby przetrwal juz niejedna burze lezy tutaj.~
+~
+9 2 17 8
+9 0 0 0
+4 200000 4000
+A
+23 -4
+#9207
+iskrzacy miecz~
+iskrzacy miecz~
+iskrzacego miecza~
+iskrzacemu mieczowi~
+iskrzacy miecz~
+iskrzacym mieczem~
+iskrzacym mieczu~
+iskrzacy mieczu~
+Blyskawica uformowana na ksztalt miecza lezy tutaj.~
+~
+5 3 8193
+0 6 3 3
+10 100000 2000
+A
+18 -1
+A
+19 2
+#9208
+elektryczna tarcza~
+elektryczna tarcza~
+elektrycznej tarczy~
+elektrycznej tarczy~
+elektryczna tarcze~
+elektryczna tarcza~
+elektrycznej tarczy~
+elektryczna tarczo~
+Tarcza w calosci wykonana z energii elektrycznej buczy tutaj cicho.~
+~
+9 2 513
+11 0 0 0
+8 1000000 2000
+A
+1 -1
+A
+5 1
+#9209
+lodowy popreg~
+lodowy popreg~
+lodowego popregu~
+lodowemu popregowi~
+lodowy popreg~
+lodowym popregiem~
+lodowym popregu~
+lodowy popregu~
+Ktos porzucil popreg w calosci wykonany z lodu.~
+~
+9 128 2049 8
+10 0 0 0
+10 100000 1000
+A
+5 -2
+#9210
+wodny plaszcz~
+wodny plaszcz~
+wodnego plaszcza~
+wodnemu plaszczowi~
+wodny plaszcz~
+wodnym plaszczem~
+wodnym plaszczu~
+wodny plaszczu~
+Plaszcz uformowany z malego magicznego wodospadu lezy na ziemii.~
+~
+9 0 1025 16
+10 0 0 0
+6 100000 2000
+A
+12 25
+A
+18 -2
+#9211
+amulet zywiolow~
+amulet zywiolow~
+amuletu zywiolow~
+amuletowi zywiolow~
+amulet zywiolow~
+amuletem zywiolow~
+amulecie zywiolow~
+amulecie zywiolow~
+Amulet, na ktorym wyryte sa wszystkie zywioly, lezy tutaj.~
+~
+9 1 5
+7 0 0 0
+1 100000 5000
+A
+23 -5
+#9212
+bransoleta zywiolow~
+bransoleta zywiolow~
+bransolety zywiolow~
+bransolecie zywiolow~
+bransolete zywiolow~
+bransoleta zywiolow~
+bransolecie zywiolow~
+bransoleto zywiolow~
+Bransoleta wytworzona magia zywiolow lezy tutaj.~
+~
+9 0 4097
+4 0 0 0
+4 100000 4000
+A
+13 25
+#9213
+platynowe naramienniki~
+platynowe naramienniki~
+platynowych naramiennikow~
+platynowym naramiennikom~
+platynowe naramienniki~
+platynowymi naramiennikami~
+platynowych naramiennikach~
+platynowe naramienniki~
+Platynowe naramienniki, dawniej uzywane przez Cyklopa leza tutaj.~
+~
+9 0 257 16
+9 0 0 0
+4 10000 1000
+A
+1 1
+A
+4 -2
+#9214
+platynowe nagolenniki~
+platynowe nagolenniki~
+platynowych nagolennikow~
+platynowym nagolennikom~
+platynowe nagolenniki~
+platynowymi nagolennikami~
+platynowych nagolennikach~
+platynowe nagolenniki~
+Platynowe nagolenniki, dawniej uzywane przez Cyklopa leza tutaj.
+~
+~
+9 0 33 8
+9 0 0 0
+4 10000 1000
+A
+2 1
+A
+3 -2
+#9215
+rozdzka~
+rozdzka ognia~
+rozdzki~
+rozdzce~
+rozdzke~
+rozdzka~
+rozdzce~
+rozdzko~
+Ognista rozdzka lezy zapomniana na ziemii.~
+~
+3 1 16385
+15 3 3 -1
+7 1900 200
+'fireball'
+#9216
+lodowa rozdzka~
+lodowa rozdzka~
+lodowej rozdzki~
+lodowej rozdzce~
+lodowa rozdzke~
+lodowa rozdzka~
+lodowej rozdzce~
+lodowa rozdzko~
+Lodowa rozdzka lezy sobie na ziemii zapomniana przez wszystkich.~
+~
+4 1 16385
+21 3 3 -1
+7 1900 200
+'frost breath'
+#9217
+rozdzka zywiolow ziemii~
+rozdzka zywiolow ziemii~
+rozdzki zywiolow ziemi~
+rozdzce zywiolow ziemi~
+rozdzke zywiolow ziemi~
+rozdzka zywiolow ziemi~
+rozdzce zywiolow ziemi~
+rozdzko zywiolow ziemi~
+Rozdzka zywiolow ziemii lezy sobie tutaj.~
+~
+4 1 16385
+7 3 3 -1
+7 1900 200
+'earthquake'
+#9218
+rozdzka zywiolow powietrza~
+rozdzka zywiolow powietrza~
+rozdzki zywiolow powietrza~
+rozdzce zywiolow powietrza~
+rozdzke zywiolow powietrza~
+rozdzka zywiolow powietrza~
+rozdzce zywiolow powietrza~
+rozdzko zywiolow powietrza~
+Ktos porzucil tutaj rozdzke zywiolow powietrza.~
+~
+3 1 16385
+11 1 1 -1
+7 1900 200
+'gas breath'
+#9219
+rozdzka elektrycznosci blyskajaca~
+rozdzka elektrycznosci~
+rozdzki elektrycznosci~
+rozdzce elektrycznosci~
+rozdzke elektrycznosci~
+rozdzka elektrycznosci~
+rozdzce elektrycznosci~
+rozdzko elektrycznosci~
+Na ziemii lezy blyskajaca sie rozdzka.~
+~
+3 1 16385
+9 1 1 -1
+7 1900 200
+'lightning bolt'
+#9220
+kamienna palka~
+kamienna palka~
+kamiennej palki~
+kamiennej palce~
+kamienna palke~
+kamienna palka~
+kamiennej palce~
+kamienna palko~
+Wielka kamienna palka lezy na ziemii.~
+~
+5 0 8193
+0 1 12 7
+16 1000 10
+#9221
+stalaktyt kawalek kamien~
+stalaktyt~
+stalaktyta~
+stalaktytowi~
+stalaktyt~
+stalaktytem~
+stalaktycie~
+stalaktycie~
+Dziwny czerwony kawalek kamienia lezy tutaj.~
+~
+3 0 16385
+19 2 2 -1
+2 5000 175
+'harm'
+#9222
+latarnia lawa~
+latarnia lawy~
+latarnia lawy~
+latarnia lawy~
+latarnia lawy~
+latarnia lawy~
+latarnia lawy~
+latarnia lawy~
+Na ziemii lezy latarnia swiecaca czerwonym swiatlem.~
+~
+1 1 1
+0 0 1000 0
+4 500 1
+#9223
+pergamin energii~
+pergamin energii~
+pergaminu energii~
+pergaminowi energii~
+pergamin energii~
+pergaminem energii~
+pergaminie energii~
+pergaminie energii~
+Na ziemii lezy pergamin energii.~
+~
+2 2 1
+19 -1 130 -1
+1 2100 120
+'cure critical' 'refresh' 'NONE'
+#9224
+dzban~
+dzban na wode~
+dzban na wode~
+dzban na wode~
+dzban na wode~
+dzban na wode~
+dzban na wode~
+dzban na wode~
+Wielki ale zadziwiajaco lekki dzban stoi tutaj.~
+~
+17 0 1
+150 150 0 0
+5 100 100
+#9225
+pyl magiczny~
+magiczny pyl~
+magicznego pylu~
+magicznemu pylowi~
+magiczny pyl~
+magicznym pylem~
+magicznym pyle~
+magiczny pyle~
+Kupka szarego pylu lezy tutaj.~
+~
+26 0 1 128
+20 -1 -1 -1
+1 100 1
+'detect invis' 'NONE' 'NONE'
+#9226
+lanca plomienna~
+plomienna lanca~
+plomiennej lancy~
+plomiennej lancy~
+plomienna lance~
+plomienna lanca~
+plomiennej lancy~
+plomienna lanco~
+Lanca wbita tutaj w ziemie plonie niebieskim ogniem.~
+~
+5 1 8193
+0 2 15 3
+14 5000 500
+A
+13 -20
+A
+18 2
+#9227
+sopel~
+sopel~
+sopla~
+soplowi~
+sopel~
+soplem~
+soplu~
+soplu~
+Sztylet uformowany na ksztalt sopla przyciaga twoja uwage.~
+~
+5 1 8193
+0 7 3 11
+1 19000 900
+A
+19 2
+A
+1 -1
+#9228
+lawina~
+Lawina~
+Lawina~
+Lawina~
+Lawina~
+Lawina~
+Lawina~
+Lawina~
+Jeszcze chwila a zostaniesz zmiazdzony przez lawine!~
+~
+5 0 8193
+0 1 30 6
+16 20100 900
+A
+18 -1
+#9229
+gwiazda poranna~
+Gwiazda Poranna~
+gwiazdy porannej~
+gwiazdzie porannej~
+gwiazde poranna~
+gwiazda poranna~
+gwiazdzie porannej~
+gwiazdo poranno~
+Lancuch zakonczony kolczasta kula lezy tutaj.~
+~
+5 1 8193
+0 6 3 11
+11 8200 900
+A
+23 -5
+A
+17 -3
+#9230
+bicz elektryczny~
+Bicz Elektryczny~
+bicza elektrycznego~
+biczowi elektrycznemu~
+bicz elektryczny~
+biczem elektrycznym~
+biczu elektrycznym~
+biczu elektryczny~
+Bicz niewinnie buczy do siebie.~
+~
+5 2 8193
+0 4 4 2
+10 10000 900
+A
+19 3
+A
+1 -2
+#9231
+eliksir~
+eliksir przeciwko cyklopom~
+eliksiru przeciwko cyklopom~
+eliksirowi przeciwko cyklopom~
+eliksir przeciwko cyklopom~
+eliksirem przeciwko cyklopom~
+eliksirze przeciwko cyklopom~
+eliksirze przeciwko cyklopom~
+Eliksir ochrony przed cyklopami zostal tutaj porzucony.~
+~
+10 0 16385
+15 -1 -1 -1
+1 100 100000
+'invis' 'NONE' 'NONE'
+#0
+
+
+#ROOMS
+#9201
+Gorska sciezka~
+Znajdujesz sie na gorskiej sciezce, ktora pnie sie po stromym zboczu spiralnie
+dookola gory, tak ze nie jestes wstanie stwierdzic co lezy przed toba.
+Wyraznie odczuwasz jakas potezna moc drzemiaca za ta gora.
+~
+0 0 5
+D0
+~
+~
+0 -1 3502
+D4
+~
+~
+0 -1 9202
+S
+#9202
+Gorska sciezka~
+Znajdujesz sie na kamienistej gorskiej sciezce, pnacej sie stromo po szczycie
+gory. Tajemnicza moc dochodzaca do ciebie zza tej gory poteguje sie z kazdym
+krokiem.
+~
+0 0 5
+D4
+~
+~
+0 -1 9203
+D5
+~
+~
+0 -1 9201
+S
+#9203
+Gorskie cmentarzysko~
+Wszedzie dokola rozsiane sa kamienie nagrobne, miejsca spoczynku tych, ktorym
+nie poszczescilo sie podczas wyprawy w gory. Nagle dostrzegasz kilka nie
+pogrzebanych cial, ci ludzie nie wygladaja na alpinistow, ktorzy zgineli
+w gorach. Sciezka powoli wije sie wokol gory.
+~
+0 0 5
+D4
+~
+~
+0 -1 9204
+D5
+~
+~
+0 -1 9202
+E
+nagrobki kamienie nagrobne~
+Czujesz naprawde wielka wdziecznosc do bogow za to, ze to nie ty spoczywasz
+pod tymi kamieniami! Na wielu nagrobkach wyryto to samo imie, 'Raff'. Musial
+czesto tutaj przychodzic. Na jednym z nagrobkow jakis wandal wyryl napis.
+~
+E
+ciala~
+Wygladaja jakby ich karki zostaly skrecone. Wydaje ci sie takze, ze ktos
+probowal ich miesa.
+~
+E
+napis~
+Bylem tu Bercik.
+~
+S
+#9204
+Niebezpieczna sciezka.~
+Ta droga wyglada na normalna gorska sciezke, ale tak NIE JEST! Ten sektor
+zamieszkaly jest przez wielkie (oczywiscie pozerajace ludzi) Cyklopy.
+Ostatni zakret sciezki i juz je widac!
+~
+0 0 5
+D4
+~
+~
+0 -1 9205
+D5
+~
+~
+0 -1 9203
+S
+#9205
+Wspanialy widok~
+Roztacza sie stad zapierajacy dech w piersiach widok. Widzisz napis, ktory
+glosi:
+
+	PRZED TOBA -- KANION ZYWIOLOW
+
+Widzisz wielkie plomienie spowijajace zachodnia czesc kanionu. Niebo wyglada
+jakos dziwnie, powietrze zdaje sie koncentrowac na polnocnym-zachodzie. Na
+polnocnym-wschodzie widzisz wyladowania elektryczne. Na wschodzie, leniwie
+toczy swoje wody, magicznie wygladajaca, potezna rzeka. Takze daleko na
+wschodzie widzisz wejscie do jaskini wykute w skale wawozu. Sciezka lagodnie
+opada w kierunku polnocnym, ku nastepnemu zapierajacemu dech w piersiach
+widokowi.
+~
+0 0 5
+D0
+~
+~
+0 -1 9206
+D5
+~
+~
+0 -1 9204
+S
+#9206
+Okno na Doline~
+Widzisz mnostwo zywiolow, roznych ksztaltow i rozmiarow, jak wedruja sobie
+dolina. Gluche buczenie dochodzace z kanionu staje sie glosniejsze. W tym
+miejscu sciezka zaczyna powoli opadac w strone kanionu.
+~
+0 0 5
+D2
+~
+~
+0 -1 9205
+D5
+~
+~
+0 -1 9207
+S
+#9207
+Wejscie do Kanionu Zywiolow~
+Potezne moce, ktore skrywa ten kanion sprawiaja, ze drza pod toba nogi, a
+zimny pot oblewa twoje cialo. Sludzy Zywiolow krzataja sie tutaj nie zwracajac
+najmniejszej uwagi na twoja obecnosc tutaj. Na polnocy widzisz skrzyzowanie,
+mozesz takze zawrocic i rozpoczac wspinaczke pod gore.
+~
+0 0 3
+D0
+~
+~
+0 -1 9209
+D4
+~
+~
+0 -1 9206
+S
+#9208
+Dno Kanionu~
+Rozne formy zywiolow mijaja cie, spieszac za swoimi wlasnymi sprawami.
+No, przynajmniej niektorzy. Inni wygladaja jakby nie mieli nic do roboty
+oprocz bezczynnego krecenia sie tu i tam. Ogolnie jest tutaj dosyc spokojnie.
+Kanion ciagnie sie na polnoc i na wschod.
+~
+0 0 3
+D0
+~
+~
+0 -1 9211
+D1
+~
+~
+0 -1 9209
+S
+#9209
+Brama Zywiolow~
+Droga biegnaca na zachod ginie wije wsrod kraterow z ktorych nieustannie
+bija plomienie. Polnocna sciezka prowadzi w kierunku rzeki. Dalej na
+polnocnym-wschodzie i polnocnym-zachodzie rozciaga sie plaskie dno kanionu.
+Na wschodzie rozwiera sie paszcza jaskini prowadzacej w glab sciany kanionu.
+A na poludniu sciezka prowadzi w gore, ku wyjsciu z kanionu.
+Wiele roznych, czesto dziwacznych, istot kreci sie po dnie kanionu, ktory
+rozszerza sie w kierunku polnocnym.
+~
+0 0 3
+D0
+~
+~
+0 -1 9212
+D1
+~
+~
+0 -1 9210
+D2
+~
+~
+0 -1 9207
+D3
+~
+~
+0 -1 9208
+S
+#9210
+Dno Kanionu~
+Wiele zywiolow w najrozmaitszych formach mijaja cie, spieszac za swoimi
+wlasnymi sprawami. No, przynajmniej niektorzy z nich. Inni wygladaja jakby
+nie mieli nic do roboty, oprocz bezczynnego krecenia sie tu i tam. Ogolnie
+jest tutaj dosyc spokojnie. Ale nigdy nie wiadomo co przyniesie najblizszy
+zakret. Kanion ciagnie sie w kierunku polnocnym i zachodnim. Na wschodzie
+widac ciemne wejscie do jaskini.
+~
+0 0 3
+D0
+~
+~
+0 -1 9213
+D1
+~
+~
+0 -1 9220
+D3
+~
+~
+0 -1 9209
+S
+#9211
+Dno Kanionu~
+Wiele zywiolow w najrozmaitszych formach mijaja cie, spieszac za swoimi
+wlasnymi sprawami. No, przynajmniej niektorzy z nich. Inni wygladaja jakby
+nie mieli nic do roboty, oprocz bezczynnego krecenia sie tu i tam. Ogolnie
+jest tutaj dosyc spokojnie. Ale nigdy nie wiadomo co przyniesie najblizszy
+zakret. Mozna tedy wedrowac w kierunku polnocnym, wschodnim i poludniowym.
+~
+0 0 3
+D0
+~
+~
+0 -1 9214
+D1
+~
+~
+0 -1 9212
+D2
+~
+~
+0 -1 9208
+S
+#9212
+Dno Kanionu~
+Wiele zywiolow w najrozmaitszych formach mijaja cie, spieszac za swoimi
+wlasnymi sprawami. No, przynajmniej niektorzy z nich. Inni wygladaja jakby
+nie mieli nic do roboty, oprocz bezczynnego krecenia sie tu i tam. Ogolnie
+jest tutaj dosyc spokojnie. Ale nigdy nie wiadomo co przyniesie najblizszy
+zakret. Kanion ciagnie sie we wszystkich kierunkach.
+~
+0 0 3
+D0
+~
+~
+0 -1 9215
+D1
+~
+~
+0 -1 9213
+D2
+~
+~
+0 -1 9209
+D3
+~
+~
+0 -1 9211
+S
+#9213
+Dno Kanionu~
+Wiele zywiolow w najrozmaitszych formach mijaja cie, spieszac za swoimi
+wlasnymi sprawami. No, przynajmniej niektorzy z nich. Inni wygladaja jakby
+nie mieli nic do roboty, oprocz bezczynnego krecenia sie tu i tam. Ogolnie
+jest tutaj dosyc spokojnie. Ale nigdy nie wiadomo co przyniesie najblizszy
+zakret. Kanion rozciaga sie na polnoc, poludnie i zachod. Biegnaca wzdluz
+strumienia sciezka prowadzi na wschod.
+~
+0 0 3
+D0
+~
+~
+0 -1 9216
+D1
+~
+~
+0 -1 9228
+D2
+~
+~
+0 -1 9210
+D3
+~
+~
+0 -1 9212
+S
+#9214
+Dno Kanionu~
+Wiele zywiolow w najrozmaitszych formach mijaja cie, spieszac za swoimi
+wlasnymi sprawami. No, przynajmniej niektorzy z nich. Inni wygladaja jakby
+nie mieli nic do roboty, oprocz bezczynnego krecenia sie tu i tam. Ogolnie
+jest tutaj dosyc spokojnie. Ale nigdy nie wiadomo co przyniesie najblizszy
+zakret. Kanion rozciaga sie na polnoc, wschod i poludnie. Na zachodzie
+znajduja sie ogrody ognia.
+~
+0 0 3
+D0
+~
+~
+0 -1 9217
+D1
+~
+~
+0 -1 9215
+D2
+~
+~
+0 -1 9211
+D3
+~
+~
+0 -1 9237
+S
+#9215
+Dno Kanionu~
+Wiele zywiolow w najrozmaitszych formach mijaja cie, spieszac za swoimi
+wlasnymi sprawami. No, przynajmniej niektorzy z nich. Inni wygladaja jakby
+nie mieli nic do roboty, oprocz bezczynnego krecenia sie tu i tam. Ogolnie
+jest tutaj dosyc spokojnie. Ale nigdy nie wiadomo co przyniesie najblizszy
+zakret. Kanion rozciaga sie we wszystkich kierunkach.
+~
+0 0 3
+D0
+~
+~
+0 -1 9218
+D1
+~
+~
+0 -1 9216
+D2
+~
+~
+0 -1 9212
+D3
+~
+~
+0 -1 9214
+S
+#9216
+Dno Kanionu~
+Wiele zywiolow w najrozmaitszych formach mijaja cie, spieszac za swoimi
+wlasnymi sprawami. No, przynajmniej niektorzy z nich. Inni wygladaja jakby
+nie mieli nic do roboty, oprocz bezczynnego krecenia sie tu i tam. Ogolnie
+jest tutaj dosyc spokojnie. Ale nigdy nie wiadomo co przyniesie najblizszy
+zakret. Kanion rozciaga sie w kierunkach polnocnym, poludniowym i zachodnim.
+~
+0 0 3
+D0
+~
+~
+0 -1 9219
+D2
+~
+~
+0 -1 9213
+D3
+~
+~
+0 -1 9215
+S
+#9217
+Dno Kanionu~
+Wiele zywiolow w najrozmaitszych formach mijaja cie, spieszac za swoimi
+wlasnymi sprawami. No, przynajmniej niektorzy z nich. Inni wygladaja jakby
+nie mieli nic do roboty, oprocz bezczynnego krecenia sie tu i tam. Ogolnie
+jest tutaj dosyc spokojnie. Ale nigdy nie wiadomo co przyniesie najblizszy
+zakret. Kanion ciagnie sie dalej na wschod i poludnie. Na polnocy sciezka
+zaczyna sie piac w gore.
+~
+0 0 3
+D0
+~
+~
+0 -1 9253
+D1
+~
+~
+0 -1 9218
+D2
+~
+~
+0 -1 9214
+S
+#9218
+Dno Kanionu~
+Wiele zywiolow w najrozmaitszych formach mijaja cie, spieszac za swoimi
+wlasnymi sprawami. No, przynajmniej niektorzy z nich. Inni wygladaja jakby
+nie mieli nic do roboty, oprocz bezczynnego krecenia sie tu i tam. Ogolnie
+jest tutaj dosyc spokojnie. Ale nigdy nie wiadomo co przyniesie najblizszy
+zakret. Kanion rozciaga sie na wschod, poludnie i zachod.
+~
+0 0 3
+D1
+~
+~
+0 -1 9219
+D2
+~
+~
+0 -1 9215
+D3
+~
+~
+0 -1 9217
+S
+#9219
+Dno Kanionu~
+Wiele zywiolow w najrozmaitszych formach mijaja cie, spieszac za swoimi
+wlasnymi sprawami. No, przynajmniej niektorzy z nich. Inni wygladaja jakby
+nie mieli nic do roboty, oprocz bezczynnego krecenia sie tu i tam. Ogolnie
+jest tutaj dosyc spokojnie. Ale nigdy nie wiadomo co przyniesie najblizszy
+zakret. Kanion prowadzi na poludnie i na zachod. Na polnocy sciezka zaczyna
+piac sie w gore.
+~
+0 0 3
+D0
+~
+~
+0 -1 9254
+D2
+~
+~
+0 -1 9216
+D3
+~
+~
+0 -1 9218
+S
+#9220
+Ciemna Jaskinia~
+Na wschodzie widzisz sciezke sie pomiezy olbrzymimi glazami. Czujesz
+olbrzymia moc dochodzaca z tamtego miejsca.
+~
+0 9 3
+D1
+~
+~
+0 -1 9221
+D3
+~
+~
+0 -1 9210
+S
+#9221
+Ciemne Jaskinie~
+Ledwo widzisz droge przed soba, twoje zrodlo swiatla niewiele tutaj pomaga.
+Skala, w ktorej wykuto ta jaskinie jest jeszcze ciemniejsza od panujacego w
+jaskini mroku. Do uszu twoich doszodzi potezny szum. Jaskinia ciagnie sie
+w kierunku poludniowym i wschodnim, chociaz naprawde trudno powiedziec, kiedy
+nie widzisz dokad idziesz.
+~
+0 9 3
+D1
+~
+~
+0 -1 9222
+D2
+~
+~
+0 -1 9223
+D3
+~
+~
+0 -1 9220
+S
+#9222
+Ciemne Jaskinie~
+Ledwo widzisz droge przed soba, twoje zrodlo swiatla niewiele tutaj pomaga.
+Skala, w ktorej wykuto ta jaskinie jest jeszcze ciemniejsza od panujacego w
+jaskini mroku. Do uszu twoich doszodzi potezny szum. Jaskinia ciagnie sie
+w kierunku poludniowym i zachodnim, chociaz naprawde trudno powiedziec, kiedy
+nie widzisz dokad idziesz.
+~
+0 9 3
+D2
+~
+~
+0 -1 9224
+D3
+~
+~
+0 -1 9221
+S
+#9223
+Ciemne Jaskinie~
+Ledwo widzisz droge przed soba, twoje zrodlo swiatla niewiele tutaj pomaga.
+Skala, w ktorej wykuto ta jaskinie jest jeszcze ciemniejsza od panujacego w
+jaskini mroku. Do uszu twoich doszodzi potezny szum. Jaskinia ciagnie sie
+w kierunku polnocnym, poludniowym i wschodnim, chociaz naprawde trudno
+powiedziec, kiedy nie widzisz dokad idziesz.
+~
+0 9 3
+D0
+~
+~
+0 -1 9221
+D1
+~
+~
+0 -1 9224
+D2
+~
+~
+0 -1 9225
+S
+#9224
+Ciemne Jaskinie~
+Ledwo widzisz droge przed soba, twoje zrodlo swiatla niewiele tutaj pomaga.
+Skala, w ktorej wykuto ta jaskinie jest jeszcze ciemniejsza od panujacego w
+jaskini mroku. Do uszu twoich doszodzi potezny szum. Jaskinia ciagnie sie
+w kierunku polnocnym, poludniowym i zachodnim, chociaz naprawde trudno
+powiedziec, kiedy nie widzisz dokad idziesz.
+~
+0 9 3
+D0
+~
+~
+0 -1 9222
+D2
+~
+~
+0 -1 9226
+D3
+~
+~
+0 -1 9223
+S
+#9225
+Bardzo Ciemne Jaskinie~
+A wydawalo ci sie, ze poprzednie jaskinie byly ciemne. Tutaj twoje zrodlo
+swiatla wydaje sie wogole nie dzialac. Nawet magiczne swiatlo, niewiele
+pomoze w tej ciemnosci. Zdajesz sobie sprawe, ze droga juz od pewnego czasu
+lagodnie opada w dol. Wyczuwasz obecnosc jakiejs poteznej istoty gdzies na
+wschodzie.
+~
+0 9 3
+D0
+~
+~
+0 -1 9223
+D1
+~
+~
+0 -1 9226
+S
+#9226
+Bardzo Ciemne Jaskinie~
+A wydawalo ci sie, ze poprzednie jaskinie byly ciemne. Tutaj twoje zrodlo
+swiatla wydaje sie wogole nie dzialac. Nawet magiczne swiatlo, niewiele
+pomoze w tej ciemnosci. Zdajesz sobie sprawe, ze droga juz od pewnego czasu
+lagodnie opada w dol. Wyczuwasz obecnosc jakiejs poteznej istoty dokladnie na
+wschodzie.
+~
+0 9 3
+D0
+~
+~
+0 -1 9224
+D1
+~
+~
+0 -1 9227
+D3
+~
+~
+0 -1 9225
+S
+#9227
+Komnata Ziemii~
+To jest siedziba Wladcy Ziemii. To wlasnie on decyduje kiedy i gdzie zdarzaja
+sie trzesienia ziemii, wypietrzenia gor i lawiny. Wladca Ziemii siedzi na
+poteznym, marmurowym tronie.
+~
+0 9 3
+D3
+~
+~
+0 -1 9226
+E
+tron marmurowy~
+Wladca zauwazyl twoje spojrzenie i wcale mu sie ono nie spodobalo! Czujesz
+jak ziemia zaczyna drzec od jego gniewu.
+~
+S
+#9228
+Nad Rzeka~
+Woda w rzece wyglada jakby sie gotowala od skondensowanej magii. Pomimo tego,
+ze co rusz opryskuje cie woda, twoje ubranie jest ciagle suche. Na polnocy
+sciezka zbliza sie do rzeki. Na zachodzie widzisz skrzyzowanie.
+~
+0 0 3
+D0
+~
+~
+0 -1 9229
+D3
+~
+~
+0 -1 9213
+S
+#9229
+W Rzece~
+Dalsza czesc drogi odbywasz maszerujac w wodzie. Chociaz zanurzasz sie po
+kolana, wszystkie twoje rzeczy pozostaja kompletnie suche. Rzeka plynie
+dalej na poludnie. Na polnocy widac wspaniala zatoke.
+~
+0 0 6
+D0
+~
+~
+0 -1 9230
+D2
+~
+~
+0 -1 9228
+S
+#9230
+Zatoka Zywiolow~
+Woda jest krysztalowo czysta w tym miejscu tak, ze potrafisz zauwazyc dno
+zatoki 30 stop ponizej! Dno? W tej chwili zdajesz sobie sprawe, ze spacerujesz
+po wodzie. Doprawdy, to naprawde magiczna woda. Pomimo tego, ze po niej
+maszerujesz, cale twoje ubranie jest kompletnie suche.
+~
+0 0 6
+D0
+~
+~
+0 -1 9233
+D1
+~
+~
+0 -1 9231
+D2
+~
+~
+0 -1 9229
+S
+#9231
+Zatoka Zywiolow~
+Woda jest krysztalowo czysta w tym miejscu tak, ze potrafisz zauwazyc dno
+zatoki 30 stop ponizej! Dno? W tej chwili zdajesz sobie sprawe, ze spacerujesz
+po wodzie. Doprawdy, to naprawde magiczna woda. Pomimo tego, ze po niej
+maszerujesz, cale twoje ubranie jest kompletnie suche.
+~
+0 0 6
+D0
+~
+~
+0 -1 9234
+D1
+~
+~
+0 -1 9232
+D3
+~
+~
+0 -1 9230
+S
+#9232
+Zatoka Zywiolow~
+Woda jest krysztalowo czysta w tym miejscu tak, ze potrafisz zauwazyc dno
+zatoki 30 stop ponizej! Dno? W tej chwili zdajesz sobie sprawe, ze spacerujesz
+po wodzie. Doprawdy, to naprawde magiczna woda. Pomimo tego, ze po niej
+maszerujesz, cale twoje ubranie jest kompletnie suche.
+~
+0 0 6
+D0
+~
+~
+0 -1 9235
+D3
+~
+~
+0 -1 9231
+S
+#9233
+Zatoka Zywiolow~
+Woda jest krysztalowo czysta w tym miejscu tak, ze potrafisz zauwazyc dno
+zatoki 30 stop ponizej! Dno? W tej chwili zdajesz sobie sprawe, ze spacerujesz
+po wodzie. Doprawdy, to naprawde magiczna woda. Pomimo tego, ze po niej
+maszerujesz, cale twoje ubranie jest kompletnie suche.
+~
+0 0 6
+D1
+~
+~
+0 -1 9234
+D2
+~
+~
+0 -1 9230
+S
+#9234
+Zatoka Zywiolow~
+Woda jest krysztalowo czysta w tym miejscu tak, ze potrafisz zauwazyc dno
+zatoki 30 stop ponizej! Dno? W tej chwili zdajesz sobie sprawe, ze spacerujesz
+po wodzie. Doprawdy, to naprawde magiczna woda. Pomimo tego, ze po niej
+maszerujesz, cale twoje ubranie jest kompletnie suche.
+~
+0 0 6
+D1
+~
+~
+0 -1 9235
+D2
+~
+~
+0 -1 9231
+D3
+~
+~
+0 -1 9233
+S
+#9235
+Zatoka Zywiolow~
+Woda jest krysztalowo czysta w tym miejscu tak, ze potrafisz zauwazyc dno
+zatoki 30 stop ponizej! Dno? W tej chwili zdajesz sobie sprawe, ze spacerujesz
+po wodzie. Doprawdy, to naprawde magiczna woda. Pomimo tego, ze po niej
+maszerujesz, cale twoje ubranie jest kompletnie suche.
+~
+0 0 6
+D2
+~
+~
+0 -1 9232
+D3
+~
+~
+0 -1 9234
+D5
+~
+~
+0 -1 9236
+S
+#9236
+Komnata Wody~
+Ta komnata zostala magicznie stworzona na dnie zatoki. Wyglada na to, ze
+zostala stworzona bardzo, bardzo dawno temu. Pomimo tego, ze znajdujesz sie
+'pod woda' nie odczuwasz zadnych klopotow z oddychaniem i , co dziwne, nie
+odczuwasz wogole cisnienia wody na tej glebokosci.
+~
+0 8 6
+D4
+~
+~
+0 -1 9235
+S
+#9237
+Ognista Sciezka~
+Bardzo ostroznie wedrujesz droga, ktora kluczy niebezpiecznie blisko gejzerow
+ognia. Miniaturowe wulkany wyrzucaja w powietrze malutkie fontanny lawy,
+ktora laczy sie potem w strumyczki i splywa po pochylosciach gruntu. Wszedzie
+wokolo panuje dosyc wysoka temperatura. Sciezka biegnie na wschod i na
+poludnie.
+~
+0 0 5
+D1
+~
+~
+0 -1 9214
+D2
+~
+~
+0 -1 9238
+S
+#9238
+Ognista Sciezka~
+Bardzo ostroznie wedrujesz droga, ktora kluczy niebezpiecznie blisko gejzerow
+ognia i zwalow wegla. Ogrod widoczny na zachodzie rozswietlony jest luna
+nigdy nie gasnacych ogni.
+~
+0 0 5
+D0
+~
+~
+0 -1 9237
+D3
+~
+~
+0 -1 9242
+S
+#9242
+Plonace Ogrody~
+Wszedzie dookola ciebie ziemia stoi w plomieniach; kamienie, krzaki, nawet
+powietrze wydaje sie plonac. zadziwiajace, ale ogien zdaje sie nie wyrzadzac
+wiekszych szkod. Wszystko dookola plonie, ale sie nie spala! Sciezka biegnie
+na wschod pomiedzy gejzery ognia i na zachod.
+~
+0 0 5
+D1
+~
+~
+0 -1 9238
+D3
+~
+~
+0 -1 9245
+S
+#9245
+Komnata Ognia~
+Wladca Ognia siedzi na wspanialym tronie wykonanym z niebieskich plomieni.
+Malutkie plomyczki tancza po calej sali, zeby zabawic swego pana.
+~
+0 0 3
+D1
+~
+~
+0 -1 9242
+S
+#9246
+Elektryczna Sciezka~
+Sciezka blyszczy i buczy, a to z powodu zgromadzonej tu olbrzymiej ilosci
+elektrycznosci. Mimo wszystko, wyglada na nadajaca sie do wedrowki.
+Na polnocy znajduje sie jakac bardzo podejrzana okolica. Sciezka prowadzi
+takze na wschod.
+~
+0 0 3
+D0
+~
+~
+0 -1 9248
+D1
+~
+~
+0 -1 9253
+S
+#9247
+Elektryczny Plac Zabaw~
+Powietrze jest tutaj przesycone elektrycznoscia, z nieba co rusz bija
+blyskawice. Wszedzie wokol ciebie tancza male iskierki. Instynktownie
+wyczuwasz, ze gdzies tu blisko maja miejsce jakies bardzo wazne rzeczy.
+Elektryczny plac zabaw ciagnie sie na polnoc i na wschod.
+~
+0 0 4
+D0
+~
+~
+0 -1 9249
+D1
+~
+~
+0 -1 9248
+S
+#9248
+Elektryczny Plac Zabaw~
+Powietrze jest tutaj przesycone elektrycznoscia, z nieba co rusz bija
+blyskawice. Wszedzie wokol ciebie tancza male iskierki. Instynktownie
+wyczuwasz, ze gdzies tu blisko maja miejsce jakies bardzo wazne rzeczy.
+Elektryczny plac zabaw ciagnie sie na polnoc i na zachod. Elektryczna sciezka
+biegnie na poludnie.
+~
+0 0 4
+D0
+~
+~
+0 -1 9250
+D2
+~
+~
+0 -1 9246
+D3
+~
+~
+0 -1 9247
+S
+#9249
+Elektryczny Plac Zabaw~
+Powietrze jest tutaj przesycone elektrycznoscia, z nieba co rusz bija
+blyskawice. Wszedzie wokol ciebie tancza male iskierki. Instynktownie
+wyczuwasz, ze gdzies tu blisko maja miejsce jakies bardzo wazne rzeczy.
+Elektryczny plac zabaw ciagnie sie na poludnie i na wschod.
+~
+0 0 4
+D1
+~
+~
+0 -1 9250
+D2
+~
+~
+0 -1 9247
+S
+#9250
+Elektryczny Plac Zabaw~
+Powietrze jest tutaj przesycone elektrycznoscia, z nieba co rusz bija
+blyskawice. Wszedzie wokol ciebie tancza male iskierki. Instynktownie
+wyczuwasz, ze gdzies tu blisko maja miejsce jakies bardzo wazne rzeczy.
+Elektryczny plac zabaw ciagnie sie na poludnie i na zachod. Cos bardzo
+waznego przyciaga twoj wzrok na wschodzie.
+~
+0 0 4
+D1
+~
+~
+0 -1 9251
+D2
+~
+~
+0 -1 9248
+D3
+~
+~
+0 -1 9249
+S
+#9251
+Grobla Blyskawic~
+Przed toba znajduja sie schody wykute w skale, prowadzace w gore. Co rusz
+z tamtego miejsca wytryskuja blyskawice. Stamdad dochodzi takze bezustanne
+brzeczenie. Na zachodzie znajduje sie elektryczny plac zabaw.
+~
+0 0 4
+D3
+~
+~
+0 -1 9250
+D4
+~
+~
+0 -1 9252
+S
+#9252
+Komnata Blyskawic~
+Jest tutaj jakis dziwny panel kontrolny. To wlasnie stad Wladca Blyskawic
+obserwuje i kontroluje sily elektrycznosci. Stopien za stopniem, wykute w
+skale schody prowadza w dol na groble.
+~
+0 8 6
+D5
+~
+~
+0 -1 9251
+S
+#9253
+Polka skalna~
+Elektryczna sciezka zaczyna sie na zachodzie. Polka skalna ciagnie sie dalej
+na wschod. Mozesz takze zejsc na dol do kanionu. Zejscie znajduje sie na
+poludniu.
+~
+0 0 4
+D1
+~
+~
+0 -1 9254
+D2
+~
+~
+0 -1 9217
+D3
+~
+~
+0 -1 9246
+S
+#9254
+Polka skalna~
+Na polnocy widzisz jakas sciezke. Polka skalna ciagnie sie dalej na zachod.
+Zejscie prowadzace w dol do kanionu znajduje sie na poludniu.
+~
+0 0 4
+D0
+~
+~
+0 -1 9255
+D2
+~
+~
+0 -1 9219
+D3
+~
+~
+0 -1 9253
+S
+#9255
+W Powietrzu~
+Ostatnie co pamietasz to wedrowka po polce skalnej. Nieszczesliwie skala
+zarwala sie pod twoim ciezarem. Stalo sie to tak szybko, ze nie bylo czasu
+na reakcje. Ale zamiast spasc prosto w objecia smierci, okazalo sie ze
+potrafisz chodzic w powietrzu! Na polnocy i wschodzie powietrze wyglada
+dosyc normalnie, ale masz pewnosc ze mozna po nim spacerowac bez obaw.
+Na poludniu znajduje sie polka skalna.
+~
+0 0 4
+D0
+~
+~
+0 -1 9257
+D1
+~
+~
+0 -1 9256
+D2
+~
+~
+0 -1 9254
+S
+#9256
+W Powietrzu~
+Gdy patrzysz pod nogi, widzisz ziemie 100 stop w dole. Wiatr ciagle szepcze
+ci cos do ucha. Daleko na polnocy widzisz dziwny portal. Na zachodzie jest
+wiecej tego dziwnego powietrza po ktorym mozna bez obaw chodzic.
+~
+0 0 4
+D0
+~
+~
+0 -1 9258
+D3
+~
+~
+0 -1 9255
+S
+#9257
+W  Powietrzu~
+Gdy patrzysz pod nogi, widzisz ziemie 100 stop w dole. Wiatr ciagle szepcze
+ci cos do ucha. Daleko na wschodzie widzisz dziwny portal. Na poludniu jest
+wiecej tego dziwnego powietrza po ktorym mozna bez obaw chodzic.
+~
+0 0 4
+D1
+~
+~
+0 -1 9258
+D2
+~
+~
+0 -1 9255
+S
+#9258
+W Powietrzu~
+Gdy patrzysz pod nogi, widzisz ziemie 100 stop w dole. Wiatr ciagle szepcze
+ci cos do ucha. Na wschodzie widzisz dziwny portal zawieszony w powietrzu.
+Jesli zechcesz mozesz poleciec na poludnie lub na zachod.
+~
+0 0 4
+D1
+~
+~
+0 -1 9259
+D2
+~
+~
+0 -1 9256
+D3
+~
+~
+0 -1 9257
+E
+portal~
+Poprzez portal widzisz tunel.
+~
+S
+#9259
+Wietrzny Tunel~
+Tunel prowadzi na wschod. Na zachodzie mozesz wejsc w portal. Wiatr w tym
+tunelu dmucha dosyc ostro. Musisz sie niezle przylozyc, zeby cie stad nie
+wywialo.
+~
+0 0 4
+D1
+~
+~
+0 -1 9260
+D3
+~
+~
+0 -1 9258
+E
+portal~
+Through the portal you see nothing but sky.
+~
+S
+#9260
+Komnata Powietrza~
+Malutkie tornada wykonuja tutaj jakis skomplikowany taniec. Na koncu sali
+zauwazasz ogromny tron caly wykonany z chmur. Tunel wiedzie na zachod.
+~
+0 8 6
+D3
+~
+~
+0 -1 9259
+E
+tron chmury~
+Pomimo tego, ze tron wyglada na tyle solidnie zeby na nim usiasc, gdybym byl
+toba nigdy bym nie probowal!
+~
+S
+#0
+
+
+#RESETS
+M 0 9201 3 9201
+M 0 9201 3 9202
+G 1 9231 30
+M 0 9236 15 9202
+M 0 9201 3 9203
+M 0 9238 1 9203
+G 1 9231 30
+M 0 9202 0 9204
+E 1 9213 10 10
+E 1 9214 10 7
+M 0 9202 1 9204
+E 1 9213 1 10
+E 1 9214 1 7
+M 0 9205 12 9207
+M 0 9236 15 9207
+M 0 9203 15 9208
+M 0 9232 8 9208
+M 0 9204 1 9209
+E 1 9211 8 3
+E 1 9212 8 14
+M 0 9205 12 9209
+M 0 9207 6 9209
+M 0 9232 8 9209
+E 1 9220 16 16
+M 0 9203 15 9210
+M 0 9223 8 9210
+E 1 9221 10 17
+M 0 9231 5 9211
+E 1 9215 10 17
+M 0 9206 9 9212
+E 1 9221 10 17
+M 0 9216 5 9212
+M 0 9222 8 9213
+M 0 9203 15 9215
+M 0 9203 15 9215
+M 0 9231 5 9216
+E 1 9215 10 17
+M 0 9203 15 9217
+M 0 9203 15 9218
+M 0 9205 15 9218
+M 0 9207 6 9218
+M 0 9207 6 9218
+E 1 9223 10 17
+M 0 9233 7 9218
+M 0 9203 15 9219
+E 1 9225 10 17
+M 0 9236 15 9220
+M 0 9220 8 9220
+E 1 9222 10 17
+M 0 9217 15 9221
+M 0 9220 8 9221
+M 0 9223 8 9221
+M 0 9205 12 9222
+E 1 9224 10 17
+M 0 9217 15 9222
+M 0 9221 8 9222
+M 0 9221 8 9222
+M 0 9224 8 9222
+E 1 9225 10 5
+M 0 9217 15 9223
+E 1 9217 5 17
+M 0 9217 15 9224
+M 0 9206 9 9225
+E 1 9219 7 17
+M 0 9217 15 9225
+M 0 9216 5 9225
+M 0 9217 15 9226
+M 0 9208 1 9227
+E 1 9201 6 1
+E 1 9202 6 5
+M 0 9217 15 9227
+E 1 9220 16 16
+M 0 9217 15 9227
+M 0 9224 8 9227
+M 0 9236 15 9228
+M 0 9219 8 9228
+M 0 9219 8 9229
+M 0 9234 6 9230
+E 1 9218 10 16
+M 0 9214 15 9230
+M 0 9214 15 9231
+M 0 9221 8 9231
+M 0 9221 8 9231
+M 0 9214 15 9232
+M 0 9216 5 9232
+M 0 9216 5 9232
+M 0 9222 8 9232
+M 0 9214 15 9233
+E 1 9216 5 17
+M 0 9205 12 9234
+M 0 9214 15 9234
+M 0 9214 15 9235
+E 1 9224 10 17
+M 0 9212 1 9236
+E 1 9209 6 13
+E 1 9210 6 12
+M 0 9214 15 9236
+M 0 9214 15 9236
+M 0 9236 15 9237
+M 0 9226 1 9238
+E 1 9226 10 16
+M 0 9227 1 9238
+E 1 9230 10 16
+M 0 9234 6 9238
+E 1 9217 10 16
+M 0 9219 8 9238
+M 0 9220 8 9238
+M 0 9207 6 9242
+M 0 9228 1 9242
+E 1 9227 10 16
+M 0 9229 1 9242
+E 1 9228 10 16
+M 0 9230 1 9242
+E 1 9229 10 16
+M 0 9215 15 9242
+M 0 9215 15 9242
+E 1 9215 5 17
+M 0 9215 15 9242
+M 0 9220 8 9242
+M 0 9209 1 9245
+E 1 9203 6 16
+E 1 9204 6 3
+M 0 9215 15 9245
+E 1 9215 5 17
+M 0 9215 15 9245
+M 0 9215 15 9245
+M 0 9206 9 9246
+M 0 9236 15 9246
+M 0 9218 15 9246
+M 0 9219 8 9246
+M 0 9218 15 9247
+M 0 9218 15 9248
+M 0 9223 8 9248
+M 0 9235 2 9249
+M 0 9218 15 9249
+M 0 9205 12 9250
+M 0 9218 15 9250
+E 1 9219 7 17
+M 0 9218 15 9251
+M 0 9211 1 9252
+E 1 9207 6 16
+E 1 9208 6 11
+M 0 9218 15 9252
+E 1 9218 7 17
+M 0 9218 15 9252
+M 0 9233 8 9253
+M 0 9223 8 9253
+M 0 9206 9 9254
+M 0 9222 8 9254
+M 0 9233 7 9255
+M 0 9236 15 9255
+M 0 9225 15 9255
+E 1 9218 7 17
+M 0 9225 15 9255
+E 1 9225 10 17
+M 0 9222 8 9255
+M 0 9225 15 9256
+M 0 9235 2 9257
+E 1 9216 10 16
+M 0 9225 15 9257
+M 0 9224 8 9257
+M 0 9225 15 9258
+M 0 9225 15 9259
+M 0 9224 8 9259
+M 0 9210 1 9260
+E 1 9205 6 8
+E 1 9206 6 6
+M 0 9207 6 9260
+E 1 9220 16 16
+M 0 9225 15 9260
+M 0 9225 15 9260
+S
+
+
+#SHOPS
+ 9238    0  0  0  0  0   105  15         0 23    ; sprzedawca eliksirow
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  9202 spec_cast_cleric
+M  9204 spec_breath_any
+M  9207 spec_breath_any
+M  9208 spec_cast_cleric
+M  9209 spec_breath_fire
+M  9210 spec_breath_gas
+M  9211 spec_breath_lightning
+M  9212 spec_breath_acid
+M  9219 spec_breath_acid
+M  9223 spec_breath_lightning
+M  9224 spec_thief
+M  9225 spec_thief
+M  9226 spec_breath_fire
+M  9227 spec_breath_lightning
+M  9228 spec_breath_frost
+M  9230 spec_breath_gas
+M  9231 spec_cast_mage
+M  9232 spec_cast_cleric
+M  9233 spec_cast_mage
+M  9234 spec_thief
+M  9235 spec_breath_any
+M  9237 spec_breath_any
+M  9238 spec_cast_mage
+S
+
+
+#$

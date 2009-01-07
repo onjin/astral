@@ -1,0 +1,1203 @@
+#AREA   Swiety Gaj~
+
+
+
+#VERSION 3
+#AUTHOR Alfa~
+
+#RANGES
+5 20 0 60
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 2448853
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#8900
+hierofant~
+hierofant~
+hierofanta~
+hierofantowi~
+hierofanta~
+hierofantem~
+hierofancie~
+hierofancie~
+Widzisz tu starego, zbierajacego ziola hierofanta.
+~
+Hierofant jest bardzo starym mezczyzna ubranym w szate, ktora chyba dorownuje
+mu wiekiem. Po blysku w jego oku poznajesz, ze pomimo podeszlego wieku nadal
+jest zdolny do walki o wlasne zycie. Oczy zdradzaja takze madrosc jaka 
+zostalo obdarzonych niewielu ludzi.
+~
+193 8328 1000 S
+20 0 -5 20d20+180 1d8+12
+50 60000
+112 112 1
+#8901
+hierofantka~
+hierofantka~
+hierofantke~
+hierofantce~
+hierofantke~
+hierofantka~
+hierofantce~
+hierofantko~
+Masz przed soba szukajaca ziol hierofantke.
+~
+Hierofantka jest bardzo stara kobieta ubrana w szate, ktora chyba dorownuje
+jej wiekiem. Po blysku w jej oku poznajesz, ze pomimo podeszlego wieku nadal
+jest zdolna do walki o wlasne zycie. Oczy zdradzaja takze madrosc jaka 
+zostalo obdarzonych niewielu ludzi.
+~
+193 8328 1000 S
+20 0 -5 20d20+180 1d8+12
+50 60000
+112 112 2
+#8902
+starszy druid~
+starszy druid~
+starszego druida~
+starszemu druidowi~
+starszego druida~
+starszym druidem~
+starszym druidzie~
+starszy druidzie~
+Stoi tu starszy druid dogladajacy zycia roslin i zwierzat.
+~
+Po twarzy i ciele mezczyzny nie poznasz jego wieku. Zreszta tak jest z
+kazdym druidem. Jego idealnie szara broda zywo kontrastuje z pozbawiona
+zmarszczek twarza.
+~
+193 8192 1000 S
+13 7 0 13d13+130 1d4+7
+50 15000
+112 112 1
+#8903
+starsza druidka~
+starsza druidka~
+starszej druidki~
+starszej druidce~
+starsza druidke~
+starsza druidka~
+starszej druidce~
+starsza druidko~
+Starsza druidka karmi zwierzeta i doglada roslin.
+~
+Twarz druidki wyglada jak twarz mlodej dziewczyny, ktora dopiero co weszla w
+dorosle zycie. Usmiecha sie do Ciebie promiennie. Niestety w jej oczach nie
+dostrzegasz tego usmiechu lecz jedynie przemilczane pytanie. Bynajmniej nie
+sa to oczy nastolatki...
+~
+193 8192 1000 S
+13 7 0 13d13+130 1d4+7
+50 15000
+112 112 2
+#8904
+lania~
+lania~
+lani~
+lani~
+lanie~
+lania~
+lani~
+lanio~
+Plochliwa lania skubie delikatnie trawe.
+~
+To piekne, lagodne stworzenie spoglada na Ciebie swoimi wielkimi czarnymi
+oczami. Jej nos drga kiedy wyczuwa Twoj zapach ale po chwili lania powraca
+do skubania trawy.
+~
+193 0 0 C
+5 15 5 5d5+55 1d4+3
+2 600
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1768715009 1768715008 0
+0 0 0 0 0 0 0 0
+#8905
+mlody jelen~
+mlody jelen~
+mlodego jelenia~
+mlodemu jeleniowi~
+mlodego jelenia~
+mlodym jeleniem~
+mlodym jeleniu~
+mlody jeleniu~
+Mlody jelen obrzuca Cie czujnym spojrzeniem.
+~
+Jelen nie wydaje sie zbyt zadowolony z Twojej obecnosci. W jego czujnych
+spojrzeniach jakimi Cie obrzuca oprocz ostroznosci dostrzegasz tez
+przeblyski gniewu. Czujac na sobie Twoje spojrzenie potrzasa gniewnie
+porozem lecz nie atakuje.
+~
+193 0 0 S
+6 14 4 6d6+66 1d4+4
+2 800
+112 112 1
+#8906
+ogromny jelen~
+ogromny jelen~
+ogromnego jelenia~
+ogromnemu jeleniowi~
+ogromnego jelenia~
+ogromnym jeleniem~
+ogromnym jeleniu~
+ogromny jeleniu~
+Ogromny, doswiadczony jelen pilnuje porzadku na swoim terenie.
+~
+Masz przed soba jednego z najwiekszych jeleni jakie w zyciu widziales. Jego
+poroze robi imponujace wrazenie. Zaczynasz myslec, ze dobrze byloby miec
+takie poroze nad kominkiem w domu... Oczami wyobrazni widzisz jednak koniec
+potyczki: gniewny jelen z zakrwawionym porozem stojacy nad Twoim cialem. Jak
+gdyby w odpowiedzi na Twoje mysli jelen spoglada na Ciebie z gniewem w
+oczach.
+~
+225 0 0 S
+8 12 2 8d8+88 1d4+9
+2 2000
+112 112 1
+#8907
+kroliczek~
+kroliczek~
+kroliczka~
+kroliczkowi~
+kroliczka~
+kroliczkiem~
+kroliczku~
+kroliczku~
+Malenki kroliczek skacze sobie od krzaczka do krzaczka.
+~
+Kroliczek wyglada tak slodko, ze az chce Ci sie rzygac. Ze zdziwieniem
+przypominasz sobie czasy z dziecinstwa, kiedy marzyles o takim zwierzaku.
+~
+193 0 0 S
+5 18 8 1d1+30 1d4+1
+2 100
+112 112 0
+#8908
+waz~
+waz~
+weza~
+wezowi~
+weza~
+wezem~
+wezu~
+wezu~
+Widzisz niewielkiego weza przeslizgujacego sie w trawie.
+~
+Po blizszych ale ostroznych ogledzinach dochodzisz do wniosku, ze to nie
+jest kobra.
+~
+225 32768 0 S
+5 16 4 4d4+44 1d3+3
+1 500
+112 112 0
+#8909
+druid~
+druid~
+druida~
+druidowi~
+druida~
+druidzem~
+druidzie~
+druidzie~
+Masz przed soba pograzonego w rozmyslaniach druida.
+~
+Druidowi niezbyt odpowiada Twoja rozpraszjaca uwage obecnosc, ale jest zbyt
+grzeczny aby poprosic Cie o zostawienie go samego.
+~
+193 8200 1000 S
+10 10 0 10d10+100 1d4+6
+50 5000
+112 112 2
+#8910
+druidka~
+druidka~
+druidki~
+druidce~
+druidke~
+druidka~
+druidce~
+druidko~
+Mloda druidka spoglada na Ciebie z zaciekawieniem.
+~
+Mloda druidka jest Twoim idealem kobiety. Kiedy Twoje oczy przeslizguja sie
+po jej ciele dochodzac do twarzy zauwazasz, ze ona takze Ci sie przyglada.
+~
+193 8200 1000 S
+10 10 0 10d10+100 1d4+6
+50 5000
+112 112 2
+#8911
+smok~
+Smok~
+Smoka~
+Smokowi~
+Smoka~
+Smokiem~
+Smoku~
+Smoku~
+Potezna istota, pol-czlowiek i pol-smok, stoi przed Toba.
+~
+Przed Toba stoi pan tego domu... Smok! Jego imie wywodzi sie z jego
+pochodzenia. Oczywistym jest, ze w jego krwi jest wiecej niz jedynie
+domieszka krwi smokow. Jego blyszczace, czerwone oczy, szczatkowy ogon
+i luskowata skora sa na to wyraznym dowodem. Oprocz gadzich cech Smok
+przypomina jednak czlowieka. Ma czarne wlosy, czarujacy usmiech i
+humanoidalna budowe ciala. Posiadajac najlepsze cechy obu ras z pewnoscia
+bedzie trudnym przeciwnikiem do przezwyciezenia.
+~
+131137 168 -1 C
+21 0 -25 1d1+350 3d4+22
+0 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 85
+85 0 0 0 131073 131072 0
+0 0 0 0 3075 4 6 2
+#0
+
+
+#OBJECTS
+#8900
+smocze rekawice ~
+smocze rekawice~
+smocze rekawice~
+smocze rekawice~
+smocze rekawice~
+smocze rekawice~
+smocze rekawice~
+smocze rekawice~
+Lezy tu para rekawic wykonanych z drobnych smoczych lusek.~
+~
+9 1027 129 8
+8 8 0 0
+4 1500 150
+A
+5 1
+A
+4 1
+A
+1 2
+A
+18 1
+A
+19 2
+#8901
+szafka~
+szafka~
+szafka~
+szafka~
+szafka~
+szafka~
+szafka~
+szafka~
+W kacie stoi duza drewniana szafka.~
+~
+15 0 0
+100 1 -1 0
+500 0 0
+E
+szafka~
+Szafka jest calkiem duza lecz starannie wykonana. Nie jest zwyklym widokiem
+w kazdym domu. Widziales juz pare takich w domach bogatych kupcow.
+~
+#8902
+sloj~
+sloj na przyprawy~
+sloj na przyprawy~
+sloj na przyprawy~
+sloj na przyprawy~
+sloj na przyprawy~
+sloj na przyprawy~
+sloj na przyprawy~
+Stoi tu dosc duzy, nieoznaczony sloj.~
+~
+15 0 1
+5 5 -1 0
+1 10 1
+#8903
+czarny proszek~
+czarny proszek~
+czarny proszek~
+czarny proszek~
+czarny proszek~
+czarny proszek~
+czarny proszek~
+czarny proszek~
+Lezy tu kupka czarnego proszku o drazniacym nos zapachu.~
+~
+19 0 1
+-2 0 0 0
+1 300 30
+E
+czarny proszek~
+*        *         *
+      *      *       *
+****     AAAA-PSIK!     ****
+      *      *       *
+    *        *         *
+~
+#8904
+garsc nasion~
+garsc nasion~
+garsc nasion~
+garsc nasion~
+garsc nasion~
+garsc nasion~
+garsc nasion~
+garsc nasion~
+Ktos pozostawil tu garsc zoltych nasion.~
+~
+19 0 16385
+1 0 0 0
+1 10 1
+E
+nasiona~
+Wygladaja dosc staro ale jeszcze jadalnie.
+~
+#8905
+smoczy helm~
+smoczy helm~
+smoczy helm~
+smoczy helm~
+smoczy helm~
+smoczy helm~
+smoczy helm~
+smoczy helm~
+Na ziemi spoczywa helm wykonany przez ojca Smoka, Vorgulremika.~
+~
+9 525315 17 8
+9 9 0 0
+8 2500 250
+A
+4 2
+A
+13 15
+#8906
+smoczy topor~
+smoczy topor~
+smoczy topor~
+smoczy topor~
+smoczy topor~
+smoczy topor~
+smoczy topor~
+smoczy topor~
+Zahartowany w smoczym ogniu topor lsni delikatnie.~
+~
+5 525315 8193
+0 0 0 3
+10 3000 300
+A
+2 1
+A
+4 1
+A
+5 1
+A
+19 2
+#8907
+smocza rozdzka~
+smocza rozdzka~
+smocza rozdzka~
+smocza rozdzka~
+smocza rozdzka~
+smocza rozdzka~
+smocza rozdzka~
+smocza rozdzka~
+Na ziemi spoczywa emanujaca moca rozdzka.~
+~
+9 1091 16385
+5 5 0 0
+5 2000 200
+A
+5 1
+A
+13 10
+A
+12 10
+#8910
+drewniana laska~
+drewniana laska~
+drewniana laska~
+drewniana laska~
+drewniana laska~
+drewniana laska~
+drewniana laska~
+drewniana laska~
+Ktos pozostawil tu stara, drewniana laske.~
+~
+5 1024 8193
+0 3 3 7
+5 50 5
+E
+drewniana laska~
+Laska wykonana jest z twardego, debowego drewna. Jest wyjatkowo wytrzymala.
+~
+#8911
+szata material~
+brazowa szata~
+brazowa szata~
+brazowa szata~
+brazowa szata~
+brazowa szata~
+brazowa szata~
+brazowa szata~
+Pod Twoimi nogami wala sie kupka brazowego materialu.~
+~
+9 1024 9
+6 0 0 0
+5 60 6
+E
+material szata~
+Szata wykonana jest z jakiegos szorstkiego materialu ale wyglada na calkiem
+wytrzymala.
+~
+A
+12 10
+#8913
+blekitne ziola~
+blekitne ziola~
+blekitne ziola~
+blekitne ziola~
+blekitne ziola~
+blekitne ziola~
+blekitne ziola~
+blekitne ziola~
+Leza tu ziola o przedziwnym, blekitnym kolorze.~
+~
+26 0 1
+15 -1 -1 19
+1 1 0
+'NONE' 'NONE' 'bless'
+#8914
+purpurowe ziola~
+purpurowe ziola~
+purpurowe ziola~
+purpurowe ziola~
+purpurowe ziola~
+purpurowe ziola~
+purpurowe ziola~
+purpurowe ziola~
+Ktos wyrzucil dziwne, purpurowe ziola.~
+~
+26 0 1
+15 -1 -1 27
+1 1 0
+'NONE' 'NONE' 'change sex'
+#8915
+czarne ziele~
+czarne ziele~
+czarne ziele~
+czarne ziele~
+czarne ziele~
+czarne ziele~
+czarne ziele~
+czarne ziele~
+Na ziemi dostrzegasz kepke groznego czarnego ziela.~
+~
+26 0 1
+5 -1 -1 20
+1 1 0
+'NONE' 'NONE' 'blindness'
+#8916
+szare ziola~
+szare ziola~
+szare ziola~
+szare ziola~
+szare ziola~
+szare ziola~
+szare ziola~
+szare ziola~
+Twoja uwage zwracaja szare, niezbyt przyjemnie wygladajace ziola.~
+~
+26 0 1
+5 -1 102 122
+1 1 0
+'NONE' 'kindred strength' 'poison'
+#8917
+czerwone ziola~
+czerwone ziola~
+czerwone ziola~
+czerwone ziola~
+czerwone ziola~
+czerwone ziola~
+czerwone ziola~
+czerwone ziola~
+Ktos zgubil tu peczek ziol o dziwnym czerwonym kolorze.~
+~
+26 0 1
+15 -1 -1 50
+1 1 0
+'NONE' 'NONE' 'detect magic'
+#8918
+pomaranczowe ziola~
+pomaranczowe ziola~
+pomaranczowe ziola~
+pomaranczowe ziola~
+pomaranczowe ziola~
+pomaranczowe ziola~
+pomaranczowe ziola~
+pomaranczowe ziola~
+Kupka pomaranczowych ziol lezy spokojnie na ziemi.~
+~
+26 0 1
+5 -1 -1 41
+1 1 0
+'NONE' 'NONE' 'cure light'
+#8919
+rozowe ziola~
+rozowe ziola~
+rozowe ziola~
+rozowe ziola~
+rozowe ziola~
+rozowe ziola~
+rozowe ziola~
+rozowe ziola~
+Zauwazasz dziwne, rozowe ziola. Chyba lepiej bedzie ich nie dotykac.~
+~
+26 0 1 4
+5 -1 42 122
+1 1 0
+'NONE' 'cure poison' 'poison'
+#0
+
+
+#ROOMS
+#8901
+Swiety Gaj~
+Oto kolejna czesc starozytnego Swietego Gaju. Przez Twoje cialo i dusze 
+przebiega uczucie radosci i ulgi, zupelnie jak gdyby wraz z wejsciem do Gaju
+ktos zdjal z Twoich barkow ogromny ciezar. Obecnosc przyjaznej Ci natury
+dziala kojaco na nerwy. Zapach swiezej trawy przypomina Ci czasy dziecinstwa.
+~
+0 0 3
+D1
+Sciezka wije sie miedzy drzewami i po chwili znika Ci z oczu.
+~
+~
+0 -1 8902
+D2
+Sciezka wije sie miedzy drzewami i po chwili znika Ci z oczu.
+~
+~
+0 -1 8904
+S
+#8902
+Swiety Gaj~
+Znajdujesz sie pomiedzy starozytnymi debami i topolami Swietego Gaju. Przez
+Twoje cialo i dusze przebiega uczucie radosci i ulgi, zupelnie jak gdyby wraz
+z wejsciem do Gaju ktos zdjal z Twoich barkow ogromny ciezar. Obecnosc 
+przyjaznej Ci natury dziala kojaco na nerwy. Zapach swiezej trawy przypomina
+Ci czasy dziecinstwa... Widzisz tu kilka sciezek. Jedna odchodzi na
+poludnie, druga na wschod zas trzecia na zachod.
+~
+0 0 3
+D1
+Sciezke wije sie wsrod wysokich drzewa, poprzez ktore dostrzegasz niewielka
+polanke.
+~
+~
+0 -1 8903
+D2
+Widzisz jak sciezka wije sie wsrod wysokich drzew i po chwili znika Ci z 
+oczu. Poprzez przeswity miedzy drzewami ledwo udaje Ci sie dostrzec widoczna
+w pewnej odleglosci lesna polane.
+~
+~
+0 -1 8905
+D3
+Sciezka wije sie miedzy drzewami i po chwili znika Ci z oczu.
+~
+~
+0 -1 8901
+S
+#8903
+Niewielka polanka~
+Stoisz na niewielkiej, porosnietej gesta trawa polance. Mimo, ze miejsce nie
+jest zbyt duze to jednak odczuwa sie pulsujaca z niego moc. Najwyrazniej to
+miejsce rozni sie od pozostalych czesci lasu. Kiedy przygladasz mu sie
+blizej zauwazasz, ze ma ksztalt pentagramu, starozytnego symbolu sluzacego
+do okielznania mocy magicznych... 
+~
+0 4 3
+D2
+Na poludnie odchodzi sciezka wijaca scie pomiedzy wysokimi topolami i
+znikajaca Ci z oczu po jakichs trzydziestu metrach.
+~
+~
+0 -1 8906
+D3
+Na zachod biegnie przyjemnie wygladajaca sciezka.
+~
+~
+0 -1 8902
+S
+#8904
+Swiety Gaj~
+Stoisz na skrzyzowaniu sciezek pomiedzy starozytnymi drzewami Swietego Gaju.
+Przez Twoje cialo i dusze przebiega uczucie radosci i ulgi, zupelnie jak gdyby
+wraz z wejsciem do Gaju ktos zdjal z Twoich barkow ogromny ciezar. Obecnosc 
+przyjaznej Ci natury dziala kojaco na nerwy. Idac na zachod powinienes
+dotrzec do Darkhaven.
+~
+0 4 3
+D0
+Sciezka wije sie miedzy drzewami i po chwili znika Ci z oczu.
+~
+~
+0 -1 8901
+D1
+Sciezke wije sie wsrod wysokich drzewa, poprzez ktore dostrzegasz niewielka
+polanke.
+~
+~
+0 -1 8905
+D2
+Sciezka proawdzi w glab Swietego Gaju.
+~
+~
+0 -1 8907
+D3
+Pomiedzy drzewami dostrzegasz droge biegnaca do Darkhaven. Wydaje Ci sie, ze
+w oddali dostrzegasz wysokie mury miasta i dym unoszacy sie z kominow.
+~
+~
+0 -1 3502
+S
+#8905
+Uswiecona polana~
+Dotarles do jednego z najwazniejszych miejsc w Swietym Gaju. To wlasnie tu
+mieszkancy Darkhaven przybywaja swietowac nadejscie wiosny, farmerzy
+skladaja dzieki za dobre zbiory podczas zniw zas kochankowie przychodza aby
+pobyc chwile ze soba. Podswiadomie wyczuwasz lata zapamietanych przez drzewa
+zabaw, a Twoje troski ulatuja bezpowrotnie. Czujesz sie spokojny, silny i
+gotowy do wziecia sie za bary z reszta swiata. Na wschod, zachod i polnoc
+biegna sciezki prowadzace do innych zakatkow Swietego Gaju, zas na poludniu
+widzisz sloneczne pole i niewielkie jeziorko.
+~
+0 0 3
+D0
+Sciezka wije sie miedzy drzewami i po chwili znika Ci z oczu.
+~
+~
+0 -1 8902
+D1
+Sciezka wije sie miedzy drzewami i po chwili znika Ci z oczu.
+~
+~
+0 -1 8906
+D2
+Na poludniu znajduje sie sloneczne pole otaczajace niewielkie, blyszczace
+jeziorko.
+~
+~
+0 -1 8908
+D3
+Sciezka wije sie miedzy drzewami i po chwili znika Ci z oczu.
+~
+~
+0 -1 8904
+S
+#8906
+Swiety Gaj~
+Znajdujesz sie pomiedzy starozytnymi debami i topolami Swietego Gaju. Przez
+Twoje cialo i dusze przebiega uczucie radosci i ulgi, zupelnie jak gdyby wraz
+z wejsciem do Gaju ktos zdjal z Twoich barkow ogromny ciezar. Obecnosc 
+przyjaznej Ci natury dziala kojaco na nerwy. Kiedy rozgladasz sie wokolo
+zauwazasz sciezki biegnace na polnoc i zachod do innych czesci Swietego Gaju
+oraz jedna biegnaca na poludnie.
+~
+0 0 3
+D0
+Sciezka wije sie miedzy drzewami i po chwili znika Ci z oczu.
+~
+~
+0 -1 8903
+D2
+Na poludniu, tuz za sciana drzew mozesz dostrzec szeroki, zielony trawnik za
+ktorym znajduje sie wielokolorowa posesja.
+~
+~
+0 -1 8909
+D3
+Sciezka wije sie miedzy drzewami i po chwili znika Ci z oczu.
+~
+~
+0 -1 8905
+E
+posesja~
+Masz przed soba niezbyt duzy ale niezwykly dom. Posejsa liczy sobie dwa
+pietra i posiada trzy skrzydla, zas koniec kazdego z nich sluzy jako balkon.
+Sciany wygladaja tak jak wygladalyby sciany z kazdego marmuru, jezeli ten
+marmur zmienialby nieustannie kolory przechodzac przez cale spektrum.
+Zauwazasz nadzwyczaj duza ilosc ogromnych okien.
+~
+S
+#8907
+Swiety Gaj~
+Znajdujesz sie pomiedzy wysokimi, majestatycznymi drzewami w poludniowym
+koncu Swietego Gaju. Widzisz tu sciezki biegnaca na polnoc i wschod. Na
+wschodzie widzisz szerokie, sloneczne pole otaczajace niewielkie jeziorko.
+Nie wiesz czemu ale czujesz sie w tym miejscu wyjatko szczesliwy, zupelnie
+jak gdyby troski swiata Cie nie dotyczyly.
+~
+0 0 3
+D0
+Sciezka biegnaca na polnoc po chwili znika Ci z oczu pomiedzy drzewami.
+~
+~
+0 -1 8904
+D1
+Na wschodzie widzisz szerokie, sloneczne pole otaczajace niewielkie, ale
+piekne jeziorko. Za polem dostrzegasz dzwina posesje...
+~
+~
+0 -1 8908
+E
+posesja~
+Masz przed soba niezbyt duzy ale niezwykly dom. Posejsa liczy sobie dwa
+pietra i posiada trzy skrzydla, zas koniec kazdego z nich sluzy jako balkon.
+Sciany wygladaja tak jak wygladalyby sciany z kazdego marmuru, jezeli ten
+marmur zmienialby nieustannie kolory przechodzac przez cale spektrum.
+Zauwazasz nadzwyczaj duza ilosc ogromnych okien.
+~
+S
+#8908
+Sloneczne pole~
+Stoisz na srodku porosnietego gesta, zielona trawa pola. Kazdego dnia slonce
+oswietla pole sprawiajac, ze jest ono jednym z ulubionych miejsc odpoczynku
+mieszkancow Darkhaven niezaleznie od pory roku. Na polu znajduje sie tez
+male, blyszczace wesolo jeziorko. Wydaje Ci sie, ze moglbys tu spedzic
+reszte swojego zycia po prostu lezac na plecach i spogladajac w niebo...
+Jednak na wschodzie, za bariera z drzew dostrzegasz dziwna posesje, ktora 
+pobudza Twoja ciekawosc i przypomina Ci, ze na swiecie znajduje sie jeszcze
+wiele rzeczy wartych obejrzenia. 
+~
+0 8 2
+D0
+Na polnocy widzisz sciezke prowadzaca na Uswiecona Polane.
+~
+~
+0 -1 8905
+D1
+Na wschodzie dostrzegasz posesje zbudowana z dziwnego kamienia zmieniajacego
+barwe...
+~
+~
+0 -1 8919
+D3
+Na zachod odchodzi waska sciezka biegnaca wglab drzew.
+~
+~
+0 -1 8907
+E
+posesja~
+Masz przed soba niezbyt duzy ale niezwykly dom. Posejsa liczy sobie dwa
+pietra i posiada trzy skrzydla, zas koniec kazdego z nich sluzy jako balkon.
+Sciany wygladaja tak jak wygladalyby sciany z kazdego marmuru, jezeli ten
+marmur zmienialby nieustannie kolory przechodzac przez cale spektrum.
+Zauwazasz nadzwyczaj duza ilosc ogromnych okien.
+~
+S
+#8909
+Na trawniku~
+W czasie zwiedzania Swietego Gaju dotarles do doskonale utrzymanego
+trawnika. W swoim zyciu widziales juz wiele trawnikow i raczej nic w ich
+wygladzie nie powinno Cie dziwic ale ten jest inny. Idealnie przystrzyzona
+trawa ma wspanialy zielony kolor. Brak na nim jakichkolwiek chwastow.
+Wyglada na to, ze ktos o niego bardzo dba. Przez trawnik biegnie kamienna
+sciezka prowadzaca do posesji lezacej na poludniu.
+~
+0 4 2
+D0
+Na polnocy widzisz inne czesci Swietego Gaju.
+~
+~
+0 -1 8906
+D2
+Sciezka biegnaca na poludnie prowadzi wprost do drzwi posesji.
+~
+drzwi~
+3 -1 8910
+E
+posesja~
+Masz przed soba niezbyt duzy ale niezwykly dom. Posejsa liczy sobie dwa
+pietra i posiada trzy skrzydla, zas koniec kazdego z nich sluzy jako balkon.
+Sciany wygladaja tak jak wygladalyby sciany z kazdego marmuru, jezeli ten
+marmur zmienialby nieustannie kolory przechodzac przez cale spektrum.
+Zauwazasz nadzwyczaj duza ilosc ogromnych okien.
+~
+S
+#8910
+Foyer~
+Stoisz w foyer posesji Smoka. Na polnocy znajduja sie szerokie drzwi
+wychodzace na trawnik lezacy przed domem. Na scianach widzisz debowa
+boazerie i dzwine obrazy. W poludniowej scianie widzisz drzwi prowadzace w
+glab posesji.
+~
+0 12 0
+D0
+Przez szklane drzwi widzisz kawalek wspanialego trawnika rosnacego przed
+posesja.
+~
+drzwi~
+3 -1 8909
+D2
+~
+door~
+3 -1 8911
+E
+obraz obrazy~
+Obrazy sa rzeczywiscie niezwykle dziwne i zapieraja dech w piersiach.
+Przedstawiaja z zadziwiajaca precyzja niebo na tle ktorego unosza sie
+ludzie bez glow, ubrani w jakies czarne kostiumy, badz stojaca kobiete o
+blekitnej skorze czy tez kawalek drewna topiacy sie niczym snieg.
+Najpiekniejszy i najdziwniejszy zarazem jest obraz przedstawiajacy nocne
+niebo z ksiezycem przez, ktory przeswituje niebo widziane za dnia.
+~
+S
+#8911
+Hall~
+Znajdujesz sie w polnocnym koncu hallu. Sciany wylozone sa ze smakiem debowa
+boazeria. Zauwazasz pare portretow znanych osobistosci i wladcow. Hall 
+ciagnie sie na poludnie. Na wschodniej scianie znajduja sie drzwi prowadzace
+do innych pomieszczen.
+~
+0 8 0
+D0
+~
+drzwi~
+3 -1 8910
+D1
+~
+drzwi~
+3 -1 8912
+D2
+~
+~
+0 -1 8913
+S
+#8912
+Blekitny pokoj~
+Znajdujesz sie w blekitnym pokoju przeznaczonym dla gosci przebywajacych w
+posesji Smoka. Sciany maja wspanialy kolor letniego nieba zas pokoj
+urzadzony jest tak aby je jak najbardziej przypominac. W pokoju znajduje sie
+wielkie lozko, zestaw sof i wygodnych krzesel oraz stolik. Poprzez szyby
+wielkiego okna masz wspanialy widok na Swiety Gaj. 
+~
+0 520 0
+D3
+~
+drzwi~
+3 -1 8911
+S
+#8913
+Hall~
+Stoisz w poludniowym koncu hallu. W wylozonych debowa boazeria scianach
+znajduja sie drzwi prowadzace na poludnie, wschod i zachod. Na scianach wisi
+wiele portretow roznych ludzi... i nie tylko.
+~
+0 8 0
+D0
+~
+~
+0 -1 8911
+D1
+~
+drzwi~
+3 -1 8914
+D2
+~
+drzwi~
+3 -1 8915
+D3
+~
+drzwi~
+3 -1 8916
+S
+#8914
+Czerwony pokoj~
+Znajdujesz sie w czerwonym pokoju, jednym z pomieszczen przeznaczonych dla
+gosci odwiedzajacych Smoka. Sciany pomalowane sa na cieply czerwony kolor
+przywodzacy na mysl cieplo domowego ogniska. Wystroju dopelniaja wstawki z
+czarnego mahoniowego drewna. W rogu pomieszczenia znajduje sie wielkie loze
+obok ktorego stoi wygodna sofa. Ciezke, krwawe zaslony sa odsloniete tak aby
+mozna sie rozkoszowac widokiem na Swiety Gaj.
+~
+0 520 0
+D3
+~
+drzwi~
+3 -1 8913
+S
+#8915
+Kuchnia~
+W czasie zwiedzania posesji Smoka dotarles w koncu do jego kuchni. Wbrew
+wiekszosci plotek Smok nie zywi sie dziewicami lecz preferuje bardziej
+ludzkie pozywienie. Jedzenie przygotowywane w tej kuchni z pewnoscia nie
+rozni sie zbytnio od jedzenia w wiekszosci karczm. W kuchni panuje idealny
+porzadek zas wszystkie przyprawy i skladniki potraw sa idealnie poukladane.
+Wyglada na to, ze Smok jest wzorowym gospodarzem. W czasie myszkowania po
+kuchni trafiasz na drzwi prowadzace na polnoc i zachod.
+~
+0 8 0
+D0
+~
+drzwi~
+3 -1 8913
+D3
+~
+drzwi~
+3 -1 8918
+S
+#8916
+Sala balowa~
+Dotarles do przestronnej sali balowej, w ktorej Smok zabawia swoich gosci.
+Przykryte przescieradlami meble sugeruja jednak, ze nie ma ich zbyt wielu.
+Na wschodzie i poludniu znajduja sie drzwi zas na zachodzie widzisz korytarz
+prowadzacy do altany.
+~
+0 8 0
+D1
+~
+drzwi~
+3 -1 8913
+D2
+~
+drzwi~
+3 -1 8918
+D3
+~
+~
+0 -1 8917
+S
+#8917
+Altana~
+Znajdujesz sie w altanie przylegajacej do posesji Smoka. Swiatlo przechodzac
+przez liscie roslin rosnacych na altanie nabiera zielonkawego odcienia.
+Wydaje Ci sie jakbys przebywal w jakiejs chatce w dzungli. Na szczescie
+temperatura jest tu nizsza niz w lasach tropikalnych. Za sciany sluza duze
+okna ze wspanialym widokiem na Swiety Gaj. Jedynym wyjatkiem jest sciana
+wschodnia laczaca altane z domem. W altanie stoja wygodne, plecione krzesla
+i szklany stolik. Na poludniu znajduja sie szerokie szklane drzwi prowadzace
+na taras.
+~
+0 520 0
+D1
+~
+~
+0 -1 8916
+D2
+~
+drzwi~
+3 -1 8919
+S
+#8918
+Jadalnia~
+Masz przed soba jadalnie Smoka. W centrum pomieszczenia znajduje sie wielki,
+debowy stol przy ktorym ustawiono 24 krzesla. Jednak juz na pierwszy rzut
+oka widac, ze tylko jedno miejsce przy stole jest systematycznie uzywane.
+Wylozone debowa boazeria sciany obwieszone sa obrazami. Na polnocy, wschodzie
+i zachodzie widzisz drzwi prowadzace do innych czesci posesji.
+~
+0 8 0
+D0
+~
+drzwi~
+3 -1 8916
+D1
+~
+drzwi~
+3 -1 8915
+D3
+~
+drzwi~
+1 -1 8919
+S
+#8919
+Taras~
+Stoisz na szerokim tarasie przed posesja Smoka. Na zachodzie rozciaga sie
+wspanialy widok na piekne pole otaczajace niewielkie jeziorko. Na polnocy
+lezy przylegajaca do domu altana, ktorej szyby odbijaja swiatlo sloneczne i
+tworza wspaniale refleksy. Jest tu cicho i spokojnie. Przed sloncem i
+deszczem chroni przymocowany do sredniej wielkosci stolika parasol. Obok
+stolu stoja plecione krzesla.
+~
+0 12 0
+D0
+~
+drzwi~
+3 -1 8917
+D1
+~
+drzwi~
+1 -1 8918
+D3
+~
+~
+0 -1 8908
+S
+#8988
+Unosisz sie w pustce wypelniajacej przestrzen miedzy wymiarami.~
+~
+0 1073741828 1
+S
+#8989
+Unosisz sie w pustce wypelniajacej przestrzen miedzy wymiarami.~
+~
+0 1073741828 1
+S
+#8990
+Unosisz sie w pustce wypelniajacej przestrzen miedzy wymiarami.~
+~
+0 1073741828 1
+S
+#8991
+Unosisz sie w pustce wypelniajacej przestrzen miedzy wymiarami.~
+~
+0 1073741828 1
+S
+#8992
+Unosisz sie w pustce wypelniajacej przestrzen miedzy wymiarami.~
+~
+0 1073741828 1
+S
+#8993
+Unosisz sie w pustce wypelniajacej przestrzen miedzy wymiarami.~
+~
+0 1073741828 1
+S
+#8994
+Unosisz sie w pustce wypelniajacej przestrzen miedzy wymiarami.~
+~
+0 1073741828 1
+S
+#8995
+Unosisz sie w pustce wypelniajacej przestrzen miedzy wymiarami.~
+~
+0 1073741828 1
+S
+#8996
+Unosisz sie w pustce wypelniajacej przestrzen miedzy wymiarami.~
+~
+0 1073741828 1
+S
+#8997
+Unosisz sie w pustce wypelniajacej przestrzen miedzy wymiarami.~
+~
+0 1073741828 1
+S
+#8998
+Unosisz sie w pustce wypelniajacej przestrzen miedzy wymiarami.~
+~
+0 1073741828 1
+S
+#8999
+We mgle~
+Spadasz otoczony przez gesta, szara mgle. Z Twoich ust wydobywa sie krzyk
+zawierajacy rozpacz, bol i gniew kiedy zdajesz sobie sprawe, ze jestes
+rozrywany kawalek po kawalku przez jakies niewidzialne rece. Nie istnieje
+nic oprocz bolu... spadasz...
+                             i spadasz....
+                                          i spadasz....
+                                                       ..... 
+~
+0 4 0
+S
+#0
+
+
+#RESETS
+M 0 8900 1 8905
+E 1 8910 99 5
+E 1 8911 99 16
+G 1 8919 99
+G 1 8918 99
+M 0 8901 1 8901
+E 1 8910 99 5
+E 1 8911 99 16
+G 1 8913 99
+G 1 8915 99
+M 0 8902 1 8902
+E 1 8910 99 5
+G 1 8914 99
+G 1 8916 99
+M 0 8903 1 8904
+E 1 8910 99 5
+G 1 8919 99
+G 1 8917 99
+M 0 8904 2 8905
+M 0 8905 2 8906
+M 0 8906 1 8905
+M 0 8907 4 8903
+M 0 8907 4 8903
+M 0 8908 9 8906
+M 0 8909 1 8911
+G 1 8913 99
+M 0 8909 2 8918
+G 1 8916 99
+M 0 8910 1 8914
+G 1 8914 99
+M 0 8910 2 8917
+G 1 8918 99
+O 0 8901 2 8912
+O 0 8901 2 8914
+O 0 8902 2 8915
+P 1 8903 1 8902
+O 0 8902 2 8915
+P 1 8904 1 8902
+D 0 8914 3 1
+D 0 8913 1 1
+D 0 8912 3 1
+D 0 8911 1 1
+D 0 8911 0 1
+D 0 8910 2 1
+D 0 8910 0 1
+D 0 8909 2 1
+D 0 8913 2 1
+D 0 8915 0 1
+D 0 8913 3 1
+D 0 8916 1 1
+D 0 8918 0 1
+D 0 8916 2 1
+D 0 8918 1 1
+D 0 8915 3 1
+D 0 8918 3 1
+D 0 8919 1 1
+D 0 8917 2 1
+D 0 8919 0 1
+M 0 8911 1 8918
+E 1 8907 1 17
+E 1 8906 1 16
+E 1 8900 1 9
+E 1 8905 1 6
+O 0 21086 3 8901
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  8900 spec_cast_cleric
+M  8901 spec_cast_cleric
+M  8902 spec_cast_cleric
+M  8903 spec_cast_cleric
+M  8908 spec_poison
+M  8909 spec_cast_cleric
+M  8910 spec_cast_cleric
+S
+
+
+#$

@@ -1,0 +1,247 @@
+#AREA   Zagadkowa Kraina~
+
+
+
+#VERSION 3
+#AUTHOR Flash~
+
+#RANGES
+0 65 0 65
+$
+
+#RESETMSG Kolejni smialkowie przychodza do Sensei Nazono po zadania...~
+
+#FLAGS
+8
+
+#ECONOMY 0 51200000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#29500
+nazono sensei~
+sensei Nazono~
+sensei Nazono~
+sensei Nazono~
+sensei Nazono~
+sensei Nazono~
+sensei Nazono~
+sensei Nazono~
+Sensei Nazono wymysla tu zagadki.
+~
+~
+16779331 4202668 1000 C
+50 0 -300 1d1+30000 1d1+800
+0 0
+112 112 1
+20 25 18 18 20 15 25
+0 0 0 0 0
+0 3 0 0 1 1 10
+0 0 2047 0 2100224 0 0 3
+#0
+
+
+#OBJECTS
+#29500
+niedostepny~
+niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+Some god dropped a newly created niedostepny here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#29501
+niedostepny~
+niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+Some god dropped a newly created niedostepny here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#29502
+niedostepny~
+niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+Some god dropped a newly created niedostepny here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#29503
+niedostepny~
+niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+Some god dropped a newly created niedostepny here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#29504
+niedostepny~
+niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+a newly created niedostepny~
+Some god dropped a newly created niedostepny here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#29505
+sztylet quest~
+zagadkowy sztylet~
+zagadkowego sztyletu~
+zagadkowemu sztyletowi~
+zagadkowy sztylet~
+zagadkowym sztyletem~
+zagadkowym sztylecie~
+zagadkowym sztylecie~
+W powietrzu unosi sie zagadkowy sztylet.~
+~
+5 0&9 1 1
+12 10 20 0
+1 0 0
+A
+18 100
+A
+19 100
+#29506
+tarcza quest~
+zagadkowa tarcza~
+zagadkowej tarczy~
+zagadkowej tarczy~
+zagadkowa tarcze~
+zagadkowa tarcza~
+zagadkowej tarczy~
+zagadkowo tarczo~
+W powietrzu unosie sie zagadkowa tarcza.~
+~
+9 0&8 1
+12 0 0 0
+1 0 0
+#29507
+pierscien quest~
+zagadkowy pierscien~
+zagadkowego pierscienia~
+zagadkowemu pierscieniowi~
+zagadkowy pierscien~
+zagadkowym pierscieniem~
+zagadkowym pierscieniu~
+zagadkowy pierscieniu~
+W powietrzu unosi sie zagadkowy pierscien.~
+~
+9 0&8 1
+12 0 0 0
+1 0 0
+#29508
+kolczyk quest~
+zagadkowy kolczyk~
+zagadkowego kolczyka~
+zagadkowemu kolczykowi~
+zagadkowy kolczyk~
+zagadkowym kolczykiem~
+zagadkowym kolczyku~
+zagadkowy kolczyku~
+W powietrzu unosi sie zagadkowy kolczyk.~
+~
+13 0&8 1
+12 0 0 0
+1 0 0
+#29509
+bransoleta quest~
+zagadkowa bransoletka~
+zagadkowej bransoletki~
+zagadkowej bransoletce~
+zagadkowa bransoletke~
+zagadkowa bransoletka~
+zagadkowej bransoletce~
+zagadkowo bransoletko~
+W powietrzu unosi sie zagadkowa bransoletka.~
+~
+13 0&8 1
+12 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#29500
+Nieduza komnata.~
+Jak sama nazwa wskazuje komnata ta nie jest zbyt wielka, gdyz jej mieszkaniec
+nie potrzebuje wiele miejsca. Spokojnie miesci sie tu on i jego interesanci.
+~
+0 3146756 0
+D1
+~
+~
+0 -1 21003
+D10
+~
+zagadka~
+526344 -1 29501
+S
+#29501
+Zagadkowy salon.~
+Znajdujesz sie w zagadkowym salonie. Jak sama nazwa wskazuje wszystko jest tu
+zagadkowe. Rowniez problem jak stad wyjsc jest wielka, aczkolwiek nietrudna
+zagadka.
+~
+0 35660812 0
+D10
+~
+akdagaz~
+526344 -1 29500
+S
+#29599
+Floating in a void~
+~
+0 4 1
+S
+#0
+
+
+#RESETS
+M 0 29500 1 29500
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  29500 spec_questmaster
+S
+
+
+#$

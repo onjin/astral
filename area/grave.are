@@ -1,0 +1,1113 @@
+#AREA   Nekropolia[pl. Altti]~
+
+
+
+#AUTHOR Alfa~
+
+#RANGES
+5 10 0 60
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 9999180
+
+#MOBILES
+#3600
+ogrodnik Zachariasz~
+Ogrodnik Zachariasz~
+Ogrodnik imieniem Zachariasz siedzi tu zgarbiony, sprawiajac wrazenie pijanego.
+~
+Jest to wysoki, choc juz grubawy mezczyzna, dobrze po piecdziesiatce. Jego
+oblicze stalo sie zwierciadlem dziesiecioleci ciezkiej pracy i czegos
+jeszcze: zduszonego w srodku uczucia, czy tez doswiadczenia smutku i
+depresji, nie zatartych jak stara blizna... Pograzony jest we wspomnieniach
+swego utraconego ongi raju...
+~
+65 0 350 C
+4 15 8 1d12+48 1d6+1
+10 800
+6 6 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1775 0 0 0 16 2
+#3601
+zombie~
+gnijacy zombie~
+Gnijacy zombie zmierza ku tobie chwiejnym krokiem rozkladajac swe kikuty rak
+~
+Ohydne larwy pelzaja po calym jego rozpadajacym sie truchle. Fetor gnijacego
+ciala jaki sie od niego unosi jest niemal nie do wytrzymania.
+~
+35 512 -750 C
+4 16 5 2d6+60 1d8+2
+0 800
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 1
+0 0 1775 0 0 0 16 2
+#3602
+ghul~
+Plugawy ghul~
+Jest tu ohydny stwor nazywany ghulem.
+~
+Straszliwa ta istota, bluzniaca wszelkim prawom natury powstala z martwego
+ciala i martwymi cialami napelnia swe trzewia, lecz nie gardzi tez miesem 
+zywych. Jego dlugie, zoltawego koloru kly ociekaja sluzem, a pazury nerwowo
+uderzaja o siebie wydajac szyderczy klekot. Jarzace sie zlowieszczym blaskiem
+oczy dopelniaja obrazu tego obrzydliwego monstrum.
+~
+35 512 -750 C
+6 15 4 2d6+72 1d10+2
+20 1500
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 1
+0 0 1769 0 0 0 4096 524290
+#3603
+szkielet~
+zakurzony szkielet~
+Lezy tu zakurzony szkielet.
+~
+Pokryte grzybicznymi plamami zmurszale kosci sa koloru ciemnego, niezdrowego
+brazu. Widac po nim, ze pochowany zostal cale wieki temu.
+~
+1073741859 512 -750 C
+3 17 7 1d12+36 1d6+2
+10 600
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 1
+0 0 263 96 0 16 16 2
+#3604
+szkielet~
+zakurzony szkielet~
+Spoczywa tu zakurzony szkielet
+~
+Wyszczerzona w upiornym usmiechu czaszka, reka i kilka polamanych zeber zdaja
+sie wszystkim co zostalo po ciele istoty pochowanej tu eony temu.
+~
+97 512 -750 C
+3 17 7 1d12+36 1d6+2
+10 600
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 370945 370945 1
+0 0 71 96 0 16 16 2
+#3605
+zombie~
+gnijacy zombie~
+Zombie idzie wprost na ciebie, jego rece rozlozone sa by cie pochwycic
+~
+Ohydne larwy pelzaja po calym jego ciele i wslizguja sie w kazdy jego otwor:
+pelno ich wije sie w ustach, resztkach nosa i w prawym oczodole. Lewe oko
+przysloniete jest jakby bielmem, co czyni jego postac jeszcze obrzydliwsza.
+~
+1073741857 512 -750 C
+4 16 5 2d6+60 1d8+2
+100 800
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 370945 370945 1
+0 0 1775 0 0 0 16 2
+#0
+
+
+#OBJECTS
+#3600
+lichtarz~
+lichtarz~
+Stoi tu niepozorny cynowy lichtarz.~
+~
+1 0 16385
+0 0 24 0
+5 150 15
+E
+lichtarz~
+Stary trojramienny lichtarz ma cos niepokojacego w swych ksztaltach. Jego
+bluzniercza wrecz symetria odpycha kazdego, kto nan patrzy. Zdaje sie byc
+wykonany z dziwnego stopu, choc nie wykluczone, iz jest to zwykla cyna,
+tylko zle oswietlenie sprawia, ze wzrok nie sluzy najlepiej. Osadzone w nim
+swiece maja trupiozolty kolor i niepokojace ksztalty...
+~
+#3601
+butelka brandy~
+butelka brandy~
+Lezy tu butelka brandy.~
+~
+17 0 1
+10 10 5 0
+2 50 5
+E
+butelka brandy~
+Dziwne to naczynie. Szyjce butelki nadano ksztalt malej smoczej glowy, zas
+etykietka wskazuje na nazwe handlowa zawartosci: "Smocza Krew". Przy obecnym
+slabym oswietleniu zdawac by sie moglo, iz plyn wewnatrz jest faktycznie
+niepokojaco oleisty i nieokreslonego koloru, po wstrzasnieciu pieni sie zas
+w osobliwy sposob...
+ Taka butelka warta jest troche grosza, nawet kiedy jest pusta.
+~
+#3602
+butelka brandy~
+butelka brandy~
+Znajduje sie tu dziwna butelka brandy.~
+~
+17 0 1
+10 0 5 0
+2 50 5
+E
+butelka brandy~
+Trunek w butelce nosi nazwe "Smoczej Krwi", zas przy blizszych ogledzinach
+okazuje sie miec zlowieszczo gesta konsystencje, zas na mysl o degustacji
+dreszcz przechodzi po kregoslupie. Ksztalt rowniez jest dziwny: szyjka wije
+sie osobliwie, zas sam jej koniec ma ksztalt smoczej glowy. Takie naczynia
+warte sa co nieco, nawet gdy sa puste.
+~
+#3603
+taczka~
+taczka~
+Znajduje sie tu pomalowana niegdys na zielono, lecz juz mocno odrapana, taczka.~
+~
+22 0 1
+0 0 0 0
+100 100 10
+E
+taczka~
+To solidna, ciezka taczka zbudowana z debowych desek i pomalowana na ciemny
+zielony kolor wpadajacy w odcien cyprysow posadzonych przy glownej alei.
+~
+#3604
+szpadel~
+szpadel~
+Lezy tu szpadel.~
+~
+59 0 8193
+0 1 5 7
+8 30 3
+E
+szpadel~
+To stary szpadel o solidnym drewniamym stylu pokrytym dziwnymi rowkami,
+jakby sladami pazurow...
+~
+#3605
+grabie~
+grabie~
+Leza tu grabie.~
+~
+5 0 8193
+0 1 4 5
+8 30 3
+E
+grabie~
+To spore metalowe grabie o solidnym drewniamym stylu i niepokojacym ksztalcie
+przypominjacym szponiasta lape...
+~
+#3606
+jadalna larwa~
+jadalna larwa~
+Oslizgla, mala larwa wlecze swe cialo ciagnac za soba sluzowaty slad.~
+~
+26 0 16385
+6 15 -1 -1
+1 250 25
+#3610
+szkielet~
+zakurzony szkielet~
+Spoczywa tu zakurzony szkielet.~
+~
+12 0 1
+0 0 0 0
+15 0 0
+E
+szkielet~
+Stare kosci z czasem pokryly sie nalotem grzybow jak rdza - lecz mimo to
+kosci nie sprawiaja wrazenia sprochnialych po tylu latach przebywania w
+ziemi. Malo tego - ich doskonaly stan ma w sobie cos zlowieszczego, co
+pozwala domniemywac, iz tli sie w nich jakies zwyrodniale zycie...
+~
+#3611
+ametystowa gemma~
+ametyst~
+Lezy tu duzy, wieloscienny krysztal ametystu.~
+~
+8 0 16385
+0 0 0 0
+1 3000 300
+E
+ametyst~
+Duzy, wypolerowany krysztal ma kolor glebokiej purpury i spogladajac wen
+odnosisz wrazenie, ze swiat wokol ciebie zaczyna wirowac i jaby zapadac sie
+do wewnatrz krysztalu... W nim zas dostrzegasz zarysy innych swiatow:
+lodowych pustyn usianych odrazajacymi megalitami, cyklopowych ruin na dnie
+oceanow, gdzie bezksztaltne stworzenia skladaja nieustanne holdy starozytnym
+bogom... Desperackim wysilkiem woli odrywasz od niego wzrok. Czy odwazysz
+sie jeszcze kiedys spojrzec na ten kamien...?
+~
+#3612
+srebrny pektoral~
+srebrny pektoral~
+Lezu tu srebrny pektoral. Wyglada na to, ze ktos lub cos go porzucilo.~
+~
+9 0 5
+4 0 0 0
+1 400 40
+E
+srebrny pektoral~
+Naszyjnik wydaje sie byc wykonany z czystego srebra lub nieznanego stopu z
+domieszka rownie pieknego, lecz nieznanego metalu. Nie mozna na pierwszy
+rzut oka stwierdzic przez kogo zostala wykonana, gdyz zaden narod ani rasa
+nie wykonuja tak osobliwych ozdob - jego powierzcnia pokryta jest dziwnymi
+geometrycznymi wzorami o imponujacym wrecz stopniu skomplikowania, lecz
+wpatrujac sie w platanine linii oczom twym ukazuja sie zdumiewajace i
+wynaturzone ksztalty istot tak zwyrodnialych i swiatow tak odrazajacych, ze
+ich pochodzenie moze byc tlumaczone jedynie mitem Pierwotnego Chaosu...
+~
+#3613
+srebrny sztylet~
+srebrny sztylet~
+Dlugi srebrny sztylet lezy w tym miejscu.~
+(przeszywac) pierce~
+5 0 8193
+0 2 4 11
+1 100 10
+E
+srebrny sztylet~
+Dlugie, srebrne ostrze zdaje sie jarzyc wewnetrznym blaskiem posrod
+otaczajacych ciemnosci. Klinga ma lekko falisty ksztalt, zas gdy blizej sie
+jej przypatrzysz, ujrzec mozesz niewypowiadalne zaklecia zapisane runami w
+zapomnianym juz sekretnym jezyku. Rekojesc zas wykonana jest w dziwnym,
+zielonym kamieniu przenikanym bladymi, gabczastymi wlokienkami...
+~
+A
+19 1
+#0
+
+
+#ROOMS
+#3600
+Cmentarna Aleja, glowna droga Nekropolii~
+Znajdujesz sie na dobrze utrzymanej, zwirowej alejce przechodzacej przez
+cmentarz wzdluz osi polnoc-poludnie. Po obu jej stronach zasadzone sa
+pyszniace sie ciemna zielenia cyprysy. Od polnocnej strony stoi wykonana 
+z kutego zelaza brama, cala juz pokryta czarnym nalotem, zas po lewej i po
+prawej stronie odchodza na boki dwie piaszczyste i waskie sciezki...
+~
+0 0 2
+D0
+Powrot do bezpiecznego miasta...
+~
+brama~
+1 -1 21293
+D1
+Piaszczysta sciezka prowadzi ku wschodowi pomiedzy ciemna zielen cyprysow.
+~
+~
+0 -1 3650
+D2
+C
+Cmentarna aleja prowadzi ku poludniowi.
+~
+~
+0 -1 3601
+D3
+Zwirowa sciezka prowadzi ku zachodowi pomiedzy ciemna zielen cyprysow.
+~
+~
+0 -1 3606
+S
+#3601
+Cmentarna Aleja, glowna droga Nekropolii~
+Znajdujesz sie na dobrze utrzymanej zwirowej alei ciagnacej sie z polnocy na
+poludnie poprzez caly cmentarz. Po obu stronach zasadzone sa cyprysy, ich
+ciemnozielone sylwetki rzucaja upiorne cienie na droge... 
+~
+0 0 2
+D0
+Zwirowa aleja ciagnie sie ku polnocy.
+~
+~
+0 -1 3600
+D2
+Zwirowa aleja prowadzi na poludnie.
+~
+~
+0 -1 3602
+S
+#3602
+Cmentarna Aleja, glowna droga Nekropolii~
+Znajdujesz sie na dobrze utrzymanej zwirowej alei ciagnacej sie z polnocy na
+poludnie pomiedzy dwoma szeregami zlowieszcych, wysokich cyprysow. Zrywa sie
+delikatny, lecz osobliwie chlodny wiatr...
+~
+0 0 2
+D0
+Cmentarna Aleja ciagnie sie ku polnocy.
+~
+~
+0 -1 3601
+D2
+Zwirowa droga zmierza ku poludniowi.
+~
+~
+0 -1 3603
+S
+#3603
+Cmentarna Aleja, glowna droga Nekropolii~
+Stoisz na dobrze utrzymanej zwirowej drodze prowadzacej z polnocy na
+poludnie poprzez caly cmentarz. Posrod galezi jednego z zasadzonych wzdluz
+calej drogi cyprysow szamocze sie cos wydajac niepokojace odglosy...
+~
+0 0 2
+D0
+Zwirowa droga prowadzi ku polnocy.
+~
+~
+0 -1 3602
+D2
+Zwirowa droga zmierza ku poludniowi, gdzie wpada na maly plac przed
+niewielka budowla.
+~
+~
+0 -1 3604
+S
+#3604
+Przed Kaplica~
+Znajdujesz sie na niewielkiej otwartej prestrzeni przed kaplica cmentarna:
+to niewielka budowla o mocno zniszczonej fasadzie. Z wysokosci jej dachu
+rozlega sie zlowieszczy chrobot. Zwirowa droga prowadzi na polnoc, a wejscie
+do kaplicy znajduje sie na poludnie.
+~
+0 0 2
+D0
+Zwirowa aleja ciagnie sie ku polnocy.
+~
+~
+0 -1 3603
+D1
+Zwirowa sciezka odbija ku wschodowi i ginie pomiedzy cyprysami.
+~
+~
+0 -1 3638
+D3
+Zwirowa sciezka odbija ku zachodowi i niknie w cieniu cyprysow.
+~
+~
+0 -1 3618
+S
+#3606
+Zwirowa sciezka posrod cmentarza~
+Stoisz na zwirowej sciezce wijacej sie pomiedzy wysokimi cyprysami. Pod
+jednym z nich znajduje sie stary nagrobek.
+~
+0 0 2
+D1
+Zwirowa sciezka prowadzi na wschod, do Cmentarnej Alei.
+~
+~
+0 -1 3600
+D2
+Zwirowa sciezka ciagnie sie dalej na poludnie.
+~
+~
+0 -1 3608
+D5
+~
+nagrobek~
+3 -1 3607
+E
+nagrobek~
+To duza, prostokatna plyta z szarego kamienia, mocno juz nadgryziona zebem
+czasu. Imie pochowanego zamazane zostalo przez wieki jakie minely od wykucia
+go i czytelny pozostal tylko napis: "Sit tibi terra levis"...
+~
+S
+#3607
+Wewnatrz grobowca~
+Znajdujesz sie w niewielkiej, nisko sklepionej, komorze grobowej cuchnacej
+smiercia i zgnilizna. Na jej scianach zwieszaja sie festony grzybicznych
+wlokien. Jedyne sensowne wyjscie wydaje sie byc ku gorze.
+~
+0 9 1
+D4
+~
+nagrobek~
+3 -1 3606
+S
+#3608
+Zwirowa sciezka na cmentarzu~
+Stoisz na zwirowej sciezce prowadzacej pomiedzy wysokimi cyprysami, wsrod
+ktorych galezi stado lelkow zawodzi niepokojaco, zdajac sie synchronizowac
+swoj krzyk z twym oddechem... Sciezka prowadzi na polnoc i na zachod, zas
+przed toba znajduje sie stary nagrobek.
+~
+0 0 2
+D0
+Zwirowa sciezka prowadzi na polnoc.
+~
+~
+0 -1 3606
+D3
+Zwirowa sciezka ciagnie sie ku zachodowi.
+~
+~
+0 -1 3610
+D5
+~
+nagrobek~
+3 -1 3609
+E
+nagrobek~
+Nagrobna plyta okazuje sie duzym prostokatnym kamieniem ciosanym dosc
+prymitywnie, a jesli bylo na niej cokolwiek wyryte, to dawno temu zostalo
+juz zatarte...
+~
+S
+#3609
+Wewnatrz grobowca~
+Znalazles sie w ciemnej komorze grobowej. Nie mozna okreslic jej rozmiarow,
+gdyz echo jest idealnie tlumione, zas posuwajac sie kilka krokow w kazda
+strone natrafiasz na prowadzace w dol dziwne progi i stopnie, zbyt wysokie,
+by mogly byc przeznaczone dla normalnych istot. Z otchlani jaka sie
+rozposciera ponizej dochodza nienaturalne, obrzydliwe, jakby przelewajace sie
+glosy... jedynym sensownym wyjsciem jest wydostanie sie na powierzchnie...
+~
+0 9 1
+D4
+~
+nagrobek~
+3 -1 3608
+S
+#3610
+Zwirowa sciezka posrod cmentarza~
+Znajdujesz sie na zwirowej sciezce biegnacej pomiedzy ciemnymi sylwetkami
+cyprysow. Zimny podmuch naglego wiatru przenika cie wskros. Sciezka prowadzi
+na wschod i ku poludniowi, a przed toba, zarosniety trawa, stoi nagrobek
+~
+0 0 2
+D1
+Zwirowa sciezka prowadzi na wschod.
+~
+~
+0 -1 3608
+D2
+Sciezka ciagnie sie ku poludniowi.
+~
+~
+0 -1 3612
+D5
+~
+nagrobek~
+3 -1 3611
+E
+nagrobek~
+Nagrobek stanowi ciezka plyta z szarego piaskowca, polozona bezposrednio na
+ziemi. Jesli nawet byl na niej kiedys wyryty jakis napis, to destrukcyjne
+dzialanie czasu juz dawno wymazalo go razem z pamiecia o tym, ktory tu
+zostal pochowany.
+~
+S
+#3611
+W komorze grobowej~
+Znajdujesz sie w ciemnej komorze grobowej cuchnacej zgnilizna i sokami
+ziemi. W otaczajacej cie na podobienstwo czarnej, lepkiej waty, ciemnosci
+slyszysz wyrazny szept powtarzajacy trzy slowa: "Shoghau... ghratn...
+ftahang...". Najlepiej bedzie jesli sie stad jak najszybciej wyniesiesz
+spowrotem!
+~
+0 9 1
+D4
+~
+nagrobek~
+3 -1 3610
+S
+#3612
+Zwirowa sciezka posrod grobow~
+Stoisz na zwirowej sciezce, ktora wije sie posrod rozrzuconych w wysokiej
+trawie grobow. Sciezka prowadzi ku polnocy i ku wschodowi, zas po zachodniej
+stronie widzisz niewielka szope.
+~
+0 0 2
+D0
+Cmentarna sciezka ciagnie sie ku polnocy.
+~
+~
+0 -1 3610
+D1
+Zwirowa sciezka wiedzie na wschod.
+~
+~
+0 -1 3614
+D3
+To mala, pomalowana na czarno, rozlatujaca sie szopa z drewnianymi drzwiami.
+~
+drzwi~
+3 -1 3613
+S
+#3613
+Wewnatrz szopy~
+Wnetrze szopy wskazuje na to, ze uzywana byla do przechowywania
+wszelkiego rodzaju narzedzi ogrodniczych, lecz zlogi kurzu i wszechobecne
+pajeczyny wskazuja, iz od dluzszego czasu nikt do niej nie zagladal, co nie
+jest niczym dziwnym, zwazywszy na reputacje jaka cieszy sie Nekropolia.
+Jedyne wyjscie z szopy prowadzi przez drzwi na wschod.
+~
+0 8 1
+D1
+~
+drzwi~
+3 -1 3612
+S
+#3614
+Zwirowa sciezka posrod nekropolii~
+Znajdujesz sie na zwirowej sciezce ciagnacej sie pomiedzy nienaturalnie wysokimi
+cyprysami. Pomimo slabych jedynie podmuchow wiatru galezie kolysza sie poruszane 
+jakas osobliwa sila, przypominaja swymi ruchami konczyny strasznych, 
+nienazwanych istot. Sciezka prowadzi na poludnie i zachod, a przed toba znajduje
+sie przechylony grob ozdobiony osobliwym znakiem.
+~
+0 0 2
+D2
+Zwirowa sciezka prowadzi ku poludniowi.
+~
+~
+0 -1 3616
+D3
+Zwirowa sciezka ciagnie sie na zachod. 
+~
+~
+0 -1 3612
+D5
+~
+nagrobek~
+3 -1 3615
+E
+nagrobek~
+Nagrobek w postaci granitowej plyty ozdobiony jest rytem w ksztalcie
+trojramiennej gwiazdy i oplatajacej jej osemki, zas napis glosi, iz
+pochowany jest w tym miejscu "Altti z Shooflandu, ktory przetlumaczyl te
+kraine na jezyk polski". Spod nagobka dochodzi stlumione dudnienie.
+~
+S
+#3615
+Wewnatrz grobowej komory~
+Pomimo, iz komora jest ciasna i wyciagnawszy reke mozesz doktnac dowolnej
+ze scian pokrytych kurzem i pajeczynami, to jednak odnosisz przemozne
+wrazenie, iz ciemnosc komory jest ciemnoscia miedzygwiezdnej otchlani. Do
+tego dochodzi ow osobliwy dzwiek bebnow naplywajacy sie ze wszystkich stron,
+przeplatany szalencza melodia fletu trzymanego w szponiastych lapach...
+Najrozsadniej bedzie sie stad ewakuaowac spowrotem na ziemie...
+
+~
+0 9 1
+D4
+~
+nagrobek~
+3 -1 3614
+S
+#3616
+Zwirowa sciezka posrod cmentarza~
+Znajdujesz sie na zwirowej sciezce ciagnacej sie posrod zmurszalych
+nagrobkow i wysokich, ciemnych cyprysow. Sciezka ta prowadzi na polnoc i
+spowrotem ku poludniowi, zas przy niej znajduje sie stary nagrobek
+~
+0 0 2
+D0
+Zwirowa sciezka podaza ku polnocy.
+~
+~
+0 -1 3614
+D2
+Zwirowa sciezka wiedzie na poludnie.
+~
+~
+0 -1 3618
+D5
+~
+nagrobek~
+3 -1 3617
+E
+nagrobek~
+Stara plyta wykonana z fliszu karpackiego pokryta jest plamami zielonymi i
+brunatnymi. Po blizszych ogledzinach zielone plamy okazuja sie byc
+porostami, zas brunatne - plamami zakrzeplej krwi. Imie wyryte na plycie
+oznajmia iz spoczywa tu Arpad Bathory, ostatni z przekletej linii Bathorych
+z Siedmiogrodu... 
+~
+S
+#3617
+Wewnatrz grobu~
+Znajdujesz sie w komorze grobowej. Ciemnosc zdaje sie byc tu wrecz
+namacalna, zas groza spowijajaca to miejsce - paralizujaca. Slyszysz jakby w
+tyle twojej czaszki glos, glos brzmieniem podobny do kapiacej krwi, glos
+szepczacy, glos krzyczacy, glos nakazujacy, glos kuszacy... Zostan, zostan,
+zostan, zostan... Nie wychodz juz na gore, nie do swiatla... zostan...
+~
+0 9 1
+D4
+~
+nagrobek~
+3 -1 3616
+S
+#3618
+Zwirowa sciezka posrod zalnika~
+Wysypana drobnym zwirem sciezka wije sie posrod ciemnozielonej trawy i
+wysokich, przywodzacych na mysl ponure widma, cyprysow. Wiatr niepokokojaco
+szelesci ich galeziami, tak jakby szeptaly jakies klatwy. Sciezka prowadzi
+ku polnocy i ku wschodowi, zas przy niej zdaje sie wyrastac z ziemi stary
+nagrobek.
+~
+0 0 2
+D0
+Zwirowa sciezka wiedzie na polnoc.
+~
+~
+0 -1 3616
+D1
+Zwirowa sciezka prowadzi w kierunku wschodnim, gdzie widac osobliwa budowle.
+~
+~
+0 -1 3604
+D5
+~
+nagrobek~
+3 -1 3619
+E
+nagrobek~
+Stara kamienna plyta w formie prostokata zapadla sie w ziemie w taki sposob,
+iz sprawia wrazenie z niej wlasnie wyrastajacej, wysuwajacej sie z jej
+objec. Imie pochowanej osoby dawno starl juz bezlitosny Czas.
+~
+S
+#3619
+Wewnatrz grobu~
+Zapach wilgotnej ziemi i gnijacych szczatkow jest wrecz odurzajacy. Po
+kostki zapadasz sie w ohydnej mazi czujac jak oslizle, bezimienne stworzenia
+ocieraja sie o twe nogi. Nic tu po tobie.
+~
+0 9 1
+D4
+~
+nagrobek~
+3 -1 3618
+S
+#3638
+Zwirowa sciezka na cmentarzu~
+Stoisz na drobnych kamieniach jakimi wysypana jest sciezka wiodaca na polnoc
+i zachod z tego miejsca. Cyprysy wokol ciebie zdaja sie pochylac nad twa
+glowa szepczac jakies slowa w tajemnym jezyku. Szept ich jest cichy, lecz
+zlowieszczo wyrazny, tak jakby jakas nieznana istota ich ustami przemawiala
+do ciebie. Zdajesz sie miec tyle sczescia, ze jezyka tego nie rozumiesz...
+Obok scezki znajduje sie stary nagobek.
+~
+0 0 2
+D0
+Sciezka wiedzie ku polnocy.
+~
+~
+0 -1 3640
+D3
+Sciezka prowadzi na zachod, ku dosc osobliwemu budynkowi.
+~
+~
+0 -1 3604
+D5
+~
+nagrobek~
+3 -1 3639
+E
+nagrobek~
+Czarna, kamienna plyta zdaje sie byc odlana ze stali koloru nocy. Pokryta
+niemal w calosci glifami nie do odczytania w naszych czasach intryguje swa
+trwaloscia, pomimo iz z cala pewnoscia liczy sobie kilka tysiecy lat.
+~
+S
+#3639
+Wewnatrz grobowca~
+Znajdujesz sie wewnatrz grobowca, posrod absolutnych ciemnosci, z ktorej
+dobiegaja cie czyste, choc niezwykle ciche, lecz zlowieszczo wyrazne dzwieki
+egzotycznych instrunentow. Poczatkowo zdaje sie, ze to jedynie jakas
+halucynacja sluchowa wywolana gleboka cisza, lecz dzwieki staja sie raptem
+glosniejsze. Dolacza do nich hipnotyzujacy rytm bebnow i uszy atakuje glos
+kobiecy spiewajacy dziwna piesn w obcym jezyku. Przed oczyma przesuwaja ci
+sie obrazy tancow wojennych jakichs humanoidalnych stworzen, zyjacych cale
+eony temu pod obcymi gwiazdami. Korowody wojownikow kraza wokol ogromnego
+ognia, spiew i rytm przyspieszaja wciagajac cie do wenatrz wizji. Odruchowo
+otrzasasz sie i w ostatniej chwili skladasz dlonie w znak "roolung". Zapada
+ciemnosc, lecz gdzies w tyle czaszki powraca muzyka... znow...
+~
+0 9 1
+D4
+~
+nagrobek~
+3 -1 3638
+S
+#3640
+Zwirowa sciezka posrod zalnika~
+Sciezka na podobienstwo weza wije sie pomiedzy wysokimi sylwetkami cyprysow,
+ktore sprawiaja niesamowite wrazenie chwiejac sie na wietrze w taki sposob,
+jakby chcialy cie pochwycic w swe szponiaste galezie. Sciezka wiedzie z
+polnocy ku poludniowi, a przy niej stoi samotny i stary grob.
+~
+0 0 2
+D0
+Sciezka prowadzi ku polnocy.
+~
+~
+0 -1 3642
+D2
+Zwirowa sciezka wije sie w kierunku poludniowym.
+~
+~
+0 -1 3638
+D5
+~
+nagrobek~
+3 -1 3641
+E
+nagrobek~
+Przyozdobiony dziwaczym reliefem nagrobek przenosi cie myslami do odleglych
+krain, ktorych wprawdzie nigdy nie odwiedziles, lecz jakas podskorna pamiec
+wynosi ich wspomnienia ku twej swiadomosci na podobienstwo gejzeru.
+Rozgwiezdzone niebo nad zimna pustynia, dziwne istoty, jakby utkane z mgly i
+dymu o blekitno lodowych oczach...
+~
+S
+#3641
+Wewnatrz grobu~
+Obce wspomnienia i obce uczucia znow wyplywaja na powierzchnie twej
+swiadomosci wewnatrz grobowej komory o scianach pokrytych tajemniczymi i
+odrazajacymi freskami o niezrozumialej juz tematyce. Niepokojace jest to, ze
+grob wydaje sie zbyt dobrze utrzymany, jakby umieciony z kurzu, pajeczyn tez
+nie ma ni sladu. Calosc sprawia wrazenie zbyt czystej, aseptycznej,
+chcialoby sie rzec - niepokojaco jalowej. Jakby dziwna istota zamieszkujaca
+ten przybytek nie pozwalala zagniezdzic sie w tym miejscu nawet
+najpospolitszym insektom... Jedyne wyjscie, ku ktoremu sie teraz sklaniasz,
+wiedzie ku gorze.
+~
+0 9 1
+D4
+~
+nagrobek~
+3 -1 3640
+S
+#3642
+Zwirowa sciezka posrod cmentarza~
+Znajdujesz sie zwirowej sciezce ktora wije sie pomiedzy wysokimi cyprysami i
+starymi, zniszczonymi kamieniami nagrobnymi. Jeden z nich lezy obok ciebie.
+Sciezka prowadzi na wschod i na poludnie.
+~
+0 0 2
+D1
+Zwirowa sciezka prowadzi na wschod.
+~
+~
+0 -1 3644
+D2
+Zwirowa sciezka zmierza wyraznie ku poludniowi.
+~
+~
+0 -1 3640
+D5
+~
+nagrobek~
+3 -1 3643
+E
+nagrobek~
+Duza, prostokatna plyta pokryta jest zestarzalymi plamami niewiadomego
+pochodzenia, ktore zaslonily imie spoczywajacego w tym miejscu. Polozona
+jest dosc krzywo, tak ze przez istniejaca szpare mozna zesc pod ziemie...
+~
+S
+#3643
+Wewnatrz grobu~
+Znalazles sie w krotkim korytarzu oswietlonym waskim promieniem swiatla
+przesaczajacym sie ta sama droga, jak tu wszedles. Niestety korytarz
+zamkniety jest solidna kamienna plyta z wyobrazeniem jakiegos ochydnego
+stwora niejasnego pochodzenia i przynaleznosci. Zdawac by sie moglo, iz
+relief ten wykonano pod wplywem srodkow halucynogennych, gdyz stwor jest
+pomieszaniem kilku roznych bestii i dziwnych geometrycznych plaszczyzn. Cala
+postac podpisano "Zerca Dusz". Nie pozostaje nic innego, jak tylko wrocic na
+gore.
+~
+0 9 1
+D4
+~
+nagrobek~
+3 -1 3642
+S
+#3644
+Zwirowa sciezka posrod nekropolii~
+Pomiedzy rachitycznymi kepami trawy i cyprysami sprawiajacymi wrazenie
+powyginanych dziwna choroba wije sie sciezka, na ktorej stoisz. Sciezka ta
+biegnie dalej ku zachodowi i ku polnocy, zas przy niej stoi stary nagrobek.
+~
+0 0 2
+D0
+Sciezka wije sie ku polnocy.
+~
+~
+0 -1 3646
+D3
+Sciezka wiedzie w kierunku zachodnim.
+~
+~
+0 -1 3642
+D5
+~
+nagrobek~
+3 -1 3645
+E
+nagrobek~
+Tym razem grob wydaje sie nieco osobliwy. Jest to dosc wysoki kopiec ziemi
+z podsteplowanym, niskim korytarzem wiodacym skosnie w dol. Musi byc juz
+bardzo stary, gdyz porosl krzakami i wysoka trawa...
+~
+S
+#3645
+Wewnatrz kurhanu~
+Zatem wczolgales sie do srodka, ale nic ciekawego tu ujrzec nie mogles:
+jakies zwierze, moze lepiej nie domyslac sie jakie, urzadzilo tu swe
+legowisko. Czuc przez to okropny fetor, a w dodatku zdaje sie, iz zwierz ow
+jest wewnatrz, gdyz slychac niespokjne chrobotanie i mlasniecia. Wyjscie
+jest ku gorze, ta sama droga, jaka tu wtargnales.
+~
+0 9 1
+D4
+~
+nagrobek~
+3 -1 3644
+S
+#3646
+Zwirowa sciezka na cmentarzu~
+Stoisz na zwirowej sciezce prowadzacej pomiedzy wysokimi cyprysami, wsrod
+ktorych galezi stado lelkow zawodzi niepokojaco, zdajac sie synchronizowac
+swoj krzyk z twym oddechem, to niepokojace... Sciezka prowadzi na poludnie
+i na zachod, zas przed toba znajduje sie stary nagrobek.
+~
+0 0 2
+D2
+Zwirowa sciezka ciagnie sie na poludnie.
+~
+~
+0 -1 3644
+D3
+Zwirowa sciezka wiedzie ku zachodowi.
+~
+~
+0 -1 3648
+D5
+~
+nagrobek~
+3 -1 3647
+E
+nagrobek~
+Nagrobek stanowi ciezka plyta z szarego piaskowca, polozona bezposrednio na
+ziemi. Jesli nawet byl na niej kiedys wyryty jakis napis, to destrukcyjne
+dzialanie czasu juz dawno wymazalo go razem z pamiecia o tym, ktory tu
+zostal pochowany.
+~
+S
+#3647
+Wewnatrz grobowej komory...~
+Znajdujesz sie w ciemnej komorze grobowej cuchnacej zgnilizna i sokami
+ziemi. W otaczajacej cie na podobienstwo czarnej, lepkiej waty, ciemnosci
+slyszysz wyrazny szept powtarzajacy trzy slowa: "Shoggoth... fithga...
+urukuai...". Najlepiej bedzie jesli sie stad jak najszybciej wyniesiesz
+spowrotem!
+~
+0 9 1
+D4
+~
+nagrobek~
+3 -1 3646
+S
+#3648
+Zwirowa sciezka posrod grobow~
+Posrod ciemnych, strzelistych cyprysow wije sie sciezka na ktorej stoisz.
+Niby wszystko wydaje sie na miejscu: drzewa rosna, w ich cieniu nagrobki
+zdaja sie odpoczywac przez dlugie wieki, ale wewnatrz duszy cos dzwoni
+alarmujaco i podnosi stezenie adrenaliny... Cos nie pozwala swobodnie
+odetchnac i nakazuje stad jak najszybciej odejsc. Sciezka daje dwie
+mozliwosci: polnoc i wschod. Przy sciezce stoi stary nagrobek.
+~
+0 0 2
+D0
+Sciezka prowadzi na polnoc.
+~
+~
+0 -1 3650
+D1
+Sciezka wiedzie ku wschodwi.
+~
+~
+0 -1 3646
+D5
+~
+nagrobek~
+3 -1 3649
+E
+nagrobek~
+Stara, kamienna plyta porosnieta mchem i pokryta niezrozumialymi juz dzis
+glifami stanowi kamien nagrobny postaci uwidocznionej za pomoca plytkich
+naciec wykonanych dlutem. Sadzac po stanie krawedzi calosc ma kilka tysiecy
+lat.
+~
+S
+#3649
+Wewnatrz grobu~
+Znajdujesz sie wewnatrz grobowej komory, do ktorej swiatlo dociera ta sama
+droga, ktora i ty tutaj wszedles. bezposrednio na ziemi lezy szkielet
+pochowanej tu istoty, dokladnie opleciony galeziami, tak iz zdaje sie, ze
+korzenie rozszarpaly cialo i wyssaly wszelki plynn z niego, a teraz
+przymierzaja sie do skruszenia kosci... 
+~
+0 9 1
+D4
+~
+nagrobek~
+3 -1 3648
+S
+#3650
+Zwirowa sciezka posrod cmentarza~
+Sciezka wija sie pomiedzy ciemna zielenia cyprysow i zadumanymi, jakby
+przyczajonymi sylwetkami grobow. Wiatr niepokojaco szelesci galeziami
+drzew. Siedzacy na jednym z grobow kruk stuka wen dziobem, a stukanie uklada
+sie w osobliwy, drazniacy nieco, rytm. Sciezka prowadzi na poludnie i zachod.
+Uwage przyciaga ten dziwny nagrobek...
+~
+0 0 2
+D2
+Sciezka wiedzie ku poludniowi.
+~
+~
+0 -1 3648
+D3
+Sciezka prowadzi na zachod do skrzyzowania ze zwirowa droga.
+~
+~
+0 -1 3600
+D5
+~
+nagrobek~
+3 -1 3651
+E
+nagrobek~
+Tablica na ktorej siedzi kruk nie posiada wyrytego zadnego imienia. Znajduje
+sie na niej tylko wykuty delikatnymi uderzeniami obraz twarzy mlodzienca.
+Jego oblicze, nieco melancholijne ma w sobie cos co kaze myslec o dalekich
+krajach, uczuciach straconych i ludziach oddalonych przez smierc badz
+szalenstwo. Nagle zauwazasz, ze wizerunek jest nieukonczony, a kruk przerwal
+swe stukanie i lypie na ciebie paciorkowatymi oczyma. Dreszcz przechodzi ci
+po kregoslupie, choc widziales juz niejedno. Twarz na plycie wyrzezbil kruk...
+~
+S
+#3651
+Wenatrz grobowej komory~
+W komorze grobowej kroluja niemal nieprzeniknione ciemnosci i festony
+pajeczyn zastepujacych zetlale juz materie calunow. Dzieki waskiemu paskowi
+swiatla jaki przenika tu z gory mozesz zauwazyc, iz na posadzce, warstwa kurzu
+skrywa jakies napisy. Odgarniasz kurz noga i odczytac mozesz slowa:
+"Wtem w powietrzu gestym, parnym - won kadzidel niewidzialnych;
+ Puch kobierca stopa smukla musnal seraf, co je niosl.
+ Przez anioly, znaki swiete, Bog twoj zsyla ci nephentes!..."
+Dalej podloga tonie w kurzu i mroku, zas tobie nie pozostaje nic innego jak
+powrot na gore...
+~
+0 9 1
+D4
+~
+nagrobek~
+3 -1 3650
+S
+#0
+
+
+#RESETS
+D 0 3606 5 1
+D 0 3607 4 1
+O 0 3610 13 3607
+D 0 3608 5 1
+D 0 3609 4 1
+M 0 3603 5 3609
+D 0 3610 5 1
+D 0 3611 4 1
+M 0 3603 5 3611
+O 0 3613 10 3611
+D 0 3612 3 1
+D 0 3613 1 1
+M 0 3600 1 3613
+G 1 3601 1000
+O 0 3602 1000 3613
+O 0 3603 1 3613
+O 0 3604 1000 3613
+O 0 3605 1000 3613
+D 0 3614 5 1
+D 0 3615 4 1
+O 0 3610 13 3615
+D 0 3616 5 1
+D 0 3617 4 1
+M 0 3602 1 3617
+G 1 3612 1000
+D 0 3618 5 1
+D 0 3619 4 1
+O 0 3610 13 3619
+D 0 3638 5 1
+D 0 3639 4 1
+M 0 3603 5 3639
+D 0 3640 5 1
+D 0 3641 4 1
+O 0 3610 13 3641
+D 0 3642 5 1
+D 0 3643 4 1
+O 0 3603 5 3643
+D 0 3644 5 1
+D 0 3645 4 1
+M 0 3601 1 3645
+G 1 3606 1
+G 1 3611 1000
+D 0 3646 5 1
+D 0 3647 4 1
+O 0 3610 13 3647
+D 0 3648 5 1
+D 0 3649 4 1
+M 0 3603 5 3649
+D 0 3650 5 1
+D 0 3651 4 1
+M 0 3604 4 3606
+M 0 3604 4 3604
+M 0 3604 4 3612
+M 0 3604 4 3640
+M 0 3605 3 3651
+G 1 3606 1
+M 0 3605 3 3644
+G 1 3606 1
+M 0 3605 3 3638
+G 1 3606 1
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  3601 spec_cast_undead
+M  3602 spec_cast_undead
+M  3603 spec_cast_undead
+M  3604 spec_cast_undead
+M  3605 spec_cast_undead
+S
+
+
+#$

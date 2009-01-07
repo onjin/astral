@@ -1,0 +1,2373 @@
+#AREA   Stary Las~
+
+
+
+#VERSION 3
+#AUTHOR Bercik~
+
+#RANGES
+15 25 5 65
+$
+
+#RESETMSG Z oddali slychac wycie wilkow.~
+
+#FLAGS
+0 15
+
+#ECONOMY 0 1199995
+
+#CLIMATE 4 4 1
+
+#MOBILES
+#500
+straznik lesny~
+lesny straznik~
+lesnego straznika~
+lesnemu straznikowi~
+lesnego straznika~
+lesnym straznikiem~
+lesnym strazniku~
+lesny strazniku~
+Straznik tego lasu pilnuje porzadku.
+~
+To bardzo tajemnicza postac. Troche podniszczone, zielone ubranie. Niby
+nic specjalnego, ale jednak czujesz ogromny respekt przed tym Rangerem.
+Jakis wewnetrzny glos podpowiada ci, ze lepiej z nim nie zaczynac.
+~
+1048579 71303336 750 C
+55 2 -1000 10d100+10000 10d50+400
+50000 500000
+112 112 1
+25 16 18 20 20 17 18
+0 0 0 0 0
+1 0 0 0 3 3 8
+750 680 335 1048833 2048 0 2359344 2636067
+> greet_prog 100~
+smile $n
+if level($n) < 15
+say Uwazaj $n, w tych lasach znajdziesz jedynie smierc.
+else
+if level($n) > 30
+say  $n, ta kraina przeznaczona jest dla slabszych graczy.
+say Mozesz wejsc, ale nie licz na dobra zabawe.
+else
+say Musisz bardzo uwazac $n, te lasy sa naprawde niebezpieczne.
+endif
+endif
+~
+> speech_prog przepusc mnie prosze~
+say Idziesz tam na wlasna odpowiedzialnosc.
+mpecho Gluchy grzmot przetacza sie po lesie, gdy straznik wymawia slowa zakleci
+.
+mptransfer $n 501
+~
+|
+#501
+drozd stary ptak~
+stary drozd~
+starego drozda~
+staremu drozdowi~
+staregi drozda~
+starym drozdem~
+starym drozdzie~
+stary drozdzie~
+Stary drozd przysiadl sobie na galezi
+~
+Sedziwy ptak przysiadl na galezi pobliskiego drzewa. Jest tak stary, ze
+posiwialy mu nawet piora.
+~
+1 524288 450 C
+18 4 -5 16d16+200 3d5+10
+0 40000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+87 0 0 0 1 1 1
+0 0 554205185 0 0 0 0 4098
+#502
+wierzba stara drzewo~
+stara wierzba~
+starej wierzby~
+starej wierzbie~
+stara wierzbe~
+stara wierzba~
+starej wierzbie~
+stara wierzbo~
+Stara wredna wierzba czycha na twoje zycie.
+~
+Chociaz pien pozostal zdrowy, serce tego starego drzewa dawno juz 
+sprochnialo. Teraz jedyna rozrywka starej wierzby jest pozbawianie
+zycia takich nowicjuszy jak ty.
+~
+32801 552 -850 C
+26 0 -140 12d12+400 5d5+15
+0 115000
+112 112 2
+23 17 14 15 19 10 12
+0 0 0 0 0
+89 0 0 0 1 1 3
+25 21 524288 534 0 0 1107296256 4200512
+#503
+wilk mlody~
+mlody wilk~
+mlodego wilka~
+mlodemu wilkowi~
+mlodego wilka~
+mlodmy wilkiem~
+mlodym wilku~
+mlody wilku~
+Mlody wilk poluje tutaj na nieostroznych wedrowcow.
+~
+To jeszcze dosyc mlody wilczek, ale juz nie szczeniak. Moze pozadnie dac
+sie we znaki nieostroznym wedrowcom.
+~
+129 32800 -350 C
+20 2 -5 12d12+450 2d2+12
+0 55000
+112 112 1
+13 13 13 13 131 13 13
+0 0 0 0 0
+30 0 0 0 1 1 2
+0 0 262157 0 0 0 1 2
+> rand_prog 10~
+woof~
+|
+#504
+wilk stary~
+stary wilk~
+starego wilka~
+staremu wilkowi~
+starego wilka~
+starym wilkiem~
+starym wilku~
+stary wilku~
+Stary wilk odpoczwa tutaj po ostatnim polowaniu.
+~
+Stary wilk od lat juz poluje w tych lasach. Jest to doswiadczony misliwy
+i znakomity wojownik. Gdy widzisz te potezne, ociekajace  slina kly w jego
+pysku i dlugie ostre pazury jego lap, masz naprawde wielka ochote powoli sie
+stad wycofac.
+~
+1 32800 -500 C
+24 0 -10 15d15+500 4d4+15
+5000 90000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+30 0 0 0 1 1 2
+0 0 262189 0 0 0 65 4098
+> rand_prog 10~
+woof~
+> rand_prog 5~
+woof $n~
+|
+#505
+goblin~
+podstepny goblin~
+podstepnego goblina~
+podstepnemu goblinowi~
+podstepnego goblina~
+podstepnym goblinem~
+podstepnym goblinie~
+podstepny goblinie~
+Podstepny goblin szuka tutaj latwego lupu.
+~
+Ten goblin zawedrowal to tych lasow z pobliskich gor, najwidoczniej w
+poszukiwaniu latwego lupu (tak, tak o tobie mowa). Wyglada na niezle
+odrzywionego, musi mu sie nienajgorzej tutaj powodzic.
+~
+5 32768 -800 C
+17 5 -4 14d14+180 1d5+8
+5000 30000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 0 0 0 16384 16384 2
+0 0 15 0 0 0 64 4099
+#506
+pies~
+pies~
+psa~
+psu~
+psa~
+psem~
+psie~
+psie~
+Wspanialy syberyjski husky lezy tu merdajac ogonem.
+~
+To naprawde przepiekny okaz zdrowego, rasowego psa. Tez masz ochote sprawic
+sobie takiego.
+~
+34819 168&1 0 C
+55 -20 -300 100d100+10000 1d1+1000
+1 1
+112 112 1
+18 18 18 18 18 18 18
+0 0 0 0 0
+30 0 0 0 65537 65537 4
+0 0 13 0 0 0 18878464 5383
+> look_prog 100~
+mpechoaround $n Pies zaczyna groznie warczec w twoim kierunku.~
+> rand_prog 10~
+woof~
+|
+#507
+bogini jennifer~
+przepiekna bogini~
+przepieknej bogini~
+przepieknej bogini~
+przepiekna boginie~
+przepiekna boginia~
+przepieknej bogini~
+przepiekna boginio~
+Przepiekna bogini tego lasu usmiecha sie do ciebie.
+~
+Nie mozesz wzroku oderwac od tej postaci. Jest tak strasznie piekna...
+Jakim cudem Bercik poderwal taka laske?
+~
+2049 71303336&1 1000 C
+58 -20 -500 100d100+20000 100d100+1000
+1 1
+112 112 2
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> speech_prog p zaparz nam herbaty~
+usmiechnij bercik
+say Jak sobie zyczysz.~
+> entry_prog 100~
+if level($n) < 51
+say Bercik, znowu przyprowadziles gosci?
+else
+say Witaj $n, bogowie tego muda zawsze sa tu mile widziani.~
+> speech_prog p nazywam sie~
+say Bardzo mi milo $W, nazywam sie Jennifer.~
+|
+#508
+rosomak~
+waleczny rosomak~
+walecznego rosomaka~
+walecznemu rosomakowi~
+walecznego rosomaka~
+walecznym rosomakiem~
+walecznym rosomaku~
+waleczny rosomaku~
+Waleczny rosomak szczerzy kly w twoim kierunku.
+~
+To niewielkie zwierzatko, jest niezwykle niebezpieczne. Bez cienia leku
+rzuci sie na wiekszego od siebie przeciwnika. A musisz wiedziec, ze walka
+z nim moze byc bardzo niebezpieczna.
+~
+131169 8232 0 C
+22 -4 -35 16d16+550 5d5+18
+0 75000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+87 0 0 0 512 512 2
+0 0 45 0 0 0 1073742848 3
+> fight_prog 100~
+mpechoaround $n Rosomak rzuca sie wsciekle na $n.~
+|
+#509
+oprawca~
+oprawca~
+oprawcy~
+oprawcy~
+oprawce~
+oprawca~
+oprawcy~
+oprawco~
+Oprawca szuka swojej nastepnej ofiary.
+~
+Ta bestia jest tak potworna, ze az trudno na nia patrzec. Wielkie, wlochate
+cos, z dlugimi konczynami. Dlugie pazury i nieludzko paskudna twarz, oto
+przeciwnik, z ktorym musisz sie zmierzyc.
+~
+32769 8232 -1000 C
+25 -5 -10 5d5+400 5d5+15
+10000 1000000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+37 0 0 0 1 1 3
+0 0 39 0 0 0 66 2097155
+> fight_prog 40~
+mpechoat $n Smiejac sie potwornie oprawca rzuca sie na ciebie.
+mpechoaround $n $n cofa sie na widok szarzujacej bestii.~
+|
+#510
+nietoperz czarny~
+czarny nietoperz~
+czarnego nietoperza~
+czarnemu nietoperzowi~
+czarnego nietoperza~
+czarnym nietoperzem~
+czarnym nietoperzu~
+czarny nietoperzu~
+Czarny nietoperz szuka swej nastepnej ofiary.
+~
+Ta mala poczwara potrafi latac bezszelestnie. Nie bedziesz nawet wiedziec
+kiedy cie zaatakuje. 
+~
+33 524296 -600 C
+16 1 0 5d8+120 2d8+8
+6000 23000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 0 0 0 1 1 0
+0 0 557089 0 0 0 2048 2
+#511
+duch marcus~
+duch Marcusa~
+ducha Marcusa~
+duchowi Marcusa~
+ducha Marcusa~
+duchem Marcusa~
+duchu Marcusa~
+duchu Marcusa~
+Duch Marcusa unosi sie w powietrzu.
+~
+Zly nekromanta Marcus, powrocil tu po swej smierci aby dalej nekac ludzkosc.
+Lepiej z nim uwazaj, moze okazac sie niebezpiecznym przeciwnikiem.
+~
+1 40 -1000 C
+28 -3 -5 12d12+500 5d5+17
+5000 130000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 1 1 0
+0 0 0 0 0 0 2359296 2
+#512
+szkielet~
+szkielet~
+szkieleta~
+szkieletowi~
+szkielet~
+szkieletem~
+szkielecie~
+szkielecie~
+Ludzki szkielet czai sie w mroku.
+~
+Zbrazowiale ze starosci kosci opatulone w strzepy, ktore kiedys zapewne byly
+ubraniem. Ten szkielet wyglada na calkowice bezrozumna istote, co wcale nie
+znaczy, ze nie jest niebezpieczny...
+~
+1 0 -550 C
+16 8 4 8d8+320 2d2+8
+5 30000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 1 1 0
+0 0 0 0 0 0 0 1
+#599
+nowy mob~
+swiezo stworzony nowy mob~
+swiezo stworzony nowy mob~
+swiezo stworzony nowy mob~
+swiezo stworzony nowy mob~
+swiezo stworzony nowy mob~
+swiezo stworzony nowy mob~
+swiezo stworzony nowy mob~
+Jakis bog porzucil tu swierzo stworzonego nowego moba.
+~
+~
+1073741825 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#500
+miecz czarny msciciel~
+czarny msciciel~
+czarny msciciel~
+czarny msciciel~
+czarny msciciel~
+czarny msciciel~
+czarny msciciel~
+czarny msciciel~
+Dlugi miecz o czarnym ostrzu, starozytny orez elfow.~
+~
+5 -2122137344 8192
+0 0 0 205
+1 0 0
+A
+17 -100
+A
+19 35
+A
+40 50
+A
+18 75
+A
+13 250
+A
+8 5
+#501
+miecz bercika~
+miecz Bercika~
+miecz Bercika~
+miecz Bercika~
+miecz Bercika~
+miecz Bercika~
+miecz Bercika~
+miecz Bercika~
+Starozytny orez stworzony przez Bercika.~
+slash~
+5 -2054504184 40961
+12 50 50 3
+5 1000000 1
+E
+miecz bercika~
+Tylko Bercik mogl stworzyc tak przerazajaca bron.
+~
+A
+17 -500
+A
+5 2
+A
+2 3
+A
+1 2
+A
+4 2
+A
+3 2
+A
+13 10000
+A
+18 350
+A
+19 300
+A
+12 1000
+#502
+bluza ciemnozielona~
+ciemnozielona bluza~
+ciemnozielona bluza~
+ciemnozielona bluza~
+ciemnozielona bluza~
+ciemnozielona bluza~
+ciemnozielona bluza~
+ciemnozielona bluza~
+Ciemnozielona bluza
+~
+~
+9 -2122137536 9
+-10 -10 0 0
+1 1 1
+A
+24 -100
+#503
+spodnie ciemnozielone~
+ciemnozielone spodnie~
+ciemnozielone spodnie~
+ciemnozielone spodnie~
+ciemnozielone spodnie~
+ciemnozielone spodnie~
+ciemnozielone spodnie~
+ciemnozielone spodnie~
+Magiczne ubranie Bercika, coz wiecej mozna powiedziec?~
+~
+9 -2122137536 33
+-50 -50 0 0
+1 1 1
+A
+23 -100
+#504
+czapeczka ciemnozielona~
+ciemnozielona czapeczka z piorkiem~
+ciemnozielona czapeczka z piorkiem~
+ciemnozielona czapeczka z piorkiem~
+ciemnozielona czapeczka z piorkiem~
+ciemnozielona czapeczka z piorkiem~
+ciemnozielona czapeczka z piorkiem~
+ciemnozielona czapeczka z piorkiem~
+Magiczne ubranie Bercika, coz wiecej mozna powiedziec?~
+~
+9 -2122136512 17
+-50 -50 0 0
+1 1 1
+#505
+buty ciemnozielone~
+ciemnozielone buty z cholewami~
+ciemnozielone buty z cholewami~
+ciemnozielone buty z cholewami~
+ciemnozielone buty z cholewami~
+ciemnozielone buty z cholewami~
+ciemnozielone buty z cholewami~
+ciemnozielone buty z cholewami~
+Magiczne ubranie Bercika, coz wiecej mozna powiedziec?~
+~
+9 -2122136512 65
+-50 -50 0 0
+1 0 0
+#506
+cialo~
+cialo~
+cialo~
+cialo~
+cialo~
+cialo~
+cialo~
+cialo~
+Jest to ludzkie cialo w stanie mocnego rozkladu.~
+~
+15 0 0
+20 0 0 0
+2000 0 0
+E
+cialo~
+Zauwazasz, ze delikwent mial przy sobie cos ciekawego w chwili smierci.
+~
+#507
+monety sakiewka~
+monety~
+monety~
+monety~
+monety~
+monety~
+monety~
+monety~
+Lezy tu kupka zlotych monet.~
+~
+20 0 0
+50000 0 0 0
+1 0 0
+#508
+jagody~
+jagody~
+jagody~
+jagody~
+jagody~
+jagody~
+jagody~
+jagody~
+Rosna sobie tutaj jagody. Sa dojrzale, soczyste i wygladaja bardzo smacznie.~
+~
+19 0 16385
+30 0 0 0
+1 5 1
+#509
+grzyb czerwony~
+czerwony grzyb~
+czerwony grzyb~
+czerwony grzyb~
+czerwony grzyb~
+czerwony grzyb~
+czerwony grzyb~
+czerwony grzyb~
+Rosnie sobie tutaj tajemniczy czerwony grzyb.~
+~
+26 0 1
+15 -1 122 125 5 0
+1 0 0
+'cause light' 'poison' 'protection'
+#510
+galazka uschnieta~
+uschnieta galazka~
+uschnieta galazka~
+uschnieta galazka~
+uschnieta galazka~
+uschnieta galazka~
+uschnieta galazka~
+uschnieta galazka~
+Ktos rzucil tutaj uschnieta galazke.~
+~
+4 8519745 16385
+10 2 2 -1
+5 2500 500
+'sanctuary'
+#511
+klucz zloty~
+zloty klucz~
+zloty klucz~
+zloty klucz~
+zloty klucz~
+zloty klucz~
+zloty klucz~
+zloty klucz~
+Ktos upuscil na ziemie zloty klucz.~
+~
+18 0 0
+0 0 0 0
+5 0 0
+E
+klucz zloty~
+Przepiekna robota. Maly, delikatny kluczyk wykonany ze szczerego zlota,
+inkrustowany drogimi kamieniami. Ciekawe do czego moze sluzyc?
+~
+#512
+szabla zakrzywiona~
+zakrzywiona szabla~
+zakrzywiona szabla~
+zakrzywiona szabla~
+zakrzywiona szabla~
+zakrzywiona szabla~
+zakrzywiona szabla~
+zakrzywiona szabla~
+Jest tutaj szabla wbita w ziemie.~
+ciecie~
+5 0 8193
+10 10 2 3
+15 1000 100
+E
+szabla zakrzywiona~
+Standardowa bron goblinow. Nic specjalnego.
+~
+A
+2 1
+#513
+miecz oprawcy katowski~
+miecz oprawcy~
+miecz oprawcy~
+miecz oprawcy~
+miecz oprawcy~
+miecz oprawcy~
+miecz oprawcy~
+miecz oprawcy~
+Potezny miecz katowski lezy na ziemii.~
+~
+5 25297488 8193
+11 8 5 3
+35 15000 1500
+E
+miecz oprawcy katowski~
+Ta potezna bron zostala stworzona z mysla o egzekucjach. Jednym cieciem
+mozna obciac glowe wolu, a co dopiero czlowiekowi.
+~
+A
+1 2
+A
+2 -1
+A
+18 5
+A
+19 5
+> use_prog 100~
+mpecho Gdy $n bierze miecz do reki, od razu ma wielka ochote sciac czyjac glowe.~
+|
+#514
+piorko~
+piorko~
+piorko~
+piorko~
+piorko~
+piorko~
+piorko~
+piorko~
+Male kolorowe piorko lezy sobie tutaj.~
+~
+9 8388672 65537
+-5 -5 0 0
+1 5000 500
+E
+piorko~
+Piorko z ogona drozda, z gatunku tych magicznych, to naprawde cenna zdobycz.
+~
+A
+12 40
+A
+31 2
+A
+13 5
+#515
+kurtka skorzana~
+skorzana kurtka~
+skorzana kurtka~
+skorzana kurtka~
+skorzana kurtka~
+skorzana kurtka~
+skorzana kurtka~
+skorzana kurtka~
+Widzisz tu wspaniala skorzana kurtke.~
+~
+9 0 9 8
+-5 -10 0 0
+10 2500 250
+E
+kurtka skorzana~
+To naprawde bardzo dobra kurtka. Z brazowej cielecej skory. Bedziesz sie
+w niej dobrz prezentowac.
+~
+A
+13 25
+#516
+zloto kupka zlota~
+kupka zlota~
+kupka zlota~
+kupka zlota~
+kupka zlota~
+kupka zlota~
+kupka zlota~
+kupka zlota~
+Lezy tu mala kupka zlota.~
+~
+20 0 1
+100000 0 0 0
+1 0 0
+#517
+trucizna smiertelna~
+smiertelna trucizna~
+smiertelna trucizna~
+smiertelna trucizna~
+smiertelna trucizna~
+smiertelna trucizna~
+smiertelna trucizna~
+smiertelna trucizna~
+W malej buteleczce lezy tutaj smiertelna trucizna.~
+~
+10 1 16385
+20 -1 23 131
+5 5000 500
+'poison' 'cause critical' 'remove curse'
+#518
+mikstura dziwna~
+dziwna mikstura~
+dziwna mikstura~
+dziwna mikstura~
+dziwna mikstura~
+dziwna mikstura~
+dziwna mikstura~
+dziwna mikstura~
+W malej buteleczce jest jakas dziwna mikstura.~
+~
+10 64 16385
+20 -1 125 139
+1 0 0
+'bless' 'protection' 'sanctuary'
+E
+mikstura dziwna~
+Zly nekromanta MArcus pracowal nad nia wiele lat. Ciekawe co sie stanie jak 
+ja wypijesz?
+~
+#519
+plaszcz nekromanty~
+plaszcz nekromanty~
+plaszcz nekromanty~
+plaszcz nekromanty~
+plaszcz nekromanty~
+plaszcz nekromanty~
+plaszcz nekromanty~
+plaszcz nekromanty~
+Lezy tutaj plaszcz uzywany przez nekromantow.~
+~
+9 576 5
+-10 -10 0 0
+1 0 0
+A
+3 2
+A
+4 1
+#599
+przedmiot nowy~
+swierzo stworzony nowy przedmiot~
+swierzo stworzony nowy przedmiot~
+swierzo stworzony nowy przedmiot~
+swierzo stworzony nowy przedmiot~
+swierzo stworzony nowy przedmiot~
+swierzo stworzony nowy przedmiot~
+swierzo stworzony nowy przedmiot~
+Jakis bog porzucil tu swierzo stworzony nowy przedmiot.~
+~
+0 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#500
+Droga prowadzaca w las~
+Szeroki gosciniec prowadzi, przeciety rwaca rzeka, prosto w gesta, ponura
+puszcze. Powietrze tutaj wdaje ci sie jakies geste tak, ze trudno ci oddychac.
+Z glebi lasu slychac tajemnicze odglosy... Na jednym z drzew przybita strzala
+wisi tajemnicza KARTKA. Na wschodzie droga zaglebia sie w las. Przeprawy przez
+rzeke strzeze tajemnicza postac.
+~
+0 3153924 3
+D3
+~
+~
+0 -1 333
+E
+kartka~
+Strzez sie przybyszu, bowiem kraine te stworzyl Bercik. Jest ona przeznaczona
+dla graczy od 15 do 25 poziomu.
+Jesli masz odwage wejsc do Starego lasu, powiedz: "Przepusc mnie prosze".
+~
+S
+#501
+Lesny gosciniec~
+Po obydwu stronach rosna kolczaste krzaki, zaslaniajace widok. Sa tak geste 
+i bujne, ze gosciniec staje sie coraz wezszy. Po pewnym czasie zostaje z niego 
+tylko mala, waska, lesna drozka. Mozesz ruszyc w kierunku wschodnim, albo
+zachodnim. Stoi tutaj wielka TABLICA.
+~
+0 0 3
+D1
+Widzisz lesny gosciniec.
+~
+~
+0 0 502
+D2
+W tamtym kierunku lezy twoja ostatnia szansa.
+~
+~
+0 0 541
+E
+tablica~
+Do drewnianej tablicy wisi pergamin przybity srebrzystym sztyletem do drewna.
+"Jesli strach cie oblecial wedrowcze, daje ci ostatnia szanse. Na poludniu
+ znajduje sie teleport, ktory przeniesie cie do Darkhaven. Idz tam i wymow
+ slowa: 'Chce wrocic!', a byc moze dozyjesz jeszcze do dnia jutrzejszego".
+                                                           Bercik
+~
+S
+#502
+Lesny gosciniec~
+Coraz trudniej przedzierac ci sie przez te wszystkie krzaki i zarosla.
+Lesny gosciniec! Dobre sobie, nie widac tutaj nic poza waska sciezka
+prowadzaca glebiej w las. Sciezka prowadzi stad na wschod, polnoc i zachod.
+~
+0 0 3
+D0
+Widzisz waska sciezke.
+~
+~
+0 0 503
+D1
+Widzisz, ze las staje sie coraz gestszy.
+~
+~
+0 0 504
+D3
+Widzisz droge posrod drzew.
+~
+~
+0 0 501
+S
+#503
+Waska sciezka~
+Teraz wedrujesz ledwo widoczna scie zyna. Last wokol jest gesty, ciemny
+i ponury. Co rusz dochodza do ciebie rozne tajemnicze, czesto wrecz
+przerazajace odglosy. Co rusz cos warczy za toba, ale kiedy sie odwracasz,
+nie widac nic procz gestwiny lesnej. Coraz mniej zaczyna ci sie tutaj podobac.
+Sciezka biegnie na wschod i poludnie.
+~
+0 0 3
+D1
+Widzisz gesty las.
+~
+~
+0 0 506
+D2
+Widzisz lesny gosciniec.
+~
+~
+0 0 502
+S
+#504
+Gestwina lesna~
+To dopiero gestwina! Masz ogromne klopoty z przedzieraniem sie przez wybujale
+krzaki i chaszcze. Drzewa rosna tu tak gesto, ze promienie sloneczne nie
+potrafia przebic sie przez zwarta formacje lisci. Dlatego wlasnie tu na dole
+panuje wieczny polmrok.
+~
+0 0 3
+D2
+Widzisz bardzo gesty las.
+~
+~
+0 0 505
+D3
+Widzisz lesny gosciniec.
+~
+~
+0 0 502
+S
+#505
+Gestwina lesna~
+To dopiero gestwina! Masz ogromne klopoty z przedzieraniem sie przez wybujale
+krzaki i chaszcze. Drzewa rosna tu tak gesto, ze promienie sloneczne nie
+potrafia przebic sie przez zwarta formacje lisci. Dlatego wlasnie tu na dole
+panuje wieczny polmrok.
+~
+0 0 3
+D0
+Widzisz bardzo gesty las.
+~
+~
+0 0 504
+D1
+Widzisz brzeg lesnego jeziorka.
+~
+~
+0 0 519
+S
+#506
+Gestwina lesna~
+To dopiero gestwina! Masz ogromne klopoty z przedzieraniem sie przez wybujale
+krzaki i chaszcze. Drzewa rosna tu tak gesto, ze promienie sloneczne nie
+potrafia przebic sie przez zwarta formacje lisci. Dlatego wlasnie tu na dole
+panuje wieczny polmrok.
+~
+0 0 3
+D1
+Widzisz bardzo stary las.
+~
+~
+0 0 507
+D3
+Widzisz waska sciezke.
+~
+~
+0 0 503
+S
+#507
+Ponury las~
+Chociaz nie jest tutaj juz tak mroczno jak w innych czesciach lasu, jest
+jakos niesamowicie i ponuro. Olbrzymie drzewa porastaja mych i porosty,
+prawie calkowicie je oblepiajac. Z galezi zwieszaja sie jakies dziwne
+pasozytnicze rosliny. Powietrze wokolo przesycone jest zapachem ziemii
+i odorem rozkladu. Nieprzyjemne miejsce.
+~
+0 0 3
+D0
+Widzisz lesna sciezke.
+~
+~
+0 0 508
+D1
+Widzisz geste krzaki i chaszcze.
+~
+~
+0 0 524
+D3
+Widzisz lesna gestwine.
+~
+~
+0 0 506
+S
+#508
+Lesna sciezka~
+To bardzo dziwne. Ktos zadal sobie bardzo wiele trudu, aby sciezka na ktorej
+wlasnie stoisz, powstala w samym sercu tego lasu. Jest ona dosyc szeroka
+i widac, ze czesto uzywana. Nie byloby w tym nic dziwnego, gdyby nie fakt,
+ze nie widzisz na niej sladow zwierzat, tylko ludzkie! Kto moglby mieszkac
+na takim odludziu?
+~
+0 0 3
+D1
+Widzisz lesna sciezke.
+~
+~
+0 0 509
+D2
+Widzisz bardzo stary, ponury las.
+~
+~
+0 0 507
+S
+#509
+Lesna sciezka~
+To bardzo dziwne. Ktos zadal sobie bardzo wiele trudu, aby sciezka na ktorej
+wlasnie stoisz, powstala w samym sercu tego lasu. Jest ona dosyc szeroka
+i widac, ze czesto uzywana. Nie byloby w tym nic dziwnego, gdyby nie fakt,
+ze nie widzisz na niej sladow zwierzat, tylko ludzkie! Kto moglby mieszkac
+na takim odludziu?
+~
+0 0 3
+D1
+Widzisz lesna sciezke.
+~
+~
+0 0 510
+D2
+Widzisz geste krzaki i chaszcze.
+~
+~
+0 0 524
+D3
+Widzisz lesna sciezke.
+~
+~
+0 0 508
+S
+#510
+Lesna sciezka~
+To bardzo dziwne. Ktos zadal sobie bardzo wiele trudu, aby sciezka na ktorej
+wlasnie stoisz, powstala w samym sercu tego lasu. Jest ona dosyc szeroka
+i widac, ze czesto uzywana. Nie byloby w tym nic dziwnego, gdyby nie fakt,
+ze nie widzisz na niej sladow zwierzat, tylko ludzkie! Kto moglby mieszkac
+na takim odludziu?
+~
+0 0 3
+D1
+Widzisz lesna sciezke.
+~
+~
+0 0 511
+D3
+Widzisz lesna sciezke.
+~
+~
+0 0 509
+S
+#511
+Lesna sciezka~
+To bardzo dziwne. Ktos zadal sobie bardzo wiele trudu, aby sciezka na ktorej
+wlasnie stoisz, powstala w samym sercu tego lasu. Jest ona dosyc szeroka
+i widac, ze czesto uzywana. Nie byloby w tym nic dziwnego, gdyby nie fakt,
+ze nie widzisz na niej sladow zwierzat, tylko ludzkie! Kto moglby mieszkac
+na takim odludziu?
+~
+0 0 3
+D1
+Widzisz lesna sciezke.
+~
+~
+0 0 512
+D3
+Widzisz lesna sciezke.
+~
+~
+0 0 510
+S
+#512
+Lesna sciezka~
+To bardzo dziwne. Ktos zadal sobie bardzo wiele trudu, aby sciezka na ktorej
+wlasnie stoisz, powstala w samym sercu tego lasu. Jest ona dosyc szeroka
+i widac, ze czesto uzywana. Nie byloby w tym nic dziwnego, gdyby nie fakt,
+ze nie widzisz na niej sladow zwierzat, tylko ludzkie! Kto moglby mieszkac
+na takim odludziu? Drzewa powoli rzedna. Na wschodzie zauwazasz polane.
+~
+0 0 3
+D1
+Widzisz lesna polane.
+~
+~
+0 0 514
+D3
+Widzisz lesna sciezke.
+~
+~
+0 0 511
+S
+#513
+Lesna polana~
+W porownaniu mrokiem panujacym w lesie, po wyjsciu na polane musisz mruzyc
+oczy, tak jasno jest tutaj. Polana jest dosyc duza, porosnieta gesta, bujna
+trawa i niskimi krzewami. Powietrze jest tutaj swieze i rzeskie. Wieje lekki
+wietrzyk. Daleko, daleko na poludniu dostrzegasz ruiny jakiejs budowli.
+~
+0 0 3
+D1
+Widzisz lesna polane.
+~
+~
+0 0 516
+D2
+Widzisz lesna polane. Daleko, daleko na poludniu widac ruiny.
+~
+~
+0 0 514
+S
+#514
+Lesna polana~
+W porownaniu mrokiem panujacym w lesie, po wyjsciu na polane musisz mruzyc
+oczy, tak jasno jest tutaj. Polana jest dosyc duza, porosnieta gesta, bujna
+trawa i niskimi krzewami. Powietrze jest tutaj swieze i rzeskie. Wieje lekki
+wietrzyk. Daleko na poludniu dostrzegasz ruiny jakiejs budowli.
+~
+0 0 3
+D0
+Widzisz lesna polane.
+~
+~
+0 0 513
+D1
+Widzisz lesna polane.
+~
+~
+0 0 517
+D2
+Widzisz lesna polane. Daleko na poludniu widac ruiny.
+~
+~
+0 0 515
+D3
+Widzisz lesna sciezke.
+~
+~
+0 0 512
+S
+#515
+Lesna polana~
+W porownaniu mrokiem panujacym w lesie, po wyjsciu na polane musisz mruzyc
+oczy, tak jasno jest tutaj. Polana jest dosyc duza, porosnieta gesta, bujna
+trawa i niskimi krzewami. Powietrze jest tutaj swieze i rzeskie. Wieje lekki
+wietrzyk. Przed toba na poludniu wznosza sie ruiny jakiejs starozytnej budowli.
+~
+0 0 3
+D0
+Widzisz lesna polane.
+~
+~
+0 0 514
+D2
+Widzisz lesna polane. Na poludniu widac jakies ruiny.
+~
+~
+0 0 518
+S
+#516
+Lesna polana~
+W porownaniu mrokiem panujacym w lesie, po wyjsciu na polane musisz mruzyc
+oczy, tak jasno jest tutaj. Polana jest dosyc duza, porosnieta gesta, bujna
+trawa i niskimi krzewami. Powietrze jest tutaj swieze i rzeskie. Wieje lekki
+wietrzyk. Daleko, daleko na poludniu dostrzegasz ruiny jakiejs budowli.
+~
+0 0 3
+D2
+Widzisz lesna polane. Daleko, daleko na poludniu widac ruiny.
+~
+~
+0 0 517
+D3
+Widzisz lesna polane.
+~
+~
+0 0 513
+S
+#517
+Lesna polana~
+W porownaniu mrokiem panujacym w lesie, po wyjsciu na polane musisz mruzyc
+oczy, tak jasno jest tutaj. Polana jest dosyc duza, porosnieta gesta, bujna
+trawa i niskimi krzewami. Powietrze jest tutaj swieze i rzeskie. Wieje lekki
+wietrzyk. Daleko na poludniu dostrzegasz ruiny jakiejs budowli.
+~
+0 0 3
+D0
+Widzisz lesna polane.
+~
+~
+0 0 516
+D1
+Z tamtego kierunku dochodza tajemnicze dzwieki.
+~
+~
+0 0 539
+D3
+Widzisz lesna polane.
+~
+~
+0 0 514
+S
+#518
+U podnoza ruin~
+Przed toba na poludniu wznosza sie majestatyczne ruiny jakiejs starozytnej
+wiezy. W tym miejscu trawa nie jest juz tak bujna i soczysta, a wszedzie
+wokolo pietrza sie rumowiska skalne i glazy. Jest tu jakos dziwnie cicho.
+Ciemny otwor, ktorym mozna dostac sie do wiezy, neci cie i kusi. Nie mozesz
+oprzec sie pokusie zbadania tych ruin.
+~
+0 0 3
+D0
+Widzisz lesna polane.
+~
+~
+0 0 515
+D2
+Widzisz wejscie to zrujnowanej wiezy.
+~
+~
+0 0 535
+S
+#519
+Podmokly teren~
+Ziemia zaczyna niebezpiecznie uginac sie pod twoimi nogami. Cala okolice
+porastaja wysokie trzciny. Znajdujesz sie nad brzegiem malego lesnego jeziorka.
+Nie daj sie zwiesc pozorom, pomimo ze jeziorko jest male, wyglada na bardzo
+glebokie i niebezpieczne. Woda w jeziorze ma dziwny ciemny odcien. Kto wie
+co moze czaic sie w glebinach?
+~
+0 0 3
+D1
+Widzisz lesne jeziorko.
+~
+~
+0 0 520
+D3
+Widzisz bardzo gesty las.
+~
+~
+0 0 505
+S
+#520
+Jeziorko~
+Jezioro jest niezwykle spokojne. Pomomo, ze wiatr porusza porastajace jego
+brzegi trzciny, woda jest gladka i nie pofalowana. To troche dziwne. Dziwny
+jest takze kolor tej wody. Woda jest ciemna i metna, tak ze niewiele mozna
+przez nia zobaczyc. Gdy wyobrazisz sobie co moze czaic sie  w glebinach,
+ciarki przechodza ci po plecach.
+~
+0 4 7
+D0
+Widzisz brzeg lesnego jeziorka.
+~
+~
+0 0 521
+D1
+Widzisz brzeg lesnego jeziorka.
+~
+~
+0 0 523
+D3
+Widzisz brzeg lesnego jeziorka.
+~
+~
+0 0 519
+> rand_prog 5~
+mpechoat $n Z wody wynurza sie macka i chwyta cie za noge.
+mpechoaround $n Po rozpaczliwej walce $n uwalnia sie od parzacego uscisku macki.
+mpdamage $n 25~
+|
+S
+#521
+Podmokly teren~
+Ziemia zaczyna niebezpiecznie uginac sie pod twoimi nogami. Cala okolice
+porastaja wysokie trzciny. Znajdujesz sie nad brzegiem malego lesnego jeziorka.
+Nie daj sie zwiesc pozorom, pomimo ze jeziorko jest male, wyglada na bardzo
+glebokie i niebezpieczne. Woda w jeziorze ma dziwny ciemny odcien. Kto wie
+co moze czaic sie w glebinach?
+~
+0 0 3
+D0
+Widzisz geste krzaki i chaszcze.
+~
+~
+0 0 524
+D1
+Widzisz lesne jeziorko.
+~
+~
+0 0 522
+D2
+Widzisz lesne jeziorko.
+~
+~
+0 0 520
+S
+#522
+Jeziorko~
+Jezioro jest niezwykle spokojne. Pomomo, ze wiatr porusza porastajace jego
+brzegi trzciny, woda jest gladka i nie pofalowana. To troche dziwne. Dziwny
+jest takze kolor tej wody. Woda jest ciemna i metna, tak ze niewiele mozna
+przez nia zobaczyc. Gdy wyobrazisz sobie co moze czaic sie  w glebinach,
+ciarki przechodza ci po plecach.
+~
+0 4 7
+D2
+Widzisz brzeg lesnego jeziorka.
+~
+~
+0 0 523
+D3
+Widzisz brzeg lesnego jeziorka.
+~
+~
+0 0 521
+> rand_prog 5~
+mpechoat $n Z wody wynurza sie macka i chwyta cie za noge.
+mpechoaround $n Po rozpaczliwej walce $n uwalnia sie od parzacego uscisku macki.
+mpdamage $n 25~
+|
+S
+#523
+Po drugiej stronie jeziora~
+W koncu udalo ci sie dotrzec na druga strone jeziora. Ciekawe, czy bylo warto?
+Przed toba na wschodzie znajduje sie skalista sciana, w ktorej widnieje
+ciemny otwor. Wejscie do pieczary? Ciekawe, czy gospodarz jest w domu?
+~
+0 0 3
+D0
+Widzisz lesne jeziorko.
+~
+~
+0 0 522
+D1
+Widzisz wejscie do ciemnej jaskini.
+~
+~
+0 0 536
+D3
+Widzisz lesne jeziorko.
+~
+~
+0 0 520
+S
+#524
+Krzaki i chaszcze~
+Co to za miejsce? Wielkie kolczaste krzaki rosna tu tak bujnie jak nigdzie
+indziej w tym lesie. Ostre kolce czepiaja sie twojego ubrania, rozrywajac
+je i uszkadzajac. Przy okazji klujac cie bolesnie. Probujac uwolnic sie od
+tych kolcow, zaczynasz szarpac sie gwaltownie, co oczywiscie pogarsza tylko
+sytuacje.
+~
+0 0 3
+D0
+Widzisz lesna sciezke.
+~
+~
+0 0 509
+D2
+Widzisz brzeg lesnego jeziorka.
+~
+~
+0 0 521
+D3
+Widzisz stary i ponury las.
+~
+~
+0 0 507
+> rand_prog 20~
+if ispc($n)
+mpechoaround $n $n kaleczy sie probujac wydostac sie z gestwiny.
+mpdamage $n 50
+endif
+~
+|
+S
+#525
+Ponure Zamczysko~
+A wiec tak wyglada siedziba Bercika, jednego z bogow tego muda. Znajdujesz sie
+przed brama niewielkiego zameczku, ukrytego gleboko w ostepach lesnych.
+Niewielu smiertelnych znalazlo sie w tym miejscu, tylko garstka wybrancow,
+ktora przybyla tu na specjalne zaproszenie. Nawet inni bogowie, omijaja to
+pustkowie z daleka. Ale dla Bercika, ktory na swoja cielesna powloke, wybral
+niezlomnego Rangera, jest to wspaniale miejsce zapewniajace spokoj i
+wypoczynek. Na polnocy znajduje sie wejscie do zamku.
+~
+0 36971524 3
+D0
+Potezne wrota bronia dostepu do zamku.
+~
+wrota~
+8388609 0 526
+E
+zamek zamczysko~
+To bardzo starozytna budowla. Chociaz jest niewielka, wyglada bardzo ponuro
+i tajemniczo.
+~
+> rand_prog 5~
+recho Z daleka dobiega cie ponure wycie wilkow.~
+|
+S
+#526
+Sala goscinna~
+Znajdujesz sie w ogromnej sali. Chociaz widzisz tylko kilka palacych sie swiec
+i luczyw, w komnacie panuje mily dla oka lagodny blask. Posrodku  znajduje
+sie olbrzymi stol, przy stole stoja przepieknie rzezbione krzesla. Sciany
+przyozdobione sa przepieknymi obrazami, arrasami, znajduje sie tam tez
+roznego rodzaju bron i sztandary wojenne. Czujesz, ze przepelnia cie
+wszechogarniajaca radosc i blogi spokoj.
+~
+0 3417088 0
+D0
+Z tamtego kierunku dobiegaja cie smakowite zapachy.
+~
+~
+0 0 528
+D1
+Prywatne kwatery Bercika.
+~
+~
+0 0 529
+D2
+Za poteznymi wrotami znajduje sie wyjscie z zamku.
+~
+wrota~
+1 0 525
+D4
+Wysoka Wieza, podobno widok roztaczajacy sie z tego miejsca nie ma sobie
+rownych.
+~
+~
+0 0 531
+D5
+Lepiej tam nie wchodzic, nie wiadomo co sie moze czaic w ciemnosciach.
+~
+~
+0 0 527
+S
+#527
+Morczna piwnica~
+Mroczne i wilgotne miejsce. Dawniej byly tu lochy, ale Bercik przeksztalcil
+to miejsce na magazyn.
+~
+0 3679236 13
+D3
+Przeciez tam nic nie ma.
+~
+drzwi~
+8390667 0 530
+D4
+Widzisz wielka i wspaniala sale.
+~
+~
+0 0 526
+S
+#528
+Zamkowa kuchnia~
+Zamkowa kuchnia. To wlasnie tutaj przyrzadza sie wspaniale potrawy, ktore
+potem laduja na stolach bogow, podczas wspanialych uczt.
+~
+0 3417088 0
+D2
+Widzisz wielka i wspaniala sale.
+~
+~
+0 0 526
+S
+#529
+Komnata Bercika~
+Prywatna pracownia i komnata Bercika. Urzadzona bardzo skromnie, ale ze
+smakiem. Na scianach wisi kilka wspanialych obrazow. Gdy tak sie rozgladasz 
+zauwazasz nagle... o! Bercik ma pieska!
+
+~
+0 3154432 0
+D3
+Widzisz wielka i wspaniala sale.
+~
+~
+0 0 526
+S
+#530
+Tajemna komnata~
+Tylko nikomu o niej nie mow!
+~
+0 3153925 13
+D1
+Stary magazyn.
+~
+drzwi~
+3 0 527
+S
+#531
+Wysoka wieza~
+Z tego miejsca rozciaga sie przepiekny widok! Jakims cudownym sposobem
+widac stad wszystkie krainki tego muda, a gdy skorzysta sie ze stojacego
+obok teleskopu, mozna sledzic poczynania kazdego gracza. Co za niesamowite
+miejsce!
+~
+0 3482628 9
+D5
+Wielka sala.
+~
+~
+0 0 526
+S
+#532
+zarezerwowane~
+~
+0 4 0
+S
+#533
+zarezerwowane~
+~
+0 4 0
+S
+#534
+zarezerwowane~
+~
+0 4 0
+S
+#535
+Zrujnowana wieza~
+Znajdujesz sie wewnatrz wiezy. Od srodka wydaje sie byc znacznie wieksza niz
+to wygladalo z zewnatrz. Budowla ta od dawna musi byc opuszczona, ale chociaz
+wszystko pokrywa gruba warstwa kurzu, cale wyposazenie nie wyglada na
+zniszczone. Podobno, przed wiekami byla to siedziba zlego Nekromanty. Przez
+dlugi czas terroryzowal on okoliczne tereny, do czasu az jeden z bogow tego
+muda postanowil zalozyc swoja siedzibe w tym lesie. Nekromanta zostal pokonany,
+a jego siedziba opustoszala. Ale czy zupelnie?
+~
+0 3153924 0
+D0
+Z daleka widzisz zielona polane.
+~
+~
+0 0 518
+D2
+Widzisz wielka sale.
+~
+~
+0 0 543
+S
+#536
+Ciemna jaskinia~
+W jaskini jest niezwykle ciemno. Nawet twoje swiatlo z trudem radzi sobie
+z tym mrokiem. Musisz posowac sie bardzo ostroznie, zeby nie potknac sie na
+nierownym gruncie. W powietrzu unosi sie jakis dziwny zapach, nie liczac
+oczywiscie wszechobecnego zapachu smierci.
+~
+0 5 13
+D2
+Tak tu ciemno, ze nic nie widzisz.
+~
+~
+0 0 537
+D3
+Widzisz wyjscie z jaskini.
+~
+~
+0 0 523
+S
+#537
+Ciemna jaskinia~
+W jaskini jest niezwykle ciemno. Nawet twoje swiatlo z trudem radzi sobie
+z tym mrokiem. Musisz posowac sie bardzo ostroznie, zeby nie potknac sie na
+nierownym gruncie. Juz wiesz co to za zapach unosi sie w powietrzu. To
+legowisko jakiegos dzikiego zwierza, nie wykluczone, ze drapieznika. Gdy
+spogladasz na poludnie, w mroku wyraznie widac dwa rzazace sie czerwienia
+punkciki. Ktos wpatruje sie w ciebie...
+~
+0 1 13
+D0
+Tak tu ciemno, ze nic nie widzisz.
+~
+~
+0 0 536
+D2
+Tak tu ciemno, ze nic nie widzisz.
+~
+~
+0 0 538
+S
+#538
+Legowisko rosomaka~
+Znajdujesz sie w legowisku rosomaka. To male, ale niezwykle waleczne zwierze
+potrafi zarzarcie walczyc w obronie swojego terytorium, nawet z przeciwnikiem
+kilkakrotnie wiekszym. Nieraz sie zdazalo, ze rosomak wychodzil z takiego
+starcia zwyciesko. W jednym z rogow pieczary zauwazasz lezace cialo.
+~
+0 1 13
+D0
+Tak tu ciemno, ze nic nie widzisz.
+~
+~
+0 0 537
+S
+#539
+Tajemnicze dzwieki~
+To naprawde tajemnicze miejsce. Strasznie ponure i ciemne. Drzewa i krzewy
+rosna stloczone w jedna wielka gestwine. Ale pomiedzy nimi biegnie dobrze
+utrzymana sciezka. Od poludnia dochodza do ciebie jakies tajemnicze dzwieki,
+jakby muzyka. Melodia jest taka smutna i piekna jednoczesnie, ze nie mozesz
+powstrzymac sie przed pojsciem w tamtym kierunku.
+~
+0 4 3
+D2
+Z tamtego kierunku dobiega przepiekna muzyka.
+~
+~
+0 0 540
+D3
+Widzisz lesna polanke.
+~
+~
+0 0 517
+S
+#540
+Niebezpieczny zakatek~
+W tym miejscu rosnie Stara Wierzba. To najzlosliwsze drzewo w calek okolicy.
+Roztacza siec swoich czarow po calym tym lesie i zwabia nieszczesnych
+podroznikow (takich jak ty) do swojej siedziby. Wierzba straszliwie nienawidzi
+wszystkie istoty, potrafiace sie poruszac o wlasnych silach. Wielka przyjemnosc
+przynosi jej zabijanie tych wszystkich, ktorzy tu trafia.
+~
+0 3154048 3
+D0
+Sciezka wsrod drzew.
+~
+~
+0 0 539
+S
+#541
+Twoja ostatnia szansa~
+Znajdujesz sie na niewielkiej polance. Posrodku polanki stoi krag, utworzony
+w wielkich kamieni. Menhiry sa tak wielkie, ze zastanawiasz sie jaka sila
+sprowadzila je do tego miejsca i ustawila je w krag!
+~
+0 0 0
+D0
+Widzisz lesny gosciniec.
+~
+~
+0 0 501
+> speech_prog Chce wrocic!~
+mpecho Nagle rozbrzmiewa glosny smiech dochodzacy ze wszystkich stron.
+mptransfer $n 21000~
+|
+S
+#542
+Zaniedbana kuchnia~
+Znajdujesz sie w kuchni. To tutaj przygotowywano wspaniale i wyszukane potrawy,
+ktore nastepnie podowano w komnacie obok. Teraz to miejsce jest niezwykle
+zaniedbane. Napodlodze pelno zeschlych lisci, ktore musialy dostac sie tu przez
+wybite okna. Widac, ze od wiekow nikt tu nie przebywal.
+~
+0 3153920 0
+D1
+Widzisz wielka sale.
+~
+~
+0 0 543
+S
+#543
+Wielka sala~
+Znajdujesz sie w ogromnej sali. Na srodku stoi olbrzymi debowy stol, a przy
+nim stoja rzedy krzesel. Na scianach wisza czyjes portrety i obrazy
+przedstawiajace jakies mityczne zwierzeta. Wszystko pokryte gruba warstwa
+kurzu. Dawniej musialy sie tu odbywac huczne zabawy. Chociaz kto mogl przybyc
+na huczna zabawe do nekromanty? Wszedzie wokol panuje grobowa cisza.
+~
+0 3153924 0
+D0
+Widzisz wyjscie z wiezy.
+~
+~
+0 0 535
+D1
+Widzisz waskie schody prowadzace do lochow.
+~
+~
+0 0 544
+D2
+Widzisz spiralne schody pnace sie w gore.
+~
+~
+0 0 545
+D3
+Widzisz zaniedbana kuchnie.
+~
+~
+0 0 542
+S
+#544
+Zejscie do lochow~
+W tym miejscu nie byloby nic ciekawego, gdyby nie waskie schody prowadzace
+w dol, do lochow. Podobno wladca tej wiezy mial obszerne lochy, slynne
+w calej tej krainie. I bynajmniej nie trzymal w nich wina.
+~
+0 3153920 0
+D3
+Widzisz wielka sale.
+~
+~
+0 0 543
+D5
+Zejscie do lochow.
+~
+~
+0 0 555
+S
+#545
+Wejscie na wyzszy poziom wiezy~
+W tej komnacie znajduja sie waskie, spiralne schody prowadzace na wyzszy
+poziom wiezy. Znajdowaly sie tam prywatne komnaty nekromanty, w ktorych
+przeprowadzal swoje szatanskie eksperymenty.
+~
+0 3153920 0
+D0
+Widzisz wielka sale.
+~
+~
+0 0 543
+D4
+Schody prowadza na wyzszy poziom wiezy.
+~
+~
+0 0 550
+S
+#546
+Prywatna komnata Marcusa~
+W tej komnacie mieszkal zly nekromanta Marcus. Troche to dziwne, bo nie widac
+tu zadnych specjalnych luksusow. Skromne loze z baldachiem, niewielki
+sekretarzyk, fotel... Ten nekromanta musial byc chyba asceta, mogl sobie
+przeciez pozwolic na wszelkie luksusy. Waskie schody prowadza do labolatorium
+Marcusa.
+~
+0 3153920 0
+D2
+Widzisz duza komnate.
+~
+drzwi~
+8388647 511 548
+D4
+Schody wioda do labolatorium.
+~
+~
+0 0 551
+E
+loze~
+Nic specjalnego, loze jak loze.
+~
+E
+sekretarzyk~
+Przeszukujesz uwaznie sekretarzyk, ale niestety oprocz kilku niezrozumialych
+pergaminow nie znajdujesz nic wiecej.
+~
+E
+fotel~
+Zaczynasz mnie denerwowac, nie ma tu zadnych pieniedzy!
+~
+S
+#547
+Magzayn~
+W tej niewielkiej komnacie urzadzono magazyn. Pod gruba warstwa kurzu lezy
+pelno roznych rupieci. Przegladasz je w nadzieji, ze znajdziesz cos przydatnego
+w dalszych wedrowkach. Niestety nic takiego tu nie znajdujesz.
+~
+0 3153920 0
+D1
+Widzisz duza komnate.
+~
+~
+0 0 548
+S
+#548
+Glowna komnata~
+Znajdujesz sie w glownej komnacie tego poziomu wiezy. Umeblowanie jest dosyc
+bogate, po jego charakterze mozna sie zorientowac, ze komnata ta sluzyla za
+salon. Z tego miejsca mozna udac sie w czterech roznych kierunkach. Drzwi na
+polnocnej scianie, wioda do prywatnych kwater Marcusa i do jedo labolatorium.
+~
+0 3153920 0
+D0
+Za tymi drzwiami znajduje sie prywatna komnata Marcusa.
+~
+drzwi~
+8388647 511 546
+D1
+Widzisz komnate sluzby.
+~
+~
+0 0 549
+D2
+Widzisz spiralne schody prowadzace w dol.
+~
+~
+0 0 550
+D3
+Widzisz jakis magazyn.
+~
+~
+0 0 547
+S
+#549
+Pokoj sluzby~
+W tym pomieszczeniu przebywala sluzba Marcusa. Pod jedna ze scian stoi kilka
+prostych, drewnainych lozek. Pod inna  sciana stolik i dwa krzesla. Jedna
+mala szafa dopelnia calego umeblowania. Nie mozna powiedziec, zeby mieszkajacy
+tu dawniej sluzacy oplywali w luksusy.
+~
+0 3153920 0
+D3
+Widzisz duza komnate.
+~
+~
+0 0 548
+S
+#550
+Zejscie na nizszy poziom wiezy~
+Gdyby nie krecone schody prowadzace na nizszy poziom wiezy, w komnacie tej
+nie byloby nic ciekawego.
+~
+0 3153920 0
+D0
+Widzisz duza komnate.
+~
+~
+0 0 548
+D5
+Tymi schodami mozna zejsc na nizszy poziom wiezy.
+~
+~
+0 0 545
+S
+#551
+Labolatorium Marcusa~
+A wiec to jest slynne labolatorium Marcusa? Wyglada dosyc niewinnie. Kilka
+stolow labolatoryjnych, jakies szklane naczynia, retory, probowki. Na
+polkach pod scianami stoja paczuszki, pudelka i sloje z roznymi dziwnymi
+i tajemniczymi ingrediencjami.
+~
+0 3153920 0
+D2
+Widzisz dalsza czesc labolatorium.
+~
+~
+0 0 552
+D5
+Widzisz prywatna komnate Marcusa.
+~
+~
+0 0 546
+E
+ingrediencje~
+Przygladasz sie im ciekawie. Ziola, suszone owoce, jakies jaszczurki, luski
+smocze, ludzka krew, jad weza,... Ludzka krew ?!?! Z odraza odsuwasz sie od
+tych skladnikow.
+~
+E
+paczuszki~
+Przygladasz sie im ciekawie. Ziola, suszone owoce, jakies jaszczurki, luski
+smocze, ludzka krew, jad weza,... Ludzka krew ?!?! Z odraza odsuwasz sie od
+tych skladnikow.
+~
+E
+pudelka~
+Przygladasz sie im ciekawie. Ziola, suszone owoce, jakies jaszczurki, luski
+smocze, ludzka krew, jad weza,... Ludzka krew ?!?! Z odraza odsuwasz sie od
+tych skladnikow.
+~
+E
+sloje~
+Przygladasz sie im ciekawie. Ziola, suszone owoce, jakies jaszczurki, luski
+smocze, ludzka krew, jad weza,... Ludzka krew ?!?! Z odraza odsuwasz sie od
+tych skladnikow.
+~
+S
+#552
+Labolatorium Marcusa~
+A wiec to jest slynne labolatorium Marcusa? Wyglada dosyc niewinnie. Kilka
+stolow labolatoryjnych, jakies szklane naczynia, retory, probowki. Na
+polkach pod scianami stoja paczuszki, pudelka i sloje z roznymi dziwnymi
+i tajemniczymi ingrediencjami.
+~
+0 3153920 0
+D0
+Widzisz dalsza czesc labolatorium.
+~
+~
+0 0 551
+D2
+Widzisz zniszczona czesc labolatorium.
+~
+drzwi~
+8388643 0 553
+E
+ingrediencje~
+Przygladasz sie im ciekawie. Ziola, suszone owoce, jakies jaszczurki, luski
+smocze, ludzka krew, jad weza,... Ludzka krew ?!?! Z odraza odsuwasz sie od
+tych skladnikow.
+~
+E
+paczuszki~
+Przygladasz sie im ciekawie. Ziola, suszone owoce, jakies jaszczurki, luski
+smocze, ludzka krew, jad weza,... Ludzka krew ?!?! Z odraza odsuwasz sie od
+tych skladnikow.
+~
+E
+pudelka~
+Przygladasz sie im ciekawie. Ziola, suszone owoce, jakies jaszczurki, luski
+smocze, ludzka krew, jad weza,... Ludzka krew ?!?! Z odraza odsuwasz sie od
+tych skladnikow.
+~
+E
+sloje~
+Przygladasz sie im ciekawie. Ziola, suszone owoce, jakies jaszczurki, luski
+smocze, ludzka krew, jad weza,... Ludzka krew ?!?! Z odraza odsuwasz sie od
+tych skladnikow.
+~
+S
+#553
+Zniszczona czesc labolatorium~
+Ta czesc labolatorium zostala zniszczona jakas potezna eksplozja. Meble
+sa polamane lub spalone, na scianach widac slady ognia. Ciekawe co sie tutaj
+wydarzylo? Jakies waskie schody prowadza w gore.
+~
+0 3153920 0
+D0
+Widzisz labolatorium Marcusa.
+~
+drzwi~
+8388643 0 552
+D4
+Schody wioda na szczyt wiezy.
+~
+~
+0 0 554
+S
+#554
+Taras widokowy~
+Znajdujesz sie na samym szczycie wiezy. Rozciaga sie stad wspanialy widok.
+Owiewa cie swierze, rzeskie powietrze. Rozgladasz sie ciekawie wokolo. Widac
+nawet Darkhaven! A co to? W tym lesie jest jeszcze jedna wysoka wierza!
+Bije od niej oslepiajacy blask. Ciekawe co to za budowla???
+~
+0 3153920 9
+D5
+Widzisz zniszczona czesc labolatorium.
+
+~
+~
+0 0 553
+S
+#555
+Wejscie do lochow~
+Znajdujesz sie przed wejsciem do lochow zlego nekromanty Marcusa. Dawniej
+w tym miejscu zginelo mnostwo istot (nie tylko) ludzkich. Znajac specyficzne
+poczucie humoru nekromanty, czesc z nich wciaz moze tutaj zyc ... po smierci.
+Lepiej wiec uwazaj.
+~
+0 3153925 13
+D2
+Widzisz ciemny korytarz.
+~
+~
+0 0 556
+D4
+Widzisz waskie schody, ktorymi mozna wyjsc z tych lochow.
+~
+~
+0 0 544
+> entry_prog 100~
+mpechoat $n Nad twoja glowa rozlega sie donosny glos.
+mpechoat $n "Glupcze, twoj los zostal przesadzony".~
+|
+S
+#556
+Ciemny korytarz~
+Znajdujesz sie w waskim, ciemnym korytarzu. Jest tu wilgotno, powietrze
+pachnie zgnilizna i masz wielka ochote wrocic juz do domu. Ale legendy
+opowiadane przez okolicznych mieszkancow, mowiace o nieprzebranych skarbach
+ukrytych gdzies w tych podziemiach moga skusic karzdego. Moze na prawde sa
+tu jakies skarby?
+~
+0 3153921 13
+D0
+Widzisz wyjscie z tych okropnych lochow.
+~
+~
+0 0 555
+D2
+Widzisz ciemny korytarz.
+~
+~
+0 0 558
+D3
+Strozowka.
+~
+drzwi~
+3 0 557
+> rand_prog 5~
+mpechoat $n Z oddali dobiega cie przerazliwy smiech...~
+|
+S
+#557
+Strozowka~
+Niegdys w tej komnacie siedzieli straznicy odpowiedzialni za przebywajacych
+w tych lochach wiezniow. Na podlodze zauwazasz gnijace resztki niewielkiego
+stolu i kilku krzesel. Leza tu tez zardzewiale miecze, niestety nie nadajace
+sie juz do uzytku.
+~
+0 3153921 13
+D1
+Ciemny korytaz.
+~
+drzwi~
+3 0 556
+S
+#558
+Ciemny korytarz~
+Znajdujesz sie w waskim, ciemnym korytarzu. Z sufitu kapie ci za kolniez
+woda, przynajmniej masz nadzieje, ze to tylko woda. Po obydwu stronach
+korytarza znajduja sie ciezkie debowe drzwi. Za tymi drzwiami znajduja sie
+cele, w ktorych trzymano skazancow. Korytarz biegnie dalej na polnoc i na
+poludnie.
+~
+0 3153921 13
+D0
+Widzisz ciemny korytarz.
+~
+~
+0 0 556
+D1
+Za debowymi drzwiami znajduje sie cela wiezienna.
+~
+drzwi~
+3 0 560
+D2
+Widzisz ciemny korytarz.
+~
+~
+0 0 561
+D3
+Za debowymi drzwiami znajduje sie cela wiezienna.
+~
+drzwi~
+3 0 559
+> rand_prog 5~
+mpechoat $n Zauwazasz ogromnego szczura, ktory uwaznie ci sie przypatruje.
+mpechoaround $n $n zaczyna pocic sie ze strachu, gdy zauwaza czerwone oczy szczura wpatrzone w siebie.
+mpechoat $n Po chwili szczur ucieka.~
+|
+S
+#559
+Cela wiezienna~
+Cela jest bardzo mala i niezwykle niewygodna. Ze scian zwisaja jakies
+rdzewiejaca lancuchy. Na podlodze gnije kupka starej slomy. Zadnych
+specjalnych wygod. Wsrod resztek slomy lezacej na podlodze dostrzegasz
+kosci jakiegos nieszczesnika.
+~
+0 3153921 13
+D1
+Widzisz ciemny korytarz.
+~
+drzwi~
+3 0 558
+E
+kosci~
+Jest to kompletny szkielet. Sadzac po wygladzie, zgadujesz iz jest to szkielet
+ludzki.
+~
+S
+#560
+Cela wiezienna~
+Cela jest bardzo mala i niezwykle niewygodna. Ze scian zwisaja jakies
+rdzewiejaca lancuchy. Na podlodze gnije kupka starej slomy. Zadnych
+specjalnych wygod. Wsrod resztek slomy lezacej na podlodze dostrzegasz
+kosci jakiegos nieszczesnika. Nagle zauwazasz, ze kosci sie poruszyly!
+Serce podchodzi ci do gardla. Po chwili slyszysz cichy pisk. Uff, to tylko
+myszy.
+
+~
+0 3153921 13
+D3
+Widzisz ciemny korytarz.
+~
+drzwi~
+3 0 558
+E
+kosci~
+Ten szkielet jest niekompletny. Brakuje conajmniej polowy kosci. Na pozostalych
+kosciach mozesz zauwazyc slady ostrych zebow. Ktos mial tutaj mala uczte.
+~
+S
+#561
+Ciemny korytarz~
+Znajdujesz sie w waskim, ciemnym korytarzu. Z sufitu kapie ci za kolniez
+woda, przynajmniej masz nadzieje, ze to tylko woda. W tym miejscu korytarz
+skreca na wschod. Mozesz takze wrocic z powrotem na polnoc.
+~
+0 3153921 13
+D0
+Widzisz ciemny korytarz.
+~
+~
+0 0 558
+D1
+Widzisz ciemny korytarz.
+~
+~
+0 0 562
+S
+#562
+Ciemny korytarz~
+Znajdujesz sie w waskim, ciemnym korytarzu. Z sufitu nareszcie przestalo
+kapac. Jest tutaj dosyc sucho. Powietrze jest bardziej duszne niz w
+poczatkowych czesciach podziemi. Korytrz znowu skreca. Z tego miejsca mozesz
+udac sie w kierunku zachodnim i poludniowym.
+~
+0 3153921 13
+D2
+Widzisz ciemny korytarz.
+~
+~
+0 0 563
+D3
+Widzisz ciemny korytarz.
+~
+~
+0 0 561
+> rand_prog 5~
+mpechoat $n Z oddali slyszysz czyjes ciche kroki.~
+|
+S
+#563
+Koniec ciemnego korytarza~
+Korytarz konczy sie w tym miejscu. Robi sie tutaj coraz cieplej. Powietrze
+jest ciezkie i duszne, masz niewielkie klopoty z oddychaniem w tych warunkach.
+Na zachodzie widzisz wielkie, debowe drzwi.
+~
+0 3153921 13
+D0
+Widzisz ciemny korytarz.
+~
+~
+0 0 562
+D3
+Za debowymi drzwiami znajduje sie sala tortur.
+~
+drzwi~
+3 0 564
+> rand_prog 5~
+mpechoat $n Z daleka dobiega cie mrozacy krew w zylach wrzask.~
+|
+S
+#564
+Sala tortur~
+Nigdy nie gasnace magiczne plomienie oswietlaja te ogromna sale. Wlasnie
+z powodu tych plomieni panuje tu dosyc wysoka temperatura i jest strasznie
+duszno. Na scianach wisza kajdany i lancuchy. Wszedzie wokolo poustawiane
+sa rozne urzadzenia, zaprojektowane specjalnie do zadawania jak najwiekszego
+bolu, zachowujac jednoczesnie torturowanego w jak najlepszej kondycji.
+~
+0 3153920 13
+D1
+Widzisz ciemny korytarz.
+~
+drzwi~
+3 0 563
+D3
+Widzisz jakas ciemna komnate.
+~
+~
+0 0 565
+E
+lancuchy kajdany~
+Widzisz kilka skieletow, ubranych w strzepy jakichs szmat, ciagle przykute
+do scian. Biedacy, zanim zgineli, musieli znosic straszliwe meki.
+~
+E
+urzadzenia~
+Ten kto projektowal te urzadzenia musial byc prawdziwym geniuszem. Szkoda,
+ze nie wykorzystal swego talentu w innych dziedzinach.
+~
+E
+plomienie magiczne~
+Niektore narzedzia tortur wymagaly ognia, zeby mogly byc rozgrzewane do
+odpowiedniej temperatury. Stad wlasnie te magiczne ognie.
+~
+> entry_prog 100~
+mpechoat $n Gdy wchodzisz do komnaty otaczaja cie ciche jeki bolu i rozpaczy.~
+|
+S
+#565
+Koniec lochow~
+To juz koniec lochow? A gdzie te nieprzebrane skarby, o kotrych mowia
+legedy? Moze nie szukales zbyt uwaznie?
+~
+0 3153921 13
+D0
+~
+drzwi~
+10487819 0 566
+D1
+Widzisz sale tortur.
+~
+~
+0 0 564
+D5
+~
+zapadnia~
+2099209 0 567
+S
+#566
+Tajemna komnata~
+~
+0 3153921 13
+D2
+Jakas ciemna komnata.
+~
+drzwi~
+10487819 0 565
+S
+#567
+Nizszy poziom lochow~
+Znajdujesz sie na nizszym poziomie lochow. Te pomieszczenia wykute w skale
+musialy sie tu znajdowac na dlugo przed wybudowaniem wiezy. Masz tylko
+cicha nadzieje, ze nie spotkach budowniczych tych tunelow.
+~
+0 3153925 13
+D3
+Widzisz bardzo ciemny korytarz.
+~
+~
+0 0 568
+D4
+Wyjscie na wyzszy poziom lochow.
+~
+zapadnia~
+2059 0 565
+S
+#568
+Nizszy poziom lochow~
+Znajdujesz sie na nizszym poziomie lochow. Te pomieszczenia wykute w skale
+musialy sie tu znajdowac na dlugo przed wybudowaniem wiezy. Masz tylko
+cicha nadzieje, ze nie spotkach budowniczych tych tunelow.
+~
+0 3153925 13
+D1
+Widzisz bardzo ciemny korytarz.
+~
+~
+0 0 567
+D3
+Widzisz bardzo ciemny korytarz.
+~
+~
+0 0 569
+S
+#569
+Nizszy poziom lochow~
+Znajdujesz sie na nizszym poziomie lochow. Te pomieszczenia wykute w skale
+musialy sie tu znajdowac na dlugo przed wybudowaniem wiezy. Masz tylko
+cicha nadzieje, ze nie spotkach budowniczych tych tunelow.
+~
+0 3153925 8
+D1
+Widzisz bardzo ciemny korytarz.
+~
+~
+0 0 568
+D2
+Wlasnym oczom nie wierzysz, skarbiec!
+~
+~
+0 0 570
+S
+#570
+Skarbiec~
+Ha! Nareszcie udalo ci sie dotrzec do skarbca. Ale co to? Chyba ktos tutaj
+byl juz przed toba. Skarbiec wyglada na spladrowany. Po dluzszych
+poszukiwaniach udaje ci sie jednak znalesc troche zlota.
+~
+0 3153925 13
+D0
+Widzisz bardzo ciemny korytarz.
+~
+~
+0 0 569
+S
+#599
+swierzo stworzona nowa lokacja~
+Jakis bog porzucil tu swierzo stworzona nowa lokacje.
+~
+0 1073741828 0
+S
+#0
+
+
+#RESETS
+M 0 500 1 500
+E 0 500 0 16
+M 0 501 1 503
+M 0 503 1 504
+M 0 503 1 506
+M 0 504 1 507
+O 0 508 0 509
+M 0 504 1 511
+M 0 505 1 514
+E 0 512 0 16
+O 0 508 0 515
+M 0 505 1 516
+E 0 512 0 16
+O 0 509 0 517
+M 0 503 1 519
+M 0 501 1 523
+G 0 514 0
+M 0 507 1 526
+D 0 527 3 1
+M 0 506 1 529
+O 0 501 0 530
+O 0 502 0 530
+O 0 503 0 530
+O 0 504 0 530
+O 0 505 0 530
+D 0 530 1 1
+O 0 506 0 538
+P 0 507 0 506
+M 0 508 1 538
+T 64 2 1 538
+M 0 502 1 540
+E 0 510 0 17
+M 0 511 1 546
+E 0 519 0 3
+G 0 507 0
+O 0 517 0 547
+M 0 512 1 547
+E 0 512 0 16
+O 0 518 0 552
+M 0 512 1 556
+E 0 512 0 16
+D 0 556 3 1
+T 64 4 1 557
+O 0 507 0 557
+D 0 557 1 1
+M 0 510 1 558
+D 0 558 3 1
+D 0 558 1 1
+D 0 559 1 1
+M 0 510 1 560
+D 0 560 3 1
+M 0 512 1 561
+E 0 512 0 16
+D 0 563 3 1
+M 0 510 1 564
+O 0 506 0 564
+P 0 515 0 506
+M 0 512 1 564
+E 0 512 0 16
+D 0 564 1 1
+D 0 565 0 1
+M 0 509 1 566
+G 0 511 0
+E 0 513 0 16
+D 0 566 2 1
+D 0 567 4 1
+M 0 510 1 568
+M 0 512 1 569
+E 0 512 0 16
+O 0 516 0 570
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  500 spec_cast_adept
+M  501 spec_cast_mage
+M  502 spec_cast_mage
+M  505 spec_thief
+M  506 spec_guard
+M  507 spec_cast_adept
+M  508 spec_guard
+M  509 spec_guard
+M  511 spec_cast_undead
+M  512 spec_cast_undead
+S
+
+
+#$

@@ -1,0 +1,133 @@
+#define CREATE(result, type, number)				\
+do								\
+{								\
+    if (!((result) = (type *) calloc ((number), sizeof(type))))	\
+    {								\
+	perror("malloc failure");				\
+	fprintf(stderr, "Malloc failure @ %s:%d\n", __FILE__, __LINE__ ); \
+	abort();						\
+    }								\
+} while(0)
+
+#define RECREATE(result,type,number)				\
+do								\
+{								\
+    if (!((result) = (type *) realloc ((result), sizeof(type) * (number))))\
+    {								\
+	perror("realloc failure");				\
+	fprintf(stderr, "Realloc failure @ %s:%d\n", __FILE__, __LINE__ ); \
+	abort();						\
+    }								\
+} while(0)
+
+
+#define DISPOSE(point) 						\
+do								\
+{								\
+  if (!(point))							\
+  {								\
+	bug( "Freeing null pointer %s:%d", __FILE__, __LINE__ ); \
+	fprintf( stderr, "DISPOSEing NULL in %s, line %d\n", __FILE__, __LINE__ ); \
+  }								\
+  else free(point);						\
+  point = NULL;							\
+} while(0)
+
+#define LINK(link, first, last, next, prev)			\
+do								\
+{								\
+    if ( !(first) )						\
+      (first)			= (link);			\
+    else							\
+      (last)->next		= (link);			\
+    (link)->next		= NULL;				\
+    (link)->prev		= (last);			\
+    (last)			= (link);			\
+} while(0)
+
+#define INSERT(link, insert, first, next, prev)			\
+do								\
+{								\
+    (link)->prev		= (insert)->prev;		\
+    if ( !(insert)->prev )					\
+      (first)			= (link);			\
+    else							\
+      (insert)->prev->next	= (link);			\
+    (insert)->prev		= (link);			\
+    (link)->next		= (insert);			\
+} while(0)
+
+#define UNLINK(link, first, last, next, prev)			\
+do								\
+{								\
+    if ( !(link)->prev )					\
+      (first)			= (link)->next;			\
+    else							\
+      (link)->prev->next	= (link)->next;			\
+    if ( !(link)->next )					\
+      (last)			= (link)->prev;			\
+    else							\
+      (link)->next->prev	= (link)->prev;			\
+} while(0)
+
+
+#define CHECK_LINKS(first, last, next, prev, type)		\
+do {								\
+  type *ptr, *pptr = NULL;					\
+  if ( !(first) && !(last) )					\
+    break;							\
+  if ( !(first) )						\
+  {								\
+    bug( "CHECK_LINKS: last with NULL first!  %s.",		\
+        __STRING(first) );					\
+    for ( ptr = (last); ptr->prev; ptr = ptr->prev );		\
+    (first) = ptr;						\
+  }								\
+  else if ( !(last) )						\
+  {								\
+    bug( "CHECK_LINKS: first with NULL last!  %s.",		\
+        __STRING(first) );					\
+    for ( ptr = (first); ptr->next; ptr = ptr->next );		\
+    (last) = ptr;						\
+  }								\
+  if ( (first) )						\
+  {								\
+    for ( ptr = (first); ptr; ptr = ptr->next )			\
+    {								\
+      if ( ptr->prev != pptr )					\
+      {								\
+        bug( "CHECK_LINKS(%s): %p:->prev != %p.  Fixing.",	\
+            __STRING(first), ptr, pptr );			\
+        ptr->prev = pptr;					\
+      }								\
+      if ( ptr->prev && ptr->prev->next != ptr )		\
+      {								\
+        bug( "CHECK_LINKS(%s): %p:->prev->next != %p.  Fixing.",\
+            __STRING(first), ptr, ptr );			\
+        ptr->prev->next = ptr;					\
+      }								\
+      pptr = ptr;						\
+    }								\
+    pptr = NULL;						\
+  }								\
+  if ( (last) )							\
+  {								\
+    for ( ptr = (last); ptr; ptr = ptr->prev )			\
+    {								\
+      if ( ptr->next != pptr )					\
+      {								\
+        bug( "CHECK_LINKS (%s): %p:->next != %p.  Fixing.",	\
+            __STRING(first), ptr, pptr );			\
+        ptr->next = pptr;					\
+      }								\
+      if ( ptr->next && ptr->next->prev != ptr )		\
+      {								\
+        bug( "CHECK_LINKS(%s): %p:->next->prev != %p.  Fixing.",\
+            __STRING(first), ptr, ptr );			\
+        ptr->next->prev = ptr;					\
+      }								\
+      pptr = ptr;						\
+    }								\
+  }								\
+} while(0)
+

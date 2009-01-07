@@ -1,0 +1,1568 @@
+#AREA   Wioska krasnoludow [pl. Helot]~
+
+
+
+#VERSION 2
+#AUTHOR Raff~
+
+#RANGES
+10 35 0 60
+$
+
+#RESETMSG ~
+
+#FLAGS
+0
+
+#ECONOMY 0 4947698
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#6500
+krasnoludzki straznik~
+krasnoludzki straznik~
+krasnoludzkiego straznika~
+krasnoludzkiemu straznikowi~
+krasnoludzkiego straznika~
+krasnoludzkim straznikiem~
+krasnoludzkim strazniku~
+krasnoludzki strazniku~
+Stoi tu krasnoludzki straznik.
+~
+Straznik wyglada na twardziela i chciwca.
+~
+2051 8 500 S
+20 0 -2 20d20+200 2d4+18
+10000 40000
+112 112 1
+#6501
+krasnoludzki pracownik kopalnia~
+pracownik kopalni~
+pracownika kopalni~
+pracownikowi kopalni~
+pracownika kopalni~
+pracownikiem kopalni~
+pracowniku kopalni~
+pracowniku kopalni~
+Stoi tu pracownik kopalni.
+~
+On jest potwornie brudny i wyglda na cholernie przepracowanego.
+Wyglada na krasnoluda~
+2113 0 900 S
+12 4 1 12d12+120 1d7+7
+3500 6000
+112 112 1
+#6502
+zjawa~
+zjawa~
+zjawy~
+zjawie~
+zjawe~
+zjawa~
+zjawie~
+zjawo~
+Zjawa oczekuje twojego ruchu.
+~
+Ciemna, prawie przezroczysta zjawa.
+~
+3 40 -900 S
+29 -5 -10 29d29+290 4d6+15
+50000 125000
+112 112 1
+#6503
+sklepikarz~
+sklepikarz~
+sklepikarza~
+sklepikarzowi~
+sklepikarza~
+sklepikarzem~
+sklepikarzu~
+sklepikarzu~
+Sklepikarz stoi tu i czeka cierpliwie.
+~
+Sklepikarz jest gruby ale wyglada na ostrego goscia.
+~
+3 40 900 C
+35 2 -100 6d10+990 2d9+20
+100000 80000
+112 112 1
+16 13 13 14 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+3 0 0 3 3072 0 112 524289
+#6504
+piekarz~
+piekarz~
+piekarza~
+piekarzowi~
+piekarza~
+piekarzem~
+piekarzu~
+piekarzu~
+Piekarz czeka tutaj na klientow.
+~
+Piekarz pokryty jest maka i ziarnami. Otrzepuje rece
+i zbliza sie do ciebie z usmiechem.
+~
+3 40 900 C
+35 2 -100 7d10+990 2d9+19
+20000 80000
+112 112 1
+16 13 13 15 13 13 13
+0 0 0 0 0
+2 3 0 0 5 4 2
+3 0 0 3 3072 0 16 1
+#6505
+jaszczur~
+wielki jaszczur~
+wielkiego jaszczura~
+wielkiemu jaszczurowi~
+wielkiego jaszczura~
+wielkim jaszczurem~
+wielkim jaszczurze~
+wielki jaszczurze~
+Wielki jaszczur stoi tutaj.
+~
+Ta pokryta luskami istota wyglada na dobrze przygotowana
+do swojego podziemnego zycia.  Wyglada na dosc potezna.
+~
+65 8 100 S
+18 7 2 10d20+500 4d4+5
+1200 25000
+112 112 1
+#6506
+wielkolud ~
+wielkolud~
+wielkoluda~
+wielkoludowi~
+wielkoluda~
+wielkoludem~
+wielkoludzie~
+wielkoludzie~
+Wielkolud stoi tu gapi sie na ciebie z gory.
+~
+Wielkolud jest wyski na jakies 2,5 metra, ma rece z zelaza
+i wyglada na bardzo silnego.
+~
+65 0 0 S
+16 5 1 4d20+300 3d7+5
+2000 24000
+112 112 1
+#6507
+krasnoludzki gornik~
+krasnoludzki gornik~
+krasnoludzkiego gornika~
+krasnoludzkiemu gornikowi~
+krasnoludzkiego gornika~
+krasnoludzkim gornikiem~
+krasnoludzkim gorniku~
+krasnoludzki gorniku~
+Krasnoludzki gornik stoi tu.
+~
+Gornik jest bardzo zmeczony, bardzo brudny i ma nabrzmiale muskuly.
+~
+2051 0 0 S
+8 14 7 8d8+100 2d9+9
+40 1000
+112 112 1
+#6508
+krasnoludzki zarzadca~
+zarzadca kopalni~
+zarzadce kopalni~
+zarzadcy kopalni~
+zarzadce kopalni~
+zarzadca kopalni~
+zarzadcy kopalni~
+zarzadco kopalni~
+Stoi tu zarzadca kopalni.
+~
+Zarzadca kopalni wyglada na bardzo duzego i zarazem silnego.
+~
+2051 0 0 S
+21 0 -8 5d3+400 3d9+3
+20000 52000
+112 112 1
+#6509
+krasnolud lekarz~
+krasnoludzki lekarz~
+krasnoludzkiego lekarza~
+krasnoludzkim lekarzem~
+krasnoludzkiego lekarza~
+krasnoludzkim lekarzem~
+krasnoludzkin lekarzu~
+krasnoludzki lekarzu~
+Jest tu krasnoludzki lekarz.
+~
+Jest on doswiadczonym chirurgiem i ma rece z zelaza.
+~
+2051 136 1000 S
+9 15 4 9d9+99 3d4+12
+1500 15000
+112 112 1
+#6510
+krasnolud parobek~
+krasnoludzki parobek~
+krasnoludzkiego parobka~
+krasnoludzkiemu parobkowi~
+krasnoludzkiego parobka~
+krasnoludzkim parobkiem~
+krasnoludzkim parobku~
+krasnoludzki parobku~
+Krasnoludzki parobek czeka tu na pomoc.
+~
+~
+2051 0 500 S
+3 16 6 5d3+33 2d4+3
+75 400
+112 112 1
+#6511
+krasnolud~
+krasnolud~
+krasnoluda~
+krasnoludowi~
+krasnoluda~
+krasnoludem~
+krasnoludzie~
+krasnoludzie~
+Stoi tu krasnolud i szczerzy zeby.
+~
+~
+2051 0 500 S
+9 10 2 9d9+99 3d4+1
+1250 6000
+112 112 1
+#6512
+krasnolud niechciany syn~
+niechciany syn~
+niechcianego syna~
+niechcianemu synowi~
+niechcianego syna~
+niechcianym synem~
+niechcianym synu~
+niechciany synu~
+Jest tu niechciany syn. Zal ci goscia.
+~
+~
+65 0 250 S
+9 12 3 3d4+125 3d5+5
+50 5000
+112 112 1
+#6513
+krasnolud niechciana corka~
+niechciana corka~
+niechcianej corki~
+niechcianej corce~
+niechciana corke~
+niechciana corka~
+niechcianej corce~
+niechciana corko~
+Jest tu niechciana corka.  Zal ci jej.
+~
+~
+65 0 250 S
+10 11 2 3d4+135 3d5+7
+50 5000
+112 112 1
+#6514
+krasnolud straznik~
+straznik barakow~
+straznika barakow~
+straznikowi barakow~
+straznika barakow~
+straznikiem barakow~
+strazniku barakow~
+strazniku barakow~
+Jest tu straznik barakow.
+~
+~
+2051 0 100 S
+16 5 1 16d16+160 3d6+8
+3000 18000
+112 112 1
+#6515
+czlowiek~
+czekajacy na cos czlowiek~
+czekajacego na cos czlowieka~
+czekajacemu na cos czlowiekowi~
+czekajacego na cos czlowieka~
+czekajacym na cos czlowiekiem~
+czekajacym na cos czlowieku~
+czekajacy na cos czlowieku~
+Czeka tu jakis czlowiek.  Wyglada na zdenerowowanego i jakby niepewnego.
+~
+~
+2051 0 300 S
+15 12 7 6d8+180 3d7+5
+6969 20000
+112 112 1
+#6516
+zarzadca labirynt~
+zarzadca labiryntu~
+zarzadcy labiryntu~
+zarzadcy labiryntu~
+zarzadce labiryntu~
+zarzadca labiryntu~
+zarzadcy labiryntu~
+zarzadco labiryntu~
+Stoi tu zarzadca labiryntu.
+~
+Wyglada na BAAARDZO silnego.
+~
+2083 128 -1000 S
+29 0 -9 25d29+290 4d8+15
+80000 200000
+112 112 1
+#6517
+waz~
+wielki waz~
+wielkiego weza~
+wielkiemu wezowi~
+wielkiego weza~
+wielkim wezem~
+wielkim wezu~
+wielki wezu~
+Jest tu wielki waz.
+~
+~
+35 0 -1000 S
+15 7 2 3d7+432 3d7+6
+3000 30000
+112 112 1
+#6519
+zaklinacz wezy~
+zaklinacz wezy~
+zaklinacza wezy~
+zaklinaczowi wezy~
+zaklinacza wezy~
+zaklinaczem wezy~
+zaklinaczu wezy~
+zaklinaczu wezy~
+Siedzi tu zaklinacz i gra na swojej trabce.
+~
+Wyglada on na dosc mocnego goscia ale jest zainteresowan
+tyko swojaj robota.
+~
+3 0 -900 S
+29 -5 -10 29d29+290 4d6+15
+15000 125000
+112 112 1
+#6520
+zalany krasnolud~
+zalany krasnolud~
+zalanego krasnoluda~
+zalanemu krasnoludowi~
+zalanego krasnoluda~
+zalanym krasnoludem~
+zalanym krasnoludzie~
+zalany krasnoludzie~
+Lezy tu krasnolud kompletnie zalany.
+~
+Ciezki widok.~
+3 0 500 S
+9 10 2 9d9+50 3d4+1
+1250 6000
+104 112 1
+#6521
+kobra~
+kobra~
+kobry~
+kobrze~
+kobre~
+kobra~
+kobrze~
+kobro~
+Wije sie tu dziwnie zachowujaca kobra.
+~
+Wyglada jakby byla pod dzialaniem muzyki zaklinacza.
+Ale zaatakowana moze sie jeszcze bronic.~
+3 262144 250 C
+9 12 3 3d4+125 3d5+5
+50 5000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 262145 0
+#0
+
+
+#OBJECTS
+#6502
+klucz ciemny zielony~
+ciemno zielony klucz~
+Lezy tu na ziemi ciemo zielony klucz (ledwo go dostrzegasz).~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#6504
+krasnoludzki mlot~
+krasnoludzki mlot~
+Lezy tu krasnoludzki mlot.~
+~
+5 0 8193
+0 3 6 8
+3 5500 550
+A
+18 2
+#6505
+krasnoludzka zbroja plytowa~
+krasnoludzka plytowa zbroja~
+Lezy tu komplet krasnoludzkiej plytowej zbroji.~
+~
+9 0 9 16
+8 0 0 0
+4 4500 450
+#6506
+dluga czarna laska~
+dluga, czarna laska~
+Lezy tu dluga, czarna laska.~
+~
+4 0 16385
+12 10 10 -1
+3 100 10
+'cure critical'
+#6507
+dluga biala laska~
+dluga, biala laska~
+Lezy tu dluga, biala laska.~
+~
+1 0 16385
+0 0 100 0
+3 0 0
+A
+20 -1
+#6508
+krasnoludzka kamienna maczuga~
+krasnoludzka kamienna maczuga~
+Lezy tu krasnoludzka maczuga zrobiona z kamienia.~
+~
+5 0 8193
+0 2 6 8
+8 3000 300
+A
+13 10
+A
+19 2
+#6509
+obureczny krasnoludzki topor~
+obureczny krasnoludzki topor~
+Lezy tu obureczny krasnoludzki topor.~
+~
+5 0 8193
+0 2 7 1
+5 5000 500
+A
+18 2
+A
+1 2
+#6510
+krasnoludzki helm~
+krasnoludzki helm~
+Ktos tu upuscil krasnoludzki helm.~
+~
+9 0 17 8
+8 0 0 0
+4 2500 250
+A
+4 2
+#6511
+zloty krasnoludzki pierscien~
+zloty krasnoludzki pierscien~
+Lezy tu ladny, zloty pierscien.~
+~
+8 64 3
+0 0 0 0
+1 15000 1500
+A
+18 1
+A
+19 1
+A
+13 5
+#6512
+krasnoludzkie rekawice~
+krasnoludzkie rekawice~
+Leza tu grube krasnoludzkie rekawice.~
+~
+9 0 129 8
+4 0 0 0
+2 4000 400
+A
+1 1
+A
+2 1
+#6513
+nota~
+nota~
+Lezy tu pogieta nota.~
+~
+12 0 1
+0 0 0 0
+1 0 0
+E
+note letter letters~
+It seems to be a juicy love letter from the Queen.  Unfortunately, it's
+not suitable for young eyes.
+~
+#6514
+klucz zamek~
+klucz na zamek~
+Lezy tu klucz na Zamek Strangelove.~
+~
+18 0 1
+0 0 0 0
+1 10 1
+#6516
+klucz kopalnia~
+klucz do kopalni~
+Lezy tu klucz do kopalni.~
+~
+18 0 1
+0 0 0 0
+1 10 1
+#6517
+sterta wegla~
+mala sterta wegla~
+Mala sterta wegla zostala tu zgromadzona.~
+~
+13 0 16385
+0 0 0 0
+100 0 0
+#6518
+krasnoludzki kilof~
+krasnoludzki kilof~
+Jakis gornik porzucil tu swoj kilof.~
+~
+5 256 8193
+0 2 3 11
+1 300 30
+A
+13 20
+A
+18 2
+A
+19 2
+#6519
+pigulki~
+pudelko pigulek antykoncepcyjnych~
+Lezy tu pudelko pugulek antykoncepcyjnych.~
+~
+26 0 1
+20 -1 -1 -1
+1 300 30
+'change sex' 'NONE' 'NONE'
+E
+birth control pills pill~
+They are in a circular container, and there are numbers corresponding
+to the day that they are to be taken.  You can tell they haven't been
+used for a while.
+~
+#6520
+trabka zaklinacza~
+trabka zaklinacza~
+Lezy tu trabka o dziwnym ksztalcie~
+~
+4 0 16385
+12 3 3 -1
+3 100 10
+'antimagic shell'
+#6521
+krasnoludzka wodka~
+butelka krasnoludzkiej wodki~
+Lezy tu butelka najlepszej krasnoludzkiej wodki.~
+~
+17 0 16385 1
+5 5 10 0
+10 10 1
+A
+25 1
+A
+64 5
+#0
+
+
+#ROOMS
+#6500
+Droga do Wioski krasnoludow~
+Idziesz sciezka w cieniu pagorka ktora prowadzi na peryferie wioski
+krasnoludow. Na poludniowy zachod wznosi sie gora i mniejsza sciezka
+prowadzi w tym kierunku. Niedaleko znajduje sie tunel prowadzacy w dol
+prosto w srodek gory. Na polnoc, niedaleko gor widac juz wioske 
+krasnoludow.
+~
+0 0 2
+D0
+Sciezka.
+~
+~
+0 -1 6501
+D5
+Dziwne echo dobiega z tunelu.
+~
+~
+0 -1 6601
+D9
+Mala sciezka prowadzi w gore na skrzyzowanie.~
+~
+0 -1 3502
+S
+#6501
+Sciezka przy gorze~
+Jestes niedaleko podstawy chropowatej gory. Gesty las uniemozliwia przescie
+w wielu kierunkach. Na polnoc sciezka zaglebia sie w  coraz ciemniejszy las
+i zaczyna sie kierowac na cienista gore.
+~
+0 0 4
+D0
+Sciezka prowadzi na szczyt.~
+~
+0 -1 6502
+D2
+Sciezka prowadzi w strone glownego miasta
+~
+~
+0 -1 6500
+S
+#6502
+Sciezka na szczyt gory~
+Stojac w polowie drogi naszczyt bez problemu dostrzegasz wzgorze
+i skrzyzowanie w oddali na polodniowy zachod. Natomiast szczyt gory
+znajduje sie juz niedaleko na polnoc.
+~
+0 0 5
+D0
+Latwo dostrzec juz szczyt.
+~
+~
+0 -1 6503
+D2
+Niedaleko znajduje sie postawa gory.
+~
+~
+0 -1 6501
+S
+#6503
+Szczyt gory~
+Stoisz na szczycie gory. Daleko na poludnie dostrzegasz strzeliste wierze
+miasta Darkhaven w tym kierunku wiedzie tez droga do podnoza gory.
+Na zachod i na wschod dostrzegasz wielkie wrota jakby wbite w skale.
+~
+0 0 4
+D1
+Wejscie w gore, ktore wydaje sie prowadzic pod ziemie.
+~
+~
+0 -1 6540
+D2
+Sciezka ta prowadzi w dol do miasta.~
+~
+0 -1 6502
+D3
+Znajduje sie tam wejscie "w skaly gory".~
+~
+0 -1 6505
+S
+#6504
+Wzdluz waskiej sciezki~
+To jest waska, przerazajaca sciezka na dalekim krancu wioski
+krasnoludow. Wyglada na mniej uczeszczana niz inne drogi.
+Prowadzi ona na polnoc lub otwiera sie na poludnie.
+~
+0 8 0
+D0
+~
+~
+0 -1 6506
+D2
+~
+~
+0 -1 6540
+S
+#6505
+Wrota w skale gory~
+Stoisz przed wielkim tunelem, ktory prowadzi do srodka gory. Wejscia
+do srodka droni wielka brama pomalowana na ciemnozielonykolor i 
+zamknieta wielkim zamkiem.  
+~
+0 0 2
+D1
+~
+~
+0 -1 6503
+D3
+~
+wrota~
+39 6502 6513
+S
+#6506
+Zakret waskiej sciezki~
+Sciezka zweza sie i zakreca na wschod. Pojawia sie coraz wiecej drzew,
+ktore zwisaja nad droga, przez co droga wyglada na zarosnieta. Sciezka
+prowadzi z poludnia na wschod.
+~
+0 8 0
+D1
+~
+~
+0 -1 6507
+D2
+~
+~
+0 -1 6504
+E
+trzy drzewa~
+Zwisaja nad droga w bardzo zlowieszczy sposob.
+~
+S
+#6507
+Zakret waskiej sciezki~
+Sciezka zweza sie i zakreca na polnoc lub spowrotem na zachod.
+Pojawia sie coraz wiecej drzew, ktore zwisaja nad droga, przez co 
+droga wyglada na zarosnieta. Sciezka prowadzi z zachodu na polnoc.
+~
+0 8 0
+D0
+~
+~
+0 -1 6508
+D3
+~
+~
+0 -1 6506
+S
+#6508
+Waskie przejscie~
+Waska sciezka wiedzie tedy z poludnia na polnoc. Na polnocny
+wschod dostrzegasz wysoki budynek.
+~
+0 8 0
+D0
+~
+~
+0 -1 6509
+D2
+~
+~
+0 -1 6507
+S
+#6509
+Wrota krolestwa~
+Waska sciezka z poludnia nagle konczy sie tutaj. Na wschod widac
+maly zamek, a na zachod znajduje sie strozowka.
+~
+0 8 0
+D1
+~
+wrota~
+39 6502 6510
+D2
+~
+~
+0 -1 6508
+D3
+~
+~
+0 -1 6522
+S
+#6510
+Droga do zamku~
+Znajdujesz sie na drodze ktora z pewnoscia wiedzie na zamek.
+Na polnoc dostrzegasz wrota z zachodniej baramie zamku.
+~
+0 8 0
+D0
+~
+~
+0 -1 6511
+D3
+~
+wrota~
+39 6502 6509
+S
+#6511
+Wciaz na drodze do zamku~
+Wciaz podozasz droga ktora wiedzie z wioski krasnoludow
+na zamek. Droga ta wiedzie z poludnia na polnoc.
+~
+0 8 0
+D0
+~
+~
+0 -1 6512
+D2
+~
+~
+0 -1 6510
+S
+#6512
+Door to Castle~
+Here there is a door to the castle to the east.  The castle
+is elegantly designed, and looks much like a roll of toilet paper
+standing on end.  A sign says:
+
+              ******************************************
+              *  WELCOME TO THE CASTLE OF STRANGELOVE  *
+              *      Here, celibacy is uninvited       *
+              ******************************************
+~
+0 8 0
+D1
+~
+wrota~
+39 6514 6525
+D2
+~
+~
+0 -1 6511
+S
+#6513
+Wewnatrz wejscia~
+Wszystko tytaj jest brudne i pokryte popiolem. Sciezka
+podaza na wschod i na polnoc, na zachod dostrzegasz
+drzwi.
+~
+0 8 0
+D0
+Mala podziemna sciezka prowadzi na polnoc.
+~
+~
+0 -1 6514
+D1
+Sciezka prowadzi na zewnatrz.
+~
+wrota~
+39 6502 6505
+D3
+Wyglada to na wejscie do jakiegos magazynu.
+~
+~
+0 -1 6526
+S
+#6514
+Sciezka~
+Znajdujesz sie na sciezce w wiosce krasnoludow, na polnoc prowadzi
+ona do sklepow, a na pododnie do naroznika tego zakatka.
+~
+0 8 0
+D0
+~
+~
+0 -1 6515
+D2
+~
+~
+0 -1 6513
+S
+#6515
+Zakret drogi~
+Znajdujesz sie na drodze, ktora prowadzi z poludnia na zachod do sklepu 
+Hide & Tooth.
+~
+0 8 0
+D2
+~
+~
+0 -1 6514
+D3
+Na zachod mozna dostrzec sklep Hide & Tooth.
+~
+~
+0 -1 6516
+S
+#6516
+Sklep Hide & Tooth~
+Znajdujesz sie w sklepie Hide & Tooth. Tutaj mozesz zakupic najlepsze
+krasnoludzkie bronie lub pancerze. [Jak domyslasz sie nazwa sklepu
+wskazuje na to iz jak cos schowasz - ukradniesz to nie tylko stracisz zeby
+ale i zycie dop. tlumacza]. Sciezka prowadzi na polnoc i na 
+wschod.
+~
+0 8 0
+D0
+~
+~
+0 -1 6517
+D1
+~
+~
+0 -1 6515
+S
+#6517
+Sciezka na polnoc od sklepu~
+Znajdujesz sie na polnoc od sklepu Hide & Tooth. Sciezka prowadzi na
+polnoc jak i na zachod do Piekarni w jamie z granitu.
+~
+0 8 0
+D0
+~
+~
+0 -1 6518
+D2
+~
+~
+0 -1 6516
+D3
+~
+~
+0 -1 6535
+S
+#6518
+Na polnoc od sklepow~
+W tym miejscu sciezka zakreca na wschod w strone barakow.
+Na poludnie dostrzegasz sklepy. Z polnocy slychac dziwna
+muzyke.
+~
+0 8 0
+D0
+~
+~
+0 0 6555
+D1
+~
+~
+0 -1 6519
+D2
+~
+~
+0 -1 6517
+S
+#6519
+Sciezka niedaleko szpitala~
+W tym miejscu sciezka przechodzi kolo szpitala, ktory znajduje
+sie na polnoc. Sciezka prowadzi z zachodu na wschod,
+gdzie znajduja sie baraki.
+~
+0 8 0
+D0
+~
+~
+0 -1 6534
+D1
+~
+~
+0 -1 6520
+D3
+~
+~
+0 -1 6518
+S
+#6520
+Sciezka niedaleko barakow~
+Tutaj sciezka prowadzi na zachod oraz na wschod do
+barakow.
+~
+0 8 0
+D1
+~
+~
+0 -1 6521
+D3
+~
+~
+0 -1 6519
+S
+#6521
+Wejscie do barakow~
+Tutaj znajduje sie wejscie do barakow na poludnie, mozna
+udac sie sciezka na zachod.
+~
+0 8 0
+D2
+~
+drzwi~
+3 -1 6523
+D3
+~
+~
+0 -1 6520
+S
+#6522
+Strozowka~
+Stoisz wewnatrz strozowki niedaleko na zachod od wejscia do zamku.
+Jest tu malo rzeczy interesujacych.
+~
+0 8 0
+D1
+~
+~
+0 -1 6509
+S
+#6523
+Pierwszy pokoj barakow~
+Jestes w pierwszym z dwoch glownych pokoi barakow.
+Barak ciagnie sie dalej na poludnie, mozesz go rowniez
+opuscic udajac sie na polnoc.
+~
+0 8 0
+D0
+~
+drzwi~
+3 -1 6521
+D2
+~
+~
+0 -1 6524
+S
+#6524
+Koniec baraku~
+Tutaj na koncu barakow krasnoludow znajduja sie rzedy
+lozek. Wyczuwasz odor przez co ciezko ci oddychac.
+~
+0 8 0
+D0
+~
+~
+33 -1 6523
+D5
+~
+skrytka~
+35 0 6556
+E
+podloga~
+Po dluzszym wpatrywaniu sie w podloge dostrzegasz skrytke!!!~
+S
+#6525
+Wewnatrz zamku Strangelove~
+Jestes w zamku. Ksztaltem jest on bardzo rurowaty i
+niedydstyngowany. Schodami mozesz udac sie na gore
+albo wysc z zamku drzwiami na zachod.
+~
+0 8 0
+D3
+~
+wrota~
+39 6514 6512
+D4
+~
+~
+0 -1 6528
+S
+#6526
+Skladzik~
+Lezy tu warstwa kurzu gruba prawie na 8 centymertow!!! Jest
+prawie pewne ze niewielu ludzi wchodzilo tu przez wiele miesiecy.
+~
+0 9 0
+D1
+Oswietlona droga... wyglada na czesto odwiedzane miejsce.~
+~
+0 -1 6513
+D5
+~
+zapadnia~
+3 0 6527
+E
+kurz~
+Po zdmuchnieciu calego kurzu z podlogi dostrzegasz zapadnie!
+~
+S
+#6527
+Sklad wina~
+W tym pokoju unosi sie zapach wina. mozesz tylko przypuszczac
+ze dawniej byl to sklad wina.
+~
+0 9 0
+D4
+~
+~
+3 -1 6526
+S
+#6528
+Schody na zamku~
+Schody kreca sie w gore i na dol.
+~
+0 8 0
+D4
+~
+~
+0 -1 6529
+D5
+~
+~
+0 -1 6525
+S
+#6529
+Schody~
+Ciagle chodzisz w kolko po schodach. Zaczyna ci sie krecic
+w glowie od tego chodzenia w kolko w kolko w kolko w kolko
+w kolko.  Schody wioda na gore i na dol.
+~
+0 8 0
+D4
+~
+~
+0 -1 6530
+D5
+~
+~
+0 -1 6528
+S
+#6530
+Na gorze schodow~
+Znajdujesz sie na szczycie schodow. Mozesz stad wysc
+udajac sie na wschod lub zejsc schodami na dol.
+~
+0 8 0
+D1
+~
+~
+0 -1 6531
+D5
+~
+~
+0 -1 6529
+S
+#6531
+Poczekalnia do sypialni krolowej~
+To jest "krolewska" poczekalnia. Stoi tu czlowiek i wyraznie
+czeka na krolowa. Slyszales ze krolowa chce "poznac" swoj
+lod w bardzo biblijny sposob. Na polnoc znajduje sie sypialnia
+krolowej, dostrzegasz tez schody na zachod.
+~
+0 8 0
+D0
+~
+drzwi~
+35 6502 6532
+D3
+~
+~
+0 -1 6530
+S
+#6532
+Sypialnia~
+To jest sypialnia krolowej. Luzko jest rozgrzebane doszczegasz
+mala sterte brudnych przescieradel w narozniku.
+
+Ktos wypisal na lustrze wiadomosc szminka:
+
+     Wyszlam w poszukiwaniu swoich pigulek.
+     Czemu nie wslizgniesz sie w cos wygodnego podczas, 
+     gdy mnie nie ma?
+~
+0 8 0
+D2
+~
+drzwi~
+35 6502 6531
+S
+#6534
+Szpital~
+Znajdujesz sie wewnatrz szpitala krasnoludow. Smierdzi ty
+guma i alkoholem, a sciany pokryte sa krwia.
+~
+0 8 0
+D2
+~
+~
+0 -1 6519
+S
+#6535
+Piekarnia w jamie z granitu~
+Aromat dochodzacy z tego pokoju wywoluje u ciebie wizje smakow
+wszystkich rodzajow ciast rozplywajacych sie w twoich ustach.
+~
+0 8 0
+D1
+~
+~
+0 -1 6517
+S
+#6540
+Ciemna sciezka przed brama w gorze~
+Tutaj, gdzie dobrze ubita droga przchodzi przez cien, stoi brama ktora zakrywa
+szeroki tunel prowadzacy do srodka gory. Z wewnatrz dochodza cie dzwieki
+i zapachy wydobywania wegla. Sciezka prowadzi z zachody na polnoc.
+Oczywiscie mozesz sprobowac swoich szansz przebijajac sie przez brame.
+~
+0 8 0
+D0
+~
+~
+0 -1 6504
+D1
+~
+wrota~
+39 6502 6541
+D3
+~
+~
+0 -1 6503
+S
+#6541
+Wejscie do kopalni~
+Mala sciezka prowadzi w dol do srodka kopalni, a bardziej ubita prowadzi
+na zachod.
+~
+0 8 0
+D3
+~
+wrota~
+39 6502 6540
+D5
+~
+~
+0 -1 6542
+S
+#6542
+Wewnatrz kopalni~
+Wszedzie w scianach znajduja sie dziury. Sluza one do wysadzania
+scian i zdobycia czegokolwiek oni szukaja. Sciazka prowadzi w gore
+i na dol.
+~
+0 9 0
+D4
+~
+~
+0 -1 6541
+D5
+~
+~
+0 -1 6554
+S
+#6543
+Sciezka wewnatrz kopalni~
+Znajdujesz sie gleboko w kopalni i czujesz sie troche niepewnie.
+Sciezka ropwadzi ze wschodu na zachod gdzie znajduje sie szyb.
+~
+0 9 0
+D1
+~
+~
+0 -1 6544
+D3
+~
+~
+0 -1 6554
+S
+#6544
+Skrzyzowanie w kopalni~
+Znajdujesz sie na skrzyzowaniu w kopalni. Na polnoc znajduja
+sie drzwi a sciezka prowadzi tez na poludznie, zachod i wschod.
+~
+0 9 0
+D0
+~
+drzwi~
+39 6502 6546
+D1
+~
+~
+0 -1 6545
+D2
+~
+~
+0 -1 6551
+D3
+~
+~
+0 -1 6543
+S
+#6545
+Skladzik wegla~
+Znajdujesz sie miejscu gdzie przechowuje sie wydobyte 
+materialy. Pokuj ten wyglada niepewnie - filary wygladaja
+na sprochniale.
+~
+0 9 0
+D3
+~
+~
+0 -1 6544
+S
+#6546
+Labirynt kopalni~
+Wlasnie wszedles do labiryntu kopalni. Na wschod widac
+poczatek labiryntu. Jeszcze mozesz wysc stad udajac
+sie na poludnie.
+~
+0 9 0
+D1
+~
+~
+0 -1 6547
+D2
+~
+drzwi~
+39 6502 6544
+S
+#6547
+Pocztek labiryntu~
+Jestes coraz glebiej w labiryncie ale jeszcze nie za daleko by sie zgubic.
+~
+0 9 0
+D0
+~
+~
+0 -1 6548
+D3
+~
+~
+0 -1 6546
+S
+#6548
+Labirynt~
+Jestes w labiryncie.
+~
+0 9 0
+D0
+~
+~
+0 -1 6549
+D2
+~
+~
+0 -1 6547
+S
+#6549
+Labirynt~
+Jestes w labiryncie.
+~
+0 9 0
+D0
+~
+~
+0 -1 6550
+D3
+~
+~
+0 -1 6548
+S
+#6550
+Labirynt~
+Jestes w labiryncie.
+~
+0 9 0
+D2
+~
+~
+0 -1 6549
+D3
+~
+~
+0 -1 6552
+S
+#6551
+Sklad sprzetu~
+To jest sklad sprzetu uzywanego w kopalniach 
+krasnoludow. Jest bardzo maly i mozna by powiedziec
+ze niewielu gornikow uzywa jakikolwiek sprzet.
+~
+0 9 0
+D0
+~
+~
+0 -1 6544
+S
+#6552
+Koniec labiryntu~
+Wyglada na to ze udalo ci sie przejsc labirynt. Mozesz powiedzic ze nie ma
+mowy aby przreszdl ten labirynt jakis glupawy krasnolud. To miejsce
+wyglada na opuszczone.
+
+Na poludniowej sciane znajduje sie napis:
+ 
+    Ci ktorzy tu wchodzicie mozecie planowac swoja smierc
+    Szczegolnie jesli jestescie lojalni krolowej.
+~
+0 9 0
+D1
+~
+~
+0 -1 6550
+D3
+~
+~
+0 -1 6553
+S
+#6553
+Pokoj zarzadcy labiryntem.~
+Wkroczyles do pokoju zarzadcy labiryntu. Znajduja sie tu na
+scianach obrazy krolowej urzywane w charakterze tarcz.
+Na scianie ktos wymalowal napisy w stylu: "krolowa jeszcze
+tego pozaluje" albo "katolicy gora".
+~
+0 9 0
+D1
+~
+~
+0 -1 6552
+S
+#6554
+Na dole szybu~
+Znajdujesz sie na dole szybu. Powietrze jest tu pelny sadzy i ciezko
+sie nim oddycha. Szyb prowadzi w gore i na wschod.
+~
+0 9 0
+D1
+~
+~
+0 -1 6543
+D4
+~
+~
+0 -1 6542
+S
+#6555
+Polanka~
+Dotarles do polanki. Na poludnie widac droge, z ktorej
+niedawno zboczyles.
+~
+0 8 0
+D2
+~
+~
+0 0 6518
+S
+#6556
+Skrytka na wodke~
+Jakims cudem udalo ci sie dorwac do miesca gdzie
+krasnale z barakow przechowuja swoj alkohol na
+libacje.~
+0 9 0
+D4
+~
+skrytka~
+35 0 6524
+S
+#0
+
+
+#RESETS
+M 0 6501 6 6501
+M 0 6501 6 6502
+O 0 6507 2 6503
+M 0 6501 6 6503
+M 0 6500 4 6505
+G 1 6502 10
+E 1 6505 10 5
+E 1 6504 10 16
+M 0 6500 4 6505
+E 1 6505 10 5
+E 1 6504 10 16
+O 0 6507 2 6505
+D 0 6505 3 2
+M 0 6506 2 6508
+M 0 6500 6 6509
+E 1 6511 10 1
+E 1 6510 10 6
+E 1 6509 10 16
+M 0 6500 6 6509
+E 1 6505 10 5
+E 1 6509 10 16
+E 1 6512 10 9
+D 0 6509 1 2
+D 0 6510 3 2
+M 0 6500 2 6512
+E 1 6508 10 16
+M 0 6500 2 6512
+E 1 6508 10 16
+D 0 6512 1 2
+O 0 6507 2 6513
+D 0 6513 1 2
+M 0 6505 1 6515
+M 0 6503 1 6516
+E 1 6504 10 16
+G 1 6512 10
+G 1 6511 10
+G 1 6510 10
+G 1 6505 10
+G 1 6504 10
+M 0 6505 1 6520
+M 0 6514 4 6521
+E 1 6509 10 16
+M 0 6514 4 6521
+E 1 6509 10 16
+M 0 6500 4 6521
+M 0 6500 4 6521
+M 0 6500 4 6521
+D 0 6521 2 1
+M 0 6511 8 6523
+M 0 6511 8 6523
+E 1 6514 10 17
+E 1 6504 10 16
+M 0 6511 8 6523
+M 0 6511 8 6523
+D 0 6523 0 1
+M 0 6511 8 6524
+O 0 6513 1 6524
+M 0 6502 2 6524
+M 0 6511 8 6524
+D 0 6524 5 1
+D 0 6525 3 2
+D 0 6526 5 1
+M 0 6502 1 6527
+G 1 6502 10
+D 0 6527 4 1
+M 0 6512 3 6528
+M 0 6512 3 6529
+M 0 6513 3 6529
+M 0 6513 3 6530
+M 0 6515 4 6531
+M 0 6515 4 6531
+D 0 6531 0 1
+O 0 6516 1 6532
+D 0 6532 2 1
+O 0 6506 1 6534
+M 0 6510 4 6534
+M 0 6510 4 6534
+M 0 6509 1 6534
+E 1 6506 10 17
+M 0 6504 1 6535
+E 1 6504 10 16
+M 0 6500 4 6540
+G 1 6502 10
+E 1 6505 10 5
+E 1 6504 10 16
+M 0 6500 4 6540
+E 1 6505 10 5
+E 1 6504 10 16
+O 0 6507 1 6540
+D 0 6540 1 2
+D 0 6541 3 2
+M 0 6507 4 6542
+E 1 6508 10 16
+M 0 6507 4 6543
+E 1 6508 10 16
+M 0 6507 4 6543
+E 1 6508 10 16
+M 0 6508 4 6543
+E 1 6508 10 16
+E 1 6512 10 9
+D 0 6544 0 2
+O 0 6517 6 6545
+D 0 6546 2 2
+M 0 6517 2 6548
+M 0 6517 2 6549
+O 0 6518 3 6551
+M 0 6516 1 6553
+M 0 6519 1 6555
+G 0 6520 0
+M 0 6521 2 6555
+O 0 6521 0 6556
+O 0 6521 0 6556
+O 0 6521 0 6556
+M 0 6520 4 6556
+G 0 6521 0
+D 0 6556 4 1
+M 0 6502 4 6527
+S
+
+
+#SHOPS
+ 6503    0  0  0  0  0   150  50         0 23    ; sklepikarz
+ 6504    0  0  0  0  0   150  50         0 23    ; piekarz
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

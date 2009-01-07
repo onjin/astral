@@ -1,0 +1,984 @@
+#AREA   Stare bagna [pl. Bercik]~
+
+
+
+#VERSION 3
+#AUTHOR Generic~
+
+#RANGES
+5 25 0 65
+$
+
+#RESETMSG Z daleka dobiega zdlawiony krzyk.~
+
+#FLAGS
+0 10
+
+#ECONOMY 0 50973500
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#8301
+troll bagienny~
+Bagienny troll~
+bagiennego trolla~
+bagiennemu trollowi~
+bagiennego trolla~
+bagiennym trollem~
+bagiennym trollu~
+bagienny troll~
+Bagienny troll biegnie w twoim kierunku.
+~
+Olbrzymia bestia, wysoka na jakies 15 stop. Na twoj widok z jego gardla
+wydobywa sie gluchy warkot. Podnosi do gory swe potezne rece uzbrojone w
+dlugie pazury i atakuje. 
+~
+103 0 -600 C
+16 5 1 5d20+200 4d4+8
+10000 20000
+112 106 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8302
+troll zielony~
+zielony troll~
+zielonego trolla~
+zielonemu trollowi~
+zielonego trolla~
+zielonym trollem~
+zielonym trollu~
+zielony troll~
+Zielony troll probuje zaatakowac cie z zaskoczenia.
+~
+Ogromny troll przerastajacy cie o kilka stop. Uzbrojony jest w wielka
+wlocznie. Trzymajac swoja bron przed soba zaczyna biegnac w twoim kierunku.
+~
+101 0 -400 C
+14 7 3 3d20+150 2d4+6
+8000 12000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8303
+ogr~
+ogr~
+ogra~
+ogrowi~
+ogra~
+ogrem~
+ogrze~
+ogr~
+Ogr stoi tutaj gotowy walnac kazdego napotkanego przybysza.
+~
+Ten potwor wyglada jakby mogl cie rozedrzec na strzepy.
+~
+101 0 -500 C
+20 1 0 1d20+250 5d5+8
+10000 11000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8304
+zjawa bagienna~
+Bagienna zjawa~
+bagiennej zjawy~
+bagiennej zjawie~
+bagienna zjawie~
+bagienna zjawia~
+bagiennej zjawie~
+bagienna zjawa~
+Bagienna zjawa wylania sie z mroku, wyglada na glodna.
+~
+Bagienna zjawa ma wielkie piesci, ktore wygladaja jakby mogly cie zmiezdzyc.
+~
+101 0 -700 C
+24 1 8 10d10+500 4d5+10
+25000 60000
+112 106 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8305
+gnoll~
+gnoll~
+gnolla~
+gnollowi~
+gnolla~
+gnollem~
+gnollu~
+gnoll~
+Groznie wygladajacy gnoll stoi tutaj.
+~
+Gnoll sprawia wrazenie zirytowanego twoja obecnoscia.
+~
+1073741893 40 -1000 C
+30 0 -3 2d10+750 2d8+15
+25000 100000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8306
+bestia wielka~
+wielka wlochata bestia~
+wielka wlochata bestie~
+wielkiej wlochatej bestii~
+wielka wlochata bestie~
+wielka wlochata bestia~
+wielkiej wlochatej bestii~
+wielka wlochata bestia~
+Wielka wlochata bestia powoli zbliza sie w twoim kierunku.
+~
+Ta wielka bestia ma ponad 20 stop wzrostu. Jej zielone odnuza uzbrojone sa
+w potezne pazury.
+~
+101 40 -450 C
+21 0 0 21d21+210 2d4+15
+10000 40000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8307
+bestia mala~
+raczej mala bestia~
+raczej mala bestia~
+raczej mala bestia~
+raczej mala bestia~
+raczej mala bestia~
+raczej mala bestia~
+raczej mala bestia~
+Mala bestia wydaje z siebie glosny ryk na twoj widok.
+~
+Ta mala bestia wyglada jakby mozna ja bylo pokonac jednym poteznym uderzeniem
+miecza.
+~
+197 32768 0 C
+3 18 9 3d10+40 1d20+1
+500 200
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8308
+ognik bledny~
+bledny ognik~
+bledny ognik~
+bledny ognik~
+bledny ognik~
+bledny ognik~
+bledny ognik~
+bledny ognik~
+Bledny ognik lata to tu,  to tam, strojac sobie z ciebie zarty.
+~
+This strange little creature seems very hard to keep your eyes on.
+Z calych sil wpatrujesz sie w niewyrazna plamke swiatla latajaca po calej
+okolicy. Gdy sie bardzo skupisz potrafisz nawet rozroznic pare blyszczacych
+oczu.
+~
+197 32768 0 C
+10 11 -5 5d5+100 3d3+3
+3000 5000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8309
+waz anakonda~
+monstrualny waz~
+monstrualny waz~
+monstrualny waz~
+monstrualny waz~
+monstrualny waz~
+monstrualny waz~
+monstrualny waz~
+Monstrualny waz sunie w twoim kierunku, myslac 'sniadanko'.
+~
+Ta 10 metrowa anakonda wyglada na raczej glodna.
+~
+229 98304 -100 C
+16 5 1 16d16+200 4d4+6
+10000 26000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8310
+waz pyton~
+wielki waz~
+wielki waz~
+wielki waz~
+wielki waz~
+wielki waz~
+wielki waz~
+wielki waz~
+Wielki pyton wygrzewa sie tutaj na sloncu.
+~
+To najwiekszy pyton jakiego udalo ci sie w zyciu zobaczyc.
+~
+229 98304 -100 C
+11 10 2 4d10+100 3d3+5
+0 9000
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8312
+wiedzma~
+bagienna wiedzma~
+bagienna wiedzma~
+bagienna wiedzma~
+bagienna wiedzma~
+bagienna wiedzma~
+bagienna wiedzma~
+bagienna wiedzma~
+Stoi tutaj bagienna wiedzma.
+~
+Yech! Przy niej nawet Smerfetka wyglada pieknie. Na twoj widok wiedzma takze
+krzywi sie z obrzydzeniem.
+~
+69 0 -200 C
+9 12 3 2d10+300 3d5+10
+1000 6000
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8313
+zniwiarz ~
+Okrutny Zniwiarz~
+Okrutny Zniwiarz~
+Okrutny Zniwiarz~
+Okrutny Zniwiarz~
+Okrutny Zniwiarz~
+Okrutny Zniwiarz~
+Okrutny Zniwiarz~
+Okrutny Zniwiarz szuka swojej nastepnej ofiary.
+~
+Ta ciemna i tajemnicza figura mierzy 13 stop wzrostu. Nawet w przytlumionym
+bagiennym swietle, ostrze jego kosy blyszczy zlowieszczo.
+~
+69 40 -200 C
+20 1 -2 5d20+300 5d5+15
+14000 40000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8314
+wolf bagienny~
+bagienny wilk~
+bagienny wilk~
+bagienny wilk~
+bagienny wilk~
+bagienny wilk~
+bagienny wilk~
+bagienny wilk~
+Bagienny wilk weszac podaza twoim sladem.
+~
+Ta wilczyca jest dosyc opasla. Widocznie zaprzyjaznila sie blizej z kilkoma
+osobami, ktore zaginely ostatnio na tych bagnach.
+~
+101 0 -200 C
+8 13 3 10d10+50 3d5+1
+0 2000
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8318
+mound shambling~
+groteskowy kopiec~
+groteskowy kopiec~
+groteskowy kopiec~
+groteskowy kopiec~
+groteskowy kopiec~
+groteskowy kopiec~
+groteskowy kopiec~
+Kopiec zlozony z roznorodnych odpadkow zbliza sie do ciebie.
+~
+Ta groteskowa kupa gnijacych odpadkow przepelnia cie wstretem i przerazeniem.
+~
+69 65536 -100 C
+13 8 10 10d10+150 3d6+2
+0 10000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8319
+szaman ork~
+szaman~
+szaman~
+szaman~
+szaman~
+szaman~
+szaman~
+szaman~
+Ork, ktory jest szamanem w tej czesci bagna stoi przed toba.
+~
+Ten orkowy szaman, ma kilka ludzkich kosci wplecionych we wlosy, a na rekach
+i twarzy dziwne tatuarze.
+~
+111 40 -100 C
+12 10 7 5d6+120 3d4+1
+350 10000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8320
+gigant~
+bagienny gigant~
+bagienny gigant~
+bagienny gigant~
+bagienny gigant~
+bagienny gigant~
+bagienny gigant~
+bagienny gigant~
+Bagienny gigant maszeruje w twoim kierunku.
+~
+Wielki czlekoksztaltny potwor z zielona skora, ostrymi zebami i naprawde
+WIELKIM kijem.
+~
+111 40 -100 C
+15 8 5 6d6+300 2d4+10
+12000 18000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#8321
+gargulec~
+gargulec~
+gargulec~
+gargulec~
+gargulec~
+gargulec~
+gargulec~
+gargulec~
+Wielki gargulec laduje turz obok, mierzac w ciebie swoimi szponami.
+~
+Ta paskuda patrzy na ciebie jak na obiad.
+~
+111 40 -100 C
+12 4 0 4d5+200 4d4+4
+2000 12000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#8301
+wlocznia dluga~
+dluga wlocznia~
+dluga wlocznia~
+dluga wlocznia~
+dluga wlocznia~
+dluga wlocznia~
+dluga wlocznia~
+dluga wlocznia~
+Dziwna wlocznia lezy tutaj.~
+~
+5 640 8193
+0 3 5 2
+10 20000 5000
+A
+19 3
+A
+2 2
+#8302
+helm rogaty~
+ciemny rogaty helm~
+ciemny rogaty helm~
+ciemny rogaty helm~
+ciemny rogaty helm~
+ciemny rogaty helm~
+ciemny rogaty helm~
+ciemny rogaty helm~
+Dziwny rogaty helm lezy na ziemi.
+~
+~
+9 640 17 8
+6 0 0 0
+5 15000 10000
+E
+rogi rog~
+Te rogi zrobione sa z jakiegos nieznanego metalu.
+~
+A
+19 1
+A
+3 -3
+#8303
+kolczuga stara~
+stara kolczuga~
+stara kolczuga~
+stara kolczuga~
+stara kolczuga~
+stara kolczuga~
+stara kolczuga~
+stara kolczuga~
+Stara skorodowana kolczuga lezy tutaj.~
+~
+9 640 9 16
+7 0 0 0
+20 2000 2000
+#8306
+kosa~
+straszliwa kosa~
+straszliwa kosa~
+straszliwa kosa~
+straszliwa kosa~
+straszliwa kosa~
+straszliwa kosa~
+straszliwa kosa~
+Jakas wielka straszliwa kosa lezy tutaj w cieniu.~
+~
+5 640 8193
+0 4 4 1
+16 100000 20000
+A
+18 3
+A
+19 3
+#8307
+mikstura ciemna zielona~
+ciemna zielona mikstura~
+ciemna zielona mikstura~
+ciemna zielona mikstura~
+ciemna zielona mikstura~
+ciemna zielona mikstura~
+ciemna zielona mikstura~
+ciemna zielona mikstura~
+Ciemna zielona mikstura lezy zagrzebana w mule.~
+~
+10 3 1
+43 -1 -1 -1
+1 1000 1000
+'cure critical' 'NONE' 'NONE'
+E
+potion~
+It looks really disgusting and doesn't smell very nice either.~
+#0
+
+
+#ROOMS
+#8301
+Blotnista sciezka~
+Ten kawalek sciezki jest powoli, ale systematycznie zalewany przez pobliskie
+bagno, znajdujace sie na poludniu. Widzisz tu kilka kamiennych budynkow,
+zniszczonych przez wojne i nieprzyjazny kilmat.
+~
+0 0 2
+D0
+Ta sciezka wyglada na sucha.
+~
+~
+0 -1 6125
+D2
+Waskla sciezka wiedzie prosto na bagno.
+~
+~
+0 -1 8302
+E
+bagno~
+Bagno rozciagajace sie na poludniu siega az do tego miejsca ... sprawiajac,
+ze ziemia i powietrze sa bardzo wilgotne, utrudniajac poruszanie sie
+i oddychanie.
+~
+S
+#8302
+Brzeg bagna~
+Wstretne smierdzace bloto przylepia sie do twoich butow. Ciemne chmury gromadza
+sie na niebie, sprawiajac, ze scizka ktora podazasz staje sie ciemna i
+niebezipieczna. Nagle slyszysz dziwne poruszenie na bagnach, stajesz cicho
+i zaczynasz nasluchiwac. Po kilku glosnych wrzaskach wszystko ucicha...
+~
+0 0 5
+D0
+~
+~
+0 -1 8301
+D1
+Na wschodzie na podmoklym terenie rosna jakies drzewa.
+~
+~
+0 -1 8303
+D2
+Widzisz wielkie wzgorze wyrastajace z bagna.
+~
+~
+0 -1 8304
+S
+#8303
+Bagnisty las~
+Nie mozna tego miejsca nazwac lasem, to tylko gestwina drzew rosnaca w wodzie.
+Od czasu do czasu udaje ci sie zobaczyc jakas humanoidalna postac plywajaca
+twarza w wodzie, ale glownie spotykasz tylko krwawe strzepy. Z daleka slyszysz
+przeciagly ryk. Twoje serce zaczyna bic gwaltowniej...
+~
+0 1 5
+D1
+Na wschodzie widzisz paskudne bagnisko.
+~
+~
+0 -1 8305
+D3
+Widzisz marne resztki jakiejs drogi systematycznie zalewanej przez bagno.
+~
+~
+0 -1 8302
+E
+ciala postacie humanoidy~
+Widzisz jakas biedna istote, ktora zostala brutalnie zabita poteznym ciosem
+lapy uzbrojonej w ostre pazury.
+~
+E
+strzepy~
+Widzisz kilka konczyn i jakies wnetrznosci.
+~
+S
+#8304
+Na wzgorzu~
+Stoisz na szczycie wzgorza znajdujacego sie w polnocno-zachodniej czesci
+zlych bagien. Ciemne chmury zbieraja sie wokolo ciebie. Wiatr przybiera
+na sile. Zanosi sie na burze.
+~
+0 1 4
+D0
+Widzisz marne resztki jakiejs drogi systematycznie zalewanej przez bagno.
+~
+~
+0 -1 8302
+D1
+Na wschodzie widzisz czarna sadzawke...
+~
+~
+0 -1 8309
+D2
+Ciemna sciezka wiedzie prosto na bagna.
+~
+~
+0 -1 8310
+S
+#8305
+Paskudne bagnisko~
+Stoisz w bagnisku pelnym smierdzacego szlamu. Nad soba slyszysz trzepot
+ogromnych skrzydel. Kilka wielkich skrzydlatych bestii lata po niebie, wydajac
+przerazliwe okrzyki. Nie podoba ci sie to miejsce i masz wrazenie, ze jesli
+zaraz sie z tad nie wyniesiesz, to wkrotce staniesz sie czyims obiadkiem.
+~
+0 1 5
+D1
+Widzisz horde paskudnych potworow.
+~
+~
+0 -1 8306
+D3
+Na zachodzie na podmoklym terenie rosna jakies drzewa.
+~
+~
+0 -1 8303
+E
+bestie~
+Widzisz ogromna bestie, najprawdopodobniej demona, przelatujacego wysoko nad
+twoja glowa.
+~
+S
+#8306
+Paskudne bagnisko~
+Ziemie ugina ci sie niebezpiecznie pod nogami. Czujesz jak gesta woda przesacza
+ci sie do butow. Lepiej wybierz inna droge, bagnisko w tym miejscu wydaje sie
+byc bardzo zdradliwe.
+~
+0 1 5
+D3
+Na zachodzie widzisz paskudne bagnisko.
+~
+~
+0 -1 8305
+S
+#8307
+Siedlisko Zjawy~
+To siedziba bagiennej zjawy. Straszliwie zmasakrowane zwloki lezace wszedzie
+wokolo napelniaja powietrze odorem gnijacego miesa.
+~
+0 1 6
+D3
+Czyzby to byly ruchome piaski?
+~
+~
+0 -1 8308
+E
+zwloki ciala~
+Przy jednych zwlokach znajdujesz kartke: 'Bylem tu Bercik'.
+~
+S
+#8308
+Ruchome piaski~
+Przed toba sa ruchome piaski. Na szczescie tylko skonczony idiota nie
+zauwazylby niebezpieczenstwa. Wkolo ciebie lataja jakies swiatelka, zdaje sie
+ze probuja wciagnac cie na piaski.
+~
+0 1 6
+D1
+Siedlisko bagiennej zjawy.
+~
+~
+0 -1 8307
+D2
+Ciemne bagno.
+~
+~
+0 -1 8314
+D3
+Widzisz czarna sadzawke.
+~
+~
+0 -1 8309
+E
+swiatelka~
+W dziecinstwie babcia opowiadala ci o tych istotach. To Bledne Ogniki.
+~
+E
+piaski ruchome~
+To zabojcza polapka dla glupcow, ktorzy w nie wejda.
+~
+S
+#8309
+Czarna sadzawka~
+Stoisz na brzegu wielkiej, czarnej sadzawki. Woda zdaje sie gotowac, ale nie
+jest nawet ciepla. Ta woda jest zywa! Powierzchnia wody zaczyna falowac i
+slyszysz gwaltowne bulgotanie. To niesamowite miejsce przepelnia twoje serce
+strachem.
+~
+0 1 6
+D1
+Na wschodzie widzisz ruchome piaski.
+~
+~
+0 -1 8308
+D2
+Widzisz dziwna chmure ciemnosci.
+~
+~
+0 -1 8311
+D3
+Ponad bagnem korluje tajemnicze wzgorze.
+~
+~
+0 -1 8304
+E
+sadzawka~
+Wyglada na ZYWA...
+~
+S
+#8310
+Ciemna sciezka przez bagno~
+Na polnocy widzisz jakies wzgorze, okryte ciemna warstwa chmur. Na poludniu
+bujnie kwitna rozmaite rosliny. Wyczuwasz czyjas zlosliwa obecnosc, wysoko
+na niebie na poludniowy-wschod stad, zauwazasz skrzydlate bestie latajace
+nad potezna forteca zagrzebana w blotach tego bagna.
+~
+0 1 6
+D0
+Na polnocy widzisz wysokie wzgorze.
+~
+~
+0 -1 8304
+D2
+Na poludniu rosnie zwarta sciana roslinnosci.
+~
+~
+0 -1 8312
+E
+chmury~
+Chmury sa ciemne i przerazajace.
+~
+E
+bestie~
+To napewno jakis nieznany gatunek demona.
+~
+E
+forteca~
+Otoczona jest poteznymi, 20 metrowymi murami. Jedyne okno na wysokiej wiezy
+blyszczy magicznym, niebieskim swiatlem.
+~
+E
+rosliny~
+Wygladaja dosyc podejrzanie.
+~
+S
+#8311
+Chmura ciemnosci~
+Gdy wedrujesz przez te chmure ciemnosci, ogarnia cie strach, tak wielki, jak
+nigdy przedtem.
+~
+0 1 6
+D0
+Na polnocy widzisz czarna sadzawke.
+~
+~
+0 -1 8309
+D2
+Widzisz tajemniczy obelisk.
+~
+~
+0 -1 8313
+S
+#8312
+Rosliny z piekla rodem~
+Stoisz w poblizu najdziwniejszych roslin jakie kiedykolwiek udalo ci sie
+zobaczyc. Sa one polaczeniem dziwnych nabrzmialych roslin, paskudnie
+smierdzacych drzew owocowych i zlosliwych paproci.
+~
+0 1 6
+D0
+Ciemna sciezka wiodaca przez bagno.
+~
+~
+0 -1 8310
+D1
+Widzisz wielki, czarny monolit.
+~
+~
+0 -1 8313
+E
+rosliny roslina~
+Wygladaja dosyc niebezpiecznie i wysuwaja galazki w twoim kierunku.
+~
+S
+#8313
+Monolit~
+Stoisz w poblizu monolitu, ktory wznosi sie ku niebu prosto zbagna. Jego
+powierzchnia wydaje sie byc wykonana ze smoliscieczarnego obsydianu. Monolit
+emituje jakies niezdrowe niebieskawe swiatlo.
+~
+0 1 5
+D0
+Wyczuwasz czyjas zlosliwa obecnosc.
+~
+~
+0 -1 8311
+D1
+Tam lezy ciemne bajoro.
+~
+~
+0 -1 8314
+D3
+Roslinnosc z piekla rodem.
+~
+~
+0 -1 8312
+E
+monolit~
+Olbrzymi monolit roztacza woklo siebie przedziwna, zla aure. Nie masz
+najmniejszej ochoty zblizac sie do niego.
+~
+S
+#8314
+Bajoro~
+Stoisz po pas w smierdzacym bajorze. Na wschodzie widzisz wielki, czarny
+monolit. Daleko na polnocy znajduja sie lotne piaski. Gdzies z mroku dochodzi
+gluche warczenie.
+~
+0 1 5
+D0
+Czyzby to byly lotne piaski?
+~
+~
+0 -1 8308
+D1
+Niewielkie jezioro.
+~
+~
+0 -1 8315
+D3
+Wielki monolit.
+~
+~
+0 -1 8313
+E
+monolit~
+To wielki kawal obsydianu, ktory utknal w bagnie.
+~
+S
+#8315
+Polnocna strona jeziora~
+Unoszenie sie nad wrzacym jeziorem nie jest tym, co uwazasz za zabawne
+doswiadczenie. Wiele roznych stworzen uderza w dno twojej lodzi i patrzy
+na ciebie martwymi oczyma. Poludniowa czesc jeziora wyglada na znacznie
+spokojniejsza.
+~
+0 1 7
+D2
+Poludniowa czesc jeziora.
+~
+~
+0 -1 8316
+D3
+Na zachodzie widzisz ciemne bajoro.
+~
+~
+0 -1 8314
+S
+#8316
+Poludniowa strona jeziora~
+Unosisz sie nad spokojna czescia krysztalowo blekitnego jeziora. Ogarnia cie
+nieopisany spokoj. Nagle fala strachu przebiega twoje cialo. Jest tu jeszce
+ktos inny...
+~
+0 1 7
+D0
+Polnocna czesc jeziora.
+~
+~
+0 -1 8315
+D3
+Plaza na ktorej moze wyladowac twoja lodz.
+~
+~
+0 -1 8317
+E
+polnoc~
+Droga na polnoc wydaje sie niemozliwa, woda jest tam niezwykle wzburzona.
+~
+S
+#8317
+Plaza~
+Znajdujesz sie na piaszczystym brzegu. Pelza tu pelno roznych bagiennych
+zyjatek. Na zachodzie widzisz jakas straszliwa fortece. Widzisz jakies postacie
+wedrujace na blankach poteznych murow.
+~
+0 1 5
+D1
+Poludniowa czesc jeziora.
+~
+~
+0 -1 8316
+D3
+Wielka brama.
+~
+~
+0 -1 8318
+E
+forteca~
+To naprawde potezna forteca, praktycznie nie do zdobycia.
+~
+S
+#8318
+Przed wielka brama~
+Znajdujesz sie przed brama do wielkiej fortecy. Most zwodzony jest podniesiony,
+brama zamknieta, a krata opuszczona. To miejsce wyglada na bardzo niebezpieczne
+i decyduesz sie zawrocic.
+~
+0 1 3
+D1
+Na wschodzie widzisz plaze.
+~
+~
+0 -1 8317
+D2
+~
+~
+0 -1 30000
+S
+#0
+
+
+#RESETS
+M 0 8301 2 8303
+M 0 8302 12 8303
+G 1 8307 20
+M 0 8303 2 8303
+M 0 8302 2 8304
+M 0 8306 2 8304
+M 0 8310 2 8304
+M 0 8314 8 8304
+M 0 8307 2 8305
+M 0 8309 2 8305
+M 0 8310 2 8305
+M 0 8314 8 8305
+M 0 8302 2 8306
+M 0 8305 2 8306
+E 1 8303 20 5
+M 0 8314 8 8306
+M 0 8303 2 8307
+M 0 8304 1 8307
+M 0 8314 8 8307
+M 0 8320 2 8307
+G 1 8301 10
+M 0 8301 2 8308
+M 0 8308 1 8308
+M 0 8314 8 8308
+M 0 8312 2 8309
+M 0 8314 8 8309
+M 0 8320 2 8309
+G 1 8301 10
+M 0 8306 2 8310
+M 0 8312 2 8310
+M 0 8313 1 8310
+E 1 8302 5 6
+E 1 8306 1 16
+M 0 8309 2 8311
+M 0 8320 2 8311
+G 1 8301 10
+M 0 8318 3 8312
+G 1 8307 20
+M 0 8318 3 8312
+G 1 8307 20
+M 0 8303 2 8313
+M 0 8307 2 8313
+M 0 8320 2 8313
+G 1 8301 10
+M 0 8320 2 8315
+E 1 8302 5 6
+G 1 8301 10
+M 0 8321 2 8318
+M 0 8321 2 8318
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  8309 spec_poison
+M  8310 spec_poison
+M  8312 spec_thief
+M  8313 spec_cast_undead
+M  8319 spec_cast_cleric
+S
+
+
+#$

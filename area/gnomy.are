@@ -1,0 +1,4985 @@
+#AREA   Wioska gnomow [pl.Bercik]~
+
+
+
+#VERSION 3
+#AUTHOR Seccunda~
+
+#RANGES
+5 20 0 60
+$
+
+#RESETMSG Ziemia zatrzesla ci sie pod stopami po kolejnym nieudanym eksperymencie~
+
+#FLAGS
+0 10
+
+#ECONOMY 0 20454189
+
+#CLIMATE 0 0 0
+
+#MOBILES
+#1500
+dziecko gnom~
+gnomie dziecko~
+gnomiego dziecka~
+gnomiemu dziecku~
+gnomie dziecko~
+gnomim dzieckiem~
+gnomim dziecku~
+gnomie dziecko~
+Gleboko zamyslone gnomie dziecko jest tutaj.
+~
+Gnomie dziecko wyglada tak niewinnie, ze chcialoby sie je wziasc na rece 
+i przytulic.
+~
+3 4194856 600 C
+7 18 7 3d7+70 2d4+0
+300 400
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 0 0 0 1 1 1
+0 0 1709 0 0 9 64 2
+> rand_prog 5~
+ponder
+~
+|
+#1501
+kobieta gnom ~
+gnomia kobieta~
+gnomiej kobiety~
+gnomiej kobiecie~
+gnomia kobiete~
+gnomia kobieta~
+gnomiej kobiecie~
+gnomia kobieto~
+Gnomia kobieta stoi tutaj, starajac sie wygladac jak najpiekniej.
+~
+Kobieta jest niska i brzydka, ale stara sie wygladac na kilka razy ladniejsza.
+Zaczyna ci sie podobac ...
+~
+1 0 600 C
+10 16 5 5d10+100 1d8+0
+500 700
+112 112 2
+18 13 13 13 13 13 13
+0 0 0 0 0
+38 0 0 0 1 1 1
+0 0 1775 2 0 0 64 2
+#1502
+gnom~
+gnom~
+gnoma~
+gnomowi~
+gnoma~
+gnomem~
+gnomie~
+gnomie~
+Gnom przechodzi tedy w drodze do pracy.
+~
+To typowy przyklad gnoma. Wyglada na malego i slabego, ale jednoczesnie
+jest na tyle inteligentny, ze moglby cie przechytrzyc.
+~
+1 4194856 500 C
+12 15 4 1d12+100 1d8+1
+450 900
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 2 0 0 64 2
+> rand_prog 5~
+sing
+~
+> rand_prog 2~
+shake $r
+~
+|
+#1503
+naukowiec gnom~
+gnomi naukowiec~
+gnomiego naukowca~
+gnomiemu naukowcowi~
+gnomiego naukowca~
+gnomim naukowcem~
+gnomim naukowcu~
+gnomi naukowcu~
+Naukowiec chodzi tutaj gleboko zamyslony.
+~
+Widzisz gnoma, ktory duma nad swoim nowym wynalazkiem.Jego wlosy sa biale,
+ale wyglada na calkiem silnego.
+~
+1 4194856 500 C
+12 14 4 5d10+100 1d8+3
+1000 1300
+112 112 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 1 1 1
+0 0 1775 0 0 0 64 2
+#1504
+asystent gnom~
+asystent~
+asystenta~
+asystentowi~
+asystenta~
+asystentem~
+asystencie~
+asystencie~
+Asystent naukowca tu stoi przekladajac fiolki i zlewki.
+~
+To dobrze wyszkolony gnom. Nie jest moze zbyt silny, ale nadrabia to
+swoja wiedza naukowa.
+~
+1 0 400 C
+10 13 3 5d5+90 1d7+2
+100 2000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 0 0 0 1 1 1
+0 0 1775 2 0 1 64 2
+> rand_prog 3~
+emote lapie zlewke zaraz  po tym jak ja upuscil.
+sigh
+say Gdybysmy tylko mogli zaimplementowac dodatkowe konczyny!
+~
+|
+#1505
+wodz gnom~
+wodz gnomow~
+wodza gnomow~
+wodzowi gnomow~
+wodza gnomow~
+wodzem gnomow~
+wodzu gnomow~
+wodzu gnomow~
+Niezwykle dumnie wygladajacy gnom stoi tutaj ubrany w ozdobne szaty.
+~
+Wodz wyglada jakby moglby dac ci niezla lekcje. Wyglada nie tylko na silnego
+ale takze madrego i zaradnego. Lepiej z nim nie zaczynaj.
+~
+3 0 550 C
+15 6 -1 5d10+200 1d15+2
+8000 15000
+112 112 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+38 0 0 0 1 1 2
+0 0 1775 0 0 0 1073741888 524290
+> rand_prog 10~
+wield miecz elektryczny
+~
+|
+#1507
+troll wielki most ~
+wielki troll~
+wielkiego trolla~
+wielkiemu trollowi~
+wielkiego trolla~
+wielkim trollem~
+wielkim trollu~
+wielki trollu~
+Wielki troll stoi tutaj pilnujac mostu.
+~
+Troll jest niski ale barczysty z twarza podobna do ludzkiej ale z oczami
+i pazurami bestii.
+~
+1073741831 4194856 -900 C
+20 12 3 1d50+350 2d5+1
+200 2000
+112 112 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1312495 0 0 0 2 2
+> all_greet_prog 100~
+say Kto idzie?
+mpechoat $n Troll mowi 'Nikt nie przejdzie przez moj most nie placac!
+mpechoat $n Zaplata wynosi 500 sztuk zlota! Przejdziesz tylko po moim trupie!
+mpechoat $n Troll odpycha cie do tylu.
+~
+> bribe_prog 500~
+if isfight($n)
+say Nie jestem glupcem! Nie przejdziesz dopoki zyje!
+else
+usmiech $n
+mpechoat $n Jestes na tyle madry zeby ze mna nie walczyc, bo wtedy mogloby byc zle!
+mpechoaround $n $n rusza na zachod.
+mpschoaround $n Troll wklada zloto do sakiewki.
+mpechoat $n Troll przepuszcza cie i przechodzisz na druga strone mostu.
+mptransfer $n 1547
+mpjunk coins
+endif
+~
+|
+#1508
+myszka polna~
+polna myszka~
+polnej myszki~
+polnej myszce~
+polna myszke~
+polna myszka~
+polnej myszce~
+polna myszko~
+Mala myszka przebiega ci pomiedzy nogami.
+~
+Myszka jest malym sprytnym zwierzatkiem
+~
+5 0 0 C
+5 19 9 1d5+50 1d4+0
+0 100
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 3 0 0 512 513 0
+0 0 67117 0 0 0 0 2
+#1509
+szczur ~
+szczur~
+szczura~
+szczurowi~
+szczura~
+szczurem~
+szczurze~
+szczurze~
+Maly szczur piszczy i biega wokolo.
+~
+Szczur jest malym zlym stworzeniem, ktore zasluguje na smierc.
+~
+5 0 -300 C
+6 19 8 1d1+66 1d5+1
+0 200
+112 112 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+77 0 0 0 512 513 1
+0 0 329349 0 0 8 0 2
+#1510
+szczur duzy~
+duzy szczur~
+duzego szczura~
+duzemu szczurowi~
+duzego szczura~
+duzym szczurem~
+duzym szczurze~
+duzy szczurze~
+Duzy szczur weszy po twoich butach, wznoszac swoj nos do gory.
+~
+Masz ochote zabic te wstretne stworzenie.
+~
+5 0 -300 C
+8 17 6 1d1+88 1d8+0
+0 400
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 0 0 0 512 513 1
+0 0 329261 0 0 8 0 2
+#1511
+szczur gigantyczny~
+gigantyczny szczur~
+gigantycznego szczura~
+gigantycznemu szczurowi~
+gigantycznego szczura~
+gigantycznym szczurem~
+gigantycznym szczurze~
+gigantyczny szczurze~
+Gigantyczny szczur piszczy i atakuje cie.
+~
+Ten szczur dorosl do rozmiarow sredniego psa.
+~
+37 0 -300 C
+10 15 4 1d1+111 1d8+1
+0 800
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 0 0 0 512 513 1
+0 0 263853 0 0 8 0 2
+#1512
+troll~
+troll~
+trolla~
+trollowi~
+trolla~
+trollem~
+trollu~
+trollu~
+Gigantyczny troll przechadza sie tedy.
+~
+Widzisz przed soba gigantyczna mase zywego miesa. Drzysz ze strachu, kiedy
+troll podnosi swa potezna reke zeby cie walnac.
+~
+35 0 -800 C
+14 7 0 3d5+160 2d8+1
+100 10000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 65 65 0
+0 0 1775 0 0 0 2 524290
+#1513
+nietoperz czarny~
+czarny nietoperz~
+czarnego nietoperza~
+czarnemu nietoperzowi~
+czarnego nietoperza~
+czarnym nietoperzem~
+czarnym nietoperzu~
+czarny nietoperzu~
+Czarny nietoperz zwisa z sufitu.
+~
+Ten nietoperz jest groteskowym stworzeniem z wielkimi skrzydlami i pazurami.
+~
+33 4719144 -500 C
+5 16 5 3d4+70 1d8+0
+1 1000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 3 0 0 513 513 0
+0 0 34349 0 0 0 0 2
+#1514
+zdrajca naukowiec gnom~
+zdrajca~
+zdrajcy~
+zdrajcy~
+zdrajce~
+zdrajca~
+zdrajcy~
+zdrajco~
+Gnomi naukowiec nerwowo chodzi po pokoju.
+~
+Ten gnom jest inny od mieszkancow tej wioski. Jest bardzo tajemniczy. Chodzi
+nerwowo po pokoju, zatrzymujac sie zawsze w tym samym miejscu.
+~
+3 4194856 -800 C
+12 14 3 4d12+110 1d8+3
+696 2300
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 0 0 0 1 1 0
+0 0 1775 2 0 0 64 2
+#1515
+nietoperz ognisty~
+ognisty nietoperz~
+ognistego nietoperza~
+ognistemu nietoperzowi~
+ognistego nietoperza~
+ognistym nietoperzem~
+ognistym nietoperzu~
+ognisty nietoperzu~
+Ognisty nietoperz swieci jasno i atakuje.
+~
+Widzisz wielki plomien w ksztalcie nietoperza. To stworzenie zwisa z sufitu
+i patrzy na ciebie dziwnym wzrokiem.
+~
+37 8 -900 C
+12 9 2 1d10+60 3d5+0
+6000 6000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 64 2
+#1516
+straznik hobgoblin~
+hobgoblinski straznik~
+hobgoblinskiego straznika~
+hobgoblinskiemu straznikowi~
+hobgoblinskiego straznika~
+hobgoblinskim straznikiem~
+hobgoblinskim strazniku~
+hobgoblinski strazniku~
+Hobgoblinski straznik najpierw atakuje, potem mysli.
+~
+To jest bardzo wielki i bardzo brzydki goblin. Warczy gniewnie na twoj 
+widok.
+~
+35 4194856 -700 C
+10 15 4 2d15+100 1d8+1
+75 1000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 0 0 0 16384 16385 1
+0 0 1775 0 0 0 64 524290
+> rand_prog 5~
+get fungus helmet
+mpecho The hobgoblin munches on a nasty looking piece of fungus.
+put fungus helmet
+~
+|
+#1517
+zolnierz hobgoblin~
+hobgoblinski zolnierz~
+hobgoblinskiego zolnierza~
+hobgoblinskiemu zolnierzowi~
+hobgoblinskiego zolnierza~
+hobgoblinskim zolnierzem~
+hobgoblinskim zolnierzu~
+hobgoblinski zolnierzu~
+Hobgoblinski zolnierz stoi tutaj.
+~
+To hobgoblin z nizszych warstw spolecznych, ktory nie moze zostac elitarnym 
+straznikiem. Wlasnie siusia na pobliska sciane.
+~
+35 4194856 -600 C
+7 18 7 1d7+70 1d7+0
+50 300
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 3 0 0 16384 16385 1
+0 0 1775 0 0 0 64 524290
+> rand_prog 2~
+grunt
+~
+> rand_prog 1~
+drool
+~
+|
+#1518
+ochroniarz hobgoblin~
+hobgoblinski ochroniarz~
+hobgoblinskiego ochroniarza~
+hobgoblinskiemu ochroniarzowi~
+hobgoblinskiego ochroniarza~
+hobgoblinskim ochroniarzem~
+hobgoblinskim ochroniarzu~
+hobgoblinski ochroniarzu~
+Ochroniarz, gotowy oddac zycie za swego krola.
+~
+To jeden z elitarnych gwardzistow. Stoi dumnie wyprostowany. Warczy gniewnie
+przygotowujac sie do ataku.
+~
+3 4194856 -500 C
+10 14 4 2d15+105 1d7+2
+100 2000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 0 0 0 1 1 1
+0 0 1775 0 0 0 64 3
+#1519
+krol hobgoblin~
+krol hobgoblinow~
+krola hobgoblinow~
+krolowi hobgoblinow~
+krola hobgoblinow~
+krolem hobgoblinow~
+krolu hobgoblinow~
+krolu hobgoblinow~
+To wielki krol siedzacy na swym tronie.
+~
+Krol jest smiesznie wygladajacym hobgoblinem, ktorego muskuly rozdarly
+material pieknej tuniki, niszczac wspanialy efekt.
+
+~
+3 4194856 -500 C
+18 9 2 5d20+150 2d7+1
+500 6000
+108 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 3 0 0 16385 16385 2
+0 0 1775 0 0 0 1073741888 524291
+#1520
+gornik hobgoblin~
+hobgoblinski gornik~
+hobgoblinskiego gornika~
+hobgoblinskiemu gornikowi~
+hobgoblinskego gornika~
+hobgoblinskim gornikiem~
+hobgoblinskim gorniku~
+hobgoblinski gorniku~
+Hobgoblinski gornik stoi tutaj szukajac zlota.
+~
+Gornik jest calkowicie pokryty pylem.
+~
+5 0 -400 C
+5 16 5 1d12+60 1d8+0
+700 500
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 3 0 0 16384 16384 1
+0 0 1773 0 0 0 64 2
+> rand_prog 5~
+grumble
+~
+> rand_prog 2~
+curse
+~
+|
+#1521
+skarbnik hobgoblin~
+skarbnik~
+skarbnika~
+skarbnikowi~
+skarbnika~
+skarbnikiem~
+skarbniku~
+skarbniku~
+Skarbnik liczy tutaj pieniadze.
+~
+Skarbnik jest starym, schorowanym goblinem w okularach. Wyglada na to, ze
+bez okularow jest calkiem slepy.
+~
+7 4194856 -200 C
+13 11 2 3d15+115 2d6+1
+5000 2500
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1775 0 0 0 2359296 2
+#1522
+wiezien gnom~
+gnomi wiezien~
+gnomiego wieznia~
+gnomiemu wiezieniowi~
+gnomiego wieznia~
+gnomim wiezniem~
+gnomim wiezniu~
+gnomi wiezniu~
+Uwieziony gnom lezy tutaj na sienniku.
+~
+Wiezien jest ledwo zywy.
+~
+7 4194856 1000 C
+6 17 8 5d3+50 2d3+1
+0 50
+106 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 1 1 1
+0 0 1775 0 0 0 0 0
+> rand_prog 2~
+sulk
+~
+|
+#1523
+wiezien  ~
+wiezien~
+wieznia~
+wieznowi~
+wiezna~
+wiezniem~
+wieznu~
+wieznu~
+Uwieziony czlowiek lezy tutaj na sienniku.
+~
+Wiezien jest ledwo zywy.
+~
+7 0 100 C
+5 17 8 3d5+35 2d3+1
+0 50
+106 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1775 0 0 0 0 0
+> rand_prog 3~
+groan
+~
+|
+#1524
+pustelnik~
+pustelnik~
+pustelnika~
+pustelnikowi~
+pustelnika~
+pustelnikiem~
+pustelniku~
+pustelniku~
+Stary czlowiek rozmysla o tym podziemnym mieszkaniu.
+~
+Ten czlowiek jest bardzo, bardzo stary. Jego dom, chociaz pod ziemia, 
+jest bardzo dobrze utrzymany, chociaz na podlodze lerzy w nieladzie
+troche rzeczy.
+~
+5 0 -10 C
+12 16 5 5d10+120 1d8+0
+2500 600
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 263205 0 0 0 2 2
+#1526
+kucharz hobgoblin~
+kucharz~
+kucharza~
+kucharzowi~
+kucharza~
+kucharzem~
+kucharzu~
+kucharzu~
+Kucharz stoi tutaj zbierajac grzybki.
+~
+Kucharz jest brudnym i grubym hobgoblinem. Jego posilki musza byc 
+niezwykle smaczne.
+~
+3 4194856 -500 C
+15 14 4 150d1+1 1d7+1
+26 900
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 0 0 0 16384 16385 0
+0 0 1775 0 0 0 32 2
+> rand_prog 4~
+burp
+~
+> rand_prog 2~
+fart
+~
+|
+#1527
+straznik gnom~
+gnomi straznik~
+gnomiego straznika~
+gnomiemu straznikowi~
+gnomiego straznika~
+gnomim straznikiem~
+gnomim strazniku~
+gnomi strazniku~
+Groznie wygladajacy gnom strzeze drogi na polnoc.
+~
+To swietnie wytrenowany gnom. Moze nie jest specjalnie silny ale znakomicie
+wlada mieczem.
+~
+3 0 500 C
+13 13 3 2d6+120 3d3+2
+1500 2000
+112 112 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 1 1 1
+0 0 1775 0 0 0 64 524290
+> death_prog 100~
+if level($n) == 50
+  mpecho The savagery of the attack leaves the guard's inventory in scraps.
+  mpjunk all.fizz
+endif
+~
+|
+#1528
+tester mobbie~
+a newly created tester mobbie~
+a newly created tester mobbie~
+a newly created tester mobbie~
+a newly created tester mobbie~
+a newly created tester mobbie~
+a newly created tester mobbie~
+a newly created tester mobbie~
+Some god abandoned a newly created tester mobbie here.
+~
+~
+1073741825 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+> speech_prog xxxxx~
+n
+s
+~
+|
+#1529
+kanarek~
+kanarek~
+kanarka~
+kanarkowi~
+kanarka~
+kanarkiem~
+kanarku~
+kanarku~
+Jasno upierzony kanarek odpoczywa tutaj.
+~
+Jasnozolty kanarek wyglada na szczesliwego.Osoba, ktora tu mieszka
+musi o niego dobrze dbac.
+~
+3 0 0 C
+5 0 0 1d1+40 1d1+2
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 2
+#1530
+recepcjonistka gnom kobieta~
+recepcjonistka~
+recepcjonistki~
+recepcjonistce~
+recepcjonistke~
+recepcjonistka~
+recepcjonistce~
+recepcjonistko~
+Gnomia kobieta zajeta jest wypelnianiem dokumentow.
+~
+Kobieta patrzy na ciebie z niesmakiem, po czym wraca do pisania. Jest 
+chyba najstarsza gnomia kobieta, jaka w zyciu widziales! Moze jest zona
+Wodza?
+~
+3 4194856 500 C
+13 14 4 3d13+130 1d13+0
+1000 1300
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 0 0 0 400641 400641 1
+0 0 1775 2 0 0 64 2
+> rand_prog 4~
+say Pisanie, pisanie, ciagle to pisanie. Chyba rzuce te robote.
+mpecho Slyszysz jak skrzypi pioro recepcjonistki.
+~
+> rand_prog 8~
+grumble
+say Nigdy nie uporam sie z ta papierkowa robota.
+~
+|
+#1531
+asystent gnom~
+asystent~
+asystenta~
+asystentowi~
+asystenta~
+asystentem~
+asystencie~
+asystencie~
+Asystent naukowca tu stoi przekladajac fiolki i zlewki.
+~
+To dobrze wyszkolony gnom. Nie jest moze zbyt silny, ale nadrabia to
+swoja wiedza naukowa.
+~
+1 0 500 C
+10 13 3 5d5+90 1d7+2
+100 2000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 0 0 0 400641 400641 1
+0 0 1775 2 0 1 64 2
+> rand_prog 3~
+whistle
+~
+> rand_prog 3~
+usmiech
+~
+|
+#1532
+naukowiec gnom~
+gnomi naukowiec~
+gnomiego naukowca~
+gnomiemu naukowcowi~
+gnomiego naukowca~
+gnomim naukowcem~
+gnomim naukowcu~
+gnomi naukowcu~
+Naukowiec chodzi tutaj gleboko zamyslony.
+~
+Widzisz gnoma, ktory duma nad swoim nowym wynalazkiem.Jego wlosy sa biale,
+ale wyglada na calkiem silnego.
+~
+1 4194856 500 C
+12 14 4 5d10+100 1d8+3
+1000 1300
+112 112 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+38 0 0 0 400641 400641 1
+0 0 1775 0 0 0 64 2
+> rand_prog 3~
+emote potrzasa glowa w glebokim zamysleniu.
+say Oczywiscie! To musi byc tak!
+~
+|
+#1533
+dziecko gnom~
+gnomie dziecko~
+gnomiego dziecka~
+gnomiemu dziecku~
+gnomie dziecko~
+gnomim dzieckiem~
+gnomim dziecku~
+gnomie dziecko~
+Gnomie dziecko rzuca tutaj zabawkowym bumerangiem.
+~
+Gnomie dziecko wyglada tak niewinnie bawiac sie tutaj. Masz ochote przylaczyc 
+sie do zabawy.
+~
+5 4194856 600 C
+8 18 7 3d7+80 1d6+2
+300 400
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 400945 400945 1
+0 0 1709 0 0 9 64 2
+#1534
+nauczyciel gnom kobieta~
+nauczycielka~
+nauczycielki~
+nauczycielce~
+nauczycielke~
+nauczycielka~
+nauczycielce~
+nauczycielko~
+Stara gnomia kobieta stoi tutaj i uczy dzieci.
+~
+Kobieta jest niska, pokrzywiona i wyglada na bardzo stara! Jest zajeta 
+uczeniem dzieci fizyki.
+~
+3 4194856 600 C
+10 16 5 5d10+100 1d8+0
+500 700
+112 112 2
+18 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 400945 400945 1
+0 0 1775 2 0 0 64 2
+> rand_prog 3~
+snap
+~
+> rand_prog 2~
+say Nawet w waszym mlodym wieku powinniscie myslec o przyszlosci.
+~
+|
+#1535
+nauczyciel gnom~
+nauczyciel~
+nauczyciela~
+nauczycielowi~
+nauczyciela~
+nauczycielem~
+nauczycielu~
+nauczycielu~
+Nauczyciel przykuwa uwage uczni swoja obecnoscia.
+~
+To typowy przyklad gnoma. Wyglada na malego i slabego, ale jednoczesnie
+jest na tyle inteligentny, ze moglby cie przechytrzyc.
+~
+1073741827 4194856 500 C
+6 15 4 1d12+100 1d8+1
+450 900
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 0 0 0 400945 400945 0
+0 0 0 2 0 0 64 2
+> rand_prog 5~
+emote wkazuje kilka punktow na tablicy.
+say Tworzyc to cel naszego zycia. Umrzec tworzac to blogoslawienstwo.
+~
+|
+#1536
+dziecko gnom~
+gnomie dziecko~
+gnomiego dziecka~
+gnomiemu dziecku~
+gnomie dziecko~
+gnomim dzieckiem~
+gnomim dziecku~
+gnomie dziecko~
+Gnomie dziecko rzuca tutaj zabawkowym bumerangiem.
+~
+Gnomie dziecko wyglada tak niewinnie bawiac sie tutaj. Masz ochote przylaczyc 
+sie do zabawy.
+~
+5 4194856 600 C
+8 18 7 3d7+80 1d6+2
+300 400
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 0 0 0 401009 401009 1
+0 0 1709 0 0 9 64 2
+> rand_prog 5~
+giggle
+~
+> rand_prog 2~
+wink $r
+~
+|
+#1537
+dziecko gnom~
+gnomie dziecko~
+gnomiego dziecka~
+gnomiemu dziecku~
+gnomie dziecko~
+gnomim dzieckiem~
+gnomim dziecku~
+gnomie dziecko~
+Gnomie dziecko stoi tutaj i rzuca kamieniami.
+~
+Gnomie dziecko wyglada tak niewinnie bawiac sie tutaj. Masz ochote przylaczyc 
+sie do zabawy.
+~
+1 0 500 C
+6 0 0 2d6+60 1d4+2
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 401009 401009 0
+0 0 1775 0 0 1 64 2
+> rand_prog 5~
+usmiech $r
+~
+> rand_prog 2~
+bounce
+~
+|
+#1538
+kobieta gnom~
+gnomia kobieta~
+gnomiej kobiety~
+gnomiej kobiecie~
+gnomia kobiete~
+gnomia kobieta~
+gnomiej kobiecie~
+gnomia kobieto~
+Gnomia kobieta stoi tutaj, starajac sie wygladac jak najpiekniej.
+~
+Kobieta jest niska i brzydka, ale stara sie wygladac na kilka razy ladniejsza.
+Zaczyna ci sie podobac ...
+~
+1 0 600 C
+10 16 5 5d10+100 1d8+0
+500 700
+112 112 2
+18 13 13 13 13 13 13
+0 0 0 0 0
+38 0 0 0 401009 401009 1
+0 0 1775 2 0 0 64 2
+#1539
+cien maly~
+maly cien~
+malego cienia~
+malemu cieniowi~
+maly cien~
+malym cieniem~
+malym cieniu~
+maly cieniu~
+Niewielka czarna plama tkwi tutaj w cieniu.
+~
+To jest cien, wlasciwie dopiero dziecko.Slyszales opowiesci o ich istnieniu
+ale nigdy nie spotkales nikogo kto by je widzial i przezyl. Cien jest 
+dokladnie wielkosci tego pokoju. Wydaje sie poruszac w twoim kierunku.
+~
+3 4194856 0 C
+15 0 0 2d30+150 2d7+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 2048 2
+> death_prog 100~
+mpecho Dzieki ci $n, uwolniles mnie z tego wiezienia.
+mpecho Cien powoli znika!
+mpgoto 199
+~
+> rand_prog 3~
+mpecho Czujesz chlod przeszywajacy twe cialo.
+say Pewnego dnia moja ciemnosc pochlonie caly swiat!
+~
+|
+#1545
+troll wielki most~
+wielki troll~
+wielkiego trolla~
+wielkiemu trollowi~
+wielkiego trolla~
+wielkim trollem~
+wielkim trollu~
+wielki trollu~
+Wielki troll stoi tutaj pilnujac mostu.
+~
+Troll jest niski ale barczysty z twarza podobna do ludzkiej ale z oczami
+i pazurami bestii.
+~
+7 4194856 -900 C
+20 12 3 1d50+350 5d3+4
+200 2000
+112 112 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1312495 0 3072 0 2 2
+> all_greet_prog 100~
+say Kto idzie?
+mpechoat $n Troll mowi 'Nikt nie przejdzie przez moj most nie placac!
+mpechoat $n Zaplata wynosi 500 sztuk zlota! Przejdziesz tylko po moim trupie!
+mpechoat $n Troll odpycha cie do tylu.
+~
+> fight_prog 100~
+if isnpc($n)
+ mer $n Troll wydaje bojowy okrzyk i bierze wielki zamach.
+ mpdamage $n 30000
+endif
+~
+> bribe_prog 500~
+if isfight($n)
+say Nie jestem glupcem! Nie przejdziesz dopoki zyje!
+else
+usmiech $n
+mpechoat $n Jestes na tyle madry zeby ze mna nie walczyc, bo wtedy mogloby byc zle!
+mpecho Przez chwile nad mostem unosi sie lekka mgielka i nagle pojawia sie brakujaca czesc mostu!
+mpechoaround $n $n rusza na wschod.
+mpechoaround $n Troll wklada zloto do sakiewki.
+mpechoat $n Troll przepuszcza cie i przechodzisz na wschodnia strone mostu.
+mpechoat $n Przez chwile nad mostem unosi sie lekka mgielka, most znow jest dziurawy.
+mpechoaround $n Nad mostem unosi sie lekka mgielka $n,  most znow jest dziurawy.
+mptransfer $n 1547
+put coins basket
+endif
+~
+> death_prog 100~
+mpecho Troll pada na ziemie smiertelnie ranny.
+mpecho Z trudem szepcze "Na razie odchodze, ale jeszcze sie zobaczymy".
+mpecho Po chwili troll umiera.
+mpoload 1546 1
+~
+|
+#1546
+troll wielki most~
+wielki troll~
+wielkiego trolla~
+wielkiemu trollowi~
+wielkiego trolla~
+wielkim trollem~
+wielkim trollu~
+wielki trollu~
+Wielki troll stoi tutaj pilnujac mostu.
+~
+Troll jest niski ale barczysty z twarza podobna do ludzkiej ale z oczami
+i pazurami bestii.
+~
+7 4194856 -900 C
+20 12 3 1d50+350 5d3+4
+200 2000
+112 112 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1312495 0 3072 0 2 2
+> all_greet_prog 100~
+say Kto idzie?
+mpechoat $n Troll mowi 'Nikt nie przejdzie przez moj most nie placac!
+mpechoat $n Zaplata wynosi 500 sztuk zlota! Przejdziesz tylko po moim trupie!
+mpechoat $n Troll odpycha cie do tylu.
+~
+> fight_prog 100~
+if isnpc($n)
+ mer $n Troll wydaje bojowy okrzyk i bierze wielki zamach.
+ mpdamage $n 2600
+endif
+~
+> bribe_prog 500~
+if isfight($n)
+say Nie jestem glupcem! Nie przejdziesz dopoki zyje!
+else
+usmiech $n
+mpechoat $n Jestes na tyle madry zeby ze mna nie walczyc, bo wtedy mogloby byc zle!
+mpecho Przez chwile nad mostem unosi sie lekka mgielka i nagle pojawia sie brakujaca czesc mostu!
+mpechoaround $n $n rusza na zachod.
+mpechoat $n Troll przepuszcza cie i przechodzisz na zachodnia strone mostu.
+mpechoat $n Przez chwile nad mostem unosi sie lekka mgielka, most znow jest dziurawy.
+mpechoaround $n Nad mostem unosi sie lekka mgielka $n, most znow jest dziurawy..
+mptransfer $n 1546
+put coins basket
+endif
+~
+> death_prog 100~
+mpecho Troll pada na ziemie smiertelnie ranny.
+mpecho Z trudem szepcze "Na razie odchodze, ale jeszcze sie zobaczymy".
+mpecho Po chwili troll umiera.
+mpoload 1547 1
+~
+|
+#1547
+zmija waz~
+zmija~
+zmiji~
+zmiji~
+zmije~
+zmija~
+zmiji~
+zmijo~
+Zmija bezszelestnie porusza sie w trawie polujac.
+~
+Ten waz mierzy dwie stopy, jest caly czarny z jasnym zygzakiem na grzbiecie
+Wydaje sie obserwowac kazdy twoj ruch.
+~
+1 4194856 -400 C
+6 0 25 2d5+55 1d4+2
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 66561 0 0 0 64 2
+> fight_prog 33~
+mpechoat $n Waz zaatakowal i ugryzl cie. Au! To boli!
+mpechoaround $n Waz kasa $n, to bardzo boli!
+mpdamage $n 3
+~
+|
+#1548
+straznik hobgoblin~
+hobgoblinski straznik~
+hobgoblinskiego straznika~
+hobgoblinskiemu straznikowi~
+hobgoblinskiego straznika~
+hobgoblinskim straznikiem~
+hobgoblinskim strazniku~
+hobgoblinski strazniku~
+Hobgoblinski straznik najpierw atakuje, potem mysli.
+~
+To jest bardzo wielki i bardzo brzydki goblin. Warczy gniewnie na twoj 
+widok.
+~
+35 4194856 -700 C
+10 15 4 2d15+100 1d8+1
+75 1000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 0 0 0 399855 399854 0
+0 0 1775 0 0 0 0 524290
+> rand_prog 2~
+burp
+~
+> rand_prog 1~
+grope self
+~
+|
+#1549
+straznik hobgoblin~
+hobgoblinski straznik~
+hobgoblinskiego straznika~
+hobgoblinskiemu straznikowi~
+hobgoblinskiego straznika~
+hobgoblinskim straznikiem~
+hobgoblinskim strazniku~
+hobgoblinski strazniku~
+Hobgoblinski straznik najpierw atakuje, potem mysli.
+~
+To jest bardzo wielki i bardzo brzydki goblin. Warczy gniewnie na twoj 
+widok.
+~
+33 4194856 -700 C
+10 15 4 2d15+100 1d8+1
+75 1000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 0 0 0 400031 400030 1
+0 0 1775 0 0 0 64 2
+#1550
+druciarz hobgoblin~
+druciarz~
+druciarza~
+druciarzowi~
+druciarza~
+druciarzem~
+druciarzu~
+druciarzu~
+Hobgoblin naprawia tutaj zniszczone przedmioty.
+~
+Widzisz hobgoblina, ktory tak bardzo stara sie skoncentrowac na swojej
+pracy, ze nie zauwaza twojej obecnosci. Pomimo ze jest to chyba 
+najmondrzejszy hobgoblin, nie wyglada na specjalnie inteligentnego.
+~
+3 4194856 -700 C
+12 14 4 5d10+100 1d8+3
+1000 1300
+112 112 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+43 0 0 0 400031 400030 1
+0 0 1775 0 0 0 64 2
+> rand_prog 5~
+fart
+mpecho Druciarz drapie sie po glowie.
+mpecho Badajac swoj palec wylizuje go do czysta i wraca do pracy.
+~
+|
+#1551
+gornik hobgoblin~
+hobgoblinski gornik~
+hobgoblinskiego gornika~
+hobgoblinskiemu gornikowi~
+hobgoblinskiego gornika~
+hobgoblinskim gornikiem~
+hobgoblinskim gorniku~
+hobgoblinski gorniku~
+Hobgoblinski gornik chodzi sobie wkolo nie przejmujac sie praca.
+~
+Gornik jest calkowicie pokryty pylem.
+~
+7 0 -400 C
+5 16 5 1d12+60 1d8+0
+700 500
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 0 0 0 400031 400030 1
+0 0 1773 0 0 0 64 2
+#1552
+straznik hobgoblin~
+hobgoblinski straznik~
+hobgoblinskiego straznika~
+hobgoblinskiemu straznikowi~
+hobgoblinskiego straznika~
+hobgoblinskim straznikiem~
+hobgoblinskim strazniku~
+hobgoblinski strazniku~
+Hobgoblinski straznik najpierw atakuje, potem mysli.
+~
+To jest bardzo wielki i bardzo brzydki goblin. Warczy gniewnie na twoj 
+widok.
+~
+3 4194856 -700 C
+10 15 4 2d15+100 1d8+1
+75 1000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 0 0 0 400031 400030 1
+0 0 1775 0 0 0 64 524290
+#1565
+new mob~
+a newly created new mob~
+a newly created new mob~
+a newly created new mob~
+a newly created new mob~
+a newly created new mob~
+a newly created new mob~
+a newly created new mob~
+Some god abandoned a newly created new mob here.
+~
+~
+1073741825 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+#1566
+dziecko gnom~
+gnomie dziecko~
+gnomiego dziecka~
+gnomiemu dziecku~
+gnomie dziecko~
+gnomim dzieckiem~
+gnomim dziecku~
+gnomie dziecko~
+Gleboko zamyslone gnomie dziecko jest tutaj.
+~
+Gnomie dziecko wyglada tak niewinnie, ze chcialoby sie je wziasc na rece 
+i przytulic.
+~
+3 4194856 600 C
+7 18 7 3d7+70 2d4+0
+300 400
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 0 0 0 400641 400641 1
+0 0 1709 0 0 9 64 2
+> rand_prog 3~
+nod nauczyciel
+~
+|
+#1599
+aset spacer mob~
+a newly created new mob~
+a newly created new mob~
+a newly created new mob~
+a newly created new mob~
+a newly created new mob~
+a newly created new mob~
+a newly created new mob~
+Some god abandoned a newly created new mob here.
+~
+~
+1073741825 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#1500
+klucz krwawy~
+krwawy klucz~
+krwawego klucza~
+krwawemu kluczowi~
+krwawy kluczy~
+krwawym kluczem~
+krwawym kluczu~
+krwawy kluczu~
+Krwawy klucz lezy na podlodze.~
+~
+18 0 1
+2 0 0 0
+1 1000 100
+#1501
+klucz zakurzony~
+zakurzony klucz~
+zakurzonego klucza~
+zakurzonemu kluczowi~
+zakurzony klucz~
+zakurzonym kluczem~
+zakurzonym kluczu~
+zakurzony kluczu~
+Zakurzony klucz lezy tutaj.~
+~
+18 0 1
+2 0 0 0
+1 1050 105
+#1502
+bumerang~
+bumerang~
+bumerang~
+bumerang~
+bumerang~
+bumerang~
+bumerang~
+bumerang~
+Zabawkowy bumerang bardzo chcialby byc podniesiony.~
+~
+5 1074003968 8193
+0 2 4 7
+5 5 0
+#1503
+laska sekata~
+sekata laska~
+sekata laska~
+sekata laska~
+sekata laska~
+sekata laska~
+sekata laska~
+sekata laska~
+Sekata laska tu lezy.~
+~
+5 1073741824 8193
+0 1 9 7
+15 600 60
+#1504
+miecz gnomi~
+gnomi miecz~
+gnomi miecz~
+gnomi miecz~
+gnomi miecz~
+gnomi miecz~
+gnomi miecz~
+gnomi miecz~
+Gnomi miecz przyciaga twoj wzrok.~
+~
+5 0 8193
+0 3 3 3
+15 4000 400
+E
+miecz gnomi~
+Ta bron nie zostala stworzona na potrzeby bitwy. Sluzy bardziej na pokaz niz
+do walki.~
+#1505
+tarcza drewniana~
+drewniana tarcza~
+drewnianej tarczy~
+drewnianej tarczy~
+drewniana tarcze~
+drewniana tarcza~
+drewnianej tarczy~
+drewniana tarczo~
+Drewniana tarcza lezy tutaj.~
+~
+9 0 513
+4 0 0 0
+16 3000 300
+#1506
+napoj krwawy~
+krwawy napoj~
+krwawy napoj~
+krwawy napoj~
+krwawy napoj~
+krwawy napoj~
+krwawy napoj~
+krwawy napoj~
+Krwawy napoj tu lezy.~
+~
+10 0 1
+15 -1 41 102
+22 1500 150
+'cure critical' 'cure critical' 'kindred strength'
+#1507
+plaszcz krwawy~
+krwawy plaszcz~
+krwawy plaszcz~
+krwawy plaszcz~
+krwawy plaszcz~
+krwawy plaszcz~
+krwawy plaszcz~
+krwawy plaszcz~
+Krwawy plaszcz lezy w kacie.~
+~
+9 64 5
+4 0 0 0
+15 2000 200
+A
+17 -5
+A
+13 5
+A
+25 -1
+#1508
+pierscien nietoperzy~
+nietoperzy pierscien~
+nietoperzy pierscien~
+nietoperzy pierscien~
+nietoperzy pierscien~
+nietoperzy pierscien~
+nietoperzy pierscien~
+nietoperzy pierscien~
+Pierscien w ksztalcie nietoperza lezy tutaj.~
+~
+9 1073741888 3
+3 0 0 0
+2 2500 250
+A
+14 15
+#1509
+naszyjnik paciorki~
+naszyjnik z paciorkow~
+naszyjnik z paciorkow~
+naszyjnik z paciorkow~
+naszyjnik z paciorkow~
+naszyjnik z paciorkow~
+naszyjnik z paciorkow~
+naszyjnik z paciorkow~
+Naszyjnik z paciorkow lezy tutaj.~
+~
+9 0 5
+3 0 0 0
+8 4000 400
+A
+18 2
+#1510
+miecz elektryczny~
+miecz elektryczny~
+miecz elektryczny~
+miecz elektryczny~
+miecz elektryczny~
+miecz elektryczny~
+miecz elektryczny~
+miecz elektryczny~
+Elektryczny miecz lezy tutaj.~
+~
+5 65 8193
+0 4 3 3
+20 100000 10000
+#1511
+kosz pleciony~
+pleciony kosz~
+plecionego kosza~
+plecionemu koszu~
+pleciony kosz~
+plecionym koszem~
+plecionym koszu~
+pleciony koszu~
+Pleciony kosz lezy tutaj.~
+~
+15 0 16385
+150 0 -1 0
+5 45 4
+#1512
+orzeszki~
+orzeszki~
+orzeszki~
+orzeszki~
+orzeszki~
+orzeszki~
+orzeszki~
+orzeszki~
+Troiche orzeszkow lezy na ziemi.~
+~
+19 262144 1
+16 0 0 0
+9 25 2
+#1513
+ziarno~
+ziarno~
+ziarno~
+ziarno~
+ziarno~
+ziarno~
+ziarno~
+ziarno~
+Ktos rozsypal tu troche ziarna.~
+~
+19 0 1
+15 0 0 0
+8 22 2
+#1514
+ludeczka~
+ludeczka~
+ludeczka~
+ludeczka~
+ludeczka~
+ludeczka~
+ludeczka~
+ludeczka~
+Mala ludeczka tu lezy.~
+~
+22 0 1
+0 0 0 0
+24 1500 150
+#1515
+buty gnomie~
+gnomie buty~
+gnomie buty~
+gnomie buty~
+gnomie buty~
+gnomie buty~
+gnomie buty~
+gnomie buty~
+Widzisz pare gnomich butow.~
+~
+9 0 65 8
+4 0 0 0
+12 12000 1200
+A
+14 40
+#1516
+monety ~
+kupka monet~
+kupka monet~
+kupka monet~
+kupka monet~
+kupka monet~
+kupka monet~
+kupka monet~
+Kupka monet.~
+~
+20 0 1
+1000 0 0 0
+1 1 0
+#1517
+monety~
+kupka monet~
+kupka monet~
+kupka monet~
+kupka monet~
+kupka monet~
+kupka monet~
+kupka monet~
+Kupka monet. ~
+~
+20 0 1
+5000 0 0 0
+1 1 0
+#1518
+monety~
+kupka monet~
+kupka monet~
+kupka monet~
+kupka monet~
+kupka monet~
+kupka monet~
+kupka monet~
+Kupka monet.~
+~
+20 0 1
+100000 0 0 0
+1 1 0
+#1519
+tarcza kamienna~
+kamienna tarcza~
+kamienna tarcza~
+kamienna tarcza~
+kamienna tarcza~
+kamienna tarcza~
+kamienna tarcza~
+kamienna tarcza~
+Kamienna tarcza tu lezy.~
+~
+9 0 513
+4 0 0 0
+35 9000 900
+A
+1 2
+#1520
+kolczuga ciezka~
+ciezka kolczuga~
+ciezka kolczuga~
+ciezka kolczuga~
+ciezka kolczuga~
+ciezka kolczuga~
+ciezka kolczuga~
+ciezka kolczuga~
+Ciezka kolczuga lezy sobie tutaj.~
+~
+9 1073741824 9 24
+6 0 0 0
+30 35000 3500
+#1521
+pala wielka~
+wielka pala~
+wielka pala~
+wielka pala~
+wielka pala~
+wielka pala~
+wielka pala~
+wielka pala~
+Wielka pala lezy tutaj.~
+~
+5 1073741824 8193
+0 4 3 7
+22 20000 2000
+#1522
+banan~
+banan~
+banan~
+banan~
+banan~
+banan~
+banan~
+banan~
+Banan lezy tu sobie.~
+~
+19 0 1
+6 0 0 0
+5 9 0
+#1523
+napoj zdrowia~
+napoj zdrowia~
+napoj zdrowia~
+napoj zdrowia~
+napoj zdrowia~
+napoj zdrowia~
+napoj zdrowia~
+napoj zdrowia~
+Ktos zostawil tutaj napoj zdrowia.~
+~
+10 129 1
+32 -1 20 130
+1 1 0
+'heal' 'bless' 'refresh'
+#1524
+dzwignia~
+dzwignia wewnatrz maszyny~
+dzwignia wewnatrz maszyny~
+dzwignia wewnatrz maszyny~
+dzwignia wewnatrz maszyny~
+dzwignia wewnatrz maszyny~
+dzwignia wewnatrz maszyny~
+dzwignia wewnatrz maszyny~
+Mala dzwignia wystaje z wnetrza maszyny.~
+~
+39 0 0
+0 0 0 0
+1 0 0
+E
+dzwignia~
+Tam mala dzwignia zrobiona jest z jakiegos swiecacego, czerwonego metalu.
+Wilgotna w dotyku. Nieprzyjemne uczucie.~
+> use_prog 100~
+mpecho Kiedy dzwignia sie poruszyla, dziwny glos wypelnil pokoj.
+mpecho "Znowu pracujesz do pozna szefie? Naprawde powinienes odpoczac.
+mpecho Zaoszczede ci fatygi. Nastepnym razem idz do domu wczesniej."
+mpechoat $n Czujesz sie rozrywany ze wszystkich stron.
+mpecho Dziwna mgla wydobywa sie z maszyny.
+mpechoat $n Wszystko znika z widoku, zastapione przez inny widok.
+mpechoaround $n $n znika we mgle..
+mpechoaround $n Kiedy mgla sie rozwiewa, tylko maszyna pozostaje na miejscu.
+mptransfer $n 1534
+mppurge dzwignia
+mpoload 1524
+~
+|
+#1525
+maszyna~
+maszyna~
+maszyna~
+maszyna~
+maszyna~
+maszyna~
+maszyna~
+maszyna~
+Wielka, dziwna maszyna cicho tutaj buczy.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+maszyna~
+Wyglada na ozdobne pudelko z wieloma rurami wystajacymi pod dziwnymi katami.
+Ta mala maszyna wyglada naprawde dziwnie.Male drzwiczki usytuowane sa na
+przednim panelu. Musisz im sie przyjrzec blizej.~
+E
+drzwiczki~
+W srodku jest pelno kulek i sprezynek. Ze srodka wydobywa sie dziwne buczenie.
+Kiedy wkladasz reke do srodka, twoje palce natrafiaja na cos. Trzeba zbadac to 
+dokladniej.~
+#1526
+skrzynia~
+skrzynia~
+skrzynia~
+skrzynia~
+skrzynia~
+skrzynia~
+skrzynia~
+skrzynia~
+Skrzynia spoczywa bezpiecznie na podlodze.~
+~
+15 1074003968 0
+2 5 0 0
+1 0 0
+E
+skrzynia~
+Wielka i ciezka, zelazna skrzynia. Skrzynia jest zaprojektowana w ten sposob,
+aby chronic cos cennego, lub zabezpieczyc cos bardzo groznego. Zadziwia
+sposobem wykonania.~
+#1527
+paczka~
+dziwna sliska paczka~
+dziwna sliska paczka~
+dziwna sliska paczka~
+dziwna sliska paczka~
+dziwna sliska paczka~
+dziwna sliska paczka~
+dziwna sliska paczka~
+Dziwna sliska paczka lezy tutaj.~
+~
+13 1073741824 1
+0 0 0 0
+1 0 0
+E
+paczka~
+Zrobiona ze swiecacego, sliskiego materialu, ta ciemna paczka zostala
+zapieczetowana. Ktos bardzo sie staral chronic ja. Lezy tu sobie bezpiecznie
+i nikt nie zwraca na nia uwagi.~
+> get_prog 100~
+mpechoat $n Nagle fala goraca przeszywa twoje cialo.
+mpechoat $n Zostales odrzucony do tylu przez mala eksplozje.
+mpechoaround $n $n odrzucila do tylu mala eksplozja.
+mpdamage $n 30
+mpechoat $n Ostroznie odkladasz paczke na swoje miejsce.
+mpechoaround $n $n ze skupiona mina odklada paczke z powrotem.
+mpforce $n put paczka skrzynia
+mpforce $n close skrzynia
+~
+|
+#1528
+pekniecie~
+pekniecie w scianie~
+pekniecie w scianie~
+pekniecie w scianie~
+pekniecie w scianie~
+pekniecie w scianie~
+pekniecie w scianie~
+pekniecie w scianie~
+Mozna zauwazyc tu male pekniecie w scianie.~
+~
+15 0 0
+10 0 0 0
+1 0 0
+E
+pekniecie~
+Po dokladnym przeszukaniu, znajdujesz niewielkie pekniecie na polnocnej scianie.
+Wydaje ci sie to bardzo podejrzane.
+~
+#1529
+pioro czarne~
+czarne pioro~
+czarne pioro~
+czarne pioro~
+czarne pioro~
+czarne pioro~
+czarne pioro~
+czarne pioro~
+Male, dziwnie uformowane czarne pioro lezy na ziemi.~
+~
+1 1073742849 16385
+0 0 7200 0
+1 0 0
+E
+pioro~
+Zrobione z jakiegos czarnego krystalicznego materialu, to pioro naprawde 
+dziwnie wyglada. Koncowka piora nie jest zwykla stalowka, lecz niewielkim
+walcem. Drugi koniec piora zrobiony jest z czystego krysztalu. Pioro wyglada na 
+suche i dawno nie uzywane.
+~
+A
+3 1
+A
+14 30
+A
+27 256
+> get_prog 100~
+mpechoat $n Niewielka iskra przypala ci palec gdy dotykasz piora.
+mpechoaround $n Pioro zaczyna sie iskrzyc gdy $n go dotyka.
+~
+> use_prog 100~
+mpechoat $n Krzyczysz gdy koncowka piora kaleczy cie w palec.
+mpechoaround $n $n krzyczy gdy koncowka piora kaleczy $s palec.
+mpechoat $n Kropla twojej krwi wyplywa na pioro.
+mpechoat $n Pioro zaczyna lsnic nakarmione twoja krwia.
+mpechoaround $n Pioro zaczyna lsnic pod wplywem krwi.
+mpdamage $n 10
+~
+|
+#1530
+statua granitowa gnom~
+kamienna statua~
+kamienna statua~
+kamienna statua~
+kamienna statua~
+kamienna statua~
+kamienna statua~
+kamienna statua~
+Wielka granitowa statua przedstawiajaca gnama trzymajacego w rece brazawa 
+tablice stoi tutaj.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+granitowa~
+Gdy patrzysz na ten wielki kawal granitu, widzisz tablice wykonana z brazu.
+Jest na niej wyrytych wiele imion.
+~
+E
+tablica~
+Brazowa tablica jest szeroka i wysoka na kilka stop. Kazdy cal jej powierzchni
+zapelniony jest nazwiskami. Tytul mowi: "Nasi bohaterowie". Wiedzac co nieco
+o kulturze gnomow, zdajesz sobie sprawe, ze to nazwiska naukowcow, ktorzy
+zgineli podczas eksperymentow. Dla gnomow najwiekszym honorem jest zginac
+mlodo, wymyslajac cos glupiego.~
+E
+granitowa statua~
+Gdy patrzysz na ten wielki kawal granitu, widzisz tablice wykonana z brazu.
+Jest na niej wyrytych wiele imion.~
+E
+statua~
+Gdy patrzysz na ten wielki kawal granitu, widzisz tablice wykonana z brazu.
+Jest na niej wyrytych wiele imion.~
+#1531
+polka debowa cienka~
+cienka debowa polka~
+cienka debowa polka~
+cienka debowa polka~
+cienka debowa polka~
+cienka debowa polka~
+cienka debowa polka~
+cienka debowa polka~
+Debowa polka wisi tutaj.~
+~
+15 0 0
+20 0 0 0
+1 0 0
+E
+polka polki~
+Recznie robione debowe polki swiadcza o talencie rzemieslniczym ich 
+konstruktora. Karzdy kawalek jest recznie rzezbiony. Niezaleznie od uzytych 
+narzedzi polki przedstawiaja wspanialy widok.
+~
+#1532
+pergamin ochrony~
+pergamin ochrony~
+pergamin ochrony~
+pergamin ochrony~
+pergamin ochrony~
+pergamin ochrony~
+pergamin ochrony~
+pergamin ochrony~
+Pozolkly ze starosci pergamin tu lezy.~
+~
+2 1073741824 1
+25 -1 20 125
+1 0 0
+'dispel magic' 'bless' 'protection'
+E
+pergamin~
+Na tym zuzytym pergaminie wypisane sa slowa mocy. Odczytanie ich wydaje sie
+bardzo trudne, ale jedno wiesz na pewno: pergamin ten sprawi, ze zostana zdjete
+z ciebie wszystkie czary, a twoje bostwo poblogoslawi cie i zapewni ochrone.~
+> get_prog 100~
+mpechoat $n Tajemniczy glos rozbrzmiewa w twoim umysle.
+mpechoat $n "Jesli postanowisz mnie uzyc pamietaj:
+mpechoat $n Jestem do uzytku osobistego, nie probuj rzucac tych czarow na innych graczy.
+mpechoat $n Rezultat moze byc nieprzewidywalny,
+mpechoat $n i moze zwrocic uwage Niesmiertelnych."
+~
+|
+#1533
+grzyb dziwaczny~
+dziwaczny grzyb~
+dziwaczny grzyb~
+dziwaczny grzyb~
+dziwaczny grzyb~
+dziwaczny grzyb~
+dziwaczny grzyb~
+dziwaczny grzyb~
+Dziwnie wygladajacy grzyb pulsuje tajemniczym swiatlem.~
+$n pinch$q $s nose as $e gag$q down this fuzzy fungoid lump.~
+19 0 1
+5 0 0 0
+3 0 0
+> sac_prog 75~
+mpecho W miejscu gdzie lezal grzyb widzisz wstretne szumowiny.
+mpecho Gdy tak patrzysz, szumowiny przeksztalcaja sie w mala pastylke.
+mpoload 1534
+mpat $n drop pastylka
+~
+|
+#1534
+pastylka~
+pastylka~
+pastylka~
+pastylka~
+pastylka~
+pastylka~
+pastylka~
+pastylka~
+Mala wstretna pastylka lezy tu sobie.~
+$n hold$q back a gag as $e slip$q the losenge down $s throat~
+26 0 1
+20 -1 148 168
+5 550 55
+'infravision' 'slink' 'valiance'
+#1535
+miecz elektryczny~
+miecz elektryczny~
+miecza elektrycznego~
+mieczowi elektrycznemu~
+miecz elektryczny~
+mieczem elektrycznym~
+mieczu elektrycznym~
+mieczu elektryczny~
+Elektryczny miecz lezy tutaj.~
+~
+5 65 8193
+0 4 3 3
+20 100000 10000
+A
+12 25
+A
+13 15
+A
+18 3
+#1536
+okulary~
+okulary do czytania~
+okulary do czytania~
+okulary do czytania~
+okulary do czytania~
+okulary do czytania~
+okulary do czytania~
+okulary do czytania~
+Okulary w drucianej oprawie leza tutaj.~
+~
+9 524353 131073
+6 9 0 0
+4 0 0
+A
+4 1
+A
+3 2
+#1537
+plyn swiecacy~
+swiecacy plyn~
+swiecacy plyn~
+swiecacy plyn~
+swiecacy plyn~
+swiecacy plyn~
+swiecacy plyn~
+swiecacy plyn~
+Buteleczka pelna swiecacego plynu, ktory gotuje sie i bulgoce.~
+~
+10 65 1
+20 -1 41 130
+1 0 0
+'bless' 'cure critical' 'refresh'
+#1538
+fartuch laboratoryjny material~
+fartuch laboratoryjny~
+fartucha laboratoryjnego~
+fartuchowi laboratoryjnemu~
+fartuch laboratoryjny~
+fartuchem laboratoryjnym~
+fartuchu laboratoryjnym~
+fartuchu laboratoryjnym~
+Kupa brazowego materialu lezy tutaj w nieladzie.~
+~
+9 512 1025 8
+2 4 0 0
+3 1200 120
+A
+2 1
+A
+3 1
+#1539
+kamien okragly plaski~
+okragly plaski kamien~
+okragly plaski kamien~
+okragly plaski kamien~
+okragly plaski kamien~
+okragly plaski kamien~
+okragly plaski kamien~
+okragly plaski kamien~
+Dziwnie wygladajacy kamien lezy tutaj.~
+~
+3 65 16385
+15 1 1 -1
+5 300 30
+'stone skin'
+#1540
+przepaska~
+bawelniana przepaska~
+bawelnianej przepaski~
+bawelnianej przepasce~
+bawelniana przepaske~
+bawelniana przepaska~
+bawelnianej przepasce~
+bawelniana przepasko~
+Bawelniana chustka pokryta plamami lezy tutaj.~
+~
+9 0 2049 4
+1 3 0 0
+3 0 0
+E
+przepaska~
+Ta chustka nie jest zbyt modna. W kilku miejscach pokryta jest wielkimi 
+tlustymi plamami.
+~
+A
+1 1
+#1541
+chustka ~
+chustka na glowe~
+chustki na glowe~
+chustce na glowe~
+chustke na glowe~
+chustka na glowe~
+chustce na glowe~
+chustko na glowe~
+Chustka na glowe lezy tutaj zwinieta w klebek.~
+~
+9 0 17 4
+2 2 0 0
+1 100 10
+E
+chustka~
+To naprawde przepiekna chustka, zrobiona z przedniego jedwabiu. Kilka
+kolorowych plam bardzo ladnie komponuje sie w tlo.
+~
+A
+25 1
+#1542
+fiolka~
+fiolka~
+fiolka~
+fiolka~
+fiolka~
+fiolka~
+fiolka~
+fiolka~
+Fiolka z musujaca ciecza lezy tutaj.~
+~
+10 0 1
+15 -1 41 102
+22 1500 150
+'cure critical' 'cure critical' 'kindred strength'
+#1543
+plaszcz podarty~
+podarty plaszcz~
+podarty plaszcz~
+podarty plaszcz~
+podarty plaszcz~
+podarty plaszcz~
+podarty plaszcz~
+podarty plaszcz~
+Podarty kraciasty plaszcz lezy tu na kupce.~
+~
+9 1073741888 5
+4 0 0 0
+15 2000 200
+A
+17 -5
+A
+13 5
+A
+25 -1
+#1544
+toga futrzana~
+futrzana toga~
+futrzanej togi~
+futrzanej todze~
+futrzana toge~
+futrzana toga~
+futrzanej todze~
+futrzana togo~
+Stare kawalki futra zszyte razem tworza calkiem ladna toge.~
+~
+9 8421969 1025 16
+2 4 0 0
+8 15000 1500
+E
+futrzana toga~
+Ta toga bedzie ci sluzyc dobrze, chyba ze jestes vampirem lub zlodziejem.
+Zapach tej togi moglby doprowadzic vampira dz szalenstwa lub spowodowac
+przedwczesne wykrycie zlodzieja.
+~
+A
+13 10
+A
+12 10
+A
+18 1
+A
+19 1
+#1545
+berlo~
+pogiete berlo~
+pogiete berlo~
+pogiete berlo~
+pogiete berlo~
+pogiete berlo~
+pogiete berlo~
+pogiete berlo~
+Wielkie pogiete berlo inkrustowane krysztalami.~
+~
+5 1073741908 8193
+0 0 0 8
+7 14200 1420
+E
+berlo~
+To berlo wyglada raczej jak maczuga. Ostre krysztaly na jego koncu moga
+okazac sie niebezpieczne.
+~
+A
+19 3
+A
+18 3
+A
+2 1
+#1546
+dysk zloty szczerozloty~
+zloty dysk~
+zlotego dysku~
+zlotemu dyskowi~
+zloty dysk~
+zlotym dyskiem~
+zlotym dysku~
+zloty dysku~
+Szczerozloty dysk lezy sobie w trawie.~
+~
+13 0 1
+0 0 0 0
+1 500 50
+E
+dysk~
+Zrobiony ze szczerego zlota, ten dysk jest naprawde dziwny. Runy i symbole
+mocy wyryte na jego powierzchni ukladaja sie w hipnotyzujace wzory.
+Gdy na nie patrzysz, zaczynasz sie czuc jakos dziwnie.
+~
+> get_prog 100~
+if inroom($n) == 1546
+ if ispc($n)
+  mpforce $n look dysk
+  mea $n Tajemniczy glos rozbrzmiewa ci w umysle.
+  mea $n "Pokonales mego pana, mozesz przejsc.
+  mea $n Jednakze uwazaj. On nie odszedl na zawsze.
+  mea $n Gdy znowu sie tutaj pojawisz, powtornie stawisz mu czola."
+  mpe Wokol mostu wzmaga sie wiatr, sprawiajac ze pojawia sie brakujaca czesc.
+  mea $n Dziwna sila przepycha cie przez most.
+  mer $n Dziwna sila przepycha cie przez most.
+  mpe Po chwili znowu pojaiwa sie dziura w moscie.
+  mea $n Dysk staje sie tak goracy, ze go upuszczasz.
+  mptransfer all 1547
+  mpat 1547 mpforce $n drop dysk
+  mpe Dysk zmienia sie w pyl.
+  mpat 1547 mppurge dysk
+ else
+  mpforce $n drop dysk
+  mpe Dysk zmienia sie w pyl.
+  mppurge dysk
+ endif
+endif
+~
+|
+#1547
+dysk zloty szczerozloty~
+zloty dysk~
+zlotego dysku~
+zlotemu dyskowi~
+zloty dysk~
+zlotym dyskiem~
+zlotym dysku~
+zloty dysku~
+Szczerozloty dysk lezy sobie w trawie.~
+~
+13 0 1
+0 0 0 0
+1 500 50
+E
+dysk~
+Zrobiony ze szczerego zlota, ten dysk jest naprawde dziwny. Runy i symbole
+mocy wyryte na jego powierzchni ukladaja sie w hipnotyzujace wzory.
+Gdy na nie patrzysz, zaczynasz sie czuc jakos dziwnie.~
+> get_prog 100~
+if inroom($n) == 1547
+ if ispc($n)
+  mpforce $n look dysk
+  mea $n Tajemniczy glos rozbrzmiewa ci w umysle.
+  mea $n "Pokonales mego pana, mozesz przejsc.
+  mea $n Jednakze uwazaj. On nie odszedl na zawsze.
+  mea $n Gdy znowu sie tutaj pojawisz, powtornie stawisz mu czola."
+  mpe okol mostu wzmaga sie wiatr, sprawiajac ze pojawia sie brakujaca czesc.
+  mea $n Dziwna sila przepycha cie przez most.
+  mer $n Dziwna sila przepycha cie przez most.
+  mpe  Po chwili znowu pojaiwa sie dziura w moscie.
+  mea $n Dysk staje sie tak goracy, ze go upuszczasz.
+  mptransfer all 1546
+  mpat 1546 mpforce $n drop dysk
+  mpe dysk zmienia sie w pyl.
+  mpat 1546 mppurge dysk
+ else
+  mpforce $n drop dysk
+  mpe Dysk zmienia sie w pyl.
+  mppurge dysk
+ endif
+endif
+~
+|
+#1548
+helm zardzewialy~
+zardzewialy helm~
+zardzewialego helmu~
+zardzewialemu helmowi~
+zardzewialy helm~
+zardzewialym helmem~
+zardzewialym helmie~
+zardzewialy helmie~
+To jest zardzewialy helm, troche pogiety ale jeszcze dobry.~
+~
+15 0 17 8
+20 0 0 0
+4 1234 123
+A
+17 -7
+A
+25 -1
+A
+31 2
+#1550
+aset spacer object~
+a newly created aset spacer object~
+a newly created aset spacer object~
+a newly created aset spacer object~
+a newly created aset spacer object~
+a newly created aset spacer object~
+a newly created aset spacer object~
+a newly created aset spacer object~
+Some god dropped a newly created aset spacer object here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#1573
+zrodelko splugawione sadzawka~
+splugawione zrodelko~
+splugawione zrodelko~
+splugawione zrodelko~
+splugawione zrodelko~
+splugawione zrodelko~
+splugawione zrodelko~
+splugawione zrodelko~
+Jest tu male zrodelko, niestetu zanieczyszczone.~
+~
+25 0 0
+0 0 0 1
+1 0 0
+E
+sadzawka~
+Pekniecie w scianie pozwolilo wodzie wydostac sie na zewnatrz, tworzac
+mala sadzawke. Nieprzyjemny zapach i nieciekawy kolor pozwalaja przypuszczac
+ze woda nie nadaje sie do picia.
+~
+E
+zrodelko~
+Pekniecie w scianie pozwolilo wodzie wydostac sie na zewnatrz, tworzac
+mala sadzawke. Nieprzyjemny zapach i nieciekawy kolor pozwalaja przypuszczac
+ze woda nie nadaje sie do picia.~
+E
+splugawione~
+Pekniecie w scianie pozwolilo wodzie wydostac sie na zewnatrz, tworzac
+mala sadzawke. Nieprzyjemny zapach i nieciekawy kolor pozwalaja przypuszczac
+ze woda nie nadaje sie do picia.~
+> use_prog 100~
+if isnpc($n)
+  mpecho $n krztusi sie, kaszle i odskakuje ze wrzaskiem od zrodelka!
+  mppurge $n
+else
+  mpechoat $n Woda pali nieznosnie twoje gardlo.
+  mpechoat $n Kaszlac zastanawiasz sie czy to bylo naprawde madre.
+  mpechoaround $n $n krztusi sie i kaszle $e odskakuje ze wrzaskiem od zrodelka!
+  mpdamage $n 10
+  mpechoat $n Po chwili czujesz bol brzucha.
+  mpechoaround $n $n skreca sie z bolu.
+endif
+~
+|
+#1597
+lopata ~
+brudna lopata~
+brudna lopata~
+brudna lopata~
+brudna lopata~
+brudna lopata~
+brudna lopata~
+brudna lopata~
+Ktos upuscil tutaj brudna gornicza lopate.~
+~
+59 0 16385
+0 0 0 0
+5 1200 120
+E
+lopata~
+Ta lopata to wspaniale narzedzie do kopania.~
+A
+5 1
+#1598
+znak~
+znak~
+znak~
+znak~
+znak~
+znak~
+znak~
+znak~
+Dziwny, blyszczacy znak stoi przy drodze.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+znak~
+Wieki temu, daleko stad, zyl sobie narod gnomow. Budowniczy, ciesle, naukowcy,
+stworzyli wielkie i wspaniale rzeczy. Dzieki wspanialym pomyslom i poczuciu
+humoru stworzyli kraine mlekiem i miodem plynaca. Wedrowcy trafiajacy na ich 
+ziemie czesto byli pod wrazeniem gnomich wynalazkow.
+
+Podczas swych wedrowek gnomy natknely sie na narod hobgoblinow. Brudne 
+i przyglupie hobgobliny podbily jednak serca gnomow. Gnomy rozpoczely ciezka
+prace uczac te tepe istoty budowania i innych pozytecznych rzeczy.
+Wkrotce hobgobliny pojely w czym rzecz. Chytre i przebiegle z natury 
+hobgobliny zaczely knuc spisek, wykorzystujac to czego nauczyly ich gnomy.
+ 
+Pewnego dnia hobgobliny zbuntowaly sie. Chwycily za bron i rozpoczela sie
+krwawa wojna. W rezultacie gnomy rozproszyly sie po calym swiecie, nigdzie
+nie zagrzewajac miejsca na dluzej.
+
+(Pojawia sie blyszczacy tekst, napisz "LOOK znak2" aby dowiedziec sie wiecej)
+~
+E
+znak2~
+Na wschodzie jest mala gnomia wioska.  Maly fragment czegos, co kiedys bylo
+wielkim narodem gnomow. Ciche i spokojne pobudowaly tutaj swoje domy. Jednak
+nie dane im bylo zaznac spokoju. Banda hobgoblinow zalazyla oboz gdzies 
+w tej okolicy. Zyja w pobliskich jaskiniach czekajac na posilki.
+ 
+Spokoj tej okolicy moze zostac w kazdej chwili zaklocony. Niedawno okazalo
+sie, ze kilka gnomow zaginelo...
+ 
+Uwaznie czytaj wszystkie napisy i czasto uzywaj komendy LOOK, nigdy nie
+wiadomo co mozesz znalezc.
+ 
+Ta krainka zostala dostosowana do graczy na poziomach od 5 do 20.
+ 
+Napisana przez:
+ 
+Witherin Seccunda-DethBlayde, the Badger
+Brittany Seccunda-DethBlayde, Godmother of the Realms
+
+Przetlumaczyl: Bercik
+~
+#1599
+aset spacer object~
+a newly created aset spacer object~
+a newly created aset spacer object~
+a newly created aset spacer object~
+a newly created aset spacer object~
+a newly created aset spacer object~
+a newly created aset spacer object~
+a newly created aset spacer object~
+Some god dropped a newly created aset spacer object here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#1500
+Gwardia wodza~
+Kilka niedbale zbitych desek tworza stoly, na ktorych leza rozne rodzaje
+zardzewialej broni. Na polnocnej scianie wielka kamienna plyta zastepuje
+drzwi.
+~
+0 0 13
+D0
+Krolewska komnata
+~
+drzwi granitowe~
+3 -1 1576
+D2
+Pokoj strazy.
+~
+~
+0 -1 1575
+S
+#1501
+Zakret na drodze~
+Droga rozszerza sie w tym miejscu,przechodzac w dobrze utrzymany gosciniec.
+Widac tutaj slady Droga prowadzi dalej na wschod, podczas gdy mala
+sciezka znika miedzy drzewami na polnocy.
+~
+0 4 3
+D1
+Droga
+~
+~
+0 -1 1502
+D7
+Sciezka ginie miedzy drzewami...
+~
+~
+0 -1 3588
+E
+podpis~
+Kraina na wschodzie zaludniona jest przez dwa narody. Gnomy, ktorzy sa
+budowniczymi, naukowcami, nauczycielami i bardzo wesolymi stworzeniam
+mieszkaja we wiosce na wschodzie. Hobgobliny, brudne, ochydne, przewrotne
+stwory zajmuja jaskinie dalej na wschodzie. Te dwa narody ciagle ze soba
+rywalizuja i nie ma miedzy nimi zgody.
+
+Uwaznie czytaj wszystkie napisy i czasto uzywaj komendy LOOK, nigdy nie
+wiadomo co mozesz znalezc.
+Ta krainka zostala dostosowana do graczy na poziomach od 5 do 20.
+ 
+Krainka napisana przez:
+Witherin Seccunda-DethBlayde, the Badger
+Brittany Seccunda-DethBlayde, Godmother of the Realms
+Ukonczona: 7 maja, 1996
+Przetlumaczona przez Bercika~
+S
+#1502
+Odlegle dzwieki~
+Jest tu tak pieknie i spokojnie, ze nie mozesz oprzec sie pokusie
+odpoczynku pod jednym z drzew, ktore tu rosna. Jedynym dzwiekiem psujacym
+nastroj jest odlegly stukot metalu o metal. Droga rozdziela sie tu,
+biegnie na wschod i na zachod. Wygodny, brukowany trakt prowadzi na polnoc.
+~
+0 4 3
+D0
+Jeszcze jedna droga
+~
+~
+0 -1 1503
+D1
+Lesna sciezka
+
+~
+~
+0 -1 1520
+D3
+Zakret na drodze
+~
+~
+0 -1 1501
+S
+#1503
+Przeswit w drzewach~
+Droga prowadzi na polnoc i poludnie.Przerwy w drzewach na wschodzie
+i zachodzie ukazuja budynki dziwnego projektu. Dosyc wielkie, wygladaja
+na solidnie zbudowane. Niskie, ale ich tworcy nie sa karlami.
+~
+0 0 3
+D0
+Droga
+~
+~
+0 -1 1510
+D1
+Kwadratowy budynek
+~
+~
+0 -1 1506
+D2
+Skrzyzowanie
+~
+~
+0 -1 1502
+D3
+Kwadratowy budynek
+~
+~
+0 -1 1505
+S
+#1504
+Magazyn~
+Ten maly pokoik przepelniony jest masa roznych dziwnych przedmiotow.
+Male, dokladnie opisane pudelka leza pod scianami. Jest tego naprawde
+duzo.
+~
+0 8 0
+D1
+Laboratorium
+~
+~
+0 -1 1505
+E
+pudelka~
+Kazde pudeleczko jest starannie opisane. Dla ciekawosci otwierasz pudelko 
+z napisem "gwozdzie". Nie tylko pudelko jest opisane, ale kazdy gwozdz 
+ma karteczke z napisem "gwodzdz sztuk 1".~
+S
+#1505
+Male laboratorium~
+Gdy przeszedles przez prog tego pomieszczenia twoje uszy zaatakowala
+kakafonia dzwiekow. Setki malych urzadzen wala sie po stolach w calym
+laboratorium. Tykaja, pikaja, piszcza, bucza, zastanawiasz sie jak ktos
+moze wogole pracowac w takich warunkach.
+~
+0 8 0
+D1
+Cichy trakt
+~
+~
+0 -1 1503
+D3
+Magazyn
+~
+~
+0 -1 1504
+S
+#1506
+Male laboratorium~
+Gdy przechodzisz przez drzwi zaskakuje cie nienaturalna cisza. Wszystkie 
+dzwieki z zewnatrz cichna nagle. Gdy wsluchujesz sie tak w cisze zdajesz 
+sobie sprawe, ze cos jednak slyszysz. Ciche, ledwie zauwazalne buczenie
+dociera do twoich uszu - to dziwna maszyna stojaca przy poludniowej
+scianie.
+~
+0 8 0
+D1
+Magazyn
+~
+~
+0 -1 1507
+D3
+Cichy trakt~
+~
+0 -1 1503
+S
+#1507
+Kolka i sprezynki~
+Ten magazyn pelen jest roznych zebatek i sprezynek najrozmaitszego
+pochodzenia. Sa ich tysiace. Od plaskikowych po drewniane, od mosieznych
+po zlote. Kazdy element ma karteczke z dokladnym opisem.
+~
+0 8 0
+D3
+Laboratorium
+~
+~
+0 -1 1506
+S
+#1508
+Porzadny magazyn~
+Maly wybuch powoduje, ze ped powietrza odrzuca cie na pobliska sciane. 
+Pokoj w ktorym sie znalazles, jest czysty i sterylny. Setki malutkich
+bialych pudeleczek stoja na polkach, oczywiscie, karzde pudeleczko
+dokladnie opisane.
+~
+0 8 0
+D1
+Straszny smrod
+~
+~
+0 -1 1509
+S
+#1509
+Smierdzacy pokoj~
+Owiewa cie straszliwy smrod. Czujesz jak wlosy staja ci deba na glowie.
+Wielki stol pokrytu jest niewielkimi naczyniami. Kazde z nich zawiera
+mieszanine roznokolorowych proszkow.
+~
+0 8 0
+D1
+Droga~
+~
+0 -1 1510
+D3
+Porzadny magazyn
+~
+~
+0 -1 1508
+S
+#1510
+Koniec drogi~
+Doszedles do konca sciezki.Pomiedzy drzewami widzisz trzy budynki.Na 
+wschodzie i zachodzie jest wiecej kwadratowych budynkow, ktore zauwazyles
+juz wczesniej. Na polnocy jednak jest jeden bardzo ciekawy budynek. 
+Mniejszy niz pozostale, odznacza sie charakterystyczna budowa.
+~
+0 0 3
+D0
+Jasny budynek
+~
+~
+0 -1 1513
+D1
+Kwadratowy budynek
+~
+~
+0 -1 1511
+D2
+Droga
+~
+~
+0 -1 1503
+D3
+Kwadratowy budynek
+~
+~
+0 -1 1509
+S
+#1511
+Tajemniczy ogrod.~
+Ten budynek to dziwaczne polaczenie domowego ogrodka i laboratorium.
+Rzedy wiszacych roslin sa dogladane i podlewane przez tajemnicze
+urzadzenia. Male kule lataja wzdluz sciezki. Male ramiona wysowaja sie
+i wsowaja do ich wnetrza. Musisz sie schylac, zeby jedna z tych maszyn nie
+wpadla ci na glowe.
+~
+0 8 0
+D1
+Magazyn
+~
+~
+0 -1 1512
+D3
+Poczatek sciezki
+~
+~
+0 -1 1510
+S
+#1512
+Zapelniony magazyn~
+Najlepsza metoda opisania tego pokoju to uporzadkowany chaos. Rzeczy
+poupychane sa w kazdym kacie. Garnki stoja na pudelkach, ktore leza
+na metalowych skrzyniach. Worki z ziemia leza pomiedzy narzedziami. 
+Jednakze karzda z tych rzeczy, ma karteczke z dokladnym opisem. Wyglada
+na to, ze wszystko tu bylo poukladane z wielka uwaga.
+~
+0 8 0
+D3
+Ogrod-laboratorium
+~
+~
+0 -1 1511
+S
+#1513
+Duze biuro~
+Najwidoczniej ten ze smakiem urzadzony pokoj jest biurem Wodza Gnomow.
+Na scianach wisi kilka obrazow. Na stole przy zachodniej scianie lezy
+kilka ciekawych przedmiotow. Podloge pokrywa niezwykle skomplikowany 
+wzor.
+~
+0 8 0
+D0
+Laboratorium wodza
+~
+~
+0 -1 1514
+D2
+Poczatek sciezki
+~
+~
+0 -1 1510
+D5
+Wilgotne, mokre miejsce
+~
+trapdoor trap~
+2055 1501 1515
+E
+obrazy~
+Obrazy przedstawiaja dziwne i fantastyczne wynalazki. Jeden na przyklad
+ukazuje metalowa kule latajaca nad szczytem gory. Obok wisi schemat
+wewnetrzny tej kuli.~
+E
+przedmioty~
+Male ale uzyteczne, tworca tych przedmiotow musial bardzo dbac o szczegoly.
+Jeden na przyklad wyglada jak szalony pajak, ktorego nogi koncza sie
+malymi ostrzami. Lezacy obok schemat wyjasnia jak za jego pomoca obierac
+jablka. ~
+E
+podloga~
+Podloge pokrywa parkiet, ukladajacy sie we wspanialy wzor, ktory przyciaga
+twoj wzrok. Jest w nim cos dziwnego...~
+E
+wzor~
+Podloge pokrywa parkiet, ukladajacy sie we wspaniale wzory, ktore przyciagaja
+twoj wzrok. Jest w nich cos dziwnego...~
+E
+parkiet~
+Podloge pokrywa parkiet, ukladajacy sie we wspaniale wzory, ktore przyciagaja
+twoj wzrok. Jest w nich cos dziwnego...~
+E
+stol~
+Male ale uzyteczne, tworca tych przedmiotow musial bardzo dbac o szczegoly.
+Jeden na przyklad wyglada jak szalony pajak, ktorego nogi koncza sie
+malymi ostrzami. Lezacy obok schemat wyjasnia jak za jego pomoca obierac
+jablka. ~
+E
+obraz~
+Obrazy przedstawiaja dziwne i fantastyczne wynalazki. Jeden na przyklad
+ukazuje metalowa kule latajaca nad szczytem gory. Obok wisi schemat
+wewnetrzny tej kuli.~
+S
+#1514
+Laboratorium wodza~
+Pomieszczenie to podzielone jest na dwie sekcje. W jednej czesci 
+znajduje sie niewielka sadzawka wykonana z malachitu. Posrodku sadzawki
+znajduje sie wielki krysztal.Po przeciwnej stronie stoi wielki debowy 
+stol.
+~
+0 8 0
+D2
+Z powrotem do biora
+~
+~
+0 -1 1513
+E
+sadzawka~
+Piekny, niezwykle gladki krysztal. Mieni sie wieloma barwami. Gdy mu sie
+blizej przygladasz, okazuje sie, ze jest zlozony z wielkiej liczby
+mniejszych krysztalkow, polaczonych z wielka precyzja. Ale po co?~
+E
+krysztal~
+Piekny, niezwykle gladki krysztal. Mieni sie wieloma barwami. Gdy mu sie
+blizej przygladasz, okazuje sie, ze jest zlozony z wielkiej liczby
+mniejszych krysztalkow, polaczonych z wielka precyzja. Ale po co?~
+E
+stol~
+Papiery i przedmioty na stole sa dokladnie poukladane. Male ebonitowe 
+pudelko przykowa twoj wzrok. W srodku widzisz przepiekna figurke. Kiedy 
+po nia siegasz, twoje palce przeszywa fala bolu. Najwidoczniej przedmioty 
+na stole chronione sa przez pole silowe.~
+S
+#1515
+Przejmujaco wilgotna komnata~
+Jestes w ciemnej, wilgotnej komnacie. Drewniane sciany nadszarpniete sa
+zebem czasu.  Na suficie wisi kilka pajeczyn. Najwidoczniej gnomy nie
+urzywaja tego pomieszczenia zbyt czesto.
+~
+0 8 0
+D0
+~
+wall~
+2098187 -1 1519
+D1
+Strzezone laboratorium
+~
+~
+0 -1 1516
+D2
+Strzezone laboratorium
+~
+~
+0 -1 1517
+D3
+Strzezone laboratorium
+~
+~
+0 -1 1518
+D4
+Ozdobne biuro
+~
+trapdoor trap~
+3 -1 1513
+E
+sciana~
+Widzisz wielkie pekniecie w scianie, wystarczajaco duze zeby sie przez nie
+przepchnac.
+~
+E
+sciany~
+Na wszystkich scianach, z wyjatkiem polnocnej, sa solidne drzwi. Widzisz
+zadrapania na podlodze, moze sciana sie rusza...
+~
+S
+#1516
+Ciemne laboratorium~
+Z nieznanych powodow swiatlo ma problemy z rozchodzeniem sie w tym
+pokoju. To cos wiecej niz tylko ciemne pomieszczenie. Wydaje ci sie, ze
+cos wysysa swiatlo z tej komnaty.Gdy wchodzisz glebiej, zauwazasz 
+niewielki stol, na ktorym lezy lekko swiecacy dysk.
+~
+0 8 0
+D3
+Wilgotna komnata
+~
+~
+0 -1 1515
+E
+dysk~
+Gdy zblizasz sie do dysku, aby mu sie dokladniej przyjrzec masz wrazenie,
+ze dysk staje sie coraz ciemniejszy. Z glosnym hukiem dysk rozblyska
+jaskrawym swiatlem. Z zamknietymi z bolu oczami probujesz podniesc dysk.
+Niestety jego powierzchnia okazuje sie bardzo goraca. Nie potrafisz go
+utrzymac.
+~
+S
+#1517
+Jasno oswietlone laboratorium~
+Ten pokoj jest jasno oswietlony. Przez srodek pokoju plynie strumien.
+Panuje tu bardzo niska temperatura. Jest tutaj wrecz sterylnie. Sciany 
+zrobione sa z jasno szarego granitu, a metalowa podloge ktos niedawno 
+umyl. Pod poludniowa sciana stoi wielki metalowy stol. Wschodnia sciana 
+zawiera alkowe, w ktorej stoi zamkniety w szklanej gablocie dziwny obiekt.
+~
+0 8 0
+D0
+Z powrotem w ciemnosc
+~
+~
+0 -1 1515
+E
+strumien~
+Woda w strumieniu jest za zimna zeby w niej plywac.
+~
+E
+gablota~
+Gdy przygladasz sie gablocie, zauwazasz niewielki owalny przedmiot w srodku.
+Zrobiony z wielu materialow, zachwycajacy detalami - to naprawde piekna
+robota. Ten przedmiot cos ci przypomina. Gdy przygladasz sie mu ponownie
+juz wiesz co to jest. To mechaniczny model serca. Zadziwiajace! Zastanawiasz
+sie dlaczego jest tak dobrze chronione.~
+E
+obiekt~
+Gdy przygladasz sie gablocie, zauwazasz niewielki owalny przedmiot w srodku.
+Zrobiony z wielu materialow, zachwycajacy detalami - to naprawde piekna
+robota. Ten przedmiot cos ci przypomina. Gdy przygladasz sie mu ponownie
+juz wiesz co to jest. To mechaniczny model serca. Zadziwiajace! Zastanawiasz
+sie dlaczego jest tak dobrze chronione.~
+S
+#1518
+Prywatne laboratorium~
+Pomimo tego, ze czyste, sciany tego pokoju widzialy wiele przemocy.
+Pekniecia i dziury, wszystko to jest swiadectwem tego, ze ktos lub cos
+postanowilo rozwalic te sciany. Slabe slady pewnego magicznego proszku
+wiadac na scianach.
+~
+0 8 0
+D1
+Wilgotna piwnica
+~
+~
+0 -1 1515
+D2
+~
+~
+2099211 -1 1515
+E
+proszek~
+Na scianach zauwazasz sladzy dziwnego czerwonego proszku. Po kilku minutach
+dochodzisz do wniosku, ze proszek wniknal w strukture sciany w wyniku
+jakiegos wielkiego wybuchu. Proszek jest chyba magiczny gdyz lekko swieci 
+w ciemnosciach.~
+S
+#1519
+Tajemne laboratorium~
+Ten pokuj jest stosunkowo niewielki. To laboratorium nie jest tak czyste,
+jak standdardowe gnomie laboratoria. Moze gnomy zapomnialy o jego
+istnieniu? Na srodku stoi niewielki stolik. Nagle niewielka poswiata 
+przyciaga twoj wzrok.
+~
+0 8 0
+D2
+Wilgotna piwnica
+~
+wall~
+1035 -1 1515
+E
+swiatlo~
+Gdy patrzysz na swiatlo, ktore przyciagnelo twoj wzrok, powoli zanika.
+Z jakiegos powodu ciagle patrzysz w tamtym kierunku.Jednak cierpliwe 
+czekanie nic nie daje, swiatlo ponownie nie rozblyslo. Moze ta zagadka 
+wymaga dalszych poszukiwan?~
+E
+poswiata~
+Gdy patrzysz na swiatlo, ktore przyciagnelo twoj wzrok, powoli zanika.
+Z jakiegos powodu ciagle patrzysz w tamtym kierunku.Jednak cierpliwe 
+czekanie nic nie daje, swiatlo ponownie nie rozblyslo. Moze ta zagadka 
+wymaga dalszych poszukiwan?~
+> leave_prog 100~
+mppurge pekniecie
+mpoload 1528
+mpoload 1529 6
+put pioro pekniecie
+~
+|
+S
+#1520
+Lesna droga~
+Po obydwu stronach sciezki rosnie sobie las. Wysokie, majestatyczne
+drzewa zatrzymuja  promienie slonca, tak ze tylko niewiele swiatla dociera
+do ciebie. Slyszysz szum wiatru, spiew ptakow, zwyczajne odglosy lasu...
+~
+0 0 3
+D1
+Zarosnieta drozka
+~
+~
+0 -1 1537
+D2
+Pomiedzy drzewami
+~
+~
+0 -1 1521
+D3
+Cicha droga
+~
+~
+0 -1 1502
+S
+#1521
+Rzadki las~
+Las staje sie rzadszy w tym miejscu dlatego widac wiecej budynkow. 
+Wyglada na to, ze zblizasz sie do niewielkiej osady. Widac stad
+niewielkie budynki na wschodzie i na zachodzie. Droga prowadzi
+dalej na polnoc i poludnie.
+~
+0 0 3
+D0
+Glebiej w las
+~
+~
+0 -1 1520
+D1
+Maly budynek
+~
+~
+0 -1 1523
+D2
+Sciezka
+~
+~
+0 -1 1527
+D3
+Maly budynek
+~
+~
+0 -1 1522
+S
+#1522
+Mala sala lekcyjna~
+To bardzo ladna sala lekcyjna.Niewielkie lawki ustawione sa w polkole.
+Na podlodze poniewieraja sie zabawki. Przy jednej ze scian stoi duzy
+stol, wyglada na bardzo wazny. Pewnie biorko nauczyciela. Na stole lezy 
+ukladanka. Na scianach wisza proste rysunki kol zebatych, dzwigni 
+i takich tam rzeczy.
+~
+0 12 0
+D1
+Lesna drozka
+~
+~
+0 -1 1521
+E
+stol puzzle~
+Na stole lezy ukladanka, skladajaca sie z setek malych elementow.
+Wyglada na dosyc skomplikowana. Gdy patrzysz na nia nie masz najmniejszego 
+pojecia jak ja ulozyc.
+~
+E
+rysunki~
+Proste schematy, pozwalajace sie domyslic jak dany przedmiot dziala
+i jakie jest jego przeznaczenie.
+
+~
+E
+lawki~
+Lawki sa proste, zrobione z desek sosnowych. Bardziej przypominaja krzesla
+z dolaczona powierzchnia do pisania. Sa bardzo efektowne w swojej 
+prostocie.
+~
+S
+#1523
+Wielka sala lekcyjna~
+Ta slala jest duzo wieksza niz ta po przeciwnej stronie drogi. Zaprojektowana
+specjalnie dla starszych dzieci, sporo wiecej miejsca zostalo przeznaczone
+na eksperymenty naukowe. Na wielkich stolach lezy pelno kolek, zebatek, 
+sprezynek i innych elementow. Wielki obraz na wschodniej scianie, przedstawia
+rzezbe wielkiego gnoma, ktora mozna podziwiac w centrum tej osady.
+~
+0 12 0
+D3
+Zarosnieta sciezka
+~
+~
+0 -1 1521
+E
+kolka zebatki sprezynki~
+Wszystkie te przedmioty maja bardzo wielkie znaczenie dla narodu gnomow.
+Zrobione z sbbstancji przypominajacej gume i pomalowane w jaskrawe kolory.
+Znakomite zabawki dla dzieci.
+
+~
+E
+obraz~
+Obraz przedstawia centrum tego miasteczka. Na srodku dumnie stoi wysoka
+rzezba gnoma, wykonana w granicie. U podstawy rzezby widac tablice
+pamiatkowa.
+
+~
+S
+#1524
+Czyste mieszkanie~
+Wszystko tu jest czyste i rowniutko poukladane, wlasciciel tego mieszkania
+musi miec fiola na punkcie czystosci i porzadku. Kazdy przedmiot lezy
+na wlasciwym miejscu. 
+~
+0 8 0
+D2
+Z powrotem na droge
+~
+~
+0 -1 1526
+S
+#1525
+Rumowisko~
+Caly ten dom zawalony jest wszelkiego rodzaju rupieciami. Najwidoczniej 
+jest to dom jakiegos hobbysty-zbieracza. Mozna znalezc tu wszystkie
+bezuzyteczne przedmioty z najblizszej okolicy.
+~
+0 1073741832 0
+D1
+Z powrotem na droge
+~
+~
+0 -1 1526
+S
+#1526
+Mala polanka~
+Droga konczy sie tutaj na malej polance. Widzisz kilka niewielkich chatek 
+na polnocy, poludniu i zachodzie. Chatki wygladaja jakby wiele juz
+przeszly. 
+~
+0 0 3
+D0
+Mala chatka~
+~
+0 -1 1524
+D1
+Droga sie rozdziela
+~
+~
+0 -1 1527
+D2
+Mala chatka
+~
+~
+0 -1 1530
+D3
+Mala chatka
+~
+~
+0 -1 1525
+S
+#1527
+Szeroka droga~
+Roztacza sie stad wspanialy widok. Poczatkowo waska sciezka przeradza
+sie w prawdziwa brukowana droge, ktora rozdziela sie na zachod i na poludnie.
+Na wschodzie widzisz niewielka chatke stojaca na uboczu. Gdy wytezysz wzrok
+dostrzegasz kilka innych budynkow po obydwu stronach drogi.
+ 
+~
+0 0 3
+D0
+Droga
+~
+~
+0 -1 1521
+D1
+Mala chatka~
+~
+0 -1 1528
+D2
+Droga
+~
+~
+0 -1 1532
+D3
+Droga
+~
+~
+0 -1 1526
+S
+#1528
+Pandemonium~
+Zabawki, ubranka i butelki ze smoczkami razrzucone sa po calym pokoju. Najprawdopodobniej bardzo
+czesto przebywaja tu dzieci.Widzac nieporzadek w tym pokoju zgadujesz, ze
+rodzice maja wiele klopotow ze swymi pociechami.
+~
+0 8 0
+D3
+Z powrotem na droge
+~
+~
+0 -1 1527
+S
+#1529
+Warsztat~
+Bardziej warsztat niz dom. Mieszkajacy tu gnom najwyrazniej preferuje
+prace w domu niz w laboratorium. Kilka stolow stoi pod scianami. Krzeslo
+ze skorzanymi obiciami, do ktorego ktos przymocowal kolka, stoi obok 
+jednego ze stolow. Sposob w jaki urzadzony jest ten pokoj wydaje ci sie
+jakis dziwny. Ustawienie mebli musi miec z tym cos wspolnego, ale
+nie potrafisz odgadnac co.
+~
+0 12 0
+D2
+Wyjscie na droge
+~
+~
+0 -1 1533
+D5
+Tajemnicze przejscie
+~
+podloga zapadnia~
+3016715 -1 1585
+E
+podloga~
+Gdy dokladnie przeszukujesz pokoj, twoj wzrok pada na podloge. Gdy 
+przygladasz sie blizej zauwazasz tajemnicze cienkie linie, tak jak gdyby
+byly tu ukryte jakies drzwi.
+~
+E
+meble~
+Meble sa ustawione w taki sposob, aby srodek pokoju pozostal wolny. Gdy 
+blizej przygladasz sie wolnej przestrzeni, zauwazasz tajemnicze cienkie
+linie na podlodze. Moze to jakies ukryte drzwi?
+~
+E
+krzeslo~
+Wspaniale krzeslo ze skorzanym obiciem, tylko troche podniszczone ciaglym
+uzywaniem. Jedna rzecz rozni to krzeslo od innych, ktos dodal mu kolka, 
+pozwalajjace wygodnie poruszac sie pomiedzy kilkoma stolami.
+~
+> leave_prog 100~
+close podloga~
+|
+S
+#1530
+Szklarnia~
+To pomieszczenie pelne jest roslin, ktore sie wszedzie zielenia. Caly 
+ten dom bardziej przypomina szklany budynek niz domek z oknami, 
+najwyrazniej zostal zbudowany z mysla o roslinach. Powietrze jest az
+geste od woni, ktore wydaja te rosliny. Moglbys przebywac tu godzinami,
+odpoczywajac po trudach zycia poszukiwacza przygod.
+~
+0 8 0
+D0
+Z powrotem na droge
+~
+~
+0 -1 1526
+E
+rosliny~
+Kwiaty rozstawione sa po calym pomieszczeniu na przemian z przyprawami, 
+wzbogacajac bukiet zapachowy tego pomieszczenia.
+~
+E
+kwiaty~
+Kwiaty rozstawione sa po calym pomieszczeniu na przemian z przyprawami, 
+wzbogacajac bukiet zapachowy tego pomieszczenia.
+~
+S
+#1531
+Zaniedbany dom~
+Na pierwszy rzut oka widac, ze to bardzo zaniedbany dom. Jego wyposazenie
+to minimum niezbedne do przezycia. Nieposlane lozko, jedno krzeslo i kilka
+prawie pustych polek. Najwyrazniej ten dom jest niezamieszkaly, albo
+jest to dom pracoholika.
+~
+0 8 0
+D1
+Na droge
+~
+~
+0 -1 1532
+E
+lozko polki krzeslo~
+Wszystkie meble sa zaskakujace w swojej prostocie i nie nosza sladow
+zbyt czestego uzywania.
+~
+S
+#1532
+Zakret na drodze~
+W tym miejscu droga skreca bardzo lagodnym lukiem. Dalej prowadzi 
+na wschod i na polnoc. Na zachodzie i poludniu widac jakies chaty.
+Droga wyglada na uczeszczana. Jest w niej nawet kilka sporych dziur.
+~
+0 0 3
+D0
+Rozwidlenie drogi
+~
+~
+0 -1 1527
+D1
+Mala polanka lezy na wschodzie
+~
+~
+0 -1 1533
+D2
+Z poludnia dochodzi jakis dziwny zapach. Widac tam maly domek.
+~
+~
+0 -1 1535
+D3
+Na zachodzie widzisz maly, zaniedbany domek
+~
+~
+0 -1 1531
+S
+#1533
+Mala polanka~
+Droga konczy sie tutaj mala polanka. Na polnocy, poludniu i wschodzie
+widzisz trzy niewielkie domki. Wygladaja jakby wiele juz przeszly.
+~
+0 0 3
+D0
+Mala chatka
+~
+~
+0 -1 1529
+D1
+Mala chatka
+~
+~
+0 -1 1534
+D2
+Mala chatka
+~
+~
+0 -1 1536
+D3
+Zakret na drodze
+~
+~
+0 -1 1532
+S
+#1534
+Porzadny dom~
+Ten dom jest niewielki, ale bardzo zadbany i przytulny. Zapewnia pelny 
+komfort i relaks. Gdy rozgladasz sie po pomieszczeniu dochodzisz do wniosku,
+ze wlasciciel duza wage przyklada do odpoczynku po pracy.
+~
+0 8 0
+D3
+Z powrotem na droge
+~
+~
+0 -1 1533
+S
+#1535
+Chata brudasa~
+Na podlodze poniewieraja sie talerze z resztkami jedzenia wespol z 
+brudna odzieza, a wszystko to okraszone jest starymi pajeczynami.
+W tym domu wszystko jest niechlujne. Wlasciciel najwyrazniej nie czuje
+respektu dla siebie samego. Zastanawiasz sie jak moga wygladac wynalazki
+gnoma, ktory tutaj mieszka.
+~
+0 8 0
+D0
+Z powrotem na droge
+~
+~
+0 -1 1532
+S
+#1536
+Swiatla i kolory~
+Gdy wchodzisz do tej niewielkiej chatki jestes niezwykle zdumiony tym 
+co widzisz. Wszystko zrobione jest tu ze szkla! Rzezby, swiecznik, 
+boazeria i zastawa stolowa. Na stole leza miniaturowe kolka, a nawet 
+sprezyny zrobione ze szkla. Gnom, ktory tu mieszka musi miec prawdziwy
+talent.
+~
+0 8 0
+D0
+Z powrotem na droge
+~
+~
+0 -1 1533
+E
+szklo krysztal~
+Prawie wszystko w tym pomieszczeniu zrobione jest ze szkla lub krysztalu.
+Nawet jesli cos nie jest w calosci wykonane z tych materialow, napewno
+zawiera kilka szklanych elementow. 
+~
+E
+rzezby~
+Rzezby sa rozne, od ostrych ksztaltow z rznietego krysztalu, do gladkich
+szklanych powiezchni. Inspirowane roznymi legendarnymi zwierzetami, rzezby
+przedstawiaja zarowno male duszki jak i wielkie smoki.
+~
+E
+boazeria~
+Nawet boazeria wykonana jest z roznokolorowego szkla! Swiatlo odbija sie od
+scian, tworzac niezapomniane widowisko.~
+E
+zastawa~
+Dmuchane szklo - to przyklad najwyzszego kunsztu rzemiosla szklarskiego.
+Kazde naczynie ma swoj niepowtarzalny kolor i styl.~
+E
+stol kolka sprezyny~
+Na stole leza najbardziej interesujace przedmioty. Malutkie ale dokladne
+przyklady kolek, srubek i sprezynek. Zauwazasz nawet, ze jedna ze sprezynek
+jest mniejsza od twojego najmniejszego paznokcia!
+~
+S
+#1537
+Rzadziej uczeszczana droga~
+W tym miejscu droga jest mniej uzywana. Troche zarosnieta przez krzaki,
+a po obydwu jej stronach rosna potezne drzewa. Droga prowadzi stad 
+na zachod i na poludniowy-wschod.
+~
+0 0 3
+D0
+~
+~
+1 -1 1102
+D3
+Szeroka droga
+~
+~
+0 -1 1520
+D8
+Zakret na drodze
+~
+~
+0 -1 1538
+S
+#1538
+Waska sciezka~
+Sciezka jest bardzo waska w tym miejscu. Idac tedy co rusz zaczepiasz
+o niezwykle bujne krzaki. Droga staje sie coraz trudniejsza.
+~
+0 0 3
+D1
+Waska sciezka
+~
+~
+0 -1 1539
+D7
+Waska sciezka
+~
+~
+0 -1 1537
+S
+#1539
+Koniec drogi~
+W tym miejscu droga konczy sie. Dalej rozciagaja sie bezkresne laki i pola.
+Drzewa nareszcie sie skonczyly, wieje tutaj przyjemny lekki wietrzyk.
+Slonce porzadnie przypieka. Masz ochote na maly odpoczynek.
+~
+0 4 3
+D1
+Pola
+~
+~
+0 -1 1540
+D3
+Waska sciezka
+~
+~
+0 -1 1538
+S
+#1540
+Pola~
+Przed toba ciagna sie bezkresne pola przenicy i zielone laki. Wieje
+przyjemny, lekki wietrzyk. Ptaki przepieknie spiewaja. Czujesz sie
+bardzo wesolo i jest ci lekko na duszy.
+~
+0 0 2
+D1
+Przez pola
+~
+~
+0 -1 1541
+D2
+Przez pola
+~
+~
+0 -1 1542
+D3
+Waska sciezka pomiedzy drzewami
+~
+~
+0 -1 1539
+S
+#1541
+Pole nad rzeka~
+Teren lagodnie opada w kierunku rzeki.Bujna trawa powoli ustepuje
+miejsca trzcinom. Rzeka leniwie przetacza swe metne wody przez te okolice.
+Pomimo tego wyglada na zbyt gleboka, zeby mozna bylo przejsc na drugi
+brzeg. Na polnocnym-wschodzie rosnie gesty las.
+~
+0 0 2
+D2
+Wzdluz brzegu
+~
+~
+0 -1 1543
+D3
+Z powrotem na sciezke
+~
+~
+0 -1 1540
+S
+#1542
+Morze gozdzikow~
+Cale to olbrzymie pole pokryte jest setkami malych kwiatkow. Lagodny
+wyglad gozdzikow ma na ciebie naprawde kojacy wplyw. Ciche brzeczenie
+pszczol dochodzi do twoich uszu i widzisz jak te pracowite owady
+przelatuja z kwiatka na kwiatek.
+~
+0 0 2
+D0
+Wejscie na pole
+~
+~
+0 -1 1540
+D1
+Nadrzeczna sciezka
+~
+~
+0 -1 1543
+S
+#1543
+Nad brzegiem rzeki~
+W tym miejscu droga biegnie tuz nad brzegiem rzeki. Slyszysz szum
+przelewajacych sie fal, prad jest dosyc ostry w tym miejscu. Cala okolice
+pokrywaja zielone laki, na ktorych pasa sie krowy. Co chwile slyszysz
+ich muczenie.
+~
+0 0 2
+D0
+Z biegiem rzeki
+~
+~
+0 -1 1541
+D2
+Maly pagorek
+~
+~
+0 -1 1544
+D3
+Laka
+~
+~
+0 -1 1542
+S
+#1544
+Podnoze malego pagorka~
+Rzeka oplywa w tym miejscu maly pagorek lagodnym polkolem. Przed soba 
+widzisz sciezke wiodaca na szczyt wzgorza. Gdy patrzysz dalej wydaje 
+ci sie, ze widzisz most.
+~
+0 0 2
+D0
+Z powrotem na droge
+~
+~
+0 -1 1543
+D4
+Wspinaczka na wzgorze
+~
+~
+65536 -1 1545
+S
+#1545
+Pagorek~
+To dziwne, ale na szczycie tego pagorka nic nie rosnie. Nie widac nawet
+zdzbla trawy. Czujesz w poblizu obecnosc czegos dziwnego, jakiejs poteznej
+istoty...
+~
+0 0 2
+D0
+Przy moscie~
+~
+0 -1 1546
+D5
+Droga na dol
+~
+~
+65536 -1 1544
+S
+#1546
+Most nad rzeka~
+Wielki drewniany most przerzucony jest nad rzeka w tym miejscu. Ale
+z jakiegos powodu  brakuje srodkowej czesci mostu! Gdy przygladasz
+sie uwazniej widzisz, ze w miejscu gdzie brakuje kawalka mostu powietrze
+dziwnie drzy. Calkiem jak gdyby magia byla odpowiedzialna za znikniecie
+tej czesci mostu.
+~
+0 1048580 2
+D2
+Z powrotem na szczyt wzgorza
+~
+~
+0 -1 1545
+S
+#1547
+Most nad rzeka~
+Wielki drewniany most przerzucony jest nad rzeka w tym miejscu. Ale
+z jakiegos powodu  brakuje srodkowej czesci mostu! Gdy przygladasz
+sie uwazniej widzisz, ze w miejscu gdzie brakuje kawalka mostu powietrze
+dziwnie drzy. Calkiem jak gdyby magia byla odpowiedzialna za znikniecie
+tej czesci mostu.
+~
+0 1048580 2
+D2
+Z powrotem na szczyt wzgorza
+~
+~
+0 -1 1548
+S
+#1548
+Pagorek~
+To dziwne, ale na szczycie tego pagorka nic nie rosnie. Nie widac nawet
+zdzbla trawy. Czujesz w poblizu obecnosc czegos dziwnego, jakiejs poteznej
+istoty...
+~
+0 4 2
+D0
+Przy moscie~
+~
+0 -1 1547
+D5
+Droga na dol
+~
+~
+65536 -1 1549
+S
+#1549
+Podnoze malego pagorka~
+Rzeka oplywa w tym miejscu maly pagorek lagodnym polkolem. Przed soba 
+widzisz sciezke wiodaca na szczyt wzgorza. Gdy patrzysz dalej wydaje 
+ci sie, ze widzisz most.
+~
+0 4 3
+D1
+Coraz dalej od rzeki
+~
+~
+0 -1 1550
+D4
+Wspinaczka na wzgorze
+~
+~
+65536 -1 1548
+S
+#1550
+Ciemna sciezka~
+Polana i  wzgorze sa slabo widoczne spomiedzy drzew. W jakis niepojety
+sposob las jest ciemniejszy po tej stronie rzeki. Masz wrazenie, ze
+spomiedzy drzew sledza cie czyjes oczy.
+~
+0 4 3
+D3
+W kierunku wzgorza
+~
+~
+0 -1 1549
+D6
+Gestwina~
+~
+0 -1 1551
+S
+#1551
+Mroczna sciezka~
+Drzewa rosna gestym szpalerem po obydwu stronach sciezki. Drzewa sa 
+jakies dziwne. Ciemna ze strasznie powyginanymi galeziami. Najwidoczniej
+sa chore. Calkiem jakby obecnosc jakiegos potwornego zla, powoli 
+zamienila je w prochno.
+ 
+~
+0 4 3
+D4
+Wielka polana
+~
+~
+65536 -1 1552
+D9
+Przeswit w drzewach
+~
+~
+0 -1 1550
+S
+#1552
+Wielka polana~
+Droga doprowadza cie do bardzo obszernej polany. Co prawda rosnie
+tu troche drzew, ale sa one rozsiane bardzo rzadko. Sciezka biegnie
+dalej w kierunku wschodnim. Daleko na poludniu, za zakretem rzeki mozesz
+zauwazyc kleby czarnego dymu unoszace sie ponad lasem.
+~
+0 4 3
+D1
+Polana
+~
+~
+0 -1 1553
+D5
+Mroczna sciezka
+~
+~
+65536 -1 1551
+S
+#1553
+Wielka polana~
+Polana rozciaga sie ze wschodu na zachod. Polana znajduje sie na szczycie 
+niewielkiego wzgorza, u podnuza ktorego plynie metna rzeka. Na polnocnym
+krancu widac ciemna pieczare.
+~
+0 0 3
+D0
+Ciemna pieczara
+~
+~
+0 -1 1554
+D1
+Koniec polany
+~
+~
+0 -1 1557
+D3
+Polana
+~
+~
+0 -1 1552
+S
+#1554
+Ciemna pieczara~
+Ciemna jaskinia wyglada na zamieszkana. Odpadki zostaly starannie zebrane
+i ulozone na kupce obok wyjscia. Z glebi jaskini czuc delikatny, mrozny
+ powiew.
+~
+0 8 0
+D2
+Plateau
+~
+~
+0 -1 1553
+D5
+Waski korytarz
+~
+~
+65536 -1 1555
+S
+#1555
+Cichy dom~
+Gdy przygladasz sie temu mieszkaniu zauwazasz, ze na kupkach pod sciana
+i na polkach leza bardzo interesujace przedmioty. Ciche i bardzo przytulne
+miejsce, zapewniajace niczym niezmacony spokoj.
+~
+0 8 0
+D3
+Komfortowa sypialnia~
+~
+0 -1 1556
+D4
+Wejscie do pieczary
+~
+~
+65536 -1 1554
+E
+polki kupki~
+Gdy przygladasz sie zawartosci tego mieszkania, widzisz kolekcje
+starych, zakurzonych zabawek i kilka wielkich ksiag oprawionych 
+w skore. Wyglada to na to, ze jest to mieszkanie kogos, o bardzo wrazliwej
+duszy, kto bardzo ceni pamiatki z przeszlosci.
+~
+S
+#1556
+Komfortowa sypialnia~
+Widzisz komfortowa, urzadzona ze smakiem sypialnie. Na polnocnej 
+i poludniowej scianie wisza polki, na ktorych stoja rowno poukladane 
+ksiazki. Stoi tu rowniez niewielkie lozko, dajace wlascicielowi miejsce 
+do spania i rozmyslania nad o tajemnicach, ktore kryja w sobie te
+wszystkie ksiazki.
+~
+0 8 0
+D1
+Cichy dom
+~
+~
+0 -1 1555
+S
+#1557
+Nagly koniec~
+Przed taba jest gleboka przepasc. Po chwili udaje ci sie odnalezc
+waskie ale w miare bezpieczne zejscie nizej. Gdy patrzysz w dol, dochodzisz
+do wniosku ze to plynaca w dole rzeka tak podmyla to wzgorze, tworzac
+te przepasc.
+~
+0 4 3
+D3
+Polana
+~
+~
+0 -1 1553
+D8
+Trudne zejscie
+~
+~
+0 -1 1558
+S
+#1558
+Waskie zejscie~
+W tym miejscu wzgorze ostro opada, w kierunku gestego lasu rosnacego 
+w dole. Ostre kamienie i dosyc sliska, piaszczysta powierzchnia sprawiaja,
+ze droga jest dosyc ciezka i meczaca.
+~
+0 4 3
+D5
+Cienista sciezka
+~
+~
+0 -1 1559
+D7
+Poczatek polany
+~
+~
+0 -1 1557
+S
+#1559
+Rozstaje~
+Zatrzymujesz sie na rozstaju. Z tego miejsca mozesz ruszyc w trzech
+kierunkach. Droga do gory oznacza trudna wspinaczke na szczyt wzgorza.
+Pozostale dwie sciezki gina w mroku na wschodzie i zachodzie.
+~
+0 4 3
+D1
+Zagubiony z cieniu
+~
+~
+0 -1 1560
+D3
+W poblizu rzeki
+~
+~
+0 -1 1561
+D4
+Waskie zejscie
+~
+~
+0 -1 1558
+S
+#1560
+Mroczna sciezka~
+Wielkie wzgorze rzuca w tym miejscu swoj cien, tak wiec droga jest bardzo
+cienidsta. Niedaleko na poludniu sciezka konczy sie. W tamtym miejscu
+widzisz wejscie do jaskini. Gdy dokladniej przypatrujesz sie wejsciu
+do jaskini, zauwazasz w jego poblizu waska sciezke biegnaca w gore.
+~
+0 4 3
+D2
+Ciemny koniec~
+~
+0 -1 1578
+D3
+Rozstaje
+~
+~
+0 -1 1559
+S
+#1561
+W poblizu rzeki~
+Gdy zblizasz sie do brzegu rzeki, mrok szybko sie rozstepuje. Drzewa, 
+ktore rosna tutaj rzadziej pozwalaja sloncu i swiezemu powietrzu
+dotrzec do ciebie. Po drugiej stronnie rzeki widzisz sciezke prowadzaca
+na szczyt wzgorza.
+~
+0 4 3
+D1
+Rozstaje
+~
+~
+0 -1 1559
+D9
+Dalej w ciemnosc
+~
+~
+0 -1 1562
+S
+#1562
+Zagubiony w mroku~
+Posepne drzewa nachylaja sie nad sciezka. Drzewa porosniete sa mchem
+i porostami, co sprawia, ze wygladaja na nienaturalnie powykrecane.
+Krzaki rosnace po obydwu stronach sciezki wydaja sie wyciagac do ciebie
+galezie gdy obok nich przechodzisz. Na poludniu widzisz jak sciezka sie 
+konczy przed wejsciem do jaskini.
+~
+0 4 3
+D2
+Ciemna jaskinia
+~
+~
+0 -1 1563
+D6
+Przeswit w drzewach
+~
+~
+0 -1 1561
+S
+#1563
+Ciemna jaskinia~
+Korytaz staje sie coraz wezszy. Sciany pokryte wilgotnym mchem zblizaja
+sie do ciebie. Robi sie coraz ciasniej. Jakies gnijace resztki leza na 
+ziemi dodajac jaskini odur rozkladu. Zatykajac palcami nos, zastanawiasz
+sie czy dalsza eksploracja tej jaskini to naprawde dobry pomysl?
+~
+0 8 13
+D0
+Poczatek mrocznej sciezki
+~
+~
+0 -1 1562
+D1
+Wilgotny korytarz
+~
+~
+0 -1 1564
+D9
+Wilgotny korytarz
+~
+~
+0 -1 1568
+S
+#1564
+Wilgotny korytarz~
+Wilgotne, ciezkie powietrze wypelnia ten korytarz. Jakis wstretny grzyb 
+pokrywa sciany, wszedzie panuje wszechogarniajacy odor rozkladu. Ktokolwiek
+tu mieszka nie ma rzadnego szacunku dla swych domostw i siebie samych.
+~
+0 8 13
+D0
+Zakurzony dom
+~
+~
+0 -1 1565
+D1
+Zjelczala kupka
+~
+~
+0 -1 1566
+D2
+Malutki domek
+~
+~
+0 -1 1567
+D3
+Wyjscie
+~
+~
+0 -1 1563
+S
+#1565
+Pyl i zepsucie~
+Chmura pylu podnosi sie gdy wchodzisz, momentalnie wypelniajac pokoj 
+i przyprawiajac cie o kaszel. Stare futra zalegaja podloge tego pomieszczenia.
+Poklady kurzu sa dowodem na to, ze to pomieszczenie od dawna nie 
+bylo uzywane.
+~
+0 8 13
+D2
+Wilgotny korytarz
+~
+~
+0 -1 1564
+S
+#1566
+Zjelczale odpadki~
+Wielka kupa odpadkow i kosci zajmuje prawie cala te komnate. Opary
+i kolorowe gazy unosza sie nad tymi odpadkami, powodujac, ze zaczynasz
+lzawic. Dziwny grzyb zagniezdzil sie na scianach tej komnaty.
+~
+0 12 13
+D3
+Wilgotny korytarz
+~
+~
+0 -1 1564
+> entry_prog 100~
+if race ($n) == half-ogre
+or race ($n) == half-orc
+or race ($n) == half-troll
+or isnpc ($n)
+mpechoat $n Panuje tu straszny smrod, ale da sie wytrzymac.
+else
+mpechoat $n Panuje tu straszny smrod, sprawiajac, ze zaczynasz sie dusic i okropnie kaszlesz.
+mpechoaround $n $n straszliwie kaszle i dusi sie.
+mpdamage $n 5
+mpechoat $n Od tego kaszlu rozbolaly cie pluca.
+mpechoat $n Na szczescie nie ma trwalych uszkodzen.
+endif
+~
+|
+S
+#1567
+Malutki domek~
+Domek jest maly, ale ile w nim ciekawostek!. Przynajmniej tuzin 
+gnijacych futer lezy na podlodze, pozostawiajac malo miejsca na manewry.
+Troche zepsutego jedzenia lezy w soludniowo-zachodnim rogu tego
+domku.
+~
+0 8 13
+D0
+Wilgotny korytarz
+~
+~
+0 -1 1564
+S
+#1568
+Wilgotny korytarz~
+Wilgotne, ciezkie powietrze wypelnia ten korytarz. Jakis wstretny grzyb 
+pokrywa sciany, wszedzie panuje wszechogarniajacy odor rozkladu. Ktokolwiek
+tu mieszka nie ma rzadnego szacunku dla swych domostw i siebie samych.
+~
+0 8 13
+D0
+Zakret
+~
+~
+0 -1 1570
+D2
+Rozrzucone kosci
+~
+~
+0 -1 1569
+D6
+Wyjscie
+~
+~
+0 -1 1563
+S
+#1569
+Pelno kosci~
+W tej komnacie lezy pelno kosci! Na podlodze widzisz cale sterty piszczeli,
+czaszek i innych makabrycznych szczatkow. Jak kazdy pozadny dom 
+hobgoblinow ten tez nigdy nie byl sprzatany.
+~
+0 8 13
+D0
+Wilgotny korytaz
+~
+~
+0 -1 1568
+S
+#1570
+Zakret~
+Korytarz skreca w tym miejscu, prowadzac na zachod i poludnie. Tak jak
+w innych czesciach tunelu, Wszedzie leza gnijace odpadki, pozostalosc
+po niezlej libacji.
+~
+0 8 13
+D0
+Pusta przestrzen
+~
+~
+0 -1 1571
+D2
+Wilgotny korytarz
+~
+~
+0 -1 1568
+D3
+Koniec tunelu
+~
+~
+0 -1 1572
+S
+#1571
+Pusta przestrzen~
+Dywan kurzu, gruby na kilka cali, zalega ziemie w tej komnacie. Wszedzie
+wisza olbrzymie pajeczyny, sprawiajac, ze pokoj ten wyglada na czystszy
+niz w rzeczywistosci. Zgadujac po grubosci kurzu i stopniu rozkladu 
+odpadkow, to pomieszczenie nie bylo w uzytku przez kawal czasu.
+~
+0 8 13
+D2
+Zakret
+~
+~
+0 -1 1570
+S
+#1572
+Koniec tunelu~
+Tunel konczy sie w tym miejscu. Widac stad trzy komnaty: na polnocy
+poludniu i zachodzie. Komnata na zachodzie jest znacznie wieksza niz te,
+ktore dotychczas widziales.Dochodza cie stamtad jakies pochrzakiwania
+i odglosy stop.
+~
+0 8 13
+D0
+Zanieczyszczone zrodlo
+~
+~
+0 -1 1573
+D1
+Zakret
+~
+~
+0 -1 1570
+D2
+Calkiem mila komnata
+~
+~
+0 -1 1574
+D3
+Pokoj strazy
+~
+~
+0 -1 1575
+S
+#1573
+Zanieczyszczone zrodlo~
+Pod polnocna sciana tej malutkiej komnaty widzisz mala sadzawke. Zrodlem
+tej sadzawki jest woda wyplywajaca z pekniecia w scianie. Woda nie jest
+jednak zbyt czysta.Nastepne pekniecie, tym razem w podlodze, stanowi
+ujscie dla wody. Wyglada na to, ze jest to glowne zrodlo wody dla hobgoblinow.
+~
+0 8 13
+D2
+Poczatek korytarza
+~
+~
+0 -1 1572
+S
+#1574
+Prawie przytulnie~
+W porownaniu z innymi komnatami na ktore sie tutaj natknales, ten pokoj
+wyglada prawie przytulnie. Sterty futer lezace na podlodze prawie nadaja
+sie do tego, by sie na nich polozyc. Nigdzie nie widac sladow rozkladu!
+To musi byc dom naprawde niezwyklego hobgoblina.
+~
+0 8 13
+D0
+Poczatek korytarza
+~
+~
+0 -1 1572
+S
+#1575
+Pokoj strazy~
+Kilka wylenialych futer lezy na podlodze tej komnaty. Zardzewiala bron
+i gnijace kawalki zbroji leza pod scianami w smutnej imitacji wojskowego
+porzadku. Komnaty lezace na polnocy musza miec niezwykle wazne znaczenie
+skoro sa tak dobrze strzezone.
+~
+0 12 13
+D0
+Gwardia wodza
+~
+~
+0 -1 1500
+D1
+Poczatek korytarza
+~
+~
+0 -1 1572
+S
+#1576
+Krolewska komnata~
+Wielkie, prawie nowe skory i futra wisza na scianach tej wielkiej komnaty.
+Gdy przygladasz sie im uwazniej, zauwazasz ze sa tylko troszeczke
+naznaczone przez zepsucie.  Wysoki tron, topornie wyciosany w granicie, 
+stoi na drugim koncu komnaty i blokuje droge na zachod. Kilka pochodni 
+sprawia, ze jest to najjasniejsza komnata jaka dotychczas tu widziales.
+~
+0 12 13
+D2
+Gwardia wodza
+~
+drzwi granitowe~
+3 -1 1500
+D3
+~
+tron~
+2098223 1500 1577
+E
+tron~
+Tron jest wielki, wykuty z kamienia. Blokuje droge na zachod.
+~
+S
+#1577
+Skarbiec~
+To skarbiec hobgoblinow. Ale w tej chwili niewiele skarbow tu jest.
+Mimo wszystko hobgobliny sa bardzo zachlanne i zgromadzily tu troche
+zlota, zgarnietego na kupe na srodku komnaty.
+~
+0 12 13
+D1
+Komnata krolewska
+~
+tron drzwi~
+35 -1 1576
+S
+#1578
+Koniec mrocznej sciezki~
+W tym miejscu konczy sie sciezka, na ktora wielkie wzgoze rzuca swoj
+posepny cien. Przed toba wejscie do jaskini. Z jej glebin dochodza cie
+dziwne dzwieki, przyprawiajac cie o gesia skorke. Nad wejsciem do jaskini
+ciagnie sie waska sciezka wiodaca na szczyt wzgoza.
+~
+0 4 3
+D0
+Mroczna droga
+~
+~
+0 -1 1560
+D1
+Ciemna jaskinia
+~
+~
+0 -1 1581
+D4
+Ciezka wspinaczka
+~
+~
+128 -1 1579
+S
+#1579
+Ryzykowna wspinaczka~
+Waska sciezka biegnie tedy pod ostrym katem w kierunku szczytu wzgorza.
+Waska i kamienista, musisz bardzo uwazac. Gdy patrzysz w dol, zauwazasz,
+ze znajdujesz sie powyzej koron drzew. Drzewa wygladaja tak jakos strasznie,
+nie usmiecha ci sie podruzowac w ich cieniu. Stoisz wlasnie na dosyc plaskiej
+powierzchni co daje ci chwilke na odpoczynek i zastanowienie sie w ktorym
+kierunku bedzie bezpieczniej podrozowac.
+~
+0 4 3
+D4
+Zdewastowana placowka
+~
+~
+128 -1 1580
+D5
+Ciemny i straszny las
+~
+~
+128 -1 1578
+S
+#1580
+Zdewastowana placowka~
+Jeszcze tyllko troche wysilku i juz znajdujesz sie na szczyce. Ale miejsce
+nie jest zbyt przyjemne. Stoi tutaj malutka budka chroniaca przed niepogoda.
+Ale poza nia nie ma tu nic co mogloby posluzyc za bezpieczne schronienie.
+To jest wlasnie odlegla placowka hobgoblinow. Z tego miejsca moga objac
+wzrokiem caly las, majac na oku te cholerne gnomy, z ktorymi musza dzielic
+te ziemie.
+~
+0 4 3
+D5
+Ryzykowna wspinaczka
+~
+~
+128 -1 1579
+S
+#1581
+Dziwne echo~
+Gdy wchodzisz do tej dzwnej jaskini, nagle znajdujesz sie w kompletnej
+ciemnosci. Zwielokrotnione echo twoich krokow rozbrzmiewa tak, jakby to 
+maszerowala cala armia. Jaskinia jest wieksza niz mozna by przypuszczac
+i rozciaga sie w kierunku wschodnim.
+~
+0 9 13
+D1
+Jaskinia
+~
+~
+0 -1 1582
+D3
+Poczatek lesnej sciezki
+~
+~
+0 -1 1578
+S
+#1582
+Ciemne rozwidlenie~
+Jaskinia jest tak wielka i ciemna, ze z ledwoscia zdajesz sobie sprawe
+z tego, ze rozwidla sie w tym miejscu w kierunku zachodnim i polnocnym.
+Echo sprawia, ze czujesz sie nieswojo i jestes zdezorientowany. To cos wiecej
+niz tylko dzwieki twoich krokow. Po dluzszych poszukiwaniach odnajdujesz 
+korytarz wiodacu na zachod.
+~
+0 9 13
+D0
+Jaskinia
+~
+~
+0 -1 1593
+D1
+Wilgotny korytarz
+~
+~
+0 -1 1583
+D3
+Dziwne echo
+~
+~
+0 -1 1581
+S
+#1583
+Wilgotny korytarz~
+Nierowne omszale sciany i blotnista podloga, to wlasnie jaskinia,
+w ktorej sie znajdujesz. Widzac slady na scianach zostawione przez
+proste narzedzia, domyslasz sie ze korytarz ten zostal przez kogos
+wykuty. Korytarz rozwidla sie w kierunku polnocnym i poludniowo-wschodnim.
+Na zachodzie widzisz wielka, ciemna jaskinie.
+~
+0 13 13
+D0
+Korytarz
+~
+~
+0 -1 1584
+D3
+Wielka, ciemna jaskinia
+~
+~
+0 -1 1582
+D8
+Mala strozowka
+~
+~
+0 -1 1587
+S
+#1584
+Koniec wilgotnego tunelu~
+Korytarz konczy sie tutaj drzwiami na wschodniej scianie. Patrzac na drzwi,
+zauwazasz ze sa to drzwi wiezienne, wykonane z grubego zielonego drewna,
+wzmocnionego zelaznymi sztabami. To dziwne, ale te drzwi nie maja zadnego
+zamka i nie pilnuja ich straznicy.
+~
+0 13 13
+D1
+Dziwna cela
+~
+~
+3 -1 1585
+D2
+Korytarz
+~
+~
+0 -1 1583
+E
+drzwi~
+Na pierwszy rzut oka drzwi wygladaja dosyc slabo. Proste, zrobione z jakiegos
+zielonego drewna i wzmocnione zelaznymi sztabami. Gdy przygladasz sie
+im blizej dochodzisz do wniosku, ze sa wytrzymalsze niz wygladaja.
+~
+S
+#1585
+Cela inna niz wszystkie~
+Ta cela wyglada na dosyc porzadna. Wygodne luzko, cztery plakaty wiszace
+na scianach, sprawiaja mile wrazenie. Solidny debowy stol i trzy krzesla
+stoja w poldniowo-wschodnim rogu komnaty. Na stole leza jakies notatki.
+Na podlodze lezn nawet nowy dywanik! Gdy przypomnisz sobie pozostale
+cele jakie tu widziales, zastanawiasz sie dla kogo przeznaczona jest
+ta cela.
+~
+0 13 13
+D3
+Poczatek korytarza
+~
+~
+3 -1 1584
+D5
+A shimmering portal beckons to you
+~
+podloga zapadnia drzwi~
+3016715 -1 1529
+E
+dywanik~
+Dywanik na dziwny wzor, jakies abstrakcyjne sceny z udzialem kol zebatych,
+sprezynek i innych mechanicznych rzeczy. Gdy na niego patrzyssz zastanawiasz
+sie kto moze byc jego wlascicielem i wtedy zauwazasz cos dziwnego w polozeniu
+dywanika. Gdy badasz to dokladniej znajdujesz pod spodem ukryta zapadnia!
+~
+S
+#1586
+Magazyn~
+To najwyrazniej jest maly magazyn w ktorym skladany jest gorniczy sprzet.
+Ale ten pokoj jest tu tylko przejsciowo. Na polnocnej scianie widac slady
+kopania, majace na celu przedluzenie korytarza dalej na polnoc.
+~
+0 13 13
+D2
+Poczatek korytarza
+~
+~
+0 -1 1597
+S
+#1587
+Posterunek strazy~
+Wielki stol o nierownej powierzchni z dwoma malymi stolkami zajmuja
+srodek tego pokoju. Kilka czarno dymiacych pochodni stanowi oswietlenie.
+Waskie wejscie prowadzi do nastepnego pokoju na wschodzie. Dwoje drzwi
+Zrobionych z zielonego drewna, wzmacnianych zelaznymi sztabami blokuja
+droge do cel na polnocy i poludniu.
+~
+0 9 13
+D0
+Zamkniete drzwi
+~
+~
+3 -1 1591
+D1
+Posterunek strazy~
+~
+0 -1 1588
+D2
+Zamkniete drzwi
+~
+~
+3 -1 1592
+D7
+Wilgotny korytarz
+~
+~
+0 -1 1583
+E
+drzwi~
+Na pierwszy rzut oka drzwi wygladaja dosyc slabo. Proste, zrobione z jakiegos
+zielonego drewna i wzmocnione zelaznymi sztabami. Gdy przygladasz sie
+im blizej dochodzisz do wniosku, ze sa wytrzymalsze niz wygladaja.
+~
+S
+#1588
+Posterunek strazy~
+Ta komnata jest calkiem pusta jesli nie liczyc jednego niewielkiego stolu.
+Stol stoi pod wschodnia sciana i wyglada na mocno zuzyty. Na polnocy
+i poludniu znajduja sie dwie cele. Jedyne wyjscie z tej komnaty jest 
+na zachodzie.
+~
+0 9 13
+D0
+Zamkniete drzwi
+~
+~
+3 -1 1589
+D2
+Zamkniete drzwi
+~
+~
+3 -1 1590
+D3
+Nastepny posterunek
+~
+~
+0 -1 1587
+E
+drzwi~
+Na pierwszy rzut oka drzwi wygladaja dosyc slabo. Proste, zrobione z jakiegos
+zielonego drewna i wzmocnione zelaznymi sztabami. Gdy przygladasz sie
+im blizej dochodzisz do wniosku, ze sa wytrzymalsze niz wygladaja.
+~
+S
+#1589
+Pusta cela~
+Ta cela nie jest aktualnie w uzyciu. Poziom pylu na podlodze pozwala
+przypuszczac, ze juz od dawna stoi pusta. Jedyna pozostaloscia po 
+dawnych mieszkancach jest rozsypujacy sie siennik i kilka napisow
+wyrytych na scianach.
+~
+0 9 13
+D2
+Strozowka
+~
+~
+3 -1 1588
+E
+napisy~
+Przygladajac sie scianom dokladniej zauwazasz kilka tajemniczych napisow.
+Wygladaja na symbole mocy tajemnych. Niestety nie udaje ci sie nic z tego
+zrozumiec.~
+S
+#1590
+Dobrze utrzymana cela~
+W tej komnacie niewiele jest rzeczy, ktore sprawilyby, ze poczulbys sie
+jak w domu. Stary zatechly siennik sluzy za luzko, podczas gdy prosty
+stolek i maly stol stanowia reszte umeblowania. To zdumiewajace, pomimo
+ze kazdy przedmiot jest nadgryziony zebem czasu i wszechogarniajaca
+zgnilizna, komnata ta wyglada na calkiem przyjemna. Jakas poczciwa
+duszyczka, ktora skazano na pobyt w tej celi, wlozyla duzo wysilku, 
+aby przystosowac to miejsce do zycia.
+~
+0 9 13
+D0
+Pokoj strazy
+~
+~
+3 -1 1588
+S
+#1591
+Ciemna cela~
+W tej celi jest nadzwyczaj ciemno. Swiatlo, ktore niesiesz zdaje sie
+walczyc z otaczajaca ciemnoscia, rozpraszajac z wielkim wysilkiem.
+Gdy udaje ci sie przezwyciezyc ciemnosc zauwazasz, ze jedynym wyposarzeniem
+tej celi jest slomiany siennik i malutki stolik.
+~
+0 9 13
+D2
+Brudnu pokoj strazy
+~
+~
+3 -1 1587
+S
+#1592
+Rozgardiasz~
+Ta cela zapelniona jest roznymi przedmiotami niewiadomego pochodzenia.
+Drewniane kolka leza razem ze sprezynkami z metalu. Pod scianami
+ustawione rzedem stoja pudla, pozostawiajac niewiele miejsca na stary
+siennik lezacy pod poludniowa sciana. W celi tej nie ma innych mebli.
+~
+0 9 13
+D0
+Zakurzony pokoj strazy
+~
+~
+3 -1 1587
+S
+#1593
+Nagly koniec~
+Jaskinia nagle konczy sie w tym miejscu. Jakies trzesienie ziemi musialo
+spowodowac, ze strop zawalil sie. Przed toba lezy olbrzymie rumowisko
+ziemi i kamieni. Na polnocy mozna zauwazyc niewielki korytarz. Wyglada
+jakby ktos wykul go w litej skale. Musial sie przy tym nielicho napracowac.
+~
+0 9 13
+D0
+Wilgotny korytarz
+~
+~
+0 -1 1594
+D2
+Jaskinia
+~
+~
+0 -1 1582
+S
+#1594
+Wilgotny korytarz~
+Wyciety z litej skaly, ten korytarz wyglada na zupelnie nowy. Pyl
+i niewielkie odlamki skal pod scianami sa dowodem na to, ze ktos tu
+niedawno pracowal. Znajac jednak nature hobgoblinow, zastanawiasz sie
+czy praca ta zostanie dokonczona za kilka dni, czy kilka miesiecy.
+~
+0 9 13
+D1
+Sala konferencyjna
+~
+~
+0 -1 1596
+D2
+Wielka, ciemna jaskinia
+~
+~
+0 -1 1593
+D3
+Maly warsztat
+~
+~
+0 -1 1595
+D6
+Korytarz
+~
+~
+0 -1 1597
+S
+#1595
+Maly magazyn~
+Pudla i kartony stoja ustawione pod scianami tego pokoju. Kilka dziwnych
+urzadzen rozlorzonych na czesci rozlozonych jest na trzech stolach.
+Zgadujac po lancuchach i kajdanach zwisajacych ze scian, ktokolwiek
+tu pracuje musi byc sadystyczna swinia.
+~
+0 9 13
+D1
+Wilgotny korytarz
+~
+~
+0 -1 1594
+E
+pudla~
+Pudla sa pelne roznych dziwnych przedmiotow. Wszystko, od kolek zebatych
+i sprezynek do drewnianych paneli.
+~
+E
+kartony~
+Pudla sa pelne roznych dziwnych przedmiotow. Wszystko, od kolek zebatych
+i sprezynek do drewnianych paneli.
+~
+E
+czesci~
+Dziwnie wygladajace czesci sa mieszanina kol zebatych, sprezyn, guzikow
+i paneli. Przygladasz sie im bardzo dlugo, ale mimo to nie mozesz odgadnac
+ich przeznaczenia.
+~
+E
+lancuchy~
+Zardzewiale, pomimo tego utrzymane w dobrym stanie. Lancuch te wygladaja
+jakby niedawno byly w uzytku. Po ich rozmiarze mozesz rozpoznac, ze ofiara
+byla wzrostu, mniej wiecej sredniego czlowieka. Niestety nie da sie ustalic
+blizszych danych.
+~
+E
+kajdany~
+Zardzewiale, pomimo tego utrzymane w dobrym stanie. Lancuch te wygladaja
+jakby niedawno byly w uzytku. Po ich rozmiarze mozesz rozpoznac, ze ofiara
+byla wzrostu, mniej wiecej sredniego czlowieka. Niestety nie da sie ustalic
+blizszych danych.
+~
+S
+#1596
+Pokoj konferencyjny~
+Ten pokoj jest czysty i dobrze utrzymany. Wspaniale debowe biorka,
+ustawione w calym pokoju, zapelnione sa stertami papierow. Kilka dlugich
+arkuszy zostalo strategicznie rozmieszczonych po pokoju. Kazdy arkusz
+przedstawia diagram, notatki, i formuly nadzwyczajnej natury. Gdy
+zastanawiasz sie nad tym, ze taki pokoj troche nie pasuje do hobgoblinow
+zauwazasz lancuchy i kajdany przytwierdzone do scian. Jednak wszystko
+jest w porzadku.
+~
+0 9 13
+D3
+Wilgotny korytarz
+~
+~
+0 -1 1594
+E
+kajdany~
+Zardzewiale, pomimo tego utrzymane w dobrym stanie. Lancuch te wygladaja
+jakby niedawno byly w uzytku. Po ich rozmiarze mozesz rozpoznac, ze ofiara
+byla wzrostu, mniej wiecej sredniego czlowieka. Niestety nie da sie ustalic
+blizszych danych.
+~
+E
+lancuchy~
+Zardzewiale, pomimo tego utrzymane w dobrym stanie. Lancuch te wygladaja
+jakby niedawno byly w uzytku. Po ich rozmiarze mozesz rozpoznac, ze ofiara
+byla wzrostu, mniej wiecej sredniego czlowieka. Niestety nie da sie ustalic
+blizszych danych.
+~
+E
+sterty~
+Gdy przegladasz sterty papierow, odkrywasz ze sa one pelne przeroznych
+diagramow, formul i dziwacznych symboli. Probujesz jak mozesz, ale nie
+potrafisz rozszyfrowac ich znaczenia.
+~
+E
+papiery~
+Gdy przegladasz sterty papierow, odkrywasz ze sa one pelne przeroznych
+diagramow, formul i dziwacznych symboli. Probujesz jak mozesz, ale nie
+potrafisz rozszyfrowac ich znaczenia.
+~
+E
+arkusze~
+Arkusze przedstawiaja wielkie diagramy. Ktos dopisal jeszcze kilka
+notatek i uwag. Chociaz bardzo sie starasz nie mozesz dojsc do tego,
+co przedstawiaja te diagramy.
+~
+E
+dab~
+Pomimo, ze zrobione z najlepszego materialu, gdy sie przyjrzec blizej,
+ze te biorka sa dosyc mocno uszkodzone. Wyglada calkiem jakby musialy
+przebyc bardzo dluga droge, aby tu dotrzec.
+~
+E
+biorka~
+Pomimo, ze zrobione z najlepszego materialu, gdy sie przyjrzec blizej,
+ze te biorka sa dosyc mocno uszkodzone. Wyglada calkiem jakby musialy
+przebyc bardzo dluga droge, aby tu dotrzec.
+~
+S
+#1597
+Koniec korytarza~
+Korytarz dobiega konca. Przed soba widzisz wielkie rumowisko skalne. 
+Ktos pracowal tutaj niedawno, wokolo leza porzucone w nieladzie narzedzia.
+W polnocnej scianie widac prawie ukonczone wejscie.
+~
+0 9 13
+D0
+Magazyn
+~
+~
+0 -1 1586
+D1
+Stare laboratorium
+~
+~
+0 -1 1599
+D3
+Straszny smrod
+~
+~
+0 -1 1598
+D9
+Korytarz
+~
+~
+0 -1 1594
+E
+rumowisko~
+Gdy patrzysz na rumowisko, widzisz ze ktos probowal usunac stad te wszystkie
+kamienie. Ktokolwiek to byl odwalil tu kawal roboty.
+~
+E
+kamienie~
+Gdy patrzysz na rumowisko, widzisz ze ktos probowal usunac stad te wszystkie
+kamienie. Ktokolwiek to byl odwalil tu kawal roboty.
+~
+S
+#1598
+Straszny smrod~
+W wyniku wielu nieudanych eksperymentow wydzielilo sie tyle smierdzacych
+oparow, ze powietrze jest od nich az geste. Zlewki i flakony porozrzucane
+sa  po podlodze i walaja sie na stole, jedynym meblu w tym pokoju. Gnijace
+skladniki i reesztki pozywienia mieszaja sie ze soba w nieladzie. Kilka
+do polowy napelnionych butelek ustawione sa w jednym rogu stolu.
+~
+0 9 13
+D1
+Wilgotny korytarz
+~
+~
+0 -1 1597
+E
+zlewki butelki flakony~
+Kazdy z tych pojemnikow musial widziec setki nieudanych eksperymentow.
+Gdy przygladasz sie im wszystkim nie potrafisz odnalezc nic co byloby
+czyste lub nie wyszczerbione.~
+E
+stol~
+Straszliwie zuzyty, z wylamana noga. Na nierownym blacie widnieje kilka
+dziur. Ten stol wyglada jakby niejedno juz przeszedl.
+~
+> entry_prog 100~
+if race ($n) == half-ogre
+or race ($n) == half-orc
+or race ($n) == half-troll
+or isnpc ($n)
+mpechoat $n Panuje tu straszny smrod, ale da sie wytrzymac.
+else
+mpechoat $n Panuje tu straszny smrod, sprawiajac, ze zaczynasz sie dusic i okropnie kaszlesz.
+mpechoaround $n $n straszliwie kaszle i dusi sie.
+mpdamage $n 5
+mpechoat $n Od tego kaszlu rozbolaly cie pluca.
+mpechoat $n Na szczescie nie ma trwalych uszkodzen.
+endif
+~
+|
+S
+#1599
+Stare laboratorium~
+To bardzo smutny przyklad starego laboratorium. Jeden chwiejacy sie
+stol stoi, a raczej opiera sie o wschodnia sciane. Sterty smieci i roznych
+dziwactw walaja sie po podlodze. Jakies gryzmoly na scianie musialy byc
+proba ozdobienia tego pokoju. Kilka rozwalonych maszyn lezy na stole,
+jak z dawna zapomniane zabawki.
+~
+0 9 13
+D3
+A dank passageway
+~
+~
+0 -1 1597
+E
+sterty smieci~
+Wysokie prawie na metr, to smutne polaczenie tandetnych mechanizmow
+z gnijacym pozywieniem. Wyglada na to, ze hobgobliny dbaja o swoje
+eksperymenty tak samo jak o swoje mieszkania.
+~
+E
+gryzmoly~
+Podczas gdy na pierwszy rzut oka te gryzmoly wygladaja na jakies diagramy,
+blizsze ogledziny wskazuja raczej na bazgroly malych dzieci.
+~
+E
+rozwalone maszyny~
+Gdy patrzysz na marne kawalki zalegajace stol, trudno ci powiedziec jak
+cos takiego mogloby kiedykolwiek byc czyms uzytecznym. Skomplikowane na
+pierwszy rzut oka, po blizszych ogledzinach okazuja sie kupa zle dopasowanych
+smieci.
+~
+E
+stol~
+Straszliwie zuzyty, z wylamana noga. Na nierownym blacie widnieje kilka
+dziur. Ten stol wyglada jakby niejedno juz przeszedl. Na stole stoi kilka
+slojow z bardzo podejrzana substancja.
+~
+S
+#0
+
+
+#RESETS
+M 0 1517 7 1500
+M 0 1517 7 1500
+M 0 1517 7 1500
+M 0 1517 7 1500
+M 0 1517 7 1500
+M 0 1517 7 1500
+M 0 1517 7 1500
+D 0 1500 0 1
+O 1 1598 1 1501
+M 0 1527 2 1502
+E 1 1543 2 3
+G 1 1542 2
+E 1 1505 2 11
+E 1 1504 2 16
+M 0 1527 2 1502
+E 1 1505 2 11
+E 1 1504 2 16
+E 1 1543 2 3
+G 1 1542 2
+M 0 1504 2 1505
+G 1 1537 4
+M 0 1532 2 1505
+E 1 1511 4 17
+M 0 1504 2 1506
+G 1 1537 4
+O 1 1525 1 1506
+O 1 1524 1 1506
+M 0 1532 2 1507
+E 1 1511 4 17
+M 0 1503 2 1508
+E 1 1511 4 17
+M 0 1531 2 1510
+G 1 1537 4
+M 0 1531 2 1511
+G 1 1537 4
+M 0 1503 2 1511
+E 1 1511 4 17
+M 0 1530 1 1513
+E 1 1536 1 20
+G 1 1501 1
+D 0 1513 5 2
+M 0 1505 1 1514
+E 1 1535 1 16
+E 1 1509 1 3
+E 1 1508 1 1
+M 0 1510 2 1515
+M 0 1511 1 1515
+D 0 1515 0 1
+D 0 1515 4 1
+M 0 1509 3 1516
+M 0 1510 2 1517
+M 0 1509 3 1518
+M 0 1509 3 1518
+O 1 1526 1 1518
+P 1 1527 1 1526
+D 0 1518 2 1
+O 1 1528 1 1519
+P 1 1529 1 1528
+D 0 1519 2 1
+M 0 1537 5 1520
+E 1 1539 5 17
+M 0 1537 5 1520
+E 1 1539 5 17
+M 0 1502 4 1521
+E 1 1515 4 8
+M 0 1502 4 1521
+E 1 1515 4 8
+M 0 1534 1 1522
+E 1 1536 2 20
+M 0 1500 2 1522
+M 0 1500 2 1522
+M 0 1535 1 1523
+E 1 1503 1 16
+M 0 1566 3 1523
+M 0 1566 3 1523
+M 0 1566 3 1523
+M 0 1538 4 1525
+E 1 1541 4 6
+M 0 1538 4 1525
+E 1 1541 4 6
+M 0 1536 3 1527
+E 1 1502 6 16
+O 1 1530 1 1527
+M 0 1538 4 1528
+E 1 1541 4 6
+M 0 1538 4 1528
+E 1 1541 4 6
+M 0 1514 1 1529
+E 1 1538 1 12
+D 0 1529 5 1
+M 0 1536 3 1531
+E 1 1502 6 16
+M 0 1536 3 1531
+E 1 1502 6 16
+M 0 1533 3 1532
+E 1 1502 6 16
+M 0 1502 4 1532
+E 1 1515 4 8
+M 0 1502 4 1532
+E 1 1515 4 8
+M 0 1533 3 1534
+E 1 1502 6 16
+M 0 1533 3 1534
+E 1 1502 6 16
+M 0 1501 3 1535
+E 1 1540 3 13
+M 0 1501 3 1535
+E 1 1540 3 13
+M 0 1501 3 1536
+E 1 1540 3 13
+M 0 1537 5 1537
+E 1 1539 5 17
+M 0 1537 5 1538
+E 1 1539 5 17
+M 0 1537 5 1538
+E 1 1539 5 17
+M 0 1508 4 1540
+G 1 1512 2
+M 0 1508 4 1540
+G 1 1512 2
+M 0 1547 2 1541
+M 0 1508 4 1543
+G 1 1513 2
+M 0 1508 4 1543
+G 1 1513 2
+M 0 1545 1 1546
+M 0 1546 1 1547
+M 0 1547 2 1550
+M 0 1524 1 1555
+M 0 1529 1 1556
+O 1 1531 1 1556
+P 1 1532 1 1531
+M 0 1513 3 1563
+M 0 1513 3 1563
+M 0 1513 3 1563
+M 0 1520 6 1563
+E 1 1597 1 17
+M 0 1520 6 1564
+M 0 1526 1 1566
+G 1 1534 1
+O 1 1533 2 1566
+M 0 1520 6 1568
+M 0 1520 6 1570
+E 1 1597 1 17
+M 0 1520 6 1570
+E 1 1597 1 17
+M 0 1520 6 1570
+O 1 1573 1 1573
+M 0 1548 5 1575
+E 1 1521 10 16
+M 0 1548 5 1575
+E 1 1521 10 16
+M 0 1548 5 1575
+E 1 1521 10 16
+M 0 1548 5 1575
+E 1 1521 10 16
+M 0 1548 5 1575
+E 1 1521 10 16
+M 0 1519 1 1576
+E 1 1545 2 16
+E 1 1544 1 12
+G 1 1500 1
+M 0 1518 2 1576
+E 1 1521 10 16
+E 1 1520 3 5
+M 0 1518 2 1576
+E 1 1521 10 16
+E 1 1520 3 5
+D 0 1576 2 1
+D 0 1576 3 2
+M 0 1521 1 1577
+G 1 1523 2
+O 1 1518 2 1577
+D 0 1577 1 1
+M 0 1516 2 1580
+G 1 1533 2
+E 1 1548 3 6
+E 1 1519 3 11
+E 1 1521 10 16
+M 0 1516 2 1580
+G 1 1533 1516
+E 1 1548 3 6
+E 1 1519 3 11
+E 1 1521 10 16
+M 0 1515 4 1581
+M 0 1515 4 1581
+M 0 1552 1 1584
+E 1 1521 1552 16
+D 0 1584 1 1
+D 0 1585 3 1
+D 0 1585 5 1
+M 0 1551 2 1586
+M 0 1549 4 1587
+M 0 1549 4 1587
+D 0 1587 0 1
+D 0 1587 2 1
+M 0 1549 4 1588
+M 0 1549 4 1588
+D 0 1588 0 1
+D 0 1588 2 1
+D 0 1589 2 1
+M 0 1522 3 1590
+M 0 1522 3 1590
+M 0 1522 3 1590
+D 0 1590 0 1
+M 0 1539 1 1591
+D 0 1591 2 1
+M 0 1523 4 1592
+M 0 1523 4 1592
+M 0 1523 4 1592
+M 0 1523 4 1592
+D 0 1592 0 1
+M 0 1515 4 1594
+M 0 1515 4 1594
+M 0 1551 2 1595
+M 0 1550 3 1598
+M 0 1550 3 1599
+M 0 1550 3 1599
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  1511 spec_poison
+S
+
+
+#$

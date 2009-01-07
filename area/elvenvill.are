@@ -1,0 +1,264 @@
+#AREA   New Area~
+
+#AUTHOR Kaldae~
+
+#RANGES
+0 65 0 65
+$
+
+#RESETMSG ~
+
+#FLAGS
+0 15
+
+#ECONOMY 777 77
+
+#HELPS
+0 $~
+
+#MOBILES
+#150003
+poldemon~
+Poldemon~
+Potezny i wsciekly poldemon
+~
+Ta potwornie wygladajaca istota nie moze pochodzic z tego swiata.
+Pewnie byla uwieziona tu od wiekow po przywolaniu z jakiejs bezimiennej odchlani.~
+131105 4195384 -500 C
+50 15 -3 30d30+300 3d10+10
+1000 500
+8 8 0
+30 30 30 30 30 30 30
+10 10 10 10 10
+85 0 300 500 112896 112896 0
+0 0 14526407 16 257 134 33562644 0
+> fight_prog ~
+~
+|
+#150005
+elfi_straznik~
+Elfi Straznik~
+Stoi tu elfi straznik wypatrujacy wrogow
+~
+~
+164033 4194828 300 C
+20 0 0 0d0+0 0d0+0
+50 50
+8 8 2
+14 15 15 19 18 14 14
+0 0 0 0 0
+1 0 200 80 514 2 2
+0 0 2031 3072 0 0 144 530658
+#150010
+strazniczka_mag~
+Elfka~
+Bosko piekna elfka, ubrana w zwiewne szaty.
+~
+~
+118623809 -1762024772 1000 C
+50 0 -10 10d100+500 10d10+100
+0 10000
+6 6 2
+20 20 20 20 20 20 20
+0 0 0 0 0
+1 0 197 70 1048575 112643 7
+0 0 2031 4194303 4194303 0 715133360 8388607
+> all_greet_prog ~
+~
+> act_prog ~
+~
+|
+#0
+
+
+#OBJECTS
+#150004
+elfia_kolczuga~
+Elfia kolczuga~
+Pieknej roboty elfia kolczuga.~
+~
+9 8946944 8200
+3 0 0 0
+1 10000 1000
+A
+17 5
+#150006
+elfi_miecz~
+Elfi miecz~
+Pieknej roboty elfi miecz.~
+~
+5 1281 8320
+0 0 0 0
+1 5000 500
+A
+18 1
+#0
+
+
+#ROOMS
+#150000
+sciezka_do_lasu~
+Znajdujesz sie na niewielkim pagorku, na polnocy widzisz drozke prowadzaca
+z powrotem na trakt, natomiast na poludniu jest nieuzywana sciezke biegnaca
+do bujnego ciemnego lasu.
+~
+0 0 4
+D0
+~
+~
+67108864 0 0
+D2
+~
+~
+0 0 150001
+S
+#150001
+w_lesie~
+Znajdujesz sie w dziwnym ponurym lesie, nie slychac tu spiewu ptakow ani szumu
+wiatru. Miejsce to jest spokojne, stanowczo za spokojne. Sciezka zakreca
+na poludniowy-wschod, na poludnoiwo-zachodniej stronie znajduja sie jakies
+kolczaste krzaki blokujace droge.
+~
+0 134217760 3
+D0
+~
+~
+0 0 150000
+D9
+Waski przesmyk prowadzi w prawo pomiedzy jakimis nieprzyjemnie wygladajacymi
+kolczastymi krzakami.~
+przesmyk~
+18876416 0 150002
+D8
+Sciezka wyglada na uzywana glownie przez zwierzeta.~
+sciezka~
+0 0 150007
+E
+krzaki~
+Jakies dziwne kolczaste zarosla, lekko falujace mimo ze nie ma wiatru.~
+S
+#150002
+dziwne_ruiny~
+Udalo ci sie, znajdujesz sie w srodku dziwnych ruin z czarnego kamienia.
+Nie wiesz dlaczego, ale nagle przeszedl cie dreszcz prymitywnego
+obezwladniajacego strachu.
+~
+0 67108928 1
+D6
+~
+~
+1048576 0 150001
+E
+ruiny~
+Dziwne budowle z czarnego kamienia. A niech to wlasnie zauwazyles ze zamazales
+swoim przejsciem, linie znakow runicznych.~
+S
+#150007
+polanka~
+Znajdujesz sie na niewielkiej polance gleboko w lesie. Atmosfera jakby sie
+zmienila teraz czujesz spokoj, odprezenie. Slychac ptaki, cicho szemrze sobie
+strumuk przeplywajacy gdzies w poblizu. Na polnocnym-zachodzie las staje sie
+ciemny i grozny natomiast na poludniu wrecz odwrotnie las jes jakby
+bardziej bajkowy i weselszy.
+~
+0 1024 3
+D7
+~
+~
+0 0 150001
+D2
+~
+~
+67108864 0 150011
+D10
+~
+strumyk~
+28313648 0 150008
+S
+#150008
+woda~
+Ach odswiezajaca kapiel. Unosisz sie spokojne na wodzie i leniwie obserwujesz
+las zyjacy wlasnym zyciem. Nagle twa uwage zwraca maly wir wodny w glebi,
+z ktorego bije przepiekny blask.~
+0 151298080 6
+D1
+~
+~
+93323312 0 150007
+D5
+~
+zanurkuj~
+25165872 0 150009
+E
+wir~
+Myslisz ze moznaby nabrac powietrza i zanurkowac zeby obejrzec to z bliska.~
+S
+#150009
+Jaskinia~
+Znajdujesz sie w przedziwnej jaskini, jest tu cieplo i przyjemnie.
+Na srodku znajduje sie wielka fontanna zbudowana z leniwie wirujacej wody.
+Cale pomieszczenie jest oswietlone przez przepiekne kamienie szlachetne
+umieszczone w scianach. Co najdziwniejsze reszta jaskini jest umeblowana
+jak luksusowe mieszkanie.~
+0 137438248 0
+D4
+Ogromna fontanna wiruje posrodku jaskini prowadzac w gore.~
+fontanna~
+93323312 0 150008
+E
+fontanna~
+Wielka fontanna wiruje posrodku jaskini- pokoju jest pieknie podswietlona
+od spodu przez klejnoty.
+ Nie masz pojecia dlaczego ta gora wody utrzymuje sie w takiej pozycji
+nie zalewajac pomieszczenia.
+~
+E
+klejnot~
+Ogromny kamien szlachetny blyszczy wewnetrznym ogniem.~
+E
+klejnoty~
+Wielkie kamienie szlachetne umieszczone w taki dziwny sposob ze rozswietlaja
+przepieknie cale pomieszczenie nie oslepiajac przy tym.~
+S
+#150011
+las_dalej~
+Znajdujesz sie w przepieknym wrecz bajkowym lesie. Przechodzace zwierzeta
+nie boja sie ciebie a gdzies u gory slyszysz smiech.
+~
+0 0 3
+D0
+~
+~
+0 0 150007
+D4
+~
+~
+69273728 0 0
+S
+#0
+
+
+#RESETS
+T 147456 10 1 150001
+M 0 150005 1 150007
+E 0 150004 0 5
+E 0 150006 0 16
+M 0 150010 1 150009
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  150003 spec_cast_undead
+M  150010 spec_cast_mage
+S
+
+
+#$

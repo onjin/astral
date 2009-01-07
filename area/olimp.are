@@ -1,0 +1,1842 @@
+#AREA   Olimp [pl. Deth]~
+
+
+
+#VERSION 3
+#AUTHOR Generic~
+
+#RANGES
+0 20 0 65
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 51248139
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#901
+zeus bog~
+Zeus~
+Zeusa~
+Zeusowi~
+Zeusa~
+Zeusem~
+Zeusie~
+Zeusie~
+Zeus siedzi tu na tronie.
+~
+Stoisz przed najswietniejszym z bogow. Nie ma watpliwosci, ze moglby cie
+zabic w mgnieniu oka. Czujesz, ze kazde jego spojrzenie wnika wglab twojej
+duszy. Teraz wiesz, co oznacza prawdziwy strach.
+
+~
+7 532650 1000 S
+35 0 -10 35d35+1000 20d3+25
+100000 2000000
+112 112 1
+#902
+prometeusz~
+Prometeusz~
+Prometeusza~
+Prometeuszowi~
+Prometeusza~
+Prometeuszem~
+Prometeuszu~
+Prometeuszu~
+Prometeusz bawi sie tu zapalkami.
+~
+Ten oto tytan narazil sie Zeusowi wykradajac ogien bogom i przekazujac go 
+ludziom. Spoglada na ciebie z usmiechem.
+~
+7 532650 1000 S
+31 0 -7 31d31+310 15d2+20
+40000 300000
+112 112 1
+#903
+hermes~
+Hermes~
+Hermesa~
+Hermesowi~
+Hermesa~
+Hermesem~
+Hermesie~
+Hermesie~
+Hermes jest zajety, dostarcza wlasnie wiadomosc.
+~
+Oto jest boski poslaniec. Pomyka sobie to tu to tam ubrany tylko w swoj 
+skrzydlaty helm i sandaly. Jest tak zaabsorbowany swym zadaniem, ze nawet 
+cie nie zauwaza.
+~
+5 565418 1000 S
+33 0 -7 33d33+330 20d2+20
+50000 400000
+112 112 1
+#904
+posejdon~
+Posejdon~
+Posejdona~
+Posejdonowi~
+Posejdona~
+Posejdonem~
+Posejdonie~
+Posejdonie~
+Posejdon zajada tu obiadek.
+~
+Syn Zeusa, wybrany by rzadzic morzami i oceanami. Pewnie wpadl tu tylko 
+z wizyta. Oh, skinal na ciebie bys sie przysiadl. Coz za wyroznienie !
+~
+7 532650 1000 S
+35 0 -10 35d35+1000 20d3+25
+100000 2000000
+108 112 1
+#905
+apollo~
+Apollo~
+Apollina~
+Apollinowi~
+Apollina~
+Apollinem~
+Apollinie~
+Apollo~
+Apollo rzepoli cos na lutni.
+~
+Bog usmiecha sie do ciebie i zaprasza, bys sie do niego przylaczyl. Katem oka 
+zauwazasz lezacy nieopodal, groznie wygladajacy luk. Apollo zna sie nie tylko
+na muzyce ...
+~
+7 532650 1000 S
+34 0 -8 34d34+340 15d3+25
+40000 550000
+112 112 1
+#906
+ares~
+Ares~
+Aresa~
+Aresowi~
+Aresa~
+Aresem~
+Aresie~
+Aresie~
+Ares zaraz kopnie cie w dupe.
+~
+Bog wojny analizuje tu jakies mapy. Czujesz na sobie jego gniewne spojrzenie.
+Chyba czas zamknac drzwi .. z drugiej strony.
+~
+39 524458 -1000 S
+35 0 -10 35d35+1500 10d2+25
+50000 2000000
+112 112 1
+#907
+atena~
+Atena~
+Ateny~
+Atenie~
+Atene~
+Atena~
+Atenie~
+Ateno~
+Atena wypoczywa tu sobie.
+~
+Ukochana corka Zeusa siedzi tu i zajada winogrona. Usmiecha sie do ciebie 
+i zaprasza, bys sie przylaczyl.
+~
+7 532650 1000 S
+33 0 -7 33d33+330 15d2+10
+60000 300000
+112 112 2
+#908
+hefajstos kowal~
+Hefajstos~
+Hefajstosa~
+Hefajstosowi~
+Hefajstosa~
+Hefajstosem~
+Hefajstosie~
+Hefajstosie~
+Hefajstos pracuje tu nad jakims groznym orezem.
+~
+Ten bog jest jedynym, ktory nie jest fizycznie doskonaly. Jest wrecz paskudny.
+Mimo to odnosisz wrazenie, ze rowny z niego gosc i ze w razie klopotow moglbys
+na niego liczyc. Towarzysza mu tu trzy zlociste nimfy.
+~
+7 532650 1000 S
+33 0 -7 33d33+330 12d2+26
+60000 550000
+112 112 1
+#909
+nimfa zlocista~
+zlocista nimfa~
+zlocistej nimfy~
+zlocistej nimfie~
+zlocista nimfe~
+zlocista nimfa~
+zlocistej nimfie~
+zlocista nimfo~
+Zlocista nimfa tu stoi.
+~
+Przygladajac sie blizej stwierdzasz, iz jest to zrobiona ze szczerego zlota
+rzezba. Mimo to nie ma watpliwosci, ze zyje wlasnym zyciem.
+~
+7 532650 0 S
+15 0 0 2d8+250 2d8+2
+1000 21000
+112 112 2
+#910
+gwardzista~
+gwardzista Aresa~
+gwardzisty Aresa~
+gwardziscie Aresa~
+gwardziste Aresa~
+gwardzista Aresa~
+gwardziscie Aresa~
+gwardzisto Aresa~
+Gwardzista Aresa tu stoi.
+~
+Ten wojak chroni tu swego pana - Aresa. Nie wyglada na wyjatkowego silacza,
+jednak nie masz watpliwosci, ze Ares umie sobie dobrac podwladnych.
+~
+39 524458 0 S
+20 0 0 2d8+250 3d6+12
+5000 15000
+112 112 1
+#911
+muzyk uczen~
+mlody muzyk~
+mlodego muzyka~
+mlodemu muzykowi~
+mlodego muzyka~
+mlodym muzykiem~
+mlodym muzyku~
+mlody muzyku~
+Mlody muzyk uczy sie kunsztu od mistrza.
+~
+Ten czlowiek pragnie byc godnym uczniem swego mistrza.
+~
+1031 524458 1000 S
+8 9 4 2d8+80 2d5+2
+2500 2000
+112 112 1
+#912
+niewolnik~
+niewolnik~
+niewolnika~
+niewolnikowi~
+niewolnika~
+niewolnikiem~
+niewolniku~
+niewolniku~
+Niewolnik karmi Atene winogronami.
+~
+Szczesciarz z tego goscia ...
+~
+7 524458 1000 S
+6 15 7 2d8+200 2d3+2
+500 1000
+112 112 1
+#913
+wielki pies bydle~
+wielkie psie bydle~
+wielkiego psa~
+wielkiemu psu~
+wielkiego psa~
+wielkim psem~
+wielkim psie~
+wielki psie~
+Wielkie psie bydle warczy na ciebie.
+~
+Tego potwora ciezko nazwac psem. Wytresowano go, by sial strach na polu
+bitwy. Nie ma watpliwosci, iz robil to wysmienicie.
+~
+39 524458 -600 S
+20 0 0 1d8+450 2d12+10
+0 45000
+112 112 0
+#914
+Odyn~
+Odyn~
+Odyna~
+Odynowi~
+Odyna~
+Odynem~
+Odynie~
+Odynie~
+Odyn drzemie tu.
+~
+Spogladajac z podziwem na tego poteznego boga zdajesz sobie sprawe jaki jestes
+cherlawy i drobny. Na szczescie nawet cie nie zauwazyl.
+~
+7 532650 1000 S
+35 0 -10 35d35+1000 10d2+25
+100000 2000000
+112 112 1
+#915
+kupiec sprzedawca juliusz~
+Kupiec Juliusz~
+kupca Juliusza~
+kupcowi Juliuszowi~
+kupca Juliusza~
+kupcem Juliuszem ~
+kupcu Juliuszu~
+kupcze Juliuszu~
+Kupiec Juliusz tu stoi.
+~
+Ten mily gosc sprzedaje owoce i pieczywo mieszkancom miasta. Robi to cale zycie
+i naprawde uwielbia te prace. Mimo, ze wyglada troche cherlawie, nie bylo by
+madrze go niedoceniac. Na twoj widok usmiecha sie goraco i wskazuje na swe
+towary.
+~
+7 532650 1000 S
+30 0 -4 1d1+1999 3d10+10
+10000 110000
+112 112 1
+#916
+stary alchemik~
+stary alchemik~
+starego alchemika~
+staremu alchemikowi~
+starego alchemika~
+starym alchemikiem~
+starym alchemiku~
+stary alchemiku~
+Stary, pomarszczony alchemik stoi tu.
+~
+Wyszkolony we wszystkich szkolach magii, jak i rowniez w prastarej sztuce
+alchemii stoi tu gotow pomagac wszystkim (ale nie tobie) swoimi umiejetnosciami.
+~
+7 532650 1000 S
+34 0 -8 1d1+1999 25d2+50
+10000 100000
+112 112 1
+#917
+clive~
+Clive Wymiatacz~
+Clive'a Wymiatacza~
+Clive'owi Wymiataczowi~
+Clive'a Wymiatacza~
+Clive'em Wymiataczem~
+Clive'ie Wymiataczu~
+Clive'ie Wymiataczu~
+Clive Wymiatacz trenuje tu z toporem.
+~
+Clive jest BARDZO duzy i BARDZO twardy. Te lata w armii robia swoje.
+~
+7 532650 1000 S
+30 0 -10 30d30+300 10d3+20
+40000 200000
+112 112 1
+#918
+zbrojmistrz samuel~
+zbrojmistrz Samuel~
+zbrojmistrza Samuela~
+zbrojmistrzowi Samuelowi~
+zbrojmistrza Samuela~
+zbrojmistrzem Samuelem~
+zbrojmistrzu Samuelu~
+zbrojmistrzu Samuelu~
+Zbrojmistrz Samuel przyglada ci sie uwaznie.
+~
+Samuel moglby byc bratem Clive'a Wymiatacza - tak jak on jest BARDZO duzy
+i BARDZO twardy. Zupelnie mu sie nie podoba twoja obecnosc w miescie.
+~
+39 532650 1000 S
+20 0 -3 1d8+400 10d3+20
+10000 60000
+112 112 1
+#919
+ra slonce bog~
+bog slonca Ra~
+boga Ra~
+bogowi Ra~
+boga Ra~
+bogiem Ra~
+bogu Ra~
+Ra~
+Ra, egipski bog slonca odpoczywa tu.
+~
+Alez od niego bije jasnosc! Jego widok oslepia cie, wiec niestety nie mozesz
+dojrzec jak wyglada. Jednak to co widzisz wystarcza ci, by sie domyslec ze nie 
+ma z nim zartow.
+~
+7 532650 1000 S
+35 0 -10 1d8+2500 25d2+25
+100000 3000000
+112 112 1
+#920
+chimera~
+chimera~
+chimery~
+chimerze~
+chimere~
+chimera~
+chimerze~
+chimero~
+Chimera tu grasuje !
+~
+Ta dziwaczna poczwara ma trzy glowy - kozla, lwa i smoka. Gdy wchodzisz do 
+komnaty warczy i od razu atakuje !!!
+~
+39 524458 -1000 S
+20 0 -3 20d20+200 5d5+15
+1000 75000
+112 112 1
+#921
+hera~
+Hera~
+Hery~
+Herze~
+Here~
+Hera~
+Herze~
+Hero~
+Hera jest tutaj.
+~
+Hera, zona Zeusa jest tutaj. Usmiecha sie do ciebie przyjaznie i zaprasza, bys
+usiadl i odpoczal tu chwile.
+~
+7 532650 1000 S
+35 0 -10 1d8+1500 15d3+15
+100000 1500000
+112 112 2
+#922
+orzel~
+ogromny orzel~
+ogromnego orla~
+ogromnemu orlowi~
+ogromnego orla~
+ogromnym orlem~
+ogromnym orle~
+ogromny orle~
+Ogromny orzel jest tu.
+~
+Ale wielki ptak! Spojrzal na ciebie podejrzliwie, zaskrzeczal
+i sie odwrocil.
+~
+5 532650 0 S
+15 0 0 1d8+400 3d8+6
+5000 40000
+112 112 0
+#923
+mieszczanin~
+mieszczanin~
+mieszczanina~
+mieszczaninowi~
+mieszczanina~
+mieszczaninem~
+mieszczaninie~
+mieszczaninie~
+Mieszczanin maszeruje razno ulica.
+~
+Wyglada na szczesliwego i beztroskiego. Usmiecha sie i uchyla kapelusza
+na twoj widok.
+~
+5 532650 1000 S
+4 16 6 1d8+60 2d4+1
+69 500
+112 112 1
+#924
+pegaz kon~
+pegaz~
+pegaza~
+pegazowi~
+pegaza~
+pegazem~
+pegazie~
+pegazie~
+Pegaz jest tutaj.
+~
+Snieznobialy kon ze skrzydlami. Nie wyglada zbyt groznie, ale sprowokowany
+moze sie okazac bardzo niebezpieczny.
+~
+5 532650 0 S
+8 12 4 1d8+110 2d5+3
+800 3000
+112 112 0
+#925
+kucharz~
+kucharz~
+kucharza~
+kucharzowi~
+kucharza~
+kucharzem~
+kucharzu~
+kucharzu~
+Kucharz pracuje tu ciezko.
+~
+Nie ma watpliwosci, ze ten gosc spedza DUZO za duzo czasu w kuchni.
+~
+7 532650 1000 S
+5 15 5 1d8+75 2d4+2
+100 1000
+112 112 1
+#926
+straznik~
+straznik lochow~
+straznika lochow~
+stranikowi lochow~
+straznika lochow~
+straznikiem lochow~
+strazniku lochow~
+strazniku lochow~
+Straznik lochow wypatruje intruzow.
+~
+Ten gosc spedza duzo czasu pod ziemia pilnujac wiezniow.
+~
+7 532650 0 S
+13 8 2 1d8+620 2d6+1
+1000 13000
+112 112 1
+#0
+
+
+#OBJECTS
+#900
+aegis napiersnik~
+napiersnik Aegis~
+napiersnika Aegis~
+napiersnikowi Aegis~
+napiersnik Aegis~
+napiersnikiem Aegis~
+napiersniku Aegis~
+napiersniku Aegis~
+Wspanialy napiersnik lezy tu pozostawiony przez kogos.~
+~
+9 1120 9 16
+10 0 0 0
+50 300000 50000
+A
+1 1
+#901
+mlot piorun~
+Piorun~
+mlota~
+mlotowi~
+mlot~
+mlotem~
+mlocie~
+mlocie~
+Lezy tu wielki mlot wyrzucony nieopatrznie przez kogos.~
+~
+5 1120 8193
+12 6 5 8
+24 200000 150000
+A
+18 3
+#902
+helm skrzydlaty~
+skrzydlaty helm~
+skrzydlatego helmu~
+skrzydlatemu helmowi~
+skrzydlaty helm~
+skrzydlatym helmem~
+skrzydlatym helmie~
+skrzydlaty helmie~
+Helm z malymi skrzydelkami tu lezy.~
+~
+9 1120 17
+10 10 0 0
+5 150000 5000
+A
+2 2
+#903
+wlocznia ares~
+wlocznia Aresa~
+wloczni Aresa~
+wloczni Aresa~
+wlocznie Aresa~
+wlocznia Aresa~
+wloczni Aresa~
+wlocznio Aresa~
+Dziwaczna wlocznia tu lezy.~
+~
+5 608 8193
+11 5 5 2
+18 200000 10000
+A
+18 2
+A
+19 2
+#904
+sandaly skrzydlate~
+skrzydlate sandaly~
+skrzydlatych sandalow~
+skrzydlatym sandalom~
+skrzydlate sandaly~
+skrzydlatymi sandalami~
+skrzydlatych sandalach~
+skrzydlate sandaly~
+Para solidnych sandalow tu lezy.~
+~
+9 1120 65 8
+8 0 0 0
+5 100000 2500
+#905
+laska kosc sloniowa~
+laska z kosci sloniowej~
+laski z kosci sloniowej~
+lasce z kosci sloniowej~
+laske z kosci sloniowej~
+laska z kosci sloniowej~
+lasce z kosci sloniowej~
+lasko z kosci sloniowej~
+Laska wyrzezbiona z kosci sloniowej tu lezy.~
+~
+4 1120 16385
+30 3 3 -1
+8 70000 2500
+'sanctuary'
+#906
+trojzab posejdon~
+trojzab Posejdona~
+trojzebu Posejdona~
+trojzebowi Posejdona~
+trojzeb Posejdona~
+trojzebem Posejdona~
+trojzebie Posejdona~
+trojzebie Posejdona~
+Ogromny trojzab tu lezy.~
+~
+5 1120 8193 1
+0 3 8 2
+16 100000 35000
+A
+4 2
+#907
+luk srebrny~
+srebrny luk~
+srebrnego luku~
+srebrnemu lukowi~
+srebrny luk~
+srebrnym lukiem~
+srebrnym luku~
+srebrny luku~
+Srebrny luk.~
+~
+5 1120 8193 1
+0 4 4 7
+15 40000 20000
+A
+18 1
+A
+19 1
+#908
+rekawice ogniste~
+ogniste rekawice~
+ognistych rekawic~
+ognistym rekawicom~
+ogniste rekawice~
+ognistymi rekawicami~
+ognistych rekawicach~
+ogniste rekawice~
+Para ognistych rekawic tu lezy.~
+~
+9 1120 129 8
+7 7 0 0
+6 60000 30000
+A
+13 25
+#909
+czara napoj ambrozja~
+czara z ambrozja~
+ambrozji~
+ambrozji~
+ambrozje~
+ambrozja~
+ambrozji~
+ambrozjo~
+Czara pelna ambrozji tu lezy.~
+~
+10 1120 16385
+30 -1 91 91
+1 20000 1000
+'dispel evil' 'heal' 'heal'
+#910
+naszyjnik promieniujacy~
+promienny naszyjnik~
+promiennego naszyjnika~
+promiennemu naszyjnikowi~
+promienny naszyjnik~
+promiennym naszyjnikiem~
+promiennym naszyjniku~
+promienny naszyjniku~
+Naszyjnik promieniujacy dziwnym blaskiem lezy tu.~
+~
+9 96 5
+4 0 0 0
+2 10000 4000
+A
+12 25
+#911
+pierscien szafirowy~
+szafirowy pierscien~
+szafirowego pierscienia~
+szafirowemu pierscieniowi~
+szafirowy pierscien~
+szafirowym pierscieniem~
+szafirowym pierscieniu~
+szafirowy pierscieniu~
+Szafirowy pierscien lezy tu.~
+~
+9 96 3 1
+5 5 0 0
+1 40000 5000
+A
+4 2
+A
+19 4
+#912
+tarcza blask swietlista~
+swietlista tarcza~
+swietlistej tarczy~
+swietlistej tarczy~
+swietlista tarcze~
+swietlista tarcza~
+swietlistej tarczy~
+swietlista tarczo~
+Tarcza tu lezy rozswietlajac cale pomieszczenie swym blaskiem.~
+~
+9 65 513 1
+9 9 0 0
+10 200000 50000
+A
+4 1
+A
+17 -20
+#913
+topor zebaty~
+zebaty topor~
+zebatego topora~
+zebatemu toporowi~
+zebaty topor~
+zebatym toporem~
+zebatym toporze~
+zebaty toporze~
+Zebaty topor.~
+~
+5 96 8193 1
+12 4 4 1
+12 10000 5000
+A
+18 4
+A
+19 4
+#914
+winogrona~
+winogrona~
+winogron~
+winogronom~
+winogrona~
+winogronami~
+winogronach~
+winogrona~
+Kisc winogron.~
+~
+19 8192 16385
+24 0 0 0
+1 50 25
+#915
+wachlarz~
+wachlarz z pawich pior~
+wachlarza z pawich pior~
+wachlarzowi z pawich pior~
+wachlarz z pawich pior~
+wachlarzem z pawich pior~
+wachlarzu z pawich pior~
+wachlarzu z pawich pior~
+Wachlarz z pawich pior.~
+~
+13 0 16385 1
+0 0 0 0
+1 1 1
+#916
+lutnia~
+lutnia~
+lutni~
+lutni~
+lutnie~
+lutnia~
+lutni~
+lutnio~
+Lutnia.~
+~
+13 0 16385
+0 0 0 0
+1 1 1
+#917
+nugget zloto~
+zloty nugget~
+zlotego nuggeta~
+zlotemu nuggetowi~
+zloty nugget~
+zlotym nuggetem~
+zlotym nuggecie~
+zloty nuggecie~
+Zloty nugget tu blyszczy.~
+~
+8 0 1
+0 0 0 0
+5 1000000 1
+#918
+jablko~
+jablko~
+jablka~
+jablku~
+jablko~
+jablkiem~
+jablku~
+jablko~
+Jablko tu lezy.~
+~
+26 0 1
+24 -1 -1 42
+1 1000 25
+'NONE' 'NONE' 'cure light'
+#919
+gruszka~
+gruszka~
+gruszki~
+gruszce~
+gruszke~
+gruszka~
+gruszce~
+gruszko~
+Gruszka tu lezy.~
+~
+26 0 16385
+24 -1 -1 43
+1 1000 25
+'NONE' 'NONE' 'cure poison'
+#920
+pomarancza~
+pomarancza~
+pomaranczy~
+pomaranczy~
+pomarancze~
+pomarancza~
+pomaranczy~
+pomaranczo~
+Pomarancza.~
+~
+26 0 1
+24 -1 -1 9
+1 1000 25
+'NONE' 'NONE' 'armor'
+#921
+kiwi~
+kiwi~
+kiwi~
+kiwi~
+kiwi~
+kiwi~
+kiwi~
+kiwi~
+Kiwi.~
+~
+26 0 1
+24 -1 -1 43
+1 1000 25
+'NONE' 'NONE' 'cure poison'
+#922
+amulet~
+amulet Ra~
+amuletu Ra~
+amuletowi Ra~
+amulet Ra~
+amuletem Ra~
+amulecie Ra~
+amulecie Ra~
+Amulet w ksztalcie slonca tu lezy.~
+~
+9 -2139029408 5
+2 2 0 0
+1 10000 2000
+A
+12 50
+A
+18 3
+A
+17 -8
+#923
+slonce miecz~
+sloneczny miecz~
+slonecznego miecza~
+slonecznemu mieczowi~
+sloneczny miecz~
+slonecznym mieczem~
+slonecznym mieczu~
+sloneczny mieczu~
+Przepiekny miecz ze sloncem wygrawerowanym na rekojesci.~
+~
+5 1120 8193
+10 6 5 3
+20 1000000 150000
+A
+19 2
+#924
+toga niebieska~
+niebieska toga~
+niebieskiej togi~
+niebieskiej todze~
+niebieska toge~
+niebieska toga~
+niebieskiej todze~
+niebieska togo~
+Ciemnoniebieska toga tu lezy.~
+~
+9 1120 9 4
+6 6 0 0
+10 50000 15000
+A
+13 15
+#925
+kapelusz~
+pomiety kapelusz~
+pomietego kapelusza~
+pomietemu kapeluszowi~
+pomiety kapelusz~
+pomietym kapeluszem~
+pomietym kapeluszu~
+pomiety kapeluszu~
+Kapelusz tu lezy.~
+~
+9 1120 17 4
+4 4 0 0
+5 5000 2000
+#926
+nektar zlocisty~
+zlocisty nektar~
+zlocistego nektaru~
+zlocistemu nektarowi~
+zlocisty nektar~
+zlocistym nektarem~
+zlocistym nektarze~
+zlocisty nektarze~
+Czara pelna zlocistego nektaru tu lezy.~
+~
+10 0 16385
+12 -1 102 9
+1 80000 500
+'sanctuary' 'kindred strength' 'armor'
+#927
+klucz cela~
+klucz od celi~
+klucza od celi~
+kluczowi od celi~
+klucz od celi~
+kluczem od celi~
+kluczu od celi~
+kluczu od celi~
+Klucz od celi lezy tu porzucony beztrosko.~
+~
+18 0 1
+0 0 0 0
+1 100 1000
+#0
+
+
+#ROOMS
+#901
+Gora~
+Wspinasz sie po duzej gorze wznoszacej sie nad Ofcolem. Sciezka prowadzi
+w gore, ale potem niespodziewanie sie konczy. Na piechote isc sie dalej 
+nie da.
+~
+0 0 5
+D2
+~
+~
+1 -1 324
+D4
+~
+~
+0 -1 902
+S
+#902
+Gora~
+Coz za ciezka wspinaczka! Jestes wyczerpany, chyba czas odpoczac.
+~
+0 0 9
+D4
+~
+~
+0 -1 903
+D5
+~
+~
+0 -1 901
+S
+#903
+Gora~
+Dotarles wreszcie na szczyt. Powietrze jest tu takie rzadkie, ze z trudnoscia
+lapiesz oddech. Na polnoc stad widzisz niewyrazny zarys jakiejs bramy. A moze 
+to tylko zludzenie ...
+~
+0 0 9
+D0
+~
+~
+0 -1 904
+D5
+~
+~
+0 -1 902
+S
+#904
+Brama~
+Stoisz w bramie olbrzymigo miasta. Mieszkancy musza byc niezwykle zamozni -
+nigdzie nie widziales tak pieknych budynkow.
+~
+0 0 1
+D0
+~
+~
+0 -1 905
+D2
+~
+~
+0 -1 903
+S
+#905
+Ulica Zeusa~
+Maszerujesz szeroka promenada. Jakos malo ludzi tu mieszka. Na rogu widzisz
+tabliczke 'ul. Zeusa'. Na zachod jest maly sklepik.
+~
+0 0 1
+D0
+Idziesz dalej ...
+~
+~
+0 -1 906
+D2
+~
+~
+0 -1 904
+D3
+~
+~
+0 -1 924
+S
+#906
+Ulica Zeusa~
+To jest bez watpienia glowna promenada miasta. Prowadzi na polnoc i poludnie, 
+na wchodzie i na zachodzie widzisz piekne rezydencje.
+~
+0 0 1
+D0
+~
+~
+0 -1 907
+D1
+~
+~
+0 -1 925
+D2
+Idziesz dalej ...
+~
+~
+0 -1 905
+D3
+~
+~
+0 -1 926
+S
+#907
+Ulica Zeusa~
+Jestes na glownej promenadzie miasta.
+~
+0 0 1
+D0
+~
+~
+0 -1 908
+D2
+~
+~
+0 -1 906
+D3
+~
+~
+0 -1 927
+S
+#908
+Ulica Zeusa~
+Wciaz na glownej ulicy. Podziwiasz stojacy na polnocy potezny zamek. Mala
+uliczka prowadzi na wschod, a na zachodzie jest jakis sklep.
+~
+0 0 1
+D0
+~
+~
+0 -1 909
+D1
+~
+~
+0 -1 928
+D2
+~
+~
+0 -1 907
+S
+#909
+Zamkowe wrota~
+Stoisz w wejsciu do zamku. Ale tu slicznie - na scianach niezwykle
+malowidla, na podlodze miekki dywan. Z polnocy dobiega cie wesoly 
+smiech. Na wschod i na zachod prowadza male korytarzyki.
+~
+0 8 1
+D0
+~
+~
+0 -1 910
+D1
+~
+~
+0 -1 915
+D2
+~
+~
+0 -1 908
+D3
+~
+~
+0 -1 911
+S
+#910
+Sala tronowa~
+Od razu gdy wszedles staneles jak wryty. Przed toba, na wielkim, zlotym
+tronie siedzi Zeus! A mial byc tylko mitem ... ciekawe kto jeszcze mieszka
+w tym zamku.
+~
+0 8 1
+D0
+~
+~
+0 -1 923
+D2
+~
+~
+0 -1 909
+D5
+~
+tron przejscie~
+3 -1 918
+E
+tron~
+Ten wielki tron stoi tu chyba cala wiecznosc. Gdy przygladasz mu sie uwaznie 
+zauwazasz, ze jednak nie jest mocno przymocowany do podlogi. Moze by sie udalo
+go przesunac ?
+~
+S
+#911
+Zachodnie skrzydlo~
+Doszedles do zachodniej czesci zamku. Na wschodzie jest wejscie, mozna isc
+tez dalej na zachod.
+~
+0 8 1
+D1
+~
+~
+0 -1 909
+D3
+~
+~
+0 -1 912
+S
+#912
+Zachodnie skrzydlo~
+Jestes w zachodniej czesci zamku. Mozesz isc dalej na polnoc, albo zajrzec 
+do prywatnych komnat na poludnie i na zachod stad.
+~
+0 8 1
+D0
+~
+~
+0 -1 913
+D1
+~
+~
+0 -1 911
+D2
+~
+~
+0 -1 930
+D3
+~
+~
+0 -1 929
+S
+#913
+Zachodnie skrzydlo~
+Jestes w zachodniej czesci zamku. Mozesz isc dalej na poludnie, mozesz
+tez isc na polnoc, skad dochodza cie kuchenne halasy.
+~
+0 8 1
+D0
+~
+~
+0 -1 914
+D2
+~
+~
+0 -1 912
+S
+#914
+Kuchnia~
+W zamkowej kuchni praca wre w najlepsze. Niewolnicy uwijaja sie jak
+w ukropie, przygotowujac posilki dla bogow.
+~
+0 8 1
+D2
+~
+~
+0 -1 913
+S
+#915
+Wschodnie skrzydlo~
+Jestes we wschodniej czesci zamku. Mozesz isc dalej na wschod, lub
+skierowac sie do wyjscia na zachod.
+~
+0 8 1
+D1
+~
+~
+0 -1 916
+D3
+~
+~
+0 -1 909
+S
+#916
+Wschodnie skrzydlo~
+Jestes we wschodniej czesci zamku. Mozesz isc na polnoc, lub zajrzec do 
+prywatnych komnat na wschod i na poludnie stad.
+~
+0 8 1
+D0
+~
+~
+0 -1 917
+D1
+~
+~
+0 -1 931
+D2
+~
+~
+0 -1 932
+D3
+~
+~
+0 -1 915
+S
+#917
+Wschodnie skrzydlo~
+Jestes we wschodniej czesci zamku. Mozesz isc na poludnie lub na polnoc,
+skad dobiegaja cie zwierzece halasy.
+~
+0 8 1
+D0
+~
+~
+0 -1 933
+D2
+~
+~
+0 -1 916
+S
+#918
+Lochy~
+Jestes w lochach Zeusa. Ciekawe jakie to monstra sa tak straszliwe, ze 
+potezny Zeus musi je tu wiezic.
+~
+0 9 1
+D0
+~
+~
+0 -1 919
+D4
+~
+przejscie tron~
+1 -1 910
+S
+#919
+Lochy~
+Jestes w lochach Zeusa. Z cel na wschodzie i na zachodzie dochodza jakies 
+gardlowe okrzyki. Z polnocy ... cisza.
+~
+0 9 1
+D0
+~
+~
+39 927 920
+D1
+~
+~
+39 927 922
+D2
+~
+~
+0 -1 918
+D3
+~
+~
+39 927 921
+S
+#920
+Cela~
+Jestes w malej, smierdzacej, zakurzonej celi. Co za wstretne miejsce.
+~
+0 9 1
+D2
+~
+~
+39 927 919
+S
+#921
+Cela~
+Jestes w malej, smierdzacej, zakurzonej celi. Co za wstretne miejsce.
+~
+0 9 1
+D1
+~
+~
+39 927 919
+S
+#922
+Cela~
+Jestes w malej, smierdzacej, zakurzonej celi. Co za wstretne miejsce.
+~
+0 9 1
+D3
+~
+~
+39 927 919
+S
+#923
+Schody~
+Stoisz kolo schodow prowadzacych w gore. Na poludnie stad widzisz
+sale tronowa Zeusa.
+~
+0 8 1
+D2
+~
+~
+0 -1 910
+D4
+~
+~
+0 -1 939
+S
+#924
+Sklep~
+Mmmm, jaki cudowny zapach! Mieszczenie zaopatruja sie tu w pyszne
+pieczywo i swieze owoce.
+~
+0 8 1
+D1
+~
+~
+0 -1 905
+S
+#925
+Rezydencja~
+Mieszka tu jeden z mieszczan. Wyglada calkiem znajomo, ale nie potrafisz
+sobie przypomniec jak sie nazywa.
+~
+0 8 1
+D3
+~
+~
+0 -1 906
+S
+#926
+Rezydencja~
+Mieszka tu jeden z mieszczan. Wyglada calkiem znajomo, ale nie potrafisz
+sobie przypomniec jak sie nazywa.
+~
+0 8 1
+D1
+~
+~
+0 -1 906
+S
+#927
+Alchemik~
+W tym sklepiku mieszczanie moga sie zaopatrzyc we wszystkie magiczne artykuly
+jakich tylko potrzebuja.
+~
+0 8 1
+D1
+~
+~
+0 -1 907
+S
+#928
+Ulica Aresa~
+Idziesz mala uliczka, ktora jest przecznica glownej promenady miasta. Ze znaku
+odczytujesz, ze jest to ulica Aresa.
+~
+0 8 1
+D1
+~
+~
+0 -1 934
+D3
+~
+~
+0 -1 908
+S
+#929
+Komnaty dla gosci~
+W tym pomieszczeniu zamieszkal Odyn, bog Midgaardu. Pewnie przyjechal odwiedzic
+Zeusa.
+~
+0 8 1
+D1
+~
+~
+0 -1 912
+S
+#930
+Spizarnia~
+Jestes w zamkowej spizarni. Kurz, pajeczyny - to wszystko co tu mozna znalesc.
+No, jest jeszcze mysi szkielecik.
+~
+0 8 1
+D0
+~
+~
+0 -1 912
+S
+#931
+Komnaty dla gosci~
+Ta komnata przeznaczona jest dla gosci. O rany! Tu jest Ra, egipski bog slonca.
+Ani chybi przyjechal z wizyta do Zeusa.
+~
+0 8 1
+D3
+~
+~
+0 -1 916
+S
+#932
+Spizarnia~
+Jestes w zamkowej spizarni. Wokol siebie widzisz szeroki wybor kurzu i mysich
+szkieletow.
+~
+0 8 1
+D0
+~
+~
+0 -1 916
+S
+#933
+Stajnia~
+Znajdujesz sie w zamkowej stajni. Mozna by sie spodziewac ze beda tu konie,
+jednak wokol siebie widzisz stworzenia, ktore zyja tylko w bajkach.
+Hmm, jednak nie tylko.
+~
+0 8 1
+D2
+~
+~
+0 -1 917
+S
+#934
+Ulica Aresa~
+Tu sie konczy ulica Aresa. Na poludnie jest sklepik ze zbrojami, a bron mozna 
+kupic na wschod stad. Halas dochodzacy z polnocy mowi ci, ze ani chybi urzeduje
+tam kowal.
+~
+0 8 1
+D0
+~
+~
+0 -1 937
+D1
+~
+~
+0 -1 936
+D2
+~
+~
+0 -1 935
+D3
+~
+~
+0 -1 928
+S
+#935
+Sklepik ze zbrojami~
+Ten maly sklep jest prawie pusty. Ale nawet gdyby bylo tu cos ciekawego, 
+to i tak bys nie skorzystal, gdyz sprzedawca patrzy na ciebie wilkiem.
+~
+0 8 1
+D0
+~
+~
+0 -1 934
+S
+#936
+Sklepik z bronia~
+Jestes w malym sklepie z bronia. Masz wrazenie, ze wybor jest raczej skromny, 
+ale tak czy inaczej sprzedawca nie ma ochoty robic z toba interesow.
+~
+0 8 1
+D3
+~
+~
+0 -1 934
+S
+#937
+Kowal~
+Panuje tu taki halas, ze nie slyszysz wlasnych mysli. Orez ktory tu powstaje
+jest naprawde wysmienitej jakosci. Jakies przeczucie przykuwa twa uwage do
+zachodniej sciany, ale nie potrafisz sprecyzowac o co dokladnie chodzi.
+~
+0 8 1
+D2
+~
+~
+0 -1 934
+D3
+Widzisz ukryte drzwi!
+~
+ukryte drzwi~
+3 -1 938
+S
+#938
+Centrum dowodzenia~
+Wszedles do duzego pomieszczenia, ktorego znaczna czesc zajmuje olbrzymi
+stol zawalony mapami. Wokol niego widzisz kilka zamyslonych postaci.
+Z polnocy dochodzi cie ujadanie psow.
+~
+0 1 0
+D0
+~
+~
+0 -1 954
+D1
+~
+~
+0 -1 937
+S
+#939
+Drugie pietro~
+Jestes na drugim pietrze tego zamku. Juz ci spowszednialy odkrycia dokonane
+na pierwszym  i umierasz z ciekawosci co tez kryje to pietro. Wyjscia
+prowadza we wszystkie kierunki. Nad soba widzisz jakis mala klape.
+~
+0 8 1
+D0
+~
+~
+0 -1 940
+D1
+~
+~
+0 -1 943
+D2
+~
+~
+0 -1 941
+D3
+~
+~
+0 -1 942
+D4
+Widzisz napis 'Wlasnosc prywatna. Nie wchodzic!'
+~
+klapa~
+3 -1 948
+D5
+~
+~
+0 -1 923
+S
+#940
+Polnocny Hall~
+Znajdujesz sie w polnocnym hallu. Na polnoc stad jest prywatne pomieszczenie,
+a na poludniu dostrzegasz schody prowadzace w dol.
+~
+0 8 1
+D0
+~
+~
+0 -1 947
+D2
+~
+~
+0 -1 939
+S
+#941
+Poludniowy Hall~
+Znajdujesz sie w poludniowym hallu. Na poludnie stad jest prywatne pomieszczenie,
+a na polnocy dostrzegasz schody prowadzace w dol.
+~
+0 8 1
+D0
+~
+~
+0 -1 939
+D2
+~
+~
+0 -1 944
+S
+#942
+Zachodni Hall~
+Znajdujesz sie w zachodnim hallu. Na zachodzie jest prywatne pomieszczenie,
+a na wschodzie dostrzegasz schody prowadzace w dol.
+~
+0 8 1
+D1
+~
+~
+0 -1 939
+D3
+~
+~
+0 -1 945
+S
+#943
+Wschodni Hall~
+Znajdujesz sie we wchodnim hallu. Na wschodzie jest prywatne pomieszczenie,
+a na zachodzie dostrzegasz schody prowadzace w dol.
+~
+0 8 1
+D1
+~
+~
+0 -1 946
+D3
+~
+~
+0 -1 939
+S
+#944
+Sypialnia~
+Jestes w sypialni boga! Ta wyglada na opuszczona.
+~
+0 8 1
+D0
+~
+~
+0 -1 941
+S
+#945
+Sypialnia~
+Jestes w sypialni boga!
+~
+0 8 1
+D1
+~
+~
+0 -1 942
+S
+#946
+Sypialnia~
+Jestes w sypialni boga!
+~
+0 8 1
+D3
+~
+~
+0 -1 943
+S
+#947
+Sypialnia~
+Jestes w sypialni boga!
+~
+0 8 1
+D2
+~
+~
+0 -1 940
+S
+#948
+Boska sala narad~
+To miejsce jest swiete - tu odbywaja sie zebrania najswietniejszych bogow.
+Jesli jestes smiertelnikiem lepiej uciekaj stad czym predzej! 
+~
+0 8 1
+D0
+~
+~
+0 -1 951
+D5
+~
+napis~
+0 -1 939
+S
+#951
+Portal~
+Napis na tabliczce glosi 'strzez sie niespodziewanego i nie spodziewaj
+sie za wiele'.
+~
+0 8 1
+D2
+~
+~
+0 -1 948
+S
+#954
+Prorok~
+Slyszysz szept 'ciesz sie zyciem, poki trwa ...'.
+~
+0 8 1
+D2
+~
+~
+0 -1 938
+S
+#0
+
+
+#RESETS
+M 0 915 1 924
+G 1 914 10
+G 1 918 10
+G 1 919 10
+G 1 920 10
+G 1 921 10
+M 0 916 1 927
+G 1 905 1
+G 1 909 1
+G 1 910 1
+G 1 926 1
+M 0 917 1 936
+G 1 907 1
+G 1 913 1
+M 0 918 1 935
+G 1 904 1
+G 1 908 1
+G 1 911 1
+M 0 914 1 929
+E 1 924 100 12
+E 1 925 100 6
+M 0 901 1 910
+E 1 900 100 5
+E 1 901 100 16
+G 1 926 100
+G 1 909 100
+M 0 902 1 920
+E 1 908 100 9
+M 0 920 2 921
+M 0 920 2 922
+M 0 907 1 925
+E 1 910 100 3
+E 1 905 100 17
+G 1 926 100
+G 1 909 100
+M 0 905 1 926
+E 1 907 100 16
+G 1 926 100
+G 1 909 100
+M 0 923 10 904
+M 0 923 10 905
+M 0 923 10 906
+M 0 923 10 907
+M 0 923 10 908
+M 0 923 10 928
+M 0 923 10 934
+M 0 925 4 914
+M 0 925 4 914
+M 0 926 1 918
+G 1 927 10
+M 0 912 4 925
+E 1 915 100 17
+G 1 914 100
+M 0 912 4 925
+E 1 915 100 17
+G 1 914 100
+M 0 911 4 926
+E 1 916 100 17
+G 1 921 100
+M 0 911 4 926
+E 1 916 100 17
+G 1 921 100
+M 0 919 1 931
+E 1 922 100 3
+E 1 923 100 16
+M 0 922 3 933
+M 0 922 3 933
+M 0 924 3 933
+M 0 924 3 933
+M 0 908 1 937
+E 1 912 100 11
+G 1 926 100
+G 1 909 100
+M 0 909 4 937
+G 1 917 100
+M 0 909 4 937
+G 1 917 100
+M 0 906 1 938
+E 1 903 100 16
+G 1 926 100
+G 1 909 100
+M 0 910 4 938
+E 1 913 100 16
+G 1 919 100
+M 0 910 4 938
+E 1 913 100 16
+G 1 919 100
+M 0 921 1 945
+E 1 911 100 1
+G 1 926 100
+G 1 909 100
+M 0 904 1 946
+E 1 906 100 16
+G 1 926 100
+G 1 909 100
+M 0 903 1 947
+E 1 904 100 8
+E 1 902 100 6
+G 1 926 100
+G 1 909 100
+M 0 913 5 954
+M 0 913 5 954
+M 0 913 5 954
+D 0 910 5 1
+D 0 937 3 1
+D 0 939 4 1
+D 0 919 0 2
+D 0 919 1 2
+D 0 919 3 2
+D 0 920 2 2
+D 0 922 3 2
+D 0 921 1 2
+S
+
+
+#SHOPS
+ 915    1  8 13 15 19   120  80         0 23    ; Kupiec Juliusz
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  901 spec_cast_cleric
+M  902 spec_breath_fire
+M  903 spec_thief
+M  904 spec_cast_mage
+M  905 spec_cast_adept
+M  907 spec_cast_adept
+M  908 spec_breath_lightning
+M  909 spec_guard
+M  914 spec_breath_any
+M  919 spec_breath_any
+M  920 spec_breath_fire
+M  921 spec_cast_cleric
+M  922 spec_poison
+M  923 spec_thief
+M  926 spec_cast_mage
+S
+
+
+#$

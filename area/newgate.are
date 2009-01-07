@@ -1,0 +1,1979 @@
+#AREA   Widmowe Wrota [pl. Flash]~
+
+
+
+#VERSION 3
+#AUTHOR Brittany~
+
+#RANGES
+0 60 0 60
+$
+
+#RESETMSG Dzwiek dzwonu oglasza przejscie kolejnych smialkow prze Widmowe Wrota...~
+
+#FLAGS
+8
+
+#ECONOMY 0 44980900
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#100
+Samylla recepcjonistka~
+Samylla~
+Samylli~
+Samylli~
+Samylle~
+Samylla~
+Samylli~
+Samyllo~
+Recepcjonistka Astral Dominion wita cie w progach.
+~
+Jest to kobieta, jak widac. No, moze nie calkiem pasuje do wygladu 
+kobiet jakie zwykles widywac. Na pierwszy rzut oka nie wiesz kim ona
+wlasciwie jest. Jest wysoka, szczupla i ma calkiem atrakcyjna figure.
+Jednak gdy sie dokladniej przygladasz zauwazasz, ze jej twarz jest 
+calkiem biala. Usmiecha sie patrzac na ciebie, a twoj umysl zaczyna
+wysylac ostrzegajace sygnaly. Zauwazasz jak w jej ustach pojawiaja sie
+dwa lsniace kly i dociera do ciebie, ze to WAMPIR stoi przed toba.
+Jakiego swiata progi przekroczyles.
+~
+3 4194984 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p arrives from above.~
+usmiech $n
+say Hej $n, witaj w recepcji Astral Dominion.
+say Jeszcze nie wszedles do wlasciwej gry, lecz juz wkrotce...
+mpechoat $n Poswiec troche czasu by czytac wszystkie informacje po drodze.
+mpechoat $n - uzyj 'Newbiechat' by zapytac sie o pomoc innych graczy:
+mpechoat $n - napisz "new <wiadomosc>" by uzyc tego kanalu.
+mpechoat $n Rozgladaj sie wokol - wystarczy napisac 'look <objekt>'.
+~
+> act_prog p arrives from the north.~
+say Witaj ponownie, $w.
+say Czyzbys wrocil by dowiedziec sie wiecej?
+mpechoat $n Mam nadzieje, ze obejrzales gobeliny na szczycie schodow.
+mpechoat $n Dadza ci one krotki opis naszego swiata.
+~
+> act_prog p flys in from above.~
+usmiech $n
+say Hej $n, witaj w recepcji Astral Dominion.
+say Jeszcze nie wszedles do wlasciwej gry, lecz juz wkrotce...
+mpechoat $n Poswiec troche czasu by czytac wszystkie informacje po drodze.
+mpechoat $n - uzyj 'Newbiechat' by zapytac sie o pomoc innych graczy:
+mpechoat $n - napisz "new <wiadomosc>" by uzyc tego kanalu.
+mpechoat $n Rozgladaj sie wokol - wystarczy napisac 'look <objekt>'.
+~
+> act_prog p flys in from the north.~
+say Witaj ponownie, $n.
+say Czyzbys wrocil by dowiedziec sie wiecej?
+mpechoat $n Mam nadzieje, ze obejrzales gobeliny na szczycie schodow.
+mpechoat $n Dadza ci one krotki opis naszego swiata.
+~
+> all_greet_prog 100~
+if race($n) == Halfling
+usmiech $n
+say Hej $n, witaj w recepcji Astral Dominion.
+say Jeszcze nie wszedles do wlasciwej gry, lecz juz wkrotce...
+mpechoat $n Poswiec troche czasu by czytac wszystkie informacje po drodze.
+mpechoat $n - uzyj 'Newbiechat' by zapytac sie o pomoc innych graczy:
+mpechoat $n - napisz "new <wiadomosc>" by uzyc tego kanalu.
+mpechoat $n Rozgladaj sie wokol - wystarczy napisac 'look <objekt>'.
+mpechoat $n Mam nadzieje, ze obejrzales gobeliny na szczycie schodow.
+mpechoat $n Dadza ci one krotki opis naszego swiata.
+else
+endif
+~
+|
+#101
+mob mobi act~
+Act Mob~
+Act Mob~
+Act Mob~
+Act Mob~
+Act Mob~
+Act Mob~
+Act Mob~
+Act Mob jest tutaj, lecz nie jest widoczny dla Pre-Auths.
+~
+~
+2097155 66058 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+> act_prog p wchodzi do gry.~
+mpoload 10311 1
+give oko 0.$n
+mpforce $n wear oko
+mpoload 123 1
+give worek 0.$n
+mea 0.$n Skorzany worek laduje w twych dloniach, wpisz LOOK WOREK.
+mea 0.$n Od tej chwili nic nie bedzie takie jakie bylo kiedys...
+~
+> act_prog p arrives from below.~
+mpechoat $n Twoje oczy szybko przebiegaja po gobelinach.
+mpforce $n look gobeliny
+~
+> act_prog p flys in from below.~
+mpechoat $n Twoje oczy szybko przebiegaja po gobelinach.
+mpforce $n look gobeliny
+~
+> all_greet_prog 100~
+if race($n) == Halfling
+mpechoat $n Twoje oczy szybko przebiegaja po gobelinach.
+mpforce $n look gobeliny
+endif
+~
+|
+#102
+Xouwasi dwarf nauczyciel~
+Xouwasi~
+Xouwasiego~
+Xouwasiemu~
+Xouwasiego~
+Xouwasim~
+Xouwasim~
+Xouwasi~
+Usmiechniety nauczyciel gotow jest przekazac ci potrzebna wiedze.
+~
+Jego oczy spogladaja na ciebie madrze i spokojnie. Wiekszac dwarfow jest
+nieufna w stosunku do obcych, lecz ten wyglada na chetnego by cie powitac
+i nauczac o naszym swiecie. Jego twarz jest pokryta zmarszczkami od slonaca
+oraz czestego usmiechania sie. Ubrany jest w przepyszne, mieniace sie 
+szaty, jego skorzane buty sa wypolerowane do polysku. Wygada on, jakby 
+zszedl on wprost z pieknego obrazu.
+~
+3 4194984 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 5 0 0 5 5 0
+0 0 0 0 0 0 0 0
+> act_prog p from the south.~
+uklon $n
+say Chyba sie jeszcze nigdy nie spotkalismy, $w.
+  mpechoat $n - Wpisz "look <rzecz>" lub "look <imie>" by cos obejrzec.
+  mpechoat $n - Wpisz 'eq' by obejrzec swoj ekwipunek (co masz na sobie).
+  mpechoat $n ... by ujzec co masz przy sobie, wpisz 'inventory' lub 'i'
+  mpechoat $n ... by obejzec swe statystyki, wpisz 'score' lub 'ol'
+  say Wpisz 'look drzewo'...
+~
+> all_greet_prog 100~
+if race($n) == halfling
+uklon $n
+  say Wygladasz mi na nowego, $n.
+  mpechoat $n - Wpisz "look <rzecz>" lub "look <imie>" by cos obejrzec.
+  mpechoat $n - Wpisz 'eq' by obejrzec swoj ekwipunek (co masz na sobie).
+  mpechoat $n ... by ujzec co masz przy sobie, wpisz 'inventory' lub 'i'
+  mpechoat $n ... by obejzec swe statystyki, wpisz 'score' lub 'ol'
+  say Wpisz 'look drzewo'...
+endif
+~
+|
+#103
+waz~
+waz~
+weza~
+wezowi~
+weza~
+wezem~
+wezu~
+wezu~
+Z glebokiej trawy wyskakuje na ciebie niebezpieczny waz!
+~
+Luskowany, lsniacy aksamitnie waz. Zimnymi oczyma sledzi kazdy twoj ruch,
+czekajac na najlepszy moment do ataku!
+~
+35 520 -600 C
+3 0 75 1d1+25 0d0+0
+500 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 4 0 0 396405 396405 0
+0 0 66593 0 0 0 0 0
+> fight_prog 50~
+mpechoat $n $I zaglebia bolesnie kly w twym ramieniu!
+mpechoaround $n $n krzywi sie gdy $I bolesnie zaglebia kly w jego ramieniu!
+~
+> death_prog 100~
+mpoload 108 1
+mpechoat $n Kawalek miesa zostaje wyrwany z ciala weza gdy ten umiera.
+~
+|
+#104
+piskle smok~
+smocze piskle~
+smoczego pisklecia~
+smoczemu piskleciu~
+smocze piskle~
+smoczym piskleciem~
+smoczym piskleciu~
+smocze piskle~
+Smocze piskle warczy na ciebie przeciagle.
+~
+Glowa smoka wyglada jak kazdego innego znanego ci ze starych szkicow,
+lecz na twe szczescie jest dziesieciokrotnie mniejsza. Jednak mimo to,
+to smocze piskle moze ci niezle dolozyc.
+~
+3 0 -1000 C
+2 0 75 20d0+0 0d0+0
+1000 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 3420515 3420515 0
+0 0 65671 0 0 0 0 0
+> rand_prog 7~
+mpe Smocze piskle zrywa sie na swe wielkie nogi gdy cie zauwaza.
+sac corpse
+sac tarcza
+sac kubel
+~
+> death_prog 100~
+mpoload 112 1
+mpecho $I krztusi sie swa gesta krwia plujac nia na podloge i ... umiera.
+mpecho Z mroku poludniowej sciany dobiega cie glosny chrzest.
+mpecho Kolejne smocze piskle krzykiem oglasza swe narodziny.
+mpmload 104
+mpechoat $n Pamietaj...
+mpechoat $n Nie mozesz zdobyc kolejnego poziomu zanim nie przekroczysz Widmowych
+mpechoat $n Wrot i nie wkroczysz do wlasciwej gry.
+~
+|
+#105
+mob mobii act~
+Act Mob~
+Act Mob~
+Act Mob~
+Act Mob~
+Act Mob~
+Act Mob~
+Act Mob~
+Act Mob jest tutaj, lecz nie jest widoczny dla Pre-Auths.
+~
+~
+1075838979 66058 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+18 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog P arrives from the west.~
+mpoload 113 1
+mpoload 114 1
+mpat 120 give zbroja Quercusi
+mpat 120 give zloty Quercusi
+mpoload 116 1
+mpoload 117 1
+mpat 123 mppurge
+mpat 123 drop pudlo
+mpat 123 put znak pudlo
+mpat 123 close pudlo
+~
+> act_prog p flys in from the west.~
+mpoload 113 1
+mpoload 114 1
+mpat 120 give zbroja Quercusi
+mpat 120 give zloty Quercusi
+mpoload 116 1
+mpoload 117 1
+mpat 123 mppurge
+mpat 123 drop pudlo
+mpat 123 put znak pudlo
+mpat 123 close pudlo
+~
+> act_prog p flies in from the west.~
+mpoload 113 1
+mpoload 114 1
+mpat 120 give zbroja Quercusi
+mpat 120 give zloty Quercusi
+mpoload 116 1
+mpoload 117 1
+mpat 123 mppurge
+mpat 123 drop pudlo
+mpat 123 put znak pudlo
+mpat 123 close pudlo
+~
+> all_greet_prog 100~
+if race($n) == Halfling
+mpoload 113 1
+mpoload 114 1
+mpat 120 give zbroja Quercusi
+mpat 120 give zloty Quercusi
+mpoload 116 1
+mpoload 117 1
+mpat 123 mppurge
+mpat 123 drop pudlo
+mpat 123 put znak pudlo
+mpat 123 close pudlo
+else
+endif
+~
+> rand_prog 2~
+mpat 199 drop all
+~
+|
+#106
+Quercusi Q czlowiek~
+Quercusi~
+Quercusiego~
+Quercusiemu~
+Quercusiego~
+Quercusim~
+Quercusim~
+Quercusi~
+Medrzec zasiada tu w swym pieknym fotelu .
+~
+Wyglada jakby znajdowal sie w tym swiecie od setek lat. Jego dobra
+i przyjazna twarz jest pomarszczona przez czas, jednak wyglady jakby
+znajdowal sie we wspanialej formie, a jego czy promienieja madroscia.
+~
+3 4194952 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+25 13 13 25 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+usmiech $n
+say Hej, $n, witaj w mych skromnych progach.
+mpechoat $n Czy posiadasz nastepujace przedmioty?
+mpechoat $n ... bron ze skrzyni w drzewie.
+mpechoat $n ... luskowana tarcze ze smocze piskla w jaskini.
+mpechoat $n ... pierscien symbolizujacy wybor twej sciezki.
+mpechoat $n ... oraz pioro, kubel i kawalek miesa weza.
+mpechoat $n Jesli nie posiadasz, ktoregos z tych przedmiotow, lub
+if ispkill($n)
+  mpechoat $n jesli chcesz zmienic swa sciezka na Jasna, po prostu
+else
+  mpechoat $n jesli chcesz zmienic swa sciezka na Ciemna, po prostu
+endif
+mpechoat $n daj mi swoj pierscien (wpisz 'give pierscien Quercusi').
+~
+> act_prog p leaves north.~
+mpat 119 mpecho $I wychyla sie z drzwi...
+mpat 119 give klucz $n
+mpat 119 give zbroja $n
+mpat 119 mpechoat $n Powodzenia i zegnaj $n...
+close drzwi
+~
+> give_prog pierscien swiatla jasny~
+mpechoat $n, wrocisz teraz do Xouwasiego przy drzewie.
+mpechoaround $n $n znika w magicznej poswiacie.
+mptransfer 0.$n 103
+mpat 103 mpforce 0.$n south
+mpjunk jasny
+~
+> act_prog p flys north.~
+mpat 119 mpecho $I wychyla sie z drzwi...
+mpat 119 give klucz $n
+mpat 119 give zbroja $n
+mpat 119 mpechoat $n Powodzenia i zegnaj $n...
+close drzwi
+~
+> act_prog p flies north.~
+mpat 119 mpecho $I wychyla sie z drzwi...
+mpat 119 give klucz $n
+mpat 119 give zbroja $n
+mpat 119 mpechoat $n Powodzenia i zegnaj $n...
+close drzwi
+~
+> give_prog pierscien mroku mroczny~
+mpechoat $n, wrocisz teraz do Xouwasiego przy drzewie.
+mpechoaround $n $n znika w magicznej poswiacie.
+mptransfer 0.$n 103
+mpat 103 mpforce 0.$n south
+mpjunk mroczny
+~
+> rand_prog 2~
+mpat 199 drop all
+mpat 199 get zbroja
+mpat 199 get zbroja
+mpat 199 get klucz
+mpat 199 get klucz
+mpat 199 get klucz
+mpat 199 get klucz
+mpat 199 get zbroja
+mpat 199 get zbroja
+mpat 199 mppurge
+~
+> leave_prog 100~
+if race($n) == Halfling
+give klucz $n
+give zbroja $n
+mpechoat $n Powodzenia i zegnaj $n...
+else
+endif
+~
+> act_prog p floats north.~
+mpat 119 mpecho $I wychyla sie z drzwi...
+mpat 119 give klucz $n
+mpat 119 give zbroja $n
+mpat 119 mpechoat $n Powodzenia i zegnaj $n...
+close drzwi
+~
+|
+#107
+mob mobiii act~
+Act Mob~
+Act Mob~
+Act Mob~
+Act Mob~
+Act Mob~
+Act Mob~
+Act Mob~
+Act Mob jest tutaj, lecz nie jest widoczny dla Pre-Auths.
+~
+~
+2097155 66058 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+> act_prog p pulls lina.~
+mpechoat $n Slyszysz jakis grzmot nad glowa jakby niebo sie walilo.
+mpechoaround $n Gdzies wysoko slychac jak niebo chyba sie wali.
+mpechoat $n Jesli nic sie nie stanie, wpisz LOOK LINA po 30 sekundach.
+mpapplyb $n
+mptransfer $n 10300
+push lina
+~
+|
+#199
+spacermob~
+swiezutki spacermob~
+swiezutki spacermob~
+swiezutki spacermob~
+swiezutki spacermob~
+swiezutki spacermob~
+swiezutki spacermob~
+swiezutki spacermob~
+Jakis Bog postawil tutaj swiezutkiego spacermob`a.
+~
+~
+1073741825 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#100
+swiecznik~
+swiecznik z szescioma czarnymi swiecami~
+swiecznik z szescioma czarnymi swiecami~
+swiecznik z szescioma czarnymi swiecami~
+swiecznik z szescioma czarnymi swiecami~
+swiecznik z szescioma czarnymi swiecami~
+swiecznik z szescioma czarnymi swiecami~
+swiecznik z szescioma czarnymi swiecami~
+Szesc czarnych swiec pali sie jasno w blyszczacym swieczniku~
+~
+1 0 1
+0 0 0 0
+100 10 1
+#101
+zrodelko~
+magiczne zrodelko~
+magiczne zrodelko~
+magiczne zrodelko~
+magiczne zrodelko~
+magiczne zrodelko~
+magiczne zrodelko~
+magiczne zrodelko~
+Magiczne zrodelko tryska w rogu pokoju.~
+~
+25 64 0
+100000 100000 0 0
+5000 10 1
+#104
+skrzynia~
+skrzynia z bronia~
+skrzynia z bronia~
+skrzynia z bronia~
+skrzynia z bronia~
+skrzynia z bronia~
+skrzynia z bronia~
+skrzynia z bronia~
+Skrzynia z bronia lezy przy polnocnej scianie.~
+~
+15 0 0
+1000 0 0 0
+1 0 0
+E
+skrzynia~
+Skrznia wykonana jest z debowego drewna. Jest solidna lecz nie jest zamknieta.
+Czujesz, ze musisz sprawdzic co jest w srodku...
+~
+> exa_prog 100~
+if class ($n) == Mage
+or class ($n) == Thief
+or class ($n) == Vampire
+or class ($n) == Augurer
+or class ($n) == Assassin
+  mpoload 125 1
+  put 'granitowe ostrze' skrzynia
+  mpforce $n get ostrze skrzynia
+  mpforce $n wield ostrze
+else
+if class ($n) == Cleric
+or class ($n) == Druid
+or class ($n) == Angel
+  mpoload 126 1
+  put 'bulawa' skrzynia
+  mpforce $n get bulawa skrzynia
+  mpforce $n wield bulawa
+else
+if class ($n) == Warrior
+or class ($n) == Ranger
+or class ($n) == Paladin
+or class ($n) == Demon
+  mpoload 127 1
+  put 'ciezki miecz' skrzynia
+  mpforce $n get miecz skrzynia
+  mpforce $n wield miecz
+endif
+endif
+endif
+~
+|
+#105
+bron~
+Lezy tutaj pieknie wykonana bron, czekajaca by ja uzyc w walce.~
+Lezy tutaj pieknie wykonana bron, czekajaca by ja uzyc w walce.~
+Lezy tutaj pieknie wykonana bron, czekajaca by ja uzyc w walce.~
+Lezy tutaj pieknie wykonana bron, czekajaca by ja uzyc w walce.~
+Lezy tutaj pieknie wykonana bron, czekajaca by ja uzyc w walce.~
+Lezy tutaj pieknie wykonana bron, czekajaca by ja uzyc w walce.~
+Lezy tutaj pieknie wykonana bron, czekajaca by ja uzyc w walce.~
+Widzisz piekny sztylet.~
+~
+5 64 8192
+12 1 6 11
+2 0 0
+E
+sztylet~
+Ta bron bedzie ci dobrze sluzyc w twych nadchodzacych bojach.
+~
+A
+18 1
+A
+19 2
+#106
+pierscien jasnosci jasny~
+pierscien jasnosci~
+pierscien jasnosci~
+pierscien jasnosci~
+pierscien jasnosci~
+pierscien jasnosci~
+pierscien jasnosci~
+pierscien jasnosci~
+Male swietliste kolko lezy tutaj.~
+~
+9 64 3
+5 5 0 0
+2 0 0
+E
+pierscien jasny~
+Ten pierscien jest symbolem twego wyboru sciezki Jasnosci. Bedzie ci 
+pomagal poki nie przekroczysz 10 poziomu.
+~
+A
+13 5
+A
+2 1
+#107
+pierscien mroku mroczny~
+pierscien mroku~
+pierscien mroku~
+pierscien mroku~
+pierscien mroku~
+pierscien mroku~
+pierscien mroku~
+pierscien mroku~
+Male mroczne kolko lezy tutaj.~
+~
+9 64 3
+5 5 0 0
+2 0 0
+E
+pierscien mroczny~
+Ten pierscien jest symbolem twego wyboru sciezki Mroku. Bedzie ci pomagal
+poki nie przekroczysz 10 poziomu.
+~
+A
+13 5
+A
+2 1
+A
+18 1
+#108
+mieso kawalek~
+kawalek miesa~
+kawalka miesa~
+kawalkowi miesa~
+kawalek miesa~
+kawalkiem miesa~
+kawalku miesa~
+kawalku miesa~
+Kawalek wezowego miesa.~
+~
+19 262144 1
+25 0 0 0
+1 0 0
+#109
+pioro blekitne~
+blekitne pioro~
+blekitne pioro~
+blekitne pioro~
+blekitne pioro~
+blekitne pioro~
+blekitne pioro~
+blekitne pioro~
+Jasne blekitne pioro lezy tutaj.~
+~
+3 268697664 16385
+3 2 2 -1
+4 0 0
+'magic missile'
+E
+pioro blekitne~
+Dosyc ciezkie jak na pioro, wydaje sie byc rodzajem rozdzki. Byc moze mozesz
+trzymajac je w dloni (hold pioro) uzyc na kims (zap <ktos>). Poniewaz zawiera
+ono ofensywny czar, nie mozez go uzyc na innym graczo jesli oboje ni jestescie
+pkillsami.
+~
+#110
+kubel~
+kubel~
+kubel~
+kubel~
+kubel~
+kubel~
+kubel~
+kubel~
+Kubel pelen wody stoi na twej drodze.~
+~
+17 524288 1
+20 10 0 0
+4 0 0
+E
+kubel~
+SLuzy on do przechowywania wody. Mozesz sie z niego napic 'drink kubel'. 
+Mozesz go takze napelnic przy jakims zrodle wody - 'fill kubel'.
+~
+#111
+staw~
+staw~
+staw~
+staw~
+staw~
+staw~
+staw~
+staw~
+Plytki staw pelen krystalicznie czystej wody~
+~
+25 0 0
+100000 1000000 0 0
+1 0 0
+E
+staw~
+Woda jest plytka, czysta i zadziwiajaca zimna. Wiele roznych ryb plywa pod
+jego powierzchnia kuszac by zarzucic siec. Mozesz spokojnie napic sie z niego
+lub napelnic swoj kubel przed dalsza podroza.
+~
+#112
+tarcza luskowana~
+luskowana tarcza~
+luskowanej tarczy~
+luskowanej tarczy~
+luskowana tarcze~
+luskowana tarcza~
+luskowanej tarczy~
+luskowano tarczo~
+Luskowana tarcza lezy w pyle drogi.~
+~
+9 262148 513
+4 3 0 0
+5 0 0
+E
+tarcza luskowana~
+Ta tarcza bedzie chronic cie w twej podrozy.
+~
+A
+18 1
+A
+19 1
+> drop_prog 100~
+mpforce $n sac $o
+~
+|
+#113
+zbroja cienka~
+cienka zbroja~
+cienka zbroja~
+cienka zbroja~
+cienka zbroja~
+cienka zbroja~
+cienka zbroja~
+cienka zbroja~
+Lezy tu zapomniana cienka zbroja.~
+~
+9 0 9
+4 7 0 0
+10 0 0
+A
+17 -3
+#114
+klucz zloty~
+olbrzymi zloty klucz~
+olbrzymi zloty klucz~
+olbrzymi zloty klucz~
+olbrzymi zloty klucz~
+olbrzymi zloty klucz~
+olbrzymi zloty klucz~
+olbrzymi zloty klucz~
+Wielki zloty klucz lezy tutaj, wygladajac jakby otwieral cos bardzo waznego.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+E
+klucz zloty~
+Wyglada jakby otwieral cos bardzo waznego. Moze brame do twej przyszlosci.
+Aby go uzyc wpisz UNLOCK <kierunek: e,n,w,s,sw,se,nw,ne>. Lub np. UNLOCK GATE.
+~
+#115
+lina~
+lina~
+lina~
+lina~
+lina~
+lina~
+lina~
+lina~
+Lina wisi tutaj zawieszona w powietrzu, czekajac by ja ktos pociagnal.~
+~
+37 262144 0
+29 0 0 0
+1 0 0
+E
+lina~
+Jesli jestes gotow by przejsc przez Widmowe Wrota, pociagnij line 'pull lina'
+by oznajmic to Niesmiertelnym.
+
+Jesli twoje imie zostanie zaakceptowane zostaniesz przeniesiony do wlasciwej
+gry.
+
+Jesli otrzymasz komunikat o niezaakceptowaniu twego imienia, muszisz wybrac 
+NOWE imie. Wpisz tylko:
+
+'name <twe nowe imie>
+
+Nastepnie znow pociagnij za line by oznajmic swa gotowosc do gry. Nie rob tego
+za czesto, wystarczy co 30 sekund, gdyz mozesz zeslac na siebie gniew Bogow. 
+~
+#116
+pudlo~
+pudlo~
+pudlo~
+pudlo~
+pudlo~
+pudlo~
+pudlo~
+pudlo~
+Czarne, drewniane pudlo.~
+~
+15 0 1
+11111 1 0 0
+1100 0 0
+#117
+znak kolczyk~
+znak boskiej przychylnosci~
+znak boskiej przychylnosci~
+znak boskiej przychylnosci~
+znak boskiej przychylnosci~
+znak boskiej przychylnosci~
+znak boskiej przychylnosci~
+znak boskiej przychylnosci~
+Lezy tu kolczyk, porzucony i zapommniany.~
+~
+9 65 65537
+4 2 0 0
+5 0 0
+A
+26 2097152
+> wear_prog 100~
+if level($n) < 16
+mpechoat $n Gdy zakladasz kolczyk, czujesz jak twe nogi odrywaja sie od ziemi.
+mpechoar $n Gdy $n zaklada kolczyk, nagle jego nogi odrywaja sie od ziemi.
+else
+mpechoat $n Kolczyk nie moze sie dluzej utrzymac w twym uchu.
+mpechoaround $n $n proboje zalozyc kolczyk lecz ten juz nie pasuje.
+mpforce $n remove znak
+endif
+~
+|
+#119
+toga~
+biala toga~
+biala toga~
+biala toga~
+biala toga~
+biala toga~
+biala toga~
+biala toga~
+Jakis Bog pozostawil tutaj calkiem nowa toge.~
+~
+9 0 9
+0 0 0 0
+1 0 0
+A
+1 5
+A
+2 5
+#120
+pokoj znak~
+znak sciezki pokoju~
+znak sciezki pokoju~
+znak sciezki pokoju~
+znak sciezki pokoju~
+znak sciezki pokoju~
+znak sciezki pokoju~
+znak sciezki pokoju~
+Spory znak unosi sie w powietrzu na srodku sciezki.~
+~
+12 1 0
+0 0 0 0
+1 0 0
+E
+znak~
+Bogowie maja nadzieje, ze gra bedzie dla ciebie mila, a Ty rowniez bedziesz ja
+umilal innym gracza. 
+
+Nie mozesz walczyc z nimi ani okradac innych graczy, podazasz przeciez
+Sciezka Pokoju.
+~
+#121
+znak mroczny~
+znak mrocznej sciezki~
+znak mrocznej sciezki~
+znak mrocznej sciezki~
+znak mrocznej sciezki~
+znak mrocznej sciezki~
+znak mrocznej sciezki~
+znak mrocznej sciezki~
+Spory znak unosi sie w powietrzu na srodku sciezki.~
+~
+12 4 0
+0 0 0 0
+1 0 0
+E
+znak~
+Bogowie maja nadzieje, ze gra bedzie dla ciebie mila, a Ty rowniez bedziesz ja
+umilal innym gracza. 
+
+Nie mozesz atakaowac ani okradac graczy, ktorzy podazaja Sciezka Jasnosci.
+Natomiast co do graczy podazajacych ta sama sciezka co ty, zajzyj do
+HELP RULES PKILL by dowiedziec sie wiecej.
+~
+#123
+worek skorzany~
+duzy skorzany worek~
+duzy skorzany worek~
+duzy skorzany worek~
+duzy skorzany worek~
+duzy skorzany worek~
+duzy skorzany worek~
+duzy skorzany worek~
+Lezy tu skorzany worek.~
+~
+15 0 16385
+75 0 0 0
+1 0 0
+E
+worek skorzany~
+By sprawdzic co zawiera, wpisz:  examine worek  LUB  exam worek
+By wziasc cos z worka, wpisz  :  get <przedmiot> worek
+By cos do niego schowac, wpisz:  put <przedmiot> worek
+ 
+Mozesz takze pisac 'get all' lub 'put all'. Wpisz 'help container' by dowiedziec
+sie wiecej.
+~
+#124
+schody~
+schody~
+schody~
+schody~
+schody~
+schody~
+schody~
+schody~
+Spiralne schody prowadza na dol.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+schody~
+Te schody zaprowadza cie do nastepnego pomieszczenia.
+~
+#125
+granitowe ostrze~
+granitowe ostrze~
+granitowe ostrze~
+granitowe ostrze~
+granitowe ostrze~
+granitowe ostrze~
+granitowe ostrze~
+granitowe ostrze~
+Ostrze wykonane z metalicznego kamienia wystaje ze skorzanej pochwy.~
+~
+5 68 8193
+12 1 6 11
+2 0 0
+E
+granitowe ostrze~
+To ostrze bedzie Ci dobrze sluzyc w poczatkowych latach twej wedrowki.
+~
+A
+18 2
+A
+19 1
+#126
+bulawa~
+bulawa~
+bulawa~
+bulawa~
+bulawa~
+bulawa~
+bulawa~
+bulawa~
+Bulawa ze swiecacego metalu, emanuje wewnetrzna moca.~
+~
+5 524610 8193
+12 0 0 7
+2 0 0
+E
+bulawa~
+Ta bulawa bedzie Ci dobrze sluzyc na poczatku twej wyprawy.
+~
+A
+18 2
+A
+19 1
+#127
+ciezki miecz~
+ciezki miecz~
+ciezki miecz~
+ciezki miecz~
+ciezki miecz~
+ciezki miecz~
+ciezki miecz~
+ciezki miecz~
+Swiatlo odbija sie na klindze ciezkiego miecza.~
+~
+5 524352 8193
+12 0 0 3
+2 0 0
+E
+ciezki miecz~
+Miecz wykonano z magicznych stopow aby mogl Ci dobrze sluzyc w twej podrozy.
+~
+A
+18 2
+A
+19 1
+#190
+prog cont~
+a prog container~
+a prog container~
+a prog container~
+a prog container~
+a prog container~
+a prog container~
+a prog container~
+A container set up with the progs to make useless for non-guilded players.~
+~
+15 1073741824 16385
+300 0 0 0
+1 0 0
+#191
+fontanna~
+fontanna~
+fontanna~
+fontanna~
+fontanna~
+fontanna~
+fontanna~
+fontanna~
+Znajduje sie tu mala fontanna.~
+~
+25 0 0
+0 0 0 0
+1 0 0
+#192
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+Do kamienia przy drodze przymocowana jest tablica.  (look tablica)~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+kamien~
+Spory kamyk postawiony tu w celu umocowania na nim tablicy. Wpisz LOOK
+TABLICA by przeczytac co tam napisano.
+~
+E
+tablica~
+Jest to mala krainka gdzie mozesz nauczyc sie podstawowych czynnosci jakie
+beda Ci potrzebne w grze, oraz aby zebrac ekwipunek, lecz nie mozesz zdobyc
+nastepnego poziomu.
+
+W tej krainie nie mozesz umrzec lecz w nastepnych musisz juz uwazac. To daje
+Ci szanse na sprawdzenie swej postaci. Sprawdz swoje statystyki 'sc', liste
+umiejetnosci 'slist' oraz przeczytaj potrzebne Ci helpy. 
+ 
+Rozgladaj sie uwaznie by nie przegapic waznych informacji umieszczonych wokol
+ciebie. Ogladaj przedmioty i moby (stworzenia tego swiata).
+ 
+Jesli masz jakies frapiace Cie pytanie zwroc sie do Niesmiertelnych uzywajac
+kanalu newbie 'new <komunikat>' lub zwroc sie bezposrednio do jednego z nich
+'tell <imie osoby do ktorej sie zwracasz> <komunikat>'. Napisz WHO IMM by
+dowiedziec sie kto z Niesmiertelnych jest akurat osiagalny. Napisz tez 'help
+newbie by ujzec dokladny help ktory Ci pomoze w grze.
+
+Wspanialych Przygod - - Administratorzy
+~
+#193
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+Do poreczy przymocowana jest tablica.~
+~
+12 1073741824 0
+0 0 0 0
+1 0 0
+E
+tablica porecz~
+Jest to mala krainka gdzie mozesz nauczyc sie podstawowych czynnosci jakie
+beda Ci potrzebne w grze, oraz aby zebrac ekwipunek, lecz nie mozesz zdobyc
+nastepnego poziomu.
+
+W tej krainie nie mozesz umrzec lecz w nastepnych musisz juz uwazac. To daje
+Ci szanse na sprawdzenie swej postaci. Sprawdz swoje statystyki 'sc', liste
+umiejetnosci 'slist' oraz przeczytaj potrzebne Ci helpy. 
+ 
+Rozgladaj sie uwaznie by nie przegapic waznych informacji umieszczonych wokol
+ciebie. Ogladaj przedmioty i moby (stworzenia tego swiata), na przyklad 'look
+gobeliny'.
+ 
+Jesli masz jakies frapiace Cie pytanie zwroc sie do Niesmiertelnych uzywajac
+kanalu newbie 'new <komunikat>' lub zwroc sie bezposrednio do jednego z nich
+'tell <imie osoby do ktorej sie zwracasz> <komunikat>'. Napisz WHO IMM by
+dowiedziec sie kto z Niesmiertelnych jest akurat osiagalny. Napisz tez 'help
+newbie by ujzec dokladny help ktory Ci pomoze w grze.
+
+Wspanialych Przygod - - Administratorzy
+~
+#194
+dziupla~
+dziupla~
+dziupla~
+dziupla~
+dziupla~
+dziupla~
+dziupla~
+dziupla~
+Wyjscie prowadzi na zewnatrz dziupli.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#196
+spiralne schody~
+schody~
+schody~
+schody~
+schody~
+schody~
+schody~
+schody~
+Spiralne schody prowadz na dol. Do ich poreczy przymocowana jest tablica.
+[look tablica]~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+spiralne schody~
+Spiralne schody prowadza na dol. Wpisz 'down' lun 'd' by zejsc na dol.
+~
+#197
+wrota~
+wrota~
+wrota~
+wrota~
+wrota~
+wrota~
+wrota~
+wrota~
+Wielkie, zlote wrota prowadza do nowej gry.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#198
+domek~
+domek~
+domek~
+domek~
+domek~
+domek~
+domek~
+domek~
+Znajduje sie tu zbudowany z wielich bali domek.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+domek~
+Wyglada na stary lecz dobrze utrzymany.
+~
+#199
+drzewo~
+drzewo~
+drzewo~
+drzewo~
+drzewo~
+drzewo~
+drzewo~
+drzewo~
+Wielkie drzewo rosnie na srodku drogi, a do jego srodka prowadzi dziwny otwor.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+E
+drzewo dziupla~
+Wielkie drzewo z wielka dziupla. Wpisz 'dziupla' lub 'leave dziupla' by wejsc
+lub wyjsc z dziupli.
+~
+#0
+
+
+#ROOMS
+#100
+Zlowieszcze gobeliny~
+Znajdujesz sie w tajemniczym pokoju. Wielkie gobeliny, kazdy wykonany
+dokladnie z wibrujacych kolorow, zajmuja osiem scian tego pokoju. Gdy 
+przygladasz sie blizej tym gobelinom, dociera do ciebie realizm obrazow,
+ktore one przedstawiaja. Podczas gdy puls ci przyspiesza, uswiadamiasz
+sobie, ze sa one obrazem otaczajacego cie swiata. Postanawiasz obejzec
+je dokladniej.
+~
+0 3154956 0
+D5
+Widzisz spiralne schody prowadzace do recepcji.
+~
+~
+0 -1 101
+E
+gobelin~
+Przygladajac sie blizej zauwazasz, ukazuja one dziwne i ciemne miasto.
+Zaczynasz wiec ogladac kazdy z osobna, w roznych kierunkach swiata. Wpisz
+LOOK North, East, South, West, Northeast, Southeast, Southwest, Northwest.
+Ujzysz wtedy krotki opis czekajacego na ciebie swiata
+~
+E
+northwest nw~
+Na polnocy i zachodzie widoczna jest wioska i las, zapewne siedziba Elfow
+.Widzisz takze ocean i kilka statkow zacumowanych w porcie.
+~
+E
+southwest sw~
+Las zmienia sie w tym kierunku, tworzac baldachim nad sporym obszarem.
+Na poludniu, za lasem znajduja sie wielkie bagna.
+~
+E
+south s~
+Widzisz wielki smietnik, oraz duzy otwor prowadzacy do podziemnej krainy.
+Ciemna sciezka prowadzi na poludnie od smietnika. Zadne z tych miejsc nie
+kusi cie do jego odwiedzenia.
+~
+E
+east e~
+Ta strona wyglada na ruchliwa. Znajduje sie tu skrzyzowanie prowadzace
+skad drogi rozchodza sie w roznych kierunkach. Na zachod od niego wznosi
+sie brama miasta. Widzisz czarne szczyty, oraz wygladajace na opuszczone
+miasto zbudowane chyba przez dwarfow.
+~
+E
+up u~
+Wysoko w gorze widzisz wiele roznego rodzaju smokow oraz harpi, ktore
+mocno rozciagaja swe skrzydla.
+~
+E
+gobelin~
+Przygladajac sie blizej zauwazasz, ukazuja one dziwne i ciemne miasto.
+Zaczynasz wiec ogladac kazdy z osobna, w roznych kierunkach swiata. Wpisz
+LOOK North, East, South, West, Northeast, Southeast, Southwest, Northwest.
+Ujzysz wtedy krotki opis czekajacego na ciebie swiata
+~
+E
+gobeliny~
+Przygladajac sie blizej zauwazasz, ukazuja one dziwne i ciemne miasto.
+Zaczynasz wiec ogladac kazdy z osobna, w roznych kierunkach swiata. Wpisz
+LOOK North, East, South, West, Northeast, Southeast, Southwest, Northwest.
+Ujzysz wtedy krotki opis czekajacego na ciebie swiata
+~
+E
+north n~
+Widzisz wielkie pola prowadzace do podnoza wielkich gor, ponad ktorymi
+unosi sie swietliste miasto z wielkim palacem gorojacym ponad budynkami.
+~
+E
+northwest ne~
+Daleko na polnocy i wschodzie widzisz spore miasto otoczone zielonymi 
+polami. Na wschod od tego miasta wznosi sie wielka, zlota cytadela.
+~
+E
+west w~
+Widzisz strzezona brame miasta. Na polnoc od niej znajduje sie niewielki
+las, zaludniony masa niewielkich pixie. Bardziej na zachod i polnoc znajduje
+sie duze miasteczko. Podazajac na zachod mozna dotrzec do ogromnego drzewa,
+u ktorego stop sciezka konczy sie.
+~
+E
+southeast se~
+Widzisz cos co wyglda na dom na rzece. Rzeka plynie ze wschodu na zachod
+wpadajac do wielkiego oceanu.
+~
+E
+southwest sw~
+Las zmienia sie w tym kierunku, tworzac baldachim nad sporym obszarem.
+Na poludniu, za lasem znajduja sie wielkie bagna.
+~
+E
+northeast~
+Daleko na polnocy i wschodzie widzisz duze miasto otoczone polami zieleni.
+Na wschod od miasta znajduje sie ogromny, zloty zamek.
+~
+E
+'gobelin~
+~
+> leave_prog 100~
+if isimmort($n)
+or race($n) == halfling
+else
+  mpforce 0.$n vis
+endif
+~
+> rand_prog 20~
+mpecho Przez pokoj przemyka cien wraz z dziwnym odglosem dochodzacym z gory.
+mpechoat $r Spogladasz w gore przygladajac sie gobelinom...
+mpforce $r look up
+~
+|
+S
+#101
+Rozpadajaca sie recepcja~
+Gdy wchodzisz do tej recepcji oszalamia cie absolutna cisza oraz zapach
+cedru. Gruby dywan rozciaga sie pod skorzanymi fotelami ustawionymi dla
+twej wygody,  wielkie obrazy przedstawiajace jalowa pustynie,  wiszac w
+wykonanych z debowych desek. Cztery swiecace kule unosza sie bezcelowo po
+pokoju, utrzymujac jednak stale odleglosci od siebie. Wspaniala jaszczurka
+stoi pod sciana, stanowiac trofeum wielkich lowow.
+~
+0 3154956 0
+D0
+Prze toba znajduje sie sciezka przechodzaca obok wielkiego drzewa.
+~
+~
+0 -1 102
+D4
+Nad schodami znajduje sie obserwatorium..
+~
+~
+0 -1 100
+E
+cedr~
+Sciany wykonane sa z cedru, nadajac pokojowi luksusowego wyladu i oraz
+wytwarzajac cudowny zapach. Ktos musial daleko zawedrowac by zdobyc to
+wspaniale drewno.
+~
+E
+dywan~
+Dywan wykonany jest z kaszmirowej welny. Twoje stopy zaglebiaja sie w nim
+az po same kostki.
+~
+> leave_prog 100~
+if isimmort($n)
+or race($n) == halfling
+else
+mpforce 0.$n vis
+endif
+~
+|
+S
+#102
+Sciezka wiedzy~
+Wedrujesz otwarta sciezka, ktora prowadzi poza granice recepcji, wiodac
+cie ku twej przyszlosci. Po chwili spostrzegasz krepego mezczyzne, ktory
+opiera sie niedbale o wielkie drzewo rosnace przy sciezce. Droga wiedzie 
+dalej na polnoc, ale mozesz takze wrocic do recepcji na poludniu.
+~
+0 3154956 0
+D0
+Sciezka prowadzi na polnoc.
+~
+~
+0 -1 103
+D2
+Na poludniu znajduje sie recepcja.
+~
+~
+0 -1 101
+D10
+~
+dziupla~
+917504 -1 104
+E
+drzewo~
+To drzewo jest olbrzymie! W jego poludniowej stronie widzisz ogromna dziuple,
+ktora jest na tyle duza bys mogl do niej wejsc. Ciekawi ce co znajduje sie
+wewnatrz niej. Wpisz DZIUPLA lub LEAVE DZIUPLA by wejsc lub wyjsc z niej.
+~
+E
+somewhere~
+Somewhere jest tym typem wyjscia, ktore nie posiada kerunku i aby go uzyc
+nalezy wpisac slowo kluczowe, czesto jest to 'leave', 'climb' lub 'enter'.
+To wyjscie jest dostepne poprzez wpisanie LEAVE DZIUPLA lub samo DZIUPLA.
+~
+S
+#103
+Wybor sciezki~
+Czy chcesz spedzac swoj czas ciagle ogladajac sie przez ramie, ukrywajac
+w cieniu, zabijajac oraz bedac zabijanym przez innych graczy?
+ 
+Pkill -- jest to wybor dla ciebie. Bedziesz okradal i zabijal innych graczy,
+ktorzy wybrali ta sama sciezke co ty, jednak roznica poziomow nie moze
+przekraczac 5 i ze wzajemnoscia, ciebie tez beda zabijac. HELP RULES PKILL
+i HELP RULES ASSIST zawieraja reszte potrzebnych ci informacji. Pkill`em
+mozesz zostac tez pozniej w czasie gry proszac o to Niesmiertelnych lub
+przylaczajac sie do klany pkills`ow. 
+
+- Jesli chcesz podazac mroczna sciezka jako pkill, wpisz:
+"say Wybieram sciezke mroku"
+
+- Jesli chcesz podazac jasna sciezka pokojowych graczy, wpisz:
+"say Wybieram sciezke jasnosci"
+~
+0 3153932 0
+D2
+Za toba znajduje sie sciezka prowadzaca na powrot do recepcji.
+~
+~
+0 -1 102
+> speech_prog p sciezke mroku~
+if level($n) == 1
+mpforce 0.$n config -nice
+mpforce 0.$n config -flee
+mppkset $n yes
+mpechoat $n Od teraz jestes morderczym graczem ... znajdziesz sie na liscie
+mpechoat $n 'who deadly' gdy osiagniesz 5 poziom oraz wiek 18 lat.
+mpechoat $n Zostaniesz teraz przeniesiony na sciezke, ktora wybrales...
+mpechoaround $n $n wybral Scieze Mroku i znikl w ciemnosciach.
+mptransfer 0.$n 107
+mpat 107 mpforce 0.$n look
+mpat 107 mpforce 0.$n config +autoloot
+mpat 107 mpforce 0.$n config +autogold
+else
+mpechoat $n Juz raz wybrales swa sciezke...
+mptransfer $n 21001
+endif
+~
+> speech_prog p sciezke jasnosci~
+if level($n) == 1
+mppkset $n no
+mpechoat $n Wybrales Sciezke Jasnosci i nie nalezysz do morderczych graczy .
+mpechoat $n Zostaniesz teraz przeniesiony na sciezke, ktora wybrales.
+mpechoaround $n $n wybral Sciezke Jasnosci i rozplynal sie w powietrzu!
+mptransfer 0.$n 105
+mpat 105 mpforce 0.$n look
+mpat 105 mpforce 0.$n config +autoloot
+mpat 105 mpforce 0.$n config +autogold
+else
+mpechoat $n Juz raz wybrales swa sciezke...
+mptransfer $n 21001
+endif
+~
+> rand_prog 33~
+mpechoat $r Twoje oczy wedruja ku kamieniu i spogladasz na tablice.
+mpforce $r look tablica
+~
+|
+S
+#104
+Wewnatrz drzewa~
+Jest to male mieszkanko z kilkoma meblami. Wyglada tak jakby mieszkajacy
+tu dwarf spedzal swoj czas na zewnatrz, a nie wewnatrz niego. Na stole stoi
+kilka naczyn, lozko jest niezaslane, chociaz reszta pokoju jest wzglednie
+czysta. Przy polnocnej scianie widzisz wielka skrzynie. Po blizszych 
+ogledzinach stwierdzasz, ze jest otwarta, a ciebie skreca z ciekawosci co
+tez znajduje sie wewnatrz niej. Wyjscie prowadzi na poludnie.
+~
+0 3153932 1
+D10
+~
+dziupla~
+917505 -1 102
+E
+stol~
+Niewielki stol starczajacy dla dwoch osob. Jest na nim kilka talerzy oraz
+resztki jedzenia. Ledwo mozna poznac, ze stol ten jest wykonany z drewna.
+~
+E
+dziupla~
+Wyjscie prowadzi na poludnie. By go uzyc, wpisz LEAVE DZIUPLA lub samo 
+DZIUPLA. W ten sposob mozesz wrocic na sciezke.
+~
+S
+#105
+Sciezka Jasnosci~
+Jest to jasna, blyszczaca sciezka. Drzewa sa duze i zielone, trawa gesta
+i falujaca. Stwierdzasz, ze sciezka jest pelna zycia. Przed toba unosi sie 
+wielki znak.
+~
+0 3153924 3
+D0
+Przed toba przygoda, na co czekasz?
+~
+~
+0 -1 106
+> leave_prog 100~
+mpechoat $n Mijajac znak spogladasz na niego i odczytujesz litery:
+mpforce 0.$n look znak
+~
+|
+S
+#106
+Sciezka Jasnosci~
+Sciezka ciagnie sie dalej wydajac sie coraz jasniejsza. Na polnocy widzisz
+polaczenie dwoch sciezek oraz lezacy tam kawalek metalu. Mozesz pojsc tam
+i go podniesc.
+~
+0 3153924 3
+D0
+Przed toba wielka polana.
+~
+~
+0 -1 109
+> leave_prog 100~
+c refresh $n
+c refresh $n
+mpoload 106 1
+drop pierscien
+mpechoat $n Schylasz sie i podnosisz z ziemi kawalek metalu.
+mpforce 0.$n get pierscien
+mpechoaround $n $n pochyla sie i podnosi cos z ziemi.
+mpforce 0.$n look pierscien
+mpapply $n
+~
+|
+S
+#107
+Sciezka Mroku~
+Sciezka jest mroczna i posepna. Wokol rosna suche drzewa, a posrod nich
+widac resztki szarej trawy. Jest tu cicho i pusto. Wielki znak unosi sie
+przed toba.
+~
+0 3153925 3
+D0
+Przed toba przygoda, na co czekasz?
+~
+~
+0 -1 108
+> leave_prog 100~
+mpechoat $n Gdy mijasz znak spogladasz na niego i odczytujesz litery:
+mpforce 0.$n look znak
+~
+|
+S
+#108
+Sciezka Mroku~
+Sciezka robi sie coraz ciemniejsza, a drzewa coraz rzadsze.  Na polnocy
+spotykaja sie dwie sciezki oraz zauwazasz tam lezacy kawalek metalu.
+Mozesz isc tam i go podniesc.
+~
+0 3153925 3
+D0
+Przed toba wielka polana.
+~
+~
+0 -1 109
+> leave_prog 100~
+c refresh $n
+c refresh $n
+mpoload 107 1
+drop pierscien
+mpechoat $n Schylasz sie i podnosisz kawalek metalu.
+mpforce 0.$n get pierscien
+mpechoaround $n $n pochyla sie i podnosi cos z ziemi.
+mpforce 0.$n look pierscien
+mpapply $n
+~
+|
+S
+#109
+Na srodku polany~
+Znajdujesz sie w dolinie, na srodku polany. Gory wznosza sie wokol ciebie,
+zas na polnocnym zachodzie ciagnie sie las. Male stokrotki rosna dookola
+zascielajac polane niczym snieg. Sciazka, ktora przyszedles znika wiec nie
+masz juz odwrotu.
+~
+0 3153924 3
+D7
+Przed toba znajduje sie okrag utworzony z rosnacych drzew.
+~
+~
+0 -1 110
+> entry_prog 100~
+if mobinroom(103) < 1
+mpmload 103
+endif
+~
+|
+S
+#110
+Krag drzew~
+Jestes na zacienionej sciezce otoczonej drzewami. Magia tego miejsca przenika
+cale twe cialo powodujac lekki dreszcz. Czujesz sie bezpieczny i spokojnie
+spogladasz w przyszlosc.
+~
+0 3153924 3
+D3
+Sciezka wije sie posrod drzew.
+~
+~
+0 -1 111
+D8
+Za toba znajduje sie polana ze stokrotkami.
+~
+~
+0 -1 109
+E
+drzewa drzewo~
+Te drzewa zdaja sie zyc swym wlasnym zyciem. Wraz z szumem lisci docieraja
+do ciebe ciche slowa ich rozmow. Nie rozumiesz tych slow lecz nie obawiasz
+sie ich.
+~
+> entry_prog 100~
+c heal $n
+c refresh $n
+c refresh $n
+~
+> leave_prog 100~
+mpforce 0.$n vis
+mpoload 109 1
+mpat 111 drop pioro
+~
+|
+S
+#111
+Posrod drzew~
+Znajdujesz sie w gestniejacym lesie. Spogladasz w gore ku sloncu, ktore
+coraz trudniej przebija sie przez korony drzew i zauwazasz blekitne pioro,
+wirujace w powietrzu i powoli opadajace na zielona trawe. Na polnocy widzisz
+niewielki, cichy staw, zas na wschodzie rosnie krag drzew.
+~
+0 3153924 3
+D0
+Na polnocy znajduje sie maly staw.
+~
+~
+0 -1 112
+D1
+Na wschodzie rosnie krag drzew.
+~
+~
+0 -1 110
+> leave_prog 100~
+mpoload 110 1
+mpat 112 drop kubel
+~
+|
+S
+#112
+Nad stawem~
+Las rozstepuje sie by zrobic miejsce dla niewielkiego stawu. Jego widok
+kusi cie by usiasc nad nim, oprzec sie o drzewo i pozostac tu obserwujac
+ryby plywajace tuz pod lustrem wody.
+~
+0 3153924 3
+D2
+Sciezka zaglebia sie w lesie.
+~
+~
+0 -1 111
+D3
+Na zachodzie znajduje sie podnuze gory.
+~
+~
+0 -1 113
+> leave_prog 100~
+mpforce 0.$n get kubel
+~
+|
+S
+#113
+Spadajace kamienie~
+Drzewa sklaniaja sie ze zbocza wzgorza, zas wokol leza roznej wielkosci
+kamienie niczym porzucone zabawki. Sciezka prowadzi lekko do gory, wiodac
+cie wzdluz zbocza.
+~
+0 3153924 3
+D1
+Na wschodzie znajduje sie staw.
+~
+~
+0 -1 112
+D4
+Sciezka prowadzi do gory wzdluz zbocza wzgorza.
+~
+~
+0 -1 114
+S
+#114
+Na pustym zboczu~
+Drobne, potluczone kamienie pokrywaja cale zbocze. Na pierwszy rzut oka
+sadzisz, ze jest to efektem dzialania wulkanu, lecz nagle zauwazasz ogromny
+szkielet jakiejs strasznej besti. Musiala ona siac wielki postrach w okolicy
+gdy jeszcze zyla gdyz kamienie okazuja sie byc skruszonymi koscmi biedakow,
+ktorzy trafili na jej zly dzien i zostali tu juz na zawsze.
+~
+0 3153924 3
+D1
+Widzisz wielki plaskowyz.
+~
+~
+0 -1 115
+D5
+Sciezka prowadzi ku wzgorzu na poludniu.
+~
+~
+0 -1 113
+S
+#115
+Grzbiet wzgorza~
+Spalona i wysuszona ziemia tworzy sciezke, prowadzaca cie po skapa
+porosnietym trawa grzbiecie wzgorza. Nisko wiszace chmury zaslaniaja
+ci widok na druga strone wzgorza. Widzisz tylko slup graniczny, ktory
+przebija chmury i wznosi sie wysoko sluzac ci za punk orientacyjny.
+Sciezka schodzi w dol na wschod i zachod, a gdzies niedaleko slyszysz
+halas dobywajacy sie jakby spod ziemi. Rozgladajac sie uwaznie, udaje
+ci sie ujrzec wejscie do mrocznej jaskini znajdujace sie na poludniu.
+~
+0 3153924 3
+D1
+Zielona trawa porasta druga strone wzgorza.
+~
+~
+0 -1 117
+D2
+Stoisz przed wejsciem do jaskini.
+~
+~
+0 -1 116
+D3
+Zniszczone zbocze wzgorza.
+~
+~
+0 -1 114
+> rand_prog 50~
+mpecho Gleboki, niski drzwiek dobiega cie z wejscia do mrocznej jaskini.
+~
+|
+S
+#116
+W jaskini~
+Panujacy tu mrok nie pozwala ci zorientowac sie w rozmiarach tej jaskini.
+Dziwne okruchy zascielaja wnetrze jaskini, chrupiac glosno gdy stawiasz
+swe kroki przemierzajac pomieszczenie. Schylasz sie i przygladasz okruchom,
+ktore okazuja sie byc resztkami skorupy jajka - wielkiego jajka!? Szybko
+sie rozgladasz i zauwazasz w polmroku ludzkie szkielety lezace nieopodal.
+Nagle szosty zmysl kaze ci spojzec do gory nad siebie...
+~
+0 3153928 0
+D0
+Na polnocy jest sciezka do twej przyszlosci.
+~
+~
+0 -1 115
+> leave_prog 100~
+c refresh $n
+c refresh $n
+~
+|
+S
+#117
+Schodzac zboczem wzgorza~
+Droga zaczyna sie ozywiac, zielenic. Calkiemm odmienny to widok od tego na
+wzgorzu. na powrot zaczyna cie napelniac uczucie spokoju i bezpieczenstwa,
+lecz jestes juz gotow na spotkanie z niebezpieczenstwem.
+~
+0 3153924 3
+D0
+Idac na polnocy znajduje sie dolina.
+~
+~
+0 -1 118
+D3
+Widzisz plaskowyz.
+~
+~
+0 -1 115
+S
+#118
+Skraj zielonej doliny~
+Wzgorze przechodzi tu miekko w doline wypelniona zielenia. Wiatr cicho gra
+w trawie cicha melodie wprawiajac cie w mily nastroj, lecz przygoda pcha
+cie dalej naprzod...
+~
+0 3153924 3
+D1
+Widzisz sciezke prowadzaca do malego drewnianego domku.
+~
+~
+0 -1 119
+D2
+Sciezka prowadzi w gore zbocza.
+~
+~
+0 -1 117
+> entry_prog 100~
+if isimmort($n)
+or race($n) == Halfling
+else
+  mpforce 0.$n vis
+endif
+~
+|
+S
+#119
+Dolina~
+Wysokie, skaliste szczyty otaczaja mala doline niczymm opiekunczy rodzice,
+czyniac to miejsce bezpiecznym i spokojnym. Patrzac na poludnie zauwazasz
+maly drewniany domek zbudowany tuz przy wzgorzu.
+~
+0 3153924 3
+D2
+Drzwi domku.
+~
+drzwi~
+3 -1 120
+D3
+Znajduje sie tu wejscie do doliny.
+~
+~
+0 -1 118
+D6
+The path ends before a large gate
+~
+~
+0 -1 121
+E
+domek~
+Domek wyglada na zbudowany z wielkich nieociosanych bali oraz sporych
+kamieni poukladanych na przemian tworzac ciekawy wzor.    Drzwi sa 
+zamkniete lecz nie na klucz. Wpisz OPEN DRZWI i wejdz do srodka.
+~
+E
+drzwi~
+Drzwi wykonane sa z solidnego drewna. Sa w stanie zatrzymac zla pogode
+oraz nieproszonych gosci na zewnatrz domku. Sa zamkniete lecz nie na 
+klucz. Wpisz OPEN DRZWI i wejdz do srodka.
+~
+> leave_prog 100~
+if isimmort($n)
+or race($n) == Halfling
+else
+  mpforce 0.$n vis
+endif
+~
+|
+S
+#120
+Inside a Small Cabin~
+Rozne zapachy dobiegaja cie gdy wchodzisz do domku. Czujesz pieczone mieso
+oraz zapach strzelajacyh sosnowych polan. Dobrze wykonane meble nadaja
+temu pomieszczeniu wyglad dobrze zadbanego. Gdy tak rozgladasz sie wokol
+siebie, dobiega cie nagle odglos skrzypienia.
+~
+0 3154956 1
+D0
+Wrocisz tedy na sciezke.
+~
+drzwi~
+3 -1 119
+D5
+~
+klapa~
+1071 114 123
+> rand_prog 25~
+mpecho Drewniany fotel cicho skrzypi swiadczac tym o swym wieku.
+~
+> leave_prog 100~
+if race($n) == Halfling
+mpforce q emote wychodzi za drzwi...
+mpforce q give klucz $n
+mpforce q give zbroja $n
+mpforce q mpechoat $n Powodzenia i zegnaj, $n...
+close drzwi
+else
+endif
+~
+|
+S
+#121
+Przed przejsciem~
+Gory szczelnie otaczaja sciezke, ktora podazasz i prowadza cie do wielkich
+wrot zlotego koloru umieszczonych posrod skal. Te wrota prowadza do swiata
+przygod jesli tylko znajdziesz otwierajacy je klucz.
+~
+0 3154944 3
+D1
+~
+wrota~
+1 114 122
+D9
+~
+~
+0 -1 119
+E
+wrota~
+Potrzeba rownie wielkiego klucza by otworzyc te wrota. Moze mieszkaniec
+domku na poludniowym zachodzie go posiada.
+~
+> rand_prog 40~
+mpechoat $r Twoje oczy przeslizguja sie po znakach nakreslonych na wrotach.
+mpforce $r look wrota
+~
+|
+S
+#122
+Widok na swiat~
+Stoisz w miejscu, ktore oferuje ci spektakularny widok na swiat ponizej.
+Czujesz, ze nie wiele cie dzieli od tego by tam sie znalesc, nalezy tylko
+uczynic cos calkiem prostego...
+~
+0 3154952 3
+D3
+~
+wrota~
+1 114 121
+> act_prog p pulls lina.~
+mpechoat $n Wysoko w gorze slyszysz halas jakby sie niebo walilo..
+mpechoaround $n Gdzies wysoko dzwon oglasza wazna rzecz..
+mpapplyb $n
+mptransfer $n 10300
+push lina
+~
+|
+S
+#123
+Zatechla piwnica~
+Stechle powietrze wypelnia to pomieszczenie. Palce ciemnosci pod postacia
+pajeczych sieci przesuwaja sie po twej twarzy. Kazdy ruch wzbija ku gorze
+may kurzu, czyniac podloge niewidoczna dla twych oczu. Dostrzegasz wsrod
+niego zarys jakiejs skrzyni.
+~
+0 3154952 0
+D4
+~
+klapa~
+3 114 120
+> entry_prog 100~
+mpechoat $n Slyszysz trzask gdy klapa zatrzaskuje sie za toba.
+mpat Quercusi mpforce Quercusi close klapa
+~
+|
+S
+#199
+Unoszac sie w nicosci~
+~
+0 4 1
+S
+#0
+
+
+#RESETS
+M 0 101 1 100
+O 0 124 1 100
+M 0 100 1 101
+E 1 100 1 0
+M 0 102 1 102
+O 0 199 1 102
+O 0 192 1 103
+O 0 194 1 104
+O 1 104 1 104
+P 1 105 1 104
+D 0 104 10 0
+O 0 120 1 105
+O 0 121 1 107
+M 0 103 1 109
+O 1 111 1 112
+M 0 104 1 116
+M 0 105 1 119
+O 0 198 1 119
+M 0 106 1 120
+E 1 119 1 5
+D 0 120 5 2
+O 0 197 1 121
+D 0 121 1 2
+O 1 115 1 122
+D 0 122 3 2
+D 0 123 4 1
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

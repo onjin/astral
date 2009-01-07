@@ -1,0 +1,4457 @@
+#AREA   Tullfuhrzky Manor~
+
+
+
+#VERSION 3
+#AUTHOR Cedrick~
+
+#RANGES
+0 10 0 60
+$
+
+#FLAGS
+0 10
+
+#ECONOMY 0 58894776
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#2405
+waz~
+waz~
+weza~
+wezowi~
+weza~
+wezem~
+wezu~
+wezu~
+Na ziemi wije sie gotowy do ataku waz.
+~
+Patrzysz na wielkiego weza zdolnego do polkniecia Cie w calosci. Ciarki
+przechodza Cie po plecach na sama mysl o przejsciu obok niego.
+~
+67 0 -100 C
+7 0 -20 5d4+60 2d3+1
+7000 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 1 1 0
+0 0 67617 288 0 0 1 0
+> greet_prog 85~
+mpechoat $n Pyton syczy na Ciebie.
+~
+> rand_prog 5~
+emote syczy i bada rozdwojonym jezykiem powietrze.
+~
+> fight_prog 30~
+emote przygotowuje sie do uderzenia!
+~
+> death_prog 100~
+if level($n) > 19
+  mpecho Udalo Ci sie zabic wielkiego pytona!
+else
+  mpecho Cialo pytona drga w spazmatycznych skurczach, cisza jaka nastala po
+  mpecho walce przerywana jest przepelnionym bolem syczeniem. Po chwili
+  mpecho agonii waz umiera.
+mpoload 2414
+mpoload 2415
+endif
+~
+|
+#2407
+pies collie suka~
+piesek collie~
+pieska collie~
+pieskowi collie~
+pieska collie~
+pieskiem collie~
+piesku collie~
+piesku collie~
+Zbliza sie do Ciebie groznie wygladajacy pies.
+~
+Masz przed soba suke rasy collie. Nie daj sie zmylic jej pieknemu futru, ta
+suka jest mila tylko dla swoich wlascicieli, kazda inna osobe traktuje jak
+wlamywacza. Wylada na to iz teraz Ty zwrociles jej uwage.
+~
+3 0 150 C
+5 0 -10 1d1+50 1d1+1
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+73 3 0 0 1 1 0
+0 0 328381 0 0 1024 0 0
+> greet_prog 100~
+mpechoat $n Collie na Twoj widok odslania zeby w ostrzegwaczym grymasie.
+mpechoat $n Po chwili pies zaczyna na Ciebie warczec.
+~
+> rand_prog 5~
+mpecho Suka drapie sie za uchem.
+~
+> rand_prog 5~
+mpecho Suka warczy ostrzegawczo.
+~
+> fight_prog 20~
+mpechoat $n Suka warczy na Ciebie groznie i probuje ugryzc Cie w noge!
+~
+|
+#2408
+wielki szczur~
+wielki szczur~
+wielkiego szczura~
+wielkiemu szczurowi~
+wielkiego szczura~
+wielkim szczurem~
+wielkim szczurze~
+wielki szczurze~
+Wielki szczur szuka tu pozywienia.
+~
+Jest obrzydliwy a na pod krotka sierscia widzisz slady roznych przebytych
+chorob. Lepiej nie podchodz gdyz moze Cie zaatakowac i zarazic jakas
+paskudna choroba.
+~
+65 0 -200 C
+4 0 -10 0d0+0 3d3+3
+75 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 3 0 0 1 1 0
+0 0 67081 0 0 0 0 0
+> death_prog 100~
+mpecho Szczur syczy przeciagle i ostatkiem sila probuje Cie ugryzc.
+~
+|
+#2409
+wielki szczur~
+wielki szczur~
+wielkiego szczura~
+wielkiemu szczurowi~
+wielkiego szczura~
+wielkim szczurem~
+wielkim szczurze~
+wielki szczurze~
+Wielki szczur szuka tu pozywienia.
+~
+Jest obrzydliwy a na pod krotka sierscia widzisz slady roznych przebytych
+chorob. Lepiej nie podchodz gdyz moze Cie zaatakowac i zarazic jakas
+paskudna choroba.
+~
+3 0 -1 C
+5 0 -10 5d4+60 3d2+2
+75 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 3 0 0 395666 324275 0
+0 0 327685 0 0 0 0 0
+> greet_prog 100~
+mpecho $I Szczur patrzy na Ciebie i syczy ostrzegawczo.
+~
+> fight_prog 25~
+mpecho Szczur syczy na Ciebie i staje na tylnych lapach probojac Cie ugryzc.
+~
+> death_prog 100~
+if level($n) > 14
+  mpecho Twoj potezny atak roznosi cialo weza na strzepy!
+else
+  mpecho Twoj ostatni atak prawie odcina szczurowi jedna z lap.
+  mpoload 2447
+endif
+~
+|
+#2410
+stary dziadek~
+dziadek~
+dziadka~
+dziadkowi~
+dziadka~
+dziadkiem~
+dziadku~
+dziadku~
+Siedzi tu sobie stary dziadek czytajacy ksiazke.
+~
+Ten starzec zyje na swiecie od bardzo, bardzo dawna. Niebezpieczny blysk w
+jego oku mowi Ci iz mimo swojego wieku jest jeszcze w bardzo dobrej formie i
+nie pozwoli zeby jakis zoltodziob sobie z niego drwil.
+~
+3 0 275 C
+7 0 10 5d2+60 2d2+1
+2000 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> greet_prog 100~
+mpechoat $n Dziadek podnosi wzrok na ksiazki i spoglada na Ciebie.
+say Kim jestes ? Nie znam Cie...
+if rand(50)
+  mpechoat $n Staruszek probuje uderzyc Cie czytana przez niego ksiazka!
+  mpechoaround $n Staruszek probuje uderzyc $n ksiazka!
+  if rand(50)
+    mpechoat $n To bolalo!
+    mpechoaround $n $n dostaje ksiazka w twarz!
+    mpdamage $n 3
+  else
+    mpechoat $n W sama pore udalo Ci sie uniknac uderzenia!
+    mpechoaround $n $n unika ataku dziadka.
+  endif
+else
+  snarl $n 
+endif
+~
+> fight_prog 50~
+if rand(50)
+  mpecho Staruszekowi zaczyna brakowac oddechu ze zmeczenia.
+  if rand(75)
+    mpechoat $n Twoje ataki zadaja wiecej obrazen zmeczonemu staruszkowi.
+  endif
+else
+  mpechoat $n Stary dziadek probuje wbic Ci kolano w brzuch!
+  if rand(65)
+    mpechoat $n Wykorzystujac moment Towjej nieuwagi dziadek kopie Cie kolanem w brzuch!
+    mpdamage $n 8
+    mpechoaround $n Dziadek wbija kolano w brzuch $n!
+  endif
+endif
+~
+> death_prog 100~
+if level($n) > 14
+  mpecho Twoj potezny atak powoduje zniszczenie kurtki w ktora ubrany byl staruszek.
+  mpjunk 'smoking jacket'
+endif
+~
+|
+#2411
+stara gruba kucharka Kery~
+kucharka~
+kucharke~
+kucharce~
+kucharke~
+kucharka~
+kucharce~
+kucharko~
+Stara, gruba kucharka przygotowuje tu jedzenie.
+~
+Kery wyglada na osobe ktora lubi probowac to co przed chwila ugotowala! Jej
+rozmiary moglyby przyprawic o zawroty glowy zawodowych zapasnikow. Mimo
+swojego wieku i tuszy porusza sie z gracja i usmiechem na ustach.
+~
+3 4194305 250 C
+5 0 0 5d4+40 3d1+1
+2000 0
+112 112 2
+13 6 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> greet_prog 100~
+if ispc($n)
+  say Witaj $n, albo pomagasz mi przy pracy albo wychodzisz.
+  mpechoat $n Kucharka macha na Ciebie scierka.
+endif
+~
+> rand_prog 5~
+grumble
+say Eh, tyle pracuje a tak malo mi placa...
+sigh
+close cabinet
+~
+> fight_prog 60~
+if rand(50)
+mpechoat $n Kucharka zgrzyta zebami i podwaja swoje wysilki.
+else
+mpechoat $n Nienawisc ktora dostrzegasz w oczach kucharki powala Cie na kolana.
+endif
+if rand(50)
+mpdamage $n 1
+mpechoat $n Kucharka uderza Cie lokciem w twarz!
+mpechoaround $n Kucharka uderza $n lokciem w twarz!
+else
+mpechoat $n Kucharka probuje uderzyc Cie lokciem w twarz ale unikasz jej wolneg
+ ataku.
+mpechoaround $n $n unika powolnego ataku kucharki.
+endif
+~
+|
+#2412
+olbrzymi szczur~
+olbrzymi szczur~
+olbrzymiego szczura~
+olbrzymiemu szczurowi~
+olbrzymiego szczura~
+olbrzymim szczurem~
+olbrzymim szczurze~
+olbrzymi szczurze~
+Przebiega tedy najwiekszy szczur jakiego w zyciu widziales.
+~
+Jest to chyba krol szczurow. Jest caly brudny i smierdzi jak zwloki w drugim
+tygodniu rozkladu... Lepiej uwazaj zeby Cie nie ugryzl gdyz moze Cie czyms
+zarazic.
+~
+65 0 -200 C
+5 0 -10 5d5+52 3d2+2
+75 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 3 0 0 1 1 0
+0 0 67081 0 0 0 0 0
+#2420
+dziecko~
+dziecko~
+dziecka~
+dziecku~
+dziecko~
+dzieckiem~
+dziecku~
+dziecko~
+Male dziecko kapie sie w wannie.
+~
+Jest to jedno z mlodszych dzieci rodziny Tullfuhrzkich.  
+~
+3 0 250 C
+5 0 -10 3d3+45 2d2+2
+400 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> greet_prog 100~
+hug $n
+mpechoat $n Dziecko spoglada na Ciebie niewinnym wzrokiem.
+say Dada!
+~
+> rand_prog 5~
+emote bawi sie rozpryskujac wode w wannie.
+~
+> fight_prog 33~
+if rand(50)
+  say To boli!
+  cry
+else
+  cry
+  yell Mamo! Pomoz mi!
+endif
+~
+> death_prog 100~
+mpechoat $n Dziecko spoglada na Ciebie z niedowierzaniem w oczach... wraz z
+mpechoat $n gasnacym blaskiem w jego oczach ustaje jego oddech...
+mpechoaround $n Dziecko spoglada blagalnie na $n i po chwili umiera...
+~
+|
+#2421
+dziecko~
+dziecko~
+dziecka~
+dziecku~
+dziecko~
+dzieckiem~
+dziecku~
+dziecko~
+Po podlodze pelza sobie niewinnie wygladajace dziecko.
+~
+Dziecko jest bardzo mlode i bezradne. Kiedy na nie patrzysz robi Ci sie
+cieplej na sercu i myslisz o zalozeniu rodziny. Zabicie tego szkraba byloby
+smiertelnym grzechem.
+~
+3 0 1000 C
+3 0 -10 5d5+50 2d2+1
+10 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> greet_prog 100~
+mpechoat $n Dziecko spoglada na Ciebie z zaciekawieniem.
+smile $n
+~
+> fight_prog 55~
+scream
+cry
+~
+> death_prog 100~
+mpechoat $n Z gardla dziecka wydobywa sie krotki szloch zdlawiony przez krew
+mpechoat $n wyplywajaca mu z ust...
+mpechoat $n Dobra robota! Wlasnie zabiles bezbronne dziecko!
+mpechoat $n Potezna sila przenosi Cie do innego wymiaru!
+mptrans $n 2485
+mpat $n mpforce $n say Pomocy !
+~
+> rand_prog 5~
+mpecho Dziecko probuje stanac na nogach ale niezbyt dobrze mu to idzie.
+~
+|
+#2422
+Robert chlopiec dziecko~
+Robert~
+Roberta~
+Robertowi~
+Roberta~
+Robertem~
+Robercie~
+Robercie~
+Widzisz tu Roberta Tullfuhrzkiego malujacego obrazy.
+~
+Robert Tullfuhrzky jest calkiem obiecujacym malarzem jak na czteroletnie
+dziecko. Odnosi sie do wszystkich z cieplym usmiechem i nikogo sie nie boi.
+~
+3 0 250 C
+6 0 -10 5d6+80 2d2+2
+1000 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1023 0 0 0 32 0
+> greet_prog 100~
+mpechoat $n Robert odrywa sie od malowania obrazu i mowi:
+mpechoat $n Witaj przybyszu, czyzbys przyjechal aby zobaczyc ktorys z moich obrazow ?
+smile
+mpechoat $n Robert podsuwa Ci obraz przed nos.
+mpechoaround $n Robert pokazuje obraz $n.
+~
+> fight_prog 45~
+if rand(50) 
+  mpecho Robert krzyczy z bolu.
+  scream
+else
+  if rand(50)
+    cry
+    yell Pomocy! Niech ktos mi pomoze!
+    mpechoat $n Robert probuje uciec z walki.
+    flee
+  else
+    scream
+    mpechoat $n $I patrzy na Ciebie zastanawiajac sie dlaczego go zaatakowales.
+  endif
+endif
+~
+|
+#2423
+male dziecko~
+male dziecko~
+malego dziecka~
+malemu dziecku~
+male dziecko~
+malym dzieckiem~
+malym dziecku~
+male dziecko~
+Male dziecko siedzi sobie na lozku.
+~
+Jest to jedno z dzieci rodziny Tullfuhrzkich.
+~
+3 0 150 C
+3 0 1 4d5+75 2d3+2
+600 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+#2425
+Joshua Tullfuhrzky hrabia~
+hrabia~
+hrabiego~
+hrabiemu~
+hrabiego~
+hrabim~
+hrabim~
+hrabio~
+Hrabia Tullfuhrzky nie jest zbyt zadowolony z Twojego wtargniecia!
+~
+Joshua Tullfuhrzky to krzepki mezczyzna mierzacy ponad dwa metry wzrostu.
+Nie sugeruj sie jego podeszlym wiekiem, nadal ma w sobie pelno energii i z
+pewnoscia bedzie trudnym przeciwnikiem.
+~
+3 40 350 C
+12 0 1 7d5+130 5d3+4
+7000 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+1 0 2047 0 2048 0 0 2
+> fight_prog 50~
+, zgrzyta zebami z wscieklosci.
+if rand(60)
+  mpechoat $n Hrabia Tullfuhrzky bierze zamach aby uderzyc Cie szpicruta!
+  mpechoaround $n $I bierze zamach aby uderzyc $n szpicruta!
+   if rand(80)
+   mpechoat $n Uderzenie hrabiego trafia Cie w bark.  
+   mpechoat $n Cios hrabiego trafia $n w bark.
+   mpdamage $n 15
+  else
+    if rand(45)
+      mpechoat $n Uderza Cie w twarz zamieniajac ja w krwawa miazge!
+      mpechoaround $n Uderzenie hrabiego zamienia twarz $n w krwawa miazge!
+      mpdamage $n 20
+    else
+      if rand(20)
+        mpechoat $n Czujesz jak od poteznego uderzenia hrabiego peka Ci czaszka!
+        mpechoaround $n Slyszysz chrupniecie czaszki $n pekajacej pod ciosem hrabiego!
+        mpdamage $n 35
+      endif
+    endif
+  endif
+else
+  mpechoat $n Uff... udalo Ci sie uniknac nadlatujacej szpicruty!
+  mpechoaround $n $n robi szybki zwod i unika hrabiowskiej szpicruty!
+endif
+~
+> greet_prog 100~
+if ispc($n)
+  snarl
+  if rand(50)
+    say Opusc moja siedzibe! Juz Cie tu nie ma przybledo!
+    curse $n
+  else
+    say Nie jestes tu mile widziana osoba $n. OPUSC MOJA POSESJE!
+    glare $n
+  endif
+  if rand(50)
+    mpechoat $n Hrabia Tullfuhrzky wymierza Ci siarczysty policzek!
+    mpechoat $n Auc! To bolalo!
+    mpechoaround $n Hrabia Tullfuhrzky uderza $n w twarz!
+    mpdamage $n 3
+  else
+    mpechoat $n Hrabia probuje uderzyc Cie w twarz ale udaje Ci sie uniknac ciosu.
+    mpechoaround $n Hrabia zamierza sie na $n ale $n zrecznie unika ciosu.
+  endif
+endif
+~
+> death_prog 100~
+if level($n) > 19
+  mpjunk ring
+endif
+~
+|
+#2426
+Lady Tullfuhrzky kobieta~
+lady~
+lady~
+lady~
+lady~
+lady~
+lady~
+lady~
+Widzisz tu przerazona Twoim wtargnieciem lady Tullfuhrzky.
+~
+Lady Tullfuhrzky jest jedna z najpiekniejszych kobiet jakie widziales. Jest
+wysoka, ma gladka skore, geste brazowe wlosy, blyszczace oczy i
+oniesmielajacy usmiech.
+~
+3 40 350 C
+10 0 1 10d2+130 5d3+4
+4000 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 2048 0 16 0
+> fight_prog 30~
+if rand(50)
+  yell Joshua! Dzieci! Pomozcie mi!
+else
+  say Zostaw mnie morderco!
+  glare $n
+endif
+~
+> death_prog 100~
+mpechoat $n Wydajac ostatnie tchnienie, Lady Tullfuhrzky patrzy Ci gleboko w oczy
+mpechoat $n i mowi, "Prosze, oszczedz moje dzieci..."
+if level($n) > 19
+  mpecho Twoje potezne ciosy calkowicie zniszczyly przedmioty posiadane przez hrabine.
+  mpjunk all
+endif
+~
+> greet_prog 100~
+if ispc($n)
+  mpasound Slyszysz wysoki, kobiecy krzyk.
+  scream
+  say Kim jestes ?
+  cringe $n
+  mpechoat $n Lady Tullfhurzky probuje Cie kopnac!
+  mpechoaround $n Lady Tullfuhrzky probuje kopnac $n!
+  if rand(60)
+    mpechoat $n Jej kopniecie trafia Cie kostke!
+    mpechoaround $n Kady Tullfuhrzky kopie $n w kostke!
+    mpdamage $n 3
+    mpforce $n wince
+  else
+    mpechoat $n W sama pore uskakujesz przed jej noga.
+    mpechoaround $n $n uskakuje przed kopnieciem Lady Tullfhurzky!
+  endif
+endif
+~
+|
+#2442
+posepny duch~
+duch~
+ducha~
+duchowi~
+ducha~
+duchem~
+duchu~
+duchu~
+Nad gnijacym cialem unosi sie posepny duch.
+~
+Trudno powiedziec Ci cos wiecej na temat tego ducha. Z pewnoscia jest to
+duch mezczyzny. Nie wiesz i nie chcesz sie dowiedziec jak zginal.
+~
+3 6291498 -200 C
+6 0 1 1d1+55 5d5+5
+100 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+36 3 0 0 1 1 0
+0 0 0 0 0 0 0 2
+> act_prog p gets a panther-crested shield from a rotting corpse~
+say Naruszyles moja wlasnosc $n...
+vis
+mpecho Duch nieszczesnika do ktorego nalezalo to cialo staje sie widoczny.
+say Teraz zginiesz!
+mpkill $n
+~
+> death_prog 100~
+if level($n) > 19
+else
+  mpoload 2426
+endif
+~
+> rand_prog 4~
+mpecho Czujesz na twarzy delikatny dotyk.
+~
+> rand_prog 5~
+mpecho Przez chwile wydawaje Ci sie ze wyczuwasz tu czyjas obecnosc...
+mpat 3 c invis
+~
+|
+#2443
+gnijace cialo~
+gnijace cialo (nie uzywa sie tego moba)~
+gnijace cialo (nie uzywa sie tego moba)~
+gnijace cialo (nie uzywa sie tego moba)~
+gnijace cialo (nie uzywa sie tego moba)~
+gnijace cialo (nie uzywa sie tego moba)~
+gnijace cialo (nie uzywa sie tego moba)~
+gnijace cialo (nie uzywa sie tego moba)~
+Widzisz tu gnijace powoli cialo.
+~
+~
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+#2450
+oprawca~
+oprawca~
+oprawcy~
+oprawcy~
+oprawce~
+oprawca~
+oprawcy~
+oprawco~
+Stoi tu ubrany na czarno oprawca.
+~
+Masz przed soba odzianego w czern mezczyzne. Oprocz ust wykrzywionych w
+zlosliwym grymasie nie ma innego odslonietego kawalka ciala. Wyglada na
+osobe lubiaca przysparzac innym bolu.
+~
+3 4194344 -500 C
+11 0 1 10d3+120 3d2+6
+25000 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+2 0 2046 0 2048 0 33 2
+> fight_prog 40~
+if rand(50)
+  mpechoat $n Oprawca wykorzystuje wszystkie znane mu sztuczki aby zadac Ci bol.
+else
+  mpechoat $n Oprawca probuje uderzyc Cie biczem ale unikasz jego ciosu.
+endif
+if rand(70)
+else
+  say Myslisz ze jestes twardzielem co ?
+  if rand(50)
+    say Pochowam Cie pod plotem tam gdzie odlewaja sie psy!
+  endif
+endif
+~
+> all_greet_prog 100~
+mpechoat $n Oprawca spoglada na Ciebie z blyskiem w oku.
+grin
+say A wiec to Ty jestes $n, znany tchorz ? 
+say Gratulacje, udalo Ci sie mnie znalezc.
+say W nagrode mozesz posmakowac mojego bicza!
+mpkill $n
+~
+> death_prog 100~
+if level($n) > 29
+  mpecho Ostanim ciosem rozcinasz korpus oprawcy na polowe!
+  mpjunk all
+endif
+~
+|
+#2455
+kon ogier~
+ogier~
+ogiera~
+ogierowi~
+ogiera~
+ogierem~
+ogierze~
+ogierze~
+Stoi tu piekny, czarny jak heban ogier.
+~
+Pod pokryta czarnymi wlosami skora dostrzegasz nerwowo drgajace potezne
+wezly miesni. Jest to wspanialy okaz dobrze ujzedzonego i pelnokrwistego
+konia. Moze chcialbys sie na nim przejechac ?
+~
+262145 40 200 C
+8 0 1 9d3+100 3d3+2
+1000 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+86 3 0 0 1 262145 0
+0 0 66621 0 0 0 0 0
+> rand_prog 4~
+mpecho Kon ogania sie ogonem od much.
+~
+> rand_prog 4~
+nuzzle $n
+~
+|
+#2456
+stajenny~
+stajenny~
+stajennego~
+stajennemu~
+stajennego~
+stajennym~
+stajennym~
+stajenny~
+Stary stajenny wykonuje swoja prace.
+~
+Masz przed soba starego czlowieka ktorego rece swiadcza o ciezkiej pracy
+wykonywanej kazdego dnia. Przez trzydziesci piec lat, dzien w dzien sprzata
+on stajnie i zajmuje sie konmi. Po jego minie widzisz ze ma serdecznie dosc
+tej roboty.
+~
+1 0 200 C
+7 0 1 5d5+80 3d2+1
+3000 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> greet_prog 100~
+mpechoat $n Stajenny rzuca Ci przelotne spojrzenie i powraca do swojej pracy.
+~
+|
+#2460
+kobieta zgrzybiala babcia nana~
+babcia~
+babci~
+babci~
+babcie~
+babcia~
+babci~
+babciu~
+Widzisz tu nucaca sobie pod nosem zgrzybiala kobiete.
+~
+Nana musi miec wiecej niz 100 lat. Jej skora jest bardzo pomarszczona, ledwo
+widzi na oczy i niedoslyszy. Mimo zmarszczek na jej twarzy dostrzegasz
+niewyrazny usmiech oraz oznaki dawnej pieknosci.
+~
+65 0 250 C
+7 0 1 10d2+60 2d2+1
+25000 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 79 0 0 0 0 0
+> all_greet_prog 100~
+if isnpc($n)
+else
+  mpechoat $n Staruszka przyglada Cie sie zdezorientowana.
+  if rand(50)
+    say Joshua? Czy to ty?
+  else
+    say Robert? Chodz do babci.
+    smile $n
+  endif
+endif
+~
+|
+#2462
+chlopiec sluzacy~
+sluzacy~
+sluzacego~
+sluzacemu~
+sluzacego~
+sluzacym~
+sluzacym~
+sluzacy~
+Odpoczywa tu mlodziutki sluzacy.
+~
+Chlopiec ma okolo pieciu lat ale juz poznal twarde zasady rzadzace zyciem
+sluzby.
+~
+3 8 -100 C
+5 0 15 3d3+60 2d2+2
+20 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> greet_prog 100~
+mpechoat $n Chlopiec odsuwa sie od Ciebie, w jego oczach dostrzegasz strach.
+say Ja nie odpoczywalem... tylko zbieralem kurze... prosze mnie nie bic!
+cringe $n
+~
+> fight_prog 35~
+cry
+if rand(50)
+  say Prosze mnie juz nie bic! Nie bede wiecej leniuchowal, przyrzekam!
+else
+endif
+~
+> fight_prog 35~
+yell $n probuje zabic bezbronne dziecko! POMOCY!
+~
+|
+#2463
+lokaj~
+lokaj~
+lokaja~
+lokajowi~
+lokaja~
+lokajem~
+lokaju~
+lokaju~
+Lokaj odpoczywa po dniu ciezkiej pracy.
+~
+Lata ciezkiej pracy w sluzbie hrabiostwa odcisnely swoje pietno na tym
+mezczyznie. Jest zmeczony i zgorzknialy. Nie wyglada na zbyt szczesliwego
+widzac Cie tutaj.
+~
+3 0 200 C
+6 0 1 4d5+60 2d3+3
+3000 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+  if rand(50)
+    say Co tu robisz ? To prywatna posiadlosc!
+  else
+    say Lepiej wynos sie z posiadlosci albo zaraz wypuszcze psy...
+  endif
+  mpechoat $n Lokaj lapie Cie za fraki i przyciaga do drzwi.
+  mpechoaround $n Lokaj zaciaga $n do drzwi.
+    if rand(50)
+    mpechoat $n Lokaj wyrzuca Cie za drzwi czestujac kopniakiem na droge!
+    mpdamage $n 3
+    mpechoat $n Auc! To bolalo!
+    mpechoaround $n $n zostaje wykopany za drzwi przez lokaja!
+    mpforce $n south
+  endif
+endif
+~
+|
+#2465
+ogrodnik~
+ogrodnik~
+ogrodnika~
+ogrodnikowi~
+ogrodnika~
+ogrodnikiem~
+ogrodniku~
+ogrodniku~
+Ubrudzony ziemia ogrodnik ciezko pracuje aby wyhodowac swieze warzywa.
+~
+Mezczyzna na ktorego patrzysz jest wycienczony latami pracy w ciezkiej
+sluzbie. Wyglada na starego i watlego, w jego oku dostrzegasz blysk wiedzy
+gromadzonej przez lata. 
+~
+7 0 250 C
+9 0 1 5d5+160 4d5+5
+4000 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 2048 0 32 0
+> act_prog p sits down.~
+say Oto co moge Ci dzis zaoferowac.
+mpforce $n list
+~
+> act_prog p stands up.~
+if rand(50)
+  say Juz mnie opuszczasz ? No coz, milej podrozy $n.
+  wave $n
+else
+  say Zanim odejdziesz moze zechcesz obejrzec moj towar ?
+  shake $n
+endif
+~
+> rand_prog 5~
+emote kopie nowa grzadke.
+~
+> all_greet_prog 100~
+if isnpc($n)
+else
+  mpechoaround $n Ogrodnik przyglada sie $n.
+  if rand(50)
+    say Witaj $n, usiadz sobie i przyjrzyj sie moim roslinom.
+    smile $n
+  else
+    bow $n
+    say Witaj $n, odpocznij sobie a obejrzyj moje warzywa.
+  endif 
+endif
+mpechoat $n Ogrodnik zacheca Cie do odpoczynku... Byc moze warto skorzystac ?
+~
+|
+#2471
+gigantyczny ogromny karaluch~
+karaluch~
+karalucha~
+karaluchowi~
+karalucha~
+karaluchem~
+karaluchu~
+karaluchu~
+Gigantyczny karaluch szuka tu pozywienia.
+~
+Jest to najwiekszy i najbardziej obrzydliwy karaluch jakiego w zyciu
+widziales. Nie wiesz na czym tak wyrosl i nie chcesz wiedziec czy sie teraz
+zywi. Hmmm byc moze lepiej byloby opuscic jego towarzystwo ?
+~
+65 0 -275 C
+7 0 1 4d3+78 3d4+4
+100 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 9273 1 0 256 0 0
+> death_prog 100~
+if level($n) > 19
+  mpecho Twoje ostatnie uderzenie doszczetnie niszczy pancerz karalucha.
+else
+  mpoload 2429
+endif
+~
+|
+#2472
+gigantyczny ogromny karaluch~
+tego moba sie nie uzywa~
+tego moba sie nie uzywa~
+tego moba sie nie uzywa~
+tego moba sie nie uzywa~
+tego moba sie nie uzywa~
+tego moba sie nie uzywa~
+tego moba sie nie uzywa~
+Gigantyczny karaluch szuka tu pozywienia.
+~
+Jest to najwiekszy i najbardziej obrzydliwy karaluch jakiego w zyciu
+widziales. Nie wiesz na czym tak wyrosl i nie chcesz wiedziec czy sie teraz
+zywi. Hmmm byc moze lepiej byloby opuscic jego towarzystwo ?
+~
+65 0 -275 C
+3 0 0 4d3+20 3d2+2
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 9273 1 0 256 0 0
+#2484
+sedzia~
+Sedzia~
+Sedziego~
+Sedziemu~
+Sedziego~
+Sedzia~
+Sedzi~
+Sedzio~
+Sedzia Sadu Ostatecznego wpatruje sie w Ciebie przeszywajacym wzrokiem.
+~
+Sedzia ubrany jest w dlugie, zwiewne szaty. Bije od niego aura pewnosci i
+przekonania o swojej wyzszosci nad innymi ludzmi.
+~
+5 369098920 -1000 C
+2 0 0 1d1+30000 1d1+1000
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 34815 224 1052159 0 1359405504 532583
+> all_greet_prog 100~
+mea 0.$n $I patrzy na Ciebie z blyskiem nienawisci w oczach.
+say SZKODNIKU! Ty GNIDO! MORDERCO DZIECI!
+yell $n znajduje przyjemnosc w MORDROWANIU DZIECI!
+say Nie zaslugujesz na to by ZYC.
+say Masz szczescie, tym razem puszcze w niepamiec Twoje przewiny.
+mea 0.$n Sedzia wyciaga w Twoim kierunku palec...
+say Abym Cie tu wiecej nie widzial $n!
+mea 0.$n Potezne moce ktorymi wlada Sedzia przenosza Cie do Darkhaven.
+if ispkill($n)
+  mptrans 0.$n 21001
+else
+    mptrans 0.$n 21001
+endif
+~
+|
+#0
+
+
+#OBJECTS
+#2400
+pudlo~
+pudlo na zabawki~
+pudlo na zabawki~
+pudlo na zabawki~
+pudlo na zabawki~
+pudlo na zabawki~
+pudlo na zabawki~
+pudlo na zabawki~
+Stoi tu dosc duze pudlo w ktorym dzieci przechowuja swoje zabawki.~
+~
+15 0 0
+50 5 0 0
+1 0 0
+E
+pudlo~
+Pudlo pomalowane jest na bialo, na scianach namalowane sa klocki i kolorowe
+motyle.
+~
+#2401
+misa~
+misa~
+misa~
+misa~
+misa~
+misa~
+misa~
+misa~
+Lezy tu wielka misa.~
+~
+15 0 1
+30 0 0 0
+1 50 5
+#2402
+drewniana lyzka~
+drewniana lyzka~
+drewniana lyzka~
+drewniana lyzka~
+drewniana lyzka~
+drewniana lyzka~
+drewniana lyzka~
+drewniana lyzka~
+Jakis kucharz zgubil tu dluga drewniana lyzke.~
+~
+5 262208 8193
+12 2 5 0
+1 100 10
+E
+drewniana lyzka~
+Lyzka jest dosc dluga i wyglada na wytrzymala.
+~
+A
+18 1
+A
+19 1
+#2403
+studnia~
+studnia~
+studnia~
+studnia~
+studnia~
+studnia~
+studnia~
+studnia~
+Stoi tu mala kamienna studnia w ktorej mozesz ugasic pragnienie.~
+~
+25 0 0
+0 0 0 0
+1 0 0
+#2404
+baker's apron~
+this object is not used~
+this object is not used~
+this object is not used~
+this object is not used~
+this object is not used~
+this object is not used~
+this object is not used~
+A plain baker's apron has been discarded here.~
+~
+15 0 1
+0 0 0 0
+1 0 0
+#2405
+rozen~
+rozen~
+rozen~
+rozen~
+rozen~
+rozen~
+rozen~
+rozen~
+Na ziemi lezy dlugi, metalowy rozen.~
+~
+5 8454208 8193
+12 0 0 7
+3 500 50
+A
+18 2
+A
+1 1
+#2406
+stos monety zloto~
+stos zlotych monet~
+stos zlotych monet~
+stos zlotych monet~
+stos zlotych monet~
+stos zlotych monet~
+stos zlotych monet~
+stos zlotych monet~
+Wytrzeszczasz oczy na widok lezacego to stosu zlotych monet.~
+~
+20 0 1
+40000 0 0 0
+1 50000 5000
+#2407
+sejf~
+sejf~
+sejf~
+sejf~
+sejf~
+sejf~
+sejf~
+sejf~
+W sciane pomieszczenia wbudowany jest niewielki sejf.~
+~
+15 8 0
+100 15 2425 0
+1 0 0
+E
+sejf~
+Tak jak wszystko w tym domu jest bardzo dobrej jakosci i trudno byloby Ci go
+otworzyc bez odpowiednich narzedzi. Zauwazasz w nim mala dziurke i domyslasz
+sie iz nie otwiera sie go szyfrem lecz za pomoca klucza. Byc moze jezeli
+pokrecisz sie po domu uda Ci sie go znalezc.
+~
+#2408
+ksiazka~
+ksiazka~
+ksiazka~
+ksiazka~
+ksiazka~
+ksiazka~
+ksiazka~
+ksiazka~
+Widzisz tu ksiazke zatytulowana "50 sposobow leczenia umierajacych".~
+~
+3 64 16385
+15 3 3 -1
+1 0 0
+'cure critical'
+E
+ksiazka~
+WsKaZoWkA: aby kogos uleczyc chwyc ta ksiazke w dlon i lekko uderz nia ta
+osobe ( zap <osoba_do_uleczenia> ).
+~
+#2409
+marynarka~
+marynarka~
+marynarka~
+marynarka~
+marynarka~
+marynarka~
+marynarka~
+marynarka~
+Ktos zostawil tu stara marynarke bedaca czescia smokingu.~
+~
+9 256 9 8
+6 5 0 0
+8 0 0
+A
+17 -4
+A
+18 1
+#2410
+fajka~
+fajka~
+fajka~
+fajka~
+fajka~
+fajka~
+fajka~
+fajka~
+Twoj wzrok zatrzymuje sie na recznie rzezbionej fajce.~
+~
+4 0 16385
+11 3 3 -1
+2 4000 400
+'faerie fire'
+A
+3 2
+#2411
+rzad szafek szafka~
+rzad szafek~
+rzad szafek~
+rzad szafek~
+rzad szafek~
+rzad szafek~
+rzad szafek~
+rzad szafek~
+Nad misa wisi dlugi rzad szafek.~
+~
+15 0 0
+30 5 0 0
+1 0 0
+#2412
+skrzynia~
+skrzynia na narzedzia~
+skrzynia na narzedzia~
+skrzynia na narzedzia~
+skrzynia na narzedzia~
+skrzynia na narzedzia~
+skrzynia na narzedzia~
+skrzynia na narzedzia~
+Stoi tu wielka skrzynia sluzaca do przechowywania narzedzi.~
+~
+15 0 0
+999 5 0 0
+1 0 0
+#2413
+sekator nozyce~
+sekator~
+sekator~
+sekator~
+sekator~
+sekator~
+sekator~
+sekator~
+Na ziemi lezy para niewielkich nozyc uzywanych do przycinania roslin.~
+~
+5 16908352 8193
+12 0 0 1
+4 0 0
+A
+19 1
+A
+2 1
+#2414
+plaszcz skora weza pytona~
+plaszcz ze skory weza~
+plaszcz ze skory weza~
+plaszcz ze skory weza~
+plaszcz ze skory weza~
+plaszcz ze skory weza~
+plaszcz ze skory weza~
+plaszcz ze skory weza~
+Twoja uwage zwraca plaszcz ze skory wielkiego weza.~
+~
+9 262144 1025
+6 6 0 0
+2 0 0
+A
+5 1
+A
+27 256
+#2415
+kiel jadowy~
+kiel jadowy~
+kiel jadowy~
+kiel jadowy~
+kiel jadowy~
+kiel jadowy~
+kiel jadowy~
+kiel jadowy~
+Widzisz tu wyrwany poteznemu wezowi kiel jadowy.~
+~
+3 0 16385
+15 6 6 -1
+1 2000 200
+'poison'
+#2416
+dresser~
+object not used~
+object not used~
+object not used~
+object not used~
+object not used~
+object not used~
+object not used~
+Some god dropped a newly created dresser here.~
+~
+15 0 0
+10 5 0 0
+1 0 0
+#2417
+pierscien~
+pierscien z pantery~
+pierscien z pantery~
+pierscien z pantery~
+pierscien z pantery~
+pierscien z pantery~
+pierscien z pantery~
+pierscien z pantery~
+Widzisz tu pierscien w wyryta na nim pantera.~
+~
+9 524352 3
+5 5 0 0
+1 4000 400
+A
+2 1
+A
+1 1
+A
+18 1
+#2418
+kostka mydlo~
+kostka mydla~
+kostka mydla~
+kostka mydla~
+kostka mydla~
+kostka mydla~
+kostka mydla~
+kostka mydla~
+Na ziemi lezy kostka mydla na ktorej mozesz sie latwo przejechac.~
+~
+26 0 1
+30 -1 9 130
+1 3000 300
+'heal' 'armor' 'refresh'
+#2419
+koszula nocna~
+koszula nocna~
+koszula nocna~
+koszula nocna~
+koszula nocna~
+koszula nocna~
+koszula nocna~
+koszula nocna~
+Ktos pozostawil tu koszule nocna z wyszytym emblematem pantery.~
+~
+9 0 9 2
+5 0 0 0
+2 100 10
+A
+17 -10
+A
+5 1
+#2420
+szafka~
+szafka~
+szafka~
+szafka~
+szafka~
+szafka~
+szafka~
+szafka~
+Stoi tu niewielka szafka w ktorej przechowywane sa reczniki i szlafroki.~
+~
+15 0 0
+50 5 0 0
+1 0 0
+#2421
+szlafrok jedwabny~
+jedwabny szlafrok~
+jedwabny szlafrok~
+jedwabny szlafrok~
+jedwabny szlafrok~
+jedwabny szlafrok~
+jedwabny szlafrok~
+jedwabny szlafrok~
+Lezy tu miekki jedwabny szlafrok czekajacy na nowego wlasciciela.~
+~
+9 262144 9
+8 0 0 0
+7 1600 160
+A
+17 -4
+A
+4 1
+A
+25 1
+#2422
+szpicruta~
+szpicruta~
+szpicruta~
+szpicruta~
+szpicruta~
+szpicruta~
+szpicruta~
+szpicruta~
+Lezy tu wygladajaca na cenna szpicruta z kosci sloniowej.~
+~
+4 320 16385
+1 1 1 -1
+15 10000 1000
+'sanctuary'
+#2423
+czarne skorzane buty~
+czarne skorzane buty~
+czarne skorzane buty~
+czarne skorzane buty~
+czarne skorzane buty~
+czarne skorzane buty~
+czarne skorzane buty~
+czarne skorzane buty~
+Jakis bogacz pozostawil tu bardzo dobrej jakosci buty.~
+~
+9 262144 65 8
+5 5 0 0
+2 1000 100
+A
+17 -5
+A
+14 50
+#2424
+pierscien szafirowy~
+szafirowy pierscien~
+szafirowy pierscien~
+szafirowy pierscien~
+szafirowy pierscien~
+szafirowy pierscien~
+szafirowy pierscien~
+szafirowy pierscien~
+Widzisz refleksy pochodzace od drogocennego pierscienia z szafirem.~
+~
+9 65 3
+5 5 0 0
+1 2000 200
+A
+13 5
+A
+2 1
+A
+18 2
+#2425
+kluczyk klucz~
+maly klucz~
+maly klucz~
+maly klucz~
+maly klucz~
+maly klucz~
+maly klucz~
+maly klucz~
+Lezy tu maly kluczyk sluzacy do otwierania sejfu.~
+~
+18 524288 1
+2407 0 0 0
+1 0 0
+#2426
+fiolka eliksir~
+eliskir nieumarlych duchow~
+eliskir nieumarlych duchow~
+eliskir nieumarlych duchow~
+eliskir nieumarlych duchow~
+eliskir nieumarlych duchow~
+eliskir nieumarlych duchow~
+eliskir nieumarlych duchow~
+Na ziemi lezy fiolka zawierajaca eliksir nieumarlych duchow.~
+~
+10 80 1
+10 -1 48 101
+1 3000 300
+'heal' 'detect evil' 'invis'
+#2427
+obroza~
+ozdabiana klejnotami psia obroza~
+ozdabiana klejnotami psia obroza~
+ozdabiana klejnotami psia obroza~
+ozdabiana klejnotami psia obroza~
+ozdabiana klejnotami psia obroza~
+ozdabiana klejnotami psia obroza~
+ozdabiana klejnotami psia obroza~
+Twoj wzrok przyciaga ozdabiana wieloma klejnotami psia obroza.~
+~
+9 524288 5
+3 3 0 0
+8 0 0
+A
+17 -1
+A
+3 1
+> wear_prog 100~
+if level($n) > 10
+  mpechoat $n Niestety obroza jest na Ciebie za mala...
+  mpechoaround $n $n probuje zalozyc obroze ale ma za gruba szyje.
+  mpforce $n remove $o
+endif
+~
+|
+#2428
+bicz~
+bicz~
+bicz~
+bicz~
+bicz~
+bicz~
+bicz~
+bicz~
+Na ziemi spoczywa dlugi bicz czekajacy na nowego wlasciciela.~
+~
+5 8651776 8193
+12 2 6 4
+2 560 56
+A
+18 2
+#2429
+pancerz karalucha~
+pancerz karalucha~
+pancerz karalucha~
+pancerz karalucha~
+pancerz karalucha~
+pancerz karalucha~
+pancerz karalucha~
+pancerz karalucha~
+Na ziemi lezy pancerz zdarty z gigantycznego karalucha.~
+~
+9 262144 9
+5 7 0 0
+3 10000 1000
+A
+5 1
+A
+17 -7
+> use_prog 100~
+mpechoaround $n Slyszysz trzeszczenie zakladanego przez $n pancerza karalucha.
+mpechoat $n Pancerz trzeszczy jakby sie mial rozpasc kiedy go zakladasz.
+~
+|
+#2430
+gold~
+this object is not used~
+this object is not used~
+this object is not used~
+this object is not used~
+this object is not used~
+this object is not used~
+this object is not used~
+25000 gold coins lie here.~
+~
+20 0 1
+0 0 0 0
+1 25000 2500
+#2431
+sakiewka~
+sakiewka~
+sakiewka~
+sakiewka~
+sakiewka~
+sakiewka~
+sakiewka~
+sakiewka~
+Lezy tu niewielka sakiewka.~
+~
+15 320 1
+65 5 0 0
+1 50 5
+#2432
+okulary~
+okulary w zlotych oprawkach~
+okulary w zlotych oprawkach~
+okulary w zlotych oprawkach~
+okulary w zlotych oprawkach~
+okulary w zlotych oprawkach~
+okulary w zlotych oprawkach~
+okulary w zlotych oprawkach~
+Leza tu okulary w zlotych oprawkach.~
+~
+9 524288 131073
+4 3 0 0
+1 8600 860
+A
+3 1
+#2433
+szal~
+welniany szal~
+welniany szal~
+welniany szal~
+welniany szal~
+welniany szal~
+welniany szal~
+welniany szal~
+Pod Twoimi nogami lezy miekki szal wykonany z welny.~
+~
+9 256 5
+4 3 0 0
+4 4000 400
+A
+17 -5
+A
+4 1
+#2434
+drewniany noz~
+drewniany noz~
+drewniany noz~
+drewniany noz~
+drewniany noz~
+drewniany noz~
+drewniany noz~
+drewniany noz~
+Lezy tu zabawkowy noz wykonany z drewna.~
+~
+5 262208 8193
+12 0 0 2
+1 50 5
+#2435
+ksiazka~
+ksiazka z bajkami~
+ksiazka z bajkami~
+ksiazka z bajkami~
+ksiazka z bajkami~
+ksiazka z bajkami~
+ksiazka z bajkami~
+ksiazka z bajkami~
+Ktos zgubil dobrze wykonana ksiazke z bajkami.~
+~
+2 0 1
+2 -1 82 9
+1 1000 100
+'detect magic' 'fly' 'armor'
+#2436
+zegarek kieszonkowy~
+zegarek kieszonkowy~
+zegarek kieszonkowy~
+zegarek kieszonkowy~
+zegarek kieszonkowy~
+zegarek kieszonkowy~
+zegarek kieszonkowy~
+zegarek kieszonkowy~
+Drogocenny zegarek kieszonkowy czeka na nowego wlasciciela.~
+~
+9 524288 16385
+4 4 0 0
+2 24000 2400
+A
+2 1
+A
+9 -14
+#2437
+swieczka swieca~
+swieczka~
+swieczka~
+swieczka~
+swieczka~
+swieczka~
+swieczka~
+swieczka~
+Slaby plomien drga na koncu cienkiej swieczki.~
+~
+1 1 16385
+0 0 65 0
+1 0 0
+#2438
+pielucha~
+pielucha~
+pielucha~
+pielucha~
+pielucha~
+pielucha~
+pielucha~
+pielucha~
+Na ziemi lezy jakas pielucha.~
+~
+9 0 2049 4
+1 1 0 0
+1 0 0
+#2439
+paleta~
+paleta~
+paleta~
+paleta~
+paleta~
+paleta~
+paleta~
+paleta~
+Jakis malarz pozostawil tu palete z rozmazanymi na niej farbami.~
+~
+3 64 16385
+9 4 4 -1
+1 0 0
+'colour spray'
+#2440
+puzderko~
+puzderko~
+puzderko~
+puzderko~
+puzderko~
+puzderko~
+puzderko~
+puzderko~
+Na ziemi lezy niewielkie puzderko z kosci sloniowej.~
+~
+4 320 16385
+14 3 3 -1
+1 1000 100
+'elven beauty'
+#2441
+fartuch kucharski~
+fartuch kucharski~
+fartuch kucharski~
+fartuch kucharski~
+fartuch kucharski~
+fartuch kucharski~
+fartuch kucharski~
+fartuch kucharski~
+Jakis kucharz pozostawil tu swoj snieznobialy fartuch.~
+~
+9 0 9 32
+3 3 0 0
+1 1000 100
+A
+17 -5
+A
+13 5
+#2442
+helm~
+helm z symbolem pantery~
+helm z symbolem pantery~
+helm z symbolem pantery~
+helm z symbolem pantery~
+helm z symbolem pantery~
+helm z symbolem pantery~
+helm z symbolem pantery~
+Lezy tu helm z wyrytym na nim symbolem pantery.~
+~
+9 0 17
+2 4 0 0
+2 75 7
+A
+5 1
+#2443
+tarcza~
+tarcza z symbolem pantery~
+tarcza z symbolem pantery~
+tarcza z symbolem pantery~
+tarcza z symbolem pantery~
+tarcza z symbolem pantery~
+tarcza z symbolem pantery~
+tarcza z symbolem pantery~
+Jakis wojownik zapomnial swojej tarczy.~
+~
+9 0 513
+4 4 0 0
+3 50 5
+A
+17 -6
+A
+24 -1
+#2444
+gnijace cialo~
+gnijace cialo~
+gnijace cialo~
+gnijace cialo~
+gnijace cialo~
+gnijace cialo~
+gnijace cialo~
+gnijace cialo~
+W plytkiej niszy spoczywa rozkladajace sie cialo jakiegos nieszczesnika.~
+~
+15 0 0
+5 0 0 0
+1 0 0
+#2445
+zwoj awatarow~
+zwoj awatarow~
+zwoj awatarow~
+zwoj awatarow~
+zwoj awatarow~
+zwoj awatarow~
+zwoj awatarow~
+zwoj awatarow~
+Lezy tu niepozornie wygladajacy zwoj awatarow.~
+~
+2 65 1
+4 -1 139 58
+1 10000 1000
+'kindred strength' 'sagacity' 'dragon wit'
+#2446
+metalowa tarcza~
+metalowa tarcza~
+metalowa tarcza~
+metalowa tarcza~
+metalowa tarcza~
+metalowa tarcza~
+metalowa tarcza~
+metalowa tarcza~
+Na podlodze lezy niezbyt dobrej jakosc tarcza.~
+~
+9 0 513
+2 2 0 0
+3 50 5
+A
+17 -3
+A
+22 -1
+#2447
+szczurze futro~
+szczurze futro~
+szczurze futro~
+szczurze futro~
+szczurze futro~
+szczurze futro~
+szczurze futro~
+szczurze futro~
+Na ziemi lezy futro pochodzace z olbrzymiego szczura.~
+~
+9 262144 1025
+3 4 0 0
+2 100 10
+A
+17 -6
+A
+13 10
+#2448
+lusterko~
+lusterko~
+lusterko~
+lusterko~
+lusterko~
+lusterko~
+lusterko~
+lusterko~
+Na ziemi lezy niewielkie lusterko.~
+~
+3 320 16385
+10 2 2 -1
+1 50 5
+'charm person'
+#2449
+podkoszulek podkoszulka~
+przetarty podkoszulek~
+przetarty podkoszulek~
+przetarty podkoszulek~
+przetarty podkoszulek~
+przetarty podkoszulek~
+przetarty podkoszulek~
+przetarty podkoszulek~
+Twoje nogi zaplatuja sie w stary i poprzecierany podkoszulek.~
+~
+9 0 9 2
+1 3 0 0
+1 50 5
+A
+17 -4
+#2450
+klucz~
+kosciany klucz~
+kosciany klucz~
+kosciany klucz~
+kosciany klucz~
+kosciany klucz~
+kosciany klucz~
+kosciany klucz~
+Widzisz tu klucz wykonany z ludzkiej kosci.~
+~
+18 0 1
+2450 0 0 0
+1 0 0
+#2451
+bicz~
+bicz oprawcy~
+bicz oprawcy~
+bicz oprawcy~
+bicz oprawcy~
+bicz oprawcy~
+bicz oprawcy~
+bicz oprawcy~
+Lezy tu grozny bicz na ktorym widac kawalki ludzkiej skory.~
+~
+5 199252 8193
+12 0 0 4
+2 5400 540
+A
+13 20
+A
+18 4
+A
+19 5
+#2452
+maska~
+maska oprawcy~
+maska oprawcy~
+maska oprawcy~
+maska oprawcy~
+maska oprawcy~
+maska oprawcy~
+maska oprawcy~
+Na ziemi lezy czarna maska z niewielkimi otworami na oczy i usta.~
+~
+9 199188 17 16
+4 5 0 0
+3 3000 300
+A
+3 1
+A
+18 1
+#2453
+podarte spodnie~
+podarte spodnie~
+podarte spodnie~
+podarte spodnie~
+podarte spodnie~
+podarte spodnie~
+podarte spodnie~
+podarte spodnie~
+Ktos wyrzucil tu pare starych, podartych spodni.~
+~
+9 0 33 2
+2 3 0 0
+1 100 10
+A
+17 -2
+#2454
+reka pala~
+Reka Spwrawiedliwosci~
+Reka Spwrawiedliwosci~
+Reka Spwrawiedliwosci~
+Reka Spwrawiedliwosci~
+Reka Spwrawiedliwosci~
+Reka Spwrawiedliwosci~
+Reka Spwrawiedliwosci~
+Lezy tu wielka drewniana pala z metalowymi okuciami.~
+~
+5 0 8193
+12 4 4 7
+5 2000000 200000
+#2455
+szpicruta~
+szpicruta~
+szpicruta~
+szpicruta~
+szpicruta~
+szpicruta~
+szpicruta~
+szpicruta~
+Lezy tu porzucona przez kogos szpicruta.~
+~
+5 64 8193
+12 0 0 0
+4 450 45
+A
+18 1
+A
+19 2
+A
+2 -1
+#2456
+buty~
+buty do jazdy konnej~
+buty do jazdy konnej~
+buty do jazdy konnej~
+buty do jazdy konnej~
+buty do jazdy konnej~
+buty do jazdy konnej~
+buty do jazdy konnej~
+Jakas amazonka zostawila tu pare skorzanych butow do jazdy konnej.~
+~
+9 262144 33
+2 5 0 0
+2 630 63
+A
+17 -2
+#2457
+lampa~
+lampa olejna~
+lampa olejna~
+lampa olejna~
+lampa olejna~
+lampa olejna~
+lampa olejna~
+lampa olejna~
+Stoi tu swiecaca jasno lampa olejna.~
+~
+1 524289 1
+0 0 70 0
+4 5 0
+#2458
+marchewka~
+marchewka~
+marchewka~
+marchewka~
+marchewka~
+marchewka~
+marchewka~
+marchewka~
+Z ziemi wyrasta wielka marchew.~
+~
+26 262144 1
+3 -1 -1 -1
+6 500 50
+'detect invis' 'NONE' 'NONE'
+#2460
+skrzynia~
+skrzynia~
+skrzynia~
+skrzynia~
+skrzynia~
+skrzynia~
+skrzynia~
+skrzynia~
+W rogu pomieszczenia stoi wielka skrzynia.~
+~
+15 262144 0
+30 5 0 0
+1 0 0
+#2461
+arbuz~
+arbuz~
+arbuz~
+arbuz~
+arbuz~
+arbuz~
+arbuz~
+arbuz~
+Rosnie tu wspanialy arbuz ktory swoim wygladem zacheca Cie do zjedzenia go.~
+~
+26 262144 1
+5 -1 82 -1
+15 900 90
+'kindred strength' 'fly' 'NONE'
+#2462
+salata~
+salata~
+salata~
+salata~
+salata~
+salata~
+salata~
+salata~
+Rosnie tu wielka, zielona salata.~
+~
+26 270336 1
+14 -1 -1 -1 6 0
+4 500 50
+'cure critical' 'NONE' 'NONE'
+#2463
+beczka wino~
+beczka z winem~
+beczka z winem~
+beczka z winem~
+beczka z winem~
+beczka z winem~
+beczka z winem~
+beczka z winem~
+Stoi tu wielka beczka wypelniona winem.~
+~
+17 262144 1
+20 20 2 0
+14 0 0
+#2464
+wedzone mieso~
+wedzone mieso~
+wedzone mieso~
+wedzone mieso~
+wedzone mieso~
+wedzone mieso~
+wedzone mieso~
+wedzone mieso~
+Lezy tu kawalek wedzonego miesa mogacego uratowac Cie od smierci glodowej.~
+~
+19 0 1
+5 0 0 0
+1 0 0
+#2465
+ser kwalwek~
+kawalek zoltego sera~
+kawalek zoltego sera~
+kawalek zoltego sera~
+kawalek zoltego sera~
+kawalek zoltego sera~
+kawalek zoltego sera~
+kawalek zoltego sera~
+Masz przed soba kawalek smacznego zoltego sera.~
+~
+19 0 1
+0 0 0 0
+1 0 0
+#2466
+talia karty~
+talia kart~
+talia kart~
+talia kart~
+talia kart~
+talia kart~
+talia kart~
+talia kart~
+Ktos zostawil tu talie kart.~
+~
+9 0 16385
+2 2 0 0
+2 0 0
+A
+4 1
+A
+2 1
+#2486
+koryto~
+koryto~
+koryto~
+koryto~
+koryto~
+koryto~
+koryto~
+koryto~
+Stoi tu koryto wypelnione chlodna woda.~
+~
+25 0 0
+0 0 0 0
+1 0 0
+#2498
+sword~
+elvenbane sword~
+elvenbane sword~
+elvenbane sword~
+elvenbane sword~
+elvenbane sword~
+elvenbane sword~
+elvenbane sword~
+A deadly elvenbane lies here.~
+~
+5 0 8193
+12 60 100 3
+1 0 0
+A
+17 -399
+A
+18 100
+A
+19 100
+#2499
+potion sprite~
+not used~
+not used~
+not used~
+not used~
+not used~
+not used~
+not used~
+A Sprite~
+~
+10 0 1
+50 -1 91 91
+1 0 0
+'heal' 'heal' 'heal'
+#0
+
+
+#ROOMS
+#2400
+Przed Brama~
+Stoisz na szczycie wzgorza przed wejsciem do wielkiej, trzypietrowej
+posiadlosci. Za brama widzisz ladny i zadbany dziedziniec wokol ktorego
+rosna kwiaty i drzewa. Dom wybudowany jest z czerwonej cegly z bialymi
+dodatkami. Po bokach drzwi dostrzegasz dwie lampy. Jezeli chcesz mozesz
+zwiedzic posiadlosc przechodzac przez brame. Po swojej prawej stronie
+widzisz wkomponowana w kamien niewielka plytke wykonana z metalu.
+~
+0 8 0
+D0
+Widzisz tam wejscie do posiadlosci.
+~
+brama~
+3 -1 2401
+D5
+W tym kierunku znajduje sie droga prowadzaca do podnorza wzgorza.
+~
+~
+0 -1 2467
+E
+niewielka plytka~
+Witaj podrozniku! Tereny posesji przeznaczone sa dla graczy na poziomach od
+1 do 10. Pamietaj aby patrzec na wszystko co sie tu znajduje. Jezeli nie
+bedzie Ci sie chcialo przystanac na chwile i rozejrzec sie dookola mozesz
+wiele stracic. Powodzenia i milej zabawy!
+-Cedrick, Kwiecien 1996
+~
+E
+kamien~
+W kamien zostala wkomponowana niewielka plytka.
+~
+S
+#2401
+Przed drzwiami frontowymi~
+Po przejsciu przez brame dochodzisz do frontowej sciany wielkiego budynku.
+W oknach wisza biale zaslony nie pozwalajace Ci zajrzec do srodka. Masz
+jednak szczescie gdyz wlasciciele nie pomysleli o zaslonieciu niewielkiej
+szybki znajdujacej sie w drzwiach... Krotki rzut oka na wnetrze domu
+zostawia Cie z przypuszczeniem ze w tym momencie nikogo nie ma w domu. Moglo
+sie tez zdarzyc ze jego mieszkancy znajduja sie w jakims niebezpieczenstwie
+i beda Ci bardzo wdzieczni za okazana im pomoc... Chyba nie zaszkodzi jezeli
+wejdziesz do srodka aby sie przekonac. Mozesz tez obejsc dom dookola i
+poszukac jakis wskazowek co do jego mieszkancow.
+~
+0 8 0
+D0
+Znajduja sie tu drzwi prowadzace do wnetrza domu.
+~
+drzwi~
+3 -1 2406
+D1
+Znajduje sie tam sciezka biegnaca wokol domu.
+~
+~
+0 -1 2402
+D2
+W tym kierunku znajduje sie brama przez ktora mozesz opuscic posesje.
+~
+brama~
+3 -1 2400
+D3
+Znajduje sie tam sciezka biegnaca wokol domu.
+~
+~
+0 -1 2403
+E
+drzwi~
+Drzwi wykonane sa z mocnego drewna wzmocnionego dodatkowo metalowymi
+okuciami. Znajduje sie w nich niewielkie okienko przez ktore mozesz zajrzec 
+do srodka budynku.
+~
+E
+okienko~
+Zagladasz przez okienko w drzwiach do srodka domu.
+Wyglada na to ze jest on pusty... Ciekawe gdzie sa domownicy ?
+~
+S
+#2402
+Na wschod od drzwi~
+Znajdujesz sie na wschodzie od drzwi prowadzacych do wnetrza budynku. Okna
+sa zasloniete bialymi zaslonami i widzisz tylko kawalki jakiegosc dosc
+duzego pomieszczenia. Na zachodzie znajduja sie drzwi przez ktore bedziesz
+mogl dostac sie do srodka domu. Jezeli pojdziesz na wschod bedziesz mogl
+poszukac drugiego wejscia i obejrzec caly dom.
+~
+0 12 0
+D1
+Widzisz dalszy ciag sciezki biegnacej wokol domu.
+~
+~
+0 -1 2405
+D3
+W tym kierunku znajduja sie drzwi wejsciowe do posesji.
+~
+~
+0 -1 2401
+S
+#2403
+Na zachod od drzwi~
+Stoisz na zachod od drzwi prowadzacych do wielkiego budynku. Znajduje sie tu
+niewielka studnia pelna zimnej i czystej wody. Idac na zachod bedziesz mial
+okazje obejsc caly dom i obejrzec go sobie ze wszystkich stron. Na wschodzie
+znajduja sie drzwi prowadzace do jego wnetrza.
+~
+0 12 0
+D1
+Znajduje sie tam wejscie prowadzace do posesji.
+~
+~
+0 -1 2401
+D3
+Widzisz dalszy ciag sciezki.
+~
+~
+0 -1 2404
+S
+#2404
+Poludniowo zachodni rog posesji~
+Dotarles do poludniowo zachodniego rogu wielkiego domu. Na polnocy widzisz
+dalszy ciag drozki biegnacej wokol budynku. Droge na zachod blokuje wysoki
+plot. 
+~
+0 12 0
+D0
+Widzisz dalszy ciag drozki na ktorej stoisz.
+~
+~
+0 -1 2412
+D1
+Udajac sie w tym kierunku dojdziesz do bramy broniacej wejscia do posesji.
+~
+~
+0 -1 2403
+E
+plot~
+Plot ma okolo 3 metrow wysokosci i zakonczony jest kolcami. Wyglada na to iz
+wlasciciele tych terenow nie lubia nieprzewidzianych gosci... 
+~
+S
+#2405
+Poludniowo wschodni rog posesji~
+Stoisz przy poludniwowo wschodnim rogu wielkiego domu. Droge na wschod
+blokuje Ci wysoki plot. W tym momencie jedyne co mozesz zrobic to udac sie
+dalej na polnoc albo zawrocic na zachod w kierunku drzwi frontowych.
+~
+0 12 0
+D0
+Widzisz dalszy ciag drozki na ktorej stoisz.
+~
+~
+0 -1 2415
+D3
+Idac w tym kierunku dojdziesz do drzwi wejsciowych prowadzacych do srodka
+budynku. Na przeciw tych drzwi znajduje sie brama przez ktora mozesz opuscic
+ta posesje.
+~
+~
+0 -1 2402
+E
+plot~
+Plot ma okolo 3 metrow wysokosci i zakonczony jest kolcami. Wyglada na to iz
+wlasciciele tych terenow nie lubia nieprzewidzianych gosci... 
+~
+S
+#2406
+Przedpokoj~
+Powoli wchodzisz do domu i rozgladasz sie ostroznie. Znajdujesz sie w czyms
+co wyglada na wielki i bogato zdobiony przedpokoj. Mimo iz wczesniej
+widziales juz wnetrza palacow to nie spodziewales sie ujrzec takiego
+przepychu w stojacym na uboczu dworku, a szczegolnie w tych czasach kiedy
+marny miedziak moze decydowac o czyims zyciu lub smierci. Na wschodniej 
+scianie wisi wielkie lustro ktorego ramy wykonane sa ze zlotych winorosli.
+Twoje stopy zapadaja sie w miekki i wspaniale utkany dywan. Moment! Co to 
+bylo ? Z wnetrza domu slyszysz jakies halasy... Byc moze Twoja ocena byla 
+mylna i jednak ktos tu mieszka ? Wez to pod uwage zanim zdecydujesz sie czy
+chcesz kontynuwac dalej te wyprawe.
+~
+0 8 0
+D0
+Przed soba widzisz wspaniale urzadzony salon.
+~
+~
+0 -1 2408
+D1
+W tym kierunku znajduje sie jadalnia.
+~
+~
+0 -1 2464
+D2
+Idac w tym kierunku opuscisz dom i posesje.
+~
+~
+3 -1 2401
+D5
+~
+zapadnia~
+11 -1 2407
+E
+dywan~
+Unosisz nieco dywan i odkrywasz ukryta pod nim zapadnie!
+~
+E
+lustro~
+Widzisz... SIEBIE!
+~
+E
+zapadnia~
+Zapadnia musi prowadzic do jakiejs piwnicy, byc moze jest tam cos wartego
+Twojej uwagi. Pamietaj jednak ze ciekawosc to pierwszy stopien do piekla...
+~
+S
+#2407
+Piwnica~
+Oops! Chyba niepotrzebnie to schodziles. Wszystko szlo dobrze az do momentu
+w ktorym Twoja noga nie natrafila na oparcie a Ty nie znalazles sie na
+ziemi. Kiedy spogladasz do gory zdajesz sobie sprawe iz bedziesz musial
+poszukac jakiegos innego wyjscia z tego pomieszczenia, najwyrazniej zapadnia
+sama sie zamknela albo uczynil to jeden z mieszkancow deomu w ktorym sie
+znajdujesz. Niestety oprocz niewielkiego sejfu wbudowanego w sciane nie ma
+tu nic ciekawego...
+~
+0 3153928 0
+D2
+Masz szczescie! Udalo Ci sie odkryc ukryte drzwi!
+~
+~
+3 -1 2474
+S
+#2408
+Salon~
+Stoisz w bogato urzadzonym salonie. Na scianach widzisz wspaniale obrazy
+ktorym z pewnoscia warto poswiecic chwile uwagi. W duzym kominku wesolo
+trzaska ogien. Wielkie debowe krzeslo i wygodna kanapa sprawiaja iz czujesz
+sie prawie jak w domu. Po bokach widzisz zaslony ktore nie pozwalaly Ci
+zajrzec do srodka. Obok okien w wielkich donicach rosna jakies rosliny
+kierujace swe liscie w strone wpadajacych przez okna promykow. O zachodnia
+sciane oparty jest wspaniale wykonany wielki zegar. Widzisz tu schody
+prowadzace do pomieszczen znajdujacych sie na pierwszym pietrze.
+~
+0 8 0
+D0
+Z tego kierunku dobiegaja Cie wspaniale zapachy, najprawdopodobniej znajduje
+sie tam kuchnia.
+~
+~
+0 -1 2411
+D1
+W tym kierunku znajduje sie biblioteka.
+~
+~
+1 -1 2410
+D2
+Widzisz przedpokoj prowadzacy do wyjscia z domu.
+~
+~
+0 -1 2406
+D4
+Schody prowadzace na pierwsze pietro.
+~
+schody~
+0 -1 2419
+D5
+~
+~
+0 -1 2409
+E
+obraz obrazy~
+Wow! Prawdziwy Picasso!
+~
+E
+kominek~
+Kominek wykonany jest z czerwonej cegly i wyglada na czesto uzywany.
+~
+E
+ogien~
+Wyglada na... no, na ogien :)
+~
+E
+kanapa~
+Kanapa sprawia ze chcesz sobie uciac drzemke... Hmmm ledwo mozesz utrzymac
+otwarte oczy kiedy zdajesz sobie sprawe ze swojego zmeczenia...
+~
+E
+zaslony~
+Czyste, wykonane z dobrej jakosci materialu zaslony sprawiaja iz
+pomieszczenia znajduje sie w polmroku i nie pozwalaja obcym na podgladanie
+tego co dzieje sie w pomieszczeniu.
+~
+E
+rosliny~
+Z doniczek wielkosci garnkow wyrastaja sporej wielkosci rosliny
+przypominajace male palmy.
+~
+E
+krzeslo~
+Masz przed soba wielkie debowe krzeslo na ktorym lezy miekka poduszka.
+Jezeli chcesz to mozesz sobie na nim posiedziec i dac odpoczac nogom.
+~
+S
+#2409
+Tajne pomieszczenie~
+Ooo! Co my tu mamy ? Czyzby mieszkancy tego domu mieli jakies tajemnice ???
+Mimo ze przez okna salonu wpada troche swiatla to panuje tu jeszcze wiekszy
+mrok niz wyzej. Ze scian bije chlod wilgosci, nie musisz sie zbytnio wysilac
+aby wyczuc delikatny zapach plesni. Tunel zaglebia sie w ziemi ale pomimo
+usilnych prob nie udaje Ci sie zobaczyc co sie tam znajduje, panuja tam zbyt
+duze ciemnosci. Dziwna atmosfera tego miejsca przyprawia Cie o gesia skorke
+kiedy zastanawiasz sie czy oplaca sie schodzic nizej...
+~
+0 12 0
+D4
+~
+~
+0 -1 2408
+D5
+Ciemnosc, widze ciemnosc...
+~
+~
+0 -1 2429
+S
+#2410
+Biblioteka~
+Tuz po wejsciu do pomieszczenia pierwsza rzecz jaka rzuca Ci sie w oczy to
+ksiazki, ksiazki i jeszcze wiecej ksiazek! Na kazdej scianie wisza polki na
+ktorych stoja rowno poustawiane woluminy. Sciany pokryte sa ksiazkami od
+podlogi do sufitu. W rogu pomieszczenia stoja dwa fotele obite skora zas
+pomiedzy nimi znajduje sie niewielki stolik. Twoje stopy zapadaja sie w
+miekki welniany dywan. Przez okno lezace w wschodniej scianie widzisz drozke
+biegnaca wokol domu.
+~
+0 8 0
+D3
+Widzisz tam duzy i bogato wyposazony salon.
+~
+~
+1 -1 2408
+E
+ksiazki ksiazka~
+Przygladasz sie zalegajacym polki ksiazkom. W oko wpadaja Ci tytuly takie
+jak: "Niesmiertelnosc w Krolestwach Rozpaczy", "Jak napisac krainke w mniej
+niz 80 dni", "1000 sposobow na uprzykrzanie zycia graczom", "50 powodow dla
+jakich krainki powinny zawierac tyldy" oraz "Smutne zycie awatara".
+~
+E
+polki~
+Nigdy w zyciu nie widziales tylu polek w jednym pomieszczeniu.
+~
+E
+okno~
+Za oknem widzisz jakas drozke.
+~
+E
+dywan~
+Ten dywan musial kosztowac fortune!
+~
+S
+#2411
+Kuchnia~
+Tuz po wejsciu do kuchni ogarnia Cie fala goraca pochodzaca od stojacego pod
+zachodnia sciana pieca. Przez niewielkie drzwiczki w piecu widzisz pelno 
+drewna podsycajacego plomienie. Pod polnocna sciana widzisz wypelniona woda
+mise przy ktorej wisi niewielki recznik. Nad misa wisi dlugi rzad szafek
+zawierajacy prawdopodobnie naczynia i sztucce. Na zachodniej scianie widzisz
+imponujaca kolekcje nozy. Jezeli chcesz to mozesz opuscic dom udajac sie na 
+polnoc albo odwiedzic spizarnie znajdujaca sie na wschodzie.
+~
+0 8 0
+D0
+Znajduja sie tu drzwi przez ktore mozesz opuscic posesje.
+~
+~
+3 -1 2418
+D1
+Jezeli udasz sie w tym kierunku to czeka Cie niezla wyzerka :)
+~
+~
+3 -1 2463
+D2
+Widzisz przestronny i bogato urzadzony salon.
+~
+~
+0 -1 2408
+S
+#2412
+Zachodnia sciana domu~
+Stoisz po zewnetrzej stronie zachodniej sciany wielkiego domu. Oprocz
+skrzyni sluzacej do przechowywania narzedzi nie ma tu nic ciekawego. Droge
+na wschod blokuje Ci sciana domu, na zachodzie znajduje sie wysoki plot
+przez ktory nie przejdziesz bez narazania swojego cennego zycia.
+~
+0 12 0
+D0
+Widzisz dalszy ciag sciezki.
+~
+~
+0 -1 2413
+D2
+Widzisz dalszy ciag sciezki.
+~
+~
+0 -1 2404
+S
+#2413
+Wzdluz zachodniej sciany domu~
+Znajdujesz sie na kolejnym odcinku sciezki biegnacej wokol domu. Nie ma tu
+nic godnego uwagi, mozesz spokojnie udac sie dalej.
+~
+0 12 0
+D0
+Widzisz dalszy ciag sciezki.
+~
+~
+0 -1 2414
+D2
+Widzisz dalszy ciag sciezki.
+~
+~
+0 -1 2412
+S
+#2414
+Polnocno zachodni rog posesji~
+Dotarles do polnocno zachodniego rogu posesji. Droge na polnoc i na zachod
+blokuje Ci wysoki i zakonczony kolcami plot. Na wschodzie widzisz drzwi
+przez ktore moglbys dostac sie do domu.
+~
+0 12 0
+D1
+Widzisz drzwiczki prowadzace do wnetrza domu.
+~
+~
+0 -1 2418
+D2
+Sciezka biegnie pomiedzy sciana domu a wysokim plotem.
+~
+~
+0 -1 2413
+S
+#2415
+Wschodnia sciana domu~
+Idziesz sciezka biegnaca wokol domu. Z jednej strony masz sciane zas z
+drugiej wyoki plot przez ktory raczej nie dasz rady przejsc nie narazajac
+sie na niebezpieczenstwo. Wyglada na to, ze musisz isc dalej.
+~
+0 12 0
+D0
+Widzisz dalszy ciag sciezki.
+~
+~
+0 -1 2416
+D2
+Widzisz dalszy ciag sciezki.
+~
+~
+0 -1 2405
+S
+#2416
+Wzdluz wschodniej sciany domu~
+Kroczysz po sciezce okrazajacej dom. Przez okno widzisz wnetrze wypelnionej
+po brzegi ksiazkami biblioteki. Droge na wschod blokuje wyoski, zakonczony
+ostrymi kolcami plot. 
+~
+0 12 0
+D0
+Sciezka ciagnie sie dalej.
+~
+~
+0 -1 2417
+D2
+Widzisz dalszy ciag sciezki.
+~
+~
+0 -1 2415
+S
+#2417
+Polnocno wschodni rog posesji~
+Stoisz w polnocno wschodnim rogu posesji. Idac na zachod dojdziesz do
+drzwiczek przez ktore dostaniesz sie do wnetrza domu. Droga na poludnie
+zaprowadzi Cie do frontowych drzwi oraz bramy przez ktora bedziesz mogl
+opuscic posesje.
+~
+0 12 0
+D2
+Sciezka biegnie pomiedzy sciana domu a wysokim plotem.
+~
+~
+0 -1 2416
+D3
+Idac w tym kierunku dojdziesz do drzwi prowadzacych do domu.
+~
+~
+0 -1 2418
+S
+#2418
+Podworze~
+Stoisz na podworzu lezacym za posesja. W pewnej odleglosci na polnocy
+widzisz niewielkie, polozone blisko siebie budynki za ktorymi znajduje sie
+ogrod. Wydaje Ci sie ze dostrzegasz jakas budowle za ogrodem ale nie jestes
+do konca pewny. Jezeli chcesz mozesz udac sie na obchod domu kierujac swe
+kroki na wschod lub zachod. Na poludniu znajduja sie drzwi prowadzace do
+wnetrza domu.
+~
+0 12 0
+D0
+Na polnocy widzisz dalszy ciag podworza.
+~
+~
+0 -1 2451
+D1
+Widzisz sciezke biegnaca wokol domu.
+~
+~
+0 -1 2417
+D2
+Znajduja sie tu drzwi prowadzace na tyly domu.
+~
+~
+3 -1 2411
+D3
+Widzisz sciezke biegnaca wokol domu.
+~
+~
+0 -1 2414
+S
+#2419
+Na drugim pietrze~
+Znajdujesz sie na drugim pietrze posesji. Na wschodzie i na zachodzie
+widzisz drzwi prowadzace do jakichs pomieszczen. Na podlodze znajduje sie 
+dywan po ktorym mozna poznac iz ta pietro jest zdecydowanie bardziej uzywane
+niz parter. Na scianach wisza obrazy wsrod ktorych dostrzegasz jeden
+przedstawiajacy rodzine zamieszkujaca ten dom. Oprocz biegnacego na polnoc i
+na poludnie korytarza widzisz tu schody prowadzace na gore. Hmm... gdzie by
+udac sie najpierw ?
+~
+0 8 0
+D0
+Widzisz korytarz.
+~
+~
+0 -1 2422
+D1
+Zza drzwi dochodza Cie odglosy... wody ???
+~
+~
+3 -1 2420
+D2
+Widzisz korytarz.
+~
+~
+0 -1 2458
+D3
+~
+~
+3 -1 2421
+D4
+Panujacy tam polmrok nie pozwala Ci za duzo zobaczyc.
+~
+schody~
+0 -1 2426
+D5
+Na dole znajduje sie bogato urzadzony salon.
+~
+schody~
+0 -1 2408
+S
+#2420
+Lazienka~
+Stoisz w przestronnej ale skromnie ( w porownaniu do reszty domu )
+urzadzonej lazience. Widzisz tu niewielka metalowa mise przy ktorej stoi
+wypelniony woda dzban. Nad misa wisi niezbyt duze lustro w pozlacanych
+ramach. Do sciany dostawiona jest szafka w ktorej przechowuje sie reczniki
+lub szlafroki. Duza czesc lazienki zajmuje wielka wanna dostawiona do sciany
+znajdujacej sie po Twojej prawej stronie. 
+~
+0 8 0
+D3
+W tym kierunku znajduje sie wyjscie z lazienki.
+~
+~
+3 -1 2419
+E
+miska~
+Jest to niewielka misa przy ktorej prawdopodobnie gola sie mieszkajacy w tym
+domu mezczyzni.
+~
+E
+szafka~
+Normalna szafka sluzaca do przechowywania recznikow lub szlafrokow.
+~
+E
+lustro~
+Tak, nadal wygladasz jakbys wczoraj przezyl noc w celi z dziesiecioma
+sadystami...
+~
+E
+dzban~
+Dzban sluzy do napelniania woda miski.
+~
+E
+wanna~
+Nie jestes pewny czy mozna nazwac to wanna czy moze juz kwalifikuje sie to 
+pod kategorie basenu...
+~
+S
+#2421
+Bawialnia~
+Co za balagan! Po calym pokoju walaja sie zabawki, kredki i rozne smieci.
+Starajac sie na nic nie nadepnac ostroznie podchodzisz do okna w zachodniej
+scianie pokoju. Widok jaki rozciaga sie przed Toba nie jest zbyt
+pocieszajacy: jak daleko okiem siegniesz wszedzie tylko las... 
+~
+0 8 0
+D1
+Widzisz wyjscie z bawialni.
+~
+~
+3 -1 2419
+E
+okno~
+Widzisz niekonczace sie polacie lasu...
+~
+S
+#2422
+Korytarz~
+Stoisz w dosc szerokim korytarzu. Po bokach znajduja sie drzwi prowadzace do
+sypialni. Za drzwiami na wschodzie znajduje sie sypialnia dla gosci, na
+zachodzie lezy pokoj w ktorym spia dzieci. Dzwi znajdujace sie na polnocy
+zdecydowanie roznia sie od pozostalych ktore widziales w domu, sa bogato
+zdobione i widnieje na nich znak pantery. Najwidoczniej znajduje sie tam
+sypialnia wlasciciela posesji.
+~
+0 8 0
+D0
+Widzisz tam wielkie drzwi za ktorymi musi znajdowac sie sypialnia
+wlasciciela posesji.
+~
+~
+3 -1 2425
+D1
+Za drzwiami znajduje sie sypialnia przeznaczona dla gosci.
+~
+~
+3 -1 2424
+D2
+Na poludniu widzisz schody ktorymi mozesz zejsc na parter.
+~
+~
+0 -1 2419
+D3
+Na zachodzie znajduje sie sypialnia przeznaczona dla dzieci.
+~
+~
+3 -1 2423
+S
+#2423
+Sypialnia dzieci~
+W tym pokoju spia dzieci wlascicieli domu. Do polnocnej sciany przystawione
+jest pare lozek. Przy poludniowej scianie stoja szafki z ubraniami. Sciany
+pomalowane sa dosc jasno co sprawia ze cale pomieszczenie promieniuje aura
+radosci i ciepla. Na scianach widac rysunki bedace dzielem spiacych tu
+szkrabow.
+~
+0 8 0
+D1
+Widzisz drzwi prowadzace na korytarz.
+~
+~
+3 -1 2422
+E
+rysunki~
+Co za slodki rysunek! Przedstawia cala rodzinke: mame, tate i ich pociechy.
+~
+S
+#2424
+Sypialnia dla gosci~
+Pokoj jest niewielki i spartansko urzadzony co kontrastuje z bogatym
+wystrojem innych pomieszczen. Widzisz tu lozko, krzeslo i niewielki
+orientalny dywanik. Najwidoczniej wlasciciele domu nie musza sie martwic o
+nadmiar gosci. Przez niewielkie okno we wschodniej scianie widzisz
+rozciagajacy sie w okolicach las.
+~
+0 8 0
+D3
+Widzisz drzwi za ktorymi znajduje sie korytarz.
+~
+~
+3 -1 2422
+E
+lozko~
+Twoja kolyska byla wieksza niz to lozko!
+~
+E
+krzeslo~
+Krzeslo nie wyglada zbyt zachecajaco, jest twarde i nie ma oparc dla rak...
+~
+E
+okno~
+Za oknem widzisz rozciagajacy sie po horyzont las. 
+~
+E
+orientalny dywanik~
+Dywanik wykonany zostal w jednym z zamorskich krajow. Znajdujace sie na nim
+wzory nic Ci nie mowia.
+~
+S
+#2425
+Sypialnia~
+Wyglada na to, ze udalo Ci sie odnalezc sypialnie nalezaca do wlasciciela
+tego domu. Pierwsza rzecz ktora zwraca Twoja uwage to krolewskich rozmiarow,
+wygodne loze. Pod sciana stoi wielkie biurko, dwie szafki z ubraniami i
+lustro wielkosci doroslego czlowieka. Widzisz tez kilka duzych okien
+oferujacych wspanialy widok na las. Na scianie wisi wielka tarcza z wyrytym
+na niej symbolem pantery. Obok tarczy widzisz dwa przymocowane do sciany
+scimitary.
+~
+0 8 0
+D1
+~
+~
+3 -1 2466
+D2
+Widzisz drzwi prowadzace na korytarz.
+~
+~
+3 -1 2422
+E
+lozko~
+Lozko wyglada BARDZO zachecajaco a Tobie tak bardzo chce sie spac... 
+~
+E
+lustro~
+Spogladasz w lustro i odskakujesz gwaltownie na widok kudlatej bestii ktora
+odwzajemnila Ci spojrzenie. Plynnym ruchem wyciagasz bron i przygotowujesz
+sie do walki! Oh... spokojnie, to tylko Twoje odbicie...
+~
+E
+okno okna~
+Za oknem rozciaga sie wspanialy widok na otaczajacy posesje las.
+~
+E
+scimitar scimitary~
+Ostre jak brzytwa scimitary moga stanowic smiertelna bron w odpowiednich
+rekach.
+~
+E
+tarcza~
+Olbrzymia tarcza z wyrytym na niej znakiem pantery ktora zdaje sie byc
+herbem rodziny zamieszkujacej ten dom.
+~
+S
+#2426
+Strych~
+Stoisz na strychu. Jest to zimno, wilgotno i mroczno. Ledwo widzisz palce
+swojej wyciagnietej reki. Przy kazdym Twoim kroku slyszysz skrzypienie desek
+i czujesz jak uginaja sie pod Twoim ciezarem. Najwidoczniej nikt tu nie
+przychodzi gdyz wtedy strych znajdowalby sie w lepszym stanie. O malej
+popularnosci tego miejsca swiadczy tez zalegajaca na podlodze i scianach
+warstwa kurzu. Na zachodzie znajduje sie dalszy ciag strychu ale panuje tam
+jeszcze wiekszy mrok niz tutaj i trudno Ci powiedziec co moze sie tam
+znajdowac... Byc moze rozsadniej byloby tam nie zagladac.
+~
+0 13 0
+D3
+Jest za ciemno zeby cokolwiek zobaczyc.
+~
+~
+0 -1 2427
+D5
+Widzisz schody oferujace Ci bezpieczne zejscie na dol.
+~
+schody~
+0 -1 2419
+S
+#2427
+Strych~
+Po Twoich plecach przechodza ciarki a zimny pot oblewa Ci czolo. Ledwo
+widzisz cos w panujacych tu ciemnosciach, masz tez klopoty z oddychaniem w
+unoszacym sie w powietrzu kurzu. Deski na ktorych stoisz uginaja sie i
+trzeszcza jeszcze bardziej niz wczesniej. Oprocz Ciebie nie ma tu nawet
+szczurow. Rzut oka na lezaca na polnocy czesc strychu upewnia Cie w jedynej
+rozsadnej decyzji: czas zawrocic i poszukac przygod w innym miejscu.
+~
+0 13 0
+D0
+Panujace tam ciemnosci nie wygladaja zachecajaco.
+~
+~
+0 -1 2428
+D1
+Mozesz opuscic strych ostroznie wycofujac sie w tym kierunku.
+~
+~
+0 -1 2426
+S
+#2428
+Oops~
+Mimo Twojej ostroznosci podczas zglebiania tajemnic kolejnej czesci strychu
+pod Twoja noga nagle trzasnela jedna z podlogowych desek. Dzieki dobremu
+refleksowi udalo Ci sie jakos uniknac upadku do pomieszczenia nizej ale
+teraz pomiedzy Toba a wyjsciem ze strychu zieje ogromna dziura w podlodze...
+Wyglada na to ze poczekasz tu sobie na kogos kto pomoze Ci wyjsc...
+~
+0 12 0
+S
+#2429
+Piwnica~
+Brrr... Twoim cialem wstrzasaja dreszcze kiedy za koszule wpada Ci kropla
+lodowato zimnej wody. Panujaca tu wilgosc i ciemnosci sprawiaja ze powaznie
+myslisz o opuszczeniu tego miejsca. Hmm... to chyba bedzie najlepsze co
+mozesz zrobic w tej sytuacji.
+~
+0 13 0
+D1
+Tam jest tak ciemno...
+~
+~
+0 -1 2430
+D4
+Nad soba widzisz promyk nadziei...
+~
+~
+0 -1 2409
+S
+#2430
+Labirynt~
+Nad soba widzisz plonaca jasno pochodnie. Mimo iz obecnosc swiatla powinna
+poprawic Ci samopoczucie to jednak czujesz sie dosc nieswojo w towarzystwie
+nieuchwytnych cieni. Na poludniu widzisz jakies pograzone w mrokach
+pomieszczenie, najwidoczniej pochodnia ktora powinna sie tam znajdowac
+zgasla. Nie ma tu nic ciekawego do ogladania, zarowno sciany jak podloga i
+sufit sa nierowne i wilgotne. Lepiej zrobisz nie zaglebiajac sie w dalsze
+czesci tego podziemnego labiryntu.
+~
+0 12 0
+D2
+Widzisz pograzone w mroku korytarze.
+~
+~
+0 -1 2431
+D3
+Na zachodzie znajduje sie wyjscie z labiryntu... A moze tylko Ci sie tak
+wydaje ???
+~
+~
+0 -1 2429
+S
+#2431
+Labirynt~
+Znajdujesz sie w jakiegos rodzaju labiryncie na ktorym musiala zostac
+zbudowana posesja. Nie ma watpliwosci co do tego iz labirynt byl tu przez
+domem lezacym na gorze. Od szarych, wilgotnych scian bije aura jaka mozna
+wyczuc tylko w wyjatkowo starych miejscach. Wyglada na to ze nikt tu nie
+schodzi co nie dziwi Cie bardzo. Monotonia krajobrazu sprawia iz bardzo
+latwo sie tu zgubic. Hmm... lepiej sprawdz czy pamietasz droge do wyjscia...
+~
+0 12 0
+D0
+O ile Cie pamiec nie myli to tam powinno znajdowac sie wyjscie z tego
+labiryntu. Oczywiscie o ile Cie pamiec nie myli...
+~
+~
+0 -1 2430
+D1
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2434
+D2
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2432
+S
+#2432
+Labirynt~
+W tym miejscu od koryatrza ktorym podazales odchodza inne prowadzace w
+roznych kierunkach. Nie masz pojecia gdzie moga prowadzic gdyz z powodu
+panujacego tu polmroku ledwo widzisz koniec swojej wyciagnietej reki.
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2431
+D2
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2438
+D3
+Sadzac po zapachu skwasnialego wina musi sie tam znajdowac piwniczka w
+ktorej przechowuje sie ten szlachetny trunek.
+~
+~
+0 -1 2433
+D6
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2434
+D8
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2439
+S
+#2433
+Piwniczka z winem~
+Pomieszczenie w ktorym sie znajdujesz jest zimne i wilgotne. Od podlogi do
+sufitu wypelniaja je beczki z winem. Pod jedna ze scian widzisz szafke w
+ktorej leza rowno poukladane butelki z winem.
+~
+0 8 0
+D1
+Wyjscie prowadzi do pograzonego w mroku korytarza.
+~
+~
+0 -1 2432
+S
+#2434
+Skrzyzowanie~
+W tym miejscu od koryatarza ktorym do tej pory podazales odchodzi kilka
+odnog. Panujace w koryatarzach ciemnosci nie ulatwiaja Ci wyboru drogi.
+Jezeli jeszcze pamietasz droge do wyjscia z labiryntu to lepiej szybko z
+niej skorzystaj.
+~
+0 8 0
+D1
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2435
+D2
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2440
+D3
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2431
+D6
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2437
+D9
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2432
+S
+#2435
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ? 
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2437
+D1
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2436
+D2
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2445
+D3
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2434
+S
+#2436
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D2
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2446
+D3
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2435
+D7
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2437
+S
+#2437
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2441
+D2
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2435
+D8
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2436
+D9
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2434
+S
+#2438
+Labirynt~
+Korytarz ktorym do tej pory podazales skreca tu pod katem prostym. Nie
+pamietasz juz jak sie tu dostales i nie wiesz w ktorym kierunku powinienes
+sie udac... Lepiej szybko podejmuj decyzje gdyz jezeli jeszcze masz odrobine
+zdrowych zmyslow to slyszysz przyblizajace sie do siebie dziwne odglosy.
+Instynkt podpowiada Ci ze nie chcesz spotkac tego co zamieszkuje ten
+labirynt.
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2432
+D1
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2439
+S
+#2439
+Labirynt~
+Dopiero po wejsciu do tego pomieszczenia zdajesz sobie sprawe z wlasnej
+sytuacji. Wyglada na to ze jezeli nie znajdziesz wyjscia z labiryntu to
+umrzesz tu z glodu. Nagle wsrod szarych scian zauwazasz ukryte metalowe
+drzwi! W przyplywie rozpaczy, nie zwazajac na konsekwencje pociagasz za
+klamke ale drzwi pozostaja zamkniete. Przystawiasz do nich ucho i
+nasluchujesz. Wyglada na to iz kryje sie za nimi jakas... maszyneria ?
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2440
+D2
+Widzisz drzwi. Zamkniete drzwi. Nie wydaje Ci sie ze jezeli sa zamkniete to
+takie powinny pozostac ? Pamietaj ze ciekawosc to pierwszy stopien do
+piekla...
+~
+~
+1063 2450 2450
+D3
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2438
+D7
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2432
+S
+#2440
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2434
+D1
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2445
+D2
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2439
+S
+#2441
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2442
+D2
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2437
+S
+#2442
+Labirynt~
+Kompletnie zagubiony szwendasz sie po mrocznych koryatarzach labiryntu.
+Nagle z zachodu do Twojego nosa dolatuje okropny smrod! Droga na wschod tez
+nie wyglada zbyt zachecajaco, slyszysz z niej donosne syczenie i...
+grzechotanie ? Decyzja ktora teraz podejmiesz moze zawazyc na Twoim zyciu.
+~
+0 8 0
+D1
+~
+~
+0 -1 2444
+D2
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2441
+D3
+~
+~
+0 -1 2443
+S
+#2443
+Labirynt~
+Znajdujesz sie w miejscu ostatecznego spoczynku jakiegos biednego podroznika.
+W scianie znajduje sie plytka nisza w ktorej spoczywaja jego zwloki. Wlasnie
+od tego rozkladajacego sie ciala dobiega smrod ktory bylo czuc juz od
+pewnego czasu. Przez mysl przelatuje Ci pomysl przeszukania ciala w celu
+znalezienia czegos przydatnego ale okropny smrod sprawia iz zastanawiasz sie
+dwa razy zanim podejmujesz decyzje.
+~
+0 8 0
+D1
+~
+~
+0 -1 2442
+S
+#2444
+Odrazajace legowisko~
+Co za okropne i odrazajace miesjce! Kazdy centymetr kwadratowy pokryty jest
+zakrzepla lub swieza krwia zas na podlodze walaja sie flaki jakichs
+zwierzat... a moze sa to wnetrznosci ludzi ? Kiedy instynktownie cofasz sie
+aby opuscic to pomieszczenie pod Twoja noga pekaja kosci ktore razem z
+flakami zascielaja podloge. Caly ten pokoj przypomina Ci o jednej rzeczy
+ktora jest SMIERC!
+~
+0 8 0
+D3
+Cokolwiek tam jest nie moze byc gorsze niz to z czym zetknales sie tutaj!
+~
+~
+0 -1 2442
+S
+#2445
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2435
+D3
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2440
+D8
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2468
+S
+#2446
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2436
+D1
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2447
+D2
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2468
+S
+#2447
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D2
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2448
+D3
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2446
+S
+#2448
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2447
+D2
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2449
+S
+#2449
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2448
+D7
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2468
+S
+#2450
+Karcer~
+Tym razem przeszedles samego siebie. Wyglada na to ze znane przyslowie mowi
+prawde i Twoja nadmierna ciekawosc zaprowadzi Cie do piekla. Szum maszynerii
+ktory slyszales juz za drzwiami pochodzi od maszyn sluzacych do torturowania
+i zadawania smierci. Na scianach porozwieszane sa narzedzia wykorzystywane
+do najbardziej wymyslnych tortur. Zimny pot splywa Ci po plecach kiedy
+zdajesz sobie sprawe, ze zapewne zaraz spotkasz sie z osoba do ktorej nalezy
+to pomieszczenie...
+~
+0 8 0
+D0
+Widzisz jedyna droge ucieczki z karceru.
+~
+~
+33 0 2439
+S
+#2451
+Dalsza czesc podworza~
+Stoisz na rozleglym podworzy nalezacym do posesji. Na polnocy i na zachodzie
+widzisz niewielkie chaty z czego ta na zachodzie z pewnoscia nie pachnie
+zachecajaco. Podworze rozciaga sie na wschod. W pewnej odleglosci na
+poludniu widzisz posesje.
+~
+0 12 0
+D0
+Znajduje sie tam dom dla sluzacych.
+~
+~
+3 -1 2462
+D1
+Widzisz tam skrzyzowanie kilku sciezek.
+~
+~
+0 -1 2453
+D2
+Na poludniu widzisz gmach posesji.
+~
+~
+0 -1 2418
+D3
+Cokolwiek tam jest nie pachnie zbyt przyjemnie... Wlasciwie to pachnie
+strasznie.
+~
+~
+3 -1 2452
+S
+#2452
+Wygodka~
+Oops! Wchodzenie tutaj nie bylo zbyt dobrym pomyslem. Wyglada na to iz jest
+to wygodka dla sluzacych. Ciekawe jak mieszkancy chaty polozonej obok moga
+mieszkac tak blisko miejsca w ktorym nawet szczury nie wytrzymuje dluzej niz
+pare dni... Wyglada na to ze osoba ktora ich zatrudnia nie dba zbytnio o ich
+opinie jak i o warunki sanitarne w jakich zyja. Zatykasz nos i starasz sie 
+wstrzymac oddech gdyz odor staje sie nie do wytrzymania.
+~
+0 12 0
+D1
+Widzisz tam podworze i swieze powietrze!
+~
+~
+3 -1 2451
+> rand_prog 10~
+mpecho Obezwladniajacy smrod zadzialal nawet na Ciebie. Chyba zaraz...
+mpforce all puke
+~
+|
+S
+#2453
+Skrzyzowanie~
+W tym miejscu krzyzuje sie kilka sciezek. Na polnocy widzisz niewielki, lecz
+bardzo lady ogrod. Idac na zachod powinienes dojsc do posesji. Ze wschodu
+dolatuje Cie zapach... siana ?
+~
+0 12 0
+D0
+Widzisz ogrod.
+~
+~
+0 -1 2465
+D1
+Znajduje sie tam stajnie.
+~
+~
+0 -1 2454
+D3
+Idac w tym kierunku i przechodzac przez podworze trafisz do gmachu posesji.
+~
+~
+0 -1 2451
+S
+#2454
+Wejscie do stajni~
+Stoisz przy bramie broniacej dostepu do wnetrza stajni. Porownujac stan
+stajni i wczesniej widzianej chaty dla sluzby domyslasz sie iz dla
+wlasciciela posesji konie sa cenniejsze od ludzi. Z wnatrze stajni dobiega
+Cie calkiem przyjemny zapach siana. Kiedy zerkasz za brame wydaje Ci sie ze
+widzisz jakis ruch. 
+~
+0 12 0
+D1
+Mieszcza sie tam stajnie w ktorych zyja sobie konie.
+~
+brama~
+3 -1 2455
+D3
+Widzisz niewielki skrzyzowanie.
+~
+~
+0 -1 2453
+S
+#2455
+Przy boksach dla koni~
+Znajdujesz sie w prywatnej stajni wlasciciela posesji. Widzisz tu piec
+boksow w ktorych powinny znajdowac sie konie. W kazdym z takich bokosow
+znajduje sie gruba warstwa siana na ktorej spia konie i wypelniony ziarnem
+zlob. Wszystko az lsni czystoscia. Najwidoczniej wlasciciel bardzo dba o
+konie.
+~
+0 12 0
+D0
+Widzisz wyjscie prowadzace na lezace obok stajni pole.~
+brama~
+33 -1 2457
+D2
+Leza tam rozne rzeczy niezbedne do konnej jazdy.
+~
+~
+0 -1 2456
+D3
+Idac w tym kierunku powinienes niedlugo dojsc do posesji.
+~
+brama~
+3 -1 2454
+S
+#2456
+Schowek~
+W tym pomieszczeniu przehcowuje sie niezbedne do konnej jazdy wyposazenie.
+Na zachodniej scianie widzisz kilka siodel i uzd. Zestaw dlugich skorzanych
+butow zajmuje zachodnia sciane. Na poludniowej scianie wisi kompletny stroj
+dzokeja. W pomieszczeniu znajduje sie tylko jedno wyjscie i jest ono na
+polnocy.
+~
+0 12 0
+D0
+Widzisz kolejna czesc stajni.
+~
+~
+0 -1 2455
+S
+#2457
+Pole~
+Stoisz na rozleglym polu. Wlasnie tu mieszkancy posesji dokonuja przejazdzek
+na swoich koniach. Widzisz tu pare przeszkod postawionych specjalnie aby
+autrkcyjnic jazde. Slady na trawie swiadcza o tym iz pole jest czesto
+wykorzystywane. Na polnocy i na zachodzie widzisz kolejne czesci pola. Na
+wschodzie znajduje sie wejscie do stajni.
+~
+0 0 2
+D0
+~
+~
+0 -1 2483
+D2
+Widzisz budynek stajni.
+~
+brama~
+1 -1 2455
+D3
+~
+~
+0 -1 2482
+S
+#2458
+Korytarz~
+Sadzac po drastycznej zmianie oswietlenia na gorsze musiales przejsc do
+czesci domu przeznaczonej dla sluzby. Wypalone do polowy swiece znajdujace
+sie w kandelabrach wiszacych na scianie sa teraz zgaszone, najwyrazniej
+sluzba zapala je tylko wtedy kiedy w rezydencji przebywaja jacys wazni
+goscie. Na wschodzie, zachodzie i poludniu znajduja sie drzwi ktore musza
+prowadzic do kwater dla sluzby.
+~
+0 8 0
+D0
+Widzisz tam schody po ktorych mozesz zejsc na parter.
+~
+~
+0 -1 2419
+D1
+~
+drzwi~
+3 -1 2459
+D2
+~
+drzwi~
+3 -1 2460
+D3
+~
+drzwi~
+3 -1 2461
+S
+#2459
+Sypialnia kucharki~
+Trudno to pomieszczenia nazwac pokojem a co dopiero sypalnia. W swojej
+dlugiej karierze ktora miala swoje wzloty i upadki widziales cele wiezienne
+w ktorych znajdowalo sie wiecej mebli niz jest w tym pokoju. Nie ma tu nic
+wiecej oprocz lozka, krzesla i niewielkiego lustra.
+~
+0 8 0
+D3
+Widzisz wyjscie z tej pseudo sypialni.
+~
+drzwi~
+3 -1 2458
+S
+#2460
+Sypialnia niani~
+Jest to pokoj w ktorym wieczorem stara piastunka moze zaznac troche
+odpoczynku. Pomieszczenie jest dosc skromnie umeblowane. Widzisz tu lozko,
+niezbyt duzy bujany fotel i dywan. Zimnych, bialych scian nie zdobi zaden
+obrazek. Niewielkie okienko zapewnia pare promieni slonecznych w czasie
+dnia. Obok lozka zauwazasz niewielka szafke na ktorej stoi niewielka
+swieczka. W rogu pomieszczenia znajduje sie dosc duzych rozmiarow skrzynia.
+~
+0 8 0
+D0
+Widzisz wyjscie z tego pomieszczenia.
+~
+~
+3 -1 2458
+E
+lozko~
+Niewielkie lozko wyscielone tanimi materacami.
+~
+E
+fotel~
+Normalny, charakterystycznie skrzypiacy bujany fotel.
+~
+E
+dywan~
+Widzisz niewielki dywan nie pozwalajacy odrobinie ciepla ktora jest w pokoju
+na wydostanie sie przez podloge.
+~
+S
+#2461
+Niewielka ubikacja~
+Nie mozesz uwierzyc w rozmiary tego pomieszczenia. Ledwo udalo Ci sie tu
+wejsc, do innych manewrow chyba trzeba byc akrobata. Na scianie wisi
+swiecznik z jedna, niewielka swieczka zapewniajaca odrobine swiatla. Po
+dluzszej szamotaninie udalo Ci sie przekrecic twarza w strone wyjscia. Nie
+mozesz wyobrazic jak ktos wiekszy niz piecioletnie dziecko moglby korzystac
+z tej ubikacji. 
+~
+0 8 0
+D1
+Widzisz wyjscie z ubikacji.
+~
+~
+3 -1 2458
+E
+swiecznik swieczka~
+Jest to jedyne zrodlo swiatla w tym pomieszczeniu.
+~
+S
+#2462
+Chata sluzacych~
+Znajdujesz sie w chacie przeznaczonej dla sluzacych. Dobrze znanym faktem
+jest to iz sluzacy nie zyja w najlepszych warunkach ale to co tu widzisz po
+prostu przechodzi ludzkie pojecie! Cala chata jest pusta jezeli nie liczyc
+paru slomianek i niewielkiej szafki. Brak jakiegokolwiek dywanu, sluzacy
+musza spac na klepisku. Stare i kiepsko zakonserwowane sciany nie daja
+zadnych szans na utrzymanie choc odrobiny ciepla. Okna wygladaja jakby
+zostaly wybite od srodka przez samych mieszkancow i sa przesloniete
+wyprawionymi skorami jakichs zwierzat. Dach tej chaty tez pozostawia wiele
+do zyczenia, Widoczne w nim dziury mowia Ci o tym iz deszczowe i sniezne dni
+nie sa mile widziane przez sluzbe w tej okolicy. Jedyne wyjscie z chaty
+znajduje sie na poludniu.
+~
+0 12 0
+D2
+Widzisz wyjscie z rozpadajacej sie chaty.
+~
+~
+3 -1 2451
+E
+slomianka~
+Jest to prosty materac wypchany sianem sluzacy za lozko.
+~
+S
+#2463
+Spizarnia~
+Nigdy nie widziales tyle jedzenia. Cale to pomieszczenie jest nim wypelnione
+od podlogi do sufitu. Widzisz make, suszeone mieso i przyprawy na jednej ze
+scian. Na drugiej widzisz jakies przetwory, ser i owoce. Na podlodze stoja
+beczki z winem. Nagle stwierdzasz, ze jestes bardzo glodny i postanawiasz
+uszczknac cos ze zgromadzonych tu zapasow.
+~
+0 8 0
+D3
+Na zachodzie znajduje sie kuchnia.
+~
+~
+3 -1 2411
+S
+#2464
+Jadalnia~
+Znajdujesz sie w malym, wygodnym pokoju. Obok duzego stolu stoja czarne
+krzesla z wysokimi oparciami. Sciany wylozone sa debowa boazeria. W rownych
+odstepach wisza na nich krysztalowe swieczniki rozswietlajace pomieszczenie.
+Na podlodze znajduje sie idealnie czysty, puszysty dywan. Na scianach oprocz
+swicznikow znajduja sie jakies obrazy. Jedyne wejscie jakie tu widzisz
+prowadzi do przedpokoju znajdujacego sie na zachodzie.
+~
+0 8 0
+D3
+Idac na zachod
+~
+~
+0 -1 2406
+E
+swiecznik~
+Jest to swiecznik wykonany z najlepszego dostepnego krysztalu. Swiece
+plonace na jego ramionach rozswietlaja nawet najciemniejsze zakatki
+pomieszczenia.
+~
+E
+krzeslo krzesla~
+Krzeslo jest wykonane z jakiegos czarnego drewna i obite miekkim, czerwonym
+aksamitem.
+~
+E
+obraz obrazy~
+Nie wiesz kto to malowal ale musial byc mistrzem w swoim fachu.
+~
+S
+#2465
+Ogrod~
+Stoisz w niewielkim, wspaniale utrzymanym ogrodzie. Z kazdej strony otaczaja
+Cie rabatki z kwiatami. W pewnej odleglosci widzisz niewielki kawalek
+wydzielony pod uprawe warzyw. Caly ogrod otoczony jest wysokim na kilka
+metrow plotem za ktorym rozpoczyna sie nieprzenikniony las.
+~
+0 0 0
+D2
+~
+~
+0 -1 2453
+S
+#2466
+Lazienka~
+W calym swoim zyciu nie byles w bardziej ekskluzywnej lazience. Elegancja i
+bogaty wystroj tego pomieszczenia sprawiaja ze czujesz sie jak zebrak.
+Prawie kazdy element lazienki wykonany jest z marmuru. Wielkie lustro
+wiszace na scianie otoczone jest zlotymi ramami. Z tego samego materialu
+wykonana zostala wielka wanna przypominajaca raczej basen. Wiszacy pod
+sufitem wspanialy zyrandol dokladnie oswietla cale pomieszczenie.
+~
+0 8 0
+D3
+~
+~
+3 -1 2425
+E
+lustro~
+Samo patrzenie w to lustro sprawia ze czujesz sie jak bogacz.
+~
+E
+zyrandol~
+Zyrandol jest w calosci wykonany ze zlota i diamentow.
+~
+S
+#2467
+Lagodne wzgorze~
+Znajdujesz sie na lagodnie opadajacym wzgorzu. Na wschodzie i na zachodzie
+znajduje sie nieprzebyta sciana lasu. Na szczycie wzgorza znajduje sie
+wielka brama ktora jak wskazuje logika musi gdzies prowadzic. Mozesz albo
+udac sie na gore i wybadac dokad prowadzi brama albo skierowac swe kroki do
+lezacego na poludniu jeziora i zyjacych tam chochlikow.
+~
+0 0 4
+D2
+Widzisz sciezke prowadzaca wglab lasu zamieszkanego przez chochliki.
+~
+~
+0 -1 2492
+D4
+Na gorze znajduje sie jakas brama.
+~
+~
+0 -1 2400
+S
+#2468
+Skrzyzowanie~
+W tym miejscu korytarz ponownie wypuszcza pare rozgalezien. Niestety w
+kazdym z nich panuja ciemnosci nie pozwalajace Ci na wybranie tego ktory
+prowadzi do wyjscia. Hmm... moze udac sie na polnoc ? Moment! Chyba przed
+chwila tam byles... 
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2446
+D2
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2469
+D7
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2445
+D8
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2449
+S
+#2469
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2468
+D2
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2470
+D8
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2491
+S
+#2470
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2469
+D3
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2471
+S
+#2471
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D1
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2470
+D2
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2473
+D3
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2472
+S
+#2472
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D1
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2471
+D2
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2475
+D3
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2478
+S
+#2473
+labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2471
+D8
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2488
+S
+#2474
+Schody~
+Ah! Wiedziales ze musi byc jakies wyjscie z tego pomieszczenia! Wspinasz sie
+po schodach az natrafiasz na drzwiczki. Lekko je uchylasz i okazuje sie iz
+znajdujesz sie w jadalni. Kiedy wychylasz glowe i przygladasz sie drzwiom od
+strony jadalni zauwazasz iz sa one doskonale wkomponowane w sciane i nie uda
+Ci sie ich znalezc kiedy juz przez nie przejdziesz.
+~
+0 12 0
+D0
+Mozesz tedy wrocic do piwnicy.
+~
+~
+3 -1 2407
+D4
+~
+~
+0 -1 2464
+S
+#2475
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2472
+D2
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2476
+S
+#2476
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2475
+D3
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2487
+S
+#2477
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D2
+Widzisz kolejny pograzony w mroku kortarz.
+~
+~
+0 -1 2478
+S
+#2478
+Skrzyzowanie~
+W tym miejscu korytarz ponownie wypuszcza pare rozgalezien. Niestety w
+kazdym z nich panuja ciemnosci nie pozwalajace Ci na wybranie tego ktory
+prowadzi do wyjscia. Hmm... moze udac sie na polnoc ? Moment! Chyba przed
+chwila tam byles... 
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2477
+D1
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2472
+D2
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2479
+D3
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2481
+S
+#2479
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2478
+D2
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2487
+D3
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2480
+S
+#2480
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2481
+D1
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2479
+S
+#2481
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D1
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2478
+D2
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2480
+S
+#2482
+Pole~
+Stoisz na wielkim polu na ktorym pasa sie konie. Nie widzisz tu tylu sladow
+jazdy konnej co poprzednio. Na polnocy znajde sie koryto z woda. 
+~
+0 0 2
+D0
+~
+~
+0 -1 2486
+D1
+~
+~
+0 -1 2457
+S
+#2483
+Pole~
+Znajdujesz sie w polnocno wschodnim rogu pola. Nie ma tu nic oprocz trawy.
+Hmm... to znaczy kiedys byla tu trawa, pod wplywem dlugiego dzialania konskich
+kopyt nie ma tu teraz nic oprocz blota.
+~
+0 0 2
+D2
+~
+~
+0 -1 2457
+D3
+~
+~
+0 -1 2486
+S
+#2484
+Sad Ostateczny~
+Tym razem przeszedles samego siebie. Unosisz sie w pustce nie mogac wykonac
+zadnego ruchu. Za wielkim biurkiem siedzi Sedzia gotow wydac na Ciebie wyrok
+skazujacy Cie na wieczne meki.
+~
+0 3145804 0
+S
+#2485
+Srodek nicosci~
+Znajdujesz sie... gdzies. Rozgladasz sie ale nie mozesz sie skupic dluzej na
+jednym punkcie. Twoje otoczenie podlega ciaglym zmianom ktore powoduja iz
+robi Ci sie niedobrze. Dreszcze przerazenia przebiega przez Twoje cialo
+kiedy zdajesz sobie sprawe z tego iz tym razem wpakowales sie w niezle
+tarapaty. 
+~
+0 3154060 0
+D5
+~
+~
+0 -1 2484
+> speech_prog p pomocy!~
+mpforce $n down
+~
+|
+S
+#2486
+Pole~
+Dotarles do polnocno zachodniego rogu pola. Jezeli kiedys byla tu trawa to
+teraz zastapilo ja w calosci bloto, ktorego poziom jest wyzszy niz w
+pozostalych czesciach pola. Nie jest tu zbyt przyjemnie szczegolnie kiedy
+trafiasz na wyjatkowo gleboka dziure i czujesz jak bloto dostaje Ci sie do
+buta...
+~
+0 0 2
+D1
+~
+~
+0 -1 2483
+D2
+~
+~
+0 -1 2482
+S
+#2487
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2479
+D1
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2476
+S
+#2488
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D1
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2489
+D7
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2473
+S
+#2489
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2490
+D3
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2488
+S
+#2490
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D0
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2491
+D2
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2489
+S
+#2491
+Labirynt~
+Hmm... chyba juz tu byles... A moze nie ?
+~
+0 8 0
+D2
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2490
+D7
+Widzisz kolejny pograzony w mroku korytarz.
+~
+~
+0 -1 2469
+S
+#2492
+Waska sciezka~
+Znajdujesz sie na waskiej sciezce biegnacej przez las. Przed soba masz
+lagodnie wznoszace sie wzgorze. Z tego miejsca nie udaje Ci sie dojrzec co
+najduje sie na jego szczycie. Na wschodzie i zachodzie znajduje sie
+nieprzenikniona sciana lasu zamieszkalego przez chochliki. Mozesz albo
+wspiac sie na gore albo wyruszyc na spotkanie wodnych stworkow zyjacych w
+jeziorze na poludniowym zachodzie.
+~
+0 0 3
+D0
+Widzisz lagodnie wznoszace sie wzgorze.
+~
+~
+0 -1 2467
+D9
+Widzisz niewielkie jeziorko. Upewnij sie ze masz lodke albo utoniesz!
+~
+~
+0 -1 2096
+S
+#2493
+Unoszac sie w nieskonczonosci~
+~
+0 12 0
+S
+#2494
+Unoszac sie w nieskonczonosci~
+~
+0 12 0
+S
+#2495
+Unoszac sie w nieskonczonosci~
+~
+0 3145740 0
+S
+#2496
+Unoszac sie w nieskonczonosci~
+~
+0 12 0
+S
+#2497
+Unoszac sie w nieskonczonosci~
+~
+0 12 0
+S
+#2498
+Unoszac sie w nieskonczonosci~
+~
+0 12 0
+S
+#2499
+Unoszac sie w nieskonczonosci~
+~
+0 12 0
+S
+#0
+
+
+#RESETS
+D 0 2400 0 1
+D 0 2401 0 1
+D 0 2401 2 1
+O 1 2403 1 2403
+M 0 2407 1 2406
+E 1 2427 1 3
+D 0 2406 2 1
+D 0 2406 5 1
+M 0 2409 2 2407
+O 1 2407 1 2407
+P 1 2450 1 2407
+P 1 2406 1 2407
+P 1 2445 1 2407
+D 0 2407 2 1
+D 0 2408 1 0
+M 0 2410 1 2410
+G 1 2436 1
+G 1 2408 1
+E 1 2410 1 17
+E 1 2409 1 5
+D 0 2410 3 0
+M 0 2411 1 2411
+E 1 2405 1 16
+E 1 2441 1 5
+O 1 2411 1 2411
+P 1 2402 1 2411
+P 1 2401 1 2411
+D 0 2411 0 1
+D 0 2411 1 1
+O 1 2412 1 2412
+P 1 2413 1 2412
+D 0 2418 2 1
+D 0 2419 1 1
+D 0 2419 3 1
+M 0 2420 1 2420
+O 1 2420 1 2420
+P 1 2421 1 2420
+D 0 2420 3 1
+M 0 2421 1 2421
+E 1 2438 1 13
+O 1 2400 1 2421
+P 1 2434 1 2400
+P 1 2435 1 2400
+D 0 2421 1 1
+D 0 2422 0 1
+D 0 2422 1 1
+D 0 2422 3 1
+M 0 2422 1 2423
+E 1 2439 1 17
+D 0 2423 1 1
+D 0 2424 3 1
+M 0 2425 1 2425
+E 1 2422 1 17
+E 1 2423 1 8
+E 1 2424 1 1
+G 1 2425 1
+D 0 2425 1 1
+D 0 2425 2 1
+O 1 2463 2 2433
+M 0 2408 2 2435
+D 0 2439 2 2
+M 0 2412 4 2440
+M 0 2442 1 2443
+G 1 2426 1
+O 1 2444 1 2443
+P 1 2442 1 2444
+P 1 2443 1 2444
+M 0 2405 1 2444
+M 0 2471 4 2447
+M 0 2408 2 2449
+M 0 2450 1 2450
+E 1 2452 1 6
+E 1 2451 1 16
+D 0 2451 0 1
+D 0 2451 3 1
+D 0 2452 1 1
+D 0 2454 1 1
+M 0 2455 3 2455
+M 0 2455 3 2455
+D 0 2455 0 0
+D 0 2455 3 1
+M 0 2456 1 2456
+E 1 2428 1 16
+O 1 2455 1 2456
+O 1 2456 1 2456
+D 0 2457 2 0
+D 0 2458 1 1
+D 0 2458 2 1
+D 0 2458 3 1
+O 1 2448 1 2459
+D 0 2459 3 1
+M 0 2460 1 2460
+E 1 2433 1 3
+E 1 2432 1 20
+O 1 2460 1 2460
+P 1 2440 1 2460
+P 1 2431 1 2460
+D 0 2460 0 1
+O 1 2437 1 2461
+D 0 2461 1 1
+M 0 2462 1 2462
+E 1 2449 1 5
+M 0 2463 1 2462
+E 1 2453 1 7
+O 1 2457 1 2462
+D 0 2462 2 1
+O 1 2464 1 2463
+O 1 2465 1 2463
+O 1 2463 2 2463
+D 0 2463 3 1
+O 1 2466 1 2464
+M 0 2465 1 2465
+G 1 2462 1
+G 1 2461 1
+G 1 2458 1
+M 0 2426 1 2466
+E 1 2419 1 5
+E 1 2418 1 17
+E 1 2417 1 1
+D 0 2466 3 1
+M 0 2412 4 2468
+O 1 2446 1 2468
+M 0 2409 2 2470
+M 0 2471 4 2472
+D 0 2474 0 1
+M 0 2412 4 2479
+O 1 2447 1 2479
+M 0 2412 4 2481
+M 0 2484 1 2484
+E 1 2454 1 16
+M 0 2455 3 2486
+O 1 2486 1 2486
+M 0 2471 4 2488
+M 0 2471 4 2490
+S
+
+
+#SHOPS
+ 2465    0  0  0  0  0   150  90         0 23    ; ogrodnik
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  2405 spec_poison
+M  2462 spec_thief
+M  2484 spec_janitor
+S
+
+
+#$

@@ -1,0 +1,4 @@
+This utility should be run daily (ie: from cron)
+
+It will delete old player files, and contruct the database used by
+the "grub" command.

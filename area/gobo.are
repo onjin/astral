@@ -1,0 +1,1673 @@
+#AREA   Mistyczna twierdza~
+
+
+
+#VERSION 3
+#AUTHOR Gobo~
+
+#RANGES
+20 65 20 65
+$
+
+#RESETMSG Slyszysz szum wody plynacej fosa...~
+
+#FLAGS
+6 15
+
+#ECONOMY 0 1917189
+
+#CLIMATE 0 2 0
+
+#MOBILES
+#30000
+straznik mostu~
+straznik~
+straznika~
+straznikowi~
+straznika~
+straznikiem~
+strazniku~
+strazniku~
+Jest tu straznik strzegacy przejscia przez most.
+~
+Jest jak sie wydaje w znakomitej kondycji i zdrowiu.
+Ma na sobie zelazny pancerz i rekawice oraz blyszczaca w promieniach slonca
+halabarde...~
+163875 33563136 0 C
+45 0 -500 10d10+1000 3d9+20
+100000 100000
+107 109 1
+20 15 15 17 13 13 15
+0 0 0 0 0
+0 3 0 0 1 1 4
+3 3 0 1050369 1050369 2 268435568 530435
+#30001
+zlodziejaszek ~
+zlodziejaszek~
+zlodziejaszka~
+zlodziejaszkowi~
+zlodziejaszka~
+zlodziejaszkiem~
+zlodziejaszku~
+zlodziejaszku~
+Podkrada sie do Ciebie dziwna postac...
+~
+Jest to srednich rozmiarow elf, widzac, ze jest w skrajnej nedzy gdyz nie
+ma na sobie nic oprocz mieszka z monetami, ktore pewnie wlasnie wyjal 
+z Twojej kieszeni... :)~
+1 98464 0 C
+30 0 -250 10d10+500 5d5+15
+50000 20000
+111 111 0
+14 17 12 20 13 13 20
+0 0 0 0 0
+0 2 0 0 1 1 3
+0 0 64 3072 3072 1048576 2097152 6148
+#30002
+lokaj~
+lokaj~
+lokaja~
+lokajowi~
+lokaja~
+lokajem~
+lokaju~
+lokaju~
+Chodzi tu zle ubrany lokaj. 
+~
+Czlowiek ten najwyrazniej w obecnej chwili nie jest w pracy gdyz jego
+stroj oraz czystosc pozostawiaja wiele do zyczenia.
+~
+67108865 65538 1000 C
+30 0 -200 5d5+40 5d5+10
+20000 50000
+112 111 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 1
+0 0 0 0 0 3158719 1107558400 1280
+#30003
+wojak~
+wojak~
+wojaka~
+wojakowi~
+wojaka~
+wojakiem~
+wojaku~
+wojaku~
+Niemajacy ochoty na zarty wojak.
+~
+Stoi niezle ubrany i uzbrojony wojak majacy ochote poprzetracac Ci kosci.~
+35 37756960 1000 C
+33 0 -300 1d1+999 5d5+10
+60000 30000
+107 107 0
+15 10 10 10 10 15 20
+0 0 0 0 0
+0 3 0 0 1 1 2
+3 0 1024 1 3072 2 32 3
+#30004
+kapitan~
+kapitan Flash~
+kapitana Flasha~
+kapitanowi Flashowi~
+kapitana Flasha~
+kapitanem Flashem~
+kapitanie Flashu~
+kapitanie Flashu~
+Prawdziwy i jedyny w swoim rodzaju Flash :)
+~
+Tak, tak, znalazles sie w zdecydowanie zlym miejscu a do tego
+w zdecydowanie niewlasciwym czasie :)~
+33 79700648 -1000 C
+46 0 -400 1d1+8999 5d5+15
+90000 215000
+107 107 1
+13 13 13 13 13 13 13
+0 0 0 0 4
+0 3 0 0 1 1 3
+5 5 1091 3840 3328 2 1241776160 5120
+#30005
+sekretarz palacowy ~
+sekretarz~
+sekretarza~
+sekretarzowi~
+sekretarza~
+sekretarzem~
+sekretarzu~
+sekretarzu~
+Siedzi tu stary ale krzepki czlowiek mogacy sprawic Ci jeszcze odrobine klopotow. 
+~
+Czlowiek ten wyglada bardzo schludnie, jest bogato ubrany jednak nie wiesz
+dlaczego jego rzeczy sprawiaja wrazenie iz rozleca sie przy lada dotknieciu.~
+1 4194856 0 C
+30 0 -400 20d20+200 5d4+10
+50000 150000
+109 109 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 3
+5 4 64 1048576 1 1024 469762081 525377
+> rand_prog 40~
+close w
+lock w
+~
+|
+#30006
+zagubiona dusza~
+dusza~
+duszy~
+duszy~
+dusze~
+dusza~
+duszy~
+duszo~
+Unosi sie tu zagubiona dusza.
+~
+Wyglada, iz kiedys za zycia ta biedna istota popelnila ten sam blad, 
+ktory jest wlasnie Twoim udzialem...~
+3 532480 1000 C
+30 0 -250 5d5+10 5d5+10
+60000 90000
+112 112 2
+10 10 10 10 10 10 10
+0 0 0 0 10
+0 0 0 0 1 1 0
+0 0 0 0 0 0 268435456 0
+#30007
+kucharka~
+kucharka~
+kucharki~
+kucharce~
+kucharke~
+kucharka~
+kucharce~
+kucharko~
+Stoi tu spocona i zapracowana kucharka.
+~
+Wyglada na kobiete, ktora nie umie skrzywdzic muchy ale mozna sie przeliczyc.~
+33 33562664 1000 C
+35 0 -150 4d4+10 4d4+10
+60000 100000
+112 112 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 0 2 1 1051648 8192 268435456 6144
+#30008
+hydraulik~
+hydraulik~
+hydraulika~
+hydraulikowi~
+hydraulika~
+hydraulikiem~
+hydrauliku~
+hydrauliku~
+Ktos naprawia tu zepsuta instalacje...
+~
+Wyglada za dosc silnego i odwaznego czlowieka, obok niego lezy na ziemi 
+sporych rozmiarow palka...~
+3 524416 1000 C
+25 0 -300 3d3+15 2d2+15
+25000 50000
+112 112 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 4 0 0 1 1 2
+2 2 0 0 0 8192 6144 2048
+#30009
+sluzacy krolewski~
+sluzacy~
+sluzacego~
+sluzacemu~
+sluzacego~
+sluzacym~
+sluzacym~
+sluzacy~
+Odpoczywa tu po ciezkiej pracy sluzacy krolewski.
+~
+Odpoczywa w swoim wygodnym luzku zapracowany na smierc sluzacy, ktory 
+najchetniej odszedlby juz ze sluzby.~
+1 369098752 1000 C
+30 0 -300 1d1+999 5d5+1
+25000 40000
+104 104 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+0 0 0 0 1 1 1
+2 2 64 512 2048 1024 32 1
+#30010
+morderca~
+morderca~
+mordercy~
+mordercy~
+morderce~
+morderca~
+mordercy~
+morderco~
+Czekajacy na odpowiedni moment morderca.
+~
+Jest szybki, zwinny i dobrze zbudowany a ponad wszystko pragnie
+zadawac smierc...
+~
+3 4202624 1000 C
+35 0 -250 1d1+999 5d5+10
+100000 50000
+107 107 0
+12 12 12 12 12 12 15
+0 0 0 0 0
+0 2 0 0 1 1 3
+50 50 1024 2099200 1024 1048576 32 2050
+#30011
+windziarka~
+windziarka~
+windziarki~
+windziarce~
+windziarke~
+windziarka~
+windziarce~
+windziarko~
+Stoi tu i czeka na Ciebie windziarka (w zepsutej windzie ktora nigdzie nie zajedziesz).  
+~
+Wyglada na osobe odrobine niezrownowazona psychicznie i nie ma sie co 
+dziwic. Dostala prace delikatnie mowiac dziwna...~
+1 4202496 1000 C
+40 0 -350 5d5+35 2d2+20
+40000 150000
+112 112 2
+15 15 15 15 15 15 15
+0 0 0 0 0
+0 3 0 0 1 1 4
+0 0 0 0 3072 0 32 0
+#30012
+pracownik ksiegarni~
+pracownik~
+pracownika~
+pracownikowi~
+pracownika~
+pracownikiem~
+pracowniku~
+pracowniku~
+Stroi tu probujacy dosc do ladu z ksiazkami czlowiek.
+~
+Wyglada na starego i schorowanego czlowieka ale mysle, ze moze nas 
+wszystkich jeszcze czyms zaskoczyc ~
+3 0 900 C
+35 2 -100 7d10+990 2d9+19
+90000 100000
+112 112 0
+16 13 13 15 13 13 13
+0 0 0 0 0
+2 3 0 0 1 1 2
+3 0 0 3 3072 0 16 1
+#30013
+kelnereczka~
+kelnereczka~
+kelnereczki~
+kelnereczce~
+kelnereczke~
+kelnereczka~
+kelnereczce~
+kelnereczko~
+Stoi tu oczekujac Twych zamowien kelnereczka.
+~
+Wyglada bardzo slicznie i pewnie nie tylko zamowienia od Ciebie oczekuje ale
+coz... jest w pracy :(~
+3 128 900 C
+35 2 -100 7d10+990 2d9+19
+500000 100000
+112 112 0
+16 13 13 15 13 13 13
+0 0 0 0 0
+2 3 0 0 1 1 2
+3 0 0 3 3072 0 16 2
+#30014
+oszust~
+oszust~
+oszusta~
+oszustowi~
+oszusta~
+oszustem~
+oszuszcie~
+oszuszcie~
+Stoi tu czlowieczek, ktory nie wzbudza Twego zaufania.
+~
+Wyglada na silnego ale coz, przeciez nie kazdy jest tak silny i wspanialy
+jak on, moze by tak stad wyjsc ?~
+3 0 900 C
+35 2 -100 7d10+990 2d9+19
+70000 100000
+112 112 0
+16 13 13 15 13 13 13
+0 0 0 0 0
+2 3 0 0 1 1 2
+3 0 0 3 3072 0 16 1
+#30015
+alchemik~
+alchemik~
+alchemika~
+alchemikowi~
+alchemika~
+alchemikiem~
+alchemiku~
+alchemiku~
+Siedzi tu dziwnie wygladajacy czlowieczek.
+~
+Wyglada na dosc silnego i niezle zbudowanego czlowieka, ktory moze Cie
+zaskoczyc kiedy wpadniesz na pomysl zaatakowania go ~
+3 0 900 C
+35 2 -100 7d10+990 2d9+29
+150000 100000
+112 112 0
+16 13 13 15 13 13 13
+0 0 0 0 0
+2 3 0 0 1 1 3
+3 0 0 3 3072 0 16 1
+#30016
+zbrojmistrz~
+zbrojmistrz~
+zbrojmistrza~
+zbrojmistrzowi~
+zbrojmistrza~
+zbrojmistrzem~
+zbrojmistrzu~
+zbrojmistrzu~
+Stoi tu probujacy nam zaimponowac swoja znajomoscia broni miejscowy zbrojmistrz.
+~
+Hmm, wyglada na czlowieka, ktory wie wszystko o broni jaka wlasnie 
+posiadasz i pewnie ciezko bedzie Ci udowodnic, ze wiesz na jej temat wiecej
+niz on...~
+3 0 900 C
+35 2 -100 7d10+990 2d9+19
+110000 100000
+112 112 0
+16 13 13 15 13 13 13
+0 0 0 0 0
+2 3 0 0 1 1 2
+3 0 0 3 3072 0 16 1
+#30017
+sprzedawczyni~
+sprzedawczyni~
+sprzedawczyni~
+sprzedawczyni~
+sprzedawczynie~
+sprzedawczynia~
+sprzedawczyni~
+sprzedawczyni~
+Stoi tu kobieta, ktora pewnie bedzie chciala nam wcisnac wszystko co sie tylko da.
+~
+Jest wysoka i dobrze zbudowana, pewnie niejedna chwile spedzila na 
+wyczerpujacych cwiczeniach silowych...~
+3 0 900 C
+35 2 -100 7d10+990 2d9+19
+120000 100000
+112 112 0
+16 13 13 15 13 13 13
+0 0 0 0 0
+2 3 0 0 1 1 2
+3 0 0 3 3072 0 16 1
+#30018
+strazniczka mostu~
+strazniczka~
+strazniczki~
+strazniczce~
+strazniczke~
+strazniczka~
+strazniczce~
+strazniczko~
+Jest tu strazniczka strzegacy przejscia przez most.
+~
+Jest jak sie wydaje w znakomitej kondycji i zdrowiu.
+Ma na sobie zelazny pancerz i rekawice oraz blyszczaca w promieniach slonca
+halabarde...~
+163875 33562624 -1000 C
+45 0 -500 10d10+1000 3d9+20
+20000 100000
+107 109 2
+20 15 15 17 13 13 15
+0 0 0 0 0
+0 3 0 0 1 1 4
+3 3 0 1050369 1050369 2 268435568 530435
+> time_prog 0~
+unlock s
+open s~
+> time_prog 1~
+close s
+lock s
+~
+|
+#0
+
+
+#OBJECTS
+#30000
+halabarda straznika~
+halabarda straznika~
+halabardy straznika~
+halabardzie straznika~
+halabarde straznika~
+halabarda straznika~
+halabardzie straznika~
+halabardo straznika~
+Piekna, ostra i blyszczaca w sloncu halabarda mieni sie kolorami teczy.~
+~
+5 0 8193
+0 0 0 0
+1 100000 10000
+A
+19 6
+A
+18 6
+A
+17 -10
+#30001
+blyszczace rekawice~
+blyszczace rekawice~
+byszczacych rekawic~
+blyszczacym rekawica~
+blyszczace rekawice~
+blyszczacymi rekawicami~
+byszczacych rekawicach~
+byszczace rekawice~
+Leza tu mieniace sie wieloma kolorami rekawice.~
+~
+9 0 129 8
+12 0 0 0
+4 40000 2000
+A
+17 -5
+A
+2 3
+A
+25 2
+A
+24 -6
+#30002
+Pancerz straznika~
+pancerz straznika~
+pancerza straznika~
+pancerzowi straznika~
+pancerz straznika~
+pancerzem straznika~
+pancerzu straznika~
+pancerzu straznika~
+Lezy tu porzucony przez kogos pancerz.~
+~
+9 0 9 16
+20 0 0 0
+5 150000 4000
+A
+17 -10
+A
+13 65
+A
+20 -6
+#30003
+mieczyk wojaka~
+mieczyk wojaka~
+mieczyka wojaka~
+mieczykowi wojaka~
+mieczyk wojaka~
+mieczykiem wojaka~
+mieczyku wojaka~
+mieczyku wojaka~
+Zawadiacko wygladajacy wojacki mieczyk.~
+~
+5 0&1 8193
+12 15 3 11
+1 0 0
+A
+2 2
+A
+1 2
+A
+19 5
+A
+18 5
+#30004
+kapitanski kordzik~
+kapitanski kordzik~
+kapitanskiego kordzika~
+kapitanskiemu kordzikowi~
+kapitanski kordzik~
+kapitanski kordzik~
+kapitanskim kordziku~
+kapitanski kordziku~
+Jest tu pozostawiony przez jakiegos sklerotyka kordzik.~
+~
+5 0&1 8193
+12 26 2 11
+4 600000 50000
+A
+17 -20
+A
+19 10
+A
+18 10
+A
+1 2
+A
+2 2
+#30005
+amulet kapitanski~
+kapitanski amulet~
+kapitanskiego amuletu~
+kapitanskiemu amuletowi~
+kapitanski amulet~
+kapitanskim amuletem~
+kapitanskim amulecie~
+kapitanski amulecie~
+Lsni polyskujac wspanialy amulet.~
+~
+9 0 5
+10 0 0 0
+3 50000 5000
+A
+2 2
+A
+1 2
+A
+17 -5
+#30006
+zagubiony kolczyk~
+zagubiony kolczyk~
+zagubionego kolczyka~
+zagubionemu kolczykowi~
+zagubiony kolczyk~
+zagubionym kolczykiem~
+zagubionym kolczyku~
+zagubiony kolczyku~
+Lezy tu zagubiony kolczyk.~
+~
+9 0 65537
+10 0 0 0
+1 200000 10000
+A
+2 2
+A
+1 2
+A
+17 -5
+#30007
+pierscionek~
+pierscionek~
+pierscionka~
+pierscionkowi~
+pierscionek~
+pierscionkiem~
+pierscionku~
+pierscionku~
+Lsni wspanialy pierscionek.~
+~
+9 0 3
+8 0 0 0
+1 300000 30000
+A
+66 5
+A
+13 45
+A
+3 2
+#30008
+Wypolerowany klucz~
+wypolerowany klucz~
+wypolerowanego klucza~
+wypolerowanemu kluczowi~
+wypolerowany klucz~
+wypolerowanym kluczem~
+wypolerowanym kluczu~
+wypolerowany kluczu~
+W kurzu poniewiera sie porzucony klucz.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#30009
+chochla~
+chochla~
+chochli~
+chochli~
+chochle~
+chochla~
+chochli~
+chochlo~
+Lezy tu pozostawiona chochla.~
+~
+5 192 8193
+0 0 0 0
+2 20000 4000
+A
+2 5
+A
+1 2
+A
+17 -5
+#30010
+paleczka~
+paleczka~
+paleczki~
+paleczce~
+paleczke~
+paleczka~
+paleczce~
+paleczko~
+Lezy tu pozostawiona paleczka.~
+~
+5 64 8193
+0 0 0 0
+4 10000 1000
+A
+17 -20
+A
+13 30
+#30011
+swiecace oko~
+swiecace oko~
+swiecace oko~
+swiecace oko~
+swiecace oko~
+swiecace oko~
+swiecace oko~
+swiecace oko~
+Pali sie jasnym plomieniem swiecace oko.~
+~
+1 0 1
+0 0 -1 0
+1 10000 1000
+A
+13 4
+A
+19 4
+A
+17 -5
+#30012
+kubek~
+kubek~
+kubka~
+kubkowi~
+kubek~
+kubkiem~
+kubku~
+kubku~
+Lezy tu porzucony bezmyslnie kubek..~
+~
+10 0 1
+25 -1 140 -1
+1 100000 10000
+'heal' 'sanctuary' 'NONE'
+#30013
+klucz straznika~
+klucz straznika~
+klucz straznika~
+klucz straznika~
+klucz straznika~
+klucz straznika~
+klucz straznika~
+klucz straznika~
+Klucz troche zardzewialy ale mogacy otworzyc brame.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#30000
+Wejscie na most ~
+Znajdujesz sie przy wejsciu na ogromny zwodzony most umozliwiajacy
+przejscie na druga strone, jak sie zdaje, glebokiej fosy.
+Na kego joncu dostrzegasz dwuch poteznych straznikow 
+dla ktorych bedziesz pewnie stanowil "objekt zainteresowania".
+~
+0 12 2
+D0
+~
+~
+0 -1 8318
+D2
+~
+~
+1063 30013 30001
+S
+#30001
+Przejscie przez most~
+Na wprost widzisz opuszczana krate pozwalajaca zablokowac dostep do
+twierdzy i odgrodzic sie od swiata zewnetrznego.
+Trzebaby poterznej armii do sforsowania takiej warowni. Przejscia
+pilnuje dwaj straznicy...
+~
+0 0 2
+D0
+~
+~
+1063 30013 30000
+D2
+~
+~
+0 0 30002
+S
+#30002
+Placyk~
+Znajdujesz sie na niewielkim placyku... 
+Wkolo znajduja sie malutkie sklepiki, w ktorych kazdy powinien znalezc 
+cos dla siebie, czasami warto potrzasnac trzosem i wydobyc z niego
+pare drobnych monet.
+~
+0 2097153 1
+D0
+~
+~
+0 0 30001
+D1
+~
+~
+0 0 30006
+D2
+~
+~
+0 0 30005
+D3
+~
+~
+0 0 30003
+S
+#30003
+Placyk~
+Znajdujesz sie na niewielkim placyku... 
+Wkolo znajduja sie malutkie sklepiki, w ktorych kazdy powinien znalezc 
+cos dla siebie, czasami warto potrzasnac trzosem i wydobyc z niego
+pare drobnych monet.
+~
+0 2097153 1
+D1
+~
+~
+0 0 30002
+D2
+~
+~
+0 0 30004
+D3
+~
+~
+0 0 30021
+D7
+~
+~
+2048 0 30023
+S
+#30004
+Placyk~
+Znajdujesz sie na niewielkim placyku... 
+Wkolo znajduja sie malutkie sklepiki, w ktorych kazdy powinien znalezc 
+cos dla siebie, czasami warto potrzasnac trzosem i wydobyc z niego
+pare drobnych monet.
+~
+0 2097153 1
+D0
+~
+~
+0 0 30003
+D1
+~
+~
+0 0 30005
+D3
+~
+~
+0 0 30022
+S
+#30005
+Placyk~
+Znajdujesz sie na niewielkim placyku... 
+Wkolo znajduja sie malutkie sklepiki, w ktorych kazdy powinien znalezc 
+cos dla siebie, czasami warto potrzasnac trzosem i wydobyc z niego
+pare drobnych monet.
+~
+0 2097160 0
+D0
+~
+~
+0 0 30002
+D1
+~
+~
+0 0 30007
+D2
+~
+~
+35 0 30008
+D3
+~
+~
+0 0 30004
+S
+#30006
+Placyk~
+Znajdujesz sie na niewielkim placyku... 
+Wkolo znajduja sie malutkie sklepiki, w ktorych kazdy powinien znalezc 
+cos dla siebie, czasami warto potrzasnac trzosem i wydobyc z niego
+pare drobnych monet.
+~
+0 35659785 0
+D1
+~
+~
+0 0 30020
+D2
+~
+~
+0 0 30007
+D3
+~
+~
+0 0 30002
+D6
+~
+~
+2048 0 30024
+S
+#30007
+Placyk~
+Znajdujesz sie na niewielkim placyku... 
+Wkolo znajduja sie malutkie sklepiki, w ktorych kazdy powinien znalezc 
+cos dla siebie, czasami warto potrzasnac trzosem i wydobyc z niego
+pare drobnych monet.
+~
+0 2097153 1
+D0
+~
+~
+0 0 30006
+D1
+~
+~
+0 0 30019
+D3
+~
+~
+0 0 30005
+S
+#30008
+Wejscie do Zamku ~
+Znajdujesz sie przed wejsciem do glownego zamku.
+O dziwo drzwi nie wydaja sie zamkniete na klucz a co za tym idze 
+nadaza sie wspaniala okazja do wejscia.
+Poniewaz nie jestes ostatnim obwiesiem wiec mieszkancy miasta ostrzegaja Cie,
+iz wojacy bardzo nie lubia nieproszonych gosci... wiec kirunek wschodni
+lepiej pozostaw swojemu losowi...
+~
+0 8 1
+D0
+~
+~
+35 0 30005
+D1
+~
+~
+33 0 30025
+D2
+~
+~
+0 0 30009
+D3
+~
+~
+33 0 30027
+S
+#30009
+Poczatek glownego holu~
+Znajdujesz sie wewnatrz wspaniale zdobionego holu a dokladnie rzecz 
+ujmujac na jego poczatku. Za drzwiami znajdujacymi sie po obu
+stronach znajduja sie pewnie ukryte tajemnice tej wspanialej 
+budowli... jednak czy na pewno wszystkie sa bezpieczne ?
+~
+0 8 0
+D0
+~
+~
+0 0 30008
+D1
+~
+drzwi~
+1057 30008 30029
+D2
+~
+~
+0 0 30010
+D3
+~
+~
+33 0 30028
+S
+#30010
+Glowny hol~
+Dumnie kroczysz srodkiem wspanialego holu, po jego obu stronach znajduja sie 
+obrazy, ktor zapewnie kazdy chcialby posiadac w swojej kolekcji...
+Jednak ze wzgledu na dochodzace odglosy gwardii palacowej ich 
+ewentualna kradziez lepiej odlozyc na pozniej.
+~
+0 8 0
+D0
+~
+~
+0 0 30009
+D1
+~
+~
+33 0 30032
+D2
+~
+~
+0 0 30011
+S
+#30011
+Glowny hol~
+Poruszasz sie srodkiem holu, ktory sprawia wrazenie galerii obrazow, 
+znajduja sie po jego obu stronach, zastanawiasz sie dlaczego nie na suficie.
+~
+0 0 0
+D0
+~
+~
+0 0 30010
+D2
+~
+~
+0 0 30012
+D3
+~
+~
+0 0 30031
+S
+#30012
+Glowny hol~
+Hol jakby znudzony juz swoja monotonia zakreca, zastanawiasz sie
+czy jego niewidoczna czesc jest rownie dluga czy moze to
+juz koniec tej meczacej wedroki ?
+~
+0 0 0
+D0
+~
+~
+0 0 30011
+D3
+~
+~
+0 0 30013
+D7
+~
+~
+0 0 30031
+S
+#30013
+Glowny hol~
+No tak... nadzieja matka glupich, projektant tych wnetrz zdecydowanie
+nie pomyslal o laweczce dla starszych pan.
+Zastanawiasz sie co by bylo gdyby na Twoim miejscu znajdowala sie jakas
+Bogu ducha winna staruszka... ?
+~
+0 0 0
+D0
+~
+~
+0 0 30031
+D1
+~
+~
+0 0 30012
+D3
+~
+~
+0 0 30014
+S
+#30014
+Glowny hol~
+No tak - a jednak cos sie zmienilo, cos czego nie zauwazyles wczesniej 
+a co dosc istotnie wplynelo na zmiane wystroju...
+Obrazy zostaly zastapione przez wszechobecne rzezby.
+~
+0 0 0
+D0
+~
+~
+0 0 30033
+D1
+~
+~
+0 0 30013
+D3
+~
+~
+0 0 30015
+S
+#30015
+Glowny hol~
+Hmm, juz masz dosc tego spacerowania, chyba trzeba bedzie juz pomalutku
+zabierac sie do opuszczenia tej wspanialej fortecy... a moze by tak
+zajzec do ktoregos z pokoi ?
+~
+0 0 0
+D1
+~
+~
+0 0 30014
+D2
+~
+~
+2081 0 30034
+D3
+~
+~
+0 0 30016
+S
+#30016
+Koniec glownego holu~
+No nareszcie koniec wedrowki, rozgladasz sie wokolo i z niedowierzaniem
+spostrzegasz, ze to juz prawie koniec.
+Chyba faktycznie wypadaloby gdzies zajzec...
+~
+0 0 0
+D0
+~
+~
+0 0 30017
+D1
+~
+~
+0 0 30015
+D2
+~
+~
+0 0 30018
+S
+#30017
+koniec glownego holu ~
+No tak, teraz nie pozostalo juz nic innego niz zaspokoic swoja coraz
+bardziej ogarniajaca Cie ciekawosc... trzeba gdzies wejsc !
+~
+0 0 0
+D2
+~
+~
+0 0 30016
+S
+#30018
+Koniec glownego holu~
+No nareszcie koniec wedrowki, rozgladasz sie wokolo i z niedowierzaniem
+spostrzegasz, ze to juz prawie koniec.
+Chyba faktycznie wypadaloby gdzies zajzec
+~
+0 0 0
+D0
+~
+~
+0 0 30016
+S
+#30019
+Lombard~
+Czasem mozna tu pewnie znalezc interesujace rzeczy...
+Moze by sie tak rizejzec... hmm
+~
+0 2097152 0
+D3
+~
+~
+0 0 30007
+S
+#30020
+Jadlodajnia~
+No tak... wiec jednak kiedys zglodniales.
+Zycze smacznego.
+~
+0 2097152 0
+D3
+~
+~
+0 0 30006
+S
+#30021
+Sklad broni~
+No tak... przed walka trzeba xdecydowanie zaopatrzyc sie w cos
+co spowoduje, ze prawda bedzie po naszej stronie... 
+~
+0 2097152 0
+D1
+~
+~
+0 0 30003
+S
+#30022
+Ciucholand~
+Heh, czlowieku mily - jak Ty wygladasz ?
+Chcesz wejsc do krolewskiego palacu a przypominasz ostatniego lachmaniarza.
+Trzeba szybko cos z Toba zrobic...
+~
+0 2097152 0
+D1
+~
+~
+0 0 30004
+S
+#30023
+Pracownia alchemika~
+Heh, nie mam pojecia do czego moga sie przydac te mikstury ale 
+na wszelki wypadek moze sie w jakas z nich zaopatryc ?
+~
+0 2097152 0
+D8
+~
+~
+0 0 30003
+S
+#30024
+Ksiegarnia~
+Tak... moze trzeba by odrobine posniesc poziom swojej wiedzy, ktora
+niewatpliwie stoi na wysokim poziomie ale odrobina wiedzy
+jeszcze nikomu nie zaszkodzila. 
+~
+0 0 0
+D9
+~
+~
+0 0 30006
+S
+#30025
+Pomieszczenie strazy palacowej ~
+Heh, rozumie ciekawosc ale ta moze cie drogo kosztowac... szkoda, ze
+nie jestes niewidzialny.
+~
+0 8 0
+D2
+~
+~
+0 0 30029
+D3
+~
+~
+1 0 30008
+D5
+~
+~
+2048 0 30041
+S
+#30026
+Kwatera kapitana~
+No tak... straze sie pospaly albo spily ale teraz niestety zaszedles
+w miejsce gdzie zdecydowanie nie jest bezpiecznie jezeli masz 
+jakiekolwiek nieuczciwe zamiary.
+~
+0 1109696521 0
+D3
+~
+~
+2049 0 30025
+D5
+~
+~
+0 0 30039
+S
+#30027
+Pokoj lokaja~
+Znajdujesz sie w skromym a wrecz biednie urzadzonym pomieszczeniu,
+ktore jest obecnie zajmowane przez lokaja, ktory najwyrazniej 
+czyms narazil sie pracodawcy.
+~
+0 0 0
+D1
+~
+~
+33 0 30008
+S
+#30028
+Pomieszczenie gospodarcze~
+Hmm, tutaj jest prawdziwy raj, niestety nie fla wojownikow
+Twojego pokroju, a dla sprzataczki :)
+~
+0 0 0
+D1
+~
+~
+0 0 30009
+S
+#30029
+Sekretariat Fortecy~
+Ciekawe od kiedy fortece maja swoje sekretariaty i kto wymyslil
+rownie glopia nazwe he he :)
+Nie ma tu w zasadzie nic ciekawego gdyby nie to, iz w sasiednim pomieszczeniu
+dostrzegasz pewna ilosc monet lezaca na ziemi...
+~
+0 36995081 0
+D0
+~
+~
+0 0 30025
+D1
+~
+~
+0 0 30030
+D3
+~
+~
+1057 30008 30009
+S
+#30030
+Prawie puste pomieszczenie~
+No tak - faktycznie na ziemi leza pieniadze.
+Ktos jest tu doslownie rozrzutny...
+~
+0 0 0
+D3
+~
+drzwi~
+0 30008 30029
+D9
+~
+~
+0 0 30032
+S
+#30031
+WC~
+Heh, no tak - jak mozna bylo zapomniec o tak waznym elemencie kazdego
+luksusowego a nawet tych mniej luksusowych rezydencji.
+~
+0 0 0
+D1
+~
+~
+0 0 30011
+D2
+~
+~
+0 0 30013
+D8
+~
+~
+0 0 30012
+S
+#30032
+Kuchnia~
+A juz byles prawie pewny, ze tu nic nie jwdza ale jak sie juz wielokoroc
+okazalo byles w bledzie i tym razem... biedny, zapracowany kucharz :(
+~
+0 0 0
+D3
+~
+~
+0 0 30010
+D6
+~
+~
+0 0 30030
+S
+#30033
+Pokoj sluzby~
+Jest to pomieszczenie w ktorym sluzba spedza te tak dlugo oczekiwane
+chwile wytchnienia... ale ze zdziwieniem spostrzegasz, ze nie ma
+tu wiele rzeczy mogacych ulatwic lub uprzyjemnic odpoczynek.
+~
+0 0 0
+D2
+~
+~
+0 0 30014
+S
+#30034
+Winda~
+Nie byloby nic niezwyklego w tym, ze znajduje sie tu winda, gdyby
+nie pewien drobny szkopol - mianowicie fak iz jezdzi tylko w dol 
+a do tego w tym wlasnie momencie jest zepsuta ale IMMO zapewniaja,
+ze jeszcze kiedys sie nia bedzie dalo podrozowac :)~
+0 0 0
+D0
+~
+~
+0 0 30015
+S
+#30035
+Zagubiony~
+Zagubiony~
+0 2105473 0
+D1
+~
+~
+2048 0 30036
+D2
+~
+~
+2048 0 30040
+D3
+~
+~
+2056 0 30052
+S
+#30036
+Zagubiony~
+Zagubiony~
+0 2105473 0
+D1
+~
+~
+2048 0 30037
+D2
+~
+~
+2048 0 30041
+D3
+~
+~
+0 0 30035
+S
+#30037
+Zagubiony~
+Zagubiony~
+0 2105473 0
+D1
+~
+~
+2048 0 30038
+D2
+~
+~
+2048 0 30042
+D3
+~
+~
+0 0 30036
+S
+#30038
+Zagubiony~
+Zagubiony~
+0 2105473 0
+D2
+~
+~
+2048 0 30043
+D3
+~
+~
+0 0 30037
+D6
+~
+~
+2048 0 30039
+S
+#30039
+Zagubiony~
+Zagubiony~
+0 2105473 0
+D4
+~
+~
+2056 0 30026
+D9
+~
+~
+0 0 30038
+S
+#30040
+Zagubiony~
+Zagubiony~
+0 2105473 0
+D0
+~
+~
+0 0 30035
+D1
+~
+~
+2048 0 30041
+D2
+~
+~
+2048 0 30044
+S
+#30041
+Zagubiony~
+Zagubiony~
+0 2105473 0
+D0
+~
+~
+0 0 30036
+D2
+~
+~
+2048 0 30045
+D3
+~
+~
+0 0 30040
+S
+#30042
+Zagubiony~
+Zagubiony~
+0 2105473 0
+D0
+~
+~
+0 0 30037
+D1
+~
+~
+2048 0 30043
+S
+#30043
+Zagubiony~
+Zagubiony~
+0 2105473 0
+D0
+~
+~
+0 0 30038
+D2
+~
+~
+2048 0 30047
+D3
+~
+~
+0 0 30042
+S
+#30044
+Zagubiony~
+Zagubiony~
+0 2105473 0
+D0
+~
+~
+0 0 30040
+D1
+~
+~
+2048 0 30045
+D2
+~
+~
+2048 0 30048
+S
+#30045
+Zagubiony~
+Zagubiony~
+0 2105473 0
+D0
+~
+~
+0 0 30041
+D1
+~
+~
+2048 0 30046
+D2
+~
+~
+2048 0 30049
+D3
+~
+~
+0 0 30044
+S
+#30046
+Zagubiony~
+Zagubiony~
+0 2105473 0
+D1
+~
+~
+2048 0 30047
+D2
+~
+~
+2048 0 30050
+D3
+~
+~
+0 0 30045
+S
+#30047
+Zagubiony~
+Zagubiony~
+0 2105473 0
+D0
+~
+~
+0 0 30043
+D2
+~
+~
+2048 0 30051
+D3
+~
+~
+0 0 30046
+S
+#30048
+Zagubiony~
+Zagubiony~
+0 2105473 0
+D0
+~
+~
+0 0 30044
+D1
+~
+~
+2048 0 30049
+S
+#30049
+Zagubiony~
+Zagubiony~
+0 2105473 0
+D0
+~
+~
+0 0 30045
+D3
+~
+~
+0 0 30048
+S
+#30050
+Zagubiony~
+Trafiles do najmilszego miejsca w tym dziwacznym obszarze, na gorze czekaja na
+Ciebie wojacy, Bogowie zlitowali sie jednak nad toba i moze w tym
+pomieszczeniu skozystac z czaru badz zwoju recall :)~
+0 2097281 0
+D0
+~
+~
+0 0 30046
+D4
+~
+~
+2048 0 30025
+S
+#30051
+Zagubiony~
+Zagubiony~
+0 2105473 0
+D0
+~
+~
+0 0 30047
+S
+#30052
+Pokoj ucieczki~
+W tym miejscu mozesz sie posluzyc czarem word of recall badz tez odczytac
+magiczny pergamin ucieczki.~
+0 3440641 0
+D1
+~
+~
+2056 0 30035
+S
+#0
+
+
+#RESETS
+M 0 30018 1 30000
+E 0 30013 0 17
+E 0 30000 0 16
+E 0 30001 0 9
+E 0 30002 0 5
+M 0 30000 3 30000
+M 0 30000 3 30001
+E 0 30002 0 5
+E 0 30000 0 16
+E 0 30001 0 9
+M 0 30001 1 30002
+D 0 30005 2 1
+D 0 30008 0 1
+M 0 30010 1 30016
+M 0 30010 2 30017
+M 0 30010 3 30018
+M 0 30014 1 30019
+M 0 30013 1 30020
+M 0 30016 1 30021
+M 0 30017 1 30022
+M 0 30015 1 30023
+G 0 30012 0
+M 0 30012 1 30024
+M 0 30004 1 30026
+G 0 30008 0
+E 0 30004 0 16
+E 0 30005 0 3
+M 0 30002 1 30027
+T 5 0 10 30028
+M 0 30005 1 30029
+E 0 30007 0 1
+T 1 10 10 30030
+M 0 30008 3 30031
+E 0 30010 0 16
+M 0 30007 2 30032
+E 0 30009 0 16
+M 0 30009 4 30033
+E 0 30011 0 17
+M 0 30011 1 30034
+M 0 30006 1 30038
+E 0 30006 0 19
+M 0 30003 5 30025
+E 1 30003 1 16
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  30000 spec_cast_undead
+M  30001 spec_thief
+M  30003 spec_breath_fire
+M  30005 spec_breath_fire
+M  30006 spec_cast_mage
+M  30007 spec_breath_fire
+M  30018 spec_cast_undead
+S
+
+
+#$

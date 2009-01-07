@@ -1,0 +1,1024 @@
+#AREA   Oboz Cyganow~
+
+
+
+#VERSION 1
+#AUTHOR Helot~
+
+#RANGES
+0 65 0 65
+$
+
+#RESETMSG W oddali slychac dzwony Darkhaven.~
+
+#FLAGS
+0
+
+#ECONOMY 0 51296650
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#11100
+zabojca~
+zabojca~
+Dostrzegasz ukrytego w krzakach zabojce.
+~
+Wyglada na wstretnego typa. Zaczynasz sie zastanawiac
+dlaczego cie jeszcze nie zaatakowal.~
+33 65568 -500 C
+14 0 0 15d15+300 1d4+10
+500 200000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 2
+2 2 54 0 0 0 1280 524290
+#11101
+cygan~
+cygan~
+Stoi tutaj cygan i gapi sie na twoja sakiewke
+~
+Stoi przed toba cygan. Wyglada na bardzo zwinnego.~
+69 0 0 C
+6 6 6 11d11+110 1d5+4
+1000 8000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 131073 1 0
+0 0 2047 0 0 0 1056 0
+> rand_prog 5~
+, staje i zaczyna liczyc pieniadze.~
+> rand_prog 3~
+, coraz bardziej przyglada sie twojej sakwie.~
+|
+#11102
+cyganka~
+cyganka~
+Stoi tutaj cyganka usmiecha sie do ciebie.
+~
+Stoi tu cyganaka. Wyglada dosc niewinnie.
+Moze to jednak pozory?
+~
+69 0 0 C
+3 6 5 11d11+100 1d5+8
+500 6000
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 131073 1 0
+0 0 2047 0 0 0 1024 0
+#11103
+cygan wojownik~
+cyganski wojownik~
+Idzie tedy uzbrojony cygan.
+~
+Jest to jeden z niwielu cyganow jaki pokazuje
+na zewnatrz swoje uzbrojenie.~
+69 4194816 0 C
+8 6 10 11d11+200 2d5+14
+4000 12000
+112 112 1
+14 14 14 14 14 14 14
+0 0 0 0 0
+0 3 0 0 131073 1 0
+0 0 2047 0 0 0 1312 524288
+#11104
+straznik obozu~
+straznik obozu~
+Wita cie straznik i zaprasza do obozu.
+~
+Straznik wyglada na dosc silnego. Jest ubrany w
+skorzana zbroje i zelazny helm. Dziwna jest jego
+uprzejmosc.~
+7 4194816 0 C
+8 6 10 11d11+500 2d5+17
+4000 12000
+112 112 1
+14 14 14 14 14 14 14
+0 0 0 0 0
+0 3 0 0 131073 1 0
+0 0 2047 64 0 0 1312 524288
+#11105
+kon zaprzegowy~
+kon zaprzegowy~
+Stoi tu kon wzywany do zaprzegow.
+~
+Wyglada na dosc tegiego ale to chyba nie dodaje mu
+szybkosci.~
+262147 40 200 C
+8 0 1 9d3+100 3d3+2
+0 0
+100 100 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+86 2 0 0 1 1 0
+0 0 67259 0 0 0 0 0
+> rand_prog 4~
+mpecho Kon nagle parsknal~
+> rand_prog 5~
+mpecho Kon potrzasa swoim ogonem.~
+|
+#0
+
+
+#OBJECTS
+#11100
+sztylet zabojcy~
+sztylet zabojcy~
+Lezy tu jakis sztylet~
+~
+5 524292 8193
+0 6 2 11
+3 300 30
+A
+17 -5
+A
+18 6
+#11101
+klucz do wozu~
+klucz do wozu~
+Lezy tu maly klucz.~
+~
+9 0 16385
+0 0 0 0
+1 500 50
+A
+25 -1
+#11102
+srebrny klucz~
+srebrny klucz~
+Lezy tu klucz. Wyglada jakby byl ze srebra~
+~
+18 0 16385
+0 0 0 0
+1 2000 200
+A
+31 1
+#11103
+czarny klucz~
+czarny klucz~
+Lezy tu prawie niewidoczny czarny klucz~
+~
+18 0 16385
+0 0 0 0
+1 20 2
+#11104
+klucz do lesniczowki~
+klucz do lesniczowki~
+Lezy tu metalowy klucz.~
+~
+18 0 16385
+0 0 0 0
+1 20 2
+#11105
+najnowszy playdwarf~
+playdwarf~
+Lezy tu playdwarf !!!!!!!!!!.~
+~
+47 33554432 147457
+0 0 0 0
+1 0 0
+A
+59 5
+A
+9 -10
+A
+25 -1
+#0
+
+
+#ROOMS
+#11100
+Sciezka ze swierzymi sladami kol~
+Wchodzac na ta droge dostrzegasz ze przejezdzalo
+nia niedawno wiecej niz kilka wozow.
+Przy drodze stoi znak:
+
+    Oboz cyganow na zachod..
+    Podrozujesz na wlasne ryzyko.
+                  Straz Darkhaven
+~
+0 4 3
+D1
+Droga na poludnie~
+~
+0 0 11101
+D3
+~
+~
+0 0 8906
+> entry_prog 100~
+mea 0.$n Znikad pojawia sie Bostwo o przemawia:
+mpechoat 0.$n Smiertelniku ! Ta kraina nie zostala jeszcze przez nas ukonczona 
+mpechoat 0.$n tak wiec nie mozesz tu wejsc.
+mpechoat 0.$n Dziwna sila pcha cie spowrotem.
+mptrans 0.$n 8906
+~
+|
+S
+#11101
+Row z woda~
+Kontynulujac swoja droge za sladami kol dochodzisz
+do miejsca gdzie droge przecina row z woda. Ktokolwiek
+tedy jechal musial miec problem z przeprawa.
+
+Ktos postawil tu napis:
+
+    To jest informacja od tworcy krainy.
+    Jezeli uwazasz ze jakis mob jest zbyt
+    silny lub trzeba cos zmienic napisz do mnie:
+    Helot@zeus.polsl.gliwice.pl
+~
+0 4 3
+D1
+Droga na poludnie~
+~
+0 0 11102
+D3
+Droga na polnoc~
+~
+0 0 11100
+S
+#11102
+Zakret drogi~
+Droga tutaj zakreca lekko. Slady kol wyraznie zakrecaja
+wraz z droga.
+~
+0 0 3
+D3
+Dorga na polnoc~
+~
+0 0 11101
+D8
+Droga prowadzi na poludniwy wschod.~
+~
+0 0 11103
+S
+#11103
+Zakret drogi~
+Droga ty zakreca. Slady kol wyraznie zakrecaja
+wraz z droga
+~
+0 0 3
+D2
+Droga na poludnie~
+~
+0 0 11104
+D7
+Droga na polnocy zachod~
+~
+0 0 11102
+S
+#11104
+Przerzedzenie w lesie~
+W tym miejcu las sie przerzedza tak, ze mozna dostrzec
+niebo. Z poludnia slychac muzyke.
+~
+0 4 2
+D0
+Droga na polnoc~
+~
+0 0 11103
+D2
+~
+~
+0 0 11105
+S
+#11105
+Droga w polnocnej czesci obozu~
+W tym miejscu droga wpada na polane.
+Cala polana jest zajeta przez oboz cyganow.
+Na poludnie dostrzegasz ognisko. Udajac sie na
+polnoc mozesz opuscic oboz. Idac na wschod
+lub zachod mozesz obejsc oboz.
+~
+0 0 2
+D0
+~
+~
+0 0 11104
+D1
+~
+~
+0 0 11116
+D2
+~
+~
+0 0 11106
+D3
+~
+~
+0 0 11111
+S
+#11106
+Na polnoc od centrum obozu~
+Dotarles do miejsca skad wyraznie widac centrum obozu,
+ktore znajduje sie na poludnie. Idac droga na polnoc
+opuscisz oboz.
+~
+0 0 2
+D0
+~
+~
+0 0 11105
+D2
+~
+~
+0 0 11107
+D6
+~
+~
+0 0 11116
+D7
+~
+~
+0 0 11111
+S
+#11107
+Centrum obozu~
+Dotarles do centrum obozu. Jest tu droga prowadzaca
+z polnocy na poludnie. Idac na polnoc mozesz dojsc
+do miasta. W tym miejscu znajduje sie ognisko.
+Stad tez mozna wejsc do czterech wozow.
+~
+0 0 2
+D0
+~
+~
+0 0 11106
+D1
+~
+~
+0 0 11118
+D2
+~
+~
+0 0 11108
+D3
+~
+~
+0 0 11113
+D6
+Wejscie do wagonu~
+dzwiczki~
+0 0 11117
+D7
+Wejscie do wagonu~
+dzwiczki~
+39 11101 11112
+D8
+Wejscie do wagonu~
+dzwiczki~
+39 11101 11119
+D9
+Wejscie do wagonu~
+dzwiczki~
+39 11101 11114
+S
+#11108
+Droga na poludnie od centrum obozu~
+Znajdujesz sie na poludnie od centrum obozu.
+Jest tu droga prowadzaca z polnocy na poludnie.
+Idac na poludnie mozesz opuscic wioske.
+~
+0 0 2
+D0
+~
+~
+0 0 11107
+D2
+~
+~
+0 0 11109
+D8
+~
+~
+0 0 11120
+D9
+~
+~
+0 0 11115
+S
+#11109
+Droga w poludniowej czesci obozu~
+Ta droga mozesz sie udac na polnoc do centrum obozu lub udac
+sie na poludnie aby go opuscic. Idac na wschod lub zachod
+mozesz isc na okolo obozu. Gdzies na poludnie powinna znajdowac
+sie droga do lesniczowki.
+~
+0 0 2
+D0
+~
+~
+0 0 11108
+D1
+~
+~
+0 0 11120
+D2
+~
+~
+0 0 11110
+D3
+~
+~
+0 0 11115
+S
+#11110
+Na poludnie od obozu~
+Znajdujesz sie poza obozem cyganow. Las tutaj staje sie
+coraz gesciejszy. Wyglada na to ze to jest koniec polany
+na ktorej stoi oboz cyganow. Jest tutaj droga prowadzaca
+z polnocy na poludnie.
+~
+0 0 3
+D0
+~
+~
+0 0 11109
+D2
+~
+~
+0 0 11130
+S
+#11111
+Polnocna czesc obozu~
+Znajdujesz sie w polnocnwej czesci obozu, na zachod
+od drogi. Na polunie znajduje sie cyganski woz skierowany
+na poludniowy wschod. Mozesz pownorcic na droge lub
+udac sie na poludniowy zachod.
+~
+0 0 2
+D0
+~
+~
+0 0 11110
+D1
+~
+~
+0 0 11105
+D8
+~
+~
+0 0 11106
+D9
+~
+~
+0 0 11121
+S
+#11112
+Woz na polnocny zachod od centrum~
+~
+0 0 0
+D8
+~
+dzwiczki~
+39 11101 11107
+S
+#11113
+Na zachod od centrum obozu~
+Znajdujesz sie na zachod od centrum obozu.
+Na polnoc i na poludnie znajduja sie wozy cyganskie.
+Na zachod znajduje sie wejscie do wagonu, ktory
+wyglada na najladnieszy z calego obozu. Moze to
+woz wodza?
+~
+0 0 2
+D1
+~
+~
+0 0 11107
+D3
+~
+dzwiczki~
+39 11102 11122
+D7
+~
+~
+0 0 11121
+D9
+~
+~
+0 0 11123
+S
+#11114
+Woz na poludniowy zachod od centrum.~
+~
+0 4 0
+D6
+~
+dzwiczki~
+39 11101 11107
+S
+#11115
+Poludniowa czesc obozu~
+Znajdujesz sie w poludniowej czesci obozu.
+Na wschod znajduje sie droga przez oboz.
+Mozesz sie udac na polnocny zachod.
+Na polnoc znajduje sie woz skierowany
+w strone polnocno wschodnia.
+~
+0 0 2
+D1
+~
+~
+0 0 11109
+D6
+~
+~
+0 0 11108
+D7
+~
+~
+0 0 11123
+S
+#11116
+Polnocna czesc obozu~
+Znajdujesz sie w polnocnej czesci obozu.
+Na zachod znajduje sie droga przez oboz.
+Na poludnie widac woz, ktorego wejscie skierowne
+jest na poludniowy zachod. Mozesz sie rowniez udac
+na poludniowy wschod.
+~
+0 0 2
+D3
+~
+~
+0 0 11105
+D8
+~
+~
+0 0 11124
+D9
+~
+~
+0 0 11106
+S
+#11117
+Wagon wrozki~
+~
+0 0 0
+D9
+~
+~
+0 0 11107
+S
+#11118
+Na wschod od centrum obozu~
+Znajdujesz sie na wschod od centrum obozu.
+Na poludnie i na polnoc widac wozy skierowane do
+centrum wioski. Na wschod znajduje sie woz.
+Drzwi do tego wozu sa czarne i wygladaja na bardzo
+solidne. Udajac sie na polnocny lub poludniowy wschod
+mozesz obejsc ten woz.
+~
+0 0 2
+D1
+~
+dzwi~
+8389671 11103 11125
+D3
+~
+~
+0 0 11107
+D6
+~
+~
+0 0 11124
+D8
+~
+~
+0 0 11126
+S
+#11119
+Woz na poludniowy wschod od centrum~
+~
+0 0 0
+D7
+~
+dzwiczki~
+39 11101 11107
+S
+#11120
+Poludniowa czesc obozu~
+Znajdujesz sie w poludniowej czesci obozu.
+Udajac sie na zachod dojdziesz do drogi prowadzacej
+przez oboz. Na polnoc widac woz sierowany wejsciem
+na polnocny zachod. Na wschod widac zagrode dla
+koni.
+~
+0 0 2
+D1
+~
+zagroda~
+3 0 11127
+D3
+~
+~
+0 0 11109
+D6
+~
+~
+0 0 11126
+D7
+~
+~
+0 0 11108
+S
+#11121
+Polnocno zachodnia czesc obozu~
+Znajdujesz sie w polnocno zachodniej czesci obozu.
+Na poludnie i na wschod widac wozy.~
+0 0 2
+D6
+~
+~
+0 0 11111
+D8
+~
+~
+0 0 11113
+D9
+~
+~
+0 0 11129
+S
+#11122
+Woz wodza cyganow~
+Ten woz wyglada nie tylko ladnie na zewnatrz
+ale i w srodku.
+~
+0 0 0
+D1
+~
+dzwiczki~
+39 11102 11113
+S
+#11123
+Poludniowo zachodnia czesc obozu~
+Znajdujesz sie w poludniowo zachodniej czesci obozu.
+Na polnoc i na wschod stoja wozy.~
+0 0 2
+D6
+~
+~
+0 0 11113
+D7
+~
+~
+0 0 11129
+D8
+~
+~
+0 0 11115
+S
+#11124
+Polnocno wschodnia czesc obozu~
+Znajdujesz sie w polnocno wschodniej czesci obozu.
+Na poludnie i na zachod widac wozy.~
+0 0 2
+D7
+~
+~
+0 0 11116
+D8
+~
+~
+0 0 11128
+D9
+~
+~
+0 0 11118
+S
+#11125
+Przepelniony woz~
+Woz ten wyglada jak magazyn. Jest on tak
+zapchany ze az trudno do niego wejsc.
+~
+0 0 0
+D3
+~
+drzwi~
+8389671 11103 11118
+S
+#11126
+Poludniowo wschodnia czesc obozu~
+Znajdujesz sie w poludniowo wschodniej czesci obozu.
+Na polnoc znajduje sie najwiekszy z wszystkich wozow
+cyganow. Na poludnie znajduje sie zagroda dla koni.
+~
+0 0 2
+D2
+~
+zagroda~
+3 0 11127
+D6
+~
+~
+0 0 11128
+D7
+~
+~
+0 0 11118
+D9
+~
+~
+0 0 11120
+S
+#11127
+Zagroda dla koni~
+~
+0 0 2
+D0
+~
+zagroda~
+3 0 11126
+D3
+~
+zagroda~
+3 0 11120
+S
+#11128
+Na wschod od obozu~
+Znajdujesz sie na krancu polany. Las staje sie coraz
+gesciejszy, uniemozliwiajac dalsza podroz w tym kierunku.
+Na zachod znajduje sie duzy woz ale wejscie znajduje sie
+po przeciwnej stronie.~
+0 0 2
+D7
+~
+~
+0 0 11124
+D9
+~
+~
+0 0 11126
+S
+#11129
+Na zachod od obozu~
+Znajdujesz sie na zachod od obozu. W tym miejscu
+konczy sie polana. Las staje sie coraz gestrzy uniemozliwiajac
+dalsza podroz w tym kierunku. Na wschod widac bogato
+zdobiony woz, jednak wejscie znajduje sie po przecinej stronie.~
+0 0 2
+D6
+~
+~
+0 0 11121
+D8
+~
+~
+0 0 11123
+S
+#11130
+Rozgalezienie~
+Docierajac do tego miejsca zaowazasz znak:
+    Polnoc - Darkhaven
+    Poludnie - Portal
+    Wschod - Lesniczowka
+~
+0 4 3
+D0
+~
+~
+0 0 11110
+D1
+~
+~
+0 0 11136
+D2
+~
+~
+0 0 11131
+S
+#11131
+Zakret drogi~
+W tym miejscu droga zakreca i prowadzi z polnocy
+na poludniowy wschod. Las staje sie coraz rzadszy.~
+0 0 3
+D0
+~
+~
+0 0 11130
+D8
+~
+~
+0 0 11132
+S
+#11132
+Zakret drogi~
+W tym miejscu droga zakreca i prowadzi z polnocnego
+zachodu na wschod. Droga tu wychodzi z lasu by natrafic
+na potezny wawoz. Droga na wschod prowadzi zdloz
+klifu~
+0 0 2
+D1
+~
+~
+0 0 11133
+D7
+~
+~
+0 0 11131
+S
+#11133
+Droga wzdluz klifu~
+Droga tu prowadzi wzdluz klifu z zachodu na wschod.
+Na wschod dostrzegasz most.~
+0 0 2
+D1
+~
+~
+0 0 11134
+D3
+~
+~
+0 0 11132
+S
+#11134
+Zakret drogi na most~
+W tym miejscu droga zakreca w strone poludnia.
+Idac droga na poludniowy wschod dojdziesz do
+mostu.~
+0 0 2
+D3
+~
+~
+0 0 11133
+D8
+~
+~
+0 0 11135
+S
+#11135
+Wejscie na most~
+Znajduje sie ty poczatek mostu lub tego co z niego
+zostalo. Okazuje sie ze przeprawa na droga strone
+jest niemozliwa.~
+0 0 2
+D7
+~
+~
+0 0 11134
+S
+#11136
+Droga do lesniczowki~
+Znajdujesz sie na drodze do lesniczowki.
+Droga ta prowadzi z zachodu na wschod.~
+0 4 3
+D1
+~
+~
+0 0 11137
+D3
+~
+~
+0 0 11130
+S
+#11137
+Zakret na drodze do lesniczowki~
+Znajdujesz sie na drodze do lesniczowki.
+W ym misjscu droga zakraca. Prowadzi ona
+z zachodu na polnocny wschod.~
+0 0 3
+D3
+~
+~
+0 0 11136
+D6
+~
+~
+0 0 11138
+S
+#11138
+Geste zarosla~
+Nale droga znika w gestych zaroslach. Wygladja
+one na mozliwe do przebycia. Sprobujesz ?~
+0 0 3
+D6
+~
+~
+0 0 11139
+D9
+~
+~
+0 0 11137
+S
+#11139
+Wyjscie na mala polanke~
+Droga zaczyna byc coraz bardziej porosnieta trawa i
+i w pewnim momencie juz nie jestes w stanie jej zawowazyc.
+Jas staje sie coraz rzadszy i masz wrazenie ze zaraz
+zacznie sie polanka.~
+0 0 3
+D1
+~
+~
+0 0 11140
+D9
+~
+~
+0 0 11138
+S
+#11140
+Przed lesniczowka~
+Znajdujesz sie przed lesniczowka. Lesniczowka jest
+zbudowana z drewna. Wejscia do lesniczowki strzega
+porzadne drzwi. Ciekawe kto ma do nich klucz?
+~
+0 4 2
+D3
+~
+~
+0 0 11139
+D8
+~
+drzwi~
+8389671 11104 11141
+S
+#11141
+Lesniczowka~
+~
+0 0 0
+D4
+~
+~
+0 0 11142
+D7
+~
+drzwi~
+8389671 11104 11140
+S
+#11142
+Sypialnia~
+Dotarles na pierwsze pietro i jak sie okazuje jest to
+sypialnia. Praktycznie cala przestrzen tego pomieszczenia
+zajmuje wielkie loze.~
+0 0 0
+D2
+~
+~
+0 0 11143
+D5
+~
+~
+0 0 11141
+E
+loze~
+Wyglada jakby cos lezalo pod pierzyna~
+E
+lozko~
+Wyglada jakby cos lezalo pod pierzyna~
+E
+pierzyna~
+Cos napeno tam lezy!!!~
+S
+#11143
+~
+~
+0 0 0
+D0
+~
+~
+0 0 11142
+S
+#0
+
+
+#RESETS
+M 0 11100 1 11103
+E 0 11100 0 16
+D 0 11107 8 2
+D 0 11113 3 2
+D 0 11118 1 2
+D 0 11120 1 1
+D 0 11125 3 2
+D 0 11126 2 1
+M 0 11105 6 11127
+D 0 11127 3 1
+D 0 11141 7 2
+O 0 11105 0 11142
+O 0 11106 1 11107
+M 0 11106 3 11107
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  11100 spec_thief
+M  11101 spec_thief
+M  11103 spec_guard
+M  11104 spec_guard
+S
+
+
+#$

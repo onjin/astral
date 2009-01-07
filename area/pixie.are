@@ -1,0 +1,946 @@
+#AREA   Las Pixie [pl.Exhib]~
+
+
+
+#VERSION 3
+#AUTHOR Cain~
+
+#RANGES
+1 5 0 60
+$
+
+#RESETMSG Slyszysz w oddali pixie rozpoczynajace swe dzikie harce...~
+
+#FLAGS
+0 5
+
+#ECONOMY 0 14783500
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#2070
+brazowy lesny niedzwiadek~
+lesny niedzwiadek~
+lesnego niedzwiadka~
+lesnemu niedzwiadkowi~
+lesnego niedzwiadka~
+lesnym niedzwiadkiem~
+lesnym niedzwiadku~
+lesny niedzwiadku~
+Brazowy lesny niedzwiadek krazy tu szukajac czegos do zjedzenia.
+~
+Mimo ze jest jeszcze maly, pochlania ogromne ilosci ryb nie gardzac jednak
+malutkimi elfami i trolami. Jego ulubionym przysmakiem sa jednak lesne jagody.
+Ten maly przyjaciel, mieszkaniec lasu ma brazowa siersc i bacznie
+przygladajace Ci sie swidrujace oczka, wyglada jakby pogardzal toba.
+Jest niezaprzeczalnym wladca tego lasu - pogardzajacy wszystkimi goscmi,
+nawet Toba.
+ 
+~
+65 0 0 C
+7 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+24 3 0 0 512 513 0
+0 0 263725 0 0 0 2 0
+> death_prog 100~
+mpe _yel Wyczerpany i smiertelnie raniony niedzwiadek upada na ziemie.
+mpe _yel Zauwazasz jeden z jego dlugich pazurow ktory odlamany upada.
+mpoload 2071
+~
+> fight_prog 15~
+, swymi malymi klami wgryza Ci sie bleboko w udo!
+~
+|
+#2071
+duszek pixie~
+duszek pixie~
+duszka pixie~
+duszkowi pixie~
+duszka pixie~
+duszkiem pixie~
+duszku pixie~
+duszku pixie~
+Widzisz blyskawicznie przemykajacego duszka niedaleko Ciebie.
+~
+Masz trudnosci z przyjrzeniem sie temu malemu zwierzakowi, tak szybko
+przelecial kolo Ciebie, ale moglbys przysiac iz byl to maly pixie!
+ 
+~
+65 524296 0 C
+3 0 0 0d0+0 0d0+1
+1000 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 3 0 0 9 9 0
+0 0 34543 0 0 0 0 2
+> fight_prog 20~
+mpe _cya $I wrzeszczacy dziko w powietrzu, probuje unikac Twych atakow.
+~
+> death_prog 100~
+mpe _cya Ginacy duszek, upadajac ciezko na ziemie traci skrzydla.
+mpoload 2072
+~
+|
+#2072
+diabelski chochlik~
+diabelski chochlik~
+diabelskiego chochlika~
+diabelskiemu chochlikowi~
+diabelskiego chochlika~
+diabelskim chochlikiem~
+diabelskim chochliku~
+diabelski chochliku~
+Diabelski chochlik przyczajony w cieniu przy ziemi.
+~
+Ten maly chochlik pochodzi z lasu pixie.
+Z jego zielona skora, malymi lekko zakrzywionymi rozkami wyglada na
+niegroznego demona, prawdopodobnie wyslanego przez jakas wiedzme w celu
+utrudnienia zycia podroznikom.
+ 
+~
+3 0 -1000 C
+5 0 0 0d0+0 0d0+0
+1500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 9 9 0
+0 0 1115887 0 2048 0 0 2
+> fight_prog 15~
+mpe $I'a skrzek strasznie zle wplywa na twoje morale!
+~
+> death_prog 100~
+mpe _red Widzisz wypadajacy maly przedmiotz reki padajacego chochlika...
+mpoload 2070
+~
+|
+#2073
+wodny pixie ~
+wodny pixie~
+wodnego pixie~
+wodnemu pixie~
+wodnego pixie~
+wodnym pixie~
+wodnym pixie~
+wodny pixie~
+Wodny pixie tanczy i swawoli na powierzchni wody.
+~
+Maly wodny duszek tanczy nad powierzchnia wody, zadowolony z twojej
+obecnosci wydajac dziwne dzwieki...... niepomny niebezpieczenstwa jakie
+sprawiasz dla niego swoja obecnoscia.
+ 
+~
+3 524288 0 C
+4 0 0 0d0+0 0d0+0
+1000 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 3 0 0 9 9 0
+0 0 34543 0 2048 0 0 2
+> fight_prog 10~
+mpe $n zostaje uderzony strumieniem wody, wytryskujacym z dloni Pixie.
+mpechoat $n $I uderza Cie silnym strumieniew wody wytryskujacym z jego dloni.
+mpdamage $n 3
+~
+> death_prog 100~
+mpe _cya $I wpada do wody, wzburzajac fale na jej powierzchni.
+mpoload 2073
+~
+|
+#0
+
+
+#OBJECTS
+#2070
+perla czarna~
+czarna perla~
+czarna perla~
+czarna perla~
+czarna perla~
+czarna perla~
+czarna perla~
+czarna perla~
+Lezaca tutaj dziwna, czarna perla, wyglada jakby wpatrywala sie w ciebie.~
+~
+9 262208 16385
+5 5 0 0
+1 400 40
+A
+14 25
+A
+4 1
+A
+12 10
+> use_prog 100~
+mea 0.$n Zaciskasz delikatnie w dloni ta czarna perle.
+mer 0.$n $n zaciska $s dlon na dziwnej czarnej perle.
+~
+|
+#2071
+pazur lesnego niedzwiadka~
+pazur lesnego niedzwiadka~
+pazur lesnego niedzwiadka~
+pazur lesnego niedzwiadka~
+pazur lesnego niedzwiadka~
+pazur lesnego niedzwiadka~
+pazur lesnego niedzwiadka~
+pazur lesnego niedzwiadka~
+Duzy pazur lesnego niedzwiadka przykowa Twoja uwage.~
+~
+5 262144 8193
+0 0 0 5
+1 0 0
+A
+5 2
+A
+1 1
+#2072
+krysztalowe skrzydelka pixie~
+krysztalowe skrzydelka pixie~
+krysztalowe skrzydelka pixie~
+krysztalowe skrzydelka pixie~
+krysztalowe skrzydelka pixie~
+krysztalowe skrzydelka pixie~
+krysztalowe skrzydelka pixie~
+krysztalowe skrzydelka pixie~
+Jakies krysztalowe skrzydelka pixie trzepotaja tu bez celu.~
+~
+9 262208 65537
+1 2 0 0
+1 1 0
+A
+3 2
+> use_prog 100~
+mea 0.$n Przypinasz sobie male krysztalowe skrzydelka do uszu.
+mer 0.$n $n przypina male skrzydelka do $s uszu.
+~
+|
+#2073
+zrodelko pierscien wody~
+zrodelko wody w ksztalcie pierscienia~
+zrodelko wody w ksztalcie pierscienia~
+zrodelko wody w ksztalcie pierscienia~
+zrodelko wody w ksztalcie pierscienia~
+zrodelko wody w ksztalcie pierscienia~
+zrodelko wody w ksztalcie pierscienia~
+zrodelko wody w ksztalcie pierscienia~
+Lezy tu zrodelko wody w ksztalcie pierscienia~
+~
+22 64 3
+0 0 0 0
+2 100 10
+A
+12 12
+#2074
+puchar napoj~
+puchar pelen napoju~
+puchar pelen napoju~
+puchar pelen napoju~
+puchar pelen napoju~
+puchar pelen napoju~
+puchar pelen napoju~
+puchar pelen napoju~
+Tajemniczy puchar pelen mikstury lezy tu, czekajac na wypicie.~
+~
+10 64 1
+10 -1 9 130
+2 1500 150
+'cure critical' 'armor' 'refresh'
+#2075
+pad paper~
+A pad of paper~
+A pad of paper~
+A pad of paper~
+A pad of paper~
+A pad of paper~
+A pad of paper~
+A pad of paper~
+A pad of paper rests upon a table here.~
+~
+12 0 0
+0 0 0 0
+10000 0 0
+#2076
+woda czysta~
+Woda czysta ja krysztal~
+Woda czysta ja krysztal~
+Woda czysta ja krysztal~
+Woda czysta ja krysztal~
+Woda czysta ja krysztal~
+Woda czysta ja krysztal~
+Woda czysta ja krysztal~
+Woda czysta jak krysztal.~
+~
+25 0 0
+30000 30000 0 0
+1 0 0
+> rand_prog 3~
+~
+|
+#0
+
+
+#ROOMS
+#2070
+Mala polana~
+Stoisz niedaleko poludniowozachodniej krawedzi trawiastej polany.
+Polana ciagnie sie na wschod i polnoc.
+~
+0 0 2
+D0
+Mala polana
+~
+~
+0 -1 2072
+D1
+Mala polana
+~
+~
+0 -1 2071
+S
+#2071
+Mala polana~
+Stosz blisko poludniowowschodniej krawedzi trawiastej laki. Duzy dab rzuca
+ogromny cien na wieksza czesc tej polany. Polana rozposciera sie dalej
+na polnoc i zachod.
+~
+0 0 2
+D0
+Mala polana
+~
+~
+0 -1 2073
+D3
+Mala polana
+~
+~
+0 -1 2070
+E
+drzewo dab~
+Sedziwy dab rzuca cien na poludniowowschodnia czesc polany.
+Po dokladniejszym przyjrzeniu sie zauwazasz wiele wydrazonych dziupli
+ktore prawdopodobnie sa schronieniami dla ptakow. Mieszkaja tu cale
+pokolena! Ten ogromny dab, moglby opowiedziec wiele ciekawych historii.
+Zauwazasz nawet wyznanie milosne wyryte na korze, tuz ponizej ogromnego
+serca z inicjalani, niestety niemozliwymi do odczytania. 
+~
+S
+#2072
+Mala polana~
+Stoisz niedaleko polnocnozachodniej krawedzi trawiastej polany.
+Maly powiew wiatru z poludnia tarmosi Twoje ubranie. Mozesz pojsc na
+wschchod i poludnie.
+~
+0 0 2
+D1
+Mala polana
+~
+~
+0 -1 2073
+D2
+Mala polana
+~
+~
+0 -1 2070
+S
+#2073
+Mala polana~
+Stoisz niedaleko polnocnowschodniej czesci polany pokrytej wspaniala laka.
+Polnocna i wschodnia sciezka zapuszcza sie gleboko w las.
+Czy jestes gotowy na to, aby nia kroczyc?
+~
+0 0 2
+D0
+Sciezka
+~
+~
+0 -1 2075
+D1
+Sciezka
+~
+~
+0 -1 2074
+D2
+Mala polana
+~
+~
+0 -1 2071
+D3
+Mala polana
+~
+~
+0 -1 2072
+S
+#2074
+Skrzyzowanie sciezek w lesie~
+Jestes na skrzyzowaniu sciezek w lesie, lekko zagubiony bo z tego wezla
+odchodza sciezki w czterech kierunkach. Przez korony drzew sacza sie slabo
+promienie sloneczne. Wspanialy widok!
+~
+0 0 3
+D0
+Sciezka
+~
+~
+0 -1 2076
+D3
+Mala polana
+~
+~
+0 -1 2073
+D6
+Sciezka.
+~
+~
+0 -1 2099
+D8
+Zakret na polnej sciezce.
+~
+~
+0 -1 21404
+S
+#2075
+Sciezka w lesie~
+Brudna sciezka ktora kroczysz prowadzi na wschod i polodnie.
+~
+0 0 3
+D1
+Sciezka
+~
+~
+0 -1 2076
+D2
+Mala polana
+~
+~
+0 -1 2073
+S
+#2076
+Sciezka through the forest~
+Sciezka ktora podrozujesz prowadzi na polnoc, poludnie i zachod.
+Polnocna czesc lasu wyglada na ciemniejsza niz reszta lasu.
+~
+0 0 3
+D0
+Mala polana
+~
+~
+0 -1 2084
+D2
+Sciezka
+~
+~
+0 -1 2074
+D3
+Sciezka
+~
+~
+0 -1 2075
+S
+#2077
+Sciezka prowadzaca przez las~
+Sciezka prowadzi na wschod i poludnie. Zauwazasz tropy duzego zwierzecia
+ktore szlo przez bloto i tropy jeszcze nie wyschly. To prawdopodobnie sa
+tropy... Nie niemozliwe!!!
+~
+0 0 3
+D1
+Rozdroze na sciezce
+~
+~
+0 -1 2078
+D2
+Sciezka
+~
+~
+0 -1 2099
+E
+trop~
+Rozpoznajesz trop nalezacy do brazowego niedzwiadka, ktory krazy tu
+niedaleko. Uwazaj bo czuje sie tutaj panem i moze przetrzepac Ci skore!
+~
+S
+#2078
+Rozdroze na sciezce~
+Sciezka ktora kroczysz rozdziela sie tutaj i nowa waska sciezka prowadzi
+na polnoc.
+~
+0 0 3
+D0
+Sciezka
+~
+~
+0 -1 2086
+D1
+Sciezka
+~
+~
+0 -1 2079
+D3
+Sciezka
+~
+~
+0 -1 2077
+S
+#2079
+Sciezka przez grube listowie~
+Sciezka ktora kroczysz przez las jest tutaj zarosnieta mlodymi drzewami.
+Na zachodzie widac mala odnoge.
+~
+0 0 3
+D0
+Sciezka
+~
+~
+0 -1 2087
+D1
+Zbyt ciemno aby cokolwiek powiedziec
+~
+~
+0 -1 2080
+D3
+Skrzyzowanie na sciezce
+~
+~
+0 -1 2078
+S
+#2080
+Wewnatrz jaskini~
+Stoisz wewnatrz jaskini i widzisz szczeliny prowadzace na zewnatrz
+do gestego lasu. Odor drapieznikow czuc tutaj unoszacy sie w powietrzu.
+~
+0 0 3
+D1
+Zbyt ciemno aby cokolwiek powiedziec
+~
+~
+0 -1 2081
+D3
+Sciezka
+~
+~
+0 -1 2079
+S
+#2081
+Wewnatrz a wygodna jaskinia~
+The jaskinia continues to the north and west here with the stone walls showing
+signs of wear from constant claw marks.
+~
+0 9 0
+D0
+Zbyt ciemno aby cokolwiek powiedziec
+~
+~
+0 -1 2089
+D3
+Zbyt ciemno aby cokolwiek powiedziec
+~
+~
+0 -1 2080
+S
+#2082
+Gleboko wewnatrz wilgotnej jaskini~
+Tutaj, gleboko wewnatrz jaskini, jest stare zniszczone legowisko jakiego
+malego zwierzecia. Malego, ale jakze okrutnego!!! Cala podloga jaskini
+jest pokryta polamanymi koscmi. Zwierze tu zyjace musi byc BESTIA zakleta
+w malym ciele. W glebi duszy wiesz, iz lepiej by bylo dla Ciebie zebys
+jej nigdy nie spotykal!
+~
+0 1049097 13
+D1
+Zbyt ciemno aby cokolwiek powiedziec
+~
+~
+0 -1 2083
+S
+#2083
+Wewnatrz wilgotnej jaskini~
+Wilgotna jaskinia wydaje sie niemiec scian, Rozproszone swiatlo ukazuje
+tunel na zachod. Na wschodzie promienie sloneczne wskazuja Ci wejscie do
+di jaskini.
+~
+0 9 13
+D1
+Ciemna polana
+~
+~
+0 -1 2084
+D3
+Zbyt ciemno aby cokolwiek powiedziec
+~
+~
+0 -1 2082
+S
+#2084
+Ciemna polana poza jaskinia~
+Trawa na tej ciemnej polanie jest wydeptana przez jakies zwierze.
+Jaskinia na zachodzie jest ciemna i wydziela sie z niej ciezki odor.
+Musi tam mieszkac jakies diabelskie zwierze. Z polany prowadza sciezki
+do lasu na polnoc i poludnie.
+~
+0 0 4
+D0
+Maly staw
+~
+~
+0 -1 2090
+D2
+Sciezka
+~
+~
+0 -1 2076
+D3
+Zbyt ciemno aby cokolwiek powiedziec
+~
+~
+0 -1 2083
+S
+#2085
+Trawiasty brzeg~
+Piasek nad tym brzegiem jest miekki, goracy i suchy, podloze wydaje sie
+emitowac naturalne cieplo.  Maly staw na polnocy wprost zaprasza
+do kapieli. Jakas sciezka wchodzi do lasu na zachodzie.
+~
+0 0 2
+D0
+Maly staw
+~
+~
+0 -1 2091
+D1
+Sciezka
+~
+~
+0 -1 2086
+S
+#2086
+Sciezka poprzez las~
+Sciezka przez las ciagnie sie z polnocy na poludnie. Na zachodnzie widac
+trawiasty wyrzyne otaczajaca maly staw. Ladna okolica za masz ochote
+rozlozyc sie na maly piknik.
+~
+0 0 3
+D0
+Waska sciezka w lesie
+~
+~
+0 -1 2092
+D2
+Rozwidlenie sciezek
+~
+~
+0 -1 2078
+D3
+A trawiasty brzeg
+~
+~
+0 -1 2085
+S
+#2087
+Sciezka prowadzaca przez las~
+Ta sciezka jest bardzo waska, z trudem odnajdujesz droge z polnocy
+na poludnie. Wejscie do jaskini na wschodzie jest zamaskowane.
+~
+0 0 3
+D0
+Sciezka
+~
+~
+0 -1 2093
+D1
+Przed wejsciem do jaskini
+~
+~
+0 -1 2088
+D2
+Sciezka
+~
+~
+0 -1 2079
+S
+#2088
+Przed wejsciem do jaskini~
+Stoisz na plytce z brazowego kamienia. Sciezka prowadzi do lasu pixie
+na zachodzie, na wschodzie znajduje sie ciemna jaskinia.
+~
+0 0 3
+D1
+Zbyt ciemno aby cokolwiek powiedziec
+~
+~
+0 -1 2089
+D3
+Sciezka
+~
+~
+0 -1 2087
+S
+#2089
+Wewnatrz wygodnej jaskini~
+Stoisz wewnatrz wieksze komfortowej jaskini. Jaskinia ciagnie sie na
+polnoc i poludnie. Na wschodzie znajduje sie wejscie do tej jaskini.
+Kilka suchych rybich szkieletow lezy na ziemi, sa zbyw zniszczone
+by mozna je bylo podniesc.
+~
+0 9 0
+D0
+Zbyt ciemno aby cokolwiek powiedziec
+~
+~
+0 -1 2095
+D2
+Zbyt ciemno aby cokolwiek powiedziec
+~
+~
+0 -1 2081
+D3
+~
+~
+0 -1 2088
+S
+#2090
+Nad malym stawem~
+Stoisz nad poludniowozachodnim brzegiem stawu, ktorego zimna woda nawet
+w najglebszym miejscu wydaje sie siegac Ci do pasa nawet w najglebszym
+miejscu.
+~
+0 0 2
+D0
+Maly staw
+~
+~
+0 -1 2096
+D1
+Maly staw
+~
+~
+0 -1 2091
+D2
+A dark clearing
+~
+~
+0 -1 2084
+S
+#2091
+Nad malym stawem~
+Nareszcie dotarles do poludniowowschodniej czesci tego malego aczkolwiek
+pieknego stawu. Na wschodzie trwaiasty brzeg zakreca na jeziorem
+rozposcierajacym sie na polnoc i zachod.
+~
+0 0 2
+D0
+Maly staw
+~
+~
+0 -1 2097
+D2
+Trawiasty brzeg
+~
+~
+0 -1 2085
+D3
+Maly staw
+~
+~
+0 -1 2090
+S
+#2092
+Sciezka przez geste listowie~
+Sciezka siagnie sie na polnoc, wschod i poludnie. Twoj wyostrzony sluch
+wedrowca, pozwala wychwycic dzwieki dochodzace z polnocy. Przykuwa to
+Twoja uwage i nabierasz ochoty by zbadac co tam sie dzieje. Uwazaj!
+~
+0 0 3
+D0
+Zbyt ciemno by zobaczyc cokolwiek przez listowie
+~
+~
+0 -1 2098
+D1
+Sciezka
+~
+~
+0 -1 2093
+D2
+Sciezka
+~
+~
+0 -1 2086
+S
+#2093
+Sciezka w lesie~
+W lesie pixie jest wiele sciezek, niektore wydeptane, inne zas slabo
+widoczne. Jednak twoja uwage przykuwa jedno z drzew noszace slady pazurow
+na korze. To musialo byc bardzo zaciekle zwierze bo slady sa male, ale
+ich ilosc swiadczy o dlugim okresie niszczenia.
+~
+0 0 3
+D2
+Sciezka
+~
+~
+0 -1 2087
+D3
+Geste listowie
+~
+~
+0 -1 2092
+E
+drzewo pazury slady~
+Po dokladniejszym przyjrzeniu sie, Twe wprawne oko dostrzega szczeguly
+swiadczace o tym iz slady te pozostawil niedzwiedz,
+~
+S
+#2094
+Niedzwiedzi barlog~
+Wlasnie zauwazasz iz znajdujesz sie w legowisku niedzwiedzia.
+Z zainteresowaniem przygladasz sie resztkom obiadu lezacym na ziemi.
+Widzisz rymie osci, kosci jakis malych zwierzat. Atmosfera jest
+przesiaknieta krwia a odor jest straszny!!.
+~
+0 9 0
+D1
+Zbyt ciemno
+~
+~
+0 -1 2095
+S
+#2095
+Zakret w jaskini~
+Jaskinia ciagnie sie na poludnie i zachod.  Maly strumyk wytryskajacy
+z polnocnej sciany oferuje krystalicznie czysta wode dla spragnionych.
+~
+0 9 0
+D2
+Zbyt ciemno zeby cokolwiek powiedziec
+~
+~
+0 -1 2089
+D3
+Zbyt ciemno aby cokolwiek powiedziec
+~
+~
+0 -1 2094
+S
+#2096
+Maly staw~
+Z trudem poruszasz sie naprzod, brodzac przez staw. Jasnoniebieska woda
+wyglada, jakby odbijala twoje odbicie w szczegolny sposob...
+Wygladasz duzo mlodziej! To dziwne.
+Brzeg rzeki ciagnie sie na wschod i poludnie.
+~
+0 0 2
+D1
+Maly staw
+~
+~
+0 -1 2097
+D2
+Maly staw
+~
+~
+0 -1 2090
+D6
+~
+~
+0 -1 2492
+E
+odbicie~
+Twoje odbicie w wodzie przypomina Ciebie jak mialec dwadziesciapare lat.
+~
+S
+#2097
+Maly staw~
+Stiosz zanurzony po kolana w wodzie i zastanawiasz sie co tu u diabla
+robisz. W miescie jest karczma a Ty tu meczysz sie przedzierajac sie przez
+wode. Chlapiac sie za kazdym krokiem i ryzykujac pograzenie w jakiejs
+wyrwie.
+~
+0 0 2
+D2
+Maly staw
+~
+~
+0 -1 2091
+D3
+Maly staw
+~
+~
+0 -1 2096
+S
+#2098
+Krysztalowy gaj~
+Wlasnie znajdujesz sie w prawdziwie niezwyklym miejscu!!
+Ta czesc lasu jest wspaniala: kazde drzewo, lisc, ostrze trawy jest
+stworzone z przezroczystego krysztalu. Swiatlo sloneczne w nieba
+rozszczepia sie na tych cudach na swe naturalne kolory.
+Masz wrazenie ze wchodzac na ta sciezke mozesz nieopatrznie naruszyc
+rownowage tego miejsca i zniszczyc to krysztalowe biekno.
+Usilnie starasz przypomniec sobie droge prowadzaca do tego miejsca
+aby w przyszlosci moc tu wrocic choc na chwile.
+~
+0 3145740 3
+D2
+Geste listowie
+~
+~
+0 -1 2092
+S
+#2099
+Dziwnie wijaca sie sciezka~
+Stoisz na bardzo pozakrecanej sciezce, podswiadomie zdajesz sobie sprawe
+ze zaraz mozesz sie zgubic lub spotkac Cie moze cos dziwnego. Zaczynasz
+nieufnie rozgladac sie na boki.
+~
+0 0 3
+D0
+Sciezka
+~
+~
+0 -1 2077
+D9
+Rozwidlenie w lesie
+~
+~
+0 -1 2074
+S
+#0
+
+
+#RESETS
+M 0 2070 1 2094
+M 0 2071 4 2071
+M 0 2072 1 2082
+M 0 2073 2 2097
+G 1 2074 1
+E 1 2073 1 2
+M 0 2073 2 2090
+G 1 2074 1
+O 0 2076 1 2090
+O 0 2076 1 2096
+O 0 2076 1 2097
+O 0 2076 1 2091
+O 0 21086 3 2075
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  2070 spec_fido
+S
+
+
+#$

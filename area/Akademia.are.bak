@@ -1,0 +1,3579 @@
+#AREA   Akademia Magii ~
+
+
+
+#VERSION 3
+#AUTHOR Sardo~
+
+#RANGES
+10 50 10 50
+$
+
+#RESETMSG Slyszysz szelest i gwar jak to na uczelni.~
+
+#FLAGS
+0 10
+
+#ECONOMY 0 22593462
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#200
+mistrz~
+Mistrz Uczelni~
+Mistrza Uczelni~
+Mistrzowi Uczelni~
+Mistrza Uczelni~
+Mistrzem Uczelni~
+Mistrzu Uczelni~
+Mistrzu Uczelni~
+Sentymentalny Mistrz Uczelni Magi Stosowanej stoi tu.
+~
+Stoi to wladczo wygladajacy Mag, gdy na niego patrzysz czujesz sie nie swojo. Jest to nie mlody juz Pixie ,ale jest Om magiem wiec nie jestes w stanie tak naprawde okreslic jego wieku.~
+3 67108872 500 C
+45 0 -300 1d1+2000 2d15+40
+300000 0
+108 108 1
+15 15 20 19 17 14 14
+0 0 0 0 0
+4 0 0 0 1 1 4
+30 30 0 0 0 0 0 0
+#201
+mistrz~
+Mistrz Uczelni~
+Mistrza Uczelni~
+Mistrzowi Uczelni~
+Mistrza Uczelni~
+Mistrzem Uczelni~
+Mistrzu Uczelni~
+Mistrzu Uczelni~
+Sentymentalny Mistrz Uczeni Magi Stosowanej stoi tu.
+~
+Stoi to wladczo wygladajacy Mag, gdy na niego patrzysz czujesz sie nie swojo. Jest to nie mlody juz Pixie ,ale jest Om magiem wiec nie jestes w stanie tak naprawde okreslic jego wieku.~
+1 8 -500 C
+45 0 -300 1d1+2000 0d0+0
+300000 0
+108 108 1
+15 15 20 19 17 14 14
+0 0 0 0 0
+4 0 0 0 9 8 0
+0 0 0 0 0 0 0 0
+#202
+wykladowca~
+Wykladowca Akademicki~
+Wykladowcy Akademickiego~
+Wykladowcy Akademickiemu~
+Wykladowce Akademickiego~
+Wykladowca Akademickim~
+Wykladowcy Akademickim~
+Wykladowco Akademicki~
+Poteznie zbudowany wykladowca stoi przed Toba i przyglada Ci sie ze spokojem.
+~
+~
+131073 33554432 500 C
+45 0 0 0d0+0 0d0+0
+300000 0
+108 108 1
+17 20 20 18 18 18 15
+0 0 0 0 0
+0 0 0 0 1 1 3
+30 40 0 0 0 0 402653216 18
+#203
+student~
+student~
+studenta~
+studentowi~
+studenta~
+studentem~
+studencie~
+studencie~
+Student chodzi tu i spiewa.
+~
+~
+131073 0 350 C
+15 0 -20 0d0+0 0d0+0
+10000 0
+108 108 0
+15 18 18 16 12 14 20
+0 0 0 0 0
+0 0 0 0 1 1 1
+15 5 273 0 1024 0 0 0
+> act_prog p gets worek~
+mpkill $n
+~
+|
+#204
+adept~
+skulony adept~
+skulonego adepta~
+skulonemu adeptowi~
+skulonego adepta~
+skulonym adeptem~
+skulonym adepcie~
+skulony adepcie~
+Skulony adept z glupawa mina uczy sie tu.
+~
+~
+65 0 350 C
+15 0 -20 1d1+199 0d0+0
+20000 0
+108 108 0
+18 18 16 16 13 16 14
+0 0 0 0 0
+32 0 0 0 17 17 0
+15 10 10 0 0 0 0 1
+#205
+czarownik~
+Czarownik~
+Czarownika~
+Czarownikowi~
+Czarownika~
+Czarownikiem~
+Czarowniku~
+Czarowniku~
+Czarownik przechadza sie tu spokojnie.
+~
+~
+65 8 0 C
+25 0 0 2d50+800 0d0+0
+50000 0
+108 108 1
+18 18 18 20 14 16 14
+0 0 0 0 0
+21 0 0 0 1667852129 1667852129 2
+30 25 48 0 0 0 1073741824 2
+#206
+mag~
+Mag~
+Maga~
+Magowi~
+Maga~
+Magiem~
+Magu~
+Magu~
+Niecierpliwie chodzi tu z kata w kat Mag. 
+~
+~
+1 268435456 150 C
+30 0 -150 3d50+1100 0d0+0
+70000 0
+108 108 1
+15 20 25 20 10 12 10
+0 0 0 0 0
+1 0 0 0 3 2 3
+35 35 1537 0 1024 0 16 524289
+#207
+czarnoksieznik~
+Czarnoksieznik ~
+Czarnoksieznika~
+Czarnoksieznikowi~
+Czarnoksieznika~
+Czarnoksieznikiem~
+Czarnoksiezniku~
+Czarnoksiezniku~
+Czarnoksieznik z dalekich krain przybyl to obejzec Uczelnie.
+~
+~
+65 33554432 0 C
+35 0 0 4d50+1200 0d0+0
+40000 0
+108 108 1
+16 22 25 25 10 22 20
+0 0 0 0 0
+0 0 0 0 1 1 3
+40 35 1035 0 1024 0 32 3
+#208
+wielki arcymag~
+Wielki Arcymag~
+Wielkiego Arcymaga~
+Wielkiemu Arcymagowi~
+Wielkiego Arcymaga~
+Wielkim Arcymagiem~
+Wielkim Arcymagu~
+Wielki Arcymagu~
+Wielki Arcymag koncentruje sie na walce z Toba!!!
+~
+~
+99 35651624 500 C
+50 0 -100 1d1+3199 1d1+50
+1000000 0
+108 108 1
+25 25 25 25 13 20 20
+0 0 0 0 0
+32 0 0 0 17 17 5
+45 65 1027 0 3072 0 402653184 4
+#209
+uczennica~
+uczennica~
+uczennicy~
+uczennicy~
+uczennice~
+uczennica~
+uczennicy~
+uczennico~
+Szybko przechodzaca uczennica potraca Cie bez pardonu.
+~
+~
+1 0 900 C
+10 0 -50 1d1+499 0d0+0
+5000 0
+108 108 2
+18 14 13 16 14 12 20
+0 0 0 0 0
+0 3 0 0 1 1 1
+15 5 0 0 1024 0 0 0
+#210
+ksiaze~
+Ksiaze~
+Ksiecia~
+Ksieciowi~
+Ksiecia~
+Ksieciem~
+Ksieciu~
+Ksieciu~
+Ksiaze tutejszej krainy siedzi i bacznie obserwuje turniejowe zmagania.
+~
+~
+65 8320 200 C
+45 0 -200 1d1+2999 2d10+50
+750000 0
+108 108 1
+25 20 20 25 20 25 12
+0 0 0 0 0
+0 3 0 0 1 1 6
+50 0 1039 0 0 0 1073745968 3
+#211
+sekretarka~
+sekretarka~
+sekretarki~
+sekretarce~
+sekretarke~
+sekretarka~
+sekretarce~
+sekretarko~
+Sekretarka pracuje tu przy biurku wsrod niezliczonej ilosci parierow.
+~
+~
+65 0 200 C
+25 0 -80 1d1+999 1d5+5
+15000 0
+108 108 2
+16 18 18 16 14 25 12
+0 0 0 0 0
+0 3 0 0 1 1 2
+20 5 9 0 1024 0 32 1
+#212
+bibliotekarz~
+bibliotekarz~
+bibliotekarza~
+bibliotekarzowi~
+bibliotekarza~
+bibliotekarzem~
+bibliotekarzu~
+bibliotekarzu~
+Stary krzepko wygladajacy bibliotekarz pracuje tu.
+~
+~
+65 8194 800 C
+35 0 -100 10d20+1500 0d0+0
+200000 0
+108 108 1
+20 20 20 25 20 17 17
+0 0 0 0 0
+1 0 0 0 3 2 4
+50 30 0 0 3073 0 16 4
+#213
+Straznik~
+straznik~
+straznika~
+straznikowi~
+straznika~
+straznikiem~
+strazniku~
+strazniku~
+Straznik uwaznie ci sie przyglada gdy go mijasz.
+~
+~
+3 32 1000 C
+15 0 0 15d15+300 1d4+10
+500 0
+112 112 1
+16 13 13 16 13 13 13
+0 0 0 0 0
+2 3 0 0 1 1 3
+0 0 2047 0 3072 0 0 3
+> time_prog 6~
+unlock s
+open s
+~
+> time_prog 22~
+close s
+lock s
+~
+|
+#214
+Straznik~
+straznik~
+straznika~
+straznikowi~
+straznika~
+straznikiem~
+strazniku~
+straznik~
+Straznik uwaznie ci sie przyglada gdy go mijasz.
+~
+~
+3 32 1000 C
+15 0 0 15d15+300 1d4+10
+500 0
+112 112 1
+16 13 13 16 13 13 13
+0 0 0 0 0
+2 3 0 0 5 4 3
+0 0 2047 0 3072 0 0 3
+> time_prog 6~
+unlock e
+open e
+~
+> time_prog 22~
+close e
+lock e
+~
+|
+#215
+Straznik~
+straznik~
+straznika~
+straznikowi~
+straznika~
+straznikiem~
+strazniku~
+strazniku~
+Straznik uwaznie ci sie przyglada gdy go mijasz.
+~
+~
+3 32 1000 C
+15 0 0 15d15+300 1d4+10
+500 0
+112 112 1
+16 13 13 16 13 13 13
+0 0 0 0 0
+2 3 0 0 5 4 3
+0 0 2047 0 3072 0 0 3
+> time_prog 6~
+unlock s
+open s
+~
+> time_prog 22~
+close s
+lock s
+~
+|
+#216
+Straznik ~
+straznik~
+straznika~
+straznikowi~
+straznika~
+straznikiem~
+strazniku~
+strazniku~
+Straznik uwaznie ci sie przyglada gdy go mijasz.
+~
+~
+3 32 1000 C
+15 0 0 15d15+300 1d4+10
+500 0
+112 112 1
+16 13 13 16 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+0 0 2047 0 3072 0 0 3
+> time_prog 6~
+unlock w
+open w
+~
+> time_prog 22~
+close w
+lock w
+~
+|
+#298
+Arcymag~
+Arcymag Xantu~
+Arcymaga Xantu~
+Arcymagowi Xantu~
+Arcymaga Xantu~
+Arcymagiem Xantu~
+Arcymagu Xantu~
+Arcymagu Xantu~
+Arcymag Xantu siedzi tu i czyta. 
+~
+~
+65 33554432 1000 C
+45 0 -150 1d1+3499 1d1+99
+500000 0
+108 108 1
+20 25 25 25 20 18 16
+0 0 0 0 0
+0 0 0 0 1 1 5
+40 30 47 0 3072 0 939524096 3
+#0
+
+
+#OBJECTS
+#200
+sztylet maga~
+sztylet mistrza~
+sztylet mistrza~
+sztylet mistrza~
+sztylet mistrza~
+sztylet mistrza~
+sztylet mistrza~
+sztylet mistrza~
+Inkrustowany sztylet mistrza~
+~
+5 8 8193
+12 20 3 11
+5 300000 30000
+A
+18 10
+A
+19 10
+A
+17 -15
+#201
+plaszcz zielony~
+Plaszcz Zielony~
+Plaszcz Zielony~
+Plaszcz Zielony~
+Plaszcz Zielony~
+Plaszcz Zielony~
+Plaszcz Zielony~
+Plaszcz Zielony~
+Bogato zdobiony zielony plaszcz mistrzowski~
+~
+9 129 9 32
+15 15 0 12
+3 50000 5000
+A
+17 -15
+A
+4 1
+A
+31 -1
+#202
+pierscien~
+pierscien szafirowy~
+pierscien szafirowy~
+pierscien szafirowy~
+pierscien szafirowy~
+pierscien szafirowy~
+pierscien szafirowy~
+pierscien szafirowy~
+Pierscien szafirowy~
+~
+9 65 3
+4 4 0 0
+1 1000 100
+A
+3 1
+#203
+buty~
+buty ~
+butow~
+butom~
+buty~
+butami~
+butach~
+buty~
+Solidne buty z kozlej skory miekkie i wytrzymale.~
+~
+9 262145 65 4
+4 4 0 0
+1 2000 1000
+A
+17 -4
+A
+18 2
+A
+1 1
+#204
+koszula~
+bawelniana koszula~
+bawelnianej koszuli~
+bawelnianej koszuli~
+bawelniana koszule~
+bawelniana koszula~
+bawelnianej koszuli~
+bawelniano koszulo~
+Lezy ty bawelniana koszula~
+~
+9 256 9 2
+4 4 0 0
+10 1000 100
+A
+17 -6
+A
+1 1
+#205
+plaszcz~
+plaszcz studencki~
+plaszcza studenckiego~
+plaszczowi studenckiemu~
+plaszcz studencki~
+plaszczem studenckim~
+plaszczu studenckim~
+plaszczu studencki~
+Poplamiony plaszcz studencki lezy tu .~
+~
+9 64 1025 16
+5 5 0 0
+12 5000 1000
+A
+24 -2
+#206
+oficerki~
+oficerki taty~
+oficerek taty~
+oficerkom taty~
+oficerki taty~
+oficerkami taty~
+oficerkach taty~
+oficerki taty~
+Solidnie wygladajace buty oficerskie~
+~
+9 0 65 8
+5 5 0 0
+3 5000 1000
+A
+17 -7
+#207
+laska~
+laska~
+laski~
+lasce~
+laske~
+laska~
+laske~
+lasko~
+Z wygladu jest to zwylka laska.~
+~
+4 64 16385
+20 6 6 -1
+1 1000 1000
+'cure critical'
+#208
+waski sztylet~
+waski sztylet~
+waskiego sztyletu~
+waskiemu sztyletowi~
+waski sztylet~
+waskim sztyletem~
+waskim sztylecie~
+waski sztylecie~
+Waski niebezpiecznie wygladajacy sztylet w kolorze czernym.~
+~
+5 64 8193
+9 5 3 6
+2 3000 300
+A
+18 5
+A
+19 3
+#209
+plaszcz czarownika~
+plaszcz czarownika~
+plaszcza czarownika~
+plaszczowi czarownika~
+plaszcz czarownika~
+plaszczem czarownika~
+plaszczu czarownika~
+plaszczu czarownika~
+Gruby solidny plaszcz wala sie po ziemi.~
+~
+9 64 1025 16
+7 7 0 0
+20 50000 5000
+A
+24 -3
+A
+17 -8
+#210
+kolorowa koszula~
+kolorowa koszula~
+kolorowej koszuli~
+kolorowej koszuli~
+kolorowa koszule~
+kolorowa koszula~
+kolorowej koszuli~
+kolorowa koszulo~
+Kolorowa koszula przyciaga twoja uwage.~
+~
+9 0 9 8
+8 8 0 0
+1 15000 5000
+A
+1 2
+A
+17 -2
+#211
+pierscien czarownika~
+pierscien czarownika~
+pierscienia czarownika~
+pierscieniowi czarownika~
+pierscien czarownika~
+pierscieniem czarownika~
+pierscieniu czarownika~
+pierscieniu czarownika~
+Polyskuje tu tajemniczym switlem jakis pierscien.~
+~
+9 64 3
+8 8 0 0
+1 10 1000
+A
+5 1
+A
+6 1
+A
+31 1
+#212
+czarna bransoleta ~
+czarna bransoleta~
+czarnej bransolety~
+czarnej bransolecie~
+czarna bransolete~
+czarna bransoleta~
+czarnej bransolecie~
+czarna bransoleto~
+Czarna ciezka bransoleta turla sie po ziemi.~
+~
+9 64 4097
+5 5 0 0
+2 10000 3000
+A
+12 20
+A
+13 5
+#213
+Zielonkawy sztylet~
+zielonkawy sztylet~
+zielonkawego sztyletu~
+zielonkawemu sztyletowi~
+zielonkawy sztylet~
+zielonkawym sztyletem~
+zielonkawym sztylecie~
+zielonkawy sztylecie~
+Solidnie wykonany sztylet cieszy twoje oko.~
+~
+5 9 8193
+10 10 2 0
+1 20000 1000
+A
+18 7
+A
+19 4
+#214
+wyjsciowe buty~
+wyjsciowe buty~
+wyjsciowych butow~
+wyjsciowym butom~
+wyjsciowe buty~
+wyjsciowymi butami~
+wyjsciowych butach~
+wyjsciowe buty~
+Walaja sie tutaj wyjsciowe buty jakiegos maga.~
+~
+9 1 65 8
+9 9 0 0
+3 8000 1000
+A
+1 2
+A
+17 -7
+#215
+pled maga~
+pled maga~
+pleda maga~
+pledowi maga~
+pled maga~
+pledem maga~
+pledzie maga~
+pledzie maga~
+Zwiniety cieply solidny pled lezy sobie w kacie.~
+~
+9 64 1025 8
+8 8 0 0
+1 4000 400
+A
+24 -4
+#216
+bawelniana koszula ~
+bawelniana koszula~
+bawelnianej koszuli~
+bawelnianej koszuli~
+bawelniana koszule~
+bawelniana koszula~
+bawelnianej koszuli~
+bawelniana koszulo~
+Lsniaca biela bawelniana koszula poniewiera sie na ziemi.~
+~
+9 0 9 2
+9 9 0 0
+5 20000 2000
+A
+2 1
+A
+4 2
+#217
+laska maga~
+laska maga~
+laski maga~
+lasce maga~
+laske maga~
+laska maga~
+lasce maga~
+lasko maga~
+Okuta zelazem lasaka wojenna.~
+~
+5 1 8193
+10 10 2 0
+20 1000 100
+A
+12 40
+#218
+amulet~
+Amulet ~
+Amulet ~
+Amulet ~
+Amulet ~
+Amulet ~
+Amulet ~
+Amulet ~
+Amulet maga lezy na ziemi.~
+~
+9 64 5
+10 10 0 0
+1 10000 1000
+A
+13 15
+A
+31 1
+#219
+pierscien maga~
+pierscien~
+pierscienia~
+pierscieniowi~
+pierscien~
+pierscieniem~
+pierscieniu~
+pierscieniu~
+Cos polyskuje na ziemi.~
+~
+9 1089 3
+10 10 0 0
+1 40000 4000
+A
+3 1
+A
+3 1
+A
+31 1
+#220
+pierscien zloty~
+Zloty pierscien~
+Zloty pierscien~
+Zloty pierscien~
+Zloty pierscien~
+Zloty pierscien~
+Zloty pierscien~
+Zloty pierscien~
+Bogato adobiony pierscien mistrza lezy tu.~
+~
+9 2113 3
+6 6 0 0
+1 50000 5000
+A
+5 2
+A
+4 2
+#221
+pas~
+pas pleciony~
+pasa plecionego~
+pasowi plecionemu~
+pas pleciony~
+pasem plecionym~
+pasie plecionym~
+pasie pleciony~
+Szeroki pas spleciony z skory magicznego jeza.~
+~
+9 262208 2049 8
+9 9 0 0
+1 1000 100
+A
+13 15
+#222
+buty zielone~
+Buty Mistrza~
+Buty Mistrza~
+Buty Mistrza~
+Buty Mistrza~
+Buty Mistrza~
+Buty Mistrza~
+Buty Mistrza~
+Buty specjalnie robionr dla mistrza~
+~
+13 1088 65 8
+0 0 0 0
+1 0 0
+A
+17 -10
+A
+18 15
+#223
+amulet swiecony~
+Swiety amulet~
+Swiety amulet~
+Swiety amulet~
+Swiety amulet~
+Swiety amulet~
+Swiety amulet~
+Swiety amulet~
+Swiety amulet~
+~
+9 4224 5
+0 0 0 0
+1 0 0
+A
+26 1
+A
+26 1024
+A
+26 2
+#224
+czarny plaszcz~
+czarny plaszcz~
+czarnego plaszcza~
+czarnemu plaszczowi~
+czarny plaszcz~
+czarnym plaszczem~
+czarnym plaszczu~
+czarny plaszczu~
+Gruby plaszcz z niedzwiedziego futra lezy tu.~
+~
+9 64 1025 16
+0 0 0 0
+1 0 0
+A
+13 100
+A
+24 -5
+#225
+magiczny plomien~
+magiczny plomien~
+magicznego plomienia~
+magicznemu plomieniowi~
+magiczny plomien~
+magicznym plomieniem~
+magicznym plomieniu~
+magiczny plomieniu~
+Swieci wewnetrznym swiatlem jakis przedmiot.~
+~
+1 65 16385 1
+5 5 25 0
+10 500000 50000
+A
+13 15
+A
+17 -5
+#226
+laska arcymaga~
+laska arcymaga~
+laski arcymaga~
+lasce arcymaga~
+laske arcymaga~
+laska arcymaga~
+lasce arcymaga~
+lasko arcymaga~
+Wielkiej wagi laska ArcyMaga~
+~
+4 65 16385 1
+45 3 3 -1
+50 10000 1000
+'sanctuary'
+#227
+pierscien arcymaga~
+pierscien arcymaga~
+pierscienia arcymaga~
+pierscieniowi arcymaga~
+pierscien arcymaga~
+pierscieniem arcymaga~
+pierscieniu arcymaga~
+pierscieniu arcymaga~
+Wielki pierscien z diamentem polyskuje na ziemi.~
+~
+9 16973889 3 1
+1 1 0 0
+1 0 0
+A
+5 2
+A
+13 14
+A
+12 14
+A
+1 2
+#228
+sztylet magiczny~
+magiczny sztylet~
+magicznego sztyletu~
+magicznemu sztyletowi~
+magiczny sztylet~
+magicznym sztyletem~
+magicznym sztylecie~
+magiczny sztylecie~
+Specjalnej konstrukcji sztylet ze stali ksiezycowej .~
+~
+5 524289 8193 1
+12 10 3 0
+1 500000 50000
+A
+2 -2
+A
+18 15
+A
+19 10
+A
+17 -10
+A
+5 -2
+A
+24 6
+#229
+plaszcz magiczny~
+magiczny plaszcz~
+magicznego plaszcza~
+magicznemu plaszczowi~
+magiczny plaszcz~
+magicznym plaszczem~
+magicznym plaszczu~
+magiczny plaszczu~
+Plaszcz zrobiony z magicznego pylu unosi sie tu.~
+~
+9 262208 1025 16
+10 10 0 0
+1 100000 10000
+A
+13 120
+A
+24 -5
+A
+26 2097152
+A
+12 100
+A
+3 -3
+#230
+pas magiczny~
+Magiczny Pas~
+Magiczny Pas~
+Magiczny Pas~
+Magiczny Pas~
+Magiczny Pas~
+Magiczny Pas~
+Magiczny Pas~
+Pas Wielkiego-Arcymaga ~
+~
+9 262209 2049 16
+5 5 0 0
+20 20000 2000
+A
+13 30
+A
+12 30
+A
+26 2
+#231
+Zlocisty pierscien~
+Zlocisty Pierscien ~
+Zlocisty Pierscien ~
+Zlocisty Pierscien ~
+Zlocisty Pierscien ~
+Zlocisty Pierscien ~
+Zlocisty Pierscien ~
+Zlocisty Pierscien ~
+Wysadzany drogimi kamieniami pierscien migocze w ogniu.~
+~
+9 3 3 1
+1 1 0 0
+1 20000 2000
+A
+13 5
+A
+5 2
+A
+18 2
+A
+19 1
+#232
+Bransoleta Arcymaga~
+Bransoletka Arcymaga~
+Bransoletka Arcymaga~
+Bransoletka Arcymaga~
+Bransoletka Arcymaga~
+Bransoletka Arcymaga~
+Bransoletka Arcymaga~
+Bransoletka Arcymaga~
+Bransoletka Arcymaga w ksztalcie weza.~
+~
+9 -2147220416 4097 1
+13 13 0 0
+1 10000 1000
+A
+12 50
+A
+3 -1
+#233
+laska arcymaga~
+Laska Arcymaga~
+Laska Arcymaga~
+Laska Arcymaga~
+Laska Arcymaga~
+Laska Arcymaga~
+Laska Arcymaga~
+Laska Arcymaga~
+Bardzo dluga laska w ksztalcie weza owinietego wokolo drzewa.~
+~
+4 -2139094975 16385
+50 4 4 -1
+1 30000 3000
+'lifelift'
+A
+26 128
+#234
+Ksiazecy Tren~
+krolewski tren~
+krolewskiego trenu~
+krolewskiemu trenowi~
+krolewski tren~
+krolewskim trenem~
+krolewskim trenie~
+krolewski trenie~
+Mieni sie purpura tren przeznaczony dla krola.~
+~
+9 8389185 1025 32
+0 0 0 0
+1 10000 1000
+A
+13 80
+A
+24 -3
+A
+14 -200
+#235
+Zlote Buty~
+zlote buty~
+zlotych butow~
+zlotym butom~
+zlote buty~
+zlotymi butami~
+zlotych butach~
+zlote buty~
+Niezwyklej urody zlocone buty. ~
+~
+9 132161 65 8
+5 5 0 0
+1 1000 1000
+A
+13 30
+A
+4 1
+#236
+Krolewski pierscien~
+krolewski pierscien~
+krolewskiego pierscienia~
+krolewskiemu pierscieniowi~
+krolewski pierscien~
+krolewskim pierscieniem~
+krolewskim pierscieniu~
+krolewski pierscieniu~
+Pierscien wysadzany diamentami i szmaragdami.~
+~
+9 65 3
+2 2 0 0
+2 10000 1000
+A
+1 2
+A
+3 -4
+#237
+Insygnia Krolewskie~
+insygnia krolewskie~
+insygni krolewskich~
+insygnia krolewskim~
+insygnia krolewskie~
+insygniami krolewskimi~
+insygniach krolewskich~
+insygnia krolewskie~
+Insygnia przeznaczone dla nastepcy tronu leza rozrzucone na ziemi.~
+~
+9 4224 5
+1 1 0 0
+100 0 30000
+A
+26 1024
+#238
+Korona krolewska~
+korona krolewska~
+korony krolewskiej~
+koronie krolewskiej~
+korone krolewska~
+korona krolewska~
+koronie krolewskiej~
+korono krolewska~
+Bogato zdobiona korona krolewska~
+~
+9 4224 17 16
+1 1 0 0
+50 0 0
+A
+26 1
+A
+24 -8
+#239
+spodnica~
+spodnica~
+spodnica~
+spodnica~
+spodnica~
+spodnica~
+spodnica~
+spodnica~
+Spodnica sekretarki~
+~
+9 0 2049 4
+3 3 0 0
+1 1000 300
+A
+24 -2
+#240
+wyszywana bluzka~
+Wyszywana bluzka~
+wyszywanej bluzki~
+wyszywanej bluzce~
+wyszywana bluzke~
+wyszywana bluzka~
+wyszywanej bluzce~
+wyszywana bluzko~
+Elegancka wyjsciowa bluzka z jedwabiu~
+~
+9 1 9 2
+5 5 0 0
+1 0 0
+A
+17 -8
+#241
+Starozytny Amulet ~
+starozytny amulet~
+starozytnego amuletu~
+starozytnemu amuletowi~
+starozytny amulet~
+starozytnym amuletem~
+starozytnym amulecie~
+starozytny amulecie~
+Nie do opisania brzydki kawal metalu lezy w rogu.~
+~
+9 -2122121215 5
+3 3 0 0
+1 2000 500
+A
+17 -10
+#242
+Ksiazka zaklec~
+ksiazka zaklec~
+ksiazki zaklec~
+ksiazce zaklec~
+ksiazke zaklec~
+ksiazka zaklec~
+ksiazce zaklec~
+ksiazko zaklec~
+Ksiaga w obskornej oprawie lezy na stole~
+~
+4 65 16385
+50 4 4 -1
+2 1000 1000
+'heal'
+#243
+kartka~
+postrzepiona kartka~
+postrzepionej kartki~
+postrzepionej kartce~
+postrzepiona kartke~
+postrzepiona kartka~
+postrzepionej kartce~
+postrzepiona kartko~
+Postrzepiona kartka z notatka lezy zakurzona.~
+~
+2 64 16385
+40 -1 144 -1
+1 0 0
+'shockshield' 'shield' 'NONE'
+#260
+worek~
+worek~
+worka~
+workowi~
+worek~
+workiem~
+worku~
+worku~
+Porozrywany popruty worek studencki.~
+~
+15 64 16385
+65 0 0 4
+1 0 0
+#261
+skrol~
+zwykly skrol~
+a newly created skroll~
+a newly created skroll~
+a newly created skroll~
+a newly created skroll~
+a newly created skroll~
+a newly created skroll~
+Postrzepiony zwykly skrol jak wiele tu.~
+~
+2 1 1
+20 -1 20 5
+1 0 0
+'stone skin' 'bless' 'angelicus'
+A
+26 2
+#262
+szuflada~
+szuflada~
+a newly created szuflada~
+a newly created szuflada~
+a newly created szuflada~
+a newly created szuflada~
+a newly created szuflada~
+a newly created szuflada~
+Szuflada biurka.~
+~
+15 0 0
+65 0 0 12
+1000 0 0
+A
+26 65536
+A
+26 2
+#296
+Wkey~
+Wkey~
+Wkey~
+Wkey~
+Wkey~
+Wkey~
+Wkey~
+Wkey~
+Lezy na ziemi w kurzu i blocie klucz do bramy uczelni.~
+~
+18 0 1
+0 0 0 0
+1 1000 100
+#297
+Skey~
+Skey~
+Skey~
+Skey~
+Skey~
+Skey~
+Skey~
+Skey~
+Klucz do poludniowej bramy turla sie pod nogami.~
+~
+18 0 1
+0 0 0 0
+1 1000 100
+#298
+Nkey ~
+Nkey~
+Nkey~
+Nkey~
+Nkey~
+Nkey~
+Nkey~
+Nkey~
+Lezy tu Nkey do drzwi uczelnianych.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#299
+Ekey~
+Ekey~
+Ekey~
+Ekey~
+Ekey~
+Ekey~
+Ekey~
+Ekey~
+Ekey do drzwi uczelnianych.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#200
+Dziedziniec.~
+Stoisz  na  otwartym dziedzincu wylozonym czarnym granitem. Nie ma tutaj dachu. 
+Opodal,  na  trawniku miedzy drzewami, dostrzegasz w pelnym swietle zaczarowana 
+kamienna  fontanne. Serce bije Ci ze zdwojona predkoscia, gdyz zdaje Ci sie, ze 
+odczuwasz  dzialajace  wokol  moce  i wiesz, iz sa one mocniejsze od kamieni, z 
+ktorych  zbudowano  ta  Starozytna  Uczelnie.  Na  wschodzie widzisz wejscie do 
+Glownej  Czytelni uczelnianej, zas z zachodu dobiega Cie wrzawa i szczek broni. 
+Tak,  to  sala  turniejowa,  slynna  w  calym  swiecie. Na polnocy znajduje sie 
+wejscie do Galerii, natomiast na poludniu znajduje sie Sala Mistrzow.
+~
+0 65536 2
+D0
+~
+~
+1 -1 215
+D1
+~
+~
+0 -1 206
+D2
+~
+~
+1 -1 272
+D3
+~
+~
+0 -1 201
+D6
+~
+~
+0 -1 211
+D7
+~
+~
+0 -1 212
+S
+#201
+Sala turniejowa.~
+Sala ta zbudowana jest na planie elipsy
+Po obu stronach tego pomieszczenia sa ulokaowane loze dla obywateli
+Zewnetrzne arkady prowadza do blizniaczych kregow, ktore to wioda do 
+poszczegolnych wejsc na widownie.
+Widownie od areny oddziela prawie czerometrowej wysokosci podium na ktorym 
+sa umieszczone loze honorowe.
+Arene pokrywa drewniana podloga, ktora wrazie potrzeby mozna usunac.
+Pomieszczenie to i korytarz tworza bardzo funkcjonalnie polaczona calosc.
+~
+0 8 0
+D1
+~
+~
+0 -1 200
+D3
+~
+~
+0 -1 202
+S
+#202
+Zbrojownia.~
+Znajdujesz sie w pomieszczeniu, ktore od podlogi az po sufit zalozone
+jest roznego rodzaju bronia, od mieczy poprzez kopie, topory, ale rowniez
+dostrzegasz poukladane rowniutko w rzedzie wieksze i mniejsze tarcze.
+Bron ta sluzy tutejszym uczniom w cotygodniowych turniejach, ale uzywana 
+jest, tez do codziennych treningow pod okiem Mistrza Fechtunku.
+Jak to mistrz mowi 'Mag powinie, byc takze adeptem sztuk rycerskich, bo
+nie zawsze bedzie mogl kozystac ze swoich sztuk magicznych'
+~
+0 8 0
+D1
+~
+~
+0 -1 201
+D3
+~
+~
+0 -1 203
+S
+#203
+Zachodnia Brama.~
+Stoisz wenatrz Wielkiej Zachodniej Bramy Uczelni Magi w Astrall Dominion.
+Wrota te zdobia runy ochronne wiec napewno sa solidne i odporne 
+na wszelkiego autoramentu wlamywaczy i zlodzieji.
+Mury tego budynku, takze napawaja Cie pewnoscia i poteguja uczucie bezpie-
+czenstwa. W podwojach tego budynku nic zlego nie moze sie przydarzyc.
+Bramy tej strzeze muskularny krasnolod, ktory jest w sluzbie tutejszego 
+Wielkiego-Arcymaga Wertigo przelozonego tej uczelni.
+~
+0 65536 1
+D1
+~
+~
+0 -1 202
+D3
+~
+~
+39 296 205
+S
+#204
+Opodal uczelni.~
+Jestes prawie u celu swojej podrozy.
+Ponad szczytem pagorka dostrzegasz juz budynek Wyzszej Uczelni Magi.
+Droga, ktora idziesz stala sie szeroka wiec latwo sie po niej  szybko
+poruszac. Przyszpieszasz wiec kroku, aby jak najpredzej dostac sie 
+do slawetnej uczelni.
+~
+0 0 1
+D1
+~
+~
+3 -1 203
+D3
+~
+~
+0 -1 205
+S
+#205
+Skrzyzowanie.~
+Jest to skrzyzowanie dwoch glownych traktow.
+Mozesz tu dokonac wyboru czy chcesz isc do Wyzszej Uczelni Magi czy tez
+zawrocic, mozesz takze wybrac sie traktem zachodnim, ale pamietaj, ze
+na drodze tej grasuja bandy grabierzcow.
+~
+0 0 1
+D0
+~
+~
+0 -1 263
+D1
+~
+~
+39 296 203
+D2
+~
+~
+1 -1 3500
+S
+#206
+Biblioteka.~
+Pomieszczenie biblioteki zastawione jest szfami, ktorych polki, az sie
+uginaja od stosow ksiag poukladanych na nich.
+Pod pozornie panujacym tu haosem, mozna zorietowac sie, ze wszystkie dziela 
+poukladane sa w odpowiedni sposob.
+Dostrzegasz tu tez niezliczona ilosc pergminow i skroli, ktore to leza 
+w specjalnie dla nich zbudowanych przegrogkach przy wschodniej scianie.
+Wszystkie te rekopisy zawieraja zaklecia i wzory magiczne tak wazne 
+dla kazdego uprawiajacego sztuke magiczna, dlatego pomieszczenie to otaczone
+jest czarami, ktore daja ochrone przed ogniem i woda.
+Dodatkow wszystkie czary tu czynione maja mniejsza moc.
+~
+0 8 0
+D1
+~
+~
+0 -1 207
+D3
+~
+~
+0 -1 200
+S
+#207
+Czytelnia.~
+Wszedles wlasnie do czytelni uczelnianej.
+Widzisz rzedy lawek, oraz poukladane na nich pergaminy skulonaych nad nimi
+mlodych czarownikow.
+Panuje tu cisza i spokoj, a jedyne odglosy jakie dochodza do twoich uszu
+to dzwieki zycia zewnetrznego.
+Moze i ty przysiadziesz i poczytasz troche ?
+Napewno wiedza, ktora tu zdobedziesz przyda Ci sie w przyszlej walce o zycie.
+~
+0 8 0
+D1
+~
+~
+0 -1 208
+D3
+~
+~
+0 -1 206
+S
+#208
+Wschodnia Brama.~
+Stoisz wenatrz Wielkiej Wschodniej Bramy Uczelni Magi w Astrall Dominion.
+Wrota te zdobia runy ochronne wiec napewno sa solidne i odporne 
+na wszelkiego autoramentu wlamywaczy i zlodzieji.
+Mury tego budynku, takze napawaja Cie pewnoscia i poteguja uczucie bezpie-
+czenstwa. W podwojach tego budynku nic zlego nie moze sie przydarzyc.
+Bramy tej strzeze muskularny krasnolod, ktory jest w sluzbie tutejszego 
+Wielkiego-Arcymaga Wertigo przelozonego tej uczelni.
+~
+0 0 1
+D1
+~
+~
+35 299 209
+D3
+~
+~
+0 -1 207
+S
+#209
+Opodal uczelni.~
+Jestes prawie u celu swojej podrozy.
+Ponad szczytem pagorka dostrzegasz juz budynek Wyzszej Uczelni Magi.
+Droga, ktora idziesz stala sie szeroka wiec latwo sie po niej  szybko
+poruszac. Przyszpieszasz wiec kroku, aby jak najpredzej dostac sie 
+do slawetnej uczelni.
+~
+0 0 1
+D1
+~
+~
+0 -1 210
+D3
+~
+~
+35 299 208
+S
+#210
+Skrzyzowanie.~
+Jest to skrzyzowanie dwoch glownych traktow.
+Mozesz tu dokonac wyboru czy chcesz isc do Wyzszej Uczelni Magi czy tez
+zawrocic, mozesz takze wybrac sie traktem wschodnim, ale pamietaj, ze
+na drodze tej grasuja bandy grabierzcow.
+~
+0 0 1
+D0
+~
+~
+0 -1 242
+D1
+~
+~
+1 -1 6137
+D2
+~
+~
+0 -1 243
+D3
+~
+~
+1056 -1 208
+S
+#211
+Wejscie na Dziedziniec.~
+Wszedles na korytarz prowadzacy na dziedziniec. Jest to miejsce, gdzie 
+na scianach porozwieszane sa roznego rodzaju sprzety potrzebne 
+do uprawiania magi, natomiast podloga pokryta jest runami tworzenia,
+ktore to sa podstawa konstrukcji tego budynku.
+Na suficie dostrzegasz tysiace plamek, dopiero po chwili orietujesz sie, ze 
+jest to mapa nieba w tym rejonie widzianego w najdluzsza noc.
+Na wschodzie widzisz wejscie na balkon widokowy, mozesz tam sie udac,
+zeby porownac widok nieba z malowidlem na suficie, albo tez mozesz isc na
+zachod do komnaty wyklaowcow i zaczerpnac nieco wiedzy.
+~
+0 8 0
+D6
+~
+~
+0 -1 219
+D9
+~
+~
+0 -1 200
+S
+#212
+Wejscie na Dziedziniec.~
+Wszedles na korytarz prowadzacy na dziedziniec. Jest to miejsce, gdzie 
+na scianach porozwieszane sa roznego rodzaju sprzety potrzebne 
+do uprawiania magi, natomiast podloga pokryta jest runami tworzenia,
+ktore to sa podstawa konstrukcji tego budynku.
+Na suficie dostrzegasz tysiace plamek, dopiero po chwili orietujesz sie, ze 
+jest to mapa nieba w tym rejonie widzianego w najdluzsza noc.
+Na wschodzie widzisz wejscie na balkon widokowy, mozesz tam sie udac,
+zeby porownac widok nieba z malowidlem na suficie, albo tez mozesz isc na
+zachod do komnaty wyklaowcow i zaczerpnac nieco wiedzy.
+~
+0 8 0
+D7
+~
+~
+0 -1 216
+D8
+~
+~
+0 -1 200
+S
+#213
+Katakumby.~
+Te glabokie podziemne pomieszczenia byly kiedys grata cyklopa Ywana.
+Pozniaj po tym jak zostal zniej przegoniony staly sie one miejscem spotkan
+pierwszych magow, ktorzy niedlugo potem zaczeli grzebac tu swoich zmarlych
+Po wiekach zapomnienia odkryto je ponownie po tym jak stanal tu gmach Uczelni
+Po wiekach zapomnienia odkryto je ponownie po tym jak stanal tu 
+gmach uczelni.
+W katakumbach znajduja sie ruiny starozytnych kaplic.
+Za apsyda jest nisza z swietym ogniem.
+W drugiej czesci tego pomieszczenia znajduje sie najstarsze znane zrodlo 
+uzdrawiajace.
+~
+0 9 0
+D3
+~
+~
+3 -1 215
+S
+#214
+Mauzoleum.~
+Rodzinny Grobowiec pierwszego Wielkiego-Arcymaga i pana tej uczelni.
+Jest kolista budowla skladajaca sie z koncentrycznych tufowych murow polaczo
+nych promieniscie ustawionymi scianami. Centralnym filarem tej budowli jest
+kwadratowa kolumna wyrzezbiona z kla wielkiej Harpi.
+Na przeciwleglej do wejscia sciaianie na srodku stoi grob Arcymaga, 
+a w trzech niszach po bokach syn, corka i jego zona.
+Panuje tu stale polmrok i wilgoc, aczkolwiek atmosfera tego miejsca nie jest 
+nieprzyjemna i mozna tu wyczuc aure wielkiej magii.
+~
+0 8 0
+D1
+~
+~
+3 -1 215
+S
+#215
+Galeria.~
+Galeria jest olbrzymia prostokatna sala z beczkowatym sklepieniem,
+podzielona na dwie, nie jednakowej wielkosci czesci.
+Jedna z nich to wspaniala marmurowa transenna, czyli ekranem jest
+to dzielo Wielkiego Rzezbiarza z Gontu.
+Glowna atrakcja sa jednak gobeliny i obrazy na scianach 
+oraz freski na sklepieniu. Freski te sa jednym z najwiekszych osiagniec
+artystycznych wszechczasow i sa duma Akademi
+Zaczynajac ogladanie sklepienia od lewej strony widzisz medytujacego
+Nemerle, czytajacego Kurrkemeruka, walczacego cyklopa Ywae,
+Uczniow sluchajacych arcymaga.
+Obrazy na scianach przedstawiaja wydarzenia opiewane w piesniach 
+O CZYNACH BOHATERSKICH
+Cala ta sala stanowi najwieksze dziedzictwo historyczne Akademi
+~
+0 8 0
+D1
+~
+~
+33 -1 213
+D2
+~
+~
+0 -1 200
+D3
+~
+~
+0 -1 214
+S
+#216
+Korytarz.~
+Zupelnie zwyczajny korytarz jak wiele innych tego rodzaju pomieszczen 
+jest slabo oswietlony pokonujesz go wiec ostroznie pomalu, aby nie zrobic 
+sobie krzywdy uderzajac o stojace tutaj meble.
+Na scianach korytarza dostrzegasz gobeliny przedstawiajace magiczne potyczki
+Starozytnych Magow.
+Jeden z nich przedstawia pojedynek Maga z ohydna Harpia, 
+drugi na przeciwleglej scieanie ukazuje Mistrza Ogiona stojacego 
+nad poszarpanymi zwlokami wielkiego starozytnego smoka, ktory napadl na ta 
+uczelnie.
+~
+0 8 0
+D0
+~
+~
+0 -1 220
+D8
+~
+~
+0 -1 212
+S
+#217
+Aula wykladowa.~
+Znajdujesz sie w sali w ktorej wlasnie odbywaja sie zajecia .
+Na podwyzszeniu stoi dumnie wygladajacy Mistrz i prowadzi wyklad, a glebi 
+na idacych w gore rzedach krzesel siedza zasluchani  adepci sztuki magicznej.
+Na ziemi pod sciana leza 'worki' uczniowskie moze ktorys zawiera cos ciekawego.
+ale pamietaj, ze jego wlasciciel zawsze moze walczyc o swoja wlasnosc wiec 
+zastanoow sie zanim siegniesz po nieswoja wlasnosc.
+~
+0 8 0
+D7
+~
+~
+0 -1 221
+S
+#218
+Aula wykladowa.~
+Znajdujesz sie w sali w ktorej wlasnie odbywaja sie zajecia .
+Na podwyzszeniu stoi dumnie wygladajacy Mistrz i prowadzi wyklad, a glebi 
+na idacych w gore rzedach krzesel siedza zasluchani  adepci sztuki magicznej.
+Na ziemi pod sciana leza 'worki' uczniowskie moze ktorys zawiera cos ciekawego.
+ale pamietaj, ze jego wlasciciel zawsze moze walczyc o swoja wlasnosc wiec 
+zastanoow sie zanim siegniesz po nieswoja wlasnosc.
+~
+0 8 0
+D6
+~
+~
+0 -1 225
+S
+#219
+Korytarz.~
+Zupelnie zwyczajny korytarz jak wiele innych tego rodzaju pomieszczen 
+jest slabo oswietlony pokonujesz go wiec ostroznie pomalu, aby nie zrobic 
+sobie krzywdy uderzajac o stojace tutaj meble.
+Na scianach korytarza dostrzegasz gobeliny przedstawiajace magiczne potyczki
+Starozytnych Magow.
+Jeden z nich przedstawia pojedynek Maga z ohydna Harpia, 
+drugi na przeciwleglej scieanie ukazuje Mistrza Ogiona stojacego 
+nad poszarpanymi zwlokami wielkiego starozytnego smoka, ktory napadl na ta 
+uczelnie.
+~
+0 8 0
+D0
+~
+~
+0 -1 226
+D9
+~
+~
+0 -1 211
+S
+#220
+Schody.~
+Schody te prowadza na wyzsze pietra tej uczelni, ale jestes jeszcze zbytnim
+zltodziobem, abys mogl tam wkroczyc, wiec lepiej zawroc, albo idz sie przejsc
+po glownym holu i zdobadz troche wiecej doswiadczenia.
+Prawdopodobnie bedziesz mogl wkroczyc na wyzszy poziom swojej egzystencji.
+~
+0 8 0
+D1
+~
+~
+0 -1 221
+D2
+~
+~
+0 -1 216
+D5
+~
+~
+2048 -1 30053
+S
+#221
+Hol Glowny.~
+Jest to glowny korytarz w tej uczelni, zawsze zatloczony i gwarny.
+Mijasz spieszacych sie studentuow i wykladowcow.
+Co krok wpadasz na kogos i stajesz sie coraz bardziej zdenerwowany, 
+chcesz jak najpredzej przejsc ten korytarz i podazyc wlasna droga.
+~
+0 8 0
+D1
+~
+~
+0 -1 222
+D3
+~
+~
+0 -1 220
+D8
+~
+~
+0 -1 217
+S
+#222
+Hol Glowny.~
+O wiele mniej zatloczona czesc glownego holu uczelnianego, 
+wiec przyspieszasz, aby nie trafic na kolejna rozwzeszczana gromade 
+studentow. Na zachod widzisz tlum ludzi zblizajacych sie w twoim 
+kierunku, a na wschodzie jest natomiest Brama Polnocna prowadzaca
+do swiata zewnetrznego. Jesli chcesz oposcic to miejsce to powinienes
+sie tam udac.
+~
+0 0 1
+D1
+~
+~
+1 -1 291
+D3
+~
+~
+0 -1 221
+S
+#223
+Polnocna Brama.~
+Stoisz wenatrz Wielkiej Polnocnej Bramy Uczelni Magi w Astrall Dominion.
+Wrota te zdobia runy ochronne wiec napewno sa solidne i odporne 
+na wszelkiego autoramentu wlamywaczy i zlodzieji.
+Mury tego budynku, takze napawaja Cie pewnoscia i poteguja uczucie bezpie-
+czenstwa. W podwojach tego budynku nic zlego nie moze sie przydarzyc.
+Bramy tej strzeze muskularny krasnolod, ktory jest w sluzbie tutejszego 
+Wielkiego-Arcymaga Wertigo przelozonego tej uczelni.
+~
+0 0 1
+D0
+~
+~
+33 298 292
+D2
+~
+~
+1 -1 291
+S
+#224
+Hol Glowny.~
+O wiele mniej zatloczona czesc glownego holu uczelnianego, 
+wiec przyspieszasz, aby nie trafic na kolejna rozwzeszczana gromade 
+studentow. Na wschod widzisz tlum ludzi zblizajacych sie w twoim 
+kierunku, a na zachodzie jest natomiest Brama Polnocna prowadzaca
+do swiata zewnetrznego. Jesli chcesz oposcic to miejsce to powinienes
+sie tam udac.
+~
+0 8 0
+D1
+~
+~
+0 -1 225
+D3
+~
+~
+1 -1 291
+S
+#225
+Hol Glowny.~
+Jest to glowny korytarz w tej uczelni, zawsze zatloczony i gwarny.
+Mijasz spieszacych sie studentuow i wykladowcow.
+Co krok wpadasz na kogos i stajesz sie coraz bardziej zdenerwowany, 
+chcesz jak najpredzej przejsc ten korytarz i podazyc wlasna droga.
+~
+0 0 1
+D1
+~
+~
+0 -1 226
+D3
+~
+~
+0 -1 224
+D9
+~
+~
+0 -1 218
+S
+#226
+Schody.~
+Schody te prowadza na wyzsze pietra tej uczelni, ale jestes jeszcze zbytnim
+zltodziobem, abys mogl tam wkroczyc, wiec lepiej zawroc, albo idz sie przejsc
+po glownym holu i zdobadz troche wiecej doswiadczenia.
+Prawdopodobnie bedziesz mogl wkroczyc na wyzszy poziom swojej egzystencji.
+~
+0 0 1
+D2
+~
+~
+0 -1 219
+D3
+~
+~
+0 -1 225
+S
+#227
+Opodal uczelni.~
+Jestes prawie u celu swojej podrozy.
+Ponad szczytem pagorka dostrzegasz juz budynek Wyzszej Uczelni Magi.
+Droga, ktora idziesz stala sie szeroka wiec latwo sie po niej  szybko
+poruszac. Przyszpieszasz wiec kroku, aby jak najpredzej dostac sie 
+do slawetnej uczelni.
+~
+0 0 1
+D0
+~
+~
+0 -1 233
+D2
+~
+~
+0 -1 292
+S
+#228
+Rogatka.~
+Stoisz na polnocno-zachodnim krancu miesta nie wiesz co mozesz Cie 
+spotkac poza jego granicami, ale napewno nic dobrego.
+Wiec dobrze sie zastanow zanim wyruszysz w dalsza droge.
+Ostatnio coraz wiecej podruznuch ginie zapusciwszy sie w te niegoscinne
+rejony. Dostrzegasz opodal budke straznicza.
+Jest tam straznik; ostatni czlowiek broniacy prawomyslnosci na tym
+terenie. 
+~
+0 0 1
+D1
+~
+~
+0 -1 229
+D2
+~
+~
+0 -1 266
+S
+#229
+Polnocny trakt.~
+Draoga stala sie wezsza i mniej przyjazna. Podroz zaczyna Ci doskwierac 
+zaczynasz odczowac jej skutki. Nie poruszasz sie juz tak pewnie i 
+szybko, a i twoj nastroj stanowczo sie zmienil stales sie uwazny,
+i skupiony. Obraz po obu stronach traktu radykalnie sie zmienil.
+Pelno tu roznego rodzaju pulapek i rozpadlin, gdzie moze czaic sie
+niebezpieczenstwo. Na choryzacie mozna dostrzec juz granice miasta
+tam napewno sa rogatki swidczace o tym ze tam konczy sie cywilizacja.
+~
+0 0 1
+D1
+~
+~
+0 -1 230
+D3
+~
+~
+0 -1 228
+S
+#230
+Polnocny trakt.~
+Szeroki kamienny trakt ciagnie sie, az do horyzontu, a podroz nim 
+stala sie latwa i przyjemna. Czujesz sie zrelaksowany .
+Po obu stronach traktu rosposciera sie widok na pola uprawne i ogrody
+Widok ten napawa Cie optymizmem. W tym roku napewno nie zabraknie 
+porzywienia w tej czesci Astrall Dominion .
+Bardzo szybko i pewnie pokonujesz te tereny.
+~
+0 0 1
+D1
+~
+~
+0 -1 231
+D3
+~
+~
+0 -1 229
+S
+#231
+Polnocny trakt.~
+Most 
+Jest to most laczacy dwa brzegi Czarnej rzeki.
+Ta kamienna budowla pamieta czasy wojen o panowanie nad swiatem.
+Czego przekonywujacymi dowodami sa wielki dziury pochodzace od 
+fireball'i uzywanych w starciach o ten most.
+Konstrukcja mino swojego wieku przetrwa niejedno pokolenie magow
+i niejedna wojne. Podobno w czasie polnocy na moscie tym pojawia 
+sie drapiezna harpia i pozera nieostroznych podroznych.
+~
+0 0 1
+D1
+~
+~
+0 -1 232
+D3
+~
+~
+0 -1 230
+S
+#232
+Polnocny trakt.~
+Z pozoru jest to juz bezpieczna czesc traktu, ale fakty zdaja sie
+temu przeczyc poniewaz najwiecej napadow i grabierzy mialo swoj
+final wlasnie niedaleko glownego skrzyzowania.
+Ruch jest tu juz nieco mniejszy, ale wystarczajaco czesto ktos
+tedy przejerzdza, aby rabusie mieli co robic i aby ich kiesy 
+byly pelne. Badz wiec ostrozny, abys i Ty nie stal sie ich
+kolejna ofiara. Nalezy tu dodac, ze nie sa to zwykli rabusie, ale
+uczniowie tutejszej uczelni magi, ktorzy zeszli na zla droge.
+Nie obcy im jest kunszt czarnoksieski.
+~
+0 0 1
+D1
+~
+~
+0 -1 233
+D3
+~
+~
+0 -1 231
+S
+#233
+Skrzyzowanie.~
+Jest to skrzyzowanie dwoch glownych traktow.
+Mozesz tu dokonac wyboru czy chcesz isc do Wyzszej Uczelni Magi czy tez
+zawrocic, mozesz takze wybrac sie traktem poludniowym, ale pamietaj, ze
+na drodze tej grasuja bandy grabierzcow.
+~
+0 0 1
+D0
+~
+~
+1 -1 4157
+D1
+~
+~
+0 -1 234
+D2
+~
+~
+0 -1 227
+D3
+~
+~
+0 -1 232
+S
+#234
+Polnocny trakt.~
+Z pozoru jest to juz bezpieczna czesc traktu, ale fakty zdaja sie
+temu przeczyc poniewaz najwiecej napadow i grabierzy mialo swoj
+final wlasnie niedaleko glownego skrzyzowania.
+Ruch jest tu juz nieco mniejszy, ale wystarczajaco czesto ktos
+tedy przejerzdza, aby rabusie mieli co robic i aby ich kiesy 
+byly pelne. Badz wiec ostrozny, abys i Ty nie stal sie ich
+kolejna ofiara. Nalezy tu dodac, ze nie sa to zwykli rabusie, ale
+uczniowie tutejszej uczelni magi, ktorzy zeszli na zla droge.
+Nie obcy im jest kunszt czarnoksieski.
+~
+0 0 1
+D1
+~
+~
+0 -1 235
+D3
+~
+~
+0 -1 233
+S
+#235
+Polnocny trakt.~
+Most 
+Jest to most laczacy dwa brzegi Czarnej rzeki.
+Ta kamienna budowla pamieta czasy wojen o panowanie nad swiatem.
+Czego przekonywujacymi dowodami sa wielki dziury pochodzace od 
+fireball'i uzywanych w starciach o ten most.
+Konstrukcja mino swojego wieku przetrwa niejedno pokolenie magow
+i niejedna wojne. Podobno w czasie polnocy na moscie tym pojawia 
+sie drapiezna harpia i pozera nieostroznych podroznych.
+~
+0 0 1
+D1
+~
+~
+0 -1 236
+D3
+~
+~
+0 -1 234
+S
+#236
+Polnocny trakt.~
+Szeroki kamienny trakt ciagnie sie, az do horyzontu, a podroz nim 
+stala sie latwa i przyjemna. Czujesz sie zrelaksowany .
+Po obu stronach traktu rosposciera sie widok na pola uprawne i ogrody
+Widok ten napawa Cie optymizmem. W tym roku napewno nie zabraknie 
+porzywienia w tej czesci Astrall Dominion .
+Bardzo szybko i pewnie pokonujesz te tereny.
+~
+0 0 1
+D1
+~
+~
+0 -1 237
+D3
+~
+~
+0 -1 235
+S
+#237
+Polnocny trakt.~
+Draoga stala sie wezsza i mniej przyjazna. Podroz zaczyna Ci doskwierac 
+zaczynasz odczowac jej skutki. Nie poruszasz sie juz tak pewnie i 
+szybko, a i twoj nastroj stanowczo sie zmienil stales sie uwazny,
+i skupiony. Obraz po obu stronach traktu radykalnie sie zmienil.
+Pelno tu roznego rodzaju pulapek i rozpadlin, gdzie moze czaic sie
+niebezpieczenstwo. Na choryzacie mozna dostrzec juz granice miasta
+tam napewno sa rogatki swidczace o tym ze tam konczy sie cywilizacja.
+~
+0 0 1
+D1
+~
+~
+0 -1 238
+D3
+~
+~
+0 -1 236
+S
+#238
+Rogatka.~
+Stoisz na polnocno-wschodnim krancu miesta nie wiesz co mozesz Cie 
+spotkac poza jego granicami, ale napewno nic dobrego.
+Wiec dobrze sie zastanow zanim wyruszysz w dalsza droge.
+Ostatnio coraz wiecej podruznuch ginie zapusciwszy sie w te niegoscinne
+rejony. Dostrzegasz opodal budke straznicza.
+Jest tam straznik; ostatni czlowiek broniacy prawomyslnosci na tym
+terenie. 
+~
+0 0 1
+D2
+~
+~
+0 -1 239
+D3
+~
+~
+0 -1 237
+S
+#239
+Wschodni trakt.~
+Draoga stala sie wezsza i mniej przyjazna. Podroz zaczyna Ci doskwierac 
+zaczynasz odczowac jej skutki. Nie poruszasz sie juz tak pewnie i 
+szybko, a i twoj nastroj stanowczo sie zmienil stales sie uwazny,
+i skupiony. Obraz po obu stronach traktu radykalnie sie zmienil.
+Pelno tu roznego rodzaju pulapek i rozpadlin, gdzie moze czaic sie
+niebezpieczenstwo. Na choryzacie mozna dostrzec juz granice miasta
+tam napewno sa rogatki swidczace o tym ze tam konczy sie cywilizacja.
+~
+0 0 1
+D0
+~
+~
+0 -1 238
+D2
+~
+~
+0 -1 240
+S
+#240
+Wschodni trakt.~
+Szeroki kamienny trakt ciagnie sie, az do horyzontu, a podroz nim 
+stala sie latwa i przyjemna. Czujesz sie zrelaksowany .
+Po obu stronach traktu rosposciera sie widok na pola uprawne i ogrody
+Widok ten napawa Cie optymizmem. W tym roku napewno nie zabraknie 
+porzywienia w tej czesci Astrall Dominion .
+Bardzo szybko i pewnie pokonujesz te tereny.
+~
+0 0 1
+D0
+~
+~
+0 -1 239
+D2
+~
+~
+0 -1 241
+S
+#241
+Wschodni trakt.~
+Most 
+Jest to most laczacy dwa brzegi Czarnej rzeki.
+Ta kamienna budowla pamieta czasy wojen o panowanie nad swiatem.
+Czego przekonywujacymi dowodami sa wielki dziury pochodzace od 
+fireball'i uzywanych w starciach o ten most.
+Konstrukcja mino swojego wieku przetrwa niejedno pokolenie magow
+i niejedna wojne. Podobno w czasie polnocy na moscie tym pojawia 
+sie drapiezna harpia i pozera nieostroznych podroznych.
+~
+0 0 1
+D0
+~
+~
+0 -1 240
+D2
+~
+~
+0 -1 242
+S
+#242
+Wschodni trakt.~
+Z pozoru jest to juz bezpieczna czesc traktu, ale fakty zdaja sie
+temu przeczyc poniewaz najwiecej napadow i grabierzy mialo swoj
+final wlasnie niedaleko glownego skrzyzowania.
+Ruch jest tu juz nieco mniejszy, ale wystarczajaco czesto ktos
+tedy przejerzdza, aby rabusie mieli co robic i aby ich kiesy 
+byly pelne. Badz wiec ostrozny, abys i Ty nie stal sie ich
+kolejna ofiara. Nalezy tu dodac, ze nie sa to zwykli rabusie, ale
+uczniowie tutejszej uczelni magi, ktorzy zeszli na zla droge.
+Nie obcy im jest kunszt czarnoksieski.
+~
+0 0 1
+D0
+~
+~
+0 -1 241
+D2
+~
+~
+0 -1 210
+S
+#243
+Wschodni trakt.~
+Z pozoru jest to juz bezpieczna czesc traktu, ale fakty zdaja sie
+temu przeczyc poniewaz najwiecej napadow i grabierzy mialo swoj
+final wlasnie niedaleko glownego skrzyzowania.
+Ruch jest tu juz nieco mniejszy, ale wystarczajaco czesto ktos
+tedy przejerzdza, aby rabusie mieli co robic i aby ich kiesy 
+byly pelne. Badz wiec ostrozny, abys i Ty nie stal sie ich
+kolejna ofiara. Nalezy tu dodac, ze nie sa to zwykli rabusie, ale
+uczniowie tutejszej uczelni magi, ktorzy zeszli na zla droge.
+Nie obcy im jest kunszt czarnoksieski.
+~
+0 0 1
+D0
+~
+~
+0 -1 210
+D2
+~
+~
+0 -1 244
+S
+#244
+Wschodni trakt.~
+Most 
+Jest to most laczacy dwa brzegi Czarnej rzeki.
+Ta kamienna budowla pamieta czasy wojen o panowanie nad swiatem.
+Czego przekonywujacymi dowodami sa wielki dziury pochodzace od 
+fireball'i uzywanych w starciach o ten most.
+Konstrukcja mino swojego wieku przetrwa niejedno pokolenie magow
+i niejedna wojne. Podobno w czasie polnocy na moscie tym pojawia 
+sie drapiezna harpia i pozera nieostroznych podroznych.
+~
+0 0 1
+D0
+~
+~
+0 -1 243
+D2
+~
+~
+0 -1 245
+S
+#245
+Wschodni trakt.~
+Szeroki kamienny trakt ciagnie sie, az do horyzontu, a podroz nim 
+stala sie latwa i przyjemna. Czujesz sie zrelaksowany .
+Po obu stronach traktu rosposciera sie widok na pola uprawne i ogrody
+Widok ten napawa Cie optymizmem. W tym roku napewno nie zabraknie 
+porzywienia w tej czesci Astrall Dominion .
+Bardzo szybko i pewnie pokonujesz te tereny.
+~
+0 0 1
+D0
+~
+~
+0 -1 244
+D2
+~
+~
+0 -1 246
+S
+#246
+Wschodni trakt.~
+Draoga stala sie wezsza i mniej przyjazna. Podroz zaczyna Ci doskwierac 
+zaczynasz odczowac jej skutki. Nie poruszasz sie juz tak pewnie i 
+szybko, a i twoj nastroj stanowczo sie zmienil stales sie uwazny,
+i skupiony. Obraz po obu stronach traktu radykalnie sie zmienil.
+Pelno tu roznego rodzaju pulapek i rozpadlin, gdzie moze czaic sie
+niebezpieczenstwo. Na choryzacie mozna dostrzec juz granice miasta
+tam napewno sa rogatki swidczace o tym ze tam konczy sie cywilizacja.
+~
+0 0 1
+D0
+~
+~
+0 -1 245
+D2
+~
+~
+0 -1 247
+S
+#247
+Rogatka.~
+Stoisz na poludniowo-wschodnim krancu miesta nie wiesz co mozesz Cie 
+spotkac poza jego granicami, ale napewno nic dobrego.
+Wiec dobrze sie zastanow zanim wyruszysz w dalsza droge.
+Ostatnio coraz wiecej podruznuch ginie zapusciwszy sie w te niegoscinne
+rejony. Dostrzegasz opodal budke straznicza.
+Jest tam straznik; ostatni czlowiek broniacy prawomyslnosci na tym
+terenie. 
+~
+0 0 1
+D0
+~
+~
+0 -1 246
+D3
+~
+~
+0 -1 248
+S
+#248
+Poludniowy trakt.~
+Draoga stala sie wezsza i mniej przyjazna. Podroz zaczyna Ci doskwierac 
+zaczynasz odczowac jej skutki. Nie poruszasz sie juz tak pewnie i 
+szybko, a i twoj nastroj stanowczo sie zmienil stales sie uwazny,
+i skupiony. Obraz po obu stronach traktu radykalnie sie zmienil.
+Pelno tu roznego rodzaju pulapek i rozpadlin, gdzie moze czaic sie
+niebezpieczenstwo. Na choryzacie mozna dostrzec juz granice miasta
+tam napewno sa rogatki swidczace o tym ze tam konczy sie cywilizacja.
+~
+0 0 1
+D1
+~
+~
+0 -1 247
+D3
+~
+~
+0 -1 249
+S
+#249
+Poludniowy trakt.~
+Szeroki kamienny trakt ciagnie sie, az do horyzontu, a podroz nim 
+stala sie latwa i przyjemna. Czujesz sie zrelaksowany .
+Po obu stronach traktu rosposciera sie widok na pola uprawne i ogrody
+Widok ten napawa Cie optymizmem. W tym roku napewno nie zabraknie 
+porzywienia w tej czesci Astrall Dominion .
+Bardzo szybko i pewnie pokonujesz te tereny.
+~
+0 0 1
+D1
+~
+~
+0 -1 248
+D3
+~
+~
+0 -1 250
+S
+#250
+Poludniowy trakt.~
+Most 
+Jest to most laczacy dwa brzegi Czarnej rzeki.
+Ta kamienna budowla pamieta czasy wojen o panowanie nad swiatem.
+Czego przekonywujacymi dowodami sa wielki dziury pochodzace od 
+fireball'i uzywanych w starciach o ten most.
+Konstrukcja mino swojego wieku przetrwa niejedno pokolenie magow
+i niejedna wojne. Podobno w czasie polnocy na moscie tym pojawia 
+sie drapiezna harpia i pozera nieostroznych podroznych.
+~
+0 0 1
+D1
+~
+~
+0 -1 249
+D3
+~
+~
+0 -1 251
+S
+#251
+Poludniowy trakt.~
+Z pozoru jest to juz bezpieczna czesc traktu, ale fakty zdaja sie
+temu przeczyc poniewaz najwiecej napadow i grabierzy mialo swoj
+final wlasnie niedaleko glownego skrzyzowania.
+Ruch jest tu juz nieco mniejszy, ale wystarczajaco czesto ktos
+tedy przejerzdza, aby rabusie mieli co robic i aby ich kiesy 
+byly pelne. Badz wiec ostrozny, abys i Ty nie stal sie ich
+kolejna ofiara. Nalezy tu dodac, ze nie sa to zwykli rabusie, ale
+uczniowie tutejszej uczelni magi, ktorzy zeszli na zla droge.
+Nie obcy im jest kunszt czarnoksieski.
+~
+0 0 1
+D1
+~
+~
+0 -1 250
+D3
+~
+~
+0 -1 252
+S
+#252
+Skrzyzowanie.~
+Jest to skrzyzowanie dwoch glownych traktow.
+Mozesz tu dokonac wyboru czy chcesz isc do Wyzszej Uczelni Magi czy tez
+zawrocic, mozesz takze wybrac sie traktem poludniowym, ale pamietaj, ze
+na drodze tej grasuja bandy grabierzcow.
+~
+0 0 1
+D0
+~
+~
+0 -1 285
+D1
+~
+~
+0 -1 251
+D3
+~
+~
+1 -1 12600
+D9
+~
+~
+1 -1 12600
+S
+#253
+Poludniowy trakt.~
+Z pozoru jest to juz bezpieczna czesc traktu, ale fakty zdaja sie
+temu przeczyc poniewaz najwiecej napadow i grabierzy mialo swoj
+final wlasnie niedaleko glownego skrzyzowania.
+Ruch jest tu juz nieco mniejszy, ale wystarczajaco czesto ktos
+tedy przejerzdza, aby rabusie mieli co robic i aby ich kiesy 
+byly pelne. Badz wiec ostrozny, abys i Ty nie stal sie ich
+kolejna ofiara. Nalezy tu dodac, ze nie sa to zwykli rabusie, ale
+uczniowie tutejszej uczelni magi, ktorzy zeszli na zla droge.
+Nie obcy im jest kunszt czarnoksieski.
+~
+0 0 1
+D1
+~
+~
+0 -1 252
+D3
+~
+~
+0 -1 254
+S
+#254
+Poludniowy trakt.~
+Most 
+Jest to most laczacy dwa brzegi Czarnej rzeki.
+Ta kamienna budowla pamieta czasy wojen o panowanie nad swiatem.
+Czego przekonywujacymi dowodami sa wielki dziury pochodzace od 
+fireball'i uzywanych w starciach o ten most.
+Konstrukcja mino swojego wieku przetrwa niejedno pokolenie magow
+i niejedna wojne. Podobno w czasie polnocy na moscie tym pojawia 
+sie drapiezna harpia i pozera nieostroznych podroznych.
+~
+0 0 1
+D1
+~
+~
+0 -1 253
+D3
+~
+~
+0 -1 255
+S
+#255
+Poludniowy trakt.~
+Szeroki kamienny trakt ciagnie sie, az do horyzontu, a podroz nim 
+stala sie latwa i przyjemna. Czujesz sie zrelaksowany .
+Po obu stronach traktu rosposciera sie widok na pola uprawne i ogrody
+Widok ten napawa Cie optymizmem. W tym roku napewno nie zabraknie 
+porzywienia w tej czesci Astrall Dominion .
+Bardzo szybko i pewnie pokonujesz te tereny.
+~
+0 0 1
+D1
+~
+~
+0 -1 254
+D3
+~
+~
+0 -1 256
+S
+#256
+Poludniowy trakt.~
+Draoga stala sie wezsza i mniej przyjazna. Podroz zaczyna Ci doskwierac 
+zaczynasz odczowac jej skutki. Nie poruszasz sie juz tak pewnie i 
+szybko, a i twoj nastroj stanowczo sie zmienil stales sie uwazny,
+i skupiony. Obraz po obu stronach traktu radykalnie sie zmienil.
+Pelno tu roznego rodzaju pulapek i rozpadlin, gdzie moze czaic sie
+niebezpieczenstwo. Na choryzacie mozna dostrzec juz granice miasta
+tam napewno sa rogatki swidczace o tym ze tam konczy sie cywilizacja.
+~
+0 0 1
+D1
+~
+~
+0 -1 255
+D3
+~
+~
+0 -1 257
+S
+#257
+Rogatka.~
+Stoisz na poludniowo-zachodnim krancu miesta nie wiesz co mozesz Cie 
+spotkac poza jego granicami, ale napewno nic dobrego.
+Wiec dobrze sie zastanow zanim wyruszysz w dalsza droge.
+Ostatnio coraz wiecej podruznuch ginie zapusciwszy sie w te niegoscinne
+rejony. Dostrzegasz opodal budke straznicza.
+Jest tam straznik; ostatni czlowiek broniacy prawomyslnosci na tym
+terenie. 
+~
+0 0 1
+D0
+~
+~
+0 -1 258
+D1
+~
+~
+0 -1 256
+S
+#258
+Zachodni trakt.~
+Draoga stala sie wezsza i mniej przyjazna. Podroz zaczyna Ci doskwierac 
+zaczynasz odczowac jej skutki. Nie poruszasz sie juz tak pewnie i 
+szybko, a i twoj nastroj stanowczo sie zmienil stales sie uwazny,
+i skupiony. Obraz po obu stronach traktu radykalnie sie zmienil.
+Pelno tu roznego rodzaju pulapek i rozpadlin, gdzie moze czaic sie
+niebezpieczenstwo. Na choryzacie mozna dostrzec juz granice miasta
+tam napewno sa rogatki swidczace o tym ze tam konczy sie cywilizacja.
+~
+0 0 1
+D0
+~
+~
+0 -1 259
+D2
+~
+~
+0 -1 257
+S
+#259
+Zachodni trakt.~
+Szeroki kamienny trakt ciagnie sie, az do horyzontu, a podroz nim 
+stala sie latwa i przyjemna. Czujesz sie zrelaksowany .
+Po obu stronach traktu rosposciera sie widok na pola uprawne i ogrody
+Widok ten napawa Cie optymizmem. W tym roku napewno nie zabraknie 
+porzywienia w tej czesci Astrall Dominion .
+Bardzo szybko i pewnie pokonujesz te tereny.
+~
+0 0 1
+D0
+~
+~
+0 -1 260
+D2
+~
+~
+0 -1 258
+S
+#260
+Zachodni trakt.~
+Most 
+Jest to most laczacy dwa brzegi Czarnej rzeki.
+Ta kamienna budowla pamieta czasy wojen o panowanie nad swiatem.
+Czego przekonywujacymi dowodami sa wielki dziury pochodzace od 
+fireball'i uzywanych w starciach o ten most.
+Konstrukcja mino swojego wieku przetrwa niejedno pokolenie magow
+i niejedna wojne. Podobno w czasie polnocy na moscie tym pojawia 
+sie drapiezna harpia i pozera nieostroznych podroznych.
+~
+0 0 1
+D0
+~
+~
+0 -1 261
+D2
+~
+~
+0 -1 259
+S
+#261
+Zachodni trakt.~
+Z pozoru jest to juz bezpieczna czesc traktu, ale fakty zdaja sie
+temu przeczyc poniewaz najwiecej napadow i grabierzy mialo swoj
+final wlasnie niedaleko glownego skrzyzowania.
+Ruch jest tu juz nieco mniejszy, ale wystarczajaco czesto ktos
+tedy przejerzdza, aby rabusie mieli co robic i aby ich kiesy 
+byly pelne. Badz wiec ostrozny, abys i Ty nie stal sie ich
+kolejna ofiara. Nalezy tu dodac, ze nie sa to zwykli rabusie, ale
+uczniowie tutejszej uczelni magi, ktorzy zeszli na zla droge.
+Nie obcy im jest kunszt czarnoksieski.
+~
+0 0 1
+D0
+~
+~
+0 -1 205
+D2
+~
+~
+0 -1 260
+S
+#262
+Droga.~
+~
+0 4 1
+S
+#263
+Zachodni trakt.~
+Z pozoru jest to juz bezpieczna czesc traktu, ale fakty zdaja sie
+temu przeczyc poniewaz najwiecej napadow i grabierzy mialo swoj
+final wlasnie niedaleko glownego skrzyzowania.
+Ruch jest tu juz nieco mniejszy, ale wystarczajaco czesto ktos
+tedy przejerzdza, aby rabusie mieli co robic i aby ich kiesy 
+byly pelne. Badz wiec ostrozny, abys i Ty nie stal sie ich
+kolejna ofiara. Nalezy tu dodac, ze nie sa to zwykli rabusie, ale
+uczniowie tutejszej uczelni magi, ktorzy zeszli na zla droge.
+Nie obcy im jest kunszt czarnoksieski.
+~
+0 0 1
+D0
+~
+~
+0 -1 264
+D2
+~
+~
+0 -1 205
+S
+#264
+Zachodni trakt.~
+Most 
+Jest to most laczacy dwa brzegi Czarnej rzeki.
+Ta kamienna budowla pamieta czasy wojen o panowanie nad swiatem.
+Czego przekonywujacymi dowodami sa wielki dziury pochodzace od 
+fireball'i uzywanych w starciach o ten most.
+Konstrukcja mino swojego wieku przetrwa niejedno pokolenie magow
+i niejedna wojne. Podobno w czasie polnocy na moscie tym pojawia 
+sie drapiezna harpia i pozera nieostroznych podroznych.
+~
+0 0 1
+D0
+~
+~
+0 -1 265
+D2
+~
+~
+0 -1 263
+S
+#265
+Zachodni trakt.~
+Szeroki kamienny trakt ciagnie sie, az do horyzontu, a podroz nim 
+stala sie latwa i przyjemna. Czujesz sie zrelaksowany .
+Po obu stronach traktu rosposciera sie widok na pola uprawne i ogrody
+Widok ten napawa Cie optymizmem. W tym roku napewno nie zabraknie 
+porzywienia w tej czesci Astrall Dominion .
+Bardzo szybko i pewnie pokonujesz te tereny.
+~
+0 0 1
+D0
+~
+~
+0 -1 266
+D2
+~
+~
+0 -1 264
+S
+#266
+Zachodni trakt.~
+Draoga stala sie wezsza i mniej przyjazna. Podroz zaczyna Ci doskwierac 
+zaczynasz odczowac jej skutki. Nie poruszasz sie juz tak pewnie i 
+szybko, a i twoj nastroj stanowczo sie zmienil stales sie uwazny,
+i skupiony. Obraz po obu stronach traktu radykalnie sie zmienil.
+Pelno tu roznego rodzaju pulapek i rozpadlin, gdzie moze czaic sie
+niebezpieczenstwo. Na choryzacie mozna dostrzec juz granice miasta
+tam napewno sa rogatki swidczace o tym ze tam konczy sie cywilizacja.
+~
+0 0 1
+D0
+~
+~
+0 -1 228
+D2
+~
+~
+0 -1 265
+S
+#267
+Balkon widokowy.~
+Z balkonu tego rozposciera sie piekny widok na trakt i las .
+Na zachodzie w dosc duzej odleglosci widac jakos malo siedzibe ludzka,
+a na polnocy w oddali majaczace szczyty gorskie pokryte sniegiem.
+Las okalajacy akademie mieni sie roznymi odcieniami zieleni i brazu.
+Szczyty wszystkich drzew uginaja sie od silnego wiatru jaki wieje tu caly rok.
+Jest on chlodny i nieprzyjemny co zmusza Cie do powrotu do cieplejszych 
+pomieszczen uczelni.
+~
+0 0 1
+D1
+~
+~
+0 -1 268
+D8
+~
+~
+0 -1 274
+S
+#268
+Wejscie na Dziedziniec.~
+Wszedles na korytarz prowadzacy na dziedziniec. Jest to miejsce, gdzie 
+na scianach porozwieszane sa roznego rodzaju sprzety potrzebne 
+do uprawiania magi, natomiast podloga pokryta jest runami tworzenia,
+ktore to sa podstawa konstrukcji tego budynku.
+Na suficie dostrzegasz tysiace plamek, dopiero po chwili orietujesz sie, ze 
+jest to mapa nieba w tym rejonie widzianego w najdluzsza noc.
+Na wschodzie widzisz wejscie na balkon widokowy, mozesz tam sie udac,
+zeby porownac widok niba z malowidlem na suficie, albo tez mozesz isc na
+zachod do komnaty wykladowcow i zaczerpnac nieco wiedzy.
+~
+0 0 1
+D1
+~
+~
+0 -1 269
+D3
+~
+~
+0 -1 267
+D9
+~
+~
+0 -1 274
+S
+#269
+Poczekalnia.~
+Stoisz w poczekalni, ktora to znajduje sie przed Sala Mistrzow.
+Pmieszczenie to nie zawiera zadnych sprzetow poza twardymi krzeslami
+ustawionymi jedno kolo drugiego przy scianie.
+Sa tu takze studenci oczekujacy na audiencje u Mistrzow.
+Jest to jedyna mozliwisc dla przyszlych czrnoksieznikow, na zdobycie
+interesujacej ich wiedzy z dziedziny wyzszej magi
+~
+0 0 1
+D1
+~
+~
+3 -1 270
+D2
+~
+~
+0 -1 275
+D3
+~
+~
+0 -1 268
+S
+#270
+Sala Mistrzow.~
+Komnata ta pochodzi z czasow Wielkiego Arcymaga Nemerle.
+Wschodnia sciane pokrywa obraz przedstawiajacy starozytnych magow 
+i ich uczniow oraz tamtejsza magnaterie zebrana wokol Arcymaga.
+Na scienie, na ktorej jest okno znajduje sie podreczna biblioteczka
+ktora zawiera najwazniejsze pozycje Wielkiej Magi.
+Na sklepieniu tej komnaty, mozesz podziwiac wielkie medaliony z runami
+symbolizujacymi : pokoj, sprawedliwosc, dobroc, szlachetnosc.
+Na zachodniej scianie widnieje obraz przedstawiajacy wazne wydazenia dotyczace
+uczelni.
+Jest tu Nemerle odpierajacy Smoka, Wygananie Helidora, uwolnienie New Astral.
+Na srodku stoi ogromny kamienny stol, tu obraduje Rada Arcymagow.
+~
+0 0 1
+D0
+~
+~
+1 -1 200
+D1
+~
+~
+3 -1 271
+D3
+~
+~
+3 -1 269
+S
+#271
+Sekratariat.~
+Wszedles wlasnie do sekretariatu uczelni.
+Na srodku tego pomieszczenia za biurkiem siedzi sekretarka.
+Jest to kobieta juz nie mloda. Ubrana w ciemne szaty
+Pracuje ona tu od niepamietnych czasow i nikt tak naprawde nie wie ile ona
+moze miec lat.
+~
+0 0 1
+D1
+~
+~
+0 -1 272
+D2
+~
+~
+0 -1 276
+D3
+~
+~
+3 -1 270
+E
+biurko~
+Widzisz wielkie biurko i mnostwo lezacych na nim gratow i papierow. 
+Prawdopodobnie wsrod nich mozesz znalezc jakis scroll z czarem.
+~
+S
+#272
+Wejscie na Dziedziniec.~
+Wszedles na korytarz prowadzacy na dziedziniec. Jest to miejsce, gdzie 
+na scianach porozwieszane sa roznego rodzaju sprzety potrzebne 
+do uprawiania magi, natomiast podloga pokryta jest runami tworzenia,
+ktore to sa podstawa konstrukcji tego budynku.
+Na suficie dostrzegasz tysiace plamek, dopiero po chwili orietujesz sie, ze 
+jest to mapa nieba w tym rejonie widzianego w najdluzsza noc.
+Na wschodzie widzisz wejscie na balkon widokowy, mozesz tam sie udac,
+zeby porownac widok nieba z malowidlem na suficie, albo tez mozesz isc na
+zachod do komnaty wyklaowcow i zaczerpnac nieco wiedzy.
+~
+0 0 1
+D0
+~
+~
+1 -1 200
+D1
+~
+~
+0 -1 273
+D3
+~
+~
+0 -1 271
+D8
+~
+~
+0 -1 277
+S
+#273
+Balkon widokowy.~
+Z tego balkonu rozposciera sie piekny widok na trakt i las.
+na wschodzie dostrzegasz mury miasta ...........,a na polnocy w oddali 
+majaczace szczyty gorski polyskujace snigiem.
+Las ten mieni sie roznymi odcieniami zieleni i brazu.
+Szczyty wszystkich drzew uginaja sie od silnego wiatru jaki wieje tu caly rok.
+Jest on chlodny i nieprzyjemny co zmusza Cie do powrotu do cieplejszych 
+pomieszczen uczelni.
+~
+0 0 1
+D3
+~
+~
+0 -1 272
+D9
+~
+~
+0 -1 277
+S
+#274
+Komnata wykladowcow.~
+Wszedles wlasnie do prywatnych pomieszczen wykladowcow .
+Na przeciwko drzwi buzuje ogien w kominku dajacy przyjemne cieplo.
+W lewej czesci tego pokoju stoi wielkie debowe biurko, a na nim lezy mnostwo
+porozkladanych 'skroli' i 'spelli'. 
+Na pewno jest wsrod nich cos, co mogloby Ci sie przydac, ale musisz to zrobic
+zanim wroci ktorys z wykladowcow.
+~
+0 0 1
+D4
+~
+~
+1 -1 286
+D6
+~
+~
+0 -1 268
+D7
+~
+~
+0 -1 267
+E
+skrol~
+Jest tu wiele skroli ale tylko jeden przykow twoja uwage skrol z napisem 
+' Stone Skin ' 
+Jest to czar ochronny ktory jest bardzo pomocny w walce.
+~
+S
+#275
+Aula wykladowa.~
+Znajdujesz sie w sali w ktorej wlasnie odbywaja sie zajecia .
+Na podwyzszeniu stoi dumnie wygladajacy Mistrz i prowadzi wyklad, a glebi 
+na idacych w gore rzedach krzesel siedza zasluchani  adepci sztuki magicznej.
+Na ziemi pod sciana leza 'worki' uczniowskie moze ktorys zawiera cos ciekawego.
+ale pamietaj, ze jego wlasciciel zawsze moze walczyc o swoja wlasnosc wiec 
+zastanoow sie zanim siegniesz po nieswoja wlasnosc.
+~
+0 0 1
+D0
+~
+~
+0 -1 269
+D9
+~
+~
+0 -1 279
+E
+worki~
+Jest to zwykly worek jutowy .
+W srodku znajdujesz kilka rzeczy miedzy innymi :
+Fiolke ze swiecaca substancja
+Magiczna bransolete
+~
+S
+#276
+Aula wykladowa.~
+Znajdujesz sie w sali w ktorej wlasnie odbywaja sie zajecia .
+Na podwyzszeniu stoi dumnie wygladajacy Mistrz i prowadzi wyklad, a glebi 
+na idacych w gore rzedach krzesel siedza zasluchani adepci sztuki magicznej.
+Na ziemi pod sciana leza 'worki' uczniowskie moze ktorys zawiera cos ciekawego.
+ale pamietaj, ze jego wlasciciel zawsze moze walczyc o swoja wlasnosc wiec 
+zastanoow sie zanim siegniesz po nieswoja wlasnosc.
+~
+0 0 1
+D0
+~
+~
+0 -1 271
+D8
+~
+~
+0 -1 283
+E
+worki~
+Jest to zwykly worek jutowy .
+W srodku znajdujesz kilka rzeczy miedzy innymi :
+Fiolke ze swiecaca substancja
+Magiczna bransolete
+~
+S
+#277
+Komnata wykladowcow.~
+Wszedles wlasnie do prywatnych pomieszczen wykladowcow .
+Na przeciwko drzwi buzuje ogien w kominku dajacy przyjemne cieplo.
+W lewej czesci tego pokoju stoi wielkie debowe biurko, a na nim lezy mnostwo
+porozkladanych 'skroli' i 'spelli'. 
+Napewno jest wsrod nich, cos co mogloby Ci sie przydac, ale musisz to zrobic 
+zanim wroci ktorys z wykladowcow.
+~
+0 0 1
+D4
+~
+~
+1 -1 287
+D6
+~
+~
+0 -1 273
+D7
+~
+~
+0 -1 272
+E
+skrol~
+Jest tu wiele skroli ale tylko jeden przykow twoja uwage skrol z napisem 
+' Stone Skin ' 
+Jest to czar ochronny ktory jest bardzo pomocny w walce.
+~
+S
+#278
+Schody.~
+Schody te prowadza na wyzsze pietra tej uczelni, ale jestes jeszcze zbytnim
+zltodziobem, abys mogl tam wkroczyc, wiec lepiej zawroc, albo idz sie przejsc
+po glownym holu i zdobadz troche wiecej doswiadczenia.
+Prawdopodobnie bedziesz mogl wkroczyc na wyzszy poziom swojej egzystencji.
+~
+0 0 1
+D1
+~
+~
+0 -1 279
+S
+#279
+Hol Glowny.~
+Jest to glowny korytarz w tej uczelni, zawsze zatloczony i gwarny.
+Mijasz spieszacych sie studentuow i wykladowcow.
+Co krok wpadasz na kogos i stajesz sie coraz bardziej zdenerwowany, 
+chcesz jak najpredzej przejsc ten korytarz i podazyc wlasna droga.
+~
+0 0 1
+D1
+~
+~
+0 -1 280
+D3
+~
+~
+0 -1 278
+D6
+~
+~
+0 -1 275
+S
+#280
+Hol Glowny.~
+O wiele mniej zatloczona czesc glownego holu uczelnianego, 
+wiec przyspieszasz, aby nie trafic na kolejna rozwzeszczana gromade 
+studentow. Na zachod widzisz tlum ludzi zblizajacych sie w twoim 
+kierunku, a na wschodzie jest natomiest Brama Polnocna prowadzaca
+do swiata zewnetrznego. Jesli chcesz oposcic to miejsce to powinienes
+sie tam udac.
+~
+0 0 1
+D1
+~
+~
+1 -1 290
+D3
+~
+~
+0 -1 279
+S
+#281
+Poludniowa Brama.~
+Stoisz wenatrz Wielkiej Poludniowej Bramy Uczelni Magi w Astrall Dominion.
+Wrota te zdobia runy ochronne wiec napewno sa solidne i odporne 
+na wszelkiego autoramentu wlamywaczy i zlodzieji.
+Mury tego budynku, takze napawaja Cie pewnoscia i poteguja uczucie bezpie-
+czenstwa. W podwojach tego budynku nic zlego nie moze sie przydarzyc.
+Bramy tej strzeze muskularny krasnolod, ktory jest w sluzbie tutejszego 
+Wielkiego-Arcymaga Wertigo przelozonego tej uczelni.
+~
+0 0 1
+D0
+~
+~
+1 -1 290
+D2
+~
+~
+33 297 289
+S
+#282
+Hol Glowny.~
+O wiele mniej zatloczona czesc glownego holu uczelnianego, 
+wiec przyspieszasz, aby nie trafic na kolejna rozwzeszczana gromade 
+studentow. Na wschod widzisz tlum ludzi zblizajacych sie w twoim
+kierunku, a na zachodzie jest natomiest Brama Poludniowa prowadzaca
+do swiata zewnetrznego. Jesli chcesz oposcic to miejsce to powinienes
+sie tam udac.
+~
+0 0 1
+D1
+~
+~
+0 -1 283
+D3
+~
+~
+1 -1 290
+S
+#283
+Hol Glowny.~
+Jest to glowny korytarz w tej uczelni, zawsze zatloczony i gwarny.
+Mijasz spieszacych sie studentuow i wykladowcow.
+Co krok wpadasz na kogos i stajesz sie coraz bardziej zdenerwowany, 
+chcesz jak najpredzej przejsc ten korytarz i podazyc wlasna droga.
+~
+0 0 1
+D1
+~
+~
+0 -1 284
+D3
+~
+~
+0 -1 282
+D7
+~
+~
+0 -1 276
+S
+#284
+Schody.~
+Schody te prowadza na wyzsze pietra tej uczelni, ale jestes jeszcze zbytnim
+zltodziobem, abys mogl tam wkroczyc, wiec lepiej zawroc, albo idz sie przejsc
+po glownym holu i zdobadz troche wiecej doswiadczenia.
+Prawdopodobnie bedziesz mogl wkroczyc na wyzszy poziom swojej egzystencji.
+~
+0 0 1
+D3
+~
+~
+0 -1 283
+S
+#285
+Opodal Uczelni.~
+Jestes prawie u celu swojej podrozy.
+Ponad szczytem pagorka dostrzegasz juz budynek Wyzszej Uczelni Magi.
+Droga, ktora idziesz stala sie szeroka wiec latwo sie po niej  szybko
+poruszac. Przyszpieszasz wiec kroku, aby jak najpredzej dostac sie 
+do slawetnej uczelni.
+~
+0 0 1
+D0
+~
+~
+1 -1 289
+D2
+~
+~
+0 -1 252
+S
+#286
+Komanata Arcymaga~
+Jestes w komnacie, w ktorej urzeduje Arcymag jest on panem katedry 
+Magii Przemian.
+Jest on czlowiekiem spokojnym z natury, ale nie lubi jak sie mu bez potrzeby
+przeszkadza.
+Przebaywa tu zawsze i jest straznikiem Komanaty Wielkiego-Arcymaga.
+Pomieszczenie to jest dobrze oswietlone i zadbane.
+Sam Arcymag siedzi przy kominku i czyta jakas wilka i stara ksiege.
+Jest on poteznym magiem wiec lepiej zastanow sie czy chcesz z nim zadrzec.
+~
+0 3153928 0
+D4
+~
+~
+1 -1 288
+D5
+~
+~
+1 -1 274
+S
+#287
+Komnata Arcumaga~
+Jestes w komnacie, w ktorej urzeduje Arcymag jest on panem katedry 
+Magii Przemian.
+Arcymag jest czlowiekiem z natury spokojnym, ale nie lubi jak mu bez
+potrzeby przeszkadza.
+Przebywa tu zawsze i jest on, takze straznikiem komnaty Wielkiego-Arcymaga.
+Pomieszczenie to dobrze oswietlone i zadbane.
+Sam Arcymag siedzi przy kominku i czyta jaks wielka stara ksiazke.
+Jest on poteznym magiem wiec lepij sie zastanow czy chcesz z nim zadrzec.
+~
+0 3153928 0
+D4
+~
+~
+1 -1 288
+D5
+~
+~
+1 -1 277
+S
+#288
+Komnata Wielkiego-Arcymaga~
+Wszedles nieproszony do komnaty pana tej uczelni za co spotka Cie niechybnie
+smierc. Wielki Arcymag jest ostatnia osoba, ktora widzisz wiec przekaz mu
+to co chcialbys  powiedziec swoim bliskim.
+Napewno przekaze bedzie to akt wilkiej wspanialomyslnosci z jego strony.
+Ta komnata jest najlepiej strzezonym mejscem w Akademii i to nie ze wzgledu
+na Arcymagow przed drzwiami
+~
+0 0 1
+D1
+~
+~
+1 -1 287
+D3
+~
+~
+1 -1 286
+S
+#289
+Przed Uczelnia~
+Stoisz przed brama starej uczelni. W jej murach mozesz posiasc ogromna
+wiedze, jesli tylko sprostasz warunkom przyjecia oraz ciezkiej, aczkolwiek
+arcy interesujacej nauce. Brama jest wysoka. Widzisz na niej slady wielu 
+atakow, lecz jak widac nigdy sie nikomu nie poddala. Teraz jednak stoi ona
+dla ciebie otworem.
+~
+0 4 1
+D0
+~
+~
+33 297 281
+D2
+~
+~
+1 -1 285
+S
+#290
+Korytarz~
+Wszedles do Slawetnej Uczelni Magi Stosowanej.
+Jest wielki budynek zbudowany tysiace lat temu.
+Jednak wystroj tej budowli nie stracil nic z aktualnosci.
+Jego mroczny spokoj wzbudza uczucie przemijalnosci, w kazdym kto
+tu wejdzie, podobnie i tobie uczucie to teraz nie jest Ci obce.
+Mimo tych mieszanych uczuc stales sie po wejsciu tu spokojniejszy
+i wiesz juz, ze w zyciu nie tylko wazna jest walka, ale i doznania
+artystyczne i duchowe, ktorych mozesz tu jak nigdzie indziej 
+doswiadczyc. 
+~
+0 0 1
+D1
+~
+~
+1 -1 282
+D2
+~
+~
+1 -1 281
+D3
+~
+~
+1 -1 280
+S
+#291
+Korytarz~
+Wszedles do Slawetnej Uczelni Magi Stosowanej.
+Jest wielki budynek zbudowany tysiace lat temu.
+Jednak wystroj tej budowli nie stracil nic z aktualnosci.
+Jego mroczny spokoj wzbudza uczucie przemijalnosci, w kazdym kto
+tu wejdzie, podobnie i tobie uczucie to teraz nie jest Ci obce.
+Mimo tych mieszanych uczuc stales sie po wejsciu tu spokojniejszy
+i wiesz juz, ze w zyciu nie tylko wazna jest walka, ale i doznania
+artystyczne i duchowe, ktorych mozesz tu jak nigdzie indziej 
+doswiadczyc.
+~
+0 8 0
+D0
+~
+~
+1 -1 223
+D1
+~
+~
+1 -1 224
+D3
+~
+~
+1 -1 222
+S
+#292
+Przed Uczelnia~
+Stoisz przed brama starej uczelni. W jej murach mozesz posiasc ogromna
+wiedze, jesli tylko sprostasz warunkom przyjecia oraz ciezkiej, aczkolwiek
+arcy interesujacej nauce. Brama jest wysoka. Widzisz na niej slady wielu 
+atakow, lecz jak widac nigdy sie nikomu nie poddala. Teraz jednak stoi ona
+dla ciebie otworem.
+~
+0 0 1
+D0
+~
+~
+0 -1 227
+D2
+~
+~
+33 298 223
+S
+#293
+Floating in a void~
+~
+0 4 1
+S
+#294
+Floating in a void~
+~
+0 4 1
+S
+#295
+Floating in a void~
+~
+0 4 1
+S
+#296
+Floating in a void~
+~
+0 4 1
+S
+#297
+Floating in a void~
+~
+0 4 1
+S
+#298
+Floating in a void~
+~
+0 4 1
+S
+#299
+Floating in a void~
+~
+0 4 1
+S
+#0
+
+
+#RESETS
+M 0 213 1 223
+D 0 200 2 0
+M 1 210 1 201
+E 1 235 1 8
+E 1 238 1 6
+E 1 237 1 3
+E 1 236 1 1
+E 1 234 1 12
+E 1 213 1 16
+M 1 216 1 203
+E 1 296 1 17
+E 1 21065 1 11
+E 1 21056 1 1
+E 1 21060 1 7
+E 1 21061 1 8
+E 1 21062 1 10
+E 1 21063 1 9
+E 1 21064 1 15
+E 1 21064 1 14
+E 1 21066 1 20
+E 1 21067 1 0
+E 1 21069 1 16
+D 0 203 3 2
+D 0 204 1 1
+M 1 213 1 205
+E 1 298 1 17
+E 1 21065 1 11
+E 1 21056 1 1
+E 1 21060 1 7
+E 1 21061 1 8
+E 1 21062 1 10
+E 1 21063 1 9
+E 1 21064 1 15
+E 1 21064 1 14
+E 1 21066 1 20
+E 1 21067 1 0
+E 1 21069 1 16
+D 0 205 1 2
+D 0 205 2 0
+M 1 207 3 206
+E 1 217 1 18
+E 1 216 1 5
+E 1 215 1 12
+M 1 212 1 206
+E 1 213 1 16
+E 1 214 1 8
+E 1 215 1 12
+E 1 241 1 4
+E 1 242 1 17
+M 1 204 2 207
+E 1 206 1 8
+E 1 205 1 12
+E 1 204 1 5
+E 1 207 1 17
+M 1 204 2 207
+E 1 206 1 8
+E 1 205 1 12
+E 1 204 1 5
+E 1 207 1 17
+M 1 214 1 208
+E 1 21065 1 11
+E 1 21056 1 1
+E 1 21060 1 7
+E 1 21061 1 8
+E 1 21062 1 10
+E 1 21063 1 9
+E 1 21064 1 15
+E 1 21064 1 14
+E 1 21066 1 20
+E 1 21067 1 0
+E 1 21069 1 16
+E 1 299 1 17
+D 0 208 1 1
+D 0 209 3 1
+D 0 210 1 0
+M 1 205 4 211
+E 1 210 1 5
+E 1 209 1 12
+E 1 208 1 16
+E 1 212 1 14
+M 1 205 4 212
+E 1 211 1 1
+E 1 209 1 12
+E 1 208 1 16
+D 0 213 3 1
+M 1 206 3 214
+E 1 219 1 1
+E 1 216 1 5
+E 1 214 1 8
+E 1 213 1 16
+E 1 215 1 12
+D 0 214 1 1
+M 1 206 3 215
+E 1 219 1 1
+E 1 216 1 5
+E 1 214 1 8
+E 1 213 1 16
+E 1 215 1 12
+M 1 207 3 215
+E 1 217 1 18
+E 1 213 1 16
+E 1 216 1 5
+E 1 215 1 12
+D 0 215 1 0
+M 1 209 1 219
+E 1 203 1 8
+E 1 6631 1 1
+M 1 203 4 221
+E 1 202 1 1
+E 1 204 1 5
+E 1 203 1 8
+D 0 222 1 0
+D 0 223 0 0
+D 0 223 2 0
+D 0 224 3 0
+M 1 207 3 267
+E 1 217 1 18
+E 1 213 1 16
+E 1 216 1 5
+E 1 215 1 12
+M 1 205 4 268
+E 1 210 1 5
+E 1 209 1 12
+E 1 212 1 14
+E 1 208 1 16
+M 1 206 3 269
+E 1 219 1 1
+E 1 216 1 5
+E 1 214 1 8
+E 1 213 1 16
+E 1 215 1 12
+D 0 269 1 1
+M 1 200 2 270
+E 1 200 1 16
+E 1 201 1 5
+M 1 200 2 270
+E 1 200 1 16
+E 1 201 1 5
+D 0 270 0 0
+D 0 270 1 1
+D 0 270 3 1
+M 1 211 1 271
+E 1 240 1 5
+E 1 239 1 13
+D 0 271 3 1
+M 1 205 4 272
+E 1 211 1 1
+E 1 212 1 14
+E 1 208 1 16
+M 1 202 2 274
+E 1 200 1 16
+D 0 274 4 0
+M 1 203 4 275
+E 1 203 1 8
+M 1 202 2 277
+E 1 200 1 16
+D 0 277 4 0
+M 1 203 4 279
+E 1 202 1 1
+E 1 204 1 5
+E 1 203 1 8
+D 0 280 1 0
+M 1 215 1 281
+E 1 21065 1 11
+E 1 21056 1 1
+E 1 21060 1 7
+E 1 21061 1 8
+E 1 21062 1 10
+E 1 21063 1 9
+E 1 21064 1 15
+E 1 21064 1 14
+E 1 21066 1 20
+E 1 21067 1 0
+E 1 21069 1 16
+E 1 297 1 17
+D 0 281 0 0
+D 0 281 2 0
+D 0 282 3 0
+M 1 203 4 283
+E 1 204 1 5
+D 0 285 0 0
+M 1 298 2 286
+E 1 227 1 1
+E 1 226 1 17
+E 1 225 1 0
+E 1 221 1 13
+E 1 224 1 12
+E 1 227 1 1
+E 1 226 1 17
+E 1 225 1 0
+E 1 221 1 13
+E 1 224 1 12
+D 0 286 4 0
+D 0 286 5 0
+M 1 298 2 287
+E 1 227 1 1
+E 1 226 1 17
+E 1 225 1 0
+E 1 221 1 13
+E 1 224 1 12
+E 1 227 1 1
+E 1 226 1 17
+E 1 225 1 0
+E 1 221 1 13
+E 1 224 1 12
+D 0 287 4 0
+D 0 287 5 0
+M 1 208 1 288
+E 1 233 1 17
+E 1 232 1 15
+E 1 231 1 1
+E 1 225 1 0
+E 1 230 1 13
+E 1 229 1 12
+E 1 228 1 16
+D 0 288 1 0
+D 0 288 3 0
+D 0 289 0 0
+D 0 289 2 0
+D 0 290 1 0
+D 0 290 2 0
+D 0 290 3 0
+D 0 291 0 0
+D 0 291 1 0
+D 0 291 3 0
+D 0 292 2 0
+O 0 260 2 275
+P 0 10300 0 260
+P 1 243 0 260
+M 0 203 1 275
+M 0 201 1 243
+O 0 262 2 277
+P 1 261 0 262
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  202 spec_cast_mage
+M  204 spec_poison
+M  205 spec_cast_undead
+M  206 spec_cast_mage
+M  212 spec_cast_mage
+M  213 spec_guard
+M  214 spec_guard
+M  215 spec_guard
+M  216 spec_guard
+S
+
+
+#$

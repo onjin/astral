@@ -1,0 +1,1513 @@
+#AREA   Polnocne pola~
+
+
+
+#VERSION 3
+#AUTHOR Copper~
+
+#RANGES
+1 20 0 60
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 4528664
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#300
+druid Aruncus~
+Aruncus the Druid~
+Aruncus the Druid~
+Aruncus the Druid~
+Aruncus the Druid~
+Aruncus the Druid~
+Aruncus the Druid~
+Aruncus the Druid~
+Aruncus the Druid is walking around here, searching for herbs.
+~
+Aruncus is a tall, skinny druid with a face marked by nature.
+He seems to be in peace with himself and his surroundings.
+~
+193 8 -500 C
+13 8 2 13d13+130 3d5+2
+500 15000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1711 0 0 0 16 524291
+#301
+hermit sorbus~
+Sorbus the Hermit~
+Sorbus the Hermit~
+Sorbus the Hermit~
+Sorbus the Hermit~
+Sorbus the Hermit~
+Sorbus the Hermit~
+Sorbus the Hermit~
+Sorbus the Hermit is sitting here, roasting a rabbit.
+~
+Sorbus bares the marks of a long, hard life in solitude.
+He is dressed in simple clothing and looks like he has little
+or nothing to say.
+~
+3 0 0 C
+8 16 6 4d4+40 1d9+2
+0 400
+108 108 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1775 0 0 0 16 2
+#303
+Ofcol man villageman~
+an Ofcol village man~
+an Ofcol village man~
+an Ofcol village man~
+an Ofcol village man~
+an Ofcol village man~
+an Ofcol village man~
+an Ofcol village man~
+A man of the Ofcol village is here, watching you closely.
+~
+He seems like a nice person with no interest in harming you or others.
+He wears normal, light clothing and has an anonymous face.
+~
+69 0 0 C
+6 15 6 6d6+60 2d4+2
+200 800
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1775 0 0 0 0 2
+#304
+Ofcol woman villagewoman~
+an Ofcol village woman~
+an Ofcol village woman~
+an Ofcol village woman~
+an Ofcol village woman~
+an Ofcol village woman~
+an Ofcol village woman~
+an Ofcol village woman~
+A woman of the Ofcol village glances at you warily.
+~
+She seems like a nice person with no interest in harming you or others.
+She wears a minimum of clothing and has big ... eyes.
+~
+69 0 0 C
+6 16 5 5d5+50 2d4+1
+100 600
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1775 0 0 0 64 0
+#305
+worm Shudde-M'ell~
+Shudde-M'ell~
+Shudde-M'ell~
+Shudde-M'ell~
+Shudde-M'ell~
+Shudde-M'ell~
+Shudde-M'ell~
+Shudde-M'ell~
+Shudde-M'ell the Giant worm of G'harne is guarding his treasure.
+~
+Shudde-M'ell is about 15 ft long and is surrounded by an evil stench,
+The worm is the protector of the treasure of G'harne and has been so
+for as long anyone can remember.
+~
+35 552 -1000 C
+22 -2 0 10d10+500 8d2+6
+50666 75000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 65536 65536 3
+0 0 1310767 0 0 0 5 3
+#306
+luxan shopkeeper~
+Luxan~
+Luxan~
+Luxan~
+Luxan~
+Luxan~
+Luxan~
+Luxan~
+Luxan the Shopkeeper is here, eager to sell you anything.
+~
+He looks like a mean trader from the outskirts of Darkhaven.  His life
+seems to be totally occupied with trading.  He looks very fit and capable
+of protecting his goods.
+~
+7 0 400 C
+23 0 0 0d0+0 2d10+0
+27000 80000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+0 0 1775 0 0 0 400 524291
+#308
+keeper innkeeper~
+the Innkeeper~
+the Innkeeper~
+the Innkeeper~
+the Innkeeper~
+the Innkeeper~
+the Innkeeper~
+the Innkeeper~
+An Innkeeper is here waiting for your order.
+~
+The Innkeeper looks skilled in brewing different beers and mixing the
+wierdest drinks known. He also looks very big.
+~
+3 0 -100 C
+23 0 0 0d0+0 2d10+1
+100 80000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+0 0 1775 0 0 0 400 524291
+#309
+rabbit~
+the cute rabbit~
+the cute rabbit~
+the cute rabbit~
+the cute rabbit~
+the cute rabbit~
+the cute rabbit~
+the cute rabbit~
+A cute rabbit is here.
+~
+It is a small, furry creature with long ears and big feet.
+~
+65 0 0 C
+1 20 6 1d4+1 1d4+0
+0 50
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 1
+0 0 1709 0 0 0 32 2
+#350
+dragon pet~
+the pet dragon~
+the pet dragon~
+the pet dragon~
+the pet dragon~
+the pet dragon~
+the pet dragon~
+the pet dragon~
+Ravan's pet dragon is bouncing around here flapping her cute wings.
+~
+Ravan's pet dragon is about 3 ft. tall with small pointy teeth.
+The small wings are eagerly trying to lift her from the ground,
+but so far they haven't succeeded.
+~
+1073741955 524424 1000 C
+10 0 0 10d10+100 10d10+0
+0 30000
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 2048 2048 1
+0 0 296621 0 0 0 7 524291
+#0
+
+
+#OBJECTS
+#300
+herbs herb timian~
+a small dusk of timian herbs~
+a small dusk of timian herbs~
+a small dusk of timian herbs~
+a small dusk of timian herbs~
+a small dusk of timian herbs~
+a small dusk of timian herbs~
+a small dusk of timian herbs~
+Some herbs are lying here, small green leaves and tiny pink flowers.~
+~
+26 0 1
+12 -1 -1 -1
+1 5 0
+'bless' 'NONE' 'NONE'
+E
+herbs herb timian~
+This herb smells rather spicy; maybe you should try it?
+~
+#301
+herbs herb gyvel~
+a small dusk of black gyvel~
+a small dusk of black gyvel~
+a small dusk of black gyvel~
+a small dusk of black gyvel~
+a small dusk of black gyvel~
+a small dusk of black gyvel~
+a small dusk of black gyvel~
+Some black gyvel is lying here, dark green with black leaves and tiny
+blood red flowers.~
+~
+26 0 1
+45 -1 -1 -1
+1 50 5
+'poison' 'NONE' 'NONE'
+E
+herbs herb gyvel~
+This herb smells rather special, but is it poisonous?
+~
+#302
+plant ivy~
+a small dusk of poison ivy~
+a small dusk of poison ivy~
+a small dusk of poison ivy~
+a small dusk of poison ivy~
+a small dusk of poison ivy~
+a small dusk of poison ivy~
+a small dusk of poison ivy~
+Some poison ivy is growing here.~
+~
+19 0 1
+1 0 0 1
+1 5 0
+E
+plant ivy~
+This plant has dark green juicy leaves.
+You notice some small white thorns on it.~
+#303
+blood jar~
+a dark red jar~
+a dark red jar~
+a dark red jar~
+a dark red jar~
+a dark red jar~
+a dark red jar~
+a dark red jar~
+A small jar in a dark, red colour.~
+~
+17 0 1
+2 2 13 0
+2 50 5
+E
+blood jar~
+The jar is made of dry clay, covered with markings suggesting its
+occult origin.
+~
+#304
+wild flowers~
+wild flowers~
+wild flowers~
+wild flowers~
+wild flowers~
+wild flowers~
+wild flowers~
+wild flowers~
+A bunch of pretty wild flowers is here.~
+~
+13 1024 16401
+0 0 0 0
+1 10 1
+E
+wild flowers~
+These wild flowers are really pretty.
+Just like the flowers you would wear in your hair.~
+#307
+amulet~
+a strange amulet~
+a strange amulet~
+a strange amulet~
+a strange amulet~
+a strange amulet~
+a strange amulet~
+a strange amulet~
+A strange looking amulet is lying here, half covered with dust.~
+~
+9 192 5
+2 0 0 0
+1 500 50
+E
+amulet~
+Judging from the signs inscripted in the amulet, you gather it must
+have belonged to a druid.  It is weird looking with symbols from nature
+dominating it.
+~
+A
+21 -5
+A
+31 1
+#308
+staff stick~
+a druish staff~
+a druish staff~
+a druish staff~
+a druish staff~
+a druish staff~
+a druish staff~
+a druish staff~
+A staff with druidic marks have been left here.~
+~
+9 0 24576
+0 0 0 0
+4 15 1
+E
+staff stick~
+Then staff is about 5 ft long, engraved with mythical signs and figures.
+Otherwise the staff seems of no real interest.
+~
+A
+12 15
+A
+31 1
+A
+25 1
+#309
+rabbit roast wabbit~
+a rabbit roast~
+a rabbit roast~
+a rabbit roast~
+a rabbit roast~
+a rabbit roast~
+a rabbit roast~
+a rabbit roast~
+You see a deliciously looking rabbit roast.~
+~
+19 0 1
+24 0 0 0
+5 40 4
+E
+roast rabbit wabbit~
+Well the rabbit looks rather dead.
+You guess that this once was a ferocious rabbit who's life now has
+changed to that of a tasty wabbit woast.
+~
+#310
+template scroll~
+a strange template~
+a strange template~
+a strange template~
+a strange template~
+a strange template~
+a strange template~
+a strange template~
+A strange template made of an exotic green metal is placed here~
+~
+2 64 16385
+20 -1 20 76
+1 15000 1500
+'blazebane' 'blindness' 'fireball'
+E
+template scroll metal~
+The template is made of an exotic green metal and looks
+centuries old.
+Inscripted upon is the words 'Ep ep fi'hur G'harne
+                             G'harne fhtagn Shudde-M'ell hyas Negg'h'
+And beneath the inscription you see horrifying death scenes depicted.
+~
+#311
+potion clear~
+a clear potion~
+a clear potion~
+a clear potion~
+a clear potion~
+a clear potion~
+a clear potion~
+a clear potion~
+A clear potion wrapped in leather is unnoticed placed here.~
+~
+10 64 1
+20 -1 49 50
+2 2500 250
+'detect evil' 'detect invis' 'detect magic'
+E
+potion clear~
+As you examine the potion more, you notice the oddities of this
+potion. When you look through it you notice strange things...
+The clear potion is certainly not of this world.
+~
+E
+leather~
+The leather wrapped around the potion is old and decayed, originating
+from an, to you, unknown creature.~
+#312
+scroll jhyfrdow~
+a scroll titled 'jhyfrdow'~
+a scroll titled 'jhyfrdow'~
+a scroll titled 'jhyfrdow'~
+a scroll titled 'jhyfrdow'~
+a scroll titled 'jhyfrdow'~
+a scroll titled 'jhyfrdow'~
+a scroll titled 'jhyfrdow'~
+An odd looking scroll is here.~
+~
+2 0 1
+12 -1 -1 -1
+1 500 50
+'harm' 'NONE' 'NONE'
+E
+scroll jhyfrdow~
+The scroll is titled 'jhyfrdow' and looks very old.
+As you examine it closer you notice primitive drawings of
+men doing some kind of a ritual.
+~
+E
+ritual men drawings~
+The drawing pictures people gathered round giant stone formations,
+worshipping a giant worm like creature.
+It seems they are sacrificing some of their own species.
+~
+#313
+crimson flask blood~
+a flask of crimson liquid~
+a flask of crimson liquid~
+a flask of crimson liquid~
+a flask of crimson liquid~
+a flask of crimson liquid~
+a flask of crimson liquid~
+a flask of crimson liquid~
+A flask of crimson liquid draws your attention.~
+~
+27 0 1
+1 1 13 0
+3 35000 3500
+E
+blood jar~
+The jar is made of dry clay, covered with markings suggesting its
+occult origin.
+~
+#0
+
+
+#ROOMS
+#300
+Sciezka na rowninie~
+Idziesz sciezka biegnaca przez rownine.
+W kontemplacji wspanialego krajobrazu przeszkadza Ci silny wiatr.
+Sciezka na wschod, zachod i polnoc prowadzi na rowniny. 
+Na poludniu widzisz sciezke biegnaca wokol Darkhaven.
+~
+0 0 2
+D0
+Widzisz trawiaste rowniny.
+~
+~
+0 -1 315
+D1
+Widzisz sciezke ciagnaca sie przez rowniny. Nic specjalnego.
+~
+~
+0 -1 301
+D2
+~
+~
+0 -1 21099
+D3
+Widzisz trawiaste rowniny.
+~
+~
+0 -1 316
+S
+#301
+Sciezka przez rowniny~
+Idziesz sciezka biegnaca przez rowniny.
+W podziwianiu pieknych widokow przeszkadza Ci wiejacy silny wiatr.
+Sciezka dalej prowadzi na wschod i na zachod.
+~
+0 0 2
+D1
+Widzisz sciezke prowadzaca przez rowniny. Nic specjalnego.
+~
+~
+0 -1 302
+D3
+Widzisz sciezke prowadzaca przez rowniny. Nic specjalnego.
+~
+~
+0 -1 300
+S
+#302
+Sciezka przez rowniny~
+Idziesz sciezka prowadzaca przez rowniny.
+Czujesz jak silny wiatr rozwiewa Ci wlosy, gdy podziwiasz wspaniale
+krajobrazy. Sciezka prowadzi na polnoc i zachod.
+~
+0 0 2
+D0
+Widzisz sciezke ciagnaca sie przez rowniny. Nic ciekawego.
+~
+~
+0 -1 303
+D3
+You notice nothing special, except that the path in the plains continues.
+~
+~
+0 -1 301
+S
+#303
+Sciezka przez rowniny~
+Wedrujesz sciezka prowadzaca przez rozlegle rowniny.
+W podziwianiu wspanialych krajobrazow przeszkadza Ci silny wiatr,
+ktory niezle daje po oczach.
+Sciezka prowadzi na polnoc i na poludnie. Na wschodzie i zachodzie 
+rozciagaja sie trawiaste rowniny.
+~
+0 0 2
+D0
+Nic ciekawego, z wyjatkiem tego ze sciezka ciagnie sie przez rowniny.
+~
+~
+0 -1 304
+D1
+Na wschodzie widzisz trawiaste rowniny.
+~
+~
+0 -1 317
+D2
+Widzisz sciezke biegnaca przez rowniny. Nic specjalnego.
+~
+~
+0 -1 302
+D3
+To the west you can see more of the beautiful grassy plains.
+~
+~
+0 -1 315
+S
+#304
+Sciezka przez rowniny~
+Wedrujesz sciezka biegnaca przez rozlegle rowniny.
+Denerwujacy silny wiatr przeszkadza Ci w kontemplowaniu wspanialego
+krajobrazu.
+Sciezka prowadzi na polnoc i na poludnie.
+~
+0 0 2
+D0
+Sciezka biegnie dalej na polnoc przez niewielkie wzgorza.
+~
+~
+0 -1 305
+D2
+Sciezka prowadzi na poludnie w kierunku miasta.
+~
+~
+0 -1 303
+S
+#305
+Sciezka przez rowniny~
+Wedrujesz sciezka biegnaca przez rozlegle rowniny.
+W podziwianiu widokow przeszkadza Ci silny wiatr, ktory burzy Ci
+fryzure. Na wschodzie i na zachodzie widzisz trawiaste rowniny.
+Sciezka na polnoc prowadzi na niewielkie wzgorza, ale rowniez mozesz
+udac sie na poludnie.
+~
+0 0 2
+D0
+Sciezka dalej prowadzi przez niewielkie wzgorza.
+~
+~
+0 -1 306
+D1
+Widzisz trawiaste rowniny.
+~
+~
+0 -1 321
+D2
+Sciezka dalej prowadzi w kierunku Darkhaven.
+~
+~
+0 -1 304
+D3
+Widzisz trawiaste rowniny.
+~
+~
+0 -1 320
+S
+#306
+Sciezka wsrod wzgorz~
+Jestes na sciezce prowadzacej przez niewielkie wzgorza.
+Wiatr wieje Ci po czuprynie, ale wciaz wytrwale podziwiasz
+wspaniale krajobrazy. Od polnocy czujesz nadchodzacy rzeski powiew.
+Sciezka bienie na poludnie i na wschod.
+~
+0 0 2
+D0
+Widzisz trawiaste rowniny i prawdopodobnie troche krystalicznie czystej 
+wody.
+~
+~
+0 -1 326
+D1
+Sciezka dalej prowadzi w kierunku wschodnim.
+~
+~
+0 -1 307
+D2
+Sciezka wije sie przez niewielkie wzgorza.
+~
+~
+0 -1 305
+S
+#307
+Sciezka wsrod wzgorz~
+Wedrujesz sciezka usyutuowana na niewielkich wzgorzach.
+Tutejsze wiatry sa silniejsze, ale dmia calkiem przyjemnie.
+Mozesz podazyc sciezka na wschod lub zachod.
+~
+0 0 2
+D1
+Sciezka ciagnie sie przez wzgorza.
+~
+~
+0 -1 308
+D3
+Na zachodzie sciezka zakreca ku poludniowi.
+~
+~
+0 -1 306
+S
+#308
+Sciezka wsrod wzgorz~
+Idziesz waska sciezka biegnaca przez wzgorza.
+Silny wiatr psuje Ci trwala ondulacje, gdy podziwiasz piekne
+krajobrazy. Sciezka biegnie na polnoc i na zachod.
+~
+0 0 2
+D0
+Waska sciezka biegnaca przez wzgorza zakreca tutaj w lewo.
+~
+~
+0 -1 309
+D3
+Na zachodzie widzisz, ze sciezka biegnie dalej.
+~
+~
+0 -1 307
+S
+#309
+Sciezka wsrod wzgorz~
+Wedrujesz sciezka biegnaca przez wzgorza.
+Czujesz, jak z zachodu nadchodzi rzeski powiew. 
+Sciezka prowadzi na poludnie i wschod.
+~
+0 0 2
+D1
+Widzisz sciezke prowadzaca przez wzgorza.
+~
+~
+0 -1 310
+D2
+Widzisz sciezke prowadzaca przez wzgorza.
+~
+~
+0 -1 308
+D3
+Widzisz trawiaste rowniny i chyba nieco krystalicznej wody.
+~
+~
+0 -1 326
+S
+#310
+Sciezka wsrod wzgorz~
+Wedrujesz dluga sciezka ciagnaca sie ze wschodu na zachod
+( albo z zachodu na wschod - jak kto woli ).
+Otaczaja Cie zielone, zarosniete wzgorza.
+Jestes w stanie przedrzec sie sila na polnoc przez geste rosliny.
+ ~
+0 0 2
+D0
+Niewiele mozesz zobaczyc przez te chaszcze na wzgorzach.
+~
+~
+0 -1 327
+D1
+Na wschodzie zauwazasz sciezke biegnaca w kierunku skrzyzowania w
+ksztalcie litery T.
+~
+~
+0 -1 311
+D3
+Widzisz sciezke przez wzgorza.
+~
+~
+0 -1 309
+S
+#311
+Sciezka wsrod wzgorz~
+Wedrujesz dluga, waska sciezka przez wzgorza.
+Na wschodzie widzisz skrzyzowanie w ksztalcie litery T, a na zachodzie
+sciezka biegnie daleko.
+~
+0 0 2
+D1
+Tedy mozesz isc do skrzyzowania ( w ksztalcie litery T, oczywiscie )
+~
+~
+0 -1 312
+D3
+Widzisz dluga sciezke biegnaca przez rownine.
+~
+~
+0 -1 310
+S
+#312
+Skrzyzowanie sciezek~
+Stoisz na skrzyzowaniu trzech sciezek.
+Na zachodzie jest waska, dluga sciezka przez wzgorza.
+Na polnocy jest szeroka sciezka prowadzaca do Wioski Ofcol.
+Starozytna sciezka biegnie w kierunku poludniowym.
+~
+0 0 2
+D0
+Tedy biegnie szeroka droga do Ofcol.
+~
+~
+0 -1 313
+D2
+Tutaj jest czesciowo ukryta, starozytna sciezka.
+~
+~
+0 -1 332
+D3
+Widzisz dluga, waska sciezke biegnaca przez wzgorza.
+~
+~
+0 -1 311
+S
+#313
+Droga do Ofcol~
+Podrozujesz szeroka droga poznaczona koleinami. 
+Na polnocy stoi budynek rady Ofcol, nad ktorym od strony
+polnocno-wschodniej goruje wielka cytadela. Na poludniu znajduje sie
+skrzyzowanie, lub mozesz isc na zachod w kierunku wzgorz.
+Wzgorza na wschodzie sa zbyt strome, aby sie na nie wspiac.
+~
+0 0 2
+D0
+Droga biegnie w kierunku Ofcol.
+~
+~
+0 -1 314
+D2
+Widzisz skrzyzowanie na poludniu.
+~
+~
+0 -1 312
+D3
+Wydaje sie, ze mozesz wspiac sie na te wzgorza.
+~
+~
+0 -1 327
+S
+#314
+Niedaleko Ofcol~
+Stoisz na zewnatrz miasta Ofcol. Tutaj ukazuje sie przedmiescie, ktore
+moze byc milym, bezpiecznym miejscem do pobytu przed wejsciem do samego
+miasta. Mozesz podazyc w kierunku wschodnim do miasta, lub z powrotem
+na poludnie do skrzyzowania.
+~
+0 4 2
+D1
+~
+~
+0 -1 11601
+D2
+Widzisz droge prowadzaca do skrzyzowania.
+~
+~
+0 -1 313
+S
+#315
+Wzgorze szubienic~
+Wedrujesz przez trawiaste rowniny. Na malym pagorku widzisz dwie
+szubienice ze zwisajacymi gnijacymi ludzkimi szczatkami.
+Jest tutaj tabliczka.
+~
+0 0 4
+D0
+Rowniny ciagna sie daleko na polnoc.
+~
+~
+0 -1 320
+D1
+Na wschodzie widzisz na rowninie mala sciezke.
+~
+~
+0 -1 303
+D2
+Na poludniu widzisz na rowninie mala sciezke.
+~
+~
+0 -1 300
+D3
+Rownina rozciaga sie daleko na wschod.
+~
+~
+0 -1 318
+E
+tabliczka~
+Na tablicze widnieje napis :
+
+  Lojalni obywatele Darkhaven. Oto sa ziemskie pozostalosci dwoch
+  heretykow tego swiata - 'Dim' i 'Gamma', ktorzy podrabiajac dla siebie
+  niesmiertelnosc sciagneli na siebie gniew implementatorow. Niech to 
+  bedzie nauczka dla wszystkich ....
+
+				    -- Moce, ktore istnieja.
+
+
+~
+S
+#316
+Trawiaste wzgorza~
+Idziesz przez trawiaste wzgorza mijajac ziola tu rosnace. 
+Wieje silny wiatr. Daleko na polnocy widzisz wzgorza i jeszcze dalej
+mozna zauwazyc szczyty gor.
+~
+0 0 4
+D0
+Rowniny rozciagaja sie daleko na polnoc.
+~
+~
+0 -1 318
+D1
+Kiedy spogladasz na wschod zauwazasz mala sciezke.
+~
+~
+0 -1 300
+S
+#317
+Trawiaste wzgorza~
+Wedrujesz przez trawiaste wzgorza mijajac rosnace tu ziola.
+Wieje silny i porywisty wiatr. Daleko na polnocy widzisz wzgorza i
+szczyy gor. Na poludniu jest miasto Darkhaven, ale po drodze jest 
+kilka BARDZO stromych zboczy.
+~
+0 0 4
+D1
+Rowniny rozciagaja sie daleko na wschod.
+~
+~
+0 -1 338
+D2
+Kilka BARDZO stromych zboczy przeszkadza Ci w podazeniu ta sciezka.
+Taka trasa moze Cie zabic.
+~
+~
+0 -1 345
+D3
+Mala sciezka biegnie przez rowniny.
+~
+~
+0 -1 303
+S
+#318
+Trawiaste wzgorza~
+Idziesz przez piekne trawiaste wzgorza. Wieje silny i porywisty wiatr.
+Daleko na polnocy widzisz wzgorza, a za wzgorzami szczyty gor.
+~
+0 0 4
+D0
+Rowniny rozciagaja sie daleko na polnoc.
+~
+~
+0 -1 319
+D1
+Rowniny rozciagaja sie daleko na wschod.
+~
+~
+0 -1 315
+D2
+Rowniny rozciagaja sie daleko na poludnie.
+~
+~
+0 -1 316
+S
+#319
+Trawiaste rowniny~
+Idziesz po trawiastej rowninie, na ktorej tu i owdzie rosna ziola.
+Wieje silny wiatr. Na polnocy widzisz wzgorza i szczyty gor.
+~
+0 0 4
+D0
+Na polnocy rowniny przechodza w niewielkie wzgorza. Zauwazasz cos za
+malym pagorkiem ...
+~
+~
+0 -1 330
+D1
+Rowniny rozciagaja sie daleko na wschod.
+~
+~
+0 -1 320
+D2
+Rowniny rozciagaja sie daleko na poludnie.
+~
+~
+0 -1 318
+S
+#320
+Trawiaste rowniny~
+Wyplynales na suchego przestwor oceanu... ups... tzn. na
+wedrujesz po trawiastych rowninach. Wieje tu silny i porywisty wiatr.
+Na polnocy widzisz wzgorza i dalej za wzgorzami szczyty gor. 
+~
+0 0 4
+D0
+Na polnocy rownina przechodzi w niewielkie wzgorza.
+~
+~
+0 -1 322
+D1
+Na wschodzie widzisz zakrecajaca sciezke przez rowniny.
+~
+~
+0 -1 305
+D2
+Rowniny rozciagaja sie daleko na poludnie.
+~
+~
+0 -1 315
+D3
+Rowniny rozciagaja sie daleko na zachod.
+~
+~
+0 -1 319
+S
+#321
+Trawiaste rowniny~
+Idziesz po trawiastych rowninach. Hmmm... ale tu wieje...
+~
+0 0 4
+D2
+Rowniny rozciagaja sie daleko na poludnie.
+~
+~
+0 -1 338
+D3
+Niewielka sciezka biegnie przez rowniny.
+~
+~
+0 -1 305
+S
+#322
+Trawiaste wzgorza~
+Spacerujesz po trawiastych zboczach na polnoc od rowniny.
+Wiatr jest silny - gdyby nie te cegly w kieszeniach, pewnie by Cie zwialo.
+Na polnocy widzisz wzgorza i tuz za nimi szczyty gor.
+~
+0 0 4
+D0
+Daleko na polnocy niewielkie wzgorza przechodza w strome wzgorza.
+~
+~
+0 -1 324
+D2
+Niewielkie wzgorza przechodza w rowniny na poludniu.
+~
+~
+0 -1 320
+D3
+Male wzgorza rozciagaja sie daleko na wschod.
+~
+~
+0 -1 330
+S
+#323
+Strome wzgorza~
+Wedrujesz po stromych wzgorzach. Raczej ciezko sie tu poruszac.
+Na polnocy widzisz trawiasta doline z dziko rosnacymi kwiatami.
+~
+0 0 4
+D1
+Wzgorza rozciagaja sie daleko na wschod.
+~
+~
+0 -1 324
+D2
+Na horyzoncie widzisz miasto Darkhaven.
+~
+~
+0 -1 330
+S
+#324
+Strome wzgorza~
+Idziesz po stromych wzgorzach. Raczej ciezko sie tu poruszac.
+Na polnocy widzisz pietrzace sie nad Toba gory. Rosna tu sosny.
+~
+0 0 4
+D0
+~
+~
+1 -1 901
+D1
+Wzgorza rozciagaja sie daleko na wschod.
+~
+~
+0 -1 325
+D2
+Wzgorza rozciagaja sie w dol na poludniu. Na horyzoncie widac
+miasto Darkhaven.
+~
+~
+0 -1 322
+D3
+Wzgorza rozciagaja sie daleko na zachod.
+~
+~
+0 -1 323
+E
+Gory~
+Gory, kontrastujace z niebem, wygladaja mrocznie i prawie ozywione.
+~
+E
+sosna drzewo sosny drzewa~
+Wszystkie te ciche drzewa wygladaja, jakby nimi cos poruszalo. 
+~
+S
+#325
+Strome wzgorza~
+Wedrujesz po stromych wzgorzach. Poruszanie sie po nich jest nieco
+utrudnione. Na polnocy widzisz gorujace nad Toba szczyty.
+Rosnie u kilkanascie sosen.
+~
+0 0 4
+D1
+Na wschodzie wzgorza przechodza w mniejsze wzgorza.
+~
+~
+0 -1 326
+D3
+Wzgorza rozciagaja sie daleko na zachod.
+~
+~
+0 -1 324
+S
+#326
+Sadzawka wsrod wzgorz~
+Stoisz przy sadzawce. Jest czysta i zimna. 
+Strome zbocze pnie sie ku wzgorzom na polnocy. Za nimi... gory.
+~
+0 0 4
+D1
+Na wschodzie wsrod wzgorz zauwazyles mala sciezke.
+~
+~
+0 -1 309
+D2
+Na poludniu sciezka skreca w kierunku poludniowym i biegnie ku rowninom.
+~
+~
+0 -1 306
+D3
+Wzgorza rozciagaja sie daleko na zachod.
+~
+~
+0 -1 325
+E
+Sadzawka~
+Sadzawka jest krystalicznie czysta, ale jak spogladasz w wode, zauwazasz
+ze nie widzisz dna... wow, musi byc tam calkiem gleboko.
+~
+S
+#327
+Niewielkie wzgorza~
+Spacerujesz po niewielkich wzgorzach. Troche trudno sie tu poruszac.
+Dalej na polnocy widzisz gorujace nad Toba szczyty.
+Rosnie tu kilkanascie sosen.
+~
+0 0 4
+D1
+Na wschodzie wsrod wzgorz zauwazasz niewielka sciezke.
+~
+~
+0 -1 313
+D2
+Na poludniu strome zbocze schodzi w dol do niewielkiej sciezki wsrod
+wzgorz.
+~
+~
+0 -1 310
+S
+#330
+Przed chatka wsrod wzgorz~
+Jestes na wzgorzach. Na zachodzie widzisz dobrze ukryta miedzy pagorkami 
+i sosnami chatke. Na polnocy widzisz wzgorza i las sosnowy. Dalej
+na polnocy widzisz szczyty gor.
+~
+0 0 4
+D0
+Trudno sie wspiac na strome wzgorza.
+~
+~
+0 -1 323
+D1
+Wzgorza rozciagaja sie daleko na wschodzie.
+~
+~
+0 -1 322
+D2
+Na poludniu wzgorza przechodza w rowniny.
+~
+~
+0 -1 319
+D3
+Widzisz mala, rozpadajaca sie chatke - tu musi mieszkac pustelnik.
+~
+drzwi~
+1 -1 331
+S
+#331
+Chatka Pustelnika~
+Jestes wewnatrz chatki pustelnika. Chatka jest raczej stara, ale 
+spelnia swoje zadanie. Chroni jego mieszkanca przed wiatrami i
+niebezpiecznymi bestiami rownin i wzgorz. Jest tu male palenisko.
+~
+0 8 0
+D1
+Przez drzwi widzisz wzgorza.
+~
+drzwi~
+1 -1 330
+E
+palenisko~
+Pustelnik gotuje tu potrawy... a gdzie mikrofalowka ?
+~
+S
+#332
+Starozytna sciezka~
+Poruszasz sie starozytna sciezka. Sciezka pokryta jest liscmi.
+Na polnocy widzisz skrzyzowanie w ksztalcie litery T. 
+Sciezka biegnie na poludnie.
+~
+0 0 3
+D0
+Patrzac na polnoc widzisz skrzyzowanie w ksztalcie litery T.
+~
+~
+0 -1 312
+D2
+Starozytna sciezka biegnie przez rowniny.
+~
+~
+0 -1 333
+S
+#333
+Starozytna sciezka~
+Stoisz na starozytnej sciezce, ktora biegnie na polnoc i na poludnie.
+Sciezka jest tu ledwie widoczna.
+~
+0 0 3
+D0
+Widzisz starozytna sciezke.
+~
+~
+0 -1 332
+D1
+~
+~
+0 -1 500
+D2
+Uwaznie sledzisz sciezke i widzisz bezposrednich zagrozen.
+~
+~
+0 -1 334
+S
+#334
+Starozytna sciezka~
+Stoisz na starozytnej sciezce ktora biegnie na polnoc i poludnie.
+Sciezka w tym miejscu jest ledwo widoczna.
+~
+0 0 3
+D0
+Widzisz starozytna sciezke.
+~
+~
+0 -1 333
+D2
+You trace the path carefully and see no immediate dangers.
+~
+~
+0 -1 335
+S
+#335
+Starozytna sciezka~
+Sciezka biegnie stad na polnoc i wschod. Zauwazasz kilka znakow
+umieszczonych wzdluz brzegu sciezki. 
+~
+0 0 3
+D0
+Widzisz starozytna sciezke zakrecajaca na polnoc. Wyglada bezpiecznie.
+~
+~
+0 -1 334
+D1
+Dalej widzisz most nad malym strumieniem.
+~
+~
+0 -1 336
+E
+znaki~
+Znaki wygladaja jak normalne kamienie, ale sposob, w jaki sa ulozone
+powoduje ze sie zastanawiasz, czy nie ma w nich czegos specjalnego. 
+~
+S
+#336
+Drewniany most~
+Wkroczyles na drewniany most. Wyglada na stary ale solidny.
+Jest zrobiony z drewna, ktorego wczesniej nie widziales.
+~
+0 0 2
+D1
+Sciezka biegnie dalej, w oddali zauwazasz jakies skupiska kamieni.
+~
+~
+0 -1 337
+D3
+Starozytna sciezka biegnie na zachod i skreca na polnoc.
+~
+~
+0 -1 335
+E
+kamienie skupisko skupiska~
+Skupisko kamieni jest zrobione z siedmiu duzych, monolitycznych kamieni
+ulozonych w krag. Zauwazasz ze mozna wejsc w ten krag.
+~
+S
+#337
+Starozytna sciezka~
+Jestes miedzy mostem a skupiskiem kamieni. Dochodzac do kamieni
+zaczynasz dostrzegac ich wielkosc. Kamienie sa wysokie na okolo 15 stop
+i maja prawie idealnie prostopadloscienny ksztalt.
+Widok zrobil na Tobie wrazenie.
+~
+0 0 3
+D1
+Idziesz na wschod i wchodzisz do kregu z kamieni. Zastanawiasz sie, czy
+to bezpieczne.
+~
+~
+0 -1 339
+D3
+Na zachod sciezka prowadzi do drewnianego mostu.
+~
+~
+0 -1 336
+E
+skupisko kamienie skupiska~
+Skupisko kamieni jest zrobione z siedmiu wielkich monolitow ulozonych w
+krag. Zauwazasz, ze mozesz wejsc do kregu.
+~
+S
+#338
+Trawiaste rowniny~
+Wedrujesz po trawiastej rowninie posrod rosnacych tu ziol.
+Wieje tu porywisty i silny wiatr. Daleko na polnocy widzisz wzgorza
+a za nimi szczyty gor.
+~
+0 0 4
+D0
+Rownina rozciaga sie daleko na polnoc.
+~
+~
+0 -1 321
+D3
+Rownina rozciaga sie daleko na wschod.
+~
+~
+0 -1 317
+S
+#339
+Kamienie G'harne~
+Jestes miedzy siedmioma mierzacymi 15 stop monolitycznymi kamieniami.
+W srodku kregu stoi wielki oltarz ofiarny. Chociaz ziemia pokryta jest
+brudem, oltarz wyglada jak swiezo wypucowany. Rozgladasz sie wokolo
+ze strachem, zapominajac o zachowaniu.
+~
+0 0 2
+D3
+Widzisz starozytna sciezke i drewniany most.
+~
+~
+2048 -1 337
+D5
+Tunel zostal odkryty.
+~
+oltarz~
+1035 -1 340
+E
+kamienie g'harne monolit~
+Kamienie G'harne goruja nad Toba.
+Gigantyczne kamienie zrobione sa z materialu, ktorego wczesniej nie
+widziales. Podobny jest do czarnego marmuru, ale w dotyku jest nieco
+inny.
+~
+E
+oltarz ofiara~
+Podchodzisz blizej aby zbadac oltarz ofiatny G'harne.
+Oltarz jest wysoki na 3 stopy, dlugi na 10 stop i szeroki na 4 stopy
+Na powierzchni oltarza wyryte sa obrazki przedstawiajace smiercionosne
+rytualy i przerazajace robale.
+~
+E
+rytualy robale obrazki robal rytual obrazek~
+The pictures are depicting evil rituals.
+You see druids pouring blood over herbs on an altar like this one.
+There are people calling giant worms into existence with dark spells.
+~
+S
+#340
+Dark smelly tunnels~
+You are standing in a gloomy tunnel leading south and west.  The walls
+are covered with a smelly slime and small rotting pieces of a meat like
+substance, fills the air with an unbearable stench.  You might be able
+to force your way into fresh air from here.
+~
+0 265 0
+D2
+~
+~
+0 -1 341
+D3
+~
+~
+0 -1 342
+D4
+You welcome the sight of fresh air.
+~
+slime~
+1035 -1 339
+E
+meat rotting slime substance~
+You try to examine the substance closer, but must refrain from this
+as all you really want to do is puke.
+You puke.
+~
+S
+#341
+Dead end tunnel~
+The tunnel comes to an abrupt end here. It simply looks like it hasn't been
+excavated further.  North of here the tunnel makes a turn west.
+~
+0 265 0
+D0
+~
+~
+0 -1 340
+S
+#342
+Dark smelly tunnels~
+You are standing in a gloomy tunnel leading east and west.
+The walls are covered with a smelly slime and small rotting pieces of a
+meat like substance, fills the air with an unbearable stench.
+~
+0 265 0
+D1
+The tunnel continues in this direction.
+~
+~
+0 -1 340
+D3
+The tunnel continues in this direction.
+~
+~
+0 -1 343
+E
+meat rotting slime substance~
+You try to examine the substance closer, but must refrain from this
+as all you really want to do is puke.
+You puke.
+~
+S
+#343
+Dark smelly tunnels~
+You are standing in a small smelly tunnel under the plains.
+The smell is growing stronger to the west, so is the density of the
+slime and other undeterminable substances ...
+~
+0 256 0
+D1
+The unbearable stench is less intensive in this direction.
+~
+~
+0 -1 342
+D3
+The tunnel seems to extend into some kind of cave.
+~
+~
+0 -1 344
+E
+slime substance~
+BWADR! ...
+~
+S
+#344
+The Hall of G'harne~
+You stand in the hall of G'harne. The walls are dressed with strange
+carving, symbolizing human sacrifice and people worshipping giant worms.
+Disgusting slime and gore are also very dominant in your view of this room.
+~
+0 265 0
+D1
+It looks like a good idea just to run in this direction.
+~
+~
+0 -1 343
+E
+slime gore~
+You puke.
+~
+S
+#345
+Steep slope~
+You try to climb down the slope.
+~
+0 12 2
+S
+#0
+
+
+#RESETS
+O 0 300 10 327
+O 0 301 10 319
+O 0 304 3 316
+O 0 304 3 323
+O 0 304 3 338
+M 0 305 1 344
+G 1 310 5
+G 1 311 5
+M 0 309 10 324
+M 0 309 10 318
+M 0 309 10 334
+M 0 300 1 323
+E 1 308 2 17
+E 1 307 2 3
+G 1 312 1
+G 1 302 10
+M 0 301 1 331
+G 1 303 2
+O 0 309 30 331
+D 0 340 4 1
+D 0 339 5 1
+S
+
+
+#SHOPS
+ 306    1 10 11 19  0   120  60         0 23    ; Luxan
+ 308    0  0  0  0  0   110 100         0 23    ; the Innkeeper
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  350 spec_cast_mage
+S
+
+
+#$

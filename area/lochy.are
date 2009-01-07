@@ -1,0 +1,2599 @@
+#AREA   Zaginione lochy~
+
+
+
+#VERSION 3
+#AUTHOR Gobo~
+
+#RANGES
+35 65 30 65
+$
+
+#RESETMSG Slyszysz glosy zagubionych dusz zwolujace sie na uczte...~
+
+#FLAGS
+5 15
+
+#ECONOMY 64 978600035
+
+#CLIMATE 0 2 2
+
+#MOBILES
+#30053
+straznik lochow~
+straznik lochow~
+straznika lochow~
+straznikowi lochow~
+straznika lochow~
+straznikiem lochow~
+strazniku lochow~
+strazniku lochow~
+Straznik lochow. 
+~
+Wyglada na silnego i zdecydowanego na wszystko czlowieka...
+~
+3 0 0 C
+50 10 -180 6d10+1000 2d9+24
+120000 80000
+112 112 0
+16 13 13 14 13 13 13
+0 0 0 0 90
+0 0 0 0 1 1 0
+0 0 0 3 3072 0 112 524289
+#30054
+wampir nocy~
+wampir~
+wampira~
+wampirowi~
+wampira~
+wampirem~
+wampirze~
+wampirze~
+Polujacy na kolejna ofiare wampir.
+~
+Wyglada na istote z rzedu tzw. wampirow wyzszych... strzez sie !
+~
+3 8320 0 S
+44 0 -300 500d0+100 3d4+15
+200000 0
+112 112 1
+#30055
+dusza rycerza~
+dusza rycerza~
+duszy rycerza~
+duszy rycerza~
+dusze rycerza~
+dusza rycerza~
+duszy rycerza~
+duszo rycerza~
+Wolajaca o pomoc niespokojna dusza...
+~
+Chodz jest to "tylko" dusza umie ona pokazac pazury i kly,
+Jest wspaniale i dostatnio ubrana i czeka na Ciebie...
+~
+1 0 0 C
+35 0 -100 6d10+990 2d9+20
+30000 0
+112 107 1
+16 13 13 14 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 3 3072 0 112 524289
+#30056
+poszukiwacz skarbow~
+poszukiwacz skarbow~
+poszukiwacza skarbow~
+poszukiwaczowi skarbow~
+poszukiwacza skarbow~
+poszukiwaczem skarbow~
+poszukiwaczu skarbow~
+poszukiwaczu skarbow~
+Polujacy na kolejne skarby poszukiwacz.
+~
+Jest zadziwiajaca dobrze zbudowany jak na czlowieka przebywajacego
+tyle czasu w lochach...
+~
+3 8320 0 S
+44 0 -300 500d0+100 3d4+15
+40000 0
+112 112 1
+#30057
+krolewski nietoperz~
+krolewski nietoperz~
+krolewskiego nietoperza~
+krolewskiemu nietoperzowi~
+krolewskiego nietoperza~
+krolewskim nietoperzem~
+krolewskim nietoperzu~
+krolewski nietoperzu~
+Szukajacy ofiary nietoperz.
+~
+Jak kazde latajace straszydlo jest niewielki jednak pewnie jak kazde
+zwierze posiada niebezpieczne umiejetnosci obronne.
+~
+3 8320 0 S
+44 0 -300 500d0+100 3d4+15
+45000 0
+112 112 1
+#30058
+wieczny szkielet~
+szkielet~
+szkieleta~
+szkieletowi~
+szkielet~
+szkieletem~
+szkielecie~
+szkielecie~
+Bladzacy po lochach szkielet.
+~
+Same kosci a jednak cos mowi Ci, ze powinienes na niego uwazac...
+~
+3 8320 0 S
+44 0 -300 500d0+100 3d4+15
+30000 0
+112 112 1
+#30059
+jadowity pajak~
+pajak~
+pajaka~
+pajakowi~
+pajaka~
+pajakiem~
+pajaku~
+pajaku~
+Zblizajacy sie nieuchronnie pajak.
+~
+Niewielki ale zdecydowanie jadowity pajak, ktory w rozsadnych osobach
+powinien wzbudzac respekt...
+~
+3 8320 0 S
+44 0 -300 500d0+100 3d4+15
+45000 0
+112 112 1
+#30060
+Zywiol~
+Zywiol~
+Zywiolu~
+Zywiolowi~
+Zywiol~
+Zywiolem~
+Zywiole~
+Zywiole~
+Zagubiony zywiol.
+~
+Tak naprawde nikt nie jest w stanie powiedziec czy nalezy sie obawiac
+tego przedziwnego zjawiska...
+~
+3 8320 0 S
+44 0 -300 500d0+100 3d4+15
+60000 0
+112 112 1
+#30061
+demoniczny smok~
+demoniczny smok~
+demonicznego smoka~
+demonicznemu smokowi~
+demonicznego smoka~
+demonicznym smokiem~
+demonicznym smoku~
+demoniczny smoku~
+Polujacy na ofiary smok.
+~
+Ta istota podziemi zdecydowanie nie nastraja do rozmyslan.
+Najlepiej uciekac i to jak najszybciej !
+~
+3 8320 0 S
+44 0 -300 500d0+100 3d4+15
+400000 0
+112 112 1
+#30062
+zagubiony czlowiek~
+zagubiony czlowiek~
+zagubionego czlowieka~
+zagubionemu czlowiekowi~
+zagubionego czlowieka~
+zagubionym czlowiekiem~
+zagubionym czlowieku~
+zagubiony czlowieku~
+Bezmyslny czlowiek.
+~
+Ta istota wyglada na zrozpaczona i zagubiona... pewnie popelnila ten
+sam blad co Ty... weszla tutaj.
+~
+3 0 0 C
+35 0 -100 6d10+990 2d9+20
+30000 0
+112 100 1
+16 13 13 14 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 3 3072 0 112 524289
+#30063
+krolewski wojownik~
+krolewski wojownik~
+krolewskiego wojownika~
+krolewskiemu wojownikowi~
+krolewskiego wojownika~
+krolewskim wojownikiem~
+krolewskim wojowniku~
+krolewski wojowniku~
+Wiernie sluzacy krolowi wojownik.
+~
+Jak sama nazwa wskazuje wyglada na potezna i niezle uzbrojona postac...
+~
+3 0 0 C
+35 0 -100 6d10+990 2d9+20
+300000 0
+112 100 1
+16 13 13 14 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 3 3072 0 112 524289
+#30064
+syn krolewski~
+krolewski syn~
+krolewskiego syna~
+krolewskiemu synowi~
+krolewskiego syna~
+krolewskim synem~
+krolewskim synu~
+krolewski synu~
+Poszukujacy ojca syn.
+~
+Biedny i osamotniony wyglada na bardzo nieszczesliwa istote, ale lepiej
+uwazac gdyz pewnie nie konczyl pierwszej lepszej akademii wojskowej.
+~
+3 0 0 C
+35 0 -100 6d10+990 2d9+20
+250000 0
+112 100 1
+16 13 13 14 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 3 3072 0 112 524289
+#30065
+Smierc~
+Smierc~
+Smierci~
+Smierci~
+Smierc~
+Smiercia~
+Smierci~
+Smierc~
+Poszukujaca zywych osob smierc.
+~
+He, wyglada niezle i na pewno chce miec kolejna osobe "na sumieniu".
+Uzbrojona w kose smierc...
+~
+3 0 0 C
+35 0 -100 6d10+990 2d9+20
+60000 0
+112 100 1
+16 13 13 14 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 3 3072 0 112 524289
+#30066
+Krol~
+Krol~
+Krola~
+Krolowi~
+Krola~
+Krolem~
+Krolu~
+Krolu~
+Wladca podziemi. 
+~
+Dumnie przechadzajacy sie po lochach wladca tej krainy.
+Wspaniale ubrany i uzbrojony...
+~
+3 0 0 C
+35 0 -100 6d10+990 2d9+20
+40000 0
+112 100 1
+16 13 13 14 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 3 3072 0 112 524289
+#30067
+slepa zmija~
+zmija~
+zmije~
+zmiji~
+zmije~
+zmija~
+zmiji~
+zmijo~
+Wijaca sie po posadzce zmija.
+~
+Jest to jadowity i niebezpieczny stwor... uwazaj gdyz mozesz 
+pozostac tu na wieki jak wielu twoich poprzednikow.
+~
+3 0 0 C
+35 0 -100 6d10+990 2d9+20
+45000 0
+112 100 1
+16 13 13 14 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 3 3072 0 64 1
+#0
+
+
+#OBJECTS
+#30053
+peleryna~
+peleryna wojownika~
+peleryny wojownika~
+pelerynie wojownika~
+peleryne wojownika~
+peleryna wojownika~
+pelerynie wojownika~
+peleryno wojownika~
+Porzucona nieprzemakalna peleryna lezy tutaj.~
+~
+9 -2147352576 1025 32
+8 8 0 0
+1 0 0
+#30054
+rozdzka zycia~
+rozdzka zycia~
+rozdzka zycia~
+rozdzka zycia~
+rozdzka zycia~
+rozdzka zycia~
+rozdzka zycia~
+rozdzka zycia~
+Rozdzka zycia mogaca ocalic niejedna glowe...~
+~
+3 0 16385
+45 2 2 -1 84 125
+3 40000 4000
+'heal'
+#30055
+skarpetki szczescia~
+skarpetki szczescia~
+skarpetek szczescia~
+skarpetkom szczescia~
+skarpetki szczescia~
+skarpetkami szczescia~
+skarpetkach szczescia~
+skarpetki szczescia~
+Piekne, mogace sie przydac skarpety...~
+~
+9 -2147352576 65 4
+13 13 0 0
+1 25000 5000
+A
+31 2
+A
+24 -5
+#30056
+demoniczny pasek~
+demoniczny pasek~
+demonicznego paska~
+demonicznemu paskowi~
+demoniczny pasek~
+demonicznym paskiem~
+demonicznym pasku~
+demoniczny pasku~
+Pasek, ktory moze Ci sie przydac.~
+~
+9 -2147352576 2049 4
+12 12 0 0
+2 35000 5000
+A
+24 -7
+A
+23 -7
+#30057
+smocze buty~
+smocze buty~
+smoczych butow~
+smoczym butom~
+smocze buty~
+smoczym butom~
+smoczych butach~
+smocze buty~
+Stoja tu nikomu niepotrzebne smocze buty.~
+~
+9 -2147352576 65 8
+14 14 0 0
+3 40000 4000
+A
+5 2
+A
+25 2
+#30058
+nietoperzowa opaska~
+nietoperzowa opaska~
+nietoperzowej opaski~
+nietoperzowej opasce~
+nietoperzowa opaske~
+nietoperzowa opaska~
+nietoperzowej opasce~
+nietoperzowa opasko~
+Mieniaca sie odcieniami szarosci opaska.~
+~
+9 -2147352576 17 4
+10 10 0 0
+2 50000 2500
+A
+31 2
+A
+3 2
+A
+4 1
+#30059
+smocza zbroja~
+smocza zbroja~
+smoczej zbroji~
+smoczej zbroji~
+smocza zbroje~
+smocza zbroja~
+smoczej zbroji~
+smocza zbroja~
+Polyskuje w sloncu smocza zbroja...~
+~
+9 -2147352576 9 16
+20 20 0 0
+10 300000 15000
+A
+17 -15
+A
+13 50
+A
+26 2
+#30060
+bransoleta zywiolu~
+bransoleta zywiolu~
+bransolety zywiolu~
+bransolecie zywiolu~
+bransolete zywiolu~
+bransoleta zywiolu~
+bransolecie zywiolu~
+bransoleto zywiolu~
+Polyskuje tutaj bransoleta zywiolu.~
+~
+9 -2147352576 4097
+15 15 0 0
+2 40000 2000
+A
+13 40
+A
+19 4
+#30061
+smiertelna koszula~
+smiertelna koszula~
+smiertelnej koszuli~
+smiertelnej koszuli~
+smiertelna koszule~
+smiertelna koszula~
+smiertelnej koszuli~
+smiertelna koszulo~
+Lezy tu nieuzywana smiertelna koszula.~
+~
+9 -2147352576 1025 2
+12 12 0 0
+3 100000 8000
+A
+17 -10
+A
+13 45
+#30062
+toga wampira~
+toga wampira~
+togi wampira~
+todze wampira~
+toge wampira~
+toga wampira~
+todze wampira~
+togo wampira~
+Pozucona bezmyslnie toga lezy tutaj.~
+~
+9 -2147352576 9 4
+11 11 0 0
+2 50000 5000
+A
+13 25
+A
+24 -3
+#30063
+nietoperzowa kamizelka~
+nietoperzowa kamizelka~
+nietoperzowej kamizelki~
+nietoperzowej kamizelce~
+nietoperzowa kamizelke~
+nietoperzowa kamizelka~
+nietoperzowej kamizelce~
+nietoperzowa kamizelko~
+Stara kamizelka lezy tutaj...~
+~
+9 -2147352576 9 8
+8 8 0 0
+3 100000 5000
+A
+25 2
+A
+23 -3
+#0
+
+
+#ROOMS
+#30053
+Wejscie do lochow~
+Stoisz przed ogromnym glazem stanowiacym wejscie do lochow... zanim posuniesz
+sie krok naprzod przemysl dobrze swoja decyzje.
+Mozesz pozostac tam na zawsze.
+
+~
+0 36970633 0
+D2
+~
+~
+33 0 30054
+D4
+~
+~
+2056 -1 220
+S
+#30054
+Prog ciemnosci~
+To wlasnie tu masz ostatnia szanse by uniknac tej pochopnej 
+i z pewnoscia nieprzemyslanej decyzji. 
+Jezeli odwazysz sie wstapic do krolestwa ciemnosci strzez sie...
+Gdy stracisz wszelka nadzieje down i up pozwola zakonczyc Twoj marny zywot.
+~
+0 36970633 0
+D0
+~
+~
+0 0 30053
+D5
+~
+~
+1 0 30116
+S
+#30055
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970632 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30098
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2056 0 30118
+S
+#30056
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970633 0
+D0
+~
+~
+2048 -1 30097
+D1
+~
+~
+2048 -1 30116
+D2
+~
+~
+2048 -1 30062
+D3
+~
+~
+2048 -1 30116
+D5
+~
+~
+2048 -1 30118
+S
+#30057
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970632 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30092
+D3
+~
+~
+2048 0 30138
+D5
+~
+~
+2048 0 30118
+S
+#30058
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30103
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30064
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30059
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30091
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30058
+D5
+~
+~
+2048 0 30118
+S
+#30060
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30104
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30059
+D5
+~
+~
+2048 0 30118
+S
+#30061
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970633 0
+D0
+~
+~
+2048 0 30057
+D1
+~
+~
+2048 0 30065
+D2
+~
+~
+2048 0 30105
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30062
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970632 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30063
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30068
+D5
+~
+~
+2048 0 30118
+S
+#30063
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970633 0
+D0
+~
+~
+2048 0 30055
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30074
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30064
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970633 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30070
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30065
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970627 0
+D5
+~
+~
+2048 0 30116
+S
+#30066
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970632 0
+D0
+~
+~
+2048 0 30060
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30065
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30067
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30061
+D1
+~
+~
+2048 0 30080
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30068
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D5
+~
+~
+2048 0 30118
+S
+#30069
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D5
+~
+~
+2048 0 30118
+S
+#30070
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970632 0
+D0
+~
+~
+2048 0 30106
+D1
+~
+~
+2048 0 30071
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30071
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30069
+D1
+~
+~
+2048 0 30072
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30072
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30078
+D3
+~
+~
+2048 0 30107
+D5
+~
+~
+2048 0 30118
+S
+#30073
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30067
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30108
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30074
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D5
+~
+~
+2048 0 30118
+S
+#30075
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30081
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30076
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30075
+D5
+~
+~
+2048 0 30118
+S
+#30077
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970632 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30076
+D5
+~
+~
+2048 0 30118
+S
+#30078
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970633 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30077
+D5
+~
+~
+2048 0 30118
+S
+#30079
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970632 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30134
+D5
+~
+~
+2048 0 30118
+S
+#30080
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D5
+~
+~
+2048 0 30118
+S
+#30081
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30082
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30082
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970633 0
+D0
+~
+~
+2048 0 30098
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30088
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30083
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30084
+D2
+~
+~
+2048 0 30097
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30084
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30065
+D1
+~
+~
+2048 0 30115
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30092
+D5
+~
+~
+2048 0 30118
+S
+#30085
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970633 0
+D0
+~
+~
+2048 0 30079
+D1
+~
+~
+2048 0 30104
+D2
+~
+~
+2048 0 30103
+D3
+~
+~
+2048 0 30091
+D5
+~
+~
+2048 0 30118
+S
+#30086
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30085
+D5
+~
+~
+2048 0 30118
+S
+#30087
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30105
+D1
+~
+~
+2048 0 30068
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30086
+D5
+~
+~
+2048 0 30118
+S
+#30088
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970632 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30087
+D5
+~
+~
+2048 0 30118
+S
+#30089
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30083
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30090
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30074
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30110
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30091
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D5
+~
+~
+2048 0 30118
+S
+#30092
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D5
+~
+~
+2048 0 30118
+S
+#30093
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970633 0
+D0
+~
+~
+2048 0 30094
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30094
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970632 0
+D0
+~
+~
+2048 0 30095
+D1
+~
+~
+2048 0 30080
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30095
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30096
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30096
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30137
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30097
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D5
+~
+~
+2048 0 30118
+S
+#30098
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D5
+~
+~
+2048 0 30118
+S
+#30099
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970627 0
+D5
+~
+~
+2048 0 30118
+S
+#30100
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30101
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30101
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970633 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30140
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30102
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36708481 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30053
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30103
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D5
+~
+~
+2048 0 30118
+S
+#30104
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D5
+~
+~
+2048 0 30118
+S
+#30105
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D5
+~
+~
+2048 0 30118
+S
+#30106
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D5
+~
+~
+2048 0 30118
+S
+#30107
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D5
+~
+~
+2048 0 30118
+S
+#30108
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D5
+~
+~
+2048 0 30118
+S
+#30109
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970632 0
+D0
+~
+~
+2048 0 30089
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30110
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970633 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30109
+D5
+~
+~
+2048 0 30118
+S
+#30111
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D5
+~
+~
+2048 0 30118
+S
+#30112
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970633 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30066
+D5
+~
+~
+2048 0 30118
+S
+#30113
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30112
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30114
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970632 0
+D0
+~
+~
+2048 0 30113
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30115
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970633 0
+D0
+~
+~
+2048 0 30114
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30116
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30111
+D1
+~
+~
+2048 0 30111
+D2
+~
+~
+2048 0 30111
+D3
+~
+~
+2048 0 30090
+D5
+~
+~
+2048 0 30118
+S
+#30117
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D5
+~
+~
+2048 0 30118
+S
+#30118
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 -1 30116
+D1
+~
+~
+2048 -1 30119
+D2
+~
+~
+2048 -1 30116
+D3
+~
+~
+2048 -1 30116
+D4
+~
+~
+2048 -1 30099
+D5
+~
+~
+2048 -1 30118
+S
+#30119
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30122
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30120
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30121
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30121
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30102
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30122
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30125
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30123
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30131
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30124
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30127
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30125
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30124
+D5
+~
+~
+2048 0 30118
+S
+#30126
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30123
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30127
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30128
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30128
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30129
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30129
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30126
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30130
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30120
+D5
+~
+~
+2048 0 30118
+S
+#30131
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30132
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30132
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30133
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30133
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30130
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30134
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30080
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30093
+D5
+~
+~
+2048 0 30118
+S
+#30135
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970625 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30073
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30136
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970632 0
+D0
+~
+~
+2048 0 30117
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30135
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30137
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970633 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30136
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30138
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36971145 0
+D0
+~
+~
+2048 0 30139
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30139
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970632 0
+D0
+~
+~
+2048 0 30100
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#30140
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 36970632 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30141
+D2
+~
+~
+2048 0 30116
+D3
+~
+~
+2048 0 30111
+D5
+~
+~
+2048 0 30118
+S
+#30141
+Lochy~
+Coz tu duzo opowiadac, zrobiles blad a teraz za niego zaplacisz...
+~
+0 104079361 0
+D0
+~
+~
+2048 0 30116
+D1
+~
+~
+2048 0 30116
+D2
+~
+~
+2048 0 30056
+D3
+~
+~
+2048 0 30116
+D5
+~
+~
+2048 0 30118
+S
+#0
+
+
+#RESETS
+E 1 30057 1 8
+M 0 30066 1 30055
+E 0 30055 0 8
+E 1 30054 1 17
+M 0 30062 1 30057
+M 0 30065 1 30062
+E 0 30061 0 5
+T 5 0 3 30065
+M 0 30056 1 30066
+T 5 3 3 30068
+T 5 5 3 30069
+M 0 30057 1 30070
+E 0 30063 0 5
+E 0 30058 0 6
+T 5 1 3 30074
+M 0 30058 1 30077
+M 0 30060 1 30079
+E 0 30060 0 15
+E 0 30060 0 14
+T 5 2 3 30080
+M 0 30059 1 30088
+T 5 8 3 30091
+T 5 5 3 30092
+M 0 30067 1 30094
+T 5 9 3 30097
+T 5 0 3 30098
+T 5 10 3 30103
+T 5 7 3 30104
+T 5 4 3 30105
+T 5 12 3 30106
+T 5 0 3 30107
+T 5 6 3 30108
+M 0 30054 1 30109
+E 0 30062 0 5
+T 5 5 3 30111
+T 5 6 3 30117
+M 0 30061 1 30136
+E 1 30057 1 8
+E 0 30059 0 5
+M 0 30063 1 30139
+E 0 30053 0 12
+M 0 30064 1 30140
+M 0 30055 1 30114
+E 1 30056 1 13
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  30053 spec_cast_mage
+S
+
+
+#$

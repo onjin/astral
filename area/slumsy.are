@@ -1,0 +1,277 @@
+#AREA   Mudowskie Slumsy~
+
+
+
+#VERSION 3
+#AUTHOR Bercik~
+
+#RANGES
+0 65 15 65
+$
+
+#RESETMSG Z daleka dobiega cie cichy odglos dzwonow.~
+
+#FLAGS
+8
+
+#ECONOMY 0 51200000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#0
+
+
+#OBJECTS
+#0
+
+
+#ROOMS
+#1600
+Ulica Dluga~
+Znajdujesz sie w mieszkalnej dzielnicy muda Astral Dominion. Stoisz
+wlasnie na glownej ulicy tej krainki. Ulica Dluga, bo tak brzmi jej nazwa,
+biegnie dalej prosto na polnoc, ginac w oddali. Od tej ulicy odbiegaja alejki
+przy ktorych stoja domy graczy.
+~
+0 2098176 1
+D0
+~
+~
+0 -1 1601
+D2
+~
+~
+0 -1 7029
+S
+#1601
+Ulica Dluga~
+Znajdujesz sie na Ulicy Dlugiej. Przed soba na polnocy widzisz skrzyzowanie
+z Aleja Rozana. Po prawej i lewej stronie widzisz jakies majestatyczne
+budynki, zapewne mieszkania innych graczy. Wokolo jest cicho i spokojnie.
+~
+0 2097152 1
+D0
+~
+~
+0 -1 1602
+D2
+~
+~
+0 -1 1600
+S
+#1602
+Skrzyzowanie Ulicy Dlugiej z Aleja Rozana~
+Znajdujesz sie na skrzyzowaniu Ulicy Dlugiej z Aleja Rozana. Gdy spogladasz
+w kierunku aleji widzisz sliczne domki ze wspanialymi ogrodkami i pobielonymi
+plotami. Tam zapewne mieszkaja gracze lubiacy lad i pozadek.
+~
+0 2097152 1
+D0
+~
+~
+0 -1 1603
+D1
+~
+~
+0 -1 1607
+D2
+~
+~
+0 -1 1601
+D3
+~
+~
+0 -1 1606
+S
+#1603
+Ulica Dluga~
+Znajdujesz sie na Ulicy Dlugiej. Po swojej prawej i lewej stronie widzisz
+majestatyczne budynki, zapewne mieszkania innych graczy. Okolica jest cicha 
+i spokojna. 
+~
+0 2097152 1
+D0
+~
+~
+0 -1 1604
+D2
+~
+~
+0 -1 1602
+S
+#1604
+Ulica Dluga~
+Znajdujesz sie na Ulicy Dlugiej. Po swojej prawej i lewej stronie widzisz
+majestatyczne budynki, zapewne mieszkania innych graczy. Okolica jest cicha
+i spokojana.
+~
+0 2097152 1
+D0
+~
+~
+0 -1 1605
+D2
+~
+~
+0 -1 1603
+S
+#1605
+Skrzyzowanie Ulicy Dlugiej z Aleja Cieni~
+Znajdujesz sie na skrzyzowaniu Ulicy Dlugiej z Aleja Cieni. Aleja Cieni jest
+mroczna i tajemnicza. Zalegaja nad nia nieprzeniknione ciemnosci, a od czasu
+do czasu dobiegaja cie przerazajace krew w zylach odglosy. Hmmm, to na pewno
+nie jest najspokojniejsza dzielnica.
+~
+0 2097152 1
+D1
+~
+~
+0 -1 1613
+D2
+~
+~
+0 -1 1604
+D3
+~
+~
+0 -1 1612
+S
+#1606
+Aleja Rozana~
+Znajdujesz sie w przepieknej okolicy. Domy stojace przy Aleji Rozanej sa
+solidnie wykonane i starannie pomalowane. Pelno tu kwiatow, powietrze jest
+wrecz przesiakniete ich zapachem. Wszedzie dokola panuje mila dla ucha cisza.
+Az chcialoby sie tu zamieszkac.
+~
+0 2097152 1
+D1
+~
+~
+0 -1 1602
+D3
+~
+~
+0 -1 1608
+S
+#1607
+Aleja Rozana~
+Znajdujesz sie w przepieknej okolicy. Domy stojace przy Aleji Rozanej sa
+solidnie wykonane i starannie pomalowane. Pelno tu kwiatow, powietrze jest
+wrecz przesiakniete ich zapachem. Wszedzie dokola panuje mila dla ucha cisza.
+Az chcialoby sie tu zamieszkac.
+~
+0 2097152 1
+D1
+~
+~
+0 -1 1609
+D3
+~
+~
+0 -1 1602
+S
+#1608
+Aleja Rozana~
+Znajdujesz sie w przepieknej okolicy. Domy stojace przy Aleji Rozanej sa
+solidnie wykonane i starannie pomalowane. Pelno tu kwiatow, powietrze jest
+wrecz przesiakniete ich zapachem. Wszedzie dookola panuje mila dla ucha cisza.
+Az chcialoby sie tu zamieszkac.
+~
+0 2097152 1
+D1
+~
+~
+0 -1 1606
+D3
+~
+~
+0 -1 1610
+S
+#1609
+Aleja Rozana~
+Znajdujesz sie w przepieknej okolicy. Domy stojace przy Aleji Rozanej sa
+solidnie wykonane i starannie pomalowane. Pelno tu kwiatow, powietrze jest
+wrecz przesiakniete ich zapachem. Wszedzie dookola panuje mila dla ucha cisza.
+Az chcialoby sie tu zamieszkac.
+~
+0 2097152 1
+D1
+~
+~
+0 -1 1611
+D3
+~
+~
+0 -1 1607
+S
+#1610
+Aleja Rozana~
+Znajdujesz sie w przepieknej okolicy. Domy stojace przy Aleji Rozanej sa
+solidnie wykonane i starannie pomalowane. Pelno tu kwiatow, powietrze jest
+wrecz przesiakniete ich zapachem. Wszedzie dookola panuje mila dla ucha cisza.
+Az chcialoby sie tu zamieszkac.
+~
+0 1073741824 1
+D1
+~
+~
+0 -1 1608
+S
+#1611
+Aleja Rozana~
+Znajdujesz sie w przepieknej okolicy. Domy stojace przy Aleji Rozanej sa
+solidnie wykonane i starannie pomalowane. Pelno tu kwiatow, powietrze jest
+wrecz przesiakniete ich zapachem. Wszedzie dookola panuje mila dla ucha cisza.
+Az chcialoby sie tu zamieszkac.
+~
+0 1073741824 1
+D3
+~
+~
+0 -1 1609
+S
+#1612
+Aleja Cieni~
+~
+0 1073741824 1
+D1
+~
+~
+0 -1 1605
+S
+#1613
+Aleja Cieni~
+~
+0 1073741824 1
+D3
+~
+~
+0 -1 1605
+S
+#1999
+Floating in a void~
+~
+0 4 1
+S
+#0
+
+
+#RESETS
+O 0 10401 1 1602
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

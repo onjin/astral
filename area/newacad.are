@@ -1,0 +1,8446 @@
+#AREA   Akademia Darkhaven~
+
+
+
+#VERSION 3
+#AUTHOR Scarab~
+
+#RANGES
+1 5 0 60
+$
+
+#RESETMSG Slyszysz tupot przemykajacych za toba stop...~
+
+#FLAGS
+13 3
+
+#ECONOMY 0 496280670
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#10300
+wilk arena~
+straszny wilk~
+strasznego wilka~
+strasznemu wilkowi~
+strasznego wilka~
+strasznym wilkiem~
+strasznym wilku~
+straszny wilku~
+Poluje tu straszny wilk.
+~
+~
+65 0 0 C
+4 0 35 44d0+1 0d0+0
+500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 66692 0 2048 0 0 0
+#10301
+slimak arena~
+oslizgly slimak~
+oslizglego slimaka~
+oslizglemu slimakowi~
+oslizglego slimaka~
+oslizglym slimakiem~
+oslizglym slimaku~
+oslizgly slimaku~
+Oslizgly slimak przemyka sie za toba.
+~
+~
+65 0 0 C
+4 0 45 44d0+1 0d0+0
+500 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 66560 0 2048 0 0 0
+#10302
+naga arena~
+koscista naga~
+koscistej nagi~
+koscistej nadze~
+koscista nage~
+koscista naga~
+koscistej nadze~
+koscista nago~
+Koscista naga szykuje sie do ataku.
+~
+Dolna czesc tego potwora nalezy do weza, zas gorna do jego szkieletu.
+W jej obecnosci nikt nie jest bezpieczny.
+~
+65 0 -200 C
+5 0 88 55d0+1 0d0+0
+100 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 62
+0 0 0 0 131073 131073 0
+0 0 66561 0 2048 0 0 0
+#10303
+padlinozerca arena~
+padlinozerca~
+padlinozercy~
+padlinozercy~
+padlinozerce~
+padlinozerca~
+padlinozercy~
+padlinozerco~
+Pelza tutaj padlinozerca.
+~
+~
+65 56 0 C
+5 0 -1 55d0+1 0d0+0
+1000 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1159 0 2048 0 0 0
+#10304
+naga~
+naga~
+nagi~
+nadze~
+nage~
+naga~
+nadze~
+nago~
+Naga jest tutaj i patrzy na ciebie z gniewem.
+~
+Ta kreatura nie nalezy do najpiekniejszych. Jej dolna polowa jest wezem,
+zas powyzej pasa jest ona kobieta i nie wyglada ona na zadowolona z twego
+widoku.
+~
+1073741891 0 0 S
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 0
+#10305
+naga klatka~
+naga~
+nagi~
+nadze~
+nage~
+naga~
+nadze~
+nago~
+Naga jest tutaj i patrzy na ciebie z gniewem.
+~
+Ta kreatura nie nalezy do najpiekniejszych. Jej dolna polowa jest wezem,
+zas powyzej pasa jest ona kobieta i nie wyglada ona na zadowolona z twego
+widoku.
+~
+67 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1159 0 0 0 0 0
+#10306
+naga klatka~
+naga~
+nagi~
+nadze~
+nage~
+naga~
+nadze~
+nago~
+Naga jest tutaj i patrzy na ciebie z gniewem.
+~
+Ta kreatura nie nalezy do najpiekniejszych. Jej dolna polowa jest wezem,
+zas powyzej pasa jest ona kobieta i nie wyglada ona na zadowolona z twego
+widoku.
+~
+67 0 0 C
+1 0 -92 11d1+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1159 0 0 0 0 0
+#10307
+naga klatka~
+naga~
+nagi~
+nadze~
+nage~
+naga~
+nadze~
+nago~
+Naga jest tutaj i patrzy na ciebie z gniewem.
+~
+Ta kreatura nie nalezy do najpiekniejszych. Jej dolna polowa jest wezem,
+zas powyzej pasa jest ona kobieta i nie wyglada ona na zadowolona z twego
+widoku.
+~
+67 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1159 0 0 0 0 0
+#10308
+naga klatka~
+naga~
+nagi~
+nadze~
+nage~
+naga~
+nadze~
+nago~
+Naga jest tutaj i patrzy na ciebie z gniewem.
+~
+Ta kreatura nie nalezy do najpiekniejszych. Jej dolna polowa jest wezem,
+zas powyzej pasa jest ona kobieta i nie wyglada ona na zadowolona z twego
+widoku.
+~
+67 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1159 0 0 0 0 0
+#10309
+naga klatka~
+naga~
+nagi~
+nadze~
+nage~
+naga~
+nadze~
+nago~
+Naga jest tutaj i patrzy na ciebie z gniewem.
+~
+Ta kreatura nie nalezy do najpiekniejszych. Jej dolna polowa jest wezem,
+zas powyzej pasa jest ona kobieta i nie wyglada ona na zadowolona z twego
+widoku.
+~
+67 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1159 0 0 0 0 0
+#10310
+naga klatka~
+naga~
+nagi~
+nadze~
+nage~
+naga~
+nadze~
+nago~
+Naga jest tutaj i patrzy na ciebie z gniewem.
+~
+Ta kreatura nie nalezy do najpiekniejszych. Jej dolna polowa jest wezem,
+zas powyzej pasa jest ona kobieta i nie wyglada ona na zadowolona z twego
+widoku.
+~
+67 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1159 0 0 0 0 0
+#10311
+naga klatka~
+naga~
+nagi~
+nadze~
+nage~
+naga~
+nadze~
+nago~
+Naga jest tutaj i patrzy na ciebie z gniewem.
+~
+Ta kreatura nie nalezy do najpiekniejszych. Jej dolna polowa jest wezem,
+zas powyzej pasa jest ona kobieta i nie wyglada ona na zadowolona z twego
+widoku.
+~
+67 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1159 0 0 0 0 0
+#10312
+gnoll klatka~
+gnoll~
+gnolla~
+gnollowi~
+gnolla~
+gnollem~
+gnollu~
+gnollu~
+Mlody gnoll jest gotowy by cie zaatakowac.
+~
+Zapalony by okazac swa dzielnosc w walce, obnaza przed toba swe kly.
+Probuje zaszczepic w twym sercu strach...
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1031 0 0 0 0 0
+> death_prog 90~
+if level($n) >= 4
+if mobinroom(10312) <= 1
+mpmload 10357
+mpat 10333 mpecho _yel Mala istota pojawia sie znikad!
+mpforce $n glance pixie
+endif
+endif
+~
+|
+#10313
+gnoll klatka~
+gnoll~
+gnolla~
+gnollowi~
+gnolla~
+gnollem~
+gnollu~
+gnollu~
+Mlody gnoll jest gotowy by cie zaatakowac.
+~
+Zapalony by okazac swa dzielnosc w walce, obnaza przed toba swe kly.
+Probuje zaszczepic w twym sercu strach...
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1031 0 0 0 0 0
+> death_prog 90~
+if level($n) >= 4
+if mobinroom(10313) <= 1
+mpmload 10357
+mpat 10336 mpecho _yel Mala istota pojawia sie znikad!
+mpforce $n glance pixie
+endif
+endif
+~
+|
+#10314
+gnoll klatka~
+gnoll~
+gnolla~
+gnollowi~
+gnolla~
+gnollem~
+gnollu~
+gnollu~
+Mlody gnoll jest gotowy by cie zaatakowac.
+~
+Zapalony by okazac swa dzielnosc w walce, obnaza przed toba swe kly.
+Probuje zaszczepic w twym sercu strach...
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1031 0 0 0 0 0
+> death_prog 90~
+if level($n) >= 4
+if mobinroom(10314) <= 1
+mpmload 10357
+mpat 10340 mpecho _yel Mala istota pojawia sie znikad!
+mpforce $n glance pixie
+endif
+endif
+~
+|
+#10315
+gnoll klatka~
+gnoll~
+gnolla~
+gnollowi~
+gnolla~
+gnollem~
+gnollu~
+gnollu~
+Mlody gnoll jest gotowy by cie zaatakowac.
+~
+Zapalony by okazac swa dzielnosc w walce, obnaza przed toba swe kly.
+Probuje zaszczepic w twym sercu strach...
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1031 0 0 0 0 0
+> death_prog 90~
+if level($n) >= 4
+if mobinroom(10315) <= 1
+mpmload 10357
+mpat 10344 mpecho _yel Mala istota pojawia sie znikad!
+mpforce $n glance pixie
+endif
+endif
+~
+|
+#10316
+gnoll klatka~
+gnoll~
+gnolla~
+gnollowi~
+gnolla~
+gnollem~
+gnollu~
+gnollu~
+Mlody gnoll jest gotowy by cie zaatakowac.
+~
+Zapalony by okazac swa dzielnosc w walce, obnaza przed toba swe kly.
+Probuje zaszczepic w twym sercu strach...
+~
+35 8 0 C
+1 0 69 11d1+0 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 83
+0 0 0 0 131073 131073 0
+0 0 1031 0 0 0 0 0
+> death_prog 90~
+if level($n) >= 4
+if mobinroom(10316) <= 1
+mpmload 10357
+mpat 10348 mpecho _yel Mala istota pojawia sie znikad!
+mpforce $n glance pixie
+endif
+endif
+~
+|
+#10317
+gnoll klatka~
+gnoll~
+gnolla~
+gnollowi~
+gnolla~
+gnollem~
+gnollu~
+gnollu~
+Mlody gnoll jest gotowy by cie zaatakowac.
+~
+Zapalony by okazac swa dzielnosc w walce, obnaza przed toba swe kly.
+Probuje zaszczepic w twym sercu strach...
+~
+35 0 0 C
+1 0 0 11d1+0 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1031 0 0 0 0 0
+> death_prog 90~
+if level($n) >= 4
+if mobinroom(10317) <= 1
+mpmload 10357
+mpat 10352 mpecho _yel Mala istota pojawia sie znikad!
+mpforce $n glance pixie
+endif
+endif
+~
+|
+#10318
+gnoll klatka~
+gnoll~
+gnolla~
+gnollowi~
+gnolla~
+gnollem~
+gnollu~
+gnollu~
+Mlody gnoll jest gotowy by cie zaatakowac.
+~
+Zapalony by okazac swa dzielnosc w walce, obnaza przed toba swe kly.
+Probuje zaszczepic w twym sercu strach...
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1031 0 0 0 0 0
+> death_prog 90~
+if level($n) >= 4
+if mobinroom(10318) <= 1
+mpmload 10357
+mpat 10387 mpecho _yel Mala istota pojawia sie znikad!
+mpforce $n glance pixie
+endif
+endif
+~
+|
+#10319
+kobold klatka~
+kobold~
+kobolda~
+koboldowi~
+kobolda~
+koboldem~
+koboldzie~
+koboldzie~
+Znajduje sie tu lekko usmiechniety kobold.
+~
+Patrzy na ciebie swymi malymi, paciorkowatymi oczyma. Atakuje z gluchym
+warknieciem. Jestes pewny, ze mozesz go pokonac w walce.
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+3 0 0 0 131073 131072 0
+0 0 3 0 0 0 0 0
+#10320
+kobold klatka~
+kobold~
+kobolda~
+koboldowi~
+kobolda~
+koboldem~
+koboldzie~
+koboldzie~
+Znajduje sie tu lekko usmiechniety kobold.
+~
+Patrzy na ciebie swymi malymi, paciorkowatymi oczyma. Atakuje z gluchym
+warknieciem. Jestes pewny, ze mozesz go pokonac w walce.
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+3 0 0 0 131073 131072 0
+0 0 3 0 0 0 0 0
+#10321
+kobold klatka~
+kobold~
+kobolda~
+koboldowi~
+kobolda~
+koboldem~
+koboldzie~
+koboldzie~
+Znajduje sie tu lekko usmiechniety kobold.
+~
+Patrzy na ciebie swymi malymi, paciorkowatymi oczyma. Atakuje z gluchym
+warknieciem. Jestes pewny, ze mozesz go pokonac w walce.
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+3 0 0 0 131073 131072 0
+0 0 3 0 0 0 0 0
+#10322
+kobold klatka~
+kobold~
+kobolda~
+koboldowi~
+kobolda~
+koboldem~
+koboldzie~
+koboldzie~
+Znajduje sie tu lekko usmiechniety kobold.
+~
+Patrzy na ciebie swymi malymi, paciorkowatymi oczyma. Atakuje z gluchym
+warknieciem. Jestes pewny, ze mozesz go pokonac w walce.
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+3 0 0 0 131073 131072 0
+0 0 3 0 0 0 0 0
+#10323
+kobold klatka~
+kobold~
+kobolda~
+koboldowi~
+kobolda~
+koboldem~
+koboldzie~
+koboldzie~
+Znajduje sie tu lekko usmiechniety kobold.
+~
+Patrzy na ciebie swymi malymi, paciorkowatymi oczyma. Atakuje z gluchym
+warknieciem. Jestes pewny, ze mozesz go pokonac w walce.
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+3 0 0 0 131073 131072 0
+0 0 3 0 0 0 0 0
+#10324
+kobold klatka~
+kobold~
+kobolda~
+koboldowi~
+kobolda~
+koboldem~
+koboldzie~
+koboldzie~
+Znajduje sie tu lekko usmiechniety kobold.
+~
+Patrzy na ciebie swymi malymi, paciorkowatymi oczyma. Atakuje z gluchym
+warknieciem. Jestes pewny, ze mozesz go pokonac w walce.
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+3 0 0 0 131073 131072 0
+0 0 3 0 0 0 0 0
+#10325
+kobold klatka~
+kobold~
+kobolda~
+koboldowi~
+kobolda~
+koboldem~
+koboldzie~
+koboldzie~
+Znajduje sie tu lekko usmiechniety kobold.
+~
+Patrzy na ciebie swymi malymi, paciorkowatymi oczyma. Atakuje z gluchym
+warknieciem. Jestes pewny, ze mozesz go pokonac w walce.
+~
+35 0 1000 C
+1 0 90 11d1+0 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 84
+3 0 0 0 3 2 0
+0 0 3 0 0 0 0 0
+#10326
+minotaur klatka~
+minotaur~
+minotaura~
+minotaurowi~
+minotaura~
+minotaurem~
+minotaurze~
+minotaurze~
+Minotaur parska na twoj widok.
+~
+Nie jest najwiekszy jakiego zdawalo ci sie widywac. Ten wyglada calkiem 
+znosnie moze dlatego, ze jest niewiele podobny to innych.
+~
+67 0 0 S
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+#10327
+minotaur klatka~
+minotaur~
+minotaura~
+minotaurowi~
+minotaura~
+minotaurem~
+minotaurze~
+minotaurze~
+Minotaur parska na twoj widok.
+~
+Nie jest najwiekszy jakiego zdawalo ci sie widywac. Ten wyglada calkiem 
+znosnie moze dlatego, ze jest niewiele podobny to innych.
+~
+67 0 0 S
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+#10328
+minotaur klatka~
+minotaur~
+minotaura~
+minotaurowi~
+minotaura~
+minotaurem~
+minotaurze~
+minotaurze~
+Minotaur parska na twoj widok.
+~
+Nie jest najwiekszy jakiego zdawalo ci sie widywac. Ten wyglada calkiem 
+znosnie moze dlatego, ze jest niewiele podobny to innych.
+~
+67 0 0 S
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+#10329
+minotaur klatka~
+minotaur~
+minotaura~
+minotaurowi~
+minotaura~
+minotaurem~
+minotaurze~
+minotaurze~
+Minotaur parska na twoj widok.
+~
+Nie jest najwiekszy jakiego zdawalo ci sie widywac. Ten wyglada calkiem 
+znosnie moze dlatego, ze jest niewiele podobny to innych.
+~
+67 0 0 S
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+#10330
+minotaur klatka~
+minotaur~
+minotaura~
+minotaurowi~
+minotaura~
+minotaurem~
+minotaurze~
+minotaurze~
+Minotaur parska na twoj widok.
+~
+Nie jest najwiekszy jakiego zdawalo ci sie widywac. Ten wyglada calkiem 
+znosnie moze dlatego, ze jest niewiele podobny to innych.
+~
+67 0 0 S
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+#10331
+minotaur klatka~
+minotaur~
+minotaura~
+minotaurowi~
+minotaura~
+minotaurem~
+minotaurze~
+minotaurze~
+Minotaur parska na twoj widok.
+~
+Nie jest najwiekszy jakiego zdawalo ci sie widywac. Ten wyglada calkiem 
+znosnie moze dlatego, ze jest niewiele podobny to innych.
+~
+67 0 0 S
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+#10332
+minotaur klatka~
+minotaur~
+minotaura~
+minotaurowi~
+minotaura~
+minotaurem~
+minotaurze~
+minotaurze~
+Minotaur parska na twoj widok.
+~
+Nie jest najwiekszy jakiego zdawalo ci sie widywac. Ten wyglada calkiem 
+znosnie moze dlatego, ze jest niewiele podobny to innych.
+~
+67 0 0 S
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+#10333
+straznik widmo klatka~
+widmo~
+widma~
+widmu~
+widmo~
+widmem~
+widmie~
+widmo~
+Widmowy straznik Akademii przyglada sie twym postepom.
+~
+Nie mozesz dojzec fizycznej postaci tego straznika. Jego cialo ciagle sie
+zmienia. Raz jest widoczne, to znow rozplywa sie w nicosc, zachowuje sie
+niczym mgla podczas wiatru.
+~
+3 184 1000 C
+50 0 0 20000d1+0 0d0+0
+0 0
+112 112 0
+18 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 2 3 0
+0 0 0 0 2097152 0 0 0
+> act_prog p umiera~
+mpforce 0.$n drink
+mpecho at $n
+mpechoat $n Picie wody i napojow pomoze ci wypoczywac i polepszy twe samopoczucie.
+~
+> act_prog p umiera z glodu~
+mpoload 20
+give mushroom $n
+mpforce $n eat mushroom
+mpechoat $n Jedzenie pomoze ci wypoczywac i polepszy twe samopoczucie.
+~
+|
+#10334
+straznik widmo klatka~
+widmo~
+widma~
+widmu~
+widmo~
+widmem~
+widmie~
+widmo~
+Widmowy straznik Akademii przyglada sie twym postepom.
+~
+Nie mozesz dojzec fizycznej postaci tego straznika. Jego cialo ciagle sie
+zmienia. Raz jest widoczne, to znow rozplywa sie w nicosc, zachowuje sie
+niczym mgla podczas wiatru.
+~
+1073741827 184 1000 C
+50 0 0 20000d1+0 0d0+0
+0 0
+112 112 0
+18 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 3 3 0
+0 0 0 0 2097152 0 0 0
+> act_prog p umiera~
+mpforce 0.$n drink
+mpechoat $n Picie wody i napojow pomoze ci wypoczywac i polepszy twe samopoczucie.
+~
+> act_prog p umiera z glodu~
+mpoload 20
+give mushroom $n
+mpforce $n eat mushroom
+mpechoat $n Jedzenie pomoze ci wypoczywac i polepszy twe samopoczucie.
+~
+|
+#10335
+straznik widmo klatka~
+widmo~
+widma~
+widmu~
+widmo~
+widmem~
+widmie~
+widmo~
+Widmowy straznik Akademii przyglada sie twym postepom.
+~
+Nie mozesz dojzec fizycznej postaci tego straznika. Jego cialo ciagle sie
+zmienia. Raz jest widoczne, to znow rozplywa sie w nicosc, zachowuje sie
+niczym mgla podczas wiatru.
+~
+3 184 1000 C
+50 0 0 20000d1+0 0d0+0
+0 0
+112 112 0
+18 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 2 3 0
+0 0 0 0 2097152 0 0 0
+> act_prog p umiera~
+mpforce 0.$n drink
+mpechoat $n Picie wody i napojow pomoze ci wypoczywac i polepszy twe samopoczucie.
+~
+> act_prog p umiera z glodu~
+mpoload 20
+give mushroom $n
+mpforce $n eat mushroom
+mpechoat $n Jedzenie pomoze ci wypoczywac i polepszy twe samopoczucie.
+~
+|
+#10336
+straznik widmo klatka~
+widmo~
+widma~
+widmu~
+widmo~
+widmem~
+widmie~
+widmo~
+Widmowy straznik Akademii przyglada sie twym postepom.
+~
+Nie mozesz dojzec fizycznej postaci tego straznika. Jego cialo ciagle sie
+zmienia. Raz jest widoczne, to znow rozplywa sie w nicosc, zachowuje sie
+niczym mgla podczas wiatru.
+~
+3 184 1000 C
+50 0 0 20000d1+0 0d0+0
+0 0
+112 112 0
+18 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 2 3 0
+0 0 0 0 2097152 0 0 0
+> act_prog p umiera~
+mpforce 0.$n drink
+mpechoat $n Picie wody i napojow pomoze ci wypoczywac i polepszy twe samopoczucie.
+~
+> act_prog p umiera z glodu~
+mpoload 20
+give mushroom $n
+mpforce $n eat mushroom
+mpechoat $n Jedzenie pomoze ci wypoczywac i polepszy twe samopoczucie.
+~
+|
+#10337
+straznik widmo klatka~
+widmo~
+widma~
+widmu~
+widmo~
+widmem~
+widmie~
+widmo~
+Widmowy straznik Akademii przyglada sie twym postepom.
+~
+Nie mozesz dojzec fizycznej postaci tego straznika. Jego cialo ciagle sie
+zmienia. Raz jest widoczne, to znow rozplywa sie w nicosc, zachowuje sie
+niczym mgla podczas wiatru.
+~
+3 184 1000 C
+50 0 0 20000d1+0 0d0+0
+0 0
+112 112 0
+18 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 2 3 0
+0 0 0 0 2097152 0 0 0
+> act_prog p umiera~
+mpforce 0.$n drink
+mpechoat $n Picie wody i napojow pomoze ci wypoczywac i polepszy twe samopoczucie.
+~
+> act_prog p umiera z glodu~
+mpoload 20
+give mushroom $n
+mpforce $n eat mushroom
+mpechoat $n Jedzenie pomoze ci wypoczywac i polepszy twe samopoczucie.
+~
+|
+#10338
+straznik widmo klatka~
+widmo~
+widma~
+widmu~
+widmo~
+widmem~
+widmie~
+widmo~
+Widmowy straznik Akademii przyglada sie twym postepom.
+~
+Nie mozesz dojzec fizycznej postaci tego straznika. Jego cialo ciagle sie
+zmienia. Raz jest widoczne, to znow rozplywa sie w nicosc, zachowuje sie
+niczym mgla podczas wiatru.
+~
+3 184 1000 C
+50 0 0 20000d1+0 0d0+0
+0 0
+112 112 0
+18 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 2 3 0
+0 0 0 0 2097152 0 0 0
+> act_prog p umiera~
+mpforce 0.$n drink
+mpechoat $n Picie wody i napojow pomoze ci wypoczywac i polepszy twe samopoczucie.
+~
+> act_prog p umiera z glodu~
+mpoload 20
+give mushroom $n
+mpforce $n eat mushroom
+mpechoat $n Jedzenie pomoze ci wypoczywac i polepszy twe samopoczucie.
+~
+|
+#10339
+straznik widmo klatka~
+widmo~
+widma~
+widmu~
+widmo~
+widmem~
+widmie~
+widmo~
+Widmowy straznik Akademii przyglada sie twym postepom.
+~
+Nie mozesz dojzec fizycznej postaci tego straznika. Jego cialo ciagle sie
+zmienia. Raz jest widoczne, to znow rozplywa sie w nicosc, zachowuje sie
+niczym mgla podczas wiatru.
+~
+67 184 0 C
+50 0 94 20000d1+0 0d0+0
+100 0
+112 112 0
+18 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p umiera~
+mpforce 0.$n drink
+mpechoat $n Picie wody i napojow pomoze ci wypoczywac i polepszy twe samopoczucie.
+~
+> act_prog p umiera z glodu~
+mpoload 20
+give mushroom $n
+mpforce $n eat mushroom
+mpechoat $n Jedzenie pomoze ci wypoczywac i polepszy twe samopoczucie.
+~
+|
+#10340
+domick dom nauczyciel~
+Domick~
+Domicka~
+Domickowi~
+Domicka~
+Domickiem~
+Domicku~
+Domicku~
+Domick, Lord Wiedzy, studiuje tu ksiegi, czekajac na uczniow.
+~
+Domick jest pelen wdzieku i wrodzonej ufnosci, ksztalconej podczas 
+jego dlugiego zycia. Zdobyl on rowniez ogromne doswiadczenie o zyciu w
+Krolestwie. Jego wyglad budzi niekwestionowany respekt. Dobrze
+zasluzony respekt. Nie probuj go zabic, gdyz z cala pewnoscia to
+Ty zginiesz.
+~
+1027 4194472 1000 C
+1 0 94 1d1+1000 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 37
+0 4 0 0 131072 131073 0
+0 0 0 0 1059840 0 0 0
+> all_greet_prog 100~
+tell $n Czy jestes gotow na nauki?
+~
+|
+#10342
+toric lord medyk~
+Lord Toric~
+Lorda Torica~
+Lordowi Toricowi~
+Lorda Torica~
+Lordem Toriciem~
+Lordzie Toricu~
+Lordzie Toricu~
+Lord Leczenia stoi tutaj, dogladajac twych postepow.
+~
+To jest Toric - Lord Uzdrowicel. Jesli ukorzysz sie przed nim (GROVEL)
+mozesz otrzymac od niego pomoc. Lecz moze on nie zechciec ci pomoc.
+~
+3 4194472 1000 C
+25 0 94 30000d1+0 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 -30
+0 6 0 0 131072 131073 0
+0 0 0 0 1058816 0 0 0
+> all_greet_prog 100~
+if isnpc($n)
+if ischarmed($n)
+  or isfollow($n)
+else
+  if isnpc($n)
+    mppurge $n
+  else
+    if level($n) > 10
+    else
+      if sex($n) == 2
+        mpforce $n curtsey
+        mpechoat $n Wystarczy isc na polnoc jesli jestes gotowa do walki.
+        mpechoat $n Pamietaj by na mnie spojzec, spotka cie mila niespodzianka.
+        usmiech $n
+      else
+        mpforce $n uklon
+        mpechoat $n Wystarczy isc na polnoc jesli jestes gotow do walki.
+        mpechoat $n Pamietaj by na mnie spojzec, spotka cie mila niezpodzianka.
+        usmiech $n
+      endif
+    endif
+  endif
+endif
+endif
+~
+> act_prog p patrzy na ciebie.~
+if isnpc($n)
+else
+  if level($n) > 10
+    usmiech $n
+  else
+    pat $n
+    mpechoat $n Posiadasz juz odpowiednia wiedze!
+    mpechoat $n Znajdz slowo w moim opisie, a wzbogacisz sie o pewien czar.
+    cast shield $n
+  endif
+endif
+~
+> act_prog p grovels~
+if isnpc($n)
+else
+  if level($n) > 10
+    usmiech $n
+    say Masz zbyt wiele doswiadczenia by potrzebowac mej pomocy, $n.
+  else
+    clap $n 
+say Wspaniale, $w.
+    c fly $n
+    tell $n to pomoze ci sie poruszac.
+  endif
+endif
+~
+|
+#10343
+Zurg sage kupiec~
+Zurg~
+Zurga~
+Zurgowi~
+Zurga~
+Zurgiem~
+Zurgu~
+Zurgu~
+Sprytny kupiec znajduje sie tutaj, sprzedajac rozne rzeczy.
+~
+Jest to przyjazny kupiec. Jego oczy blyszcza madroscia. Wydaje sie byc
+cierpliwy dla tych, ktorzy ucza sie tu uzywac sklepow.
+~
+3 4194856 0 C
+1 0 94 1000d1+0 0d0+0
+100 0
+112 112 1
+18 13 13 13 13 13 0
+0 0 0 0 44
+3 0 0 0 131072 131073 0
+0 0 3 0 1048576 0 0 0
+> all_greet_prog 100~
+usmiech $n
+say Witaj w mym sklepie!
+~
+> death_prog 100~
+mpgoto 10399
+drop all
+mpmload 10343
+mpforce 2.sage get pochodnia
+mpforce 2.sage get mieso
+mpforce 2.sage get buklak
+mpforce 2.sage mpgoto 10357
+mpat 10357 mpecho Cialo kupca znika wsrod blyskow!
+~
+|
+#10344
+smok waz wezowy klatka~
+wezowy smok~
+wezowego smoka~
+wezowemu smokowi~
+wezowego smoka~
+wezowym smokiem~
+wezowym smoku~
+wezowy smoku~
+Stoi tu wezowy smok. Z jego szczeki kapie jadowita slina.
+~
+Jest to maly lecz jadowity smok. Jego cialo jest dlugie i wezowate.
+To bedzie wielka walka, lecz nagroda jest warta wysilku.
+~
+3 0 0 C
+4 0 35 50d1+0 0d0+0
+1000 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 44
+3 0 0 0 131072 131073 0
+0 0 3 0 2048 0 0 0
+> death_prog 100~
+mpoload 10307 2
+mpoload 10309 2
+~
+|
+#10345
+chadoyn klatka~
+chadoyn~
+chadoyna~
+chadoynowi~
+chadoyna~
+chadoynem~
+chadoynie~
+chadoynie~
+Chadoyn szarpie sie na swej smyczy szykujac sie do ataku.
+~
+Patrzy na ciebie swymi zlymi oczyma cicho warczac. Jestes prawie
+pewien, ze pokonasz go w walce.
+~
+3 0 0 C
+4 0 25 44d1+0 0d0+0
+100 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 44
+85 0 0 0 131072 131073 0
+0 0 3 0 2048 0 0 0
+> death_prog 85~
+if level($n) >= 6
+if rand(50)
+mpechoat $n Ogarnia Cie uczucie, ze czas na wieksze wyzwania.
+else
+mpechoat $n Chadoyn jest latwa zdobycza.
+endif
+endif
+~
+|
+#10346
+Silvina recepcjoniska kobieta~
+Silvina~
+Silviny~
+Silvinie~
+Silvine~
+Silvina~
+Silvinie~
+Silvino~
+Stara kobieta siedzi tutaj, kierujac Podroznikow do odpowiednich portali.
+~
+Jest to kobieta o sredniej pieknosci z twarza pokryta zmarszczkami od
+uplywajacego czasu i od smiechu. Cieszy sie swym miejscem w Akademii
+pomagajac Podroznikom, kierujac ich w odpowiednie dla ich klasy miejsca.
+~
+3 680 1000 C
+50 0 94 15000d1+0 5d5+5
+100 0
+112 112 2
+13 13 13 13 13 13 0
+0 0 0 0 44
+0 0 0 0 131072 131073 0
+0 0 3 0 0 0 0 0
+> all_greet_prog 100~
+mpechoat $n Silvina przyglada sie tobie by skierowac cie w odpowiednie miejsce.
+say Witaj, $w.
+if class ($n) == Mage
+mpechoat $n Za moment przeprowadze cie przez portal dla magow.
+endif
+if class ($n) == Cleric
+mpechoat $n Za moment przeprowadze cie przez portal dla klerykow.
+endif
+if class ($n) == Angel
+mpechoat $n Za moment przeprowadze cie przez portal dla aniolow.
+endif
+if class ($n) == Warrior
+mpechoat $n Za moment przeprowadze cie przez portal dla wojownikow.
+endif
+if class ($n) == Vampire
+mpechoat $n Za moment przeprowadze cie przez portal dla wampirow.
+endif
+if class ($n) == Demon
+mpechoat $n Za moment przeprowadze cie przez portal dla demonow.
+endif
+if class ($n) == Druid
+mpechoat $n Za moment przeprowadze cie przez portal dla druidow.
+endif
+if class ($n) == Ranger
+mpechoat $n Za moment przeprowadze cie przez portal dla rangersow.
+endif
+if class ($n) == Thief
+mpechoat $n Za moment przeprowadze cie przez portal dla zlodziejow.
+endif
+if class ($n) == Assassin
+mpechoat $n Za moment przeprowadze cie przez portal dla zabojcow.
+endif
+if class ($n) == Augurer
+mpechoat $n Za moment przeprowadze cie przez portal dla augurerow.
+endif
+if class ($n) == Paladin
+mpechoat $n Za moment przeprowadze cie przez portal dla paladynow.
+endif
+mpechoat $n W miedzyczasie przeczytaj certyfikat na scianie.
+~
+> rand_prog 33~
+if class ($r) == Mage
+mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Magow.
+mpechoat $r Ladujesz w Halu Magow.
+mpechoaround $r $r znika w portalu oznaczonym:  Tylko dla Magow! 
+mptransfer $r 10323
+mpat $r mpforce $r bounce
+endif
+if class ($r) == Paladin
+mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Paladynow.
+mpechoat $r Ladujesz w Halu Paladynow.
+mpechoaround $r $r znika w portalu oznaczonym:  Tylko dla Paladynow!
+mptransfer $r 10444
+mpat $r mpforce $r bounce
+endif
+if class ($r) == Cleric
+mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Klerykow.
+mpechoat $r Ladujesz w Halu Klerykow.
+mpechoaround $r $r znika w portalu oznaczonym:  Tylko dla Klerykow!
+mptransfer $r 10324
+mpat $r mpforce $r bounce
+endif
+if class ($r) == Angel
+mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Aniolow.
+mpechoat $r Ladujesz w Halu Aniolow.
+mpechoaround $r $r znika w portalu oznaczonym:  Tylko dla Aniolow!
+mptransfer $r 10324
+mpat $r mpforce $r bounce
+endif
+if class ($r) == Warrior
+mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Wojownikow.
+mpechoat $r Ladujesz w Halu Wojownikow.
+mpechoaround $r $r znika w portalu oznaczonym:  Tylko dla Wojownikow!
+mptransfer $r 10318
+mpat $r mpforce $r bounce
+endif
+if class ($r) == Vampire
+mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Wampirow.
+mpechoat $r Ladujesz w Halu Wampirow.
+mpechoaround $r $r znika w portalu oznaczonym:  Tylko dla Wampirow!
+mptransfer $r 10321
+mpat $r mpforce $r bounce
+endif
+if class ($r) == Demon
+mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla demonow.
+mpechoat $r Ladujesz w Halu Demonow.
+mpechoaround $r $r znika w portalu oznaczonym:  Tylko dla Demonow!
+mptransfer $r 10321
+mpat $r mpforce $r bounce
+endif
+~
+> rand_prog 32~
+if class ($r) == Ranger
+mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Rangerow.
+mpechoat $r Ladujesz w Halu Rangerow.
+mpechoaround $r $r znika w portalu oznaczonym:  Tylko dla Rangerow!
+mptransfer $r 10391
+mpat $r mpforce $r bounce
+endif
+if class ($r) == Druid
+mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Druidow.
+mpechoat $r Ladujesz w Halu Druidow.
+mpechoaround $r $r znika w portalu oznaczonym:  Tylko dla Druidow!
+mptransfer $r 10320
+mpat $r mpforce $r bounce
+endif
+if class ($r) == Thief
+mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Zlodziejow.
+mpechoat $r Ladujesz w Halu Zlodziejow.
+mpechoaround $r $r znika w portalu oznaczonym:  Tylko dla Zlodziejow!
+mptransfer $r 10322
+mpat $r mpforce $r bounce
+endif
+if class ($r) == Assassin
+mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Zabojcow.
+mpechoat $r Ladujesz w Halu Zabojcow.
+mpechoaround $r $r znika w portalu oznaczonym:  Tylko dla Zabojcow!
+mptransfer $r 10322
+mpat $r mpforce $r bounce
+endif
+if class ($r) == Augurer
+mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Augurerow.
+mpechoat $r Ladujesz w Halu Augurerow.
+mpechoaround $r $r znika w portalu oznaczonym:  Tylko dla Augurerow.
+mptransfer $r 10400
+mpat $r mpforce $r bounce
+endif
+~
+|
+#10347
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+He looks back at you with his beady little eyes and a snarl on his face.
+You are pretty sure you can best him in regards to combat
+~
+1073741859 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 44
+3 0 0 0 131073 131072 0
+0 0 3 0 0 0 0 0
+#10348
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+He looks back at you with his beady little eyes and a snarl on his face.
+You are pretty sure you can best him in regards to combat
+~
+1073741859 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 44
+3 0 0 0 131073 131072 0
+0 0 3 0 0 0 0 0
+#10349
+statua mag~
+statua~
+statuy~
+statule~
+statule~
+statula~
+statule~
+statuo~
+Stoi tu starozytna statua przedstawiajaca Maga.
+~
+Ta statua przedstawia bardzo starego maga. Zrobiona z najlepszego magicznego
+granitu, stworzona zostala przez doskonalego artyste, ktory tchnal w nia
+wlasnego ducha.
+~
+3 680 1000 C
+50 0 35 40d1+0 5d5+5
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 3 0 3072 0 0 0
+> act_prog p bounces around.~
+mpforce $n look
+mpecho Granit zamienia sie w zywe cialo i statua zaczyna sie poruszac.
+emote patrzy na ciebie.
+usmiech $n
+mpecho Statua ponownie zamienia sie w twardy kamien...
+~
+> act_prog p patrzy na ciebie.~
+if class($n) == Mage
+mpechoat $n Witaj $n, Jestem starym magiem, mam nauczyc cie czegos
+mpechoat $n o tej profesji. Dla Maga najwzniejsza cecha jest inteligencja.
+cast 'dragon wit' $n
+mpechoat $n Ten czar podniesie na pewien czas twoja inteligencje o 3. Nazywa
+mpechoat $n sie on 'dragon wit'. Aby znalezc wszystkie czary, umiejetnosci
+mpechoat $n i jezyki ktore mozesz poznac, napisz  SLIST. Aby znalezc wiecej
+mpechoat $n informacji o profesji Maga, napisz HELP MAGE.
+mpechoat $n Powodzenia $w!
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+mpechoat $n Mam dla ciebie prezent, powiedz PODAREK aby go otrzymac.
+endif
+endif
+~
+> speech_prog podarek~
+if class($n) == Mage
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+mpoload 10320 1
+mpoload 10330 1
+mpoload 10330 1
+mpoload 10331 1
+put mikstura torba
+put mikstura torba
+put zwoj torba
+give torba $n
+mpechoat $n Aby uzyc napojow napisz QUAFF POTION albo QUAFF ELIXIR.
+mpechoat $n Aby uzyc pergaminu napisz RECITE SCROLL.
+mpechoat $n Napisz 'exam torba' zeby zobaczyc co jest w srodku, i 'get <przedmiot> torba'
+mpechoat $n albo 'put <przedmiot> torba' zeby brac i odkladac przedmioty.
+mpechoat $n Uzyj ich madrze, moga uratowac ci zycie.
+mpforce $n config +brief
+mpforce $n wake
+mpforce $n down
+mpat $n mpforce $n config -brief
+else
+usmiech $n
+mpechoat $n Masz zbyt wysoki poziom aby ci pomagac.
+endif
+endif
+~
+|
+#10350
+statua kleryk~
+statua~
+statuy~
+statule~
+statule~
+statula~
+statule~
+statuo~
+Stoi tu starozytna statua przedstawiajaca Kleryka.
+~
+Ta statua wykonana jest z najlepszego granitu i przedstawia kleryka.
+Wyglada jak zywa, jakby byla zywa osoba zatopiona w skale.
+~
+3 680 1000 C
+50 0 35 40d1+0 5d5+5
+100 0
+112 112 2
+13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 3 0 3072 0 0 0
+> act_prog p bounces around.~
+mpforce $n look
+mpecho Granit zamienia sie w zywe cialo i statua zaczyna sie poruszac.
+emote patrzy na ciebie.
+usmiech $n
+mpecho Statua ponownie zamienia sie w twardy kamien...
+~
+> speech_prog podarek~
+if class($n) == Cleric
+or class($n) == Angel
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+mpoload 10321 1
+mpoload 10330 1
+mpoload 10330 1
+mpoload 10331 1
+put mikstura torba
+put mikstura torba
+put zwoj torba
+give torba $n
+mpechoat $n Aby uzyc napojow napisz QUAFF POTION albo QUAFF ELIXIR.
+mpechoat $n Aby uzyc pergaminu napisz RECITE SCROLL.
+mpechoat $n Napisz 'exam torba' zeby zobaczyc co jest w srodku, i 'get <przedmiot> torba'
+mpechoat $n albo 'put <przedmiot> torba' zeby brac i odkladac przedmioty.
+mpechoat $n Uzyj ich madrze, moga uratowac ci zycie.
+mpforce $n config +brief
+mpforce $n wake
+mpforce $n down
+mpat $n mpforce $n config -brief
+else
+usmiech $n
+mpechoat $n Masz zbyt wysoki poziom aby ci pomagac.
+endif
+endif
+~
+> act_prog p patrzy na ciebie.~
+if class($n) == Cleric
+or class($n) == Angel
+mpechoat $n Witaj $n, jestem tu po to aby opowiedziec ci troche o naszej profesji.
+mpechoat $n Naszym Najwazniejszym atrybutem jest madrosc.
+cast sagacity $n
+mpechoat $n Ten czar na jakis czas zwiekszy twoja madrosc o 3. Nazywa sie on
+mpechoat $n 'sagacity'. Aby dowiedziec sie wiecej o czarach, zdolnosciach
+mpechoat $n i jezykach ktore mozesz poznac napisz SLIST. Aby dowiedziec sie wiecej
+mpechoat $n o profesji Kleryka (Aniola), napisz HELP CLERIC (ANGEL).
+mpechoat $n Powodzenia $w!
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+mpechoat $n Mam dla ciebie prezent, powiedz PODAREK aby go otrzymac.
+endif
+endif
+~
+|
+#10351
+statua zlodziej~
+statua~
+statuy~
+statule~
+statule~
+statula~
+statule~
+statuo~
+Stoi tu starozytna statua przedstawiajaca Zlodzieja.
+~
+Ta statua zrobiona jest z najczarniejszego granitu jaki kiedykolwiek udalo
+ci sie zobaczyc. Przedstawia ona zlodzieja  przybranego w czarne szaty.
+Czujesz na sobie jego wzrok, jakby to byla zywa osoba a nie kamienny posag.
+~
+3 680 1000 C
+50 0 35 40d1+0 5d5+5
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 3 0 3072 0 0 0
+> act_prog p patrzy na ciebie.~
+if class($n) == Thief
+or class($n) == Assassin
+mpechoat $n Witaj $n, Jestem tu po to aby powiedziec ci troche o Zlodziejach
+mpechoat $n i Zabojcach. Na przyklad nasza podstawowa cecha jest zrecznosc.
+cast slink $n
+mpechoat $n Ten czar na pewien czas zwiekszy twoja zrecznosc. Nazywa sie on
+mpechoat $n 'slink'. Zeby dowiedziec sie wiecej o czarach, umiejetnosciach
+mpechoat $n i jezykach ktorych mozesz sie nauczyc, napisz SLIST. Zeby dowiedziec sie
+mpechoat $n wiecej o Zlodziejach (Zabojcach), napisz HELP THIEF (ASSASSIN).
+mpechoat $n Good luck $n!
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+mpechoat $n Mam dla ciebie niespodzianke, powiedz PODAREK aby ja otrzymac.
+endif
+endif
+~
+> act_prog p bounces around.~
+mpforce $n look
+mpecho Granit zamienia sie w zywe cialo i statua zaczyna sie poruszac.
+emote patrzy na ciebie.
+usmiech $n
+mpecho Statua ponownie zamienia sie w twardy kamien...
+~
+> speech_prog podarek~
+if class($n) == Thief
+or class($n) == Assassin
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+mpoload 10322 1
+mpoload 10330 1
+mpoload 10330 1
+mpoload 10331 1
+put mikstura torba
+put mikstura torba
+put zwoj torba
+give torba $n
+mpechoat $n Aby uzyc napojow napisz QUAFF POTION albo QUAFF ELIXIR.
+mpechoat $n Aby uzyc pergaminu napisz RECITE SCROLL.
+mpechoat $n Napisz 'exam torba' zeby zobaczyc co jest w srodku, i 'get <przedmiot> torba'
+mpechoat $n albo 'put <przedmiot> torba' zeby brac i odkladac przedmioty.
+mpechoat $n Uzyj ich madrze, moga uratowac ci zycie.
+mpforce $n config +brief
+mpforce $n wake
+mpforce $n down
+mpat $n mpforce $n config -brief
+else
+usmiech $n
+mpechoat $n Masz zbyt wysoki poziom aby ci pomagac.
+endif
+endif
+~
+|
+#10352
+statua wojownik~
+statua~
+statuy~
+statule~
+statule~
+statula~
+statule~
+statuo~
+Stoi tu starozytna statua przedstawiajaca Wojownika.
+~
+Wojownik wykuty jest z najlepszego marmuru. Artyscie tak bardzo udala sie
+ta rzezba, ze wyglada jak zywy czlowiek, nie posag.
+~
+3 680 1000 C
+50 0 35 40d1+0 5d5+5
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 3 0 3072 0 0 0
+> act_prog p patrzy na ciebie.~
+if class($n) == Warrior
+mpechoat $n Witaj $n, jestem Wojownikiem, ktory ma za zadanie nauczyc cie
+mpechoat $n czegos o tej profesji. Wiedz, ze sila jest najwazniejsza.
+cast 'kindred strength' $n
+mpechoat $n Ten czar na jakis czas zwiekszy twoja sile o 3. Nazywa sie on
+mpechoat $n 'kindred strength'. Jesli pragniesz dowiedziec sie wiecej o umiejetnosciach
+mpechoat $n i jezykach dostepnych dla ciebie, napisz SLIST. Zeby dowiedziec sie
+mpechoat $n wiecej o Wojownikach, napisz HELP WARRIOR.
+mpechoat $n Powodzenia $w!
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+mpechoat $n Mam dla ciebie prezent, powiedz PODAREK aby go dostac.
+endif
+endif
+~
+> act_prog p bounces around.~
+mpforce $n look
+mpecho Granit zamienia sie w zywe cialo i statua zaczyna sie poruszac.
+emote patrzy na ciebie.
+usmiech $n
+mpecho Statua ponownie zamienia sie w twardy kamien...
+~
+> speech_prog podarek~
+if class($n) == Warrior
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+mpoload 10323 1
+mpoload 10330 1
+mpoload 10330 1
+mpoload 10331 1
+put mikstura torba
+put mikstura torba
+put zwoj torba
+give torba $n
+mpechoat $n Aby uzyc napojow napisz QUAFF POTION albo QUAFF ELIXIR.
+mpechoat $n Aby uzyc pergaminu napisz RECITE SCROLL.
+mpechoat $n Napisz 'exam torba' zeby zobaczyc co jest w srodku, i 'get <przedmiot> torba'
+mpechoat $n albo 'put <przedmiot> torba' zeby brac i odkladac przedmioty.
+mpechoat $n Uzyj ich madrze, moga uratowac ci zycie.
+mpforce $n config +brief
+mpforce $n wake
+mpforce $n down
+mpat $n mpforce $n config -brief
+else
+usmiech $n
+mpechoat $n Masz zbyt wysoki poziom aby ci pomagac.
+endif
+endif
+~
+|
+#10353
+statua wampir~
+statua~
+statuy~
+statule~
+statule~
+statula~
+statule~
+statuo~
+Stoi tu starozytna statua przedstawiajaca Wampira.
+~
+Postac wykuta w granicie jest bardzo piekna, tylko ostre szpony zdradzaja
+jej nature. Wzrok statuy jest jakis hipnotyzujacy, masz wrazenie ze zaglada
+gleboko do twojej duszy. 
+~
+3 680 1000 C
+50 0 35 40d1+0 5d5+5
+100 0
+112 112 2
+13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 3 0 3072 0 0 0
+> act_prog p patrzy na ciebie.~
+if class($n) == Vampire
+or class($n) == Demon
+mpechoat $n Witaj $n, Jestem tu po to aby opowiedziec ci troche
+mpechoat $n o naszej profesji. Najwazniejsza dla nas jest zrecznosc.
+cast slink $n
+mpechoat $n Ten czar tymczasowo zwiekszy twoja zrecznosc o 3. Nazywa sie on
+mpechoat $n 'slink'. Zeby dowiedziec sie wiecej o czarach, zdolnosciach
+mpechoat $n i jezykach dostepnych dla siebie, napisz SLIST. Jesli chcesz wiedziec
+mpechoat $n wiecej o Wampirach (Demonach), napisz HELP VAMPIRE (DEMON).
+mpechoat $n Powodzenia $w!
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+mpechoat $n Mam dla ciebie maly prezent, powiedz PODAREK to go dostaniesz.
+endif
+endif
+~
+> act_prog p bounces around.~
+mpforce $n look
+mpecho Granit zamienia sie w zywe cialo i statua zaczyna sie poruszac.
+emote patrzy na ciebie.
+usmiech $n
+mpecho Statua ponownie zamienia sie w twardy kamien...
+~
+> speech_prog podarek~
+if class($n) == Vampire
+or class($n) == Demon
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+mpoload 10324 1
+mpoload 10330 1
+mpoload 10330 1
+mpoload 10331 1
+put mikstura torba
+put mikstura torba
+put zwoj torba
+give torba $n
+mpechoat $n Aby uzyc napojow napisz QUAFF POTION albo QUAFF ELIXIR.
+mpechoat $n Aby uzyc pergaminu napisz RECITE SCROLL.
+mpechoat $n Napisz 'exam torba' zeby zobaczyc co jest w srodku, i 'get <przedmiot> torba'
+mpechoat $n albo 'put <przedmiot> torba' zeby brac i odkladac przedmioty.
+mpechoat $n Uzyj ich madrze, moga uratowac ci zycie.
+mpforce $n config +brief
+mpforce $n wake
+mpforce $n down
+mpat $n mpforce $n config -brief
+else
+mpechoat $n Masz zbyt wysoki poziom aby ci pomagac.
+usmiech $n
+endif
+endif
+~
+|
+#10354
+statua druid~
+statua~
+statuy~
+statule~
+statule~
+statula~
+statule~
+statuo~
+Stoi tu starozytna statua przedstawiajaca Druida.
+~
+Ta granitowa statua przedstawia starego druida w ceremonialnych bialych
+szatach. Wyglada tak naturalnie, ze masz wrazenie iz jest zywa.
+~
+3 680 1000 C
+50 0 35 40d1+0 5d5+5
+100 0
+112 112 2
+13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 3 0 3072 0 0 0
+> act_prog p patrzy na ciebie.~
+if class($n) == Druid
+mpechoat $n Witaj $n, Jestem tu po to, aby opowiedziec ci troche 
+mpechoat $n o Druidach. Dla nas najwazniejsza jest madrosc.
+cast 'sagacity' $n
+mpechoat $n Ten czar tymczasowo zwiekszy twoja madrosc o 3. Nazywa sie on
+mpechoat $n 'sagacity'. Zeby dowiedziec sie wiecej o czarach, zdolnosciach
+mpechoat $n i jezykach, ktorych mozesz sie nauczyc, napisz SLIST. Jesli
+mpechoat $n chcesz wiedziec wiecej o Druidach, napisz HELP DRUID.
+mpechoat $n Powodzenia $w!
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+mpechoat $n Mam dla ciebie maly prezent, powiedz PODAREK, to go dostaniesz.
+endif
+endif
+~
+> act_prog p bounces around.~
+mpforce $n look
+mpecho Granit zamienia sie w zywe cialo i statua zaczyna sie poruszac.
+emote patrzy na ciebie.
+usmiech $n
+mpecho Statua ponownie zamienia sie w twardy kamien..
+~
+> speech_prog podarek~
+if class($n) == druid
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+mpoload 10325 1
+mpoload 10330 1
+mpoload 10330 1
+mpoload 10331 1
+put mikstura torba
+put mikstura torba
+put zwoj torba
+give torba $n
+mpechoat $n Aby uzyc napojow napisz QUAFF POTION albo QUAFF ELIXIR.
+mpechoat $n Aby uzyc pergaminu napisz RECITE SCROLL.
+mpechoat $n Napisz 'exam torba' zeby zobaczyc co jest w srodku, i 'get <przedmiot> torba'
+mpechoat $n albo 'put <przedmiot> torba' zeby brac i odkladac przedmioty.
+mpechoat $n Uzyj ich madrze, moga uratowac ci zycie.
+mpforce $n config +brief
+mpforce $n wake
+mpforce $n down
+mpat $n mpforce $n config -brief
+else
+usmiech $n
+mpechoat $n Masz zbyt wysoki poziom aby ci pomagac.
+endif
+endif
+~
+|
+#10355
+statua ranger~
+statua~
+statuy~
+statule~
+statule~
+statula~
+statule~
+statuo~
+Stoi tu starozytna statua przedstawiajaca Rangera.
+~
+Ta statua wykonana jest w najdrobniejszych szczegolach. Przedstawia dumnego
+Rangera. Katem oka zauwazasz ruch i masz wrazenie, ze statua jest zywa.
+~
+3 680 1000 C
+50 0 35 40d1+0 5d5+5
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 3 0 3072 0 0 0
+> act_prog p bounces around.~
+mpforce $n look
+mpecho Granit zamienia sie w zywe cialo i statua zaczyna sie poruszac.
+emote patrzy na ciebie.
+usmiech $n
+mpecho Statua ponownie zamienia sie w twardy kamien...
+
+~
+> act_prog p patrzy na ciebie.~
+if class($n) == Ranger
+mpechoat $n Witaj $n, jestem tu po to aby opowiedziec ci o naszej
+mpechoat $n profesji. Dla Rangera najwazniejsza jest sila.
+cast 'kindred strength' $n
+mpechoat $n Ten czar tymczasowo zwiekszy twa sile o 3. Nazywa sie on
+mpechoat $n 'kindred strength'. Jesli chcesz wiedziec wiecej o czrach
+mpechoat $n umiejetnosciach i jezykach, napisz SLIST. Zeby dowiedziec sie
+mpechoat $n wiecej o profesji Rangera, napisz HELP RANGER.
+mpechoat $n Powodzenia $w!
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+mpechoat $n Mam dla ciebie maly prezent, powiedz PODAREK to go dostaniesz.
+endif
+endif
+~
+> speech_prog podarek~
+if class($n) == Ranger
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+mpoload 10326 1
+mpoload 10330 1
+mpoload 10330 1
+mpoload 10331 1
+put mikstura torba
+put mikstura torba
+put zwoj torba
+give torba $n
+mpechoat $n Aby uzyc napojow napisz QUAFF POTION albo QUAFF ELIXIR.
+mpechoat $n Aby uzyc pergaminu napisz RECITE SCROLL.
+mpechoat $n Napisz 'exam torba' zeby zobaczyc co jest w srodku, i 'get <przedmiot> torba'
+mpechoat $n albo 'put <przedmiot> torba' zeby brac i odkladac przedmioty.
+mpechoat $n Uzyj ich madrze, moga uratowac ci zycie.
+mpforce $n config +brief
+mpforce $n wake
+mpforce $n down
+mpat $n mpforce $n config -brief
+else
+usmiech $n
+mpechoat $n Masz zbyt wysoki poziom aby ci pomagac.
+endif
+endif
+~
+|
+#10357
+pixie maly~
+maly pixie~
+malego pixie~
+malemu pixie~
+malego pixie~
+malym pixie~
+malym pixie~
+maly pixie~
+Maly pixie lata nad toba.
+~
+~
+16777219 4718632 0 C
+4 0 -100 1d1+300 0d0+0
+0 0
+112 112 1
+13 13 13 25 13 13 25
+0 0 0 0 0
+85 0 0 0 135619917 135619917 0
+0 0 0 0 0 0 0 0
+> act_prog p przyglada sie tobie.~
+nudge $n
+if class($n) == Paladin
+  say Co taki Paladyn jak ty robi tutaj?
+endif
+if class ($n) == Cleric
+  say To zbyt latwe jak dla takiego Kleryka jak ty!
+endif
+if class ($n) == Angel
+  say Spojrz na siebie! Swiatobliwy Aniol masakruje biedne istoty.
+endif
+if class($n) == Mage
+  say Spojrz na siebie! Taki silny Mag, a masakruje gnolle?
+endif
+if class($n) == Thief
+  say Spojrz na siebie! Zreczny zlodziej mordujacy gnolle?
+endif
+if class ($n) == Assassin
+  say Spojrz na siebie! Zreczny Zabojca a walczy z gnollami?
+endif
+if class($n) == Warrior
+  say Taki silny Wojownik, a zabija gnolle?
+endif
+if class($n) == Vampire
+  say Nie pragniesz wiecej krwi? Wiekszego wyzwania?
+endif
+if class ($n) == Demon
+  say Nie pragniesz wiecej krwi? Trudniejszych przeciwnikow?
+endif
+if class($n) == Druid
+  say Czy nie slyszysz jak natura wzywa cie do wiekszego zadania?
+endif
+if class($n) == Ranger
+  say Taki silny Ranger! Te gnolle sa zbyt latwa zdobycza!
+endif
+if class($n) == Augurer
+  say Czy nie pragniesz wiekszego wyzwania?
+endif
+shake
+mea $n Maly Pixie przybliza sie i szepcze ci na ucho...
+mer $n $I ciagnie $n blizej i szepcze $s na ucho...
+mea $n $I says, "Dlaczego nie odwiedzisz mojego przyjaciela Derena?"
+mea $n $I says, "Prowadzi maly sklepik przy wejsciu do Akademii."
+mea $n $I says, "Daj mu to, a z radoscia ci pomoze..."
+if rand(50)
+  mpoload 10370 1 10
+  mpecho _blu $I wypowiada slowa 'eacret fafst'.
+  mpoload 10370 1 10
+  give staff $n
+else
+  mpoload 10371 1 10
+  mpecho _blu $I wypowiada slowa 'eacret ildhse'.
+  give shield $n
+endif
+tell $n Pospiesz sie!  To co ci dalem jest magiczne i wkrotce zniknie!
+mpecho _yel Pixie znika wsrod blyskow swiatla!
+mpgoto 10399
+mpat 21194 mpforce cleric mpat 10399 mppurge
+~
+|
+#10358
+mob~
+a test mob~
+a test mob~
+a test mob~
+a test mob~
+a test mob~
+a test mob~
+a test mob~
+This is a test mob.
+~
+~
+1073741825 0 0 S
+1 0 0 11d1+0 0d0+0
+0 0
+112 112 0
+#10359
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+Eager to test hit prowess in battle this young gnoll bares his fangs at you
+in an attempt to strike fear into your heart.
+~
+1073741859 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 37
+3 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+#10360
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+Eager to test hit prowess in battle this young gnoll bares his fangs at you
+in an attempt to strike fear into your heart.
+~
+1073741859 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 37
+3 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+#10361
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+~
+1073741827 0 -400 S
+1 0 0 11d1+0 0d0+0
+300 0
+112 112 0
+#10362
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+Eager to test hit prowess in battle this young gnoll bares his fangs at you
+in an attempt to strike fear into your heart.
+~
+1073741859 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 37
+3 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+#10363
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+Eager to test hit prowess in battle this young gnoll bares his fangs at you
+in an attempt to strike fear into your heart.
+~
+1073741859 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 37
+3 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+#10364
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+No fur covers the body of this beast, only a pastey white skin. So thin
+is the skin on this beast that you can see the organs working to keep
+this thing alive. Even from a distance you can smell it's fetid breath.
+~
+1073741889 0 -1000 S
+1 0 90 11d1+0 0d0+0
+0 0
+112 112 0
+#10365
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+Eager to test hit prowess in battle, this young gnoll bares his fangs at you.
+He is trying to strike fear in your heart.
+~
+1073741859 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 37
+0 0 0 0 131073 131072 0
+0 0 1031 0 0 0 0 0
+#10366
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+Eager to test hit prowess in battle this young gnoll bares his fangs at you
+in an attempt to strike fear into your heart.
+~
+1073741859 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 37
+3 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+#10367
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+Not the largest of the species you have ever seen. Actually this minotaur
+looks pretty small compared to the other's of it's kind that you have
+heard about.
+~
+1073741827 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 48
+3 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+#10368
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+Not the largest of the species you have ever seen. Actually this minotaur
+looks pretty small compared to the other's of it's kind that you have
+heard about.
+~
+1073741827 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 48
+3 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+#10369
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+Not the largest of the species you have ever seen. Actually this minotaur
+looks pretty small compared to the other's of it's kind that you have
+heard about.
+~
+1073741827 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 48
+3 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+#10370
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+Not the largest of the species you have ever seen. Actually this minotaur
+looks pretty small compared to the other's of it's kind that you have
+heard about.
+~
+1073741827 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 48
+3 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+#10371
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+Not the largest of the species you have ever seen. Actually this minotaur
+looks pretty small compared to the other's of it's kind that you have
+heard about.
+~
+1073741827 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 48
+3 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+#10372
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+Not the largest of the species you have ever seen. Actually this minotaur
+looks pretty small compared to the other's of it's kind that you have
+heard about.
+~
+1073741827 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 48
+3 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+#10382
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+~
+1073742017 0 0 S
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 0
+#10386
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+Wallowing in a pool of it's own slime, this slug turns sightless eyes
+towards you thinking you may make a good meal.
+~
+1073742017 0 0 S
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 0
+#10393
+None~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+this is a none~
+This is a nones long
+~
+Dragged back from thier eternal rest these nagas were Queen Asp's personal
+bodyguards. Known to be fierce fighters in thier past lifetime they now
+possess an "undying" loyalty to thier Queen.
+~
+1073741857 0 0 C
+1 0 60 11d1+0 0d0+0
+300 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 67
+3 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+#10394
+abbigayle nauczycielka~
+abbigayle~
+abbigayle~
+abbigayle~
+abbigayle~
+abbigayle~
+abbigayle~
+abbigayle~
+Stoi tutaj przepiekna kobieta, oczekujac na uczniow.
+~
+To najpiekniejsza kobieta jaka kiedykolwiek udalo ci sie zobaczyc. W jej
+oczach blyska iskierka rozbawienia, a na ustach ma delikatny usmiech. Wie,
+ze ja podziwiasz i niewiele ja to obchodzi. Dobrze wie, ze jej widok zapiera
+dech w piersi. W koncu jej glos przelamuje czar. Przepiekny, delikatny, nie
+mozesz sie juz doczekac na rozpoczecie lekcji. Tego glosu mozna by sluchac
+z przyjemnoscia przez wiecznosc.
+~
+1048579 4194472 0 C
+5 16 5 1000d1+0 1d6+3
+50 450
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 671871 671871 0
+0 0 3 0 1059840 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+wink $n
+if level($n) < 20
+tell $n Moje lekcje zaczna sie gdy osiagniesz poziom 20. Zegnam.
+else
+tell $n Z checia cie czegos naucze, czy mozemy juz zaczac?
+endif
+grin $n
+endif
+~
+> death_prog 100~
+say Jestem uczona, nie wojowniczka...:))
+mpslay $n
+mpat $n mpechoat $n Ale atakowanie mnie bylo wielka glupota.
+mpgoto 10399
+mpat 10306 mpmload 10394
+~
+> act_prog p szybko ucieka!~
+mptrans 0.$n
+mpechoat $n Abbigayle mowi: 'Udalo ci sie uciec, wiec oszczedze twoje marne zycie!'
+mpgoto 10399
+mpat 10306 mpmload 10394
+~
+|
+#10396
+naga duch arena~
+duch nagi~
+ducha nagi~
+duchowi nagi~
+ducha nagi~
+duchem nagi~
+duchu nagi~
+duchu nagi~
+Duch nagi podlatuje do ciebie i atakuje!
+~
+Nie dane im bylo zaznac wiecznego spoczynku. Teraz te nagi sa osobista
+gwardia krolowej Asp. Za zycia znakomici wojownicy, teraz sa lojalni az do
+konca, zrobia wszystko dla swej krolowej.
+~
+33 0 0 C
+7 0 60 1d1+50 0d0+0
+300 0
+112 112 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+84 0 0 0 4097 135169 0
+0 0 0 0 0 0 0 0
+> death_prog 78~
+if level($n) >= 9
+if rand(50)
+mpechoat $n To byla igraszka. Wieksze przygody oczekuja na ciebie.
+mpforce $n laugh
+else
+mpechoat $n Od niechcenia zabijasz jeszcze jedna bezbronna nage.
+mpforce $n sigh
+mpechoat $n Gdzies na tym swiecie czekaja na ciebie wieksze wyzwania.
+endif
+endif
+~
+|
+#10397
+krolowa naga asp~
+Krolowa Asp~
+Krolowej Asp~
+Krolowej Asp~
+Krolowa Asp~
+Krolowa Asp~
+Krolowej Asp~
+Krolowo Asp~
+Asp, Krolowa Nag, glosno zgrzyta zebami na twoj widok.
+~
+Przed toba stoi kobieta niezwyklej pieknosci, ale gdy patrzysz w dol ciarki
+przechodza ci po plecach. Od pasa w dol krolowa Asp jest wezem! Uzbrojona
+w znakomity miecz i niezwykla inteligencje, bedzie dla ciebie niezwykle
+niebezpiecznym przeciwnikiem.
+~
+35 0 0 C
+7 0 80 60d1+0 0d0+0
+500 0
+112 112 2
+13 13 13 13 13 13 0
+0 0 0 0 62
+3 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+#10398
+uczen scvital~
+uczen Skarabeusza~
+ucznia Skarabeusza~
+uczniowi Skarabeusza~
+ucznia Skarabeusza~
+uczniem Skarabeusza~
+uczniu Skarabeusza~
+uczniu Skarabeusza~
+Uczen Skarabeusza studiuje tutaj swoja ksiege czarow.
+~
+Nie pozwol sie oszukac wygladowi, ten mlodzieniec posiada ogromne zdolnosci
+magiczne. Wieksze niz na to wyglada. Ma nadzieje, ze pewnego dnia zajmie
+miejsce swojego mistrza Skarabeusza jako Arcymag Krolestw.
+~
+1 67108872 0 C
+50 0 -200 9000d1+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 4 0
+0 0 0 0 0 0 2097152 512
+#10399
+tsythia profesor~
+Profesor Tsythia~
+Profesor Tsythii~
+Profesor Tsythii~
+Profesor Tsythie~
+Profesor Tsythia~
+Profesor Tsythii~
+Profesor Tsythio~
+Slawna kierowniczka Akademii Darkhaven stoi przed toba..
+~
+Jest to bardzo piekna kobieta. Nie mozesz oderwac od niej wzroku, a ona
+usmiecha sie dobrze wiedzac jak sie teraz czujesz. Jest rownie madra co
+piekna, gdyz inaczej nie moglaby zarzadzac tak powazna szkola jak Akademia
+Darkhaven.
+~
+3 4194472 1000 S
+1 0 0 1000d1+0 0d0+0
+0 0
+112 112 2
+> death_prog 100~
+mpmload 10399
+say Mozesz zabic tylko cialo, gdyz moja dusza jest wiecznie zywa!
+usmiech 2.tsythia
+~
+> act_prog p z poludnia.~
+mpechoat $n Profesor Tsythia mowi 'Witaj, $n.  Jak sie bawiles na arenie?'
+mpechoat $n Odwiedz pokoj z wiesciami, ktory znajduje sie na wschodzie.
+mpechoat $n Jesli uwazasz, ze jestes gotow, to idz do gory poznawac Darkhaven.
+~
+> act_prog p from the north.~
+mpechoat $n Profesor Tsythia mowi 'Witaj, $n.  Jak bylo dzis w Akademii?'
+mpechoat $n Odwiedz pokoj z wiesciami, ktory znajduje sie na wschodzie.
+mpechoat $n Jesli uwazasz, ze jestes gotow, to idz do gory poznanwac Darkhaven.
+~
+> act_prog p from the east.~
+mpechoat $n Profesor Tsythia mowi 'Witaj, $n. Przeczytales cos ciekawego?'
+mpechoat $n Na polnocy znajduje sie Akademia, zas na poludniu Arena.
+mpechoat $n Jesli uwazasz, ze jestes gotow, to idz do gory poznawac Darkhaven.
+~
+> act_prog p from above.~
+mpechoat $n Profesor Tsythia mowi 'Witaj, $n. Udala sie wycieczka do Darkhaven?'
+mpechoat $n Na polnocy znajduje sie Akademia, zas na poludniu Arena..
+mpechoat $n Odwiedz pokoj z wiesciami, ktory znajduje sie na wschodzie.
+~
+> act_prog p from somewhere.~
+mpechoat $n Profesor Tsythia mowi 'Witaj, $n. Efektowne wejscie.'
+mpechoat $n Odwiedz pokoj z wiesciami, ktory znajduje sie na wschodzie.
+mpechoat $n Na polnocy znajduje sie Akademia, zas na poludniu Arena..
+mpechoat $n Jesli uwazasz, ze jestes gotow, to idz do gory poznawac Darkhaven.
+~
+> rand_prog 100~
+if level($r) == 1
+ mpechoat 0.$r Gratulacje, $r!
+mpechoat 0.$r Przeszedles prez Widmowe Wrota i przygoda stoi teraz przed toba otworem.
+mpechoat 0.$r Za twoje trudy otrzymasz teraz drugi poziom...
+mpat 'hvak1 advancer' mpforce 'hvak1 advancer' mpat 0.$r mpadvance 0.$r 2
+mpat hvak1 mpfor hvak1 ask Kto odwazyl sie wkroczyc do naszego swiata?
+ if class($r) == mage
+   mpat hvak2 mpfor hvak2 answer  Mocarny Mag, $r ...
+  endif
+  if class($r) == cleric
+    mpat hvak2 mpfor hvak2 answer $r, pobozny Kleryk ...
+  endif
+  if class($r) == angel
+    mpat hvak2 mpfor hvak2 answer $r, swietlisty Aniol ...
+  endif
+  if class($r) == thief
+    mpat hvak2 mpfor hvak2 answer Bezszelestny Zlodziej, $r ...
+  endif
+  if class($r) == assassin
+    mpat hvak2 mpfor hvak2 answer Nieuchwytny Zabojca, $r ...
+  endif
+  if class($r) == warrior
+    mpat hvak2 mpfor hvak2 answer Potezny Wojownik o imieniu $r ...
+  endif
+  if class($r) == vampire
+    mpat hvak2 mpfor hvak2 answer Potezny Wampir znany jako $r ...
+  endif
+  if class($r) == demon
+    mpat hvak2 mpfor hvak2 answer Mroczny Demon zwany $r ...
+  endif
+  if class($r) == druid
+    mpat hvak2 mpfor hvak2 answer Pogodny Druid $r ...
+  endif
+  if class($r) == ranger
+    mpat hvak2 mpfor hvak2 answer $r, Niestrudzony Ranger ...
+  endif
+  if class($r) == augurer
+    mpat hvak2 mpfor hvak2 answer $r, Milczacy Augurer ...
+  endif
+  if class($r) == paladin
+    mpat hvak2 mpfor hvak2 answer $r, Nieskalany Paladyn ...
+    mpmset $r align 1000  
+  endif
+  mpechoat $r ... Idz po wiedze do Akademii Darkhaven na polnocy.
+  mpechoat $r ... Mozesz zapisac swoja postac (SAVE) by istniala po wieki.
+endif
+~
+> act_prog p umiera z glodu~
+mpoload 20
+give mushroom $n
+mpforce 0.$n eat mushroom
+mpechoat $n To powinno zaradzic twojemu glodowi i polepszyc twoje samopoczucie, $w.
+~
+> act_prog p is dying~
+mpforce $n drink
+mpechoat $n Lyk z tej fontanny ugasi twoje pragnienie i polepszy twoje samopoczucie.
+~
+|
+#10400
+statua augurer~
+statua~
+statuy~
+statule~
+statue~
+statua~
+statule~
+statuo~
+Stoi tu starozytna statua przedstawiajaca Augurera.
+~
+Augurer wykonany jest z najlepszego granitu. Artyscie tak dobrze udalo sie
+zrobic te rzezbe, ze wyglada ona jak zywa.
+~
+1073741827 680 1000 C
+50 0 35 40d1+0 5d5+5
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 3 0 3072 0 0 0
+> act_prog p patrzy na ciebie.~
+if class($n) == Augurer
+mpechoat $n Witaj $w, Jestem tu po to, aby opowiedziec ci troche o profesji
+mpechoat $n Augurera. Madrosc ma dla nas najwieksza wartosc.
+cast 'sagacity' $n
+mpechoat $n Ten czar tymczasowo zwiekszy twoja madrosc o 3, nazywa sie on
+mpechoat $n 'Sagacity'.  Jesli chcesz dowiedziec sie wiecej o czarach, zdolnosciach
+mpechoat $n i jezykach, napisz SLIST. Zeby zobaczyc dodatkowe informacje
+mpechoat $n o Augurerach, napisz HELP AUGURER.
+mpechoat $n Powodzenia $w!
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+mpechoat $n Mam dla ciebie maly prezent, powiedz PODAREK aby go otrzymac...
+endif
+endif
+~
+> act_prog p bounces around.~
+mpforce $n look
+mpecho Granit zamienia sie w zywe cialo i statua zaczyna sie poruszac.
+emote patrzy na ciebie.
+usmiech $n
+mpecho Statua ponownie zamienia sie w twardy kamien...
+~
+> speech_prog podarek~
+if class($n) == Augurer
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+mpoload 10330 1
+mpoload 10330 1
+mpoload 10331 1
+mpoload 10400 1
+put mikstura torba
+put mikstura torba
+put zwoj torba
+give torba $n
+mpechoat $n Aby uzyc napojow napisz QUAFF POTION albo QUAFF ELIXIR.
+mpechoat $n Aby uzyc pergaminu napisz RECITE SCROLL.
+mpechoat $n Napisz 'exam torba' zeby zobaczyc co jest w srodku, i 'get <przedmiot> torba'
+mpechoat $n albo 'put <przedmiot> torba' zeby brac i odkladac przedmioty.
+mpechoat $n Uzyj ich madrze, moga uratowac ci zycie.
+mpforce $n config +brief
+mpforce $n wake
+mpforce $n down
+mpat $n mpforce $n config -brief
+else
+usmiech $n
+mpechoat $n Nie pomoge ci. Masz zbyt wysoki poziom.
+endif
+endif
+~
+|
+#10401
+straznik widmo klatka~
+widmo~
+widma~
+widmu~
+widmo~
+widmem~
+widmie~
+widmo~
+Widmowy straznik Akademii przyglada sie twym postepom.
+~
+Nie mozesz dojzec fizycznej postaci tego straznika. Jego cialo ciagle sie
+zmienia. Raz jest widoczne, to znow rozplywa sie w nicosc, zachowuje sie
+niczym mgla podczas wiatru.
+~
+3 184 1000 C
+50 0 0 20000d1+0 0d0+0
+0 0
+112 112 0
+18 13 13 13 13 13 0
+0 0 0 0 0
+1 0 0 0 3 2 0
+0 0 0 0 2097152 0 0 0
+> act_prog p is dying~
+mpforce 0.$n drink
+mpechoat $n Picie wody i napojow pomoze ci wypoczywac i polepszy twe samopoczucie.
+~
+> act_prog p is starved~
+mpoload 20
+give mushroom $n
+mpforce $n eat mushroom
+mpechoat $n Jedzenie pomoze ci wypoczywac i polepszy twe samopoczucie.
+~
+|
+#10402
+naga klatka~
+naga~
+nagi~
+nadze~
+nage~
+naga~
+nadze~
+nago~
+Naga jest tutaj, patrzac na ciebie z gniewem.
+~
+Ta kreatura nie nalezy do najpiekniejszych. Jej dolna polowa jest wezem,
+zas powyzej pasa jest ona kobieta i nie wyglada ona na zadowolona z twego
+widoku.
+~
+67 0 0 C
+1 0 94 9d1+0 0d0+0
+100 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1159 0 0 0 0 0
+#10403
+minotaur klatka~
+minotaur~
+minotaura~
+minotaurowi~
+minotaura~
+minotaurem~
+minotaurze~
+minotaurze~
+Minotaur parska na twoj widok.
+~
+Nie jest najwiekszy jakiego zdawalo ci sie widywac. Ten wyglada calkiem 
+znosnie, moze dlatego, ze jest niewiele podobny to innych.
+~
+67 0 0 S
+1 0 94 8d1+0 0d0+0
+100 0
+112 112 1
+#10404
+gnoll klatka~
+gnoll~
+gnolla~
+gnollowi~
+gnolla~
+gnollem~
+gnollu~
+gnollu~
+Mlody gnoll jest gotow by cie zaatakowac.
+~
+Zapalony by okazac swa dzielnosc w walce, obnaza przed toba swe kly.
+Probuje zaszczepic w twym sercu strach...
+~
+35 0 0 C
+1 0 94 9d1+9 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1031 0 0 0 0 0
+> death_prog 90~
+if level($n) >= 4
+if mobinroom(10404) <= 1
+mpmload 10357
+mpat 10404 mpecho _yel Mala istota pojawia sie znikad!
+mpforce $n glance pixie
+endif
+endif
+~
+|
+#10405
+kobold klatka~
+kobold~
+kobolda~
+koboldowi~
+kobolda~
+koboldem~
+koboldzie~
+koboldzie~
+Znajduje sie tu lekko usmiechniety kobold.
+~
+Patrzy na ciebie swymi malymi, paciorkowatymi oczyma. Atakuje z gluchym
+warknieciem. Jestes pewny, ze mozesz go pokonac w walce.
+~
+35 0 0 C
+1 0 94 8d1+0 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+3 0 0 0 131073 131072 0
+0 0 3 0 0 0 0 0
+#10406
+mrowka ognista arena~
+ognista mrowka~
+ognistej mrowki~
+ognistej mrowce~
+ognista mrowke~
+ognista mrowka~
+ognistej mrowce~
+ognista mrowko~
+Wielka ognista mrowka przechodzi tedy, obserwujac cie z uwaga.
+~
+Ta mrowka jest prawie tak wielka jak ty! Nie mozesz uwierzyc, ze ogladasz
+insekta tych rozmiarow. Mrowka wydaje sie byc rozdrazniona twoim przybyciem.
+Wlasnie udalo ci sie przerwac jej proces zbierania jedzenia, byc moze
+bedziesz nastepnym posilkiem.
+~
+101 33280 0 C
+7 11 25 1d10+120 1d4+6
+340 2000
+112 112 1
+15 13 13 13 13 13 13
+0 0 0 0 0
+83 0 0 0 1 1 0
+0 0 1775 0 2048 0 0 0
+#10407
+mrowka ognista arena~
+ognista mrowka~
+ognistej mrowki~
+ognistej mrowce~
+ognista mrowke~
+ognista mrowka~
+ognistej mrowce~
+ognista mrowko~
+Wielka ognista mrowka przechodzi tedy, obserwujac cie z uwaga.
+~
+Ta mrowka jest prawie tak wielka jak ty! Nie mozesz uwierzyc, ze ogladasz
+insekta tych rozmiarow. Mrowka wydaje sie byc rozdrazniona twoim przybyciem.
+Wlasnie udalo ci sie przerwac jej proces zbierania jedzenia, byc moze
+bedziesz nastepnym posilkiem.
+~
+101 33280 0 C
+7 11 25 1d10+120 1d4+6
+340 2000
+112 112 1
+15 13 13 13 13 13 13
+0 0 0 0 0
+83 0 0 0 135679493 135679493 0
+0 0 1775 0 2048 0 0 0
+#10408
+mrowka ognista arena~
+ognista mrowka~
+ognistej mrowki~
+ognistej mrowce~
+ognista mrowke~
+ognista mrowka~
+ognistej mrowce~
+ognista mrowko~
+Wielka ognista mrowka przechodzi tedy, obserwujac cie z uwaga.
+~
+Ta mrowka jest prawie tak wielka jak ty! Nie mozesz uwierzyc, ze ogladasz
+insekta tych rozmiarow. Mrowka wydaje sie byc rozdrazniona twoim przybyciem.
+Wlasnie udalo ci sie przerwac jej proces zbierania jedzenia, byc moze
+bedziesz nastepnym posilkiem.
+~
+101 33280 0 C
+7 11 25 1d10+120 1d4+6
+340 2000
+112 112 1
+15 13 13 13 13 13 13
+0 0 0 0 0
+83 0 0 0 135679493 135679493 0
+0 0 1775 0 2048 0 0 0
+#10409
+mrowka ognista arena~
+ognista mrowka~
+ognistej mrowki~
+ognistej mrowce~
+ognista mrowke~
+ognista mrowka~
+ognistej mrowce~
+ognista mrowko~
+Wielka ognista mrowka przechodzi tedy, obserwujac cie z uwaga.
+~
+Ta mrowka jest prawie tak wielka jak ty! Nie mozesz uwierzyc, ze ogladasz
+insekta tych rozmiarow. Mrowka wydaje sie byc rozdrazniona twoim przybyciem.
+Wlasnie udalo ci sie przerwac jej proces zbierania jedzenia, byc moze
+bedziesz nastepnym posilkiem.
+~
+101 33280 0 C
+7 11 25 1d10+120 1d4+6
+340 2000
+112 112 1
+15 13 13 13 13 13 13
+0 0 0 0 0
+83 0 0 0 135679493 135679493 0
+0 0 1775 0 2048 0 0 0
+#10410
+stonoga arena~
+stonoga~
+stonogi~
+stonodze~
+stonoge~
+stonoga~
+stonodze~
+stonogo~
+Stonoga przechodzi sie spokojnie po twojej nodze.
+~
+Ta stonoga jest w polowie tak dluga, jak wysoki jest dorosly czlowiek. Ma
+zabawny zwyczaj wedrowania po twojej nodze, jakby twoja obecnosc nic nie
+znaczyla. Z odraza patrzysz jak rytmicznie rusza sie jej sto nozek.
+~
+65 4194816 0 C
+8 11 25 2d7+130 1d4+6
+1000 2000
+112 112 1
+15 13 13 17 13 13 13
+0 0 0 0 0
+83 0 0 0 135679493 135679493 0
+0 0 1775 0 2048 0 0 0
+#10411
+stonoga arena~
+stonoga~
+stonogi~
+stonodze~
+stonoge~
+stonoga~
+stonodze~
+stonogo~
+Stonoga przechodzi sie spokojnie po twojej nodze.
+~
+Ta stonoga jest w polowie tak dluga, jak wysoki jest dorosly czlowiek. Ma
+zabawny zwyczaj wedrowania po twojej nodze, jakby twoja obecnosc nic nie
+znaczyla. Z odraza patrzysz jak rytmicznie rusza sie jej sto nozek.
+~
+65 4194816 0 C
+8 11 25 2d7+130 1d4+6
+1000 2000
+112 112 1
+15 13 13 17 13 13 13
+0 0 0 0 0
+83 0 0 0 135679493 135679493 0
+0 0 1775 0 2048 0 0 0
+#10412
+stonoga arena~
+stonoga~
+stonogi~
+stonodze~
+stonoge~
+stonoga~
+stonodze~
+stonogo~
+Stonoga przechodzi sie spokojnie po twojej nodze.
+~
+Ta stonoga jest w polowie tak dluga, jak wysoki jest dorosly czlowiek. Ma
+zabawny zwyczaj wedrowania po twojej nodze, jakby twoja obecnosc nic nie
+znaczyla. Z odraza patrzysz jak rytmicznie rusza sie jej sto nozek.
+~
+65 4194816 0 C
+8 11 25 2d7+130 1d4+6
+1000 2000
+112 112 1
+15 13 13 17 13 13 13
+0 0 0 0 0
+83 0 0 0 135679493 135679493 0
+0 0 1775 0 2048 0 0 0
+#10413
+stonoga arena~
+stonoga~
+stonogi~
+stonodze~
+stonoge~
+stonoga~
+stonodze~
+stonogo~
+Stonoga przechodzi sie spokojnie po twojej nodze.
+~
+Ta stonoga jest w polowie tak dluga, jak wysoki jest dorosly czlowiek. Ma
+zabawny zwyczaj wedrowania po twojej nodze, jakby twoja obecnosc nic nie
+znaczyla. Z odraza patrzysz jak rytmicznie rusza sie jej sto nozek.
+~
+65 4194816 0 C
+8 11 25 2d7+130 1d4+6
+1000 2000
+112 112 1
+15 13 13 17 13 13 13
+0 0 0 0 0
+83 0 0 0 135679493 135679493 0
+0 0 1775 0 2048 0 0 0
+#10414
+szczur szary arena~
+szary szczur~
+szarego szczura~
+szaremu szczurowi~
+szarego szczura~
+szarym szczurem~
+szarym szczurze~
+szary szczure~
+Szary szczur przebiega ci droge. Jego oczy lsnia w ciemnosciach.
+~
+Ten okaz szczura jest niezwykle wielki. Lepiej nie pozwolic mu zbytnio
+sie zblizyc. Jego szare futro ubrudzone jest zaschla krwia i ziemia. Jego
+oczy zdaja sie sledzic cie z uwaga.
+~
+65 4194816 0 C
+6 11 25 1d10+75 1d4+3
+500 2000
+112 112 1
+15 13 13 14 13 13 13
+0 0 0 0 0
+77 0 0 0 135680721 135680721 0
+0 0 1775 0 2048 0 1 0
+#10415
+szczur szary arena~
+szary szczur~
+szarego szczura~
+szaremu szczurowi~
+szarego szczura~
+szarym szczurem~
+szarym szczurze~
+szary szczure~
+Szary szczur przebiega ci droge. Jego oczy lsnia w ciemnosciach.
+~
+Ten okaz szczura jest niezwykle wielki. Lepiej nie pozwolic mu zbytnio
+sie zblizyc. Jego szare futro ubrudzone jest zaschla krwia i ziemia. Jego
+oczy zdaja sie sledzic cie z uwaga.
+~
+65 4194816 0 C
+6 11 25 1d10+75 1d4+3
+500 2000
+112 112 1
+15 13 13 14 13 13 13
+0 0 0 0 0
+77 0 0 0 135680721 135680721 0
+0 0 1775 0 2048 0 1 0
+#10416
+szczur szary arena~
+szary szczur~
+szarego szczura~
+szaremu szczurowi~
+szarego szczura~
+szarym szczurem~
+szarym szczurze~
+szary szczure~
+Szary szczur przebiega ci droge. Jego oczy lsnia w ciemnosciach.
+~
+Ten okaz szczura jest niezwykle wielki. Lepiej nie pozwolic mu zbytnio
+sie zblizyc. Jego szare futro ubrudzone jest zaschla krwia i ziemia. Jego
+oczy zdaja sie sledzic cie z uwaga.
+~
+65 4194816 0 C
+6 11 25 1d10+75 1d4+3
+500 2000
+112 112 1
+15 13 13 14 13 13 13
+0 0 0 0 0
+77 0 0 0 135680721 135680721 0
+0 0 1775 0 2048 0 1 0
+#10417
+szczur szary arena~
+szary szczur~
+szarego szczura~
+szaremu szczurowi~
+szarego szczura~
+szarym szczurem~
+szarym szczurze~
+szary szczure~
+Szary szczur przebiega ci droge. Jego oczy lsnia w ciemnosciach.
+~
+Ten okaz szczura jest niezwykle wielki. Lepiej nie pozwolic mu zbytnio
+sie zblizyc. Jego szare futro ubrudzone jest zaschla krwia i ziemia. Jego
+oczy zdaja sie sledzic cie z uwaga.
+~
+65 4194816 0 C
+6 11 25 1d10+75 1d4+3
+500 2000
+112 112 1
+15 13 13 14 13 13 13
+0 0 0 0 0
+77 0 0 0 135680721 135680721 0
+0 0 1775 0 2048 0 1 0
+#10418
+kret arena~
+kret~
+kreta~
+kretowi~
+kreta~
+kretem~
+krecie~
+krecie~
+Brudny kret wynurza sie z dziury w ziemii.
+~
+Ten kret pokryty jest w calosci zaschla ziemia! Jest dosyc opasly, a jego
+ruchy sa powolne. Widzisz jego male oczka, ale watpie aby mogl cie on
+zobaczyc.
+~
+65 512 0 C
+6 11 25 1d10+99 1d4+3
+500 2000
+112 112 1
+15 13 13 14 13 13 13
+0 0 0 0 0
+76 0 0 0 135680815 135680815 0
+0 0 1775 0 2048 0 0 0
+#10419
+kret arena~
+kret~
+kreta~
+kretowi~
+kreta~
+kretem~
+krecie~
+krecie~
+Brudny kret wynurza sie z dziury w ziemii.
+~
+Ten kret pokryty jest w calosci zaschla ziemia! Jest dosyc opasly, a jego
+ruchy sa powolne. Widzisz jego male oczka, ale watpie aby mogl cie on
+zobaczyc.
+~
+65 512 0 C
+6 11 25 1d10+99 1d4+3
+500 2000
+112 112 1
+15 13 13 14 13 13 13
+0 0 0 0 0
+76 0 0 0 135680815 135680815 0
+0 0 1775 0 2048 0 0 0
+#10420
+kret arena~
+kret~
+kreta~
+kretowi~
+kreta~
+kretem~
+krecie~
+krecie~
+Brudny kret wynurza sie z dziury w ziemii.
+~
+Ten kret pokryty jest w calosci zaschla ziemia! Jest dosyc opasly, a jego
+ruchy sa powolne. Widzisz jego male oczka, ale watpie aby mogl cie on
+zobaczyc.
+~
+65 512 0 C
+6 11 25 1d10+99 1d4+3
+500 2000
+112 112 1
+15 13 13 14 13 13 13
+0 0 0 0 0
+76 0 0 0 135680815 135680815 0
+0 0 1775 0 2048 0 0 0
+#10421
+kret arena~
+kret~
+kreta~
+kretowi~
+kreta~
+kretem~
+krecie~
+krecie~
+Brudny kret wynurza sie z dziury w ziemii.
+~
+Ten kret pokryty jest w calosci zaschla ziemia! Jest dosyc opasly, a jego
+ruchy sa powolne. Widzisz jego male oczka, ale watpie aby mogl cie on
+zobaczyc.
+~
+65 512 0 C
+6 11 25 1d10+99 1d4+3
+500 2000
+112 112 1
+15 13 13 14 13 13 13
+0 0 0 0 0
+76 0 0 0 135680815 135680815 0
+0 0 1775 0 2048 0 0 0
+#10440
+naga klatka~
+naga~
+nagi~
+nadze~
+nage~
+naga~
+nadze~
+nago~
+Naga jest tutaj, patrzac na ciebie z gniewem
+~
+Ta kreatura nie nalezy do najpiekniejszych. Jej dolna polowa jest wezem,
+zas powyzej pasa jest ona kobieta i nie wyglada ona na zadowolona z twego
+widoku.
+~
+67 0 -600 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1159 0 0 0 0 0
+#10441
+kobold klatka~
+kobold~
+kobolda~
+koboldowi~
+kobolda~
+koboldem~
+koboldzie~
+koboldzie~
+Znajduje sie tu lekko usmiechniety kobold.
+~
+Patrzy na ciebie swymi malymi, paciorkowatymi oczyma. Atakuje z gluchym
+warknieciem. Jestes pewny, ze mozesz go pokonac w walce.
+~
+35 0 -600 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+3 0 0 0 131073 131072 0
+0 0 3 0 0 0 0 0
+#10442
+gnoll klatka~
+gnoll~
+gnolla~
+gnollowi~
+gnolla~
+gnollem~
+gnollu~
+gnollu~
+Mlody gnoll jest gotow by cie zaatakowac.
+~
+Zapalony by okazac swa dzielnosc w walce, obnaza przed toba swe kly.
+Probuje zaszczepic w twym sercu strach...
+~
+35 0 -600 C
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 1031 0 0 0 0 0
+> death_prog 90~
+if level($n) >= 4
+if mobinroom(10442) <= 1
+mpmload 10357
+mpat 10442 mpecho _yel Mala istota pojawia sie znikad!
+mpforce $n glance pixie
+endif
+endif
+~
+|
+#10443
+minotaur klatka~
+minotaur~
+minotaura~
+minotaurowi~
+minotaura~
+minotaurem~
+minotaurze~
+minotaurze~
+Minotaur parska na twoj widok.
+~
+Nie jest najwiekszy jakiego zdawalo ci sie widywac. Ten wyglada calkiem 
+znosnie, moze dlatego, ze jest niewiele podobny to innych.
+~
+67 0 -600 S
+1 0 94 11d1+0 0d0+0
+100 0
+112 112 1
+#10444
+statua paladyn~
+statua~
+statuy~
+statule~
+statule~
+statula~
+statule~
+statuo~
+Stoi tu starozytna statua przedstawiajaca Paladyna.
+~
+Statua Paladyna wykuta jest z najlepszego granitu. Widac, ze artysta musial
+byc geniuszem, jego dzielo wyglada jak zywe.
+~
+1073741827 680 1000 C
+50 0 35 40d1+0 5d5+5
+100 0
+112 112 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 3 0 3072 0 0 0
+> act_prog p bounces around.~
+mpforce $n look
+mpecho Granit zamienia sie w zywe cialo i statua zaczyna sie poruszac.
+emote patrzy na ciebie.
+usmiech $n
+mpecho Statua ponownie zamienia sie w twardy kamien..
+~
+> act_prog p patrzy na ciebie.~
+if class($n) == Paladin
+mpechoat $n Witaj $n, Jestem tutaj aby opowiedziec ci troche o profesji
+mpechoat $n Paladyna. Naszym podstawowym atrybutem jest sila.
+cast 'kindred strength' $n
+mpechoat $n Ten czar tymczasowo zwiekszy twoja sile o 3, nazywa sie
+mpechoat $n 'kindred strength'. Zeby dowiedziec sie wiecej o czarach, umiejetnosciach
+mpechoat $n i jezykach, ktorych mozesz sie nauczyc, napisz SLIST. Zeby dowiedziec
+mpechoat $n sie wiecej o Paladynach, napisz HELP PALADINE.
+mpechoat $n Powodzenia $w!
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+mpechoat $n Mam dla ciebie prezent, powiedz PODAREK aby go otrzymac.
+endif
+endif
+~
+> speech_prog podarek~
+if class($n) == Paladin
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+mpoload 10327 1
+mpoload 10330 1
+mpoload 10330 1
+mpoload 10331 1
+put mikstura torba
+put mikstura torba
+put zwoj torba
+give torba $n
+mpechoat $n Aby uzyc napojow napisz QUAFF POTION albo QUAFF ELIXIR.
+mpechoat $n Aby uzyc pergaminu napisz RECITE SCROLL.
+mpechoat $n Napisz 'exam torba' zeby zobaczyc co jest w srodku, i 'get <przedmiot> torba'
+mpechoat $n albo 'put <przedmiot> torba' zeby brac i odkladac przedmioty.
+mpechoat $n Uzyj ich madrze, moga uratowac ci zycie.
+mpforce $n config +brief
+mpforce $n wake
+mpforce $n down
+mpat $n mpforce $n config -brief
+else
+usmiech $n
+mpechoat $n Nie moge ci pomoc, masz zbyt wysoki poziom.
+endif
+endif
+~
+|
+#10445
+straznik widmo klatka~
+widmo~
+widma~
+widmu~
+widmo~
+widmem~
+widmie~
+widmo~
+Widmowy straznik Akademii przyglada sie twym postepom.
+~
+Nie mozesz dojrzec fizycznej postaci tego straznika. Jego cialo ciagle sie
+zmienia. Raz jest widoczne, to znow rozplywa sie w nicosc, zachowuje sie
+niczym mgla podczas wiatru.
+~
+67 184 0 C
+50 0 94 20000d1+0 0d0+0
+100 0
+112 112 0
+18 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p is dying~
+mpforce 0.$n drink
+mpechoat $n Picie wody i napojow pomoze ci wypoczywac i polepszy twe samopoczucie.
+~
+> act_prog p is starved~
+mpoload 20
+give mushroom $n
+mpforce $n eat mushroom
+mpechoat $n Jedzenie pomoze ci wypoczywac i polepszy twe samopoczucie.
+~
+|
+#10497
+hvak1 advancer~
+Niski, gleboki glos~
+Niskiego, glebokiego glosu~
+Niskiemu, glebokiemu glosowi~
+Niski, gleboki glos~
+Niskim, glebokim glosem~
+Niskim, glebokim glosie~
+Niski, gleboki glosie~
+Hvak1 Advancer jest tutaj (powinien zawsze byc w 10499)
+~
+~
+1073741825 4194344 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#10498
+hvak2 advancer~
+Slaby glosik~
+Slabego glosika~
+Slabemu glosikowi~
+Slaby glosik~
+Slabym glosikiem~
+Slabym glosiku~
+Slaby glosiku~
+Hvak2 Advancer jest tutaj (powinien zawsze byc w 10499)
+~
+~
+1073741825 4194344 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#10499
+final mob~
+a newly created final mob~
+a newly created final mob~
+a newly created final mob~
+a newly created final mob~
+a newly created final mob~
+a newly created final mob~
+a newly created final mob~
+Some god abandoned a newly created final mob here.
+~
+~
+1073741825 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#10300
+bransoleta czarodziejska akademia~
+czarodziejska bransoleta~
+czrodziejskiej bransolety~
+czrodziejskiej bransolecie~
+czrodziejska bransolete~
+czrodziejska bransoleta~
+czrodziejskiej bransolecie~
+czrodziejska bransoleto~
+Czarodziejska bransoleta z Akademii lezy tutaj.~
+~
+9 0 4097
+2 2 0 0
+2 0 0
+E
+bransoleta czarodziejska~
+Ta bransoleta napewno przyniesie ci szczescie podczas twoich podrozy. Pochodzi
+z Akademii w Darkhaven.
+~
+A
+31 1
+> drop_prog 100~
+mpforce $n sac $o
+~
+|
+#10301
+buty bojowe akademia~
+para czarnych bojowych butow~
+para czarnych bojowych butow~
+para czarnych bojowych butow~
+para czarnych bojowych butow~
+para czarnych bojowych butow~
+para czarnych bojowych butow~
+para czarnych bojowych butow~
+Para czarnych bojowych butow z Akademii lezy tutaj.~
+~
+9 0 65
+3 3 0 0
+3 0 0
+E
+buty bojowe~
+Te buty sa tak wygodne i lekkie, ze masz ochote przejsc w nich caly swiat.
+Moga byc one znalezione w Akademii w Darkhaven.
+~
+A
+14 100
+> drop_prog 100~
+mpforce $n sac $o
+~
+|
+#10302
+pas skorzany akademia~
+skorzany pas~
+skorzany pas~
+skorzany pas~
+skorzany pas~
+skorzany pas~
+skorzany pas~
+skorzany pas~
+Skorzany pas z Akademii lezy tutaj.~
+~
+9 0 2049
+2 2 0 0
+2 0 0
+E
+pas skorzany~
+Ten pas zrobiony jest z najlepszej skory. Mozna go znalezc w Akademii
+w Darkhaven.
+~
+A
+5 1
+> drop_prog 100~
+mpforce $n sac $o
+~
+|
+#10303
+nagolenniki ciezkie akademia~
+ciezkie nagolenniki~
+ciezkie nagolenniki~
+ciezkie nagolenniki~
+ciezkie nagolenniki~
+ciezkie nagolenniki~
+ciezkie nagolenniki~
+ciezkie nagolenniki~
+Ciezkie nagolenniki z Akademii leza tutaj.~
+~
+9 0 33
+2 2 0 0
+3 0 0
+E
+nagolenniki~
+Te nagolenniki pozwola ci sie cieszyc dosyc dobra ochrona. Moga zostac
+znalezione w Akademii w Darkhaven.
+~
+> drop_prog 100~
+mpforce $n sac $o
+~
+|
+#10304
+helm zelazny akademia~
+powyginany zelazny helm~
+powyginany zelazny helm~
+powyginany zelazny helm~
+powyginany zelazny helm~
+powyginany zelazny helm~
+powyginany zelazny helm~
+powyginany zelazny helm~
+Powyginany zelazny helm z Akademii lezy na ziemii.~
+~
+9 0 17
+3 3 0 0
+2 0 0
+E
+helm zelazny~
+Ten helm, chociaz troche zniszczony, zapewni ci dobra ochrone. Pochodzi on
+z Akademii w Darkhaven.
+~
+A
+3 1
+> drop_prog 100~
+mpforce $n sac $o
+~
+|
+#10305
+peleryna czarna akademia~
+czarna peleryna~
+czarna peleryna~
+czarna peleryna~
+czarna peleryna~
+czarna peleryna~
+czarna peleryna~
+czarna peleryna~
+Czarna peleryna z Akademii lezy pod nogami.~
+~
+9 0 1025
+2 2 0 0
+3 0 0
+E
+peleryna czarna~
+Ta peleryna zrobiona jest z jakiegos ciezkiego materialu. Zapewni ci cieplo
+i ochrone, dopoki nie znajdziesz czegos lepszego. Mozna ja znalezc w Akademii
+w Darkhaven.
+~
+> drop_prog 100~
+mpforce $n sac $o
+~
+|
+#10306
+kolnierz metalowy akademia~
+solidny metalowy kolnierz~
+solidny metalowy kolnierz~
+solidny metalowy kolnierz~
+solidny metalowy kolnierz~
+solidny metalowy kolnierz~
+solidny metalowy kolnierz~
+solidny metalowy kolnierz~
+Solidny metalowy kolnierz z Akademii lezy tutaj.~
+~
+9 0 5
+3 2 0 0
+5 0 0
+E
+kolnierz metalowy~
+Ten kolnierz scisle dolega do szyji. Jest gruby i ma ponabijane kolce,
+chroniace podczas walki. Mozna go znalezc w Akademii w Darkhaven.
+~
+> drop_prog 100~
+mpforce $n sac $o
+~
+|
+#10307
+przylbica ukonczenia akademia~
+przylbica ukonczenia Akademii~
+przylbica ukonczenia Akademii~
+przylbica ukonczenia Akademii~
+przylbica ukonczenia Akademii~
+przylbica ukonczenia Akademii~
+przylbica ukonczenia Akademii~
+przylbica ukonczenia Akademii~
+Przylbica ukonczenia Akademii lezy tuaj jasno blyszczac.~
+~
+9 64 131073
+2 0 0 0
+1 0 0
+E
+przylbica ukonczenia~
+Moje gratulacje! Twoje szkolenie w Akademii w Darkhaven zostalo zakonczone.
+Nos te przylbice z duma! Jest to magiczny przedmiot.
+~
+A
+4 1
+A
+3 1
+> wear_prog 100~
+mpechoat $n Gdy zakladasz przylbice, zaczynasz czuc sie o wiele madrzejszy.
+mpechoaround $n Gdy $n zaklada przylbice, zaczyna wygladac o wiele madrzej.
+~
+|
+#10308
+zbroja plytowa akademia~
+zbroja plytowa~
+zbroja plytowa~
+zbroja plytowa~
+zbroja plytowa~
+zbroja plytowa~
+zbroja plytowa~
+zbroja plytowa~
+Zbroja plytowa z Akademii lezy tutaj.~
+~
+9 0 9
+2 2 0 0
+5 0 0
+E
+zbroja plytowa~
+Dopoki nie znajdziesz niczego lepszego, ta zbroja plytowa zapewni ci
+wystarczajaca ochrone.
+~
+#10309
+naramienniki miedziane akademia~
+miedziane naramienniki~
+miedziane naramienniki~
+miedziane naramienniki~
+miedziane naramienniki~
+miedziane naramienniki~
+miedziane naramienniki~
+miedziane naramienniki~
+Lekkie miedziane naramienniki z Akademii leza tutaj.~
+~
+9 0 257
+3 3 0 0
+1 0 0
+E
+naramienniki miedziane~
+Te lekkie miedziane naramienniki beda chronily twoje ramiona, dopoki nie
+znajdziesz czegos lepszego. Mozna je znalezc w Akademii w Darkhaven.
+~
+A
+1 1
+> drop_prog 100~
+mpforce $n sac $o
+~
+|
+#10310
+tarcza akademia~
+tarcza z godlem Akademii~
+tarcza z godlem Akademii~
+tarcza z godlem Akademii~
+tarcza z godlem Akademii~
+tarcza z godlem Akademii~
+tarcza z godlem Akademii~
+tarcza z godlem Akademii~
+Tarcza z godlem Akadmii w Darkhaven lezy tutaj.~
+~
+9 0 513
+2 2 0 0
+5 0 0
+E
+tarcza~
+To jest twoja pierwsza tarcza, bedzie cie chronic dopoki nie znajdziesz czegos
+lepszego.
+~
+#10311
+kula oko oswiecenia akademia~
+oko oswiecenia~
+oko oswiecenia~
+oko oswiecenia~
+oko oswiecenia~
+oko oswiecenia~
+oko oswiecenia~
+oko oswiecenia~
+Mala szklana kula swieci jasno, zapewniajac swiatlo lowcom przygod.~
+~
+1 65 1
+0 0 -1 0
+1 0 0
+A
+24 -1
+#10312
+sztylet ostry akademia~
+bardzo ostry sztylet~
+bardzo ostry sztylet~
+bardzo ostry sztylet~
+bardzo ostry sztylet~
+bardzo ostry sztylet~
+bardzo ostry sztylet~
+bardzo ostry sztylet~
+Bardzo ostry sztylet lezy na ziemii.~
+~
+5 64 8193
+12 1 6 11
+2 0 0
+A
+18 2
+A
+19 1
+#10313
+miecz ostry akademia~
+bardzo ostry miecz~
+bardzo ostry miecz~
+bardzo ostry miecz~
+bardzo ostry miecz~
+bardzo ostry miecz~
+bardzo ostry miecz~
+bardzo ostry miecz~
+Bardzo ostry miecz lezy na ziemii.~
+~
+5 64 8193
+12 0 0 3
+2 0 0
+E
+miecz~
+Zrobiony z najlepszego metalu, ten miecz powinien ci dobrze sluzyc w twoich
+przyszlych bitwach.
+~
+A
+18 2
+A
+19 1
+#10314
+buklak skorzany woda~
+buklak~
+buklak~
+buklak~
+buklak~
+buklak~
+buklak~
+buklak~
+Lezy tutaj skorzany buklak.~
+~
+17 0 1
+15 15 0 0
+1 30 3
+#10315
+maczuga znakomita akademia~
+znakomita maczuga~
+znakomita maczuga~
+znakomita maczuga~
+znakomita maczuga~
+znakomita maczuga~
+znakomita maczuga~
+znakomita maczuga~
+Znakomita maczuga lezy tu na ziemii.~
+~
+5 64 8193
+12 3 6 7
+2 0 0
+E
+maczuga~
+Ta maczuga jest pierwszorzedna bronia i powinna ci sluzyc dobrze w bitwach,
+ktore przyjdzie ci stoczyc.
+~
+A
+18 2
+A
+19 1
+#10316
+pochodnia~
+pochodnia~
+pochodnia~
+pochodnia~
+pochodnia~
+pochodnia~
+pochodnia~
+pochodnia~
+Lezy tutaj kawalek nadpalonego drewna.~
+~
+1 0 65537
+0 0 24 0
+1 20 2
+#10317
+mieso krolicze~
+krolicze mieso~
+krolicze mieso~
+krolicze mieso~
+krolicze mieso~
+krolicze mieso~
+krolicze mieso~
+krolicze mieso~
+Lezy tu kawalek kroliczego miesa.~
+~
+19 0 1
+24 0 0 0
+1 40 4
+#10318
+mieczsnakebite~
+miecz zwany "Snakebite"~
+miecz zwany "Snakebite"~
+miecz zwany "Snakebite"~
+miecz zwany "Snakebite"~
+miecz zwany "Snakebite"~
+miecz zwany "Snakebite"~
+miecz zwany "Snakebite"~
+Miecz lezy tutaj, leciutko swiecac w ciemnosciach.~
+~
+5 8389184 8193
+12 0 0 3
+3 0 0
+A
+19 3
+A
+1 -1
+#10319
+rekawice skorzane akademia~
+skorzane rekawice~
+skorzane rekawice~
+skorzane rekawice~
+skorzane rekawice~
+skorzane rekawice~
+skorzane rekawice~
+skorzane rekawice~
+Para skorzanych rekawic z Akademii lezy tutaj.~
+~
+9 0 129
+3 0 0 0
+2 0 0
+A
+2 1
+> drop_prog 100~
+mpforce $n sac $o
+~
+|
+#10320
+torba sztuczek~
+torba sztuczek~
+torba sztuczek~
+torba sztuczek~
+torba sztuczek~
+torba sztuczek~
+torba sztuczek~
+torba sztuczek~
+Jakis Mag zostawil tutaj swoja torbe.~
+~
+15 0 1
+75 1 0 0
+5 0 0
+E
+torba sztuczek~
+Ta torba nalezy do jakiegos Maga.
+~
+#10321
+torba leczenia~
+torba leczenia~
+torba leczenia~
+torba leczenia~
+torba leczenia~
+torba leczenia~
+torba leczenia~
+torba leczenia~
+Jakis Kleryk zostawil tutaj swoja torbe.~
+~
+15 0 1
+75 1 0 0
+5 0 0
+E
+torba leczenia~
+Ta torba nalezy do jakiegos Kleryka.
+~
+#10322
+torba podstepow~
+torba podstepow~
+torba podstepow~
+torba podstepow~
+torba podstepow~
+torba podstepow~
+torba podstepow~
+torba podstepow~
+Jakis Zlodziej zostawil tutaj swoja torbe.~
+~
+15 0 1
+75 1 0 0
+5 0 0
+E
+torba podstepow~
+Ta torba nalezy do jakiegos Zlodzieja.
+~
+#10323
+torba wojny~
+torba wojny~
+torba wojny~
+torba wojny~
+torba wojny~
+torba wojny~
+torba wojny~
+torba wojny~
+Jakis Wojownik zostawil tutaj swoja torbe.~
+~
+15 0 1
+75 1 0 0
+5 0 0
+E
+torba wojny~
+Ta torba nalezy do jakiegos Wojownika.
+~
+#10324
+torba ciemnosci~
+torba ciemnosci~
+torba ciemnosci~
+torba ciemnosci~
+torba ciemnosci~
+torba ciemnosci~
+torba ciemnosci~
+torba ciemnosci~
+Jakis Wampir zostawil tutaj swoja torbe.~
+~
+15 0 1
+75 1 0 0
+5 0 0
+E
+torba ciemnosci~
+Ta torba nalezy do jakiegos Wampira.
+~
+#10325
+torba natury~
+torba natury~
+torba natury~
+torba natury~
+torba natury~
+torba natury~
+torba natury~
+torba natury~
+Jakis Druid zostawil tutaj swoja torbe.~
+~
+15 0 1
+75 1 0 0
+5 0 0
+E
+torba natury~
+Ta torba nalezy do jakiegos Druida.
+~
+#10326
+torba wolnosci~
+torba wolnosci~
+torba wolnosci~
+torba wolnosci~
+torba wolnosci~
+torba wolnosci~
+torba wolnosci~
+torba wolnosci~
+Jakis Ranger zostawil tutaj swoja torbe.~
+~
+15 0 1
+75 1 0 0
+5 0 0
+E
+torba wolnosci~
+Ta torba nalezy do jakiegos Rangera.
+~
+#10327
+torba prawdy~
+torba prawdy~
+torba prawdy~
+torba prawdy~
+torba prawdy~
+torba prawdy~
+torba prawdy~
+torba prawdy~
+Jakis Paladyn zostawil tutaj swoja torbe.~
+~
+15 0 1
+75 1 0 0
+1 0 0
+E
+torba prawdy~
+Ta torba prawdy nalezy do jakiegos Paladyna.
+~
+#10330
+mikstura zycia~
+mikstura zycia~
+mikstura zycia~
+mikstura zycia~
+mikstura zycia~
+mikstura zycia~
+mikstura zycia~
+mikstura zycia~
+Dziwna swiecaca mikstura lezy tutaj.~
+~
+10 1 1
+20 -1 44 130
+2 0 0
+'cure light' 'cure serious' 'refresh'
+E
+mikstura~
+Ta mikstura zostala zrobiona specjalnie aby pomagac mlodym lowcom przygod.
+~
+#10331
+zwoj ucieczki~
+zwoj ucieczki~
+zwoj ucieczki~
+zwoj ucieczki~
+zwoj ucieczki~
+zwoj ucieczki~
+zwoj ucieczki~
+zwoj ucieczki~
+Ciemny zwoj pokryty runami lezy tutaj.~
+~
+2 0 1
+10 -1 43 172
+5 0 0
+'remove curse' 'cure poison' 'word of recall'
+#10333
+przewodnik gracza ksiazka akademia~
+Przewodnik Gracza~
+Przewodnik Gracza~
+Przewodnik Gracza~
+Przewodnik Gracza~
+Przewodnik Gracza~
+Przewodnik Gracza~
+Przewodnik Gracza~
+Ksiazka z napisem "BEZ PANIKI, ZAJRZYJ DO MNIE!" lezy na ziemii.~
+~
+9 524288 16385
+5 5 0 0
+1 1234 123
+E
+sets~
+Regular equipment setup:              Equipment setup during dual wield:
+-----------------------------------------------------------------------------
+<used as light>                       <used as light>
+<worn on finger>                      <worn on finger>
+<worn on finger>                      <worn on finger>
+<worn around neck>                    <worn around neck>
+<worn around neck>                    <worn around neck>
+<worn on body>                        <worn on body>
+<worn on head>                        <worn on head>
+<worn on legs>                        <worn on legs>
+<worn on feet>                        <worn on feet>
+<worn on hands>                       <worn on hands>
+<worn on arms>                        <worn on arms>
+<worn as shield>                      <worn about body>
+<worn about body>                     <worn about waist>
+<worn about waist>                    <worn around wrist>
+<worn around wrist>                   <worn around wrist>
+<worn around wrist>                   <wielded>
+<wielded>                             <dual wielded>
+<held>                                <worn on ears>
+<worn on ears>                        <worn on eyes>
+<worn on eyes>
+~
+E
+przewodnik ksiazka~
+Kilka pomocnych rzeczy dla tych, ktorzy zaczynaja mudowac:
+ 
+SPAM -        Wyjasni ci co to jest spamowanie, i dlaczego nie powinno sie
+              tego robic.
+CONFIG -      Nauczy cie konfigurowac swoja postac.
+SCORE -       Powie ci conieco o charakterystyce twojej postaci.
+MOVEMENT -    Nauczy cie roznych komend dotyczacych poruszania sie.
+OBJECTS -     Nauczy cie roznych komend dotyczacych twojego ekwipunku.
+CONTAINER -   Nauczy cie jak uzywac roznych pojemnikow.
+CHANNELS -    Opowie ci o komunikacji miedzy graczami.
+GROUP -       Pomoze ci w grupowaniu sie z innymi graczami.
+COMBAT -      Opowie ci jak rozpoczac i zakonczyc walke.
+DEATH -       Opowie ci o smierci gracza podczas gry.
+PRACTICE -    Opowie jak nauczyc sie roznych czarow i umiejetnosci.
+INFORMATION - Odkryje sposoby znajdowania przez ciebie poszukiwanych informacji.
+ 
+Napisz HELP <temat> uzywajac tematow przedstawionych powyzej, aby lepiej
+zaznajomic sie z gra.
+~
+A
+3 1
+A
+5 1
+A
+4 1
+> get_prog 100~
+if ispc($n)
+mea $n _whi Twoja inteligencja zwiekszyla sie przez czytanie Przzewodnika Gracza
+mea $n _whi Przeznacz troche czasu na czytanie i napisz "look book'.
+endif
+~
+|
+#10343
+kobold~
+a newly created kobold~
+a newly created kobold~
+a newly created kobold~
+a newly created kobold~
+a newly created kobold~
+a newly created kobold~
+a newly created kobold~
+Some god dropped a newly created kobold here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#10345
+lancuch ~
+lancuch Chadoyna~
+lancuch Chadoyna~
+lancuch Chadoyna~
+lancuch Chadoyna~
+lancuch Chadoyna~
+lancuch Chadoyna~
+lancuch Chadoyna~
+Na ziemi lezy zardzewialy, metalowy lancuch.~
+~
+9 524288 5
+0 3 0 0
+2 1 0
+A
+17 -3
+#10359
+gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+Some god dropped a newly created gnoll here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#10360
+gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+Some god dropped a newly created gnoll here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#10362
+gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+Some god dropped a newly created gnoll here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#10363
+gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+Some god dropped a newly created gnoll here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#10365
+gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+Some god dropped a newly created gnoll here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#10366
+gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+a newly created gnoll~
+Some god dropped a newly created gnoll here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#10367
+tablica akademia~
+Tablica Ogloszen Rady Nowych Poszukiwaczy~
+Tablica Ogloszen Rady Nowych Poszukiwaczy~
+Tablica Ogloszen Rady Nowych Poszukiwaczy~
+Tablica Ogloszen Rady Nowych Poszukiwaczy~
+Tablica Ogloszen Rady Nowych Poszukiwaczy~
+Tablica Ogloszen Rady Nowych Poszukiwaczy~
+Tablica Ogloszen Rady Nowych Poszukiwaczy~
+Stoi tutaj tablica, gotowa na twoje ogloszenia.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+tablica newbie~
+Ta tablica moze byc przeczytana poprzez napisanie NOTE LIST a potem NOTE READ <#>.
+Napisz HELP NOTE aby dostac instrukcje jak zostawic ogloszenie.
+~
+#10370
+laska magiczna blyszczaca~
+blyszczaca magiczna laska~
+blyszczaca magiczna laska~
+blyszczaca magiczna laska~
+blyszczaca magiczna laska~
+blyszczaca magiczna laska~
+blyszczaca magiczna laska~
+blyszczaca magiczna laska~
+Magiczna laska blyszczy lezac na ziemii.~
+~
+4 321 16385
+5 1 1 -1
+1 60 6
+'sanctuary'
+#10371
+tarcza swietlista~
+swietlista tarcza~
+swietlista tarcza~
+swietlista tarcza~
+swietlista tarcza~
+swietlista tarcza~
+swietlista tarcza~
+swietlista tarcza~
+Swietlista tarcza lezy tutaj, otoczona aura magii.~
+~
+9 321 16385
+3 3 0 0
+1 200 20
+#10372
+mapa recznie rysowana~
+recznie rysowana mapa~
+recznie rysowana mapa~
+recznie rysowana mapa~
+recznie rysowana mapa~
+recznie rysowana mapa~
+recznie rysowana mapa~
+recznie rysowana mapa~
+Recznie rysowana mapa lezy tutaj beztrosko przerzucona.~
+~
+35 321 1
+0 0 0 0
+1 100 10
+E
+mapa~
+Instrukcja uzycia:
+ 
+Ta mapa magicznie skieruje cie w odpowiedni kierunek. Aby przywolac jej
+magiczne moce, napisz 'EXAMINE MAPA'. Pamietaj, ze ta mapa bedzie dzialac
+tylko na drodze lub sciezce. Nie bedzie ona dzialac w Akademii, i nie skieruje
+cie spowrotem do Darkhaven.
+ 
+Pamietaj takze, ze moc tej mapy moze sie skonczyc. Kiedy to sie stanie,
+wtedy zniknie...
+ 
+~
+> exa_prog 100~
+mea $n _yel Mapa emituje pulsujace strumienie energii!
+mpecho _red $O rozblyska czerwono przed twoimi oczami!
+if isimmort($n)
+or level($n) <= 12
+  if inroom($n) == 21038
+  or inroom($n) == 21037
+  or inroom($n) == 21036
+    mea $n _cha Mapa kieruje cie na zachod.
+  else
+  if inroom($n) == 21000
+  or inroom($n) == 21042
+  or inroom($n) == 21043
+  or inroom($n) == 21044
+    mea $n _cha Mapa kieruje cie na poludnie.
+  else
+  if inroom($n) == 21020
+    mea $n _cha Mapa kieruje cie na wschod.
+  else
+  if inroom($n) == 21019 
+    mea $n _cha Mapa kieruje cie na polnoc.
+  else
+  if inroom($n) < 21000
+  or inroom($n) > 21407
+    mea $n Mapa drzy i blyska, ale jest za daleko od Darkhaven aby funkcjonowac.
+  else
+    mea $n Mapa wyglada na niezdolna do wskazania ci drogi.
+  endif
+endif
+endif
+endif
+endif
+else
+  mea $n Jestes za bardzo doswiadczony zeby uzywac tej mapy!
+  mea $n Bogowie zmuszaja cie do poswiecenia tej mapy!
+  mpforce 0.$n drop map
+  mpforce 0.$n sac map
+endif
+~
+|
+#10373
+mapa magiczna~
+magiczna mapa~
+magiczna mapa~
+magiczna mapa~
+magiczna mapa~
+magiczna mapa~
+magiczna mapa~
+magiczna mapa~
+Mapa jarzy sie z magicznym blogoslawienstwem.~
+~
+35 321 1
+0 0 0 0
+1 100 10
+E
+mapa~
+Instrukcja uzycia:
+ 
+Ta mapa magicznie skieruje cie w odpowiedni kierunek. Aby przywolac jej
+magiczne moce, napisz 'EXAMINE MAPA'. Pamietaj, ze ta mapa bedzie dzialac
+tylko na drodze lub sciezce. Nie bedzie ona dzialac w Akademii, i nie skieruje
+cie spowrotem do Darkhaven.
+ 
+Pamietaj takze, ze moc tej mapy moze sie skonczyc. Kiedy to sie stanie,
+wtedy zniknie...
+ 
+~
+> exa_prog 100~
+mea $n _yel Mapa popycha cie pulsujaca energia!
+mpecho _red $O rozblyska czerwono przed twoimi oczami!
+if isimmort($n)
+or level($n) <= 12
+  if inroom($n) == 21038
+  or inroom($n) == 21012
+  or inroom($n) == 21113
+  or inroom($n) == 21112
+  or inroom($n) == 3503
+    mea $n _cha Mapa kieruje cie na wschod.
+  else
+  if inroom($n) == 3502
+    mea $n _cha Mapa kieruje cie na polnocny-wschod.
+  else
+  if inroom($n) == 6500
+  else
+  if inroom($n) < 21000
+  or inroom($n) > 21407
+    mea $n Mapa drzy i blyska, ale jest za daleko od Darkhaven aby funkcjonowac.
+  else
+    mea $n Mapa wyglada na niezdolna do wskazania ci drogi.
+  endif
+endif
+endif
+endif
+else
+  mea $n Jestes za bardzo doswiadczony zeby uzywac tej mapy!
+  mea $n Bogowie zmuszaja cie do poswiecenia tej mapy!
+  mpforce 0.$n drop map
+  mpforce 0.$n sac map
+endif
+~
+|
+#10374
+mapa stara zniszczona~
+stara, zniszczona mapa~
+stara, zniszczona mapa~
+stara, zniszczona mapa~
+stara, zniszczona mapa~
+stara, zniszczona mapa~
+stara, zniszczona mapa~
+stara, zniszczona mapa~
+W pyle lezy stara mapa, brudna i zniszczona.~
+~
+2 321 1
+50 -1 -1 -1
+1 1 0
+'word of recall' 'NONE' 'NONE'
+E
+mapa~
+Instrukcja uzycia:
+ 
+Ta mapa zaprowadzi cie do pokoju magii, z ktorego mozesz zostac
+przetransportowany poza miasto Darkhaven. Mapa skieruje cie w odpowiednim
+kierunku kiedy napiszesz 'EXAMINE MAPA'...
+ 
+Mapa jest magiczna, i ewentualnie zniknie z twoich rzeczy. Jesli chcesz
+powrocic do miasta, mozesz napisac 'RECITE MAPA'.
+ 
+~
+> exa_prog 100~
+mpecho _whi $O blyszczy oslepiajacym bialym swiatlem!
+if isimmort($n)
+or level($n) <= 12
+  if inroom($n) == 21038
+  or inroom($n) == 21037
+  or inroom($n) == 21036
+  or inroom($n) == 21163
+  or inroom($n) == 21165
+  or inroom($n) == 21182
+    mea $n _cha Mapa kieruje cie na zachod.
+  else
+  if inroom($n) == 21000
+    mea $n _cha Mapa kieruje cie na polnocny-zachod.
+  else
+  if inroom($n) == 21166
+  or inroom($n) == 21167
+  or inroom($n) == 21168
+  or inroom($n) == 21181
+    mea $n _cha Mapa kieruje cie na polnoc.
+  else
+  if inroom($n) < 21000
+  or inroom($n) > 21407
+    mea $n Mapa drzy i blyska, ale jest za daleko od Darkhaven aby funkcjonowac.
+  else
+    mea $n Mapa wyglada na niezdolna do wskazania ci drogi.
+  endif
+endif
+endif
+endif
+else
+  mea $n Jestes za bardzo doswiadczony zeby uzywac tej mapy!
+  mea $n Bogowie zmuszaja cie do poswiecenia tej mapy!
+  mpforce 0.$n drop map
+  mpforce 0.$n sac map
+endif
+~
+|
+#10375
+mapa czarodzieja~
+mapa czarodzieja~
+mapa czarodzieja~
+mapa czarodzieja~
+mapa czarodzieja~
+mapa czarodzieja~
+mapa czarodzieja~
+mapa czarodzieja~
+Bezmozgi czarodziej wyrzucil tutaj mape.~
+~
+2 321 1
+51 -1 -1 -1
+1 100 10
+'word of recall' 'NONE' 'NONE'
+E
+mapa~
+Instrukcja uzycia
+
+Ta mapa zaprowadzi cie do pokoju magii, z ktorego mozesz zostac
+przetransportowany poza miasto Darkhaven. Mapa skieruje cie w odpowiednim
+kierunku kiedy napiszesz 'EXAMINE MAPA'...
+ 
+Mapa jest magiczna, i ewentualnie zniknie z twoich rzeczy. Jesli chcesz
+powrocic do miasta, mozesz napisac 'RECITE MAPA'.
+~
+> exa_prog 100~
+mpecho _dbl $O blyszczy magiczna aura.
+if isimmort($n) 
+or level($n) <= 12
+  if inroom($n) == 21038
+  or inroom($n) == 21037
+  or inroom($n) == 21036
+  or inroom($n) == 21163
+  or inroom($n) == 21165
+    mea $n _cha Mapa kieruje cie na zachod.
+  else
+  if inroom($n) == 21000
+    mea $n _cha Mapa kieruje cie na polnocny-zachod.
+  else
+  if inroom($n) == 21166
+  or inroom($n) == 21167
+  or inroom($n) == 21168
+  or inroom($n) == 21181
+    mea $n _cha Mapa kieruje cie na polnoc.
+  else
+  if inroom($n) == 21182
+    mea $n Mapa kieruje cie na zachod.
+  else
+  if inroom($n) < 21000
+  or inroom($n) > 21407
+    mea $n Mapa drzy i blyska, ale jest za daleko od Darkhaven aby funkcjonowac.
+  else
+    mea $n Mapa wyglada na niezdolna do wskazania ci drogi.
+  endif
+endif
+endif
+endif
+endif
+else
+  mea $n Jestes za bardzo doswiadczony zeby uzywac tej mapy!
+  mea $n Thoric zmusza cie do poswiecenia $O
+  mer $n Bogowie zmuszaja cie, $w do poswiecenia $O
+  mpforce 0.$n drop map
+  mpforce 0.$n sac map
+endif
+~
+|
+#10397
+buty czarne~
+czarne buty~
+czarne buty~
+czarne buty~
+czarne buty~
+czarne buty~
+czarne buty~
+czarne buty~
+Para czarnych butow lezy tutaj.~
+~
+9 0 65
+0 0 0 0
+1 0 0
+#10398
+szaty~
+smolistoczarne szaty~
+smolistoczarne szaty~
+smolistoczarne szaty~
+smolistoczarne szaty~
+smolistoczarne szaty~
+smolistoczarne szaty~
+smolistoczarne szaty~
+Jakies czarne szaty leza tu na kupce.~
+~
+9 0 1025
+0 0 0 0
+1 0 0
+#10399
+laska~
+laska Arkanow~
+laska Arkanow~
+laska Arkanow~
+laska Arkanow~
+laska Arkanow~
+laska Arkanow~
+laska Arkanow~
+Lezy tutaj, zapomniana przez wszystkich laska Arkanow~
+~
+4 80 16385
+54 100 100 -1
+1 0 0
+'lightning bolt'
+#10400
+torba madrosci~
+torba madrosci~
+torba madrosci~
+torba madrosci~
+torba madrosci~
+torba madrosci~
+torba madrosci~
+torba madrosci~
+Jakis Augurer zostawil tutaj swoja torbe.~
+~
+15 0 1
+75 1 0 0
+5 0 0
+E
+torba madrosci~
+Ta torba nalezy do jakiegos Augurera.
+~
+#10401
+fontanna fountain~
+fontanna~
+fontanna~
+fontanna~
+fontanna~
+fontanna~
+fontanna~
+fontanna~
+Stoi tutaj marmurowa fontanna.~
+~
+25 0 0
+50 50 0 0
+500 3000 300
+E
+fontanna~
+Fontanna jest pelna krystalicznie czystej i chlodnej wody.
+~
+#10410
+ostrze kamienne~
+kamienne ostrze~
+kamienne ostrze~
+kamienne ostrze~
+kamienne ostrze~
+kamienne ostrze~
+kamienne ostrze~
+kamienne ostrze~
+Lezy tutaj ostrze wykonane z nieznanego kamienia.~
+~
+5 68 8193
+12 1 6 11
+2 0 0
+E
+ostrze~
+Niezbyt dobrej jakosci ale uzyteczne. Powinno dobrze ci sluzyc.
+~
+A
+18 2
+A
+19 1
+#10411
+maczuga swietlista~
+swietlista maczuga~
+swietlista maczuga~
+swietlista maczuga~
+swietlista maczuga~
+swietlista maczuga~
+swietlista maczuga~
+swietlista maczuga~
+Lezy tutaj jasno swiecaca maczuga.~
+~
+5 524610 8193
+12 0 0 7
+2 0 0
+E
+maczuga~
+Wykuta z gwiezdnego metalu. Powinna dobrze ci sluzyc na poczatku twojej gry.
+~
+A
+18 2
+A
+19 1
+#10412
+miecz ciezki~
+ciezki miecz~
+ciezki miecz~
+ciezki miecz~
+ciezki miecz~
+ciezki miecz~
+ciezki miecz~
+ciezki miecz~
+Swiatlo odbija sie na ostrzu ciezkiego miecza.~
+~
+5 524352 8193
+12 0 0 3
+2 0 0
+E
+miecz~
+Wykuty z najlepszego metalu, powinien dobrze ci sluzyc na poczatku.
+~
+A
+18 2
+A
+19 1
+#10413
+korzen~
+korzen~
+korzen~
+korzen~
+korzen~
+korzen~
+korzen~
+korzen~
+Korzen, caly ublocony, lezy na ziemii.~
+~
+26 537133056 16385
+20 -1 136 -1
+3 1200 120
+'cure critical' 'restore mana' 'NONE'
+A
+5 1
+A
+4 1
+#10480
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+tablica~
+Tablica z notkami.~
+~
+12 0 0
+0 0 0 0
+1 10 1
+#10499
+final object~
+a newly created final object~
+a newly created final object~
+a newly created final object~
+a newly created final object~
+a newly created final object~
+a newly created final object~
+a newly created final object~
+Some god dropped a newly created final object here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#10300
+Akademia Darkhaven.~
+Stoisz w wejsciu do Akademi Darkhaven, gdzie mozesz sie nauczyc podstawowych
+umiejetnosci potrzebnych w grze. W kolejnych pokojach mozesz sie nauczyc
+potrzebnych Ci komend sluzacych do poruszania sie, porozumiewania z innymi
+graczami itp. Powinienes zwiedzic cala Akademie by zdobyc jak najwiecej wiedzy.
+ 
+Wpisz N by pojsc na polnoc do nastepnego pomieszczenia Akademii. Jesli juz
+zwiedziles cala Akademie i chcesz sie sprawdzic w walce, wpisz OPEN S oraz
+S by wejsc na arene.
+~
+0 1049608 0
+D0
+Kamienny korytarz.
+~
+~
+16777216 -1 10301
+D1
+Pokoj z notkami.
+~
+~
+0 -1 10480
+D2
+~
+drzwi~
+16777219 -1 10382
+D4
+U gory znajduje sie wyjscie do miasta Darkhaven.
+~
+~
+0 -1 21280
+E
+drzwi~
+Widzisz solidne, debowe drzwi.
+~
+E
+s~
+Widzisz solidne, debowe drzwi.
+~
+E
+south~
+Widzisz solidne, debowe drzwi.
+~
+> leave_prog 100~
+if ispc($n)
+if level($n) == 1
+mpforce $n config +brief
+endif
+endif
+~
+|
+S
+#10301
+Kamienny korytarz.~
+Na zachodzie znajduje sie pomieszczenie do nauki jezykow. Pani Abbigayle
+pomoze Ci tam opanowac rozne jezyki tego swiata. Na wschodzie czeka na Ciebie
+Domick, ktory nauczy cie roznych czarow i umiejetnosci oraz jak poslugiwac
+sie roznego rodzaju bronia. Gdy ukonczysz juz swoje lekcje, wroc tutaj i
+rusz dalej na polnoc.
+~
+0 3145736 0
+D0
+Czytelnia.
+~
+~
+0 -1 10304
+D1
+Laboratorium Umiejetnosci i Czarow.
+~
+~
+0 -1 10303
+D2
+Wejscie do Akademii Darkhaven.
+~
+~
+0 -1 10300
+D3
+Lekcje jezykow z Abbigayle.
+~
+~
+0 -1 10306
+> leave_prog 100~
+if isimmort($n)
+else
+  mpforce $n vis
+endif
+~
+> entry_prog 100~
+if ispc($n)
+if level($n) == 1
+mpechoat $n _whi Nie mozesz kontynuowac dopoki nie osiagniesz drugiego poziomu!
+mpechoat $n _whi Powinienem cie natychmiast zawrocic do Tsythii!
+mptransfer 0.$n 10300
+mpat 10300 mpforce 0.$n look
+endif
+endif
+~
+|
+S
+#10302
+Gdzies.~
+I znow to zrobiles. Wspaniale sie uczysz. By kontynuowac nauke, idz na polnoc.
+Znajdziesz sie wtedy na powrot w czytelni.
+~
+0 3145740 0
+D0
+Czytelnia
+~
+~
+0 -1 10304
+S
+#10303
+Laboratorium Umiejetnosci i Czarow.~
+Tu mozesz uczyc sie umiejetnosci, czarow oraz poslugiwania bronia. Wpisz
+PRACTICE by zobaczyc liste aktualnie dostepnych dla ciebie umiejetnosci.
+By uczyc sie czegokolwiek z tej listy wpisz PRACTICE <nazwa umiejetnosci,
+czaru czy rodzaju broni>.
+ 
+Przykladowo: by nauczyc sie czaru dispel magic, powinienes wpisac:
+PRA DISPEL MAGIC. Gdy zaczynasz sie uczyc jakiej umiejetnosci to masz ja
+opanowana na 0%. Po nauce opanowywujesz ja na 15%-20%. Potem w czasie uzywania
+tej umiejetnosci [czaru, broni], mozesz ja opanowac na 30-96%.
+ 
+By dowiedziec sie wiecej o uzywaniu czarow, umiejetnosciach i rodzajach broni,
+wpisz HELP <nazwa czaru, umiejetnosci lub broni>. Ogolne informacje znajdziesz
+po wpisaniu HELP PRACTICE. Liczba punktow praktyki jakie otrzymujesz co poziom,
+zalezy od twej madrasci [WISDOM].
+~
+0 1049608 0
+D3
+Kamienny korytarz
+~
+~
+0 -1 10301
+S
+#10304
+Czytelnia.~
+Jest to cichy pokoj, czyli nie docieraja tu zadne glosy graczy, nie slychac 
+tutaj takze zadnych kanalow. Mozesz uzywac sociali, emote i mowic do swojej
+grupy. Ten pokoj zostal stworzony bys mogl w ciszy i spokoju poczytac helpy.
+Mozesz zmniejszyc ilosc slyszalnych dla ciebie kanalow. By otrzymac liste
+wszystkich kanalow wpisz CHAN. Mozesz wylaczyc jakis kanal przez wpisanie
+CHAN -<nazwa kanalu> lub go wlaczyc wpisujac CHAN +<nazwa kanalu>.
+
+Dla przykladu mozesz wylaczyc kanal AUCTION wpisujac CHAN -AUCTION i przywrocic
+go poprzez CHAN +AUCTION. Mozesz wylaczy takze naraz wszystkie kanaly poprzez
+CHAN -ALL lub je wlaczyc poprzez CHAN +ALL. Gdy skonczysz czytac helpy rusz
+dalej po Akademii. Na zachodzie znajduja sie pomieszczenia gdzie mozesz
+sprawdzic swoja orientacje w terenie. Jesli sie zgubisz, wpisz U by wrocic do
+tego pokoju. Gdy juz tu wrocisz kontynuuj swoja podroz na polnoc.
+~
+0 3211272 0
+D0
+Marmurowy korytarz.
+~
+~
+0 -1 10314
+D2
+Kamienny korytarz.
+~
+~
+0 -1 10301
+D3
+Wedrujac przez Akademie.
+~
+~
+0 -1 10307
+S
+#10305
+Komnata Prob dla Rangerow.~
+Tutaj wlasnie stoczysz swoja pierwsza prawdziwa walke z MOBAMI. Mobami
+nazywa sie wszystkie stwory wystepujace w grze. Wszystkie wyjscia, z
+wyjatkiem zejscia w dol prowadza do klatek z mobami. Niektore z tych
+stworow moga byc agresywne i zaatakuja cie po wejsciu do ich lokacji.
+Gdy je zabijesz otrzymasz punkty doswiadczenia, jak rowniez ekwipunek
+i zloto. Gdy juz pokonasz moba napisz GET ALL CORPSE aby zabrac z ciala
+pokonanego ekwipunek i zloto. Mozesz takze wpisac CONFIG +AUTOLOOT albo
+CONFIG +AUTOGOLD. Autoloot spowoduje ze zaraz po zabiciu moba wezmiesz
+wszystko z jego ciala. Autogold spowoduje wziecie samego zlota. Wszystkie
+zabrane przedmioty pojawiaja sie w twojej kieszeni (INVENTORY). Podczas
+walki mozesz doznac pewnych obrazen, gdyby tak sie stalo wroc tutaj i
+napisz REST albo SLEEP. To przyspieszy proces powrotu do zdrowia. Gdy
+juz wyzdrowiejesz napisz WAKE lub STAND aby kontynuowac przygode.
+~
+0 3146760 0
+D0
+Klatka.
+~
+~
+0 -1 10389
+D1
+Klatka.
+~
+~
+0 -1 10388
+D2
+Klatka.
+~
+~
+0 -1 10387
+D3
+Klatka.
+~
+~
+0 -1 10390
+D5
+Kamienny korytarz.
+~
+~
+0 -1 10356
+S
+#10306
+Lekcje jezykow z Abbigayle.~
+Tutaj mozesz sie uczyc jezykow. Jezykow uczy sie inaczej niz umiejetnosci,
+czarow i broni. Musisz zostac adeptem jakiegos jezyka by go moc uzywac.
+By ujzec liste dostepnych jezykow, wpisz PRACTICE. Nie musisz sie uczyc
+jezyka twojej rasy i jezyka common, gdyz obydwa znasz juz bardzo dobrze.
+By uczyc sie jezyka wpisz LANGUAGE LEARN <rodzaj jezyka>.
+
+By zdobyc wiecej informacji wpisz HELP LANGUAGES. By dowiedziec sie jak
+uzywac jezykow wpisz HELP SPEAK lub HELP TONGUE. Kazda nauka kosztuje Cie
+kilka punktow praktyki, podczas ktorej zwieksza sie twoja plynnosc mowienia.
+Postacie inteligetniejsze, madrzejsze i majace wiecej szczescia zuzywaja
+mniej praktyk by zostac adeptem jakiegos jezyka.
+~
+0 1049608 0
+D1
+Kamienny korytarz.
+~
+~
+0 -1 10301
+S
+#10307
+Wedrujac po Akademii.~
+Kazdy gracz posiada rozne opcje, majace wplyw na zachowanie twej postaci
+w grze. By otrzymac liste tych opcji wpisz CONFIG. Dobrze jest bys mial
+wlaczana opcje AUTOEXIT poprzez CONFIG +AUTOEXIT. Pokazuja ci ona mozliwe
+wyjscia z pomieszczenia, do ktorego wlasnie wszedles. Jesli wpiszesz EXIT,
+otrzymasz liste dostepnych wyjsc i nazw pomieszczen, do ktorych one prowadza.
+Przy pomocy tej komendy mozesz takze dowiedziec sie o niebezpieczenstwach oraz
+smiertelnyh pulapkach znajdujacych sie w tych kierunkach. Mozesz takze starac
+sie zajzec do pomieszczenia obok wpisujac LOOK <kierunek np. n, s, w, e>.
+Mozesz teraz isc na zachod, lecz wczesniej wyprobuj komedy EXIT oraz LOOK W.
+~
+0 3145736 0
+D1
+Czytelnia.
+~
+~
+0 -1 10304
+D3
+Wedrujac po Akademii Darkhaven.
+~
+~
+0 -1 10309
+D4
+Powrot do czytelni.
+~
+~
+0 -1 10304
+E
+Drzwi.~
+Widzisz solidne, debowe drzwi.
+~
+S
+#10308
+Gleboka dziura.~
+Tu mieszka Chadoyn. Zostal tu zamkniety za zabijanie studentow naszej Akademii
+i Niesmiertelni zdecydowali, ze spedzi reszte swego zycia w tym szybie, aby
+studenci mogli cwiczyc na nim swe wojenne umiejetnosci. Mozesz na nim cwiczyc
+komendy WIMPY, FLEE i mam nadzieje, ze nie umrzesz podczas tego treningu.
+Mozesz tu takze pocwiczyc komende CONSIDER. Ta komenda porownuje twoj poziom
+i sile z poziomem i sila twego przeciwnika. By ja uzyc wpisz CONSIDER CHADOYN.
+
+By uzyc komendy CONSIDER gdziekolwiek indziej wpisz CONSIDER <nazwa potwora>.
+Dobrze jest uzywac komendy CONSIDER przed kazda walka.
+To moze uratowac Ci zycie. Badz ostrozny i zycze Ci szczescia w walce.
+~
+0 3145736 0
+D3
+Mroczny szyb.
+~
+~
+0 -1 10316
+S
+#10309
+Wedrujac po Akademii Darkhaven.~
+Czas sie nauczyc czegos o wyjsciach, ktore nie sa widoczne po wpisaniu EXIT.
+Takimi wyjsciami moga byc drzwi. Musisz przeczytac opis pomieszczenia i wpisac
+LOOK <kierunek> by je odnalezc. Innym sposobem jest 'odbijanie' sie od scian.
+Wpisz N. AUC! Uderzyles w drzwi. Nie mozesz przejsc przez zamkniete drzwi jesli
+nie znajdujesz sie pod dzialaniem czaru typu 'pass door'. Wpisz teraz OPEN N
+lub OPEN DOOR/DRZWI. Nastepnie wpisz EXIT, i teraz to wyjscie stalo sie juz
+widoczne. Wpisz HELP OPEN by dowiedziec sie wiecej o wyjsciach.
+~
+0 3145736 0
+D0
+Zamkniety pokoj.
+~
+Drzwi.~
+3 -1 10310
+D1
+Wedrujac po Akademii.
+~
+~
+0 -1 10307
+D3
+Zagubieni w Akademii Darkhaven.
+~
+~
+0 -1 10311
+D4
+Powrot do czytelni.
+~
+~
+0 -1 10304
+E
+Drzwi.~
+Widzisz solidne debowe drzwi.
+~
+S
+#10310
+Zamkniety pokoj.~
+Wspaniale! Zrobiles to!. Znajdziesz jeszcze wiele pokoi takich jak ten w calej
+grze. Niektore jest latwo znalezc czytajac opis pomieszczenia. Inne sa trudne
+do odnalezienia. Ale teraz jestes juz uzbrojony w odpowiednia wiedze by moc
+je znajdywac. Oprocz komend, ktore poznales jak LOOK i EXIT, istnieje jeszcze
+czar zwany 'scry', ktory pozwala ci zajzec do pomieszczen obok. Dziala podobnie
+jak LOOK lecz dostarcza ci wiecej informacji. By sprawdzic czy nie zdobedziesz
+umiejetnosci tego czaru pozniej, wpisz SLIST. Otrzymasz wtedy liste czarow,
+umiejetnosci i broni, ktorych mozesz sie uczyc na odpowiednich poziomach. SLIST
+udziela ci takze informacji na ile procent mozesz dana umiejetnosc wycwiczyc.
+~
+0 3145736 0
+D2
+Wedrujac po Akademii Darkhaven.
+~
+Drzwi.~
+3 -1 10309
+S
+#10311
+Zagubieni w Akademi Darkhaven.~
+Istnieje jeszcze wiele innych specjalnych wyjsc. Na razie potrafisz juz
+otwierac i zamykac drzwi. Istnija takze ukryte drzwi, ktorych nie da sie odkryc
+poprzez 'odbijanie'. Najczesciej nie mozna tez ich znalesc komenda LOOK. Te
+wyjscia mozna znalesc czytajac opisy pomieszczen, postaci i przedmiotow.
+Mozesz takze odnalezc drzwi, ktore sa zamkniete. Mozesz je sforsowac za pomoca
+czasu 'pass door', umiejetnosci 'pick lock' lub 'bash door'. Lecz niektore
+drzwi mozna otworzyc jedynie za pomoca odpowiedniego klucza. Inne rodzaje
+wyjsc moga wymagac posiadania umiejetnosci wspinania 'climb' lub czaru latania
+'fly'. Zwykle wyjscia sa oznaczane poprzez N, ,E ,W ,S ,NE, NW, SE, SW ,U, lub
+D. Wyjscia specjalne sa oznaczane poprzez SOMEWHERE [gdzies...] i mozna ich
+uzyc przy pomocy komend LEAVE, CLIMB, ENTER lub za pomoca slowa/nazwy tego
+wyjscia.
+~
+0 3145736 0
+D0
+Zagubieni w Akademii Darkhaven.
+~
+~
+0 -1 10312
+D1
+Wedrujac po Akademii Darkhaven.
+~
+~
+0 -1 10309
+D4
+Powrot do czytelni.
+~
+~
+0 -1 10304
+S
+#10312
+Zagubieni w Akademii Darkhaven.~
+Stoisz w bogato udekorowanym pomieszczeniu. Wielki debowy stol otoczony przez
+dwanascie foteli zajmuje srodek pokoju. Krysztalowe kule z zamknietym wewnatrz
+nich czarem 'continual light' [wieczne swiatlo], unosza sie po pokoju, rzucajac
+miekkie, delikatne dla oczu swiatlo. Sciana jest ozdobiona cudownej pieknosci
+gobelinami. Jest tu wiele sladow, mogacych naprowadzic cie na trop mozliwych
+wyjsc. Sprobuj znalezc to odpowiednie slowo poprzez LOOK <slowo>. Na przyklad
+sprobuj LOOK KULE. Czasami ogladanie przedmiotow w pokoju moze zawierac slowo
+ktore otwiera wyjscie.
+~
+0 3145736 0
+D2
+Zagubieni w Akademii Darkhaven.
+~
+~
+0 -1 10311
+D3
+Drzwi.
+~
+gobeliny drzwi~
+11 -1 10313
+D4
+Powrot do czytelni.
+~
+~
+0 -1 10304
+E
+Zachod.~
+Widzisz na scianie gobeliny, lecz jest z nimi cos nie tak...
+~
+E
+Zachod.~
+Widzisz gobeliny wiszace na scianie.
+~
+E
+Drzwi.~
+Widzisz sprytnie ukryte drzwi.
+~
+E
+Gobeliny.~
+Po blizszych ogledzinach stwierdzasz, ze nie sa to zwykle gobeliny, lecz
+zamaskowane wyjscie. Gdy sie przygladasz, zauwazasz linie dzwi.
+~
+E
+Kule.~
+Te kule tworza cienie pod scianami. Cien przy zachodniej scianie wskazuje na
+to, ze tam jest wyjscie.
+~
+S
+#10313
+Sekretna alkowa.~
+Wspaniale! Znalazles sekretne pomieszczenie. Czasami takie pomieszenia moga
+zawierac wartosciowe przedmioty lub prowadzic cie do innych regionow krainy.
+Zawsze zwrazaj uwage na opisy pomieszczen, postaci i przedmiotow. To moze
+czesto przyniesc korzysci. Tutaj nauczysz sie odnajdywac wyjscia typu:
+SOMEWHERE. By je znalezc, sprobuj obejrzec obraz na scianie. Jesli nie bedziesz
+mogl znalesc wyjscia, to pojdz do gory [U]. Powodzenia!
+~
+0 3145740 0
+D1
+Zagubieni w Akademii Darkhaven.
+~
+drzwi~
+3 -1 10312
+D4
+Powrot na poczatek.
+~
+~
+0 -1 10304
+D10
+~
+Szczelina.~
+524288 -1 10302
+E
+Drzwi.~
+Widzisz solidne, debowe drzwi.
+~
+E
+Obraz.~
+Obraz przedstawia swiezo sciete kwiaty w szklanym wazonie. Wyglada jakby
+byl tu powieszony by zakryc jakas duza szczeline. Szczelina jest na tyle
+duza, bys mogl sie przez nia przecisnac. Mozesz przyjrzec sie szczelinie
+blizej. WSKAZOWKA: wpisz LOOK SZCZELINA, a potem SZCZELINA.
+~
+E
+Szczelina.~
+Jest to ogromna SZCZELINA, przez ktora mozesz sie przecisnac.
+~
+E
+Sciana.~
+Obraz przedstawia swiezo sciete kwiaty w szklanym wazonie. Wyglada jakby
+byl tu powieszony by zakryc jakas duza szczeline. Szczelina jest na tyle
+duza, bys mogl sie przez nia przecisnac. Mozesz przyjrzec sie szczelinie
+blizej. WSKAZOWKA: wpisz LOOK SZCZELINA, a potem SZCZELINA.
+~
+S
+#10314
+Marmurowy korytarz.~
+W tym pokoju nauczysz sie wielu komend do sprawdzania swych statystyk, czyli
+np. swej sily, zdrowia, wytrzymalosci itp. Nawazniejsze komendy to SCORE,
+EQUIPMENT, INVENTORY i LEVEL. Zamiast SCORE wystarczy wpisac SC, ta komenda
+ukaze ci charakterystyke twej postaci. Aby sprawdzic co masz na sobie wpisz
+EQ, sa to rzeczy, ktre aktualnie nowisz na sobie. To co masz ze soba lecz nie
+na sobie mozesz sprawdzic wpisujac I. Komenda LEVEL pokazuje ci jaki masz
+aktualnie poziom, ile masz punktow doswiadzczenia i ile ci ich brakuje do
+nastepnego poziomu.
+By dowiedziec sie wiecej na temat tych komend wpisz HELP <komenda>.
+~
+0 3145736 0
+D0
+Przygotowania do walki.
+~
+~
+0 -1 10315
+D2
+Czytelnia.
+~
+~
+0 -1 10304
+S
+#10315
+Przygotowania do walki.~
+Czas nauczyc sie walczyc. Bezposrednio pod toba znajduje sie siedziba
+Chadoyn`a. Chadoyn nie jest agresywny, co oznacza, ze to TY musisz zaczac
+walke. Istnieje wiele sposobow na to by rozpoczac walke. Najszybciej jest
+wpisac KILL <imie potwora>. Gdy zdobedziesz kolejne umiejestnosci i czary,
+znajdziesz takze inne sposoby do rozpoczecia walki.
+
+Niektore bardziej popularne czary rozpoczynajace walke to DISPEL MAGIC, SLEEP,
+CHARM PERSON, BLINDNESS, WEAKEN, CURSE i FAERIE FIRE. Do najczesciej uzywanych
+umiejetnosci naleza STEAL i BACKSTAB.
+*** te czary i umiejetnosci ZAWSZE ROZPOCZNA WALKE gdy zostana uzyte ***
+~
+0 3145736 0
+D0
+Marmurowy korytarz.
+~
+~
+0 -1 10317
+D2
+Marmurowy korytarz.
+~
+~
+0 -1 10314
+D5
+Mroczny szyb.
+~
+~
+0 -1 10316
+S
+#10316
+Mroczny szyb.~
+Tu nauczysz sie komend WIMPY, FLEE i RECALL sluzacych do uciekania z walki.
+WIMPY powoduje, ze uciekasz automatycznie z walki gdy twoja sile (hp) osiagnie
+ustalone minimum. By ustawic ta opcje wpisz WIMPY lub WIMPY <liczba>. Liczba
+oznacza liczbe hp, przy ktorych zaczynac uciekac z walki. Gdy uciekasz tracisz
+punkty doswiadczenia, ale tracisz ich mniej niz gdybys w tej walce zginal.
+Mozesz takze uciec z walki 'recznie' wpisujac FLEE. Tej komendy mozesz uzyc
+niezaleznie od ilosci hitpointow jaie posiadasz. Przy czym takze tracisz pewna
+ilosc punktow doswiadczenia. Z walki mozesz takze uciec przy pomocy czaru
+'word of recall' jesli taki posiadasz lub poprzez przeczytanie pergaminu
+z tym czarem. Tracisz przy tym wiecej punktow doswiadczenia niz przy komendach
+WIMPY i FLEE.
+~
+0 3145740 0
+D1
+Mroczny szyb.
+~
+~
+0 -1 10308
+D4
+Przygotowania do walki.
+~
+~
+0 -1 10315
+S
+#10317
+Marmurowy korytarz.~
+Moje gratulacje. Zaszedles juz daleko w swym treningu. Twoim nastepnym krokiem
+bedzie zdobycie odpowiedniego ekwipunku z klatek z potworami, odpowiednimi dla
+wybranej przez ciebie klasy. Na polnocy znajduje sie Akademicki Medyk, Lord
+Toric. Rzuci on na ciebie czary, ktore pomoga ci w walce. Posiedz u niego
+dopoki nie bedziesz gotow do dalszego treningu.
+~
+0 3146760 0
+D0
+Akademicki Medyk.
+~
+~
+0 -1 10319
+D2
+Przygotowania do walki.
+~
+~
+0 -1 10315
+S
+#10318
+Hala Wojownikow.~
+Widzisz tarcze najrozmaitszych ksztaltow zamocowane na scianach. Sa to
+dary od wojownikow, ktorzy przeszli przez te hale przed toba. Z gory
+dochodza do ciebie przytlumione odglosy walki.
+~
+0 3146760 0
+D5
+Komnata Prob dla Wojownikow.
+~
+~
+0 -1 10325
+S
+#10319
+Akademicki Medyk.~
+Stoi tu medyk. spotkasz jeszcze wielu takich jak on podczas twej gry. Ich
+celem jest rzucanie czarow takich jak ARMOR, BLESS, CURE BLINDNESS, CURE
+POISON, CURE LIGHT i REFRESH. Medyk rzuca te czary losowo na osoby znajdujace
+sie w tym pomieszczeniu co on sam. niektorzy medycy moga rzucac ci dodatkowe
+czary za pieniadze. Inni moga to robic jesli wypowiesz odpowiednie slowo lub
+uzyjesz odpoiedniego socjala [np. SMILE, wpisz SOC by otrzymac ich liste].
+Wazne jest wiec by dokladnie czytac opisy ich postaci, gdyz moga one zawierac
+odpowiednie informacje.
+~
+0 1049612 0
+D0
+Pokoj z portalami.
+~
+~
+16777216 -1 10355
+D2
+Marmurowy korytarz.
+~
+~
+0 -1 10317
+S
+#10320
+Hala Druidow.~
+Wedrujac przez te hale masz wrazenie, ze wedrujesz przez zielony las. Lekki
+wiatr rozwiewa ci wlosy, tak ze dwa razy dokladnie rozgladasz sie wokolo,
+aby ustalic ze wciaz znajdujesz sie w Akademii w Darkhaven. Widzisz lagodne
+swiatlo bijace z podlogi.
+~
+0 3146752 0
+D5
+Komnata Prob dla Druidow.
+~
+~
+0 -1 10326
+S
+#10321
+Hala Wampirow i Demonow.~
+Ta hala jest bardzo slabo oswietlona, tak ze trudno ci rozroznic detale.
+Szeleszczace, zeschle liscie i wycie wiatru. Te dzwieki docieraja do twoich
+uszu. Po chwili orientujesz sie, ze to ciche szepty nie liscie. Rozgladasz
+sie uwaznie dokola, ale nic nie widzisz.
+~
+0 3146760 0
+D5
+Komnata Prob dla Wampirow i Demonow.
+~
+~
+0 -1 10327
+S
+#10322
+Hala Zlodziejow i Zabojcow.~
+Masz dziwne uczucie, ze nie jestes jedyna osoba w tej komnacie. Co rusz,
+katem oka zauwazasz jakies cienie przemykajace pod scianami. Czujesz leciutki
+podmuch powietrza, jakby ktos przeszedl blisko ciebie. Chociaz usilnie wytezasz
+wzrok, nie potrafisz nic dojrzec.
+~
+0 3146760 0
+D5
+Komnata Prob dla Zlodziejow i Zabojcow.
+~
+~
+0 -1 10328
+S
+#10323
+Hala Magow.~
+W powietrzu unosi sie zapach siarki. Nad podloga unosi sie gesta mgielka,
+zewszad dokola dochodzi cie cichy i monotonny spiew. Nagle gluchy odglos
+gromu przetacza sie nad toba. Z dolu dochodzi przymglone swiatelko.
+~
+0 3146760 0
+D5
+Komnata Prob dla Magow.
+~
+~
+0 -1 10329
+S
+#10324
+Hala Klerykow i Aniolow.~
+Twoja dusze ogarnia blogi spokoj, daleko przed soba widzisz rzeczy z twoich
+najgorszych koszmarow sennych. Nie zaszczyciwszy ich nawet spojrzeniem idziesz
+dalej prosto, spelnic swe przeznaczenie.
+~
+0 3146760 0
+D5
+Komnata Prob dla Klerykow i Aniolow.
+~
+~
+0 -1 10330
+S
+#10325
+Komnata Prob dla Wojownikow.~
+Tutaj wlasnie stoczysz swoja pierwsza prawdziwa walke z MOBAMI. Mobami
+nazywa sie wszystkie stwory wystepujace w grze. Wszystkie wyjscia, z
+wyjatkiem zejscia w dol prowadza do klatek z mobami. Niektore z tych
+stworow moga byc agresywne i zaatakuja cie po wejsciu do ich lokacji.
+Gdy je zabijesz otrzymasz punkty doswiadczenia, jak rowniez ekwipunek
+i zloto. Gdy juz pokonasz moba napisz GET ALL CORPSE aby zabrac z ciala
+pokonanego ekwipunek i zloto. Mozesz takze wpisac CONFIG +AUTOLOOT albo
+CONFIG +AUTOGOLD. Autoloot spowoduje ze zaraz po zabiciu moba wezmiesz
+wszystko z jego ciala. Autogold spowoduje wziecie samego zlota. Wszystkie
+zabrane przedmioty pojawiaja sie w twojej kieszeni (INVENTORY). Podczas
+walki mozesz doznac pewnych obrazen, gdyby tak sie stalo wroc tutaj i
+napisz REST albo SLEEP. To przyspieszy proces powrotu do zdrowia. Gdy
+juz wyzdrowiejesz napisz WAKE lub STAND aby kontynuowac przygode.
+~
+0 3146760 0
+D0
+Klatka.
+~
+~
+0 -1 10339
+D1
+Klatka.
+~
+~
+0 -1 10342
+D2
+Klatka.
+~
+~
+0 -1 10340
+D3
+Klatka.
+~
+~
+0 -1 10341
+D5
+Kamienny korytarz.
+~
+~
+0 -1 10356
+S
+#10326
+Komnata Prob dla Druidow.~
+Tutaj wlasnie stoczysz swoja pierwsza prawdziwa walke z MOBAMI. Mobami
+nazywa sie wszystkie stwory wystepujace w grze. Wszystkie wyjscia, z
+wyjatkiem zejscia w dol prowadza do klatek z mobami. Niektore z tych
+stworow moga byc agresywne i zaatakuja cie po wejsciu do ich lokacji.
+Gdy je zabijesz otrzymasz punkty doswiadczenia, jak rowniez ekwipunek
+i zloto. Gdy juz pokonasz moba napisz GET ALL CORPSE aby zabrac z ciala
+pokonanego ekwipunek i zloto. Mozesz takze wpisac CONFIG +AUTOLOOT albo
+CONFIG +AUTOGOLD. Autoloot spowoduje ze zaraz po zabiciu moba wezmiesz
+wszystko z jego ciala. Autogold spowoduje wziecie samego zlota. Wszystkie
+zabrane przedmioty pojawiaja sie w twojej kieszeni (INVENTORY). Podczas
+walki mozesz doznac pewnych obrazen, gdyby tak sie stalo wroc tutaj i
+napisz REST albo SLEEP. To przyspieszy proces powrotu do zdrowia. Gdy
+juz wyzdrowiejesz napisz WAKE lub STAND aby kontynuowac przygode.
+~
+0 3146760 0
+D0
+Klatka.
+~
+~
+0 -1 10343
+D1
+Klatka.
+~
+~
+0 -1 10346
+D2
+Klatka.
+~
+~
+0 -1 10344
+D3
+Klatka.
+~
+~
+0 -1 10345
+D5
+Kamienny korytarz.
+~
+~
+0 -1 10356
+S
+#10327
+Komnata Prob dla Wampirow i Demonow.~
+Tutaj wlasnie stoczysz swoja pierwsza prawdziwa walke z MOBAMI. Mobami
+nazywa sie wszystkie stwory wystepujace w grze. Wszystkie wyjscia, z
+wyjatkiem zejscia w dol prowadza do klatek z mobami. Niektore z tych
+stworow moga byc agresywne i zaatakuja cie po wejsciu do ich lokacji.
+Gdy je zabijesz otrzymasz punkty doswiadczenia, jak rowniez ekwipunek
+i zloto. Gdy juz pokonasz moba napisz GET ALL CORPSE aby zabrac z ciala
+pokonanego ekwipunek i zloto. Mozesz takze wpisac CONFIG +AUTOLOOT albo
+CONFIG +AUTOGOLD. Autoloot spowoduje ze zaraz po zabiciu moba wezmiesz
+wszystko z jego ciala. Autogold spowoduje wziecie samego zlota. Wszystkie
+zabrane przedmioty pojawiaja sie w twojej kieszeni (INVENTORY). Podczas
+walki mozesz doznac pewnych obrazen, gdyby tak sie stalo wroc tutaj i
+napisz REST albo SLEEP. To przyspieszy proces powrotu do zdrowia. Gdy
+juz wyzdrowiejesz napisz WAKE lub STAND aby kontynuowac przygode.
+~
+0 3146760 0
+D0
+Klatka.
+~
+~
+0 -1 10347
+D1
+Klatka.
+~
+~
+0 -1 10350
+D2
+Klatka.
+~
+~
+0 -1 10348
+D3
+Klatka.
+~
+~
+0 -1 10349
+D5
+Kamienny korytarz.
+~
+~
+0 -1 10356
+S
+#10328
+Komnata Prob dla Zlodziejow i Zabojcow.~
+Tutaj wlasnie stoczysz swoja pierwsza prawdziwa walke z MOBAMI. Mobami
+nazywa sie wszystkie stwory wystepujace w grze. Wszystkie wyjscia, z
+wyjatkiem zejscia w dol prowadza do klatek z mobami. Niektore z tych
+stworow moga byc agresywne i zaatakuja cie po wejsciu do ich lokacji.
+Gdy je zabijesz otrzymasz punkty doswiadczenia, jak rowniez ekwipunek
+i zloto. Gdy juz pokonasz moba napisz GET ALL CORPSE aby zabrac z ciala
+pokonanego ekwipunek i zloto. Mozesz takze wpisac CONFIG +AUTOLOOT albo
+CONFIG +AUTOGOLD. Autoloot spowoduje ze zaraz po zabiciu moba wezmiesz
+wszystko z jego ciala. Autogold spowoduje wziecie samego zlota. Wszystkie
+zabrane przedmioty pojawiaja sie w twojej kieszeni (INVENTORY). Podczas
+walki mozesz doznac pewnych obrazen, gdyby tak sie stalo wroc tutaj i
+napisz REST albo SLEEP. To przyspieszy proces powrotu do zdrowia. Gdy
+juz wyzdrowiejesz napisz WAKE lub STAND aby kontynuowac przygode.
+~
+0 3146760 0
+D0
+Klatka.
+~
+~
+0 -1 10351
+D1
+Klatka.
+~
+~
+0 -1 10354
+D2
+Klatka.
+~
+~
+0 -1 10352
+D3
+Klatka.
+~
+~
+0 -1 10353
+D5
+Kamienny korytarz.
+~
+~
+0 -1 10356
+S
+#10329
+Komnata Prob dla Magow.~
+Tutaj wlasnie stoczysz swoja pierwsza prawdziwa walke z MOBAMI. Mobami
+nazywa sie wszystkie stwory wystepujace w grze. Wszystkie wyjscia, z
+wyjatkiem zejscia w dol prowadza do klatek z mobami. Niektore z tych
+stworow moga byc agresywne i zaatakuja cie po wejsciu do ich lokacji.
+Gdy je zabijesz otrzymasz punkty doswiadczenia, jak rowniez ekwipunek
+i zloto. Gdy juz pokonasz moba napisz GET ALL CORPSE aby zabrac z ciala
+pokonanego ekwipunek i zloto. Mozesz takze wpisac CONFIG +AUTOLOOT albo
+CONFIG +AUTOGOLD. Autoloot spowoduje ze zaraz po zabiciu moba wezmiesz
+wszystko z jego ciala. Autogold spowoduje wziecie samego zlota. Wszystkie
+zabrane przedmioty pojawiaja sie w twojej kieszeni (INVENTORY). Podczas
+walki mozesz doznac pewnych obrazen, gdyby tak sie stalo wroc tutaj i
+napisz REST albo SLEEP. To przyspieszy proces powrotu do zdrowia. Gdy
+juz wyzdrowiejesz napisz WAKE lub STAND aby kontynuowac przygode.
+~
+0 3146760 0
+D0
+Klatka.
+~
+~
+0 -1 10335
+D1
+Klatka.
+~
+~
+0 -1 10338
+D2
+Klatka.
+~
+~
+0 -1 10336
+D3
+Klatka.
+~
+~
+0 -1 10337
+D5
+Kamienny korytarz.
+~
+~
+0 -1 10356
+S
+#10330
+Komnata Prob dla Klerykow i Aniolow.~
+Tutaj wlasnie stoczysz swoja pierwsza prawdziwa walke z MOBAMI. Mobami
+nazywa sie wszystkie stwory wystepujace w grze. Wszystkie wyjscia, z
+wyjatkiem zejscia w dol prowadza do klatek z mobami. Niektore z tych
+stworow moga byc agresywne i zaatakuja cie po wejsciu do ich lokacji.
+Gdy je zabijesz otrzymasz punkty doswiadczenia, jak rowniez ekwipunek
+i zloto. Gdy juz pokonasz moba napisz GET ALL CORPSE aby zabrac z ciala
+pokonanego ekwipunek i zloto. Mozesz takze wpisac CONFIG +AUTOLOOT albo
+CONFIG +AUTOGOLD. Autoloot spowoduje ze zaraz po zabiciu moba wezmiesz
+wszystko z jego ciala. Autogold spowoduje wziecie samego zlota. Wszystkie
+zabrane przedmioty pojawiaja sie w twojej kieszeni (INVENTORY). Podczas
+walki mozesz doznac pewnych obrazen, gdyby tak sie stalo wroc tutaj i
+napisz REST albo SLEEP. To przyspieszy proces powrotu do zdrowia. Gdy
+juz wyzdrowiejesz napisz WAKE lub STAND aby kontynuowac przygode.
+~
+0 3146760 0
+D0
+Klatka.
+~
+~
+0 -1 10332
+D1
+Klatka.
+~
+~
+0 -1 10334
+D2
+Klatka.
+~
+~
+0 -1 10333
+D3
+Klatka.
+~
+~
+0 -1 10331
+D5
+Kamienny korytarz.
+~
+~
+0 -1 10356
+S
+#10331
+Zachodnia klatka Klerykow i Aniolow.~
+Zabij moba przebywajacego w tej klatce, wez ekwipunek z ciala pokonanego,
+nastepnie poswiec cialo bogom [SAC CORPSE]. Gdy poswiecasz ciala bogom,
+zawsze otrzymujesz mala nagrode. Mozesz takze poswiecac niepotrzebne
+przedmioty rzucajac je na ziemie i piszac SAC <nazwa przedmiotu>. Jesli chcesz
+uzyskac wiecej informacji na ten temat, zajrzyj do helpa.
+~
+0 3145736 0
+D1
+Komnata Prob dla Klerykow i Aniolow.
+~
+~
+0 -1 10330
+S
+#10332
+Polnocna klatka Klerykow i Aniolow.~
+Gdy zdobedziesz juz jakis ekwipunek pokonujac swych wrogow, musisz nauczyc sie
+komend, pomocnych w uzywaniu przedmiotow. Tymi komendami sa: GET, DROP, WEAR,
+WIELD, HOLD, REMOVE, REPAIR, and EXAMINE. Zeby zabrac jakis przedmiot martwemu
+przeciwnikowi napisz GET <przedmiot> CORPSE. Zeby podniesc przedmiot z ziemii
+napisz GET <przedmiot>. Zeby wyrzucic przedmiot z inwentarza napisz DROP
+<przedmiot>. Zeby zalozyc cos, napisz WEAR <przedmiot> lub WEAR ALL. Jesli
+chcesz dobyc bron napisz WIELD <przedmiot>. Jesli w rece trzymasz juz jakas
+bron, nie dobedziesz nowej, musisz najpierw odlozyc pierwsza REMOVE
+<przedmiot>. Twoj ekwipunek moze ulec uszkodzeniu. Zeby sprawdzic w jakim
+stanie jest przedmiot napisz EXAM <przedmiot>. Jesli bedzie trzeba cos naprawic
+musisz znalezc kowala. Gdy bedziesz u kowala, przestan uzywac popsuty przedmiot
+i napisz REPAIR <przedmiot>.
+~
+0 3145736 0
+D2
+Komnata Prob dla Klerykow i Aniolow.
+~
+~
+0 -1 10330
+S
+#10333
+Poludniowa klatka Klerykow i Aniolow.~
+Smrod gnijacych cial uderza w twoje nozdrza. Kawalki kosci i zardzewiale
+czesci zbroji leza rozrzucone po podlodze. Pamietaj, zabij, wez wszystko
+z ciala, potem poswiec cialo bogom. Mozesz wpisac CONFIG +AUTOSAC, wtedy
+automatycznie po smierci moba bedziesz poswiecal jego cialo. Musisz jednak
+uwazac z autosacem, poniewaz mozesz stracic rzeczy, ktore ciagle leza przy
+zabitym wrogu. Nawet jesli masz wlaczona opcje CONFIG +AUTOLOOT, zdarza sie,
+ze masz juz pelny inwentarz, albo nie masz sily aby podniesc wiecej.
+~
+0 3145736 0
+D0
+Komnata Prob dla Klerykow i Aniolow.
+~
+~
+0 -1 10330
+S
+#10334
+Wschodnia klatka Klerykow i Aniolow.~
+Moby w tych klatkach, oprocz wlasnej nazwy, nazywaja sie takze "klatka". Te
+moby moga byc zabite komenda KILL KLATKA lub KILL KOBOLD. Wszystkie inne
+moby w klatkach, sa nazwane podobnie. Tak samo bedzie na Arenie, moby
+dodatkowo nazywaja sie "arena". Te same zasady odnosza sie do ekwipunku
+znajdowanego w Akademii (nazywa sie "akademia"). Oprocz ich wlasnych nazw
+mozesz takze uzywac WEAR AKADEMIA lub REMOVE AKADEMIA.
+~
+0 3145736 0
+D3
+Komnata Prob dla Klerykow i Aniolow.
+~
+~
+0 -1 10330
+S
+#10335
+Polnocna klatka Magow.~
+Gdy zdobedziesz juz jakis ekwipunek pokonujac swych wrogow, musisz nauczyc sie
+komend, pomocnych w uzywaniu przedmiotow. Tymi komendami sa: GET, DROP, WEAR,
+WIELD, HOLD, REMOVE, REPAIR, and EXAMINE. Zeby zabrac jakis przedmiot martwemu
+przeciwnikowi napisz GET <przedmiot> CORPSE. Zeby podniesc przedmiot z ziemii
+napisz GET <przedmiot>. Zeby wyrzucic przedmiot z inwentarza napisz DROP
+<przedmiot>. Zeby zalozyc cos, napisz WEAR <przedmiot> lub WEAR ALL. Jesli
+chcesz dobyc bron napisz WIELD <przedmiot>. Jesli w rece trzymasz juz jakas
+bron, nie dobedziesz nowej, musisz najpierw odlozyc pierwsza REMOVE
+<przedmiot>. Twoj ekwipunek moze ulec uszkodzeniu. Zeby sprawdzic w jakim
+stanie jest przedmiot napisz EXAM <przedmiot>. Jesli bedzie trzeba cos naprawic
+musisz znalezc kowala. Gdy bedziesz u kowala, przestan uzywac popsuty przedmiot
+i napisz REPAIR <przedmiot>.
+~
+0 3145736 0
+D2
+Komnata Prob dla Magow.
+~
+~
+0 -1 10329
+S
+#10336
+Poludniowa klatka Magow.~
+Smrod gnijacych cial uderza w twoje nozdrza. Kawalki kosci i zardzewiale
+czesci zbroji leza rozrzucone po podlodze. Pamietaj, zabij, wez wszystko
+z ciala, potem poswiec cialo bogom. Mozesz wpisac CONFIG +AUTOSAC, wtedy
+automatycznie po smierci moba bedziesz poswiecal jego cialo. Musisz jednak
+uwazac z autosacem, poniewaz mozesz stracic rzeczy, ktore ciagle leza przy
+zabitym wrogu. Nawet jesli masz wlaczona opcje CONFIG +AUTOLOOT, zdarza sie,
+ze masz juz pelny inwentarz, albo nie masz sily aby podniesc wiecej.
+~
+0 3145736 0
+D0
+Komnata Prob dla Magow.
+~
+~
+0 -1 10329
+S
+#10337
+Zachodnia klatka Magow.~
+Zabij moba przebywajacego w tej klatce, wez ekwipunek z ciala pokonanego,
+nastepnie poswiec cialo bogom [SAC CORPSE]. Gdy poswiecasz ciala bogom,
+zawsze otrzymujesz mala nagrode. Mozesz takze poswiecac niepotrzebne
+przedmioty rzucajac je na ziemie i piszac SAC <nazwa przedmiotu>. Jesli chcesz
+uzyskac wiecej informacji na ten temat, zajzyj do helpa.
+~
+0 3145736 0
+D1
+Komnata Prob dla Magow.
+~
+~
+0 -1 10329
+S
+#10338
+Wschodnia klatka Magow.~
+Moby w tych klatkach, oprocz wlasnej nazwy, nazywaja sie takze "klatka". Te
+moby moga byc zabite komenda KILL KLATKA lub KILL KOBOLD. Wszystkie inne
+moby w klatkach, sa nazwane podobnie. Tak samo bedzie na Arenie, moby
+dodatkowo nazywaja sie "arena". Te same zasady odnosza sie do ekwipunku
+znajdowanego w Akademii (nazywa sie "akademia"). Oprocz ich wlasnych nazw
+mozesz takze uzywac WEAR AKADEMIA lub REMOVE AKADEMIA.
+~
+0 3145736 0
+D3
+Komnata Prob dla Magow.
+~
+~
+0 -1 10329
+S
+#10339
+Polnocna klatka Wojownikow.~
+Gdy zdobedziesz juz jakis ekwipunek pokonujac swych wrogow, musisz nauczyc sie
+komend, pomocnych w uzywaniu przedmiotow. Tymi komendami sa: GET, DROP, WEAR,
+WIELD, HOLD, REMOVE, REPAIR, and EXAMINE. Zeby zabrac jakis przedmiot martwemu
+przeciwnikowi napisz GET <przedmiot> CORPSE. Zeby podniesc przedmiot z ziemii
+napisz GET <przedmiot>. Zeby wyrzucic przedmiot z inwentarza napisz DROP
+<przedmiot>. Zeby zalozyc cos, napisz WEAR <przedmiot> lub WEAR ALL. Jesli
+chcesz dobyc bron napisz WIELD <przedmiot>. Jesli w rece trzymasz juz jakas
+bron, nie dobedziesz nowej, musisz najpierw odlozyc pierwsza REMOVE
+<przedmiot>. Twoj ekwipunek moze ulec uszkodzeniu. Zeby sprawdzic w jakim
+stanie jest przedmiot napisz EXAM <przedmiot>. Jesli bedzie trzeba cos naprawic
+musisz znalezc kowala. Gdy bedziesz u kowala, przestan uzywac popsuty przedmiot
+i napisz REPAIR <przedmiot>.
+~
+0 3145736 0
+D2
+Komnata Prob dla Wojownikow.
+~
+~
+0 -1 10325
+S
+#10340
+Poludniowa klatka Wojownikow.~
+Smrod gnijacych cial uderza w twoje nozdrza. Kawalki kosci i zardzewiale
+czesci zbroji leza rozrzucone po podlodze. Pamietaj, zabij, wez wszystko
+z ciala, potem poswiec cialo bogom. Mozesz wpisac CONFIG +AUTOSAC, wtedy
+automatycznie po smierci moba bedziesz poswiecal jego cialo. Musisz jednak
+uwazac z autosacem, poniewaz mozesz stracic rzeczy, ktore ciagle leza przy
+zabitym wrogu. Nawet jesli masz wlaczona opcje CONFIG +AUTOLOOT, zdarza sie,
+ze masz juz pelny inwentarz, albo nie masz sily aby podniesc wiecej.
+~
+0 3145736 0
+D0
+Komnata Prob dla Wojownikow.
+~
+~
+0 -1 10325
+S
+#10341
+Zachodnia klatka Wojownikow.~
+Zabij moba przebywajacego w tej klatce, wez ekwipunek z ciala pokonanego,
+nastepnie poswiec cialo bogom [SAC CORPSE]. Gdy poswiecasz ciala bogom,
+zawsze otrzymujesz mala nagrode. Mozesz takze poswiecac niepotrzebne
+przedmioty rzucajac je na ziemie i piszac SAC <nazwa przedmiotu>. Jesli chcesz
+uzyskac wiecej informacji na ten temat, zajzyj do helpa.
+~
+0 3145736 0
+D1
+Komnata Prob dla Wojownikow.
+~
+~
+0 -1 10325
+S
+#10342
+Wschodnia klatka Wojownikow.~
+Moby w tych klatkach, oprocz wlasnej nazwy, nazywaja sie takze "klatka". Te
+moby moga byc zabite komenda KILL KLATKA lub KILL KOBOLD. Wszystkie inne
+moby w klatkach, sa nazwane podobnie. Tak samo bedzie na Arenie, moby
+dodatkowo nazywaja sie "arena". Te same zasady odnosza sie do ekwipunku
+znajdowanego w Akademii (nazywa sie "akademia"). Oprocz ich wlasnych nazw
+mozesz takze uzywac WEAR AKADEMIA lub REMOVE AKADEMIA.
+~
+0 3145736 0
+D3
+Komnata Prob dla Wojownikow.
+~
+~
+0 -1 10325
+S
+#10343
+Polnocna klatka Druidow.~
+Gdy zdobedziesz juz jakis ekwipunek pokonujac swych wrogow, musisz nauczyc sie
+komend, pomocnych w uzywaniu przedmiotow. Tymi komendami sa: GET, DROP, WEAR,
+WIELD, HOLD, REMOVE, REPAIR, and EXAMINE. Zeby zabrac jakis przedmiot martwemu
+przeciwnikowi napisz GET <przedmiot> CORPSE. Zeby podniesc przedmiot z ziemii
+napisz GET <przedmiot>. Zeby wyrzucic przedmiot z inwentarza napisz DROP
+<przedmiot>. Zeby zalozyc cos, napisz WEAR <przedmiot> lub WEAR ALL. Jesli
+chcesz dobyc bron napisz WIELD <przedmiot>. Jesli w rece trzymasz juz jakas
+bron, nie dobedziesz nowej, musisz najpierw odlozyc pierwsza REMOVE
+<przedmiot>. Twoj ekwipunek moze ulec uszkodzeniu. Zeby sprawdzic w jakim
+stanie jest przedmiot napisz EXAM <przedmiot>. Jesli bedzie trzeba cos naprawic
+musisz znalezc kowala. Gdy bedziesz u kowala, przestan uzywac popsuty przedmiot
+i napisz REPAIR <przedmiot>.
+~
+0 3145736 0
+D2
+Komnata Prob dla Druidow.
+~
+~
+0 -1 10326
+S
+#10344
+Poludniowa klatka Druidow.~
+Smrod gnijacych cial uderza w twoje nozdrza. Kawalki kosci i zardzewiale
+czesci zbroji leza rozrzucone po podlodze. Pamietaj, zabij, wez wszystko
+z ciala, potem poswiec cialo bogom. Mozesz wpisac CONFIG +AUTOSAC, wtedy
+automatycznie po smierci moba bedziesz poswiecal jego cialo. Musisz jednak
+uwazac z autosacem, poniewaz mozesz stracic rzeczy, ktore ciagle leza przy
+zabitym wrogu. Nawet jesli masz wlaczona opcje CONFIG +AUTOLOOT, zdarza sie,
+ze masz juz pelny inwentarz, albo nie masz sily aby podniesc wiecej.
+~
+0 3145736 0
+D0
+Komnata Prob dla Druidow.
+~
+~
+0 -1 10326
+S
+#10345
+Zachodnia klatka Druidow.~
+Zabij moba przebywajacego w tej klatce, wez ekwipunek z ciala pokonanego,
+nastepnie poswiec cialo bogom [SAC CORPSE]. Gdy poswiecasz ciala bogom,
+zawsze otrzymujesz mala nagrode. Mozesz takze poswiecac niepotrzebne
+przedmioty rzucajac je na ziemie i piszac SAC <nazwa przedmiotu>. Jesli chcesz
+uzyskac wiecej informacji na ten temat, zajzyj do helpa.
+~
+0 3145736 0
+D1
+Komnata Prob dla Druidow.
+~
+~
+0 -1 10326
+S
+#10346
+Wschodnia klatka Druidow.~
+Moby w tych klatkach, oprocz wlasnej nazwy, nazywaja sie takze "klatka". Te
+moby moga byc zabite komenda KILL KLATKA lub KILL KOBOLD. Wszystkie inne
+moby w klatkach, sa nazwane podobnie. Tak samo bedzie na Arenie, moby
+dodatkowo nazywaja sie "arena". Te same zasady odnosza sie do ekwipunku
+znajdowanego w Akademii (nazywa sie "akademia"). Oprocz ich wlasnych nazw
+mozesz takze uzywac WEAR AKADEMIA lub REMOVE AKADEMIA.
+~
+0 3145736 0
+D3
+Komnata Prob dla Druidow.
+~
+~
+0 -1 10326
+S
+#10347
+Polnocna klatka Wampirow i Demonow.~
+Gdy zdobedziesz juz jakis ekwipunek pokonujac swych wrogow, musisz nauczyc sie
+komend, pomocnych w uzywaniu przedmiotow. Tymi komendami sa: GET, DROP, WEAR,
+WIELD, HOLD, REMOVE, REPAIR, and EXAMINE. Zeby zabrac jakis przedmiot martwemu
+przeciwnikowi napisz GET <przedmiot> CORPSE. Zeby podniesc przedmiot z ziemii
+napisz GET <przedmiot>. Zeby wyrzucic przedmiot z inwentarza napisz DROP
+<przedmiot>. Zeby zalozyc cos, napisz WEAR <przedmiot> lub WEAR ALL. Jesli
+chcesz dobyc bron napisz WIELD <przedmiot>. Jesli w rece trzymasz juz jakas
+bron, nie dobedziesz nowej, musisz najpierw odlozyc pierwsza REMOVE
+<przedmiot>. Twoj ekwipunek moze ulec uszkodzeniu. Zeby sprawdzic w jakim
+stanie jest przedmiot napisz EXAM <przedmiot>. Jesli bedzie trzeba cos naprawic
+musisz znalezc kowala. Gdy bedziesz u kowala, przestan uzywac popsuty przedmiot
+i napisz REPAIR <przedmiot>.
+~
+0 3145736 0
+D2
+Komnata Prob dla Wampirow i Demonow.
+~
+~
+0 -1 10327
+S
+#10348
+Poludniowa klatka Wampirow i Demonow.~
+Smrod gnijacych cial uderza w twoje nozdrza. Kawalki kosci i zardzewiale
+czesci zbroji leza rozrzucone po podlodze. Pamietaj, zabij, wez wszystko
+z ciala, potem poswiec cialo bogom. Mozesz wpisac CONFIG +AUTOSAC, wtedy
+automatycznie po smierci moba bedziesz poswiecal jego cialo. Musisz jednak
+uwazac z autosacem, poniewaz mozesz stracic rzeczy, ktore ciagle leza przy
+zabitym wrogu. Nawet jesli masz wlaczona opcje CONFIG +AUTOLOOT, zdarza sie,
+ze masz juz pelny inwentarz, albo nie masz sily aby podniesc wiecej.
+~
+0 3145736 0
+D0
+Komnata Prob dla Wampirow i Demonow.
+~
+~
+0 -1 10327
+S
+#10349
+Zachodnia klatka Wampirow i Demonow.~
+Zabij moba przebywajacego w tej klatce, wez ekwipunek z ciala pokonanego,
+nastepnie poswiec cialo bogom [SAC CORPSE]. Gdy poswiecasz ciala bogom,
+zawsze otrzymujesz mala nagrode. Mozesz takze poswiecac niepotrzebne
+przedmioty rzucajac je na ziemie i piszac SAC <nazwa przedmiotu>. Jesli chcesz
+uzyskac wiecej informacji na ten temat, zajzyj do helpa.
+~
+0 3145736 0
+D1
+Komnata Prob dla Wampirow i Demonow.
+~
+~
+0 -1 10327
+S
+#10350
+Wschodnia klatka Wampirow i Demonow.~
+Moby w tych klatkach, oprocz wlasnej nazwy, nazywaja sie takze "klatka". Te
+moby moga byc zabite komenda KILL KLATKA lub KILL KOBOLD. Wszystkie inne
+moby w klatkach, sa nazwane podobnie. Tak samo bedzie na Arenie, moby
+dodatkowo nazywaja sie "arena". Te same zasady odnosza sie do ekwipunku
+znajdowanego w Akademii (nazywa sie "akademia"). Oprocz ich wlasnych nazw
+mozesz takze uzywac WEAR AKADEMIA lub REMOVE AKADEMIA.
+~
+0 3145736 0
+D3
+Komnata Prob dla Wampirow i Demonow.
+~
+~
+0 -1 10327
+S
+#10351
+Polnocna klatka Zlodziejow i Zabojcow.~
+Gdy zdobedziesz juz jakis ekwipunek pokonujac swych wrogow, musisz nauczyc sie
+komend, pomocnych w uzywaniu przedmiotow. Tymi komendami sa: GET, DROP, WEAR,
+WIELD, HOLD, REMOVE, REPAIR, and EXAMINE. Zeby zabrac jakis przedmiot martwemu
+przeciwnikowi napisz GET <przedmiot> CORPSE. Zeby podniesc przedmiot z ziemii
+napisz GET <przedmiot>. Zeby wyrzucic przedmiot z inwentarza napisz DROP
+<przedmiot>. Zeby zalozyc cos, napisz WEAR <przedmiot> lub WEAR ALL. Jesli
+chcesz dobyc bron napisz WIELD <przedmiot>. Jesli w rece trzymasz juz jakas
+bron, nie dobedziesz nowej, musisz najpierw odlozyc pierwsza REMOVE
+<przedmiot>. Twoj ekwipunek moze ulec uszkodzeniu. Zeby sprawdzic w jakim
+stanie jest przedmiot napisz EXAM <przedmiot>. Jesli bedzie trzeba cos naprawic
+musisz znalezc kowala. Gdy bedziesz u kowala, przestan uzywac popsuty przedmiot
+i napisz REPAIR <przedmiot>.
+~
+0 3145736 0
+D2
+Komnata Prob dla Zlodziejow i Zabojcow.
+~
+~
+0 -1 10328
+S
+#10352
+Poludniowa klatka Zlodziejow i Zabojcow.~
+Smrod gnijacych cial uderza w twoje nozdrza. Kawalki kosci i zardzewiale
+czesci zbroji leza rozrzucone po podlodze. Pamietaj, zabij, wez wszystko
+z ciala, potem poswiec cialo bogom. Mozesz wpisac CONFIG +AUTOSAC, wtedy
+automatycznie po smierci moba bedziesz poswiecal jego cialo. Musisz jednak
+uwazac z autosacem, poniewaz mozesz stracic rzeczy, ktore ciagle leza przy
+zabitym wrogu. Nawet jesli masz wlaczona opcje CONFIG +AUTOLOOT, zdarza sie,
+ze masz juz pelny inwentarz, albo nie masz sily aby podniesc wiecej.
+~
+0 3145736 0
+D0
+Komnata Prob dla Zlodziejow i Zabojcow.
+~
+~
+0 -1 10328
+S
+#10353
+Zachodnia klatka Zlodziejow i Zabojcow.~
+Zabij moba przebywajacego w tej klatce, wez ekwipunek z ciala pokonanego,
+nastepnie poswiec cialo bogom [SAC CORPSE]. Gdy poswiecasz ciala bogom,
+zawsze otrzymujesz mala nagrode. Mozesz takze poswiecac niepotrzebne
+przedmioty rzucajac je na ziemie i piszac SAC <nazwa przedmiotu>. Jesli chcesz
+uzyskac wiecej informacji na ten temat, zajzyj do helpa.
+~
+0 3145736 0
+D1
+Komnata Prob dla Zlodziejow i Zabojcow.
+~
+~
+0 -1 10328
+S
+#10354
+Wschodnia klatka Zlodziejow i Zabojcow.~
+Moby w tych klatkach, oprocz wlasnej nazwy, nazywaja sie takze "klatka". Te
+moby moga byc zabite komenda KILL KLATKA lub KILL KOBOLD. Wszystkie inne
+moby w klatkach, sa nazwane podobnie. Tak samo bedzie na Arenie, moby
+dodatkowo nazywaja sie "arena". Te same zasady odnosza sie do ekwipunku
+znajdowanego w Akademii (nazywa sie "akademia"). Oprocz ich wlasnych nazw
+mozesz takze uzywac WEAR AKADEMIA lub REMOVE AKADEMIA.
+~
+0 3145736 0
+D3
+Komnata Prob dla Zlodziejow i Zabojcow.
+~
+~
+0 -1 10328
+S
+#10355
+Pokoj z portalami.~
+Jest to pokoj z portalami, ktore poprowadza cie do sal treningowych, 
+odpowiednich dla twej klasy. Zostaniesz tam wkrotce przeniesiony. To moze
+zajac pare chwil wiec badz cierpliwy. Jesli zdecydujesz, ze nie jestes
+jeszcze gotow. mozesz wrocic spowrotem na poludnie. Zauwazasz na scianie
+duza tablice, masz akurat czas by ja przeczytac.
+~
+0 3146764 0
+D2
+Akademicki Medyk.
+~
+~
+0 -1 10319
+E
+certyfikat.~
+Portal poprowadzi cie do klatek, w ktorych znajduja sie pewne potwory. Po
+zabiciu kazdego z nich, w ich cialach zostaja ubrania, ktore powinienes
+zabrac i zalozyc. Zabierzesz je automatycznie gdyz masz ustawiona opcje
+CONFIG +AUTOLOOT. Gdy w przyszlosci bedziesz juz chcial sam decydowac co
+z ciala chcesz wziasc wpisz CONFIF -AUTOLOOT. By dowiedziec sie wiecej wpisz
+HELP CONFIG.
+~
+> speech_prog p czasowo nie dziala.~
+if class ($r) == Mage
+  mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Magow.
+  mpechoat $r Ladujesz w Halu Magow.
+  mptransfer $r 10323
+  mpat $r mpforce $r bounce
+endif
+if class ($r) == Cleric
+  mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Klerykow.
+  mpechoat $r Ladujesz w Halu Klerykow.
+  mptransfer $r 10324
+  mpat $r mpforce $r bounce
+endif
+if class ($r) == Angel
+  mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Aniolow.
+  mpechoat $r Ladujesz w Halu Aniolow.
+  mptransfer $r 10324
+  mpat $r mpforce $r bounce
+endif
+if class ($r) == Warrior
+  mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Wojownikow.
+  mpechoat $r Ladujesz w Halu Wojownikow.
+  mptransfer $r 10318
+  mpat $r mpforce $r bounce
+endif
+if class ($r) == Vampire
+  mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Wampirow.
+  mpechoat $r Ladujesz w Halu Wampirow.
+  mptransfer $r 10321
+  mpat $r mpforce $r bounce
+endif
+if class ($r) == Demon
+  mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Demonow.
+  mpechoat $r Ladujesz w Halu Demonow.
+  mptransfer $r 10321
+  mpat $r mpforce $r bounce
+endif
+if class ($r) == Druid
+  mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Druidow.
+  mpechoat $r Ladujesz w Halu Druidow.
+  mptransfer $r 10320
+  mpat $r mpforce $r bounce
+endif
+if class ($r) == Ranger
+  mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Rangerow.
+  mpechoat $r Ladujesz w Halu Rangerow.
+  mptransfer $r 10391
+  mpat $r mpforce $r bounce
+endif
+if class ($r) == Thief
+  mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Zlodziejow.
+  mpechoat $r Ladujesz w Halu Zlodziejow.
+  mptransfer $r 10322
+  mpat $r mpforce $r bounce
+endif
+if class ($r) == Assassin
+  mpechoat $r Ziemia rozwarla sie pod toba!  Wpadasz do portalu dla Zabojcow.
+  mpechoat $r Ladujesz w Halu Zabojcow.
+  mptransfer $r 10322
+  mpat $r mpforce $r bounce
+endif
+~
+|
+S
+#10356
+Kamienny korytarz.~
+To jest ta czesc twojej wedrowki gdy mozesz poczuc glod lub moze ci wyschnac
+gardlo. Innymi slowy aby zyc musisz jesc i pic. Na wschodzie znajduje sie maly
+sklepik gdzie mozesz kupic wode i mieso. Gdy juz sobie pojesz i ugasisz
+pragnienie, mozesz kontynuowac swa podroz na polnoc.
+~
+0 3145736 0
+D0
+Kamienny korytarz.
+~
+~
+0 -1 10358
+D1
+Sklep Akademii Darkhaven.
+~
+~
+0 -1 10357
+S
+#10357
+Sklep Akademii Darkhaven.~
+Jest to zwykly sklep. Wpisz LIST by dowiedziec sie co mozna tu kupic, a
+nastepnie BUY <nazwa produktu> by cos kupic. Spotkasz jeszcze wiele innych
+sklepow i sklepikarzy, lecz procedura postepowania bedzie zawsze taka sama.
+Rozne postacie moga sprzedawac ci rozne przedmioty takie jak klucze, ubrania,
+informacje w zamian za zlote monety. Zawsze czytaj opis postaci [l <postac>]
+gdyz jej opis moze zawierac informacje o tym czy moze ci ona cos zaoferowac.
+~
+0 3146760 0
+D3
+Kamienny korytarz.
+~
+~
+0 -1 10356
+S
+#10358
+Kamienny korytarz.~
+Tutaj nauczys sie o Smiertelnych Pulapkach, w skrocie nazywanych DT. DT jest
+to nazwa pomieszczenia, po wejsciu do ktorego czeka cie smierc. Nie tracisz
+przy tej smierci hitpointow ale twoje cialo zostaje zniszczone. Ty zostajesz
+przeniesiony do swiatyni. Idz na zachod by dowiedziec sie wiecej o smiertelnych
+pulapkach.
+~
+0 3145736 0
+D0
+Kamienny korytarz.
+~
+~
+0 -1 10360
+D2
+Kamienny korytarz.
+~
+~
+0 -1 10356
+D3
+SMIERTELNA PULAPKA. Tylko ta jedna cie nie zabije.
+~
+~
+0 -1 10359
+S
+#10359
+Powolna Smierc.~
+To jest jedyny raz gdy Smiertelna Pulapka cie nie zabije. Normalnie zginiesz
+i cale twoje wyposarzenie zostanie przez nia zniszczone. Zawsze uzywaj LOOK
+oraz EXIT by upewnic sie czy nie ma w poblizu ciebie DT.
+UWAGA: W Darkhaven nie ma zadnej DT.
+~
+0 3145736 0
+D1
+Kamienny korytarz.
+~
+~
+0 -1 10358
+S
+#10360
+Kamienny korytarz.~
+Czeka cie juz tylko jeden, koncowy test. Potem mozesz wkroczyc na arene by
+cwiczyc twoje umiejetnosci walki. Na zachodzie znajduje sie straszna kreatura,
+ktora pilnuje Przylbicy Ukonczenia Akademii. Zabij ja i zdobadz przylbice.
+~
+0 3145736 0
+D2
+Kamienny korytarz.
+~
+~
+0 -1 10358
+D3
+Koncowy test.
+~
+~
+0 -1 10361
+S
+#10361
+Finalowy test.~
+Gdzies nad glowa rozbrzmiewaja dzwieki uderzen mieczy i krzyki umierajacych.
+W pomieszczeniu czuc smiercia. Sciany porasta pieknego koloru... grzyb. Wyglada
+jakby byl stalym elementem sciany. Z sufitu przeswituje od czasu do czasu
+promyk swiatla.
+~
+0 3145736 0
+D1
+Kamienny korytarz.
+~
+~
+0 -1 10360
+D4
+Drzwi wiodace na Arene.
+~
+drzwi~
+3 -1 10362
+> act_prog P ze wschodu.~
+if mobinroom(10344) < 1
+mpmload 10344
+endif
+~
+> rand_prog 50~
+if mobinroom(10344) < 1
+mpmload 10344
+endif
+~
+|
+S
+#10362
+W polowie wschodniej sciany.~
+Tu znajduje sie wejscie na Arene. Pod spodem leza nizsze poziomy Akademii.
+Arena zapewni ci podstawowe wyszkolenie twoich umiejetnosci bitewnych
+i pozwoli na dalszy rozwoj. Zabijaj wszystko na co sie tutaj natkniesz.
+Jesli chcesz opuscic to miejsce, idz w gore do Lorda Torica.
+~
+0 3145740 0
+D0
+~
+~
+0 -1 10363
+D2
+~
+~
+0 -1 10365
+D3
+~
+~
+0 -1 10369
+D4
+~
+~
+16777216 -1 10319
+D5
+Drzwi wiodace na nizszy poziom Akademii.
+~
+drzwi~
+3 -1 10361
+S
+#10363
+Wzdluz wschodniej sciany.~
+Slyszysz echo wycia jakies nienaturalnej bestii, potegowane przez dobra
+akustyke Areny. Ziemia pokryta jest zaschla krwia, patrzac uwazniej dostrzegasz
+slady jakiejs poczwary... ale jakiej?
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10364
+D2
+~
+~
+0 -1 10362
+D3
+~
+~
+0 -1 10370
+D4
+~
+~
+16777216 -1 10319
+S
+#10364
+Polnocno-wschodni rog Areny.~
+To miejsce pozwoli ci dowoli pocwiczyc twoje umiejetnosci bitewne. Zabijaj
+wszstkie krecace sie tutaj poczwary. Gdy zechcesz opuscic to miejsce idz
+do gory. Tam znajduje sie Toric, Lord Leczenia Akademii w Darkhaven.
+~
+0 3145736 0
+D2
+~
+~
+0 -1 10363
+D3
+~
+~
+0 -1 10371
+D4
+~
+~
+16777216 -1 10319
+S
+#10365
+Wzdluz wschodniej sciany.~
+Slyszysz echo wycia jakies nienaturalnej bestii, potegowane przez dobra
+akustyke Areny. Ziemia pokryta jest zaschla krwia, patrzac uwazniej dostrzegasz
+slady jakiejs poczwary... ale jakiej?
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10362
+D2
+~
+~
+0 -1 10366
+D3
+~
+~
+0 -1 10368
+D4
+~
+~
+16777216 -1 10319
+S
+#10366
+Poludniowo-wschodni rog Areny.~
+To miejsce pozwoli ci dowoli pocwiczyc twoje umiejetnosci bitewne. Zabijaj
+wszstkie krecace sie tutaj poczwary. Gdy zechcesz opuscic to miejsce idz
+do gory. Tam znajduje sie Toric, Lord Leczenia Akademii w Darkhaven.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10365
+D3
+~
+~
+0 -1 10367
+D4
+~
+~
+16777216 -1 10319
+S
+#10367
+Wzdluz poludniowej sciany.~
+Slyszysz echo wycia jakies nienaturalnej bestii, potegowane przez dobra
+akustyke Areny. Ziemia pokryta jest zaschla krwia, patrzac uwazniej dostrzegasz
+slady jakiejs poczwary... ale jakiej?
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10368
+D1
+~
+~
+0 -1 10366
+D3
+~
+~
+0 -1 10376
+D4
+~
+~
+16777216 -1 10319
+S
+#10368
+Arena.~
+To miejsce pozwoli ci dowoli pocwiczyc twoje umiejetnosci bitewne. Zabijaj
+wszstkie krecace sie tutaj poczwary. Gdy zechcesz opuscic to miejsce idz
+do gory. Tam znajduje sie Toric, Lord Leczenia Akademii w Darkhaven.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10369
+D1
+~
+~
+0 -1 10365
+D2
+~
+~
+0 -1 10367
+D3
+~
+~
+0 -1 10375
+D4
+~
+~
+16777216 -1 10319
+S
+#10369
+Gdzies na Arenie.~
+Slyszysz echo wycia jakies nienaturalnej bestii, potegowane przez dobra
+akustyke Areny. Ziemia pokryta jest zaschla krwia, patrzac uwazniej dostrzegasz
+slady jakiejs poczwary... ale jakiej?
+~
+0 3145740 0
+D0
+~
+~
+0 -1 10370
+D1
+~
+~
+0 -1 10362
+D2
+~
+~
+0 -1 10368
+D3
+~
+~
+0 -1 10374
+D4
+~
+~
+16777216 -1 10319
+S
+#10370
+Arena.~
+To miejsce pozwoli ci dowoli pocwiczyc twoje umiejetnosci bitewne. Zabijaj
+wszstkie krecace sie tutaj poczwary. Gdy zechcesz opuscic to miejsce idz
+do gory. Tam znajduje sie Toric, Lord Leczenia Akademii w Darkhaven.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10371
+D1
+~
+~
+0 -1 10363
+D2
+~
+~
+0 -1 10369
+D3
+~
+~
+0 -1 10373
+D4
+~
+~
+16777216 -1 10319
+S
+#10371
+Wzdluz polnocnej sciany.~
+Slyszysz echo wycia jakies nienaturalnej bestii, potegowane przez dobra
+akustyke Areny. Ziemia pokryta jest zaschla krwia, patrzac uwazniej dostrzegasz
+slady jakiejs poczwary... ale jakiej?
+~
+0 3145736 0
+D1
+~
+~
+0 -1 10364
+D2
+~
+~
+0 -1 10370
+D3
+~
+~
+0 -1 10372
+D4
+~
+~
+16777216 -1 10319
+S
+#10372
+W polowie polnocnej sciany.~
+To miejsce pozwoli ci dowoli pocwiczyc twoje umiejetnosci bitewne. Zabijaj
+wszstkie krecace sie tutaj poczwary. Gdy zechcesz opuscic to miejsce idz
+do gory. Tam znajduje sie Toric, Lord Leczenia Akademii w Darkhaven.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 10371
+D2
+~
+~
+0 -1 10373
+D3
+~
+~
+0 -1 10381
+D4
+~
+~
+16777216 -1 10319
+S
+#10373
+Centrum Areny.~
+Slyszysz echo wycia jakies nienaturalnej bestii, potegowane przez dobra
+akustyke Areny. Ziemia pokryta jest zaschla krwia, patrzac uwazniej dostrzegasz
+slady jakiejs poczwary... ale jakiej? Nagle, gdzies z dolu, dobiega cie
+przerazliwy krzyk. Po chwili slyszysz jeszcze jeden odglos - jek konajacego
+czlowieka.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10372
+D1
+~
+~
+0 -1 10370
+D2
+~
+~
+0 -1 10374
+D3
+~
+~
+0 -1 10380
+D4
+~
+~
+16777216 -1 10319
+D5
+Ponizej jest ciemny, blotnisty tunel, prowadzacy gleboko pod ziemie.
+~
+~
+16777216 -1 10406
+S
+#10374
+Centrum Areny.~
+To miejsce pozwoli ci dowoli pocwiczyc twoje umiejetnosci bitewne. Zabijaj
+wszstkie krecace sie tutaj poczwary. Gdy zechcesz opuscic to miejsce idz
+do gory. Tam znajduje sie Toric, Lord Leczenia Akademii w Darkhaven.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10373
+D1
+~
+~
+0 -1 10369
+D2
+~
+~
+0 -1 10375
+D3
+~
+~
+0 -1 10379
+D4
+~
+~
+16777216 -1 10319
+S
+#10375
+Centrum Areny.~
+Slyszysz echo wycia jakies nienaturalnej bestii, potegowane przez dobra
+akustyke Areny. Ziemia pokryta jest zaschla krwia, patrzac uwazniej dostrzegasz
+slady jakiejs poczwary... ale jakiej?
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10374
+D1
+~
+~
+0 -1 10368
+D2
+~
+~
+0 -1 10376
+D3
+~
+~
+0 -1 10378
+D4
+~
+~
+16777216 -1 10319
+S
+#10376
+W polowie poludniowej sciany.~
+To miejsce pozwoli ci dowoli pocwiczyc twoje umiejetnosci bitewne. Zabijaj
+wszstkie krecace sie tutaj poczwary. Gdy zechcesz opuscic to miejsce idz
+do gory. Tam znajduje sie Toric, Lord Leczenia Akademii w Darkhaven.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10375
+D1
+~
+~
+0 -1 10367
+D3
+~
+~
+0 -1 10377
+D4
+~
+~
+16777216 -1 10319
+S
+#10377
+Wzdluz poludniowej sciany.~
+Slyszysz echo wycia jakies nienaturalnej bestii, potegowane przez dobra
+akustyke Areny. Ziemia pokryta jest zaschla krwia, patrzac uwazniej dostrzegasz
+slady jakiejs poczwary... ale jakiej?
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10378
+D1
+~
+~
+0 -1 10376
+D3
+~
+~
+0 -1 10386
+D4
+~
+~
+16777216 -1 10319
+S
+#10378
+Arena.~
+To miejsce pozwoli ci dowoli pocwiczyc twoje umiejetnosci bitewne. Zabijaj
+wszstkie krecace sie tutaj poczwary. Gdy zechcesz opuscic to miejsce idz
+do gory. Tam znajduje sie Toric, Lord Leczenia Akademii w Darkhaven.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10379
+D1
+~
+~
+0 -1 10375
+D2
+~
+~
+0 -1 10377
+D3
+~
+~
+0 -1 10385
+D4
+~
+~
+16777216 -1 10319
+S
+#10379
+Gdzies na Arenie.~
+Slyszysz echo wycia jakies nienaturalnej bestii, potegowane przez dobra
+akustyke Areny. Ziemia pokryta jest zaschla krwia, patrzac uwazniej dostrzegasz
+slady jakiejs poczwary... ale jakiej?
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10380
+D1
+~
+~
+0 -1 10374
+D2
+~
+~
+0 -1 10378
+D3
+~
+~
+0 -1 10384
+D4
+~
+~
+16777216 -1 10319
+S
+#10380
+Arena.~
+To miejsce pozwoli ci dowoli pocwiczyc twoje umiejetnosci bitewne. Zabijaj
+wszstkie krecace sie tutaj poczwary. Gdy zechcesz opuscic to miejsce idz
+do gory. Tam znajduje sie Toric, Lord Leczenia Akademii w Darkhaven.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10381
+D1
+~
+~
+0 -1 10373
+D2
+~
+~
+0 -1 10379
+D3
+~
+~
+0 -1 10383
+D4
+~
+~
+16777216 -1 10319
+S
+#10381
+Wzdluz polnocnej sciany.~
+Slyszysz echo wycia jakies nienaturalnej bestii, potegowane przez dobra
+akustyke Areny. Ziemia pokryta jest zaschla krwia, patrzac uwazniej dostrzegasz
+slady jakiejs poczwary... ale jakiej?
+~
+0 3145736 0
+D1
+~
+~
+0 -1 10372
+D2
+~
+~
+0 -1 10380
+D3
+~
+~
+0 -1 10382
+D4
+~
+~
+16777216 -1 10319
+S
+#10382
+Polnocno-zachodni rog Areny.~
+To miejsce pozwoli ci dowoli pocwiczyc twoje umiejetnosci bitewne. Zabijaj
+wszstkie krecace sie tutaj poczwary. Gdy zechcesz opuscic to miejsce idz
+do gory. Tam znajduje sie Toric, Lord Leczenia Akademii w Darkhaven.
+~
+0 3145740 0
+D0
+~
+Drzwi.~
+16777219 -1 10300
+D1
+~
+~
+0 -1 10381
+D2
+~
+~
+0 -1 10383
+D4
+~
+~
+16777216 -1 10319
+> leave_prog 100~
+if isimmort($n)
+else
+  mpforce $n vis
+endif
+~
+> entry_prog 100~
+if ispc($n)
+if level($n) == 1
+mpechoat $n _whi Nie mozesz, dopoki nie osiagniesz drugiego poziomu!
+mpechoat $n _whi Powinienem cie natychmiast zawrocic do Tsythii!
+mptransfer 0.$n 10300
+mpat 10300 mpforce 0.$n look
+endif
+endif
+~
+|
+S
+#10383
+Wzdluz zachodniej sciany.~
+Slyszysz echo wycia jakies nienaturalnej bestii, potegowane przez dobra
+akustyke Areny. Ziemia pokryta jest zaschla krwia, patrzac uwazniej dostrzegasz
+slady jakiejs poczwary... ale jakiej?
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10382
+D1
+~
+~
+0 -1 10380
+D2
+~
+~
+0 -1 10384
+D4
+~
+~
+16777216 -1 10319
+S
+#10384
+W polowie zachodniej sciany.~
+To miejsce pozwoli ci dowoli pocwiczyc twoje umiejetnosci bitewne. Zabijaj
+wszystkie krecace sie tutaj poczwary. Gdy zechcesz opuscic to miejsce idz
+do gory. Tam znajduje sie Toric, Lord Leczenia Akademii w Darkhaven.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10383
+D1
+~
+~
+0 -1 10379
+D2
+~
+~
+0 -1 10385
+D4
+~
+~
+16777216 -1 10319
+S
+#10385
+Wzdluz zachodniej sciany.~
+Slyszysz echo wycia jakies nienaturalnej bestii, potegowane przez dobra
+akustyke Areny. Ziemia pokryta jest zaschla krwia, patrzac uwazniej dostrzegasz
+slady jakiejs poczwary... ale jakiej?
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10384
+D1
+~
+~
+0 -1 10378
+D2
+~
+~
+0 -1 10386
+D4
+~
+~
+16777216 -1 10319
+S
+#10386
+Poludniowo-zachodni rog Areny.~
+To miejsce pozwoli ci dowoli pocwiczyc twoje umiejetnosci bitewne. Zabijaj
+wszstkie krecace sie tutaj poczwary. Gdy zechcesz opuscic to miejsce idz
+do gory. Tam znajduje sie Toric, Lord Leczenia Akademii w Darkhaven. Widzisz
+dziwne swiecace symbole wyryte w podlodze. Wygladaja jak RUNY.
+~
+0 3145736 0
+D0
+Zachodnia sciana.
+~
+~
+0 -1 10385
+D1
+Wschodnia sciana.
+~
+~
+0 -1 10377
+D4
+Swiatynia Darkhaven.
+~
+~
+16777216 -1 10319
+D5
+~
+~
+3 -1 10392
+E
+Runy.~
+Zejscie w dol prowadzi do miejsca opanowanego przez Nagi. Uwazaj gdyz sa one
+agresywne. Wchodzisz na wlasna odpowiedzialnosc!
+~
+S
+#10387
+Poludniowa klatka Rangerow.~
+Smrod gnijacych cial uderza w twoje nozdrza. Kawalki kosci i zardzewiale
+czesci zbroji leza rozrzucone po podlodze. Pamietaj: zabij, wez wszystko
+z ciala, potem poswiec cialo bogom. Mozesz wpisac CONFIG +AUTOSAC, wtedy
+automatycznie po smierci moba bedziesz poswiecal jego cialo. Musisz jednak
+uwazac z autosacem, poniewaz mozesz stracic rzeczy, ktore ciagle leza przy
+zabitym wrogu. Nawet jesli masz wlaczona opcje CONFIG +AUTOLOOT, zdarza sie,
+ze masz juz pelny inwentarz, albo nie masz sily aby podniesc wiecej.
+~
+0 3145736 0
+D0
+Komnata Prob dla Rangerow.
+~
+~
+0 -1 10305
+S
+#10388
+Wschodnia klatka Rangerow.~
+Moby w tych klatkach, oprocz wlasnej nazwy, nazywaja sie takze "klatka". Te
+moby moga byc zabite komenda KILL KLATKA lub KILL KOBOLD. Wszystkie inne
+moby w klatkach, sa nazwane podobnie. Tak samo bedzie na Arenie, moby
+dodatkowo nazywaja sie "arena". Te same zasady odnosza sie do ekwipunku
+znajdowanego w Akademii (nazywa sie "akademia"). Oprocz ich wlasnych nazw
+mozesz takze uzywac WEAR AKADEMIA lub REMOVE AKADEMIA.
+~
+0 3145736 0
+D3
+Komnata Prob dla Rangerow.
+~
+~
+0 -1 10305
+S
+#10389
+Polnocna klatka Rangerow.~
+Gdy zdobedziesz juz jakis ekwipunek pokonujac swych wrogow, musisz nauczyc sie
+komend, pomocnych w uzywaniu przedmiotow. Tymi komendami sa: GET, DROP, WEAR,
+WIELD, HOLD, REMOVE, REPAIR, and EXAMINE. Zeby zabrac jakis przedmiot martwemu
+przeciwnikowi napisz GET <przedmiot> CORPSE. Zeby podniesc przedmiot z ziemii
+napisz GET <przedmiot>. Zeby wyrzucic przedmiot z inwentarza napisz DROP
+<przedmiot>. Zeby zalozyc cos, napisz WEAR <przedmiot> lub WEAR ALL. Jesli
+chcesz dobyc bron napisz WIELD <przedmiot>. Jesli w rece trzymasz juz jakas
+bron, nie dobedziesz nowej, musisz najpierw odlozyc pierwsza REMOVE
+<przedmiot>. Twoj ekwipunek moze ulec uszkodzeniu. Zeby sprawdzic w jakim
+stanie jest przedmiot napisz EXAM <przedmiot>. Jesli bedzie trzeba cos naprawic
+musisz znalezc kowala. Gdy bedziesz u kowala, przestan uzywac popsuty przedmiot
+i napisz REPAIR <przedmiot>.
+~
+0 3145736 0
+D2
+Komnata Prob dla Rangerow.
+~
+~
+0 -1 10305
+S
+#10390
+Zachodnia klatka Rangerow.~
+Zabij moba przebywajacego w tej klatce, wez ekwipunek z ciala pokonanego,
+nastepnie poswiec cialo bogom [SAC CORPSE]. Gdy poswiecasz ciala bogom,
+zawsze otrzymujesz mala nagrode. Mozesz takze poswiecac niepotrzebne
+przedmioty rzucajac je na ziemie i piszac SAC <nazwa przedmiotu>. Jesli chcesz
+uzyskac wiecej informacji na ten temat, zajzyj do helpa.
+~
+0 3145736 0
+D1
+Komnata Prob dla Rangerow.
+~
+~
+0 -1 10305
+S
+#10391
+Hala Rangerow.~
+Wolnosc dzikiej przyrody zawsze cie fascynowwala. Byc wolnym na ziemii,
+niezaleznym od miast i cywilizacji. Te mysli przelatuja ci przez glowe, gdy
+przechodzisz przez te hale.
+~
+0 3146764 0
+D5
+Komnata Proba dla Rangerow.
+~
+~
+0 -1 10305
+S
+#10392
+W wilgotnej jaskini.~
+Znajdujesz sie w podziemnej jaskini, sciany i sufit w calosci porasta mech.
+Ciagle kapanie wody, zwielokrotnione przez echo, dobiega gdzies z oddali.
+~
+0 3145741 0
+D3
+~
+~
+0 -1 10393
+D4
+~
+~
+3 -1 10386
+> entry_prog 100~
+if level($n) < 4
+mpechoat $n Te ciemne jaskinie pelne sa agresywnych mobow! Chyba musisz
+mpechoat $n wrocic na Arene i nabrac wiecej doswiadczenia.
+else
+if level($n) > 7
+mpechoat $n Te ciemne jaskinie przznaczone sa dla lowcow przygod mniej
+mpechoat $n doswiadczonych niz ty. Chyba musisz poszukac czegos innego.
+else
+endif
+endif
+~
+|
+S
+#10393
+W jaskini.~
+Gdzies z ciemnosci dobiega ciche syczenie. Powietrze w tej jaskini jest
+niezwykle wilgotne, tak ze masz powazne klopoty ze zlapaniem glebszego
+oddechu.
+~
+0 3145737 0
+D1
+~
+~
+0 -1 10392
+D2
+~
+~
+0 -1 10394
+S
+#10394
+W jaskini.~
+Czujesz sie jakby ktos wrzucil cie w glebokie bloto. Ciagla wilgoc panujaca
+w tej jaskini spowodowala, ze podloga zamienila sie w niewielkie bagno.
+~
+0 3145737 0
+D0
+~
+~
+0 -1 10393
+D1
+~
+~
+0 -1 10395
+D3
+~
+~
+0 -1 10396
+S
+#10395
+Glebiej w jaskini.~
+Gdzies z ciemnosci dobiega ciche syczenie. Powietrze w tej jaskini jest
+niezwykle wilgotne, tak ze masz powazne klopoty ze zlapaniem glebszego
+oddechu.
+~
+0 3145737 0
+D2
+~
+~
+0 -1 10397
+D3
+~
+~
+0 -1 10394
+S
+#10396
+W jaskini.~
+Czujesz sie jakby ktos wrzucil cie w glebokie bloto. Ciagla wilgoc panujaca
+w tej jaskini, spowodowala, ze podloga zamienila sie w niewielkie bagno.
+~
+0 3145737 0
+D1
+~
+~
+0 -1 10394
+S
+#10397
+Schronienie Krolowej.~
+Udalo dostac ci sie do komnaty, w ktorej schronila sie Krolowa Nag. Cale
+pomieszczenie wypelnione jest zmasakrowanymi cialami lowcow przygod, ktorzy
+ostatnio zagineli w tej czesci podziemi.
+~
+0 3145737 0
+D0
+~
+~
+0 -1 10395
+S
+#10398
+DELETE THIS ROOM.~
+This room is for questions and problems you may find as a new player.
+All level of players are welcome to post questions/suggestions here.
+If you are between level 1 and level 10, you may receive a piece of
+note paper and a quill to write with by typing:    NOD
+
+If you are above level 10 and wish to post here, you can buy note paper
+in Darkhaven. Please type HELP NOTE to learn how to write a note. There
+is no use of profanity on this or any note board.
+
+**--**     Any note posted here may be removed at any time.     **--**
+~
+0 3211276 0
+D3
+Wejscie do Akademii Darkhaven.
+~
+~
+0 -1 10300
+> leave_prog 100~
+if isimmort($n)
+else
+  mpforce $n vis
+endif
+~
+> act_prog p klania sie uroczyscie.~
+if isnpc($n)
+else
+if level($n) > 10
+mpechoat $n Masz zbyt wysoki poziom, aby otrzymywac tutaj zaopatrzenie.
+else
+mpechoat $n Hej! Pozwol mi uzupelnic twoje zaopatrzenie!
+mpoload 36 1
+mpoload 37 1
+give note $n
+give quill $n
+mpforce $n hold note
+mpechoat $n Trzymaj, teraz napisz 'NOTE WRITE' aby sie dostac do edytora ogloszen.
+endif
+endif
+~
+> entry_prog 100~
+if ispc($n)
+if level($n) == 1
+mpforce $n config -brief
+endif
+endif
+~
+|
+S
+#10399
+Blyszczaca Sala.~
+Sala jest wypelniona runami starzniczymi i moca kul unoszacych sie
+przed tronem Skarabeusza. Tron jest wykonany z kosci jego smiertelnej
+istoty, zanim przeszedl do krolestwa niesmiertelnosci. Rozgladajac sie
+odkrywasz za tronem telewizor i magnetowid, uzywane kiedy Krolestwa nie
+sa potrzebne Panu Czarnej Magii.
+~
+0 2097164 0
+> act_prog p oczyszczenie~
+mppurge
+mpecho Pokoj jest oczyszczony!
+~
+|
+S
+#10400
+Hala Augurerow.~
+Te komnate wypelnia aura blogiego spokoju. Sciany pomalowane sa lagodnymi
+kolorami. To wlasnie tu Augurerzy przychodza medytowac i przemyslec swoje
+uczynki. Pod jedna ze scian stoja proste stolki, ktore pozwalaja odpoczac
+zdrozonemu lowcy przygod.
+~
+0 3146764 0
+D5
+Komnata Prob dla Augurerow.
+~
+~
+0 -1 10401
+E
+stolki.~
+Kilka stolkow stoi pod sciana. Wygladaja na wygodne.
+~
+E
+sciany.~
+Sciany pomalowane sa w spokojne kolory.
+~
+S
+#10401
+Komnata Prob dla Augurerow.~
+Tutaj wlasnie stoczysz swoja pierwsza prawdziwa walke z MOBAMI. Mobami
+nazywa sie wszystkie stwory wystepujace w grze. Wszystkie wyjscia, z
+wyjatkiem zejscia w dol, prowadza do klatek z mobami. Niektore z tych
+stworow moga byc agresywne i zaatakuja cie po wejsciu do ich lokacji.
+Gdy je zabijesz otrzymasz punkty doswiadczenia, jak rowniez ekwipunek
+i zloto. Gdy juz pokonasz moba napisz GET ALL CORPSE aby zabrac z ciala
+pokonanego ekwipunek i zloto. Mozesz takze wpisac CONFIG +AUTOLOOT albo
+CONFIG +AUTOGOLD. Autoloot spowoduje ze zaraz po zabiciu moba wezmiesz
+wszystko z jego ciala. Autogold spowoduje wziecie samego zlota. Wszystkie
+zabrane przedmioty pojawiaja sie w twojej kieszeni (INVENTORY). Podczas
+walki mozesz doznac pewnych obrazen, gdyby tak sie stalo wroc tutaj i
+napisz REST albo SLEEP. To przyspieszy proces powrotu do zdrowia. Gdy
+juz wyzdrowiejesz napisz WAKE lub STAND aby kontynuowac przygode.
+~
+0 3146764 0
+D0
+Klatka.
+~
+~
+0 -1 10402
+D1
+Klatka.
+~
+~
+0 -1 10403
+D2
+Klatka.
+~
+~
+0 -1 10404
+D3
+Klatka.
+~
+~
+0 -1 10405
+D5
+Kamienny korytarz.
+~
+~
+0 -1 10356
+S
+#10402
+Polnocna klatka Augurerow.~
+Gdy zdobedziesz juz jakis ekwipunek pokonujac swych wrogow, musisz nauczyc sie
+komend, pomocnych w uzywaniu przedmiotow. Tymi komendami sa: GET, DROP, WEAR,
+WIELD, HOLD, REMOVE, REPAIR, and EXAMINE. Zeby zabrac jakis przedmiot martwemu
+przeciwnikowi napisz GET <przedmiot> CORPSE. Zeby podniesc przedmiot z ziemii
+napisz GET <przedmiot>. Zeby wyrzucic przedmiot z inwentarza napisz DROP
+<przedmiot>. Zeby zalozyc cos, napisz WEAR <przedmiot> lub WEAR ALL. Jesli
+chcesz dobyc bron napisz WIELD <przedmiot>. Jesli w rece trzymasz juz jakas
+bron, nie dobedziesz nowej, musisz najpierw odlozyc pierwsza REMOVE
+<przedmiot>. Twoj ekwipunek moze ulec uszkodzeniu. Zeby sprawdzic w jakim
+stanie jest przedmiot napisz EXAM <przedmiot>. Jesli bedzie trzeba cos naprawic
+musisz znalezc kowala. Gdy bedziesz u kowala, przestan uzywac popsuty przedmiot
+i napisz REPAIR <przedmiot>.
+~
+0 3145740 0
+D2
+Komnata Prob dla Augurerow.
+~
+~
+0 -1 10401
+S
+#10403
+Wschodnia klatka Augurerow.~
+Zabij moba przebywajacego w tej klatce, wez ekwipunek z ciala pokonanego,
+nastepnie poswiec cialo bogom [SAC CORPSE]. Gdy poswiecasz ciala bogom,
+zawsze otrzymujesz mala nagrode. Mozesz takze poswiecac niepotrzebne
+przedmioty rzucajac je na ziemie i piszac SAC <nazwa przedmiotu>. Jesli chcesz
+uzyskac wiecej informacji na ten temat, zajzyj do helpa.
+~
+0 3145740 0
+D3
+Komnata Prob dla Augurerow.
+~
+~
+0 -1 10401
+S
+#10404
+Poludniowa klatka Augurerow.~
+Smrod gnijacych cial uderza w twoje nozdrza. Kawalki kosci i zardzewiale
+czesci zbroji leza rozrzucone po podlodze. Pamietaj, zabij, wez wszystko
+z ciala, potem poswiec cialo bogom. Mozesz wpisac CONFIG +AUTOSAC, wtedy
+automatycznie po smierci moba bedziesz poswiecal jego cialo. Musisz jednak
+uwazac z autosacem, poniewaz mozesz stracic rzeczy, ktore ciagle leza przy
+zabitym wrogu. Nawet jesli masz wlaczona opcje CONFIG +AUTOLOOT, zdarza sie,
+ze masz juz pelny inwentarz, albo nie masz sily aby podniesc wiecej.
+~
+0 3145740 0
+D0
+Komnata Prob dla Augurerow.
+~
+~
+0 -1 10401
+S
+#10405
+Zachodnia klatka Augurerow.~
+Moby w tych klatkach, oprocz wlasnej nazwy, nazywaja sie takze "klatka". Te
+moby moga byc zabite komenda KILL KLATKA lub KILL KOBOLD. Wszystkie inne
+moby w klatkach, sa nazwane podobnie. Tak samo bedzie na Arenie, moby
+dodatkowo nazywaja sie "arena". Te same zasady odnosza sie do ekwipunku
+znajdowanego w Akademii (nazywa sie "akademia"). Oprocz ich wlasnych nazw
+mozesz takze uzywac WEAR AKADEMIA lub REMOVE AKADEMIA.
+~
+0 3145740 0
+D1
+Komnata Prob dla Augurerow.
+~
+~
+0 -1 10401
+S
+#10406
+Ciemny tunel pod Arena.~
+W tym miejscu nie jest juz tak bezpiecznie jak na Arenie. Zapach smierci,
+wilgoc i niezwykle wysoka temperatura, torturuja twoje pluca. Sciany tego
+tunelu pokrywa dziwna, lepka substancja. Grunt lekko ugina sie pod twoimi
+stopami. Wykuty w skale tunel rozdwaja sie w kierunku poludniowo-wschodnim
+i poludniowo-zachodnim.
+~
+0 3145737 13
+D4
+Powyzej znajduje sie Arena.
+~
+~
+16777216 -1 10373
+D8
+Ciemny tunel.
+~
+~
+0 -1 10407
+D9
+Ciemny tunel.
+~
+~
+0 -1 10427
+S
+#10407
+Ciemny tunel pod Arena.~
+Tunel robi sie coraz wezszy, z ledwoscia udaje ci sie posuwac naprzod.
+Ziemia tutaj jest bardzo wilgotna i klei ci sie do butow. Nagle z poludnia
+dobiega przerazliwy pisk. Powrot na bezpieczna Arene to chyba nie najgorszy
+pomysl.
+~
+0 3145737 13
+D2
+~
+~
+0 -1 10408
+D7
+~
+~
+0 -1 10406
+S
+#10408
+Ciemny tunel pod Arena.~
+W tym tunelu panuje gleboka ciemnosc. Bez dobrego zrodla swiatla nie sposob
+sie dalej poruszac. Woda scieka powolutku waskimi strumyczkami po scianach
+tunelu. To miejsce nie wyglada zbyt zachwycajaco.
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10407
+D1
+~
+~
+0 -1 10409
+S
+#10409
+Ciemny tunel pod Arena.~
+Tunel robi sie coraz wezszy, z ledwoscia udaje ci sie posuwac naprzod.
+Ziemia tutaj jest bardzo wilgotna i klei ci sie do butow. Nagle z poludnia
+dobiega przerazliwy pisk. Powrot na bezpieczna Arene to chyba nie najgorszy
+pomysl.
+~
+0 3145737 13
+D2
+~
+~
+0 -1 10410
+D3
+~
+~
+0 -1 10408
+S
+#10410
+Ciemny tunel pod Arena.~
+W tym tunelu panuje gleboka ciemnosc. Bez dobrego zrodla swiatla nie sposob
+sie dalej poruszac. Woda scieka powolutku waskimi strumyczkami po scianach
+tunelu. To miejsce nie wyglada zbyt zachwycajaco.
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10409
+D2
+~
+~
+0 -1 10411
+S
+#10411
+Ciemny tunel pod Arena.~
+Udalo ci sie dotrzec do konca tunelu i teraz wpatrujesz sie w rozlegla jaskinie
+na zachodzie. Dociera do ciebie echo dochodzace ze wszystkich stron. To miejsce
+sprawia, ze robi ci sie niedobrze.
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10410
+D2
+~
+~
+0 -1 10412
+D3
+~
+~
+0 -1 10420
+D9
+~
+~
+0 -1 10416
+S
+#10412
+Ciemny tunel pod Arena.~
+Tunel nagle sie konczy, ale z tego miejsca widac kilka wyjsc wiodacych do
+wielkiej jaskini. Dochodzi z tamtad wiele dziwnych dzwiekow, ale zaden z nich
+nie jest mily dla ucha.
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10411
+D3
+~
+~
+0 -1 10416
+D7
+~
+~
+0 -1 10420
+D9
+~
+~
+0 -1 10413
+S
+#10413
+Wielka jaskinia gleboko pod ziemia.~
+Dudniace echo ogarnia cie ze wszystkich stron. Glosne stukanie, dzwiek podobny
+do setek mlotow walacych w kamienna sciane, tlumi wszystkie inne doznania.
+Co rusz slyszysz przerazliwe smiertelne okrzyki. Masz naprawde wielka ochote
+odejsc z tego miejsca jak najszybciej i jak najciszej.
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10416
+D3
+~
+~
+0 -1 10414
+D6
+~
+~
+0 -1 10412
+D7
+~
+~
+0 -1 10417
+S
+#10414
+Wielka jaskinia gleboko pod ziemia.~
+Wszystkie dzwieki zdaja sie potegowac w tym miejscu, mieszajac sie w jeden,
+nieznosny szum. Po poludniowej scianie jaskini nieustannie splywaja strugi
+wody, tworzac wielka kaluze u twych stop. Masz ochote opuscic juz to miejsce
+i udac sie gdzies indziej.
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10417
+D1
+~
+~
+0 -1 10413
+D3
+~
+~
+0 -1 10415
+D6
+~
+~
+0 -1 10416
+D7
+~
+~
+0 -1 10418
+S
+#10415
+Wielka jaskinia gleboko pod ziemia.~
+Dudniace echo ogarnia cie ze wszystkich stron. Glosne stukanie, dzwiek podobny
+do setek mlotow walacych w kamienna sciane, tlumi wszystkie inne doznania.
+Co rusz slyszysz przerazliwe smiertelne okrzyki. Masz naprawde wielka ochote
+odejsc z tego miejsca jak najszybciej i jak najciszej.
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10418
+D1
+~
+~
+0 -1 10414
+D6
+~
+~
+0 -1 10417
+D7
+~
+~
+0 -1 10419
+S
+#10416
+Wielka jaskinia gleboko pod ziemia.~
+Zapadasz sie na kilka cali w bloto, ktore stanowi podloze tej jaskini. Ciemnosc
+i nieustajaca kakofonia dzwiekow przytlaczaja cie ze wszystkich stron. Jesli
+w tym miejscu istnieje jakies zycie, to lepiej omijac je z daleka.
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10420
+D1
+~
+~
+0 -1 10412
+D2
+~
+~
+0 -1 10413
+D3
+~
+~
+0 -1 10417
+D6
+~
+~
+0 -1 10411
+D7
+~
+~
+0 -1 10421
+D9
+~
+~
+0 -1 10414
+S
+#10417
+Wielka jaskinia gleboko pod ziemia.~
+Gdy tak wedrujesz przez te wilgotna ciemnosc, do twych nozdrzy docieraja
+zapachy zgnilizny i rozkladu unoszace sie w nieruchomym powietrzu. Odglosy
+zacieklej walki, potegowane przez wszechobecne echo, docieraja do ciebie
+poprzez ciemnosc. Masz nieodparte wrazenie, ze lada chwila natkniesz sie na
+walczacych o zycie smialkow. Gdy wedrujesz dalej poprzez ciemnosc, twoje
+zmysly wrzeszcza do ciebie, ze trzeba uciekac stad, poki jeszcze mozna...
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10421
+D1
+~
+~
+0 -1 10416
+D2
+~
+~
+0 -1 10414
+D3
+~
+~
+0 -1 10418
+D6
+~
+~
+0 -1 10420
+D7
+~
+~
+0 -1 10422
+D8
+~
+~
+0 -1 10413
+D9
+~
+~
+0 -1 10415
+S
+#10418
+Wielka jaskinia gleboko pod ziemia.~
+To puste i pozbawione swiatla miejsce nie przypadlo ci do gustu. Dzwieki
+kapiacej wody i smiertelne okrzyki wydawane w agonii, przytlaczaja cie swoja
+intensywnoscia. Cokolwiek mieszka w tym strasznym miejscu, nie wita podroznych
+z otwartymi rekoma.
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10422
+D1
+~
+~
+0 -1 10417
+D2
+~
+~
+0 -1 10415
+D3
+~
+~
+0 -1 10419
+D6
+~
+~
+0 -1 10421
+D7
+~
+~
+0 -1 10423
+D8
+~
+~
+0 -1 10414
+S
+#10419
+Ciemny tunel pod Arena.~
+Tunel nagle sie konczy, ale z tego miejsca widac kilka wyjsc wiodacych do
+wielkiej jaskini. Dochodzi z tamtad wiele dziwnych dzwiekow, ale zaden z nich
+nie jest mily dla ucha.
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10423
+D1
+~
+~
+0 -1 10418
+D6
+~
+~
+0 -1 10422
+D8
+~
+~
+0 -1 10415
+S
+#10420
+Wielka jaskinia gleboko pod ziemia.~
+To puste i pozbawione swiatla miejsce nie przypadlo ci do gustu. Dzwieki
+kapiacej wody i smiertelne okrzyki wydawane w agonii, przytlaczaja cie swoja
+intensywnoscia. Cokolwiek mieszka w tym strasznym miejscu, nie wita podroznych
+z otwartymi rekoma.
+~
+0 3145737 13
+D1
+~
+~
+0 -1 10411
+D2
+~
+~
+0 -1 10416
+D3
+~
+~
+0 -1 10421
+D8
+~
+~
+0 -1 10412
+D9
+~
+~
+0 -1 10417
+S
+#10421
+Wielka jaskinia gleboko pod ziemia.~
+Na polnocy jest popekana sciana jaskini, pokryta sliska i kleista substancja
+nieznanego pochodzenia. Ze wszystkich stron docieraja do ciebie odglosy bolu,
+cierpienia i smierci. Niezwykla wilgotnosc panujaca w tym miejscu sprawia,
+ze ubranie klei ci sie do skory i jest ci bardzo goraco.
+~
+0 3145737 13
+D1
+~
+~
+0 -1 10420
+D2
+~
+~
+0 -1 10417
+D3
+~
+~
+0 -1 10422
+D8
+~
+~
+0 -1 10416
+D9
+~
+~
+0 -1 10418
+S
+#10422
+Wielka jaskinia gleboko pod ziemia.~
+Zapadasz sie na kilka cali w bloto, ktore stanowi podloze tej jaskini. Ciemnosc
+i nieustajaca kakafonia dzwiekow przytlaczaja cie ze wszystkich stron. Jesli
+w tym miejscu istnieje jakies zycie, to lepiej omijac je z daleka.
+~
+0 3145737 13
+D1
+~
+~
+0 -1 10421
+D2
+~
+~
+0 -1 10418
+D3
+~
+~
+0 -1 10423
+D8
+~
+~
+0 -1 10417
+D9
+~
+~
+0 -1 10419
+S
+#10423
+Ciemny tunel pod Arena.~
+Udalo ci sie dotrzec do konca tunelu i teraz wpatrujesz sie w rozlegla jaskinie
+na zachodzie. Dociera do ciebie echo dochodzace ze wszystkich stron. To miejsce
+sprawia, ze robi ci sie niedobrze.
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10424
+D1
+~
+~
+0 -1 10422
+D2
+~
+~
+0 -1 10419
+D8
+~
+~
+0 -1 10418
+S
+#10424
+Ciemny tunel pod Arena.~
+W tym tunelu panuje gleboka ciemnosc. Bez dobrego zrodla swiatla nie sposob
+sie dalej poruszac. Woda scieka powolutku waskimi strumyczkami po scianach
+tunelu. To miejsce nie wyglada zbyt zachwycajaco.
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10425
+D2
+~
+~
+0 -1 10423
+S
+#10425
+Ciemny tunel pod Arena.~
+Tunel robi sie coraz wezszy, z ledwoscia udaje ci sie posuwac naprzod.
+Ziemia tutaj jest bardzo wilgotna i klei ci sie do butow. Nagle z poludnia
+dobiega przerazliwy pisk. Powrot na bezpieczna Arene to chyba nie najgorszy
+pomysl.
+~
+0 3145737 13
+D1
+~
+~
+0 -1 10426
+D2
+~
+~
+0 -1 10424
+S
+#10426
+Ciemny tunel pod Arena.~
+W tym tunelu panuje gleboka ciemnosc. Bez dobrego zrodla swiatla nie sposob
+sie dalej poruszac. Woda scieka powolutku waskimi strumyczkami po scianach
+tunelu. To miejsce nie wyglada zbyt zachwycajaco.
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10427
+D3
+~
+~
+0 -1 10425
+S
+#10427
+Ciemny tunel pod Arena.~
+Tunel robi sie coraz wezszy, z ledwoscia udaje ci sie posuwac naprzod.
+Ziemia tutaj jest bardzo wilgotna i klei ci sie do butow. Nagle z poludnia
+dobiega przerazliwy pisk. Powrot na bezpieczna Arene to chyba nie najgorszy
+pomysl.
+~
+0 3145737 0
+D2
+~
+~
+0 -1 10426
+D6
+~
+~
+0 -1 10406
+S
+#10429
+Obecnie nie uzyte.~
+~
+0 1075838980 1
+S
+#10440
+Polnocna klatka Paladynow.~
+Gdy zdobedziesz juz jakis ekwipunek pokonujac swych wrogow, musisz nauczyc sie
+komend, pomocnych w uzywaniu przedmiotow. Tymi komendami sa: GET, DROP, WEAR,
+WIELD, HOLD, REMOVE, REPAIR, and EXAMINE. Zeby zabrac jakis przedmiot martwemu
+przeciwnikowi napisz GET <przedmiot> CORPSE. Zeby podniesc przedmiot z ziemii
+napisz GET <przedmiot>. Zeby wyrzucic przedmiot z inwentarza napisz DROP
+<przedmiot>. Zeby zalozyc cos, napisz WEAR <przedmiot> lub WEAR ALL. Jesli
+chcesz dobyc bron napisz WIELD <przedmiot>. Jesli w rece trzymasz juz jakas
+bron, nie dobedziesz nowej, musisz najpierw odlozyc pierwsza REMOVE
+<przedmiot>. Twoj ekwipunek moze ulec uszkodzeniu. Zeby sprawdzic w jakim
+stanie jest przedmiot napisz EXAM <przedmiot>. Jesli bedzie trzeba cos naprawic
+musisz znalezc kowala. Gdy bedziesz u kowala, przestan uzywac popsuty przedmiot
+i napisz REPAIR <przedmiot>.
+~
+0 3145740 1
+D2
+Komnata Prob dla Paladynow.
+~
+~
+0 -1 10445
+S
+#10441
+Wschodnia klatka Paladynow.~
+Moby w tych klatkach, oprocz wlasnej nazwy, nazywaja sie takze "klatka". Te
+moby moga byc zabite komenda KILL KLATKA lub KILL KOBOLD. Wszystkie inne
+moby w klatkach, sa nazwane podobnie. Tak samo bedzie na Arenie, moby
+dodatkowo nazywaja sie "arena". Te same zasady odnosza sie do ekwipunku
+znajdowanego w Akademii (nazywa sie "akademia"). Oprocz ich wlasnych nazw
+mozesz takze uzywac WEAR AKADEMIA lub REMOVE AKADEMIA.
+~
+0 3145740 1
+D3
+Komnata Prob dla Paladynow.
+~
+~
+0 -1 10445
+S
+#10442
+Poludniowa klatka Paladynow.~
+Smrod gnijacych cial uderza w twoje nozdrza. Kawalki kosci i zardzewiale
+czesci zbroji leza rozrzucone po podlodze. Pamietaj, zabij, wez wszystko
+z ciala, potem poswiec cialo bogom. Mozesz wpisac CONFIG +AUTOSAC, wtedy
+automatycznie po smierci moba bedziesz poswiecal jego cialo. Musisz jednak
+uwazac z autosacem, poniewaz mozesz stracic rzeczy, ktore ciagle leza przy
+zabitym wrogu. Nawet jesli masz wlaczona opcje CONFIG +AUTOLOOT, zdarza sie,
+ze masz juz pelny inwentarz, albo nie masz sily aby podniesc wiecej.
+~
+0 3145740 1
+D0
+Komnata Prob dla Paladynow.
+~
+~
+0 -1 10445
+S
+#10443
+Zachodnia klatka Paladynow.~
+Zabij moba przebywajacego w tej klatce, wez ekwipunek z ciala pokonanego,
+nastepnie poswiec cialo bogom [SAC CORPSE]. Gdy poswiecasz ciala bogom,
+zawsze otrzymujesz mala nagrode. Mozesz takze poswiecac niepotrzebne
+przedmioty rzucajac je na ziemie i piszac SAC <nazwa przedmiotu>. Jesli chcesz
+uzyskac wiecej informacji na ten temat, zajzyj do helpa.
+~
+0 3145740 1
+D1
+Komnata Prob dla Paladynow.
+~
+~
+0 -1 10445
+S
+#10444
+Hala Paladynow.~
+Widzisz tarcze najrozmaitszych ksztaltow zamocowane na scianach. Sa to
+dary od wojownikow, ktorzy przeszli przez te hale przed toba. Z gory
+dochodza do ciebie przytlumione odglosy walki.
+~
+0 3146764 1
+D5
+Komnata Prob dla Paladynow.
+~
+~
+0 -1 10445
+S
+#10445
+Komnata Prob dla Paladynow.~
+Tutaj wlasnie stoczysz swoja pierwsza prawdziwa walke z MOBAMI. Mobami
+nazywa sie wszystkie stwory wystepujace w grze. Wszystkie wyjscia, z
+wyjatkiem zejscia w dol prowadza do klatek z mobami. Niektore z tych
+stworow moga byc agresywne i zaatakuja cie po wejsciu do ich lokacji.
+Gdy je zabijesz otrzymasz punkty doswiadczenia, jak rowniez ekwipunek
+i zloto. Gdy juz pokonasz moba napisz GET ALL CORPSE aby zabrac z ciala
+pokonanego ekwipunek i zloto. Mozesz takze wpisac CONFIG +AUTOLOOT albo
+CONFIG +AUTOGOLD. Autoloot spowoduje ze zaraz po zabiciu moba wezmiesz
+wszystko z jego ciala. Autogold spowoduje wziecie samego zlota. Wszystkie
+zabrane przedmioty pojawiaja sie w twojej kieszeni (INVENTORY). Podczas
+walki mozesz doznac pewnych obrazen, gdyby tak sie stalo wroc tutaj i
+napisz REST albo SLEEP. To przyspieszy proces powrotu do zdrowia. Gdy
+juz wyzdrowiejesz napisz WAKE lub STAND aby kontynuowac przygode.
+~
+0 3146764 1
+D0
+Klatka.
+~
+~
+0 -1 10440
+D1
+Klatka.
+~
+~
+0 -1 10441
+D2
+Klatka.
+~
+~
+0 -1 10442
+D3
+Klatka.
+~
+~
+0 -1 10443
+D5
+Kamienny korytarz.
+~
+~
+0 -1 10356
+S
+#10480
+Pokoj z notkami.~
+Znajdujesz sie w pokoju z notkami. Tu gracze podrozujacy po Akademii moga
+zostawiac oraz odczytywac notki. By sprawdzic jakie sa notki wpisz
+NOTE LIST, a by ktoras odczytac NOTE READ <numer notki>. Wiecej sie dowiesz
+gdy wpiszesz HELP NOTE.
+~
+0 3146760 1
+D3
+Akademia Darkhaven.
+~
+~
+0 -1 10300
+S
+#10498
+Unoszac sie w pustce.~
+~
+0 1073741828 1
+S
+#10499
+Sala Obserwacji.~
+Tutaj rezyduja obserwatorzy bramy miedzy Krolestwami i swiatem zewnetrznym,
+i stad wszyscy nowi poszukiwacze przygod sa obserwowani i notowani przez
+tutejszych mieszkancow.
+ 
+** Ten pokoj *nie* powinien byc uzywany do jakiejkolwiek aktywnosci
+innej niz te dwa moby tutaj rezydujace. Nigdy nie ruszaj ani nie usuwaj
+zadnego z tych mobow jesli uzywasz przedautorskiego systemu. **
+~
+0 1075838980 1
+S
+#0
+
+
+#RESETS
+M 1 10399 1 10300
+O 1 10401 1 10300
+D 0 10300 2 1
+M 1 10340 1 10303
+M 1 10333 1 10305
+O 1 10401 1 10305
+M 1 10394 1 10306
+M 1 10345 1 10308
+E 1 10345 1 3
+D 0 10309 0 1
+D 0 10310 2 1
+D 0 10312 3 1
+D 0 10313 1 1
+M 1 10352 1 10318
+M 1 10342 1 10319
+O 1 10401 1 10319
+M 1 10354 1 10320
+M 1 10353 1 10321
+M 1 10351 1 10322
+M 1 10349 1 10323
+M 1 10350 1 10324
+M 1 10334 1 10325
+O 1 10401 1 10325
+M 1 10335 1 10326
+O 1 10401 1 10326
+M 1 10336 1 10327
+O 1 10401 1 10327
+M 1 10337 1 10328
+O 1 10401 1 10328
+M 1 10338 1 10329
+O 1 10401 1 10329
+M 1 10339 1 10330
+O 1 10401 1 10330
+M 1 10326 2 10331
+E 1 10319 1 9
+E 1 10306 1 3
+M 1 10326 2 10331
+E 1 10319 1 9
+E 1 10306 1 3
+M 1 10305 2 10332
+E 1 10303 1 7
+E 1 10302 1 13
+M 1 10305 2 10332
+E 1 10303 1 7
+E 1 10302 1 13
+M 1 10312 2 10333
+E 1 10305 1 12
+E 1 10304 1 6
+M 1 10312 2 10333
+E 1 10305 1 12
+E 1 10304 1 6
+M 1 10319 2 10334
+E 1 10301 1 8
+E 1 10300 1 14
+M 1 10319 2 10334
+E 1 10301 1 8
+E 1 10300 1 14
+M 1 10306 2 10335
+E 1 10303 1 7
+E 1 10302 1 13
+M 1 10306 2 10335
+E 1 10303 1 7
+E 1 10302 1 13
+M 1 10313 2 10336
+E 1 10305 1 12
+E 1 10304 1 6
+M 1 10313 2 10336
+E 1 10305 1 12
+E 1 10304 1 6
+M 1 10327 2 10337
+E 1 10319 1 9
+E 1 10306 1 3
+M 1 10327 2 10337
+E 1 10319 1 9
+E 1 10306 1 3
+M 1 10320 2 10338
+E 1 10301 1 8
+E 1 10300 1 14
+M 1 10320 2 10338
+E 1 10301 1 8
+E 1 10300 1 14
+M 1 10307 2 10339
+E 1 10303 1 7
+E 1 10302 1 13
+M 1 10307 2 10339
+E 1 10303 1 7
+E 1 10302 1 13
+M 1 10314 2 10340
+E 1 10305 1 12
+E 1 10304 1 6
+M 1 10314 2 10340
+E 1 10305 1 12
+E 1 10304 1 6
+M 1 10328 2 10341
+E 1 10319 1 9
+E 1 10306 1 3
+M 1 10328 2 10341
+E 1 10319 1 9
+E 1 10306 1 3
+M 1 10321 2 10342
+E 1 10301 1 8
+E 1 10300 1 14
+M 1 10321 2 10342
+E 1 10301 1 8
+E 1 10300 1 14
+M 1 10308 2 10343
+E 1 10303 1 7
+E 1 10302 1 13
+M 1 10308 2 10343
+E 1 10303 1 7
+E 1 10302 1 13
+M 1 10315 2 10344
+E 1 10305 1 12
+E 1 10304 1 6
+M 1 10315 2 10344
+E 1 10305 1 12
+E 1 10304 1 6
+M 1 10329 2 10345
+E 1 10319 1 9
+E 1 10306 1 3
+M 1 10329 2 10345
+E 1 10319 1 9
+E 1 10306 1 3
+M 1 10322 2 10346
+E 1 10301 1 8
+E 1 10300 1 14
+M 1 10322 2 10346
+E 1 10301 1 8
+E 1 10300 1 14
+M 1 10309 2 10347
+E 1 10303 1 7
+E 1 10302 1 13
+M 1 10309 2 10347
+E 1 10303 1 7
+E 1 10302 1 13
+M 1 10316 2 10348
+E 1 10305 1 12
+E 1 10304 1 6
+M 1 10316 2 10348
+E 1 10305 1 12
+E 1 10304 1 6
+M 1 10330 2 10349
+E 1 10319 1 9
+E 1 10306 1 3
+M 1 10330 2 10349
+E 1 10319 1 9
+E 1 10306 1 3
+M 1 10323 2 10350
+E 1 10301 1 8
+E 1 10300 1 14
+M 1 10323 2 10350
+E 1 10301 1 8
+E 1 10300 1 14
+M 1 10310 2 10351
+E 1 10303 1 7
+E 1 10302 1 13
+M 1 10310 2 10351
+E 1 10303 1 7
+E 1 10302 1 13
+M 1 10317 2 10352
+E 1 10305 1 12
+E 1 10304 1 6
+M 1 10317 2 10352
+E 1 10305 1 12
+E 1 10304 1 6
+M 1 10331 2 10353
+E 1 10319 1 9
+E 1 10306 1 3
+M 1 10331 2 10353
+E 1 10319 1 9
+E 1 10306 1 3
+M 1 10324 2 10354
+E 1 10301 1 8
+E 1 10300 1 14
+M 1 10324 2 10354
+E 1 10301 1 8
+E 1 10300 1 14
+M 1 10346 1 10355
+M 1 10343 1 10357
+G 1 10317 1
+G 1 10316 1
+G 1 10314 1
+D 0 10361 4 1
+D 0 10362 5 1
+O 1 10401 1 10364
+M 1 10300 4 10365
+M 1 10301 4 10365
+M 1 10302 4 10365
+M 1 10302 4 10365
+O 1 10401 1 10366
+M 1 10301 4 10367
+M 1 10300 4 10373
+M 1 10300 4 10374
+O 1 10401 1 10374
+M 1 10302 4 10376
+M 1 10301 4 10377
+M 1 10302 4 10378
+M 1 10301 4 10378
+M 1 10300 4 10379
+M 1 10303 4 10379
+M 1 10303 4 10380
+O 1 10401 1 10382
+D 0 10382 0 1
+M 1 10303 4 10385
+M 1 10303 4 10386
+O 1 10401 1 10386
+D 0 10386 5 1
+M 1 10318 2 10387
+E 1 10305 1 12
+E 1 10304 1 6
+M 1 10318 2 10387
+E 1 10305 1 12
+E 1 10304 1 6
+M 1 10325 2 10388
+E 1 10301 1 8
+E 1 10300 1 14
+M 1 10325 2 10388
+E 1 10301 1 8
+E 1 10300 1 14
+M 1 10311 2 10389
+E 1 10303 1 7
+E 1 10302 1 13
+M 1 10311 2 10389
+E 1 10303 1 7
+E 1 10302 1 13
+M 1 10332 2 10390
+E 1 10319 1 9
+E 1 10306 1 3
+M 1 10332 2 10390
+E 1 10319 1 9
+E 1 10306 1 3
+M 1 10355 1 10391
+D 0 10392 4 1
+M 1 10396 4 10394
+M 1 10396 4 10396
+M 1 10397 1 10397
+E 1 10318 1 16
+M 1 10396 4 10397
+M 1 10396 4 10397
+O 1 10367 1 10398
+M 1 10400 1 10400
+M 1 10401 1 10401
+O 1 10401 1 10401
+M 1 10402 2 10402
+E 1 10303 1 7
+E 1 10302 1 13
+M 1 10402 2 10402
+E 1 10303 1 7
+E 1 10302 1 13
+M 1 10403 2 10403
+E 1 10319 1 9
+E 1 10306 1 3
+M 1 10403 2 10403
+E 1 10319 1 9
+E 1 10306 1 3
+M 1 10404 2 10404
+E 1 10305 1 12
+E 1 10304 1 6
+M 1 10404 2 10404
+E 1 10305 1 12
+E 1 10304 1 6
+M 1 10405 2 10405
+E 1 10301 1 8
+E 1 10300 1 14
+M 1 10405 2 10405
+E 1 10301 1 8
+E 1 10300 1 14
+M 1 10419 1 10406
+M 1 10414 1 10406
+M 1 10421 1 10407
+M 1 10417 1 10409
+M 1 10408 1 10410
+M 1 10418 1 10411
+M 1 10410 1 10412
+M 1 10407 1 10412
+M 1 10406 1 10415
+M 1 10415 1 10416
+M 1 10411 1 10417
+M 1 10409 1 10418
+M 1 10413 1 10421
+M 1 10412 1 10421
+M 1 10416 1 10426
+M 1 10420 1 10426
+M 0 10440 1 10440
+G 1 10302 10440
+G 1 10303 10440
+M 0 10440 2 10440
+G 1 10302 10440
+G 1 10303 10440
+M 0 10441 1 10441
+G 1 10300 10441
+G 1 10301 10441
+M 0 10441 2 10441
+G 1 10300 10441
+G 1 10301 10441
+M 0 10442 1 10442
+G 1 10304 10442
+G 1 10305 10442
+M 0 10442 2 10442
+G 1 10304 10442
+G 1 10305 10442
+M 0 10443 1 10443
+G 1 10306 10443
+G 1 10319 10443
+M 0 10443 2 10443
+G 1 10306 10443
+G 1 10319 10443
+M 1 10444 1 10444
+M 0 10445 1 10445
+O 0 10401 1 10445
+M 1 10497 1 10499
+M 1 10498 1 10499
+O 0 10480 1 10480
+S
+
+
+#SHOPS
+ 10343    0  0  0  0  0   120  90         0 23    ; Zurg
+ 10357    0  0  0  0  0   120  90         0 23    ; maly pixie
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  10325 spec_guard
+M  10333 spec_cast_adept
+M  10334 spec_cast_adept
+M  10335 spec_cast_adept
+M  10336 spec_cast_adept
+M  10337 spec_cast_adept
+M  10338 spec_cast_adept
+M  10339 spec_cast_adept
+M  10342 spec_cast_adept
+M  10398 spec_cast_undead
+M  10401 spec_cast_adept
+S
+
+
+#$

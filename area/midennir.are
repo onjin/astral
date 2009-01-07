@@ -1,0 +1,2448 @@
+#AREA   Miden`nir [pl. Isorn]~
+
+
+
+#VERSION 3
+#AUTHOR Copper~
+
+#RANGES
+5 15 0 60
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 34558970
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#3500
+cyganka stworzonko male~
+Cyganka z Czarnego Lasu~
+Cyganka z Czarnego Lasu~
+Cyganka z Czarnego Lasu~
+Cyganka z Czarnego Lasu~
+Cyganka z Czarnego Lasu~
+Cyganka z Czarnego Lasu~
+Cyganka z Czarnego Lasu~
+Zreczne male stworzonko zebrze tu o niepotrzebne rzeczy.
+~
+Wyglada na male, ale podstepne stworzonko. Nie spuszczaj z niej oczu na
+zbyt dlugo
+~
+69 98824 -570 C
+8 10 1 8d10+80 2d6+1
+600 3575
+112 112 2
+10 13 13 18 13 13 18
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 263725 0 0 0 2 524288
+#3501
+gorski goblin szpieg mieszkaniec~
+Goblinski szpieg~
+Goblinski szpieg~
+Goblinski szpieg~
+Goblinski szpieg~
+Goblinski szpieg~
+Goblinski szpieg~
+Goblinski szpieg~
+Mieszkaniec lasu patroluje pobliski teren, ochraniajac gore.
+~
+Patrolujac Czarny Las, ten drapieznik reprezentuje frontowa linie obrony
+przeciwko tym ktorzy moga probowac spenetrowac ta potezna gore.
+~
+97 0 -500 C
+6 15 6 5d7+55 1d10+4
+30 800
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+39 3 0 0 1 1 0
+0 0 1775 0 0 0 0 0
+#3502
+jacob smukly elf~
+Jacob, mlody smukly elf~
+Jacob, mlody smukly elf~
+Jacob, mlody smukly elf~
+Jacob, mlody smukly elf~
+Jacob, mlody smukly elf~
+Jacob, mlody smukly elf~
+Jacob, mlody smukly elf~
+Mlody, drzacy elf cicho upuszcza lzy na brudna ziemie.
+~
+Wyglada jakby Jacob ledwo co uciekl przed majacymi zle zamiary
+goglinami z Miden'iru. Niestety, nie udalo sie to jego braciom.
+~
+147 65536 500 C
+7 17 6 1d12+47 1d8+0
+0 600
+106 106 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1735 0 0 0 64 2
+#3503
+czarny jack barman czlowiek~
+Jack~
+Jack~
+Jack~
+Jack~
+Jack~
+Jack~
+Jack~
+Wysoki, troche pucuowaty czlowiek robi tu drinki.
+~
+"Czarny" Jack pracuje tu o wiele dluzej niz sam moze sobie przypomniec.
+Pije tyle co sam zdola zarobic. Mierzy 2 metry, wazy 100 kilo wiec niech
+ktos sproboje powiedziec mu, ze jest inaczej. 
+~
+67 0 400 C
+10 8 1 1d12+200 2d8+1
+1500 7000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1775 0 0 0 64 3
+> greet_prog 100~
+tell $n Probowales juz moze mojego specjalnego zielonego browarku, $n?
+~
+> speech_prog nie ~
+tell $n Naprawde, wiec zaluj...
+emote potrzasa glowa z dezaprobata.
+tell $n Musisz sprobowac, to najlepsze jasne piwko w tych okolicach...
+~
+> speech_prog aha tak ~
+tell $n I co, smakowalo?
+emote mruga do ciebie porozumiewawczo.
+~
+|
+#3504
+dave dusza czlowiek~
+Dave zapatrzony w siebie bard~
+Dave zapatrzony w siebie bard~
+Dave zapatrzony w siebie bard~
+Dave zapatrzony w siebie bard~
+Dave zapatrzony w siebie bard~
+Dave zapatrzony w siebie bard~
+Dave zapatrzony w siebie bard~
+Siedzi tu przy stole lekko przychmielony bard.
+~
+Dave nie wychodzi stad zbyt czesto. Wlasciwie to nie opuszcza tego
+siedzenia, chyba zeby pojsc spac lub sobie ulzyc. Wydaje sie calkiem
+zadowolony, jak na czlowieka bez zycia publicznego.
+~
+67 8 600 C
+8 13 3 2d6+92 2d6+3
+10 3750
+112 108 1
+12 18 18 10 10 10 10
+0 0 0 0 0
+1 2 0 0 1 1 1
+0 0 1775 256 0 1048576 80 0
+> greet_prog 40~
+emote podnosi sie na chwile ze swojej zalosnej pozycji.
+emote mruczy cos pod nosem.
+tell $n czego chcesz ?!!
+emote opuszcz glowe na stol.
+~
+|
+#3505
+doom elita goblin postac czlonek~
+Czlonek elity Zaglady~
+Czlonek elity Zaglady~
+Czlonek elity Zaglady~
+Czlonek elity Zaglady~
+Czlonek elity Zaglady~
+Czlonek elity Zaglady~
+Czlonek elity Zaglady~
+Masywny goblin patroluje Krag Zaglady, ochraniajac swojego krola.
+~
+Celem tworzonego przez Brajtkomu za pomoca jego wlasnej magii,
+drapieznika jest pozbywanie sie z wnetrza Gory Zaglady niechcianych 
+gosci. Zabija wszystko co sie rusza.
+~
+97 33448 -1000 C
+16 12 4 5d7+190 5d7+4
+10 4000
+112 112 1
+18 10 10 16 16 8 10
+-5 0 0 -3 0
+39 3 0 0 1 1 1
+0 0 165 8192 256 1048577 96 524291
+> greet_prog 100~
+if ispc ($n)
+tell $n Nie zostales tu zaproszony przez naszego krola, $n
+emote patrzy na ciebie z niemilym wyrazem twarzy.
+else
+endif
+~
+|
+#3506
+goblin straznik zaglady~
+Goblin Zaglady~
+Goblin Zaglady~
+Goblin Zaglady~
+Goblin Zaglady~
+Goblin Zaglady~
+Goblin Zaglady~
+Goblin Zaglady~
+Stoi tu straznik gory, patrolujac jej zbocze.
+~
+Ten Straszny wojownik poprzysiagl chronic Gore Zaglady przed
+najezdzcami, i zrobi wszystko co w jego mocy by zniszczyc tych,
+ktorzy odwaza sie wtargnac do jego domu.
+~
+97 520 -1000 C
+10 15 3 2d6+130 2d6+2
+2000 2000
+112 112 1
+16 13 13 13 13 8 13
+0 0 0 0 0
+39 3 0 0 16384 16384 0
+0 0 1775 0 0 0 0 0
+> all_greet_prog 100~
+if ispc ($n)
+emote warczy na ciebie.
+yell Dzieci Zaglady, wrog jest posrod nas!! Do broni!!
+else
+endif
+~
+|
+#3507
+goblin  ciemny krol postac brajtkomu~
+Brajtkomu, krol goblinow~
+Brajtkomu, krol goblinow~
+Brajtkomu, krol goblinow~
+Brajtkomu, krol goblinow~
+Brajtkomu, krol goblinow~
+Brajtkomu, krol goblinow~
+Brajtkomu, krol goblinow~
+Samotna, ciemna postac mruczy do siebie z ciemnego, niszczejacego tronu.
+~
+Cienie wydaja sie nakladac na siebie w jakis sposob, tworzac to 
+przerazajace, a jednak zadziwiajace stworzenie. Brajtkomu nie zdobyl
+swojej pozycji tylko dzieki wygladowi...
+~
+35 684 -1000 C
+15 10 1 6d4+170 4d7+4
+3500 8000
+112 112 1
+18 10 16 16 13 10 16
+0 0 0 0 0
+39 3 0 0 135464987 16385 1
+0 0 13 0 0 0 32 2
+> greet_prog 100~
+tell $n Witaj, $n...
+emote powarkuje na ciebie.
+tell $n Czy przybyles aby spotkac sie ze swoja Zaglada?!?!
+emote smieje sie diabolicznie 'HA HA HA !!!'
+ 
+~
+|
+#3508
+jed wlasciciel czlowiek~
+Wlasciciel gospody Jed~
+Wlasciciel gospody Jed~
+Wlasciciel gospody Jed~
+Wlasciciel gospody Jed~
+Wlasciciel gospody Jed~
+Wlasciciel gospody Jed~
+Wlasciciel gospody Jed~
+Wlasciciel siedzi przy biorku, powoli kartkujac swoja ulubiona ksiazke.
+~
+Jed sprawia, ze czujesz sie w tym dziwnym miejscu prawie jak w domu. Jego
+gesta, brazowa broda jest perfekcyjnie utrzymana. Podnosi na ciebie
+swoje cieple, niebieskie oczy i czujesz nagla potrzebe wynajecia tu dla
+siebie pokoju. Prawda, ze mily czlowiek biznesu?
+~
+7 0 0 C
+10 0 0 1d1+88 2d6+2
+50 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 141 0 0 1048576 0 2
+#3550
+finalowy mob~
+nowo stworzony finalowy mob~
+nowo stworzony finalowy mob~
+nowo stworzony finalowy mob~
+nowo stworzony finalowy mob~
+nowo stworzony finalowy mob~
+nowo stworzony finalowy mob~
+nowo stworzony finalowy mob~
+Jakis Bog porzucil tu nowo stworzonego finalowego moba.
+~
+~
+1073741825 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#3500
+biala kosc jelenia kolczyk~
+biala kosc w ksztalcie polksiezyca~
+biala kosc w ksztalcie polksiezyca~
+biala kosc w ksztalcie polksiezyca~
+biala kosc w ksztalcie polksiezyca~
+biala kosc w ksztalcie polksiezyca~
+biala kosc w ksztalcie polksiezyca~
+biala kosc w ksztalcie polksiezyca~
+Kolczyk z najczystszej bieli spoczywa tutaj w kurzu.~
+~
+9 524356 65537
+4 6 0 0
+1 10 1
+A
+2 1
+#3501
+zielone piwko piwo~
+Jasne piwo "Czarnego" Jack'a~
+Jasne piwo "Czarnego" Jack'a~
+Jasne piwo "Czarnego" Jack'a~
+Jasne piwo "Czarnego" Jack'a~
+Jasne piwo "Czarnego" Jack'a~
+Jasne piwo "Czarnego" Jack'a~
+Jasne piwo "Czarnego" Jack'a~
+Duza butelka zielonego browarku zostala madrze odrzucona na ziemie.~
+~
+17 0 16385
+10 10 4 0
+1 10 1
+#3502
+ksiazka~
+Ulubiona ksiazka z opowiadaniami Jed'a~
+Ulubiona ksiazka z opowiadaniami Jed'a~
+Ulubiona ksiazka z opowiadaniami Jed'a~
+Ulubiona ksiazka z opowiadaniami Jed'a~
+Ulubiona ksiazka z opowiadaniami Jed'a~
+Ulubiona ksiazka z opowiadaniami Jed'a~
+Ulubiona ksiazka z opowiadaniami Jed'a~
+Stara, zuzyta ksiazka spoczywa cicho na ziemi.~
+~
+12 0 16385
+0 0 0 0
+3 35 3
+A
+3 2
+A
+12 10
+#3503
+czarny klucz~
+dziwny czarny klucz~
+dziwny czarny klucz~
+dziwny czarny klucz~
+dziwny czarny klucz~
+dziwny czarny klucz~
+dziwny czarny klucz~
+dziwny czarny klucz~
+Stary, czarny klucz przyciaga twoja uwage.~
+~
+18 524292 16385
+0 0 0 0
+2 0 0
+E
+klucz~
+Klucz jak widac jest calkiem stary. Wyryte sa na nim jakies dziwne
+znaki.
+~
+E
+znaki~
+Nie mozesz odszyfrowac tych dziwnych runow.
+~
+#3504
+kadz~
+Kadz wazewna Jack'a~
+Kadz wazewna Jack'a~
+Kadz wazewna Jack'a~
+Kadz wazewna Jack'a~
+Kadz wazewna Jack'a~
+Kadz wazewna Jack'a~
+Kadz wazewna Jack'a~
+Odromna kadz stoi majestatycznie posrodku pokoju.~
+~
+15 524288 0
+190 0 0 0
+90 0 0
+E
+kadz~
+Kadz jest zawsze w uzyciu, kiedy Jack musi zrobic swieza porcje swojego
+jasnego piwa. Czyli wlasciwie nie za czesto.
+~
+#3505
+zaglada klucz koscisty~
+klucz Zaglady~
+klucz Zaglady~
+klucz Zaglady~
+klucz Zaglady~
+klucz Zaglady~
+klucz Zaglady~
+klucz Zaglady~
+Koscisty klucz zaciemnia ziemie pod soba.~
+~
+18 524294 16385
+0 0 0 0
+2 0 0
+#3506
+peleryna zaglady~
+dluga, ciemna peleryna Zaglady~
+dluga, ciemna peleryna Zaglady~
+dluga, ciemna peleryna Zaglady~
+dluga, ciemna peleryna Zaglady~
+dluga, ciemna peleryna Zaglady~
+dluga, ciemna peleryna Zaglady~
+dluga, ciemna peleryna Zaglady~
+Dluga, ciemna peleryna rzuca dziwne cienie na ziemie.~
+~
+9 70 1025 32
+10 4 0 0
+3 3000 300
+A
+3 -2
+A
+1 2
+A
+18 3
+A
+19 1
+> wear_prog 100~
+mpechoat $n Smiejesz sie diabolicznie 'HA HA HA !!!'
+mpechoaround $n Slyszysz jego diaboliczny smiech 'HA HA HA !!!'
+~
+|
+#3507
+przylbica zaglady~
+ciemna przylbica Zaglady~
+ciemna przylbica Zaglady~
+ciemna przylbica Zaglady~
+ciemna przylbica Zaglady~
+ciemna przylbica Zaglady~
+ciemna przylbica Zaglady~
+ciemna przylbica Zaglady~
+Ciemna przylbica rzuca dziwne cienie na ziemie.~
+~
+9 524294 131073
+10 3 0 0
+2 5700 570
+A
+19 1
+A
+18 1
+A
+1 -2
+A
+31 -2
+A
+25 -2
+A
+3 -2
+A
+13 10
+#3508
+berlo zaglady~
+berlo Zaglady Brajtkomu~
+berlo Zaglady Brajtkomu~
+berlo Zaglady Brajtkomu~
+berlo Zaglady Brajtkomu~
+berlo Zaglady Brajtkomu~
+berlo Zaglady Brajtkomu~
+berlo Zaglady Brajtkomu~
+Ciemne berlo spoczywa na ziemi w groznej mgle.~
+~
+9 524311 16385
+8 10 0 0
+6 190000 19000
+A
+12 30
+A
+13 10
+A
+19 2
+#3509
+drewniaki~
+para drewniakow zrobionych z kory drzew z Lasu Zaglady~
+para drewniakow zrobionych z kory drzew z Lasu Zaglady~
+para drewniakow zrobionych z kory drzew z Lasu Zaglady~
+para drewniakow zrobionych z kory drzew z Lasu Zaglady~
+para drewniakow zrobionych z kory drzew z Lasu Zaglady~
+para drewniakow zrobionych z kory drzew z Lasu Zaglady~
+para drewniakow zrobionych z kory drzew z Lasu Zaglady~
+Jakies czarne drewniaki leza tu porzucone na ziemi.~
+~
+9 262144 65 8
+8 6 0 0
+6 10 1
+A
+2 2
+A
+13 10
+#3510
+zaglady naramienniki ramiona czarne~
+para czarnych naramiennikow Zaglady~
+para czarnych naramiennikow Zaglady~
+para czarnych naramiennikow Zaglady~
+para czarnych naramiennikow Zaglady~
+para czarnych naramiennikow Zaglady~
+para czarnych naramiennikow Zaglady~
+para czarnych naramiennikow Zaglady~
+Para czarnych metalowych naramiennikow pokrywa cieniem ziemie.~
+~
+9 524308 257 16
+8 8 0 0
+4 6000 600
+A
+19 1
+A
+18 1
+#3511
+znak~
+znak~
+znak~
+znak~
+znak~
+znak~
+znak~
+znak~
+Stary znak zrobiony z drewna przekrzywiony troche na lewo.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#3550
+finalowy obiektfinal object~
+nowo stworzony finalowy obiekt~
+nowo stworzony finalowy obiekt~
+nowo stworzony finalowy obiekt~
+nowo stworzony finalowy obiekt~
+nowo stworzony finalowy obiekt~
+nowo stworzony finalowy obiekt~
+nowo stworzony finalowy obiekt~
+Jakis Bog zostawil tu nowo stworzony obiekt.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#3500
+Rownina~
+Stoisz na rowninie. Jest to prawie calkowicie opuszczone miejsce, gdzie 
+wiatr moze wyc przez nic nie zatrzymywany. Jednakze ty nie jestes pierwsza
+istota ktora tu przywedrowala. Ktos przed toba zostawil tu swoje slady 
+prowadzace na lewo. Sciezka jest raczej dezorientujaca i nie jest to ten
+rodzaj sciezki, ktora wiedzie w jakies wazne, czy interesujace miejsce.
+Jednakze zdecydowanie prowadzi ku wzgorzom dalego na polnocy.
+Na zachodzie dostrzegasz dziwna budowle, na tyle dziwna, ze masz ochote sie
+jej dokladniej przyjrzec.
+~
+0 0 1
+D0
+~
+~
+1 -1 205
+D2
+~
+~
+0 0 3501
+D3
+~
+~
+0 -1 9301
+S
+#3501
+Droga~
+Wedrujesz wzdluz milej, cienistej drozki. Drozka z obu stron otoczona
+jest wysokimi drzewami, ktore rzucajac cien nadaja otoczeniu mila atmosfere.
+Mozesz podazyc droga na poludnie lub na polnoc.
+~
+0 0 1
+D0
+~
+~
+0 0 3500
+D2
+~
+~
+0 0 3502
+S
+#3502
+Skrzyzowanie na szczycie~
+Stoisz na szczycie wzgorza, na ktorym krzyzuje sie kilka drog. Na zachodzie
+widoczne jest wspaniale miasto Darkhaven, natomiast na wschodzie 
+majestatyczne deby i topole swietego lasu powoli kolysza sie na wietrze.
+Szeroka, plaska sciezka prowadzi przez pusty krajobraz karlowatego lasu na
+poludnie, natomiast linia drzew na polnoc nagle ustepuje miejsca pustym, 
+otwartym rowninom. Waska sciezka idzie na polnocny-wschod ku podstawie 
+wzgorza, prosto w paszcze malego tunelu, ktory, zdajesz sobie nagle sprawe,
+mogly stworzy tylko karly.
+~
+0 0 1
+D0
+~
+~
+0 0 3501
+D1
+~
+~
+0 -1 8904
+D2
+~
+~
+0 -1 9201
+D3
+~
+~
+0 0 3503
+D6
+Waska sciezka prowadzi do podstawy wzgorza i wioski karlow.
+~
+~
+0 -1 6500
+> speech_prog p poszukuje ruin ~
+if ispc($n)
+ if ispkill($n)
+mea 0.$n _red Twoje cialo przebiega dreszcz gdy powracasz do ruin
+mer 0.$n _red Czujesz chlod gdy $n pograza sie w nicosci...
+   mptrans 0.$n 3053
+   mpat 0.$n mpforce 0.$n look
+ else
+mea 0.$n _red Prastare Ruiny sa miejscem dla mordercow i zlodzieji!
+mea 0.$n _red To jest rzeczywistosc w ktorej na pewno bys nie przetrwal..
+ endif
+endif
+~
+|
+S
+#3503
+Peryferia Darkhaven~
+Stoisz na peryferiach miasta Darkhaven, glownego miasta tego ladu. Droga 
+prowadzi na wschod do spokoju i ciszy lasu, natomiast na zachodzie konczy 
+sie przy zachodniej bramie miasta, otoczonej mnostwem sklepow, barow, 
+i straganow. Kolejna sciezka kluczy poprzez las na poludniowy-wschod.
+~
+0 4 1
+D1
+Kilka drog krzyzuje sie na wzgorzu...
+~
+~
+0 0 3502
+D3
+Wspaniala wschodnia brama Darkhaven...
+~
+~
+0 0 21112
+D8
+Sciezka kluczy posrod drzew...
+~
+~
+0 -1 3586
+S
+#3504
+Na starym, zardzewialym moscie~
+Nachodza cie niemile mysli, gdy wchodzisz na stary most prowadzacy na 
+poludnie do Czarnego Lasu. Mowia, ze gleboko w tym lesie znajduje sie
+starozytna gora, w ktorej lezy labirynt kryjacy ogromne bogactwa.
+Nikt z tych, ktorzy wyruszyli w poszukiwaniu tych bogactw nie powrocil, by
+zweryfikowac te legendy (lub zdecydowal sie, z jakiegos powodu, milczec)
+~
+0 0 1
+D0
+~
+~
+0 -1 21075
+D2
+Czarny las kolysze sie...
+~
+~
+0 0 3505
+D5
+Na dole widoczna jest stroma skala, lecz wydaje sie niemozliwe dostac tam.
+~
+~
+33554432 -1 3590
+E
+znak~
+Znak pokryty dziwna zielona substancja, mowi:
+ 
+                        U W A Z A J ! ! !
+           NA POLUDNIU SPOTKASZ ZLE, BRUTALNE GOBLINY !!!
+ 
+                    WCHODZISZ NA WLASNE RYZYKO  
+ 
+~
+> rand_prog 3~
+mpecho Wiatr gwizdze wsrod poluzowanych desek starego mostu.
+~
+> speech_prog p I seek the ruins~
+if ispc($n)
+ if ispkill($n)
+   mea 0.$n _red A shiver rushes through your body as you return to the ruins.
+   mer 0.$n _red A chill washes over you as $n fades into nothingness...
+   mptrans 0.$n 3030
+   mpat 0.$n mpforce 0.$n look
+ else
+   mea 0.$n _red The Umbrageous Ruins is a place for murderers and thieves!
+   mea 0.$n _red It is surely a realm in which you would perish...
+ endif
+endif
+~
+|
+S
+#3505
+Przed Czarnym Lasem~
+Patrzac za siebie, sanktuarium Darkhaven neci cie bardziej niz
+kiedykolwiek. Lasy na poludniu wytwarzaja w tobie uczucie przygnebienia.
+Bardowie opowiadali ci historie o dzielnych podroznikach, ktorzy badali
+samo serce Czrnego Lasu i nigdy nie powrocili. I kto wie jak dludo jeszcze
+wytrzyma ten stary, zniszczony most na polnocy? Moze lepiej nie ryzykowac,
+moze.
+~
+0 0 3
+D0
+Sanktuarium Darkhaven przyciaga...
+~
+~
+0 0 3504
+D2
+Powoli wkrada sie ciemnosc...
+~
+~
+0 0 3507
+D3
+Na zachodzie lezy dziwny budynek...
+~
+~
+0 0 3570
+S
+#3506
+W Czarnym Lesie~
+Nawet wiaterek wiejacy posrod szczytow drzew wydaje sie posepny. Dziwne
+odglosy dobiegaja do ciebie ze wschodu. Liscie na ziemi szelescilyby
+gdyby nie byly przesiakniete krwia. W ktorymkolwiek kierunku bys nie
+spojrzal las wydaje sie stawac czarniejszy i czarniejszy.
+~
+0 1 3
+D1
+Las staje sie coraz mroczniejszy...
+~
+~
+0 -1 3550
+D2
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3509
+S
+#3507
+W Czarnym Lesie~
+Nawet wiaterek wiejacy posrod szczytow drzew wydaje sie posepny. Dziwne
+odglosy dobiegaja do ciebie ze wschodu. Liscie na ziemi szelescilyby
+gdyby nie byly przesiakniete krwia. W ktorymkolwiek kierunku bys nie
+spojrzal las wydaje sie stawac czarniejszy i czarniejszy.
+~
+0 1 3
+D0
+Krawedz lasu moze byc bardzo goscinna...
+~
+~
+0 0 3505
+D2
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3510
+D3
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3508
+S
+#3508
+W Czarnym Lesie~
+Nawet wiaterek wiejacy posrod szczytow drzew wydaje sie posepny. Dziwne
+odglosy dobiegaja do ciebie ze wschodu. Liscie na ziemi szelescilyby
+gdyby nie byly przesiakniete krwia. W ktorymkolwiek kierunku bys nie
+spojrzal las wydaje sie stawac czarniejszy i czarniejszy.
+~
+0 1 3
+D1
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3507
+D2
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3511
+S
+#3509
+W Czarnym Lesie~
+Nawet wiaterek wiejacy posrod szczytow drzew wydaje sie posepny. Dziwne
+odglosy dobiegaja do ciebie ze wschodu. Liscie na ziemi szelescilyby
+gdyby nie byly przesiakniete krwia. W ktorymkolwiek kierunku bys nie
+spojrzal las wydaje sie stawac czarniejszy i czarniejszy.
+~
+0 1 3
+D0
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3506
+D1
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3512
+D2
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3514
+S
+#3510
+W Czarnym Lesie~
+Nawet wiaterek wiejacy posrod szczytow drzew wydaje sie posepny. Dziwne
+odglosy dobiegaja do ciebie ze wschodu. Liscie na ziemi szelescilyby
+gdyby nie byly przesiakniete krwia. W ktorymkolwiek kierunku bys nie
+spojrzal las wydaje sie stawac czarniejszy i czarniejszy.
+~
+0 1 3
+D0
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3507
+D1
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3514
+D2
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3516
+S
+#3511
+W Czarnym Lesie~
+Nawet wiaterek wiejacy posrod szczytow drzew wydaje sie posepny. Dziwne
+odglosy dobiegaja do ciebie ze wschodu. Liscie na ziemi szelescilyby
+gdyby nie byly przesiakniete krwia. W ktorymkolwiek kierunku bys nie
+spojrzal las wydaje sie stawac czarniejszy i czarniejszy.
+~
+0 1 3
+D0
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3508
+D2
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3515
+S
+#3512
+W Czarnym Lesie~
+Nawet wiaterek wiejacy posrod szczytow drzew wydaje sie posepny. Dziwne
+odglosy dobiegaja do ciebie ze wschodu. Liscie na ziemi szelescilyby
+gdyby nie byly przesiakniete krwia. W ktorymkolwiek kierunku bys nie
+spojrzal las wydaje sie stawac czarniejszy i czarniejszy.
+~
+0 1 3
+D2
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3513
+D3
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3509
+S
+#3513
+W Czarnym Lesie~
+Nawet wiaterek wiejacy posrod szczytow drzew wydaje sie posepny. Dziwne
+odglosy dobiegaja do ciebie ze wschodu. Liscie na ziemi szelescilyby
+gdyby nie byly przesiakniete krwia. W ktorymkolwiek kierunku bys nie
+spojrzal las wydaje sie stawac czarniejszy i czarniejszy.
+~
+0 1 3
+D0
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3512
+D1
+A trail of some sort rips through the darkened trees...
+~
+~
+0 -1 3584
+D3
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3514
+S
+#3514
+W Czarnym Lesie~
+Nawet wiaterek wiejacy posrod szczytow drzew wydaje sie posepny. Dziwne
+odglosy dobiegaja do ciebie ze wschodu. Liscie na ziemi szelescilyby
+gdyby nie byly przesiakniete krwia. W ktorymkolwiek kierunku bys nie
+spojrzal las wydaje sie stawac czarniejszy i czarniejszy.
+~
+0 1 3
+D0
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3509
+D1
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3513
+D2
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3517
+D3
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3510
+S
+#3515
+W Czarnym Lesie~
+Nawet wiaterek wiejacy posrod szczytow drzew wydaje sie posepny. Dziwne
+odglosy dobiegaja do ciebie ze wschodu. Liscie na ziemi szelescilyby
+gdyby nie byly przesiakniete krwia. W ktorymkolwiek kierunku bys nie
+spojrzal las wydaje sie stawac czarniejszy i czarniejszy.
+~
+0 1 3
+D0
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3511
+D1
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3516
+D2
+Ciemnosc pochlania las pozostawiajac przerazajaca pustke...
+~
+~
+0 0 3518
+S
+#3516
+W Czarnym Lesie~
+Nawet wiaterek wiejacy posrod szczytow drzew wydaje sie posepny. Dziwne
+odglosy dobiegaja do ciebie ze wschodu. Liscie na ziemi szelescilyby
+gdyby nie byly przesiakniete krwia. W ktorymkolwiek kierunku bys nie
+spojrzal las wydaje sie stawac czarniejszy i czarniejszy.
+~
+0 1 3
+D0
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3510
+D1
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3517
+D2
+Ciemnosc pochlania las pozostawiajac przerazajaca pustke...
+~
+~
+0 0 3519
+D3
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3515
+S
+#3517
+W Czarnym Lesie~
+Nawet wiaterek wiejacy posrod szczytow drzew wydaje sie posepny. Dziwne
+odglosy dobiegaja do ciebie ze wschodu. Liscie na ziemi szelescilyby
+gdyby nie byly przesiakniete krwia. W ktorymkolwiek kierunku bys nie
+spojrzal las wydaje sie stawac czarniejszy i czarniejszy.
+~
+0 1 3
+D0
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3514
+D3
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3516
+S
+#3518
+Serce Czarnego Lasu~
+Zdajesz sobie sprawe, ze mrocznosc i tajemniczosc Czarnego Lasu nie byly
+przesadzone w starych legendach. Drzewa wydaja sie nachylac, jakby
+probowaly wykrasc sily zyciowe z tych stworzen, ktore okazaly sie na tyle
+glupie, by zawedrowac tak glegoko w las. Chociaz krew na ziemi praktycznie
+zniknela, aura grozy i strachu bynajmniej nie oslabla.
+~
+0 1 3
+D0
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3515
+D2
+Ciemnosc pochlania las pozostawiajac przerazajaca pustke...
+~
+~
+0 0 3522
+S
+#3519
+Serce Czarnego Lasu~
+Zdajesz sobie sprawe, ze mrocznosc i tajemniczosc Czarnego Lasu nie byly
+przesadzone w starych legendach. Drzewa wydaja sie nachylac, jakby
+probowaly wykrasc sily zyciowe z tych stworzen, ktore okazaly sie na tyle
+glupie, by zawedrowac tak glegoko w las. Chociaz krew na ziemi praktycznie
+zniknela, aura grozy i strachu bynajmniej nie oslabla.
+~
+0 1 3
+D0
+Las staje sie coraz mroczniejszy...
+~
+~
+0 0 3516
+D1
+Ciemnosc pochlania las pozostawiajac przerazajaca pustke...
+~
+~
+0 0 3520
+D2
+Ciemnosc pochlania las pozostawiajac przerazajaca pustke...
+~
+~
+0 0 3521
+S
+#3520
+Serce Czarnego Lasu~
+Zdajesz sobie sprawe, ze mrocznosc i tajemniczosc Czarnego Lasu nie byly
+przesadzone w starych legendach. Drzewa wydaja sie nachylac, jakby
+probowaly wykrasc sily zyciowe z tych stworzen, ktore okazaly sie na tyle
+glupie, by zawedrowac tak glegoko w las. Chociaz krew na ziemi praktycznie
+zniknela, aura grozy i strachu bynajmniej nie oslabla.
+~
+0 1 3
+D2
+Ciemnosc pochlania las pozostawiajac przerazajaca pustke...
+~
+~
+0 0 3523
+D3
+Ciemnosc pochlania las pozostawiajac przerazajaca pustke...
+~
+~
+0 0 3519
+S
+#3521
+Serce Czarnego Lasu~
+Zdajesz sobie sprawe, ze mrocznosc i tajemniczosc Czarnego Lasu nie byly
+przesadzone w starych legendach. Drzewa wydaja sie nachylac, jakby
+probowaly wykrasc sily zyciowe z tych stworzen, ktore okazaly sie na tyle
+glupie, by zawedrowac tak glegoko w las. Chociaz krew na ziemi praktycznie
+zniknela, aura grozy i strachu bynajmniej nie oslabla.
+~
+0 1 3
+D0
+Ciemnosc pochlania las pozostawiajac przerazajaca pustke...
+~
+~
+0 0 3519
+D1
+Ciemnosc pochlania las pozostawiajac przerazajaca pustke...
+~
+~
+0 0 3523
+D3
+Ciemnosc pochlania las pozostawiajac przerazajaca pustke...
+~
+~
+0 0 3522
+S
+#3522
+Serce Czarnego Lasu~
+Zdajesz sobie sprawe, ze mrocznosc i tajemniczosc Czarnego Lasu nie byly
+przesadzone w starych legendach. Drzewa wydaja sie nachylac, jakby
+probowaly wykrasc sily zyciowe z tych stworzen, ktore okazaly sie na tyle
+glupie, by zawedrowac tak glegoko w las. Chociaz krew na ziemi praktycznie
+zniknela, aura grozy i strachu bynajmniej nie oslabla.
+~
+0 1 3
+D0
+Ciemnosc pochlania las pozostawiajac przerazajaca pustke...
+~
+~
+0 0 3518
+D1
+Ciemnosc pochlania las pozostawiajac przerazajaca pustke...
+~
+~
+0 0 3521
+S
+#3523
+Serce Czarnego Lasu~
+Zdajesz sobie sprawe, ze mrocznosc i tajemniczosc Czarnego Lasu nie byly
+przesadzone w starych legendach. Drzewa wydaja sie nachylac, jakby
+probowaly wykrasc sily zyciowe z tych stworzen, ktore okazaly sie na tyle
+glupie, by zawedrowac tak glegoko w las. Chociaz krew na ziemi praktycznie
+zniknela, aura grozy i strachu bynajmniej nie oslabla.
+~
+0 1 3
+D0
+Ciemnosc pochlania las pozostawiajac przerazajaca pustke...
+~
+~
+0 0 3520
+D1
+Mroczne drzewa wydaja sie zadsze na wschodzie...
+~
+~
+0 -1 3551
+D3
+Ciemnosc pochlania las pozostawiajac przerazajaca pustke...
+~
+~
+0 0 3521
+S
+#3524
+Podbrzusze Gory Zaglady~
+Podziemna czesc Gory Zaglady jest, co wydaje sie niemozliwe, jeszcze
+mroczniejsza niz czesc zewnetrzna. Wypalone pochodnie wiszace na scianach
+tunelu sa juz niestety tylko dekoracja. Szkarlat pokrywa sciany tunelu w
+kilku miejscach. Cos musi tu zyc.
+~
+0 9 0
+D0
+W ciemnosci...
+~
+~
+0 -1 3525
+D1
+Zacienione przejscie...
+~
+~
+0 -1 3533
+D4
+Dziwny odor emanuje z tego kierunku...
+~
+grate~
+15 3505 3531
+S
+#3525
+Podbrzusze Gory Zaglady~
+Podziemna czesc Gory Zaglady jest, co wydaje sie niemozliwe, jeszcze
+mroczniejsza niz czesc zewnetrzna. Wypalone pochodnie wiszace na scianach
+tunelu sa juz niestety tylko dekoracja. Szkarlat pokrywa sciany tunelu w
+kilku miejscach. Cos musi tu zyc.
+~
+0 9 0
+D0
+W ciemnosci...
+~
+~
+0 -1 3526
+D2
+W ciemnosci...
+~
+~
+0 -1 3524
+D3
+Zacienione przejscie...
+~
+~
+0 -1 3535
+S
+#3526
+Podbrzusze Gory Zaglady~
+Podziemna czesc Gory Zaglady jest, co wydaje sie niemozliwe, jeszcze
+mroczniejsza niz czesc zewnetrzna. Wypalone pochodnie wiszace na scianach
+tunelu sa juz niestety tylko dekoracja. Szkarlat pokrywa sciany tunelu w
+kilku miejscach. Cos musi tu zyc.
+~
+0 9 0
+D0
+W ciemnosci...
+~
+~
+0 -1 3527
+D1
+Zacienione przejscie...
+~
+~
+0 -1 3537
+D2
+W ciemnosci...
+~
+~
+0 -1 3525
+S
+#3527
+Podbrzusze Gory Zaglady~
+Podziemna czesc Gory Zaglady jest, co wydaje sie niemozliwe, jeszcze
+mroczniejsza niz czesc zewnetrzna. Wypalone pochodnie wiszace na scianach
+tunelu sa juz niestety tylko dekoracja. Szkarlat pokrywa sciany tunelu w
+kilku miejscach. Cos musi tu zyc.
+~
+0 9 0
+D0
+W ciemnosci...
+~
+~
+0 -1 3528
+D2
+W ciemnosci...
+~
+~
+0 -1 3526
+D3
+Zacienione przejscie...
+~
+~
+0 -1 3539
+S
+#3528
+Podbrzusze Gory Zaglady~
+Podziemna czesc Gory Zaglady jest, co wydaje sie niemozliwe, jeszcze
+mroczniejsza niz czesc zewnetrzna. Wypalone pochodnie wiszace na scianach
+tunelu sa juz niestety tylko dekoracja. Szkarlat pokrywa sciany tunelu w
+kilku miejscach. Cos musi tu zyc.
+~
+0 9 0
+D0
+W ciemnosci...
+~
+~
+0 -1 3529
+D1
+Zacienione przejscie...
+~
+~
+0 -1 3541
+D2
+W ciemnosci...
+~
+~
+0 -1 3527
+S
+#3529
+Podbrzusze Gory Zaglady~
+Podziemna czesc Gory Zaglady jest, co wydaje sie niemozliwe, jeszcze
+mroczniejsza niz czesc zewnetrzna. Wypalone pochodnie wiszace na scianach
+tunelu sa juz niestety tylko dekoracja. Szkarlat pokrywa sciany tunelu w
+kilku miejscach. Cos musi tu zyc.
+~
+0 9 0
+D0
+Maly promyk swiatla przedostaje sie przez gesta ciemnosc...
+~
+~
+0 -1 3532
+D2
+~
+~
+0 -1 3528
+D3
+Zacienione przejscie...
+~
+~
+0 -1 3543
+S
+#3530
+Dlugi tunel w jaskini~
+Do teraz, woda z tunelu zostala calkowicie usunieta. Spiewy staly sie
+przerazajaco bliskie. Rowniez zauwazalny w tej czesci tunelu jest straszny
+smrod. Co nie znaczy, ze reszta tunelu nie smierdziala, tylko, ze zapach
+jest nieznacznie inny i srogosc tej czesci tunelu jest wieksza niz 
+wczesniej.
+~
+0 265 0
+D0
+Mroczny tunel ciagnie sie...
+~
+~
+0 -1 3556
+D2
+Dziwny odor emanuje z tego kierunku...
+~
+~
+0 -1 3531
+S
+#3531
+Ogromna sterta odziezy~
+Niestety, gobliny z tej gory chyba nie slyszaly o wlasciwym skladowaniu
+smieci. Gigantyczna sterta czegos zostala tu zlozona z jakis niewiadomych
+przyczyn. Moze gobliny naprawde lubia odziez, a moze jest jakas inna
+przyczyna dla tej higienicznego okrucienstwa. Trudno powiedziec.
+~
+0 265 0
+D0
+Spowrotem w mrocznym tunelu...
+~
+~
+0 -1 3530
+D5
+Strasznie tam na dole...
+~
+krata~
+2097167 3505 3524
+S
+#3532
+Podbrzusze Gory Zaglady~
+Tunel, ktory wydawal sie biegnac na polnoc, nagle opada w dol w tym
+miejscu. Pochodnie sa zapalone, oswietlajac szkarlatne plamy na scianach
+tunelu. Spiewne odglosy, ktore czasem cichly teraz sa glosniejsze niz
+kiedykolwiek. Rowniez stary, wyblakly rysunek na polnocnej scianie
+przyciaga twoja uwage.
+~
+0 8 0
+D0
+Stara, zepsuta drabina jest ledwo widoczna w ciemnosci...
+~
+rysunek~
+139 -1 3545
+D2
+Glebiej w mroku...
+~
+~
+0 -1 3529
+E
+rysunek~
+Rysunek przedstawia stara, zepsuta drabine. Na koncu drabiny, sterta kosci
+pokrywa nasiakla krwia ziemie.
+~
+S
+#3533
+Wilgotne przejscie~
+Nie znajdziesz w tej czesci jaskini ani jednego skrawka suchej
+przestrzeni. Ociekajaca po scianach pomieszczenia substancja nie jest do
+konca woda, chociaz nie jest tez mulem. Rowniez temperatura w tym malym
+przejsciu jest stosunkowo wyzsza niz w glownym korytarzu podbrzusza.
+Mozliwe, ze spowodowane to jest mniejsza powierzchnia tego pomieszczenia.
+~
+0 9 0
+D0
+Mala alkowa...
+~
+~
+0 -1 3534
+D3
+Z powrotem w glownym tunelu podbrzusza...
+~
+~
+0 -1 3524
+S
+#3534
+Mroczna alkowa~
+Ciemnosc wypelnia to pomieszczenie od podlogi az po sufit. Promien swiatla
+wpadajacy tu z glownego tunelu podziemia rzuca dziwne, pokrecone ksztalty
+na chropowate sciany alkowy.
+~
+0 9 0
+D2
+Z powrotem w cienistym przejsciu...
+~
+~
+0 -1 3533
+S
+#3535
+Wilgotne przejscie~
+Nie znajdziesz w tej czesci jaskini ani jednego skrawka suchej
+przestrzeni. Ociekajaca po scianach pomieszczenia substancja nie jest do
+konca woda, chociaz nie jest tez mulem. Rowniez temperatura w tym malym
+przejsciu jest stosunkowo wyzsza niz w glownym korytarzu podbrzusza.
+Mozliwe, ze spowodowane to jest mniejsza powierzchnia tego pomieszczenia.
+~
+0 9 0
+D0
+Mala alkowa...
+~
+~
+0 -1 3536
+D1
+Z powrotem w glownym tunelu bodbrzusza...
+~
+~
+0 -1 3525
+S
+#3536
+Mroczna Alkowa~
+Ciemnosc okrywa pomieszczenie od dolu po sufit. Przycmiony promyk swiatla,
+ktory zaglada tu z glownego tunelu podziemia rzuca dziwna, zakrecone
+cienie na znieksztalcone mury alkowy.
+~
+0 9 0
+D2
+Z powrotem w cienistym przejsciu...
+~
+~
+0 -1 3535
+S
+#3537
+Wilgotne przejscie~
+Nie znajdziesz w tej czesci jaskini ani jednego skrawka suchej
+przestrzeni. Ociekajaca po scianach pomieszczenia substancja nie jest do
+konca woda, chociaz nie jest tez mulem. Rowniez temperatura w tym malym
+przejsciu jest stosunkowo wyzsza niz w glownym korytarzu podbrzusza.
+Mozliwe, ze spowodowane to jest mniejsza powierzchnia tego pomieszczenia.
+~
+0 9 0
+D0
+Mala alkowa...
+~
+~
+0 -1 3538
+D3
+Z powrotem w glownym tunelu podbrzusza...
+~
+~
+0 -1 3526
+S
+#3538
+Mroczna Alkowa~
+Ciemnosc okrywa pomieszczenie od dolu po sufit. Przycmiony promyk swiatla,
+ktory zaglada tu z glownego tunelu podziemia rzuca dziwna, zakrecone
+cienie na znieksztalcone mury alkowy.
+~
+0 9 0
+D2
+Z powrotem w cienistym przejsciu...
+~
+~
+0 -1 3537
+S
+#3539
+Wilgotne przejscie~
+Nie znajdziesz w tej czesci jaskini ani jednego skrawka suchej
+przestrzeni. Ociekajaca po scianach pomieszczenia substancja nie jest do
+konca woda, chociaz nie jest tez mulem. Rowniez temperatura w tym malym
+przejsciu jest stosunkowo wyzsza niz w glownym korytarzu podbrzusza.
+Mozliwe, ze spowodowane to jest mniejsza powierzchnia tego pomieszczenia.
+~
+0 9 0
+D0
+Mala alkowa...
+~
+~
+0 -1 3540
+D1
+Z powrotem w glownym tunelu podbrzusza...
+~
+~
+0 -1 3527
+S
+#3540
+Mroczna Alkowa~
+Ciemnosc okrywa pomieszczenie od dolu po sufit. Przycmiony promyk swiatla,
+ktory zaglada tu z glownego tunelu podziemia rzuca dziwna, zakrecone
+cienie na znieksztalcone mury alkowy.
+~
+0 9 0
+D2
+Z powrotem w cienistym przejsciu...
+~
+~
+0 -1 3539
+S
+#3541
+Wilgotne przejscie~
+Nie znajdziesz w tej czesci jaskini ani jednego skrawka suchej
+przestrzeni. Ociekajaca po scianach pomieszczenia substancja nie jest do
+konca woda, chociaz nie jest tez mulem. Rowniez temperatura w tym malym
+przejsciu jest stosunkowo wyzsza niz w glownym korytarzu podbrzusza.
+Mozliwe, ze spowodowane to jest mniejsza powierzchnia tego pomieszczenia.
+~
+0 9 0
+D0
+Mala alkowa...
+~
+~
+0 -1 3542
+D3
+Z powrotem w glownym tunelu podbrzusza...
+~
+~
+0 -1 3528
+S
+#3542
+Mroczna Alkowa~
+Ciemnosc okrywa pomieszczenie od dolu po sufit. Przycmiony promyk swiatla,
+ktory zaglada tu z glownego tunelu podziemia rzuca dziwna, zakrecone
+cienie na znieksztalcone mury alkowy.
+~
+0 9 0
+D2
+Z powrotem w cienistym przejsciu...
+~
+~
+0 -1 3541
+S
+#3543
+Wilgotne przejscie~
+Nie znajdziesz w tej czesci jaskini ani jednego skrawka suchej
+przestrzeni. Ociekajaca po scianach pomieszczenia substancja nie jest do
+konca woda, chociaz nie jest tez mulem. Rowniez temperatura w tym malym
+przejsciu jest stosunkowo wyzsza niz w glownym korytarzu podbrzusza.
+Mozliwe, ze spowodowane to jest mniejsza powierzchnia tego pomieszczenia.
+~
+0 9 0
+D0
+Mala alkowa...
+~
+~
+0 -1 3544
+D1
+Z powrotem w glownym tunelu podbrzusza...
+~
+~
+0 -1 3529
+S
+#3544
+Mroczna Alkowa~
+Ciemnosc okrywa pomieszczenie od dolu po sufit. Przycmiony promyk swiatla,
+ktory zaglada tu z glownego tunelu podziemia rzuca dziwna, zakrecone
+cienie na znieksztalcone mury alkowy.
+~
+0 9 0
+D2
+Z powrotem w cienistym przejsciu...
+~
+~
+0 -1 3543
+S
+#3545
+Stara, Zepsuta Drabina~
+Dystans do dna dziury jest zbyt duzy, by ktokolwiek przy zdrowych zmyslach
+chcial sie w nia rzucac. Na szczescie drabina wydaje sie na tyle mocna
+by wytrzymac nacisk nawet lekko przyciezalych dusz, ktore zdecyduja sie
+zejsc wglab podbrzusza. Prawdopodobnie nie jest to najmadrzejszy pomysl by
+przetestowac jej wytrzymalosc. Rowniez jakis rysunek jest widoczny na
+poludniowej stronie pomieszczenia.
+~
+0 9 0
+D2
+Z powrotem z ciemnosci...
+~
+rysunek~
+11 -1 3532
+D5
+Zejscie w tajemnice...
+~
+~
+128 -1 3546
+E
+rysunek~
+Rysunek przedstawia mroczna, masywna postac bawiaca sie grupa zbroczonych
+krwia podroznikow.
+~
+S
+#3546
+Stara, Zepsuta Drabina~
+Stara drabina nie przestaje uginac sie, odmaiwajac jednak zlamania pod tym
+samym ciezarem, ktory obciazal ja tysiace razy wczesniej. Podstawa drabiny
+znajduje sie coraz blizej, chociaz trudno jest to ocenic w tej ciemnosci.
+~
+0 9 0
+D4
+W gore starej, zepsutej drabiny...
+~
+~
+128 -1 3545
+D5
+Zejscie w tajemnice...
+~
+~
+128 -1 3547
+S
+#3547
+Stara, Zepsuta Drabina~
+Dno dziury jest juz zdecydowanie blisko. Ziemia pod spodem jest delikatnie
+odslanieta przez biegajace tam i z powrotem po szczeblach drabiny cienie.
+Wstretne zapachy wydaja sie emanowac z dolu, powodujac lekkie nudnosci,
+jednak nie sa na tyle intensywne by zmusic cie do powrotu.
+~
+0 9 0
+D4
+W gore starej. zepsutej drabiny...
+~
+~
+128 -1 3546
+D5
+Koniec starej, zepsutej drabiny...
+~
+~
+0 -1 3548
+S
+#3548
+Koniec Drabiny~
+Smrod stal sie teraz nieszczesliwa rzeczywistoscia. Nie wazne na jak dlugo
+wstrzymujesz oddech, odor nieustannie wdziera sie w twoje nozdrza.
+Jednakze ciekawosc tego co lezy poza tym miejscem powoduje, ze w tej
+chwili nie zwracasz na to uwagi.
+~
+0 13 0
+D0
+Zagrazajac Zagladzie...
+~
+~
+0 -1 3549
+D4
+W gore starej, zepsutej drabiny...
+~
+~
+0 -1 3547
+S
+#3549
+Kolo Zaglady~
+Lodowata bryza krazy po pokoju. Smrod nieuniknionej smierci wypelnia
+duszne powietrze niezmierna aura rozpaczy. Pociemniale sciany, sufit i
+podloga wyglagaja na bezgraniczne z twojego punktu widzenia. Pochodnie
+zrobione z jakis kosci pokrywaja sciany chociaz zadna nie jest zapalona.
+~
+0 9 0
+D2
+Z powrotem ku starej, zepsutej drabinie...
+~
+~
+0 -1 3548
+D6
+Zagrazajac Zagladzie...
+~
+~
+0 -1 3557
+D7
+Zagrazajac Zagladzie...
+~
+~
+0 -1 3558
+S
+#3550
+W Czarnym Lesie~
+Nawet wiaterek wiejacy posrod szczytow drzew wydaje sie posepny. Dziwne
+odglosy dobiegaja do ciebie ze wschodu. Liscie na ziemi szelescilyby
+gdyby nie byly przesiakniete krwia. W ktorymkolwiek kierunku bys nie
+spojrzal las wydaje sie stawac czarniejszy i czarniejszy.
+~
+0 1 3
+D3
+Las staje sie coraz mroczniejszy...
+~
+~
+0 -1 3506
+S
+#3551
+Spogladajac na Gore Zaglady~
+Las zostal daleko po lewej. Spogladajac w gore, gora patrzy na ciebie jak
+drapiezca pilnujacy swojej ofiary. Chociaz to miejsce wyglada z zewnatrz
+calkiem spokojnie, jednak opowiesci o Gorze Zaglady okryly to pozornie 
+spokojne miejsce zla slawa wiele lat temu.
+~
+0 1 1
+D2
+Tajemnice gory przyciagaja...
+~
+glaz~
+7 3505 3552
+D3
+~
+~
+0 -1 3523
+S
+#3552
+Dlugi, Skalisty Tunel~
+Chociaz wydaje sie zimny i straszny z zewnatrz, temperatura w srodku jest
+w miare wysoka. Tunel wydaje sie ciagnac na poludnia, jednakze podazac za
+daleko tym szlakiem nie wydaje sie byc dobrym pomyslem.
+~
+0 265 0
+D0
+Czarny Las czeka...
+~
+glaz~
+7 3505 3551
+D2
+Ciemny tunel podaza dalej...
+~
+~
+0 -1 3553
+S
+#3553
+Dlugi, Skalisty Tunel~
+Tunel nie przestaje podazac na poludnie, i nie widac jego konca. Sciany 
+jaskini zaczely ociekac woda, rozmaczajac ziemie. Utrudnia to bardzo
+skradanie sie, bo przy kazdym kroku spotykasz kaluze rozbryzgujace sie
+pod nogami.
+~
+0 265 0
+D0
+Ciemny tunel podaza dalej...
+~
+~
+0 -1 3552
+D2
+Ciemny tunel podaza dalej...
+~
+~
+0 -1 3555
+S
+#3554
+Browary Jasnego Piwa~
+Aaa tak, stare dobre Browary Jasnego Piwa. Jest to miejsce, gdzie cala
+magia Jack'a sie zaczyna (i niestety konczy). Kurz pokrywajacy wieksza
+czesc podlogi sugeruje, ze Jack nie musial od dawna wytwarzac swojego
+Jasnego Piwa. Moze polka z gotowymi butelkami jest po prostu bardzo dluga.
+Moze, a moze nie. 
+~
+0 9 0
+D4
+~
+zapadnia~
+11 -1 3576
+S
+#3555
+Dlugi, Kamienisty Tunel~
+Kaluze staly sie teraz jednym, ogromnym jeziorkiem pokrywajacym cale
+podloze tunelu. Dziwne, spiewne dzwieki wabia by zbadac poludniowy
+koniec tunelu. Podroz stala sie teraz sprawa przetrwania, a nie tylko
+wyprawa po bogactwa. Labirynt opisywany w starych legendach musi byc
+blisko, jednakze w krorym kierunku tego nie wiadomo.
+~
+0 265 0
+D0
+Ciemny tunel podaza dalej...
+~
+~
+0 -1 3553
+D2
+Ciemny tunel podaza dalej...
+~
+~
+0 -1 3556
+S
+#3556
+Dlugi, Kamienisty Tunel~
+W tym miejscu tunelu widoczne sie staly w dolnej czesci scian malutkie
+szczeliny. Co stalo sie przyczyna ich powstania trudno zgadnac. Dziwna
+rzecza jest to, ze cala woda z podloza tunelu wydaje sie przyciagana w
+kierunku szczelin. Z poludnia dobiegaja cie coraz glosniejsze spiewne
+dzwieki.
+~
+0 265 0
+D0
+Ciemny tunel podaza dalej...
+~
+~
+0 -1 3555
+D2
+Ciemny tunel podaza dalej...
+~
+~
+0 -1 3530
+S
+#3557
+Kolo Zaglady~
+Lodowata bryza krazy po pokoju. Smrod nieuniknionej smierci wypelnia
+duszne powietrze niezmierna aura rozpaczy. Pociemniale sciany, sufit i
+podloga wyglagaja na bezgraniczne z twojego punktu widzenia. Pochodnie
+zrobione z jakis kosci pokrywaja sciany chociaz zadna nie jest zapalona.
+~
+0 9 0
+D0
+Zagrazajac Zagladzie...
+~
+~
+0 -1 3559
+D9
+Zagrazajac Zagladzie...
+~
+~
+0 -1 3549
+S
+#3558
+Kolo Zaglady~
+Lodowata bryza krazy po pokoju. Smrod nieuniknionej smierci wypelnia
+duszne powietrze niezmierna aura rozpaczy. Pociemniale sciany, sufit i
+podloga wyglagaja na bezgraniczne z twojego punktu widzenia. Pochodnie
+zrobione z jakis kosci pokrywaja sciany chociaz zadna nie jest zapalona.
+~
+0 9 0
+D0
+Zagrazajac Zagladzie...
+~
+~
+0 -1 3560
+D8
+Zagrazajac Zagladzie...
+~
+~
+0 -1 3549
+S
+#3559
+Kolo Zaglady~
+Lodowata bryza krazy po pokoju. Smrod nieuniknionej smierci wypelnia
+duszne powietrze niezmierna aura rozpaczy. Pociemniale sciany, sufit i
+podloga wyglagaja na bezgraniczne z twojego punktu widzenia. Pochodnie
+zrobione z jakis kosci pokrywaja sciany chociaz zadna nie jest zapalona.
+~
+0 9 0
+D2
+Zagrazajac Zagladzie...
+~
+~
+0 -1 3557
+D7
+Zagrazajac Zagladzie...
+~
+~
+0 -1 3561
+S
+#3560
+Kolo Zaglady~
+Lodowata bryza krazy po pokoju. Smrod nieuniknionej smierci wypelnia
+duszne powietrze niezmierna aura rozpaczy. Pociemniale sciany, sufit i
+podloga wyglagaja na bezgraniczne z twojego punktu widzenia. Pochodnie
+zrobione z jakis kosci pokrywaja sciany chociaz zadna nie jest zapalona.
+~
+0 9 0
+D2
+Zagrazajac Zagladzie...
+~
+~
+0 -1 3558
+D6
+Zagrazajac Zagladzie...
+~
+~
+0 -1 3562
+S
+#3561
+Kolo Zaglady~
+Lodowata bryza krazy po pokoju. Smrod nieuniknionej smierci wypelnia
+duszne powietrze niezmierna aura rozpaczy. Pociemniale sciany, sufit i
+podloga wyglagaja na bezgraniczne z twojego punktu widzenia. Pochodnie
+zrobione z jakis kosci pokrywaja sciany chociaz zadna nie jest zapalona.
+~
+0 9 0
+D7
+Zagrazajac Zagladzie...
+~
+~
+0 -1 3563
+D8
+Zagrazajac Zagladzie...
+~
+~
+0 -1 3559
+S
+#3562
+Kolo Zaglady~
+Lodowata bryza krazy po pokoju. Smrod nieuniknionej smierci wypelnia
+duszne powietrze niezmierna aura rozpaczy. Pociemniale sciany, sufit i
+podloga wyglagaja na bezgraniczne z twojego punktu widzenia. Pochodnie
+zrobione z jakis kosci pokrywaja sciany chociaz zadna nie jest zapalona.
+~
+0 9 0
+D6
+Zagrazajac Zagladzie...
+~
+~
+0 -1 3563
+D9
+Zagrazajac Zagladzie...
+~
+~
+0 -1 3560
+S
+#3563
+Kolo Zaglady~
+Lodowata bryza krazy po pokoju. Smrod nieuniknionej smierci wypelnia
+duszne powietrze niezmierna aura rozpaczy. Pociemniale sciany, sufit i
+podloga wyglagaja na bezgraniczne z twojego punktu widzenia. Pochodnie
+zrobione z jakis kosci pokrywaja sciany chociaz zadna nie jest zapalona.
+~
+0 9 0
+D0
+Miekka, zielona aura emanuje z tego kierunku...
+~
+~
+0 -1 3564
+D8
+Zagrazajac Zagladzie...
+~
+~
+0 -1 3561
+D9
+Zagrazajac Zagladzie...
+~
+~
+0 -1 3562
+S
+#3564
+Wypelniony czaszkami tunel~
+Kazdy najdrobniejszy szczegol tego tunelu wydaje sie zbudowany z czaszek
+roznych stworzen, tych stworzen, ktore okazaly sie na tyle glupie by
+wkroczyc do Kola Zaglady. Chociaz nie widzisz w poblizu zadnych pochodni,
+miekka, szalona poswiata wylania sie z wnetrza czaszek. Cienie stworzone
+przez tajemnicza poswiate, rozposcieraja sie dookola, jakby kolysajac
+tunel w opiekunczym uscisku.
+~
+0 269 0
+D0
+Tajemniczy tunel ciagnie sie dalej...
+~
+~
+0 -1 3565
+D2
+Zagrazajac Zagladzie...
+~
+~
+0 -1 3563
+S
+#3565
+Wypelniony czaszkami tunel~
+Kazdy najdrobniejszy szczegol tego tunelu wydaje sie zbudowany z czaszek
+roznych stworzen, tych stworzen, ktore okazaly sie na tyle glupie by
+wkroczyc do Kola Zaglady. Chociaz nie widzisz w poblizu zadnych pochodni,
+miekka, szalona poswiata wylania sie z wnetrza czaszek. Cienie stworzone
+przez tajemnicza poswiate, rozposcieraja sie dookola, jakby kolysajac
+tunel w opiekunczym uscisku.
+~
+0 265 0
+D0
+Tajemniczy tunel ciagnie sie dalej...
+~
+~
+0 -1 3566
+D2
+Tajemniczy tunel ciagnie sie dalej...
+~
+~
+0 -1 3564
+S
+#3566
+Wypelniony czaszkami tunel~
+Kazdy najdrobniejszy szczegol tego tunelu wydaje sie zbudowany z czaszek
+roznych stworzen, tych stworzen, ktore okazaly sie na tyle glupie by
+wkroczyc do Kola Zaglady. Chociaz nie widzisz w poblizu zadnych pochodni,
+miekka, szalona poswiata wylania sie z wnetrza czaszek. Cienie stworzone
+przez tajemnicza poswiate, rozposcieraja sie dookola, jakby kolysajac
+tunel w opiekunczym uscisku.
+~
+0 265 0
+D0
+Ciemnosc po raz kolejny przewaza...
+~
+~
+0 -1 3567
+D2
+Tajemniczy tunel ciagnie sie dalej...
+~
+~
+0 -1 3565
+S
+#3567
+Czarny Podest~
+Szlak z czaszek konczy sie gdy tunel przemienia sie w czarny, posepny
+podest. Jeszcze czarniejsze schody prowadza w dol ku niechybnej zagladzie.
+Watpliwosci i pytania nabieraja ksztaltu. Czy kiedykolwiek komus udalo sie
+dotrzec tak gleboko wglad zlej gory? Jesli tak, czy uszli oni stad zywi?
+Pozostaje ci tylko slawa.
+~
+0 9 0
+D2
+Miekka, zielona aura emanuje z tego kierunku...
+~
+~
+0 -1 3566
+D5
+Rodzaj ciemnosci, z ktorym sie jeszcze nie spotkales...
+~
+~
+0 -1 3568
+S
+#3568
+Legowisko Krola Goblinow~
+Pajeczyny pokrywaja sufit w sali tronowej krola goblinow. Masywny,
+granitowy tron stoi na srodku pokrytej kurzem podlogi, rzucajac wizje
+terroru na cztery sciany. Temperatura w pomieszczeniu musi byc bliska
+zera, i zdajesz sobie sprawe, ze ktokolwiek, czy cokolwiek tu mieszka,
+samo nie jest zbyt cieple.
+~
+0 3153993 0
+D4
+Z powrotem ku tajemniczemu tunelowi...
+~
+~
+0 -1 3567
+S
+#3569
+Diov a ni gnitaolf~
+~
+0 1073741828 1
+S
+#3570
+Przed Tajemnicza Gospoda~
+Ciemnosc otaczajaca las zmniejsza sie, gdy zblizasz sie do gospody.
+Pomimo zabitych deskami okiennic i zluszczonej farby, to miejsce ciagle
+wydaje sie roztaczac ciepla i przyjacielska atmosfere. Jednakze z wejscia
+go gospody dociera do ciebie nie taki juz swiezy zapach.
+~
+0 4 1
+D1
+Ciemnosc zageszcza sie...
+~
+~
+0 0 3505
+D3
+Wnetrze Gospody znajduje sie na zachodzie...
+~
+~
+0 -1 3574
+S
+#3571
+Pokoj Konczynowy~
+Nazwany tak ze wzgledu na swoj dziwny ksztalt, pokoj sklada sie z trzech
+malutkich alkow, jednej na polnocnej scianie, jednej na zachodniej i
+jednej na wschodniej. Lozko znajduje sie w polnocnej alkowie, komoda w
+zachodniej, a we wschodniej male biurko. Duzy, orientalny dywan pokrywa
+srodek pokoju.
+~
+0 8 0
+D1
+Z powrotem na przerazajace schody...
+~
+~
+0 -1 3579
+S
+#3572
+Pokoj Krolewski~
+Jed zarezerwowal ten pokoj, na wypadek gdyby jakis krol zdecydowal sie tu
+zostac na jakis czac. Jestes swiecie przekonany, ze nie bedzie tu w
+najblizszej przyszlosci zadnego lokatora.
+~
+0 8 0
+D2
+Z powrotem na przerazajace schody...
+~
+~
+0 -1 3579
+S
+#3573
+Pokoj Rekonwalescencji~
+Ten nedzny, wytarty pokoj Wydaje sie miec za zadanie goscic tych, ktorzy
+skonsumowali troszke za buzo piwa robionego przez Jack'a i nie sa w stanie
+powrocic do domu o wlasnych silach. Brudne podwojne luzko, jedyny mebel w
+tym pokoju spoczywa na srodku podlogi i wydaje sie nie scielone ani prane
+od jakiegos czasu.
+~
+0 8 0
+D0
+Z powrotem na przerazajace schody...
+~
+~
+0 -1 3579
+S
+#3574
+Biuro Jed'a~
+Gospoda w srodku jest znacznie wieksza niz wydaje sie to z zacienionego
+lasu. Skromne biurko recepcji przyzywa cie z poludniowo-zachodniego rogu
+pomieszczenia. Dokladnie na wschodzie znajduja sie schody prowadzace do
+pokoi goscinnych.
+~
+0 12 0
+D0
+Znak mowi, po prostu 'Salon.'
+~
+~
+0 0 3576
+D1
+~
+~
+0 -1 3570
+D3
+Cieple swiatlo gospody staje sie przycmione...
+~
+~
+0 0 3577
+D4
+Przerazajace schody...
+~
+~
+0 -1 3579
+S
+#3575
+Nasiakniety Krwia Szlak~
+Ciemny szlak konczy sie nagle w tym miejscu. Czujesz, ze stalo sie
+tu cos strasznego. Wydaje sie, ze po obu stronach szlaku rosly krzaki roz.
+Wszystkie one sa teraz zdeptane i pokryte krwia. Mozesz miec tylko
+nadzieje, ze jakiekolwiek straszne zdarzenia mialy tu miejsce, nie powroca
+one zbyt szybko.
+~
+0 1 3
+D3
+Szlak przez lasy.
+~
+~
+0 0 3581
+S
+#3576
+Zakurzony Salon "Czarnego" Jack'a~
+Zwaly kurzu pokrywaja podloge. Stoliki wygladaja jakby zostaly
+porozrzucane dookola w jakiej potyczce i zapomniano o nich. Jest jednakze
+pojedynczy wyprostowany stolik w poludniowo-wschodnim rogu baru, mozliwe,
+ze wskazowka jak w dzisiejszych czasach ukladaja sie interesy Jack'owi.
+~
+0 8 0
+D2
+Mozesz podazyc z powrotem ku Jed'owi.
+~
+~
+0 0 3574
+D5
+~
+zapadnia~
+2097163 -1 3554
+S
+#3577
+Mroczny Narozny Pokoj~
+Atmosfera tej czesci gospody jest wyjatkowo uroczysta. Znajduja sie tu
+tylko trzy samotne stoliki zajmujac tyle miejsca co dziesiec a moze i
+wiecej. Chociaz nastroj tego miejsca zdecydowanie ponury, jednak wyglada
+to zdecydowanie lepiej niz u Jack'a.
+~
+0 8 0
+D1
+Z powrotem ku Jack'owi...
+~
+~
+0 0 3574
+S
+#3578
+Ciemne, Zakurzone Poddasze~
+Pomimo cienkiej warstwy kurzu na podlodze, poddasze wydaje sie najczystsza
+czescia gospody. Porzucone pudelka i pomiewierajace sie rzeczy glownie bez
+wartosci zasmiecaja podloge. Jest tu jednak jedno pudlo ktore przyciaga
+uwage. Znajduje sie tu tez znak umieszczony na zachodniej scianie 
+poddasza.
+~
+0 9 0
+D5
+~
+~
+0 -1 3579
+E
+znak~
+Znak, wytarty przez te wszystkie lata, mowi:
+ 
+ 
+                         NIE KARMIC gryzoni!!!!
+ 
+           (Zarzad nie ponosi odpowiedzialnosci za wynikle 
+                   z kontaktu z gryzoniami szkody.)       
+ 
+                                             - Jed
+ 
+~
+E
+pudlo~
+Pewno przyciagnelo twoja uwage ze wzgledu na smierdzace, stare buty Jed'a
+i bielizne schowana w srodku. Lepiej zostawic to pudlo w spokoju.
+~
+S
+#3579
+Zakurzony Korytarz~
+Druga podloga tego miejsca nie jest dardziej ciekawa niz pierwsza.
+Korytarz wypelniony jest kurzem, i plyty podlogowe wydaja glosne,
+skrzypiace odglosy, gdy dochodzisz do szczytu schodow. W korytarzu
+znajduje sie troje drzwi po pokoi goscinnych, jednak szczerze watpisz by
+byly one przez kogos zajmowane.
+~
+0 8 0
+D0
+"Majestatyczny" pokoj znajduje sie na polnocy...
+~
+~
+0 -1 3572
+D2
+Niechlujny pokoj lezy na poludniu...
+~
+~
+0 -1 3573
+D3
+Pokoj o dziwnym ksztalcie znajduje sie na zachodzie...
+~
+~
+0 -1 3571
+D4
+~
+~
+0 -1 3578
+D5
+Przerazajace schody...
+~
+~
+0 -1 3574
+S
+#3580
+Floating in a void~
+~
+0 1073741828 1
+S
+#3581
+Na Przyciemnionym Szlaku~
+Malutki szlak krwi biegnie na wschod, stajac sie wyrazniejszy i
+wyrazniejszy, gdy slady nakladaja sie na siebie. Rowniez dotad spokojna
+bryza stala sie teraz mrocznym i ponurym szeptem.
+~
+0 1 3
+D1
+Przyciemniony szlak wydaje sie konczyc...
+~
+~
+0 0 3575
+D3
+Przyciemniony szlak ciagnie sie...
+~
+~
+0 -1 3582
+S
+#3582
+Na Przyciemnionym Szlaku~
+Tutaj mozesz niemalze rozpoznac malutkie slady stop w widocznych czesciach
+brudu. Kolo malutkich sladow biegna wieksze, ochydniejsze slady. Mozesz
+sie tylko zastanawiac dlaczego dwa tak rozne co do wielkosci stworzenia
+wybraly tem sam szlak.
+~
+0 1 3
+D1
+Przyciemniony szlak ciagnie sie...
+~
+~
+0 0 3581
+D2
+Przyciemniony szlak ciagnie sie...
+~
+~
+0 -1 3583
+S
+#3583
+Na Przyciemnionym Szlaku~
+Szlak staje sie ciemniejszy na polnocy. W tym kierunku wzrasta rowniez
+intensywnosc zycia drzew i roslin. Przerazajacy chociaz spokojny wietrzyk
+wiele wsrod tego co zostalo ze szczytow drzew.
+~
+0 1 3
+D0
+Przyciemniony szlak ciagnie sie...
+~
+~
+0 -1 3582
+D3
+Przyciemniony szlak zakreca ku lasowi...
+~
+~
+0 -1 3584
+S
+#3584
+Na Przyciemnionym Szlaku~
+Las sciesnia sie w cos co wyglada jak niedawno stworzony jakis szlak. Las
+wyglada jakby zostal brutalnie zepchniety by zrobic miejsce
+jakiejs mrocznej, mocarnej sile.
+~
+0 1 3
+D1
+Przyciemniony szlak ciagnie sie...
+~
+~
+0 0 3583
+D3
+Las staje sie coraz mroczniejszy...
+~
+~
+0 -1 3513
+S
+#3585
+Obok mrocznej rzeki~
+Spoczales pomiedzy kilkoma wielkimi glazami odpoczywajac na brzegu
+mrocznej rzeki. Jedynym widocznym wyjsciem jest to, ktorym sie tu
+dostales.
+~
+0 4 3
+S
+#3586
+Na Krawedzi Lasu~
+Stoisz tuz na krawedzi lasu na waskim szlaku. Na polnocny-zachod biegnie
+szeroka, tloczna droga, natomiast sam szlak prowadzi do pozornego spokoju
+lasu na poludniowym-zachodzie.
+~
+0 0 2
+D7
+Peryferie Darkhaven...
+~
+~
+0 -1 3503
+D9
+Szlak prowadzi w kierunku lasu...
+~
+~
+0 -1 3587
+S
+#3587
+Podazajac Spokojnym Szlakiem~
+Podrozujesz wzdluz cichego, waskiego szlaku przez las. Odglosy cywilizacji
+sa czasem slyszalne na polnoc stad, podczas gdy las zmienia sie stopniowo
+na poludniu.
+~
+0 0 2
+D2
+Szlak biegnie dalej...
+~
+~
+0 -1 3588
+D6
+Szlak biegnie w kierunku krawedzi lasu.
+~
+~
+0 -1 3586
+S
+#3588
+Podazajac Spokojnym Szlakiem~
+Podrozujesz wzdluz cichego, waskiego szlaku przez las. Odglosy cywilizacji
+sa czasem slyszalne na polnoc stad, podczas gdy las zmienia sie stopniowo
+na poludniu.
+~
+0 0 2
+D0
+Wzdluz cichego szlaku...
+~
+~
+0 -1 3587
+D8
+Zakret na szlaku...
+~
+~
+0 -1 1501
+S
+#3589
+Lewitujac w pustce~
+~
+0 1073741828 1
+S
+#3590
+Pod zardzewialym mostem~
+Widoczna jest tu mala szczelina zaraz za walem ziemnym, i zaraz pod czyms
+co wyglada na duzy i rozpadajacy sie most. Ze szczeliny dociera do ciebie
+zapach nieczystosci, i dzwiek jakby ogromnej rzeki, chociaz nie mozesz nic
+stad dostrzec. Mozesz wspiac sie na most z tego miejsca, chociaz z wygladu
+waskie przejscie w gore wydaje sie zbyt niebezpieczne by umozliwic ci
+zejscie na dol.
+~
+0 0 4
+D0
+Szczelina w wale.
+~
+~
+0 -1 7031
+D4
+~
+~
+67584 -1 3504
+S
+#0
+
+
+#RESETS
+M 0 3500 2 3521
+E 1 3509 2 8
+M 0 3500 2 3521
+E 1 3509 2 8
+M 0 3501 8 3512
+M 0 3501 8 3512
+M 0 3501 8 3509
+M 0 3501 8 3506
+M 0 3501 8 3513
+M 0 3501 8 3551
+M 0 3501 8 3551
+M 0 3506 4 3552
+E 1 3510 4 10
+M 0 3506 4 3530
+E 1 3510 4 10
+M 0 3502 1 3575
+E 1 3500 1 19
+M 0 3503 1 3576
+G 1 3501 3503
+M 0 3504 1 3577
+M 0 3508 1 3574
+E 1 3502 1 17
+O 0 3504 1 3554
+P 1 3503 1 3504
+M 0 3506 4 3555
+E 1 3510 4 10
+M 0 3506 4 3551
+E 1 3510 4 10
+G 1 3505 1
+M 0 3501 8 3522
+M 0 3507 1 3568
+E 1 3508 1 17
+M 0 3505 2 3559
+E 1 3506 2 12
+E 1 3507 2 20
+M 0 3505 2 3560
+E 1 3506 2 12
+E 1 3507 2 20
+D 0 3531 5 2
+D 0 3524 4 2
+D 0 3552 0 2
+D 0 3551 2 2
+D 0 3576 5 1
+D 0 3554 4 1
+D 0 3545 2 1
+D 0 3532 0 1
+O 0 3511 1 3504
+O 0 21086 3 3507
+O 0 21086 3 3523
+O 0 21086 3 3575
+S
+
+
+#SHOPS
+ 3503   17  0  0  0  0   130  90         7 21    ; Jack
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  3500 spec_thief
+S
+
+
+#$
