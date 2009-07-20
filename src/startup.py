@@ -24,7 +24,7 @@ while 1:
     os.system("date > %s" % strLogfile)
     os.system("date > ../area/boot.txt")
     strCommand = "cd ../area/;"
-    strCommand += "../src/smaug %d >>  %s" % ( intPort, strLogfile )
+    strCommand += "../src/smaug %d 2>&1 >>  %s" % ( intPort, strLogfile )
     os.system( strCommand )
 
     if os.path.isfile( 'shutdown.txt' ):

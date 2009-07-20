@@ -384,17 +384,17 @@ char *rev_exit( sh_int vdir )
 {
     switch( vdir )
     {
-        default: return "somewhere";
-        case 0:  return "the south";
-        case 1:  return "the west";
-        case 2:  return "the north";
-        case 3:  return "the east";
-        case 4:  return "below";
-        case 5:  return "above";
-        case 6:  return "the southwest";
-        case 7:  return "the southeast";
-        case 8:  return "the northwest";
-        case 9:  return "the northeast";
+        default: return "skads";
+        case 0:  return "z poludnia";
+        case 1:  return "z zachodu";
+        case 2:  return "z polnocy";
+        case 3:  return "ze wschodu";
+        case 4:  return "z dolu";
+        case 5:  return "z gory";
+        case 6:  return "z poludniowego zachodu";
+        case 7:  return "z poludniowego wschodu";
+        case 8:  return "z polnocnego zachodu";
+        case 9:  return "z polnocnego wschodu";
     }
 
     return "???";
@@ -1035,54 +1035,54 @@ ch_ret move_char( CHAR_DATA *ch, EXIT_DATA *pexit, int fall )
                 if ( ch->mount )
                 {
                     if ( IS_AFFECTED( ch->mount, AFF_FLOATING ) )
-                        txt = "floats";
+                        txt = "odplywa";
                     else
                         if ( IS_AFFECTED( ch->mount, AFF_FLYING ) )
-                            txt = "flies";
+                            txt = "odlatuje";
                         else
-                            txt = "rides";
+                            txt = "odjezdza";
                 }
                 else
                 {
                     if ( IS_AFFECTED( ch, AFF_FLOATING ) )
                     {
                         if ( drunk )
-                            txt = "floats unsteadily";
+                            txt = "odplywa niepewnie";
                         else
-                            txt = "floats";
+                            txt = "odplywa";
                     }
                     else
                         if ( IS_AFFECTED( ch, AFF_FLYING ) )
                         {
                             if ( drunk )
-                                txt = "flies shakily";
+                                txt = "odlatuje zygzakiem";
                             else
-                                txt = "flies";
+                                txt = "odlatuje";
                         }
                         else
                             if ( ch->position == POS_SHOVE )
                                 txt = "is shoved";
                             else
                                 if ( ch->position == POS_DRAG )
-                                    txt = "is dragged";
+                                    txt = "jest ciagniety";
                                 else
                                 {
                                     if ( drunk )
-                                        txt = "stumbles drunkenly";
+                                        txt = "wypada pijany";
                                     else
-                                        txt = "leaves";
+                                        txt = "wychodzi";
                                 }
                 }
             }
         if ( ch->mount )
         {
-            sprintf( buf, "$n %s %s upon $N.", txt, dir_name[door] );
+            sprintf( buf, "$n %s na %s na $N.", txt, dir_name_pl[door] );
             act( AT_ACTION, buf, ch, NULL, ch->mount, TO_NOTVICT );
         }
         else
         {
-            sprintf( buf, "$n %s $T.", txt );
-            act( AT_ACTION, buf, ch, NULL, dir_name[door], TO_ROOM );
+            sprintf( buf, "$n %s na $T.", txt );
+            act( AT_ACTION, buf, ch, NULL, dir_name_pl[door], TO_ROOM );
         }
     }
 
@@ -1114,53 +1114,53 @@ ch_ret move_char( CHAR_DATA *ch, EXIT_DATA *pexit, int fall )
             if ( ch->mount )
             {
                 if ( IS_AFFECTED( ch->mount, AFF_FLOATING ) )
-                    txt = "floats in";
+                    txt = "nadplywa";
                 else
                     if ( IS_AFFECTED( ch->mount, AFF_FLYING ) )
-                        txt = "flies in";
+                        txt = "nadlatuje";
                     else
-                        txt = "rides in";
+                        txt = "nadjezdza";
             }
             else
             {
                 if ( IS_AFFECTED( ch, AFF_FLOATING ) )
                 {
                     if ( drunk )
-                        txt = "floats in unsteadily";
+                        txt = "nadplywa niepewnie";
                     else
-                        txt = "floats in";
+                        txt = "nadplywa";
                 }
                 else
                     if ( IS_AFFECTED( ch, AFF_FLYING ) )
                     {
                         if ( drunk )
-                            txt = "flies in shakily";
+                            txt = "nadlatuje zygzakiem";
                         else
-                            txt = "flies in";
+                            txt = "nadlatuje";
                     }
                     else
                         if ( ch->position == POS_SHOVE )
                             txt = "is shoved in";
                         else
                             if ( ch->position == POS_DRAG )
-                                txt = "is dragged in";
+                                txt = "jest wciagany";
                             else
                             {
                                 if ( drunk )
-                                    txt = "stumbles drunkenly in";
+                                    txt = "wpada pijany";
                                 else
-                                    txt = "arrives";
+                                    txt = "nadchodzi";
                             }
             }
         dtxt = rev_exit(door);
         if ( ch->mount )
         {
-            sprintf( buf, "$n %s from %s upon $N.", txt, dtxt );
+            sprintf( buf, "$n %s %s na $N.", txt, dtxt );
             act( AT_ACTION, buf, ch, NULL, ch->mount, TO_ROOM );
         }
         else
         {
-            sprintf( buf, "$n %s from %s.", txt, dtxt );
+            sprintf( buf, "$n %s %s.", txt, dtxt );
             act( AT_ACTION, buf, ch, NULL, NULL, TO_ROOM );
         }
     }
