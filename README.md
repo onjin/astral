@@ -1,3 +1,6 @@
+Astral Dominion (MUD)
+=====================
+
 Historical MUD (Astral) based on Smaug source code,
 
 Directories
@@ -5,9 +8,11 @@ Directories
  * doc - documentation
  * src - real source code
 
-Want to check it live?:
+Want to check it live?
 
-    telnet direct.onjin.net 4000
+```
+ $ telnet direct.onjin.net 4000
+```
 
 
 --
